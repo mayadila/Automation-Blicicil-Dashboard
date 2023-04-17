@@ -17,3 +17,45 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Membuka Chrome'
+WebUI.openBrowser('')
+
+'Membuka halaman login'
+WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
+
+'Menginputkan email valid'
+WebUI.setText(findTestObject('Object Repository/Login-Logout/Logout/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+
+'Menginputkan password valid'
+WebUI.setEncryptedText(findTestObject('Object Repository/Login-Logout/Logout/input_Password_password'), 'aeHFOx8jV/A=')
+
+'Mengklik button login'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/button_Login'))
+
+WebUI.waitForAngularLoad(30)
+
+'Mengklik button ikon profil'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/div_E'))
+
+'Mengklik menu logout'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/a_Logout'))
+
+'Menampilkan popup "Are you sure want to logout?"'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/div_Are you sure want to logoutYesNoNo'))
+
+'Mengklik button No "jika tidak ingin logout"'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/button_No'))
+
+WebUI.waitForAngularLoad(30)
+
+'Mengklik button ikon profil'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/div_E'))
+
+WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/a_Logout'))
+
+'Menampilkan popup "Are you sure want to logout?"'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/div_Are you sure want to logoutYesNoNo'))
+
+'Mengklik button Yes "jika ingin logout"'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/button_Yes'))
+
