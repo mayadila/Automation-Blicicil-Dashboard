@@ -63,5 +63,6 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Pre
 
 WebUI.waitForPageLoad(60)
 
+'Menutup chrome'
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
