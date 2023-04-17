@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Terpakai</name>
+   <tag></tag>
+   <elementGuidId>edd073d6-94c0-4f28-aab2-901d0e0018fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp0'])[1]/following::div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8001087f-ab2a-4ba1-b084-8f2e3c621efc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-4 col-lg-6 col-md-6 label-text</value>
+      <webElementGuid>67fbd0de-8c10-4e66-abf8-75b86b7d96a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Terpakai:</value>
+      <webElementGuid>b65ed127-2f29-4493-8926-da03e6996970</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;loaded&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static  menu-expanded pace-done&quot;]/div[@class=&quot;app-content content&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;mt-2 ml-1 w-full mr-3&quot;]/div[@class=&quot;d-flex flex-column flex-lg-row flex-sm-column flex-xl-row flex-md-row mb-4&quot;]/div[@class=&quot;row w-full mr-lg-1 mr-sm-0 mt-sm-2&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row mt-1&quot;]/div[@class=&quot;col-lg-4 col-12 col-md-6 border-right&quot;]/div[@class=&quot;row m-bottom-1&quot;]/div[@class=&quot;col-4 col-lg-6 col-md-6 label-text&quot;]</value>
+      <webElementGuid>4f465619-b99d-4ad2-8b71-81f8e904ba3d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp0'])[1]/following::div[2]</value>
+      <webElementGuid>ad87507b-e8b2-4a09-af78-6cd0745740c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Limit maks:'])[1]/following::div[3]</value>
+      <webElementGuid>5d098072-2dab-4511-9168-c840e8efd18e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-Rp6.000.000'])[1]/preceding::div[1]</value>
+      <webElementGuid>9c1ab24f-b510-4a1f-93d6-5266daf8ba0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sisa:'])[1]/preceding::div[2]</value>
+      <webElementGuid>c3c804e0-3f49-4e15-9935-3a31089a519e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Terpakai:']/parent::*</value>
+      <webElementGuid>c5af0ff7-b991-44b5-8d57-bef6158ebaeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/div</value>
+      <webElementGuid>769a86e8-dd70-4329-ad63-7db2995aa2d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Terpakai:' or . = 'Terpakai:')]</value>
+      <webElementGuid>711ac1de-56b5-4035-b467-d6e123513b4f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
