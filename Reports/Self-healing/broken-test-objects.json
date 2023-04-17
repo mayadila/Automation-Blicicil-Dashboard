@@ -9,6 +9,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Customer Managementt/Beranda/a_Next_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Customer Managementt/Searching/div_Show                                   _676ab3",
+      "brokenLocator": "//section[@id\u003d\u0027complex-header-datatable\u0027]/div/div/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Customer Management\u0027])[2]/following::div[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Customer Managementt/Searching/div_Show                                   _676ab3_neighbor.png"
     }
   ]
 }
