@@ -49,6 +49,56 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Customer Managementt/Detail/div_Tanggal Pengajuan_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Motorcycle/Beranda/div_Customer Profile                       _34d76a",
+      "brokenLocator": "\\",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//table[@id\u003d\u0027tbl-motorcycle\u0027]/tbody/tr[12]/td/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Motorcycle/Beranda/div_Customer Profile                       _34d76a_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Motorcycle/Beranda/svg_Ditolak_rotate-icon-61e4c8d1b4aaa3728e4c8e32",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Ditolak\u0027])[2]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027-\u0027])[16]/preceding::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Motorcycle/Beranda/svg_Ditolak_rotate-icon-61e4c8d1b4aaa3728e4c8e32_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Motorcycle/Beranda/div_Customer Profile                       _389b8c",
+      "brokenLocator": "//table[@id\u003d\u0027tbl-motorcycle\u0027]/tbody/tr[9]/td/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027-\u0027])[18]/preceding::div[14]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Motorcycle/Beranda/div_Customer Profile                       _389b8c_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Motorcycle/Beranda/div_Transaction Detail                     _6487e4 (1)",
+      "brokenLocator": "//table[@id\u003d\u0027tbl-motorcycle\u0027]/tbody/tr[9]/td/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027-\u0027])[18]/preceding::div[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Motorcycle/Beranda/div_Transaction Detail                     _6487e4 (1)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Motorcycle/Beranda/svg_Selesai_rotate-icon-628c89634a0767038c118b4f",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Selesai\u0027])[2]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027-\u0027])[2]/preceding::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
     }
   ]
 }
