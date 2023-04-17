@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Nomor Handphone                        _36d261</name>
    <tag></tag>
-   <elementGuidId>f36861bf-a6a2-4c1d-84a2-0ae153d9d057</elementGuidId>
+   <elementGuidId>d085a8d7-728d-42a3-83b0-f6d1e337a99b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8ebbc57a-e8b4-4636-8657-5e61b9e6aa52</webElementGuid>
+      <webElementGuid>4a296aa3-ab25-454b-a040-db8a95e79749</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-sm-12 col-md-6 col-lg-6 col-12</value>
-      <webElementGuid>223c5910-7962-4fef-8423-0aaae283145d</webElementGuid>
+      <webElementGuid>b44ace75-3534-4b35-b7f1-f0cb4c0cfbec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
                                     Nomor Handphone:
                                         081288065124
                                 </value>
-      <webElementGuid>489de68c-a76c-4905-b215-cade3e638667</webElementGuid>
+      <webElementGuid>f1d5dce9-07d1-4cda-b2a9-b794791e6659</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;loaded&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static  menu-expanded pace-done&quot;]/div[@class=&quot;app-content content&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;mt-2 ml-1 w-full mr-3&quot;]/div[@class=&quot;d-flex flex-column flex-lg-row flex-sm-column flex-xl-row flex-md-row mb-4&quot;]/div[@class=&quot;row w-full mr-lg-1 mr-sm-0 mt-sm-2&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-lg-6 col-12&quot;]</value>
-      <webElementGuid>ab8f2ec0-a6bb-4589-8502-497f7858c61b</webElementGuid>
+      <webElementGuid>e2e479a9-4ae9-4e59-b699-3a4b1055d176</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='APPROVE'])[1]/following::div[2]</value>
-      <webElementGuid>912c679f-274b-4593-926c-9d36f1c7374b</webElementGuid>
+      <webElementGuid>f65e066c-9988-40f2-8947-955770c164a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='eva'])[1]/following::div[3]</value>
-      <webElementGuid>0dc72eb1-f68f-4524-8ad9-d3f8c1489d11</webElementGuid>
+      <webElementGuid>cf6367a6-7e50-450c-b39c-aaf7472289bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::div[1]</value>
-      <webElementGuid>724e2f82-c292-47a0-88c4-5a48fb234164</webElementGuid>
+      <webElementGuid>4a87bf12-e209-4f95-88b7-7397fc0b136f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Limit maks:'])[1]/preceding::div[3]</value>
-      <webElementGuid>9a13f296-01af-458d-97d9-99570ea59528</webElementGuid>
+      <webElementGuid>d767d475-af55-487a-856f-3600f39262c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>b8082530-9fa5-445f-9a57-12542e9e2034</webElementGuid>
+      <webElementGuid>12e98388-c556-48c0-bc4b-012c1cbc530e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
                                     Nomor Handphone:
                                         081288065124
                                 ')]</value>
-      <webElementGuid>9965f174-869b-41f5-b59b-9fc86b8e05eb</webElementGuid>
+      <webElementGuid>1b5b70ae-2cb4-4220-8513-5ffe6a9a77f2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

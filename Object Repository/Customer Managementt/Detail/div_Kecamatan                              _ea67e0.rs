@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Kecamatan                              _84b4ce</name>
+   <name>div_Kecamatan                              _ea67e0</name>
    <tag></tag>
-   <elementGuidId>52c17706-26f8-4c23-ac85-e9230b691f97</elementGuidId>
+   <elementGuidId>84162658-bb83-4249-a941-b50161137e62</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>98f7995f-b656-46d0-951a-b6b81fe268dd</webElementGuid>
+      <webElementGuid>bac2a416-e2c9-4676-a12d-80da2e14679e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-12 col-md-6 col-lg-6</value>
-      <webElementGuid>60e8bc24-acd0-4b7c-a063-8695b7430f1c</webElementGuid>
+      <webElementGuid>b1135dc9-7b7e-49ab-8c11-d039eca9e94c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,17 +40,17 @@
       <value>
                                     
                                         Kecamatan
-                                        Dramaga
+                                        Beji
                                     
 
                                     
                                         Kelurahan
-                                        Dramaga
+                                        Beji Timur
                                     
 
                                     
                                         Kode Pos
-                                        16680
+                                        16422
                                     
 
                                     
@@ -58,7 +58,7 @@
                                         Milik Orang Tua
                                     
                                 </value>
-      <webElementGuid>bb568df0-a716-4c0f-8ac9-233d42287c8f</webElementGuid>
+      <webElementGuid>bf171973-09b2-4227-b76a-de9f7c245b22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pills-alamat&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col-md-6 col-lg-6&quot;]</value>
-      <webElementGuid>5438662c-ae61-4e77-a8fa-e91fe756347c</webElementGuid>
+      <webElementGuid>98470d66-7f87-44d7-9293-88a9465c4f37</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pills-alamat']/div/div[2]</value>
-      <webElementGuid>72668117-3dc0-436e-b802-586f156c0b29</webElementGuid>
+      <webElementGuid>4cfc80f6-3c9f-43bb-b8e5-65f66182490a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Identitas'])[1]/following::div[16]</value>
-      <webElementGuid>eb39d3c6-2786-44d3-9d65-467ce2f460ca</webElementGuid>
+      <webElementGuid>4fee0edf-bbb2-4586-ac6d-f7778d9b9b1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Kontak'])[1]/following::div[16]</value>
-      <webElementGuid>4b49fbdb-215e-4e49-a2b4-a32d79d19d5a</webElementGuid>
+      <webElementGuid>fc1b4286-6b56-49f5-bd84-ec40a9662a3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=', All rights Reserved'])[1]/preceding::div[44]</value>
-      <webElementGuid>6f839f1b-bd96-4ea7-83b0-c027ae89cb16</webElementGuid>
+      <webElementGuid>cc9d2cba-20ea-47bd-8804-31dc5c5fe4db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div[2]/div/div[2]/div/div[2]</value>
-      <webElementGuid>17708b3a-53f1-401a-9247-423ef33f76d4</webElementGuid>
+      <webElementGuid>de171def-cd96-40bf-94c0-d0c20bb1ecc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,17 +116,17 @@
       <value>//div[(text() = '
                                     
                                         Kecamatan
-                                        Dramaga
+                                        Beji
                                     
 
                                     
                                         Kelurahan
-                                        Dramaga
+                                        Beji Timur
                                     
 
                                     
                                         Kode Pos
-                                        16680
+                                        16422
                                     
 
                                     
@@ -136,17 +136,17 @@
                                 ' or . = '
                                     
                                         Kecamatan
-                                        Dramaga
+                                        Beji
                                     
 
                                     
                                         Kelurahan
-                                        Dramaga
+                                        Beji Timur
                                     
 
                                     
                                         Kode Pos
-                                        16680
+                                        16422
                                     
 
                                     
@@ -154,6 +154,6 @@
                                         Milik Orang Tua
                                     
                                 ')]</value>
-      <webElementGuid>fba2d4b5-4ab5-4357-94fd-60545905137c</webElementGuid>
+      <webElementGuid>cdfb3af5-aace-45af-9df6-d5ae6b96582d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

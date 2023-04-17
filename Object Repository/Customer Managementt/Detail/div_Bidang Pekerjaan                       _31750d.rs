@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Bidang Pekerjaan                       _31750d</name>
    <tag></tag>
-   <elementGuidId>c4e5d563-eec1-4993-bb1b-059caa93e219</elementGuidId>
+   <elementGuidId>75d1d598-1c89-4e9f-86e8-14d64fe225e2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>0b6e886d-3cf1-4e2d-87b2-f213188d775d</webElementGuid>
+      <webElementGuid>a21c0816-c267-43ea-8e65-4956b6d948e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-12 col-md-6 col-lg-6</value>
-      <webElementGuid>6198db89-4fc3-48db-af39-9e3331c4367c</webElementGuid>
+      <webElementGuid>42d3b463-e82b-4d92-9604-5ee122392a23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,21 +55,21 @@
 
                                     
                                         Penghasilan Bulanan
-                                        Rp 1.000.000
+                                        Rp 10.000.000
                                     
 
                                     
                                         Nama Perusahaan
-                                        PY
+                                        pt mega
                                     
 
                                     
                                         Telepon Perusahaan
-                                        0278788797
+                                        08111111111
                                     
 
                                 </value>
-      <webElementGuid>23d14d8b-563b-4339-b599-e727e82bbf1c</webElementGuid>
+      <webElementGuid>ae87a6d9-94cb-4889-9d91-0c452416d368</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pills-pekerjaan&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col-md-6 col-lg-6&quot;]</value>
-      <webElementGuid>5834249b-4a89-4628-8561-56f9cecc3165</webElementGuid>
+      <webElementGuid>4edacefd-724a-4996-9a93-33e8c534697d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pills-pekerjaan']/div/div</value>
-      <webElementGuid>4ed39a22-9c6f-46fd-9bb9-ddff82643ed5</webElementGuid>
+      <webElementGuid>e68e7cca-c766-4907-a663-5581e4ee17ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Identitas'])[1]/following::div[23]</value>
-      <webElementGuid>5402b0a4-36c3-4a81-8567-021f311c943a</webElementGuid>
+      <webElementGuid>4ebe0385-66bf-4f3e-bd41-b5a4d6ca8b55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Kontak'])[1]/following::div[23]</value>
-      <webElementGuid>92433a28-a80e-422e-a171-7473cc60330b</webElementGuid>
+      <webElementGuid>ff142e24-aeee-4dc2-940a-9573dcc93575</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=', All rights Reserved'])[1]/preceding::div[37]</value>
-      <webElementGuid>6ac68cd9-0829-4f3a-aa78-a7804f16c714</webElementGuid>
+      <webElementGuid>ddd0c74f-c776-46e7-8a30-e1928549a148</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[3]/div/div</value>
-      <webElementGuid>f5e048ea-bd0c-41a7-83e8-a42fd795d32b</webElementGuid>
+      <webElementGuid>e421abc7-6b18-46d1-866c-27eacd31223c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,17 +142,17 @@
 
                                     
                                         Penghasilan Bulanan
-                                        Rp 1.000.000
+                                        Rp 10.000.000
                                     
 
                                     
                                         Nama Perusahaan
-                                        PY
+                                        pt mega
                                     
 
                                     
                                         Telepon Perusahaan
-                                        0278788797
+                                        08111111111
                                     
 
                                 ' or . = '
@@ -173,20 +173,20 @@
 
                                     
                                         Penghasilan Bulanan
-                                        Rp 1.000.000
+                                        Rp 10.000.000
                                     
 
                                     
                                         Nama Perusahaan
-                                        PY
+                                        pt mega
                                     
 
                                     
                                         Telepon Perusahaan
-                                        0278788797
+                                        08111111111
                                     
 
                                 ')]</value>
-      <webElementGuid>f8f5671e-8cd5-4d20-87db-8f2b16bdd543</webElementGuid>
+      <webElementGuid>2c84cbe7-364d-4e78-b20f-97e92b89f527</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

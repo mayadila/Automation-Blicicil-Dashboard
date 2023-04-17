@@ -3,7 +3,7 @@
    <description></description>
    <name>div_APPROVE</name>
    <tag></tag>
-   <elementGuidId>d63f8ab9-2a64-49ad-bb80-9585cf84915b</elementGuidId>
+   <elementGuidId>d98abe8d-1b74-4d81-919e-6f0763c947f2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f10c0c88-e2dd-4d6c-878d-371d562aa87c</webElementGuid>
+      <webElementGuid>2d4cbdc2-e348-440e-a0d9-5327959d0ec8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>status_pengajuan</value>
-      <webElementGuid>40d5bd0d-3572-407e-810c-2f426ac427f3</webElementGuid>
+      <webElementGuid>30ecf714-3c51-4a27-91b0-ce03d9b5dc28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-pill p-status text-white mb-1 bg-success</value>
-      <webElementGuid>6a7a6106-1394-4e98-9d70-81e127bf6b98</webElementGuid>
+      <webElementGuid>15d05cb1-28cb-4835-a6b2-064c90b455af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>APPROVE</value>
-      <webElementGuid>eb9abfc0-5d97-4ff5-b519-60d2a56932a7</webElementGuid>
+      <webElementGuid>c19d1788-3572-4da2-ae95-9e96be56717b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;status_pengajuan&quot;)</value>
-      <webElementGuid>687a7326-628e-46d7-bd1a-e8c41a43b2ba</webElementGuid>
+      <webElementGuid>a678ad96-5151-4d32-b186-bbefe7380b70</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='status_pengajuan']</value>
-      <webElementGuid>eaa82852-ec66-46db-a8e8-bcd5c7669972</webElementGuid>
+      <webElementGuid>b2bfa3b7-7a54-40cf-9c18-7afbc623b15f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='eva'])[1]/following::div[1]</value>
-      <webElementGuid>f6808a9c-da9b-417c-8cea-791d135bdf42</webElementGuid>
+      <webElementGuid>86a6abed-cc1f-4e80-8ef0-e6ac0f93d493</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Profile'])[2]/following::div[7]</value>
-      <webElementGuid>f42f7f15-b543-41f0-a6fa-0d736165faba</webElementGuid>
+      <webElementGuid>6a936229-e695-42b3-b43e-2edcba669a89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::div[2]</value>
-      <webElementGuid>825e5538-f1fb-41fa-bcc2-297e91726332</webElementGuid>
+      <webElementGuid>6d2cce81-b12d-4851-9caa-55c6e277ba37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Limit maks:'])[1]/preceding::div[5]</value>
-      <webElementGuid>7cc8d91b-3160-47fd-8dac-38ca7c7361d8</webElementGuid>
+      <webElementGuid>a544ad87-98c5-4bf9-a9bd-71a3c946fb1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='APPROVE']/parent::*</value>
-      <webElementGuid>e206ee0f-f395-4a50-9579-8f487fb2024b</webElementGuid>
+      <webElementGuid>b9536748-1e1d-4e2c-a54a-f25297e620e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div[2]/div/div/div</value>
-      <webElementGuid>a7f857ec-a511-48db-ab84-f8e2d53186e7</webElementGuid>
+      <webElementGuid>78453d28-01bb-4cac-b4d2-ba743106ffb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'status_pengajuan' and (text() = 'APPROVE' or . = 'APPROVE')]</value>
-      <webElementGuid>b37436fb-f6b0-4a3b-8ce8-241a346ee1d8</webElementGuid>
+      <webElementGuid>e9e186ea-0312-4d6a-b107-5bbd76584ebb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

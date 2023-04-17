@@ -3,7 +3,7 @@
    <description></description>
    <name>img_User Profile_photo_profile</name>
    <tag></tag>
-   <elementGuidId>7cbeb7ce-4827-4c21-b93a-e87d589bc528</elementGuidId>
+   <elementGuidId>fcfbf7b4-275a-4101-bd49-541b2997a3ae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>31258a55-3644-4450-bd8b-489a0b8c4c6e</webElementGuid>
+      <webElementGuid>78fa4283-d39c-402f-a79a-07cb399e91ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +30,15 @@
       <name>id</name>
       <type>Main</type>
       <value>photo_profile</value>
-      <webElementGuid>3db695fb-f81a-4202-8487-925d97cef86f</webElementGuid>
+      <webElementGuid>4a212ea7-696b-4325-9a5e-11d26f8212b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>https://blicicil.oss-ap-southeast-5.aliyuncs.com/stg/images/profile/63214ee364bd8a66633248a6/profile.png</value>
-      <webElementGuid>49084441-2ae0-4f5a-a453-31af58ec065f</webElementGuid>
+      <value>https://uat-dashboard.blicicil.com/assets/images/default.png</value>
+      <webElementGuid>a2fc06bb-177e-4b24-9bf3-3a2146fbb361</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>onerror</name>
       <type>Main</type>
       <value>this.onerror=null;this.src='https://uat-dashboard.blicicil.com/assets/images/default.png'</value>
-      <webElementGuid>71c3bf26-c50f-45e1-a0d2-3d7dee83445d</webElementGuid>
+      <webElementGuid>b092f4cf-3a80-4c23-852d-54ccfb83ef01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;photo_profile&quot;)</value>
-      <webElementGuid>ce6ba8a2-de9f-43cb-91c5-022d2366138a</webElementGuid>
+      <webElementGuid>e1d9cd3f-d53b-4c61-a801-ae50257e01af</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,15 +62,15 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//img[@id='photo_profile']</value>
-      <webElementGuid>0f7c8440-195d-45ae-a036-47eac89b36fa</webElementGuid>
+      <webElementGuid>1d6e8358-d215-4f59-85c6-7b1812611dbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:img</name>
       <type>Main</type>
-      <value>//img[contains(@src,'https://blicicil.oss-ap-southeast-5.aliyuncs.com/stg/images/profile/63214ee364bd8a66633248a6/profile.png')]</value>
-      <webElementGuid>eae4cd05-3f72-4bb7-b19f-a7d77b2983dc</webElementGuid>
+      <value>//img[contains(@src,'https://uat-dashboard.blicicil.com/assets/images/default.png')]</value>
+      <webElementGuid>12fbcc3b-d65d-4055-9df5-bad5b3a6b2ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,14 +78,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//img</value>
-      <webElementGuid>71113a11-9973-4b9d-94d7-1818df01730c</webElementGuid>
+      <webElementGuid>4edf9333-1b14-441e-9941-59d93e0fb157</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@id = 'photo_profile' and @src = 'https://blicicil.oss-ap-southeast-5.aliyuncs.com/stg/images/profile/63214ee364bd8a66633248a6/profile.png']</value>
-      <webElementGuid>b5b5fb93-a68e-4a6c-9c79-489300cf178d</webElementGuid>
+      <value>//img[@id = 'photo_profile' and @src = 'https://uat-dashboard.blicicil.com/assets/images/default.png']</value>
+      <webElementGuid>099cc417-5c1a-4476-8618-9d5c25b78d60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

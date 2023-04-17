@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Customer Management</name>
    <tag></tag>
-   <elementGuidId>16b835a0-f3f5-45e2-b002-b6823b11a83f</elementGuidId>
+   <elementGuidId>65b5806f-b185-46c0-b53e-12e65107ebc3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f9407edd-0384-42bf-a263-57e512c2e654</webElementGuid>
+      <webElementGuid>bead7589-e5a1-4d54-89fb-e18240b454e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://uat-dashboard.blicicil.com/user-management</value>
-      <webElementGuid>8c076196-df40-4fed-818a-a64b32bbd24f</webElementGuid>
+      <webElementGuid>b49352a0-a4da-42a6-9b2b-58b1622c69ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Customer Management</value>
-      <webElementGuid>d7706e40-332b-4da4-aaf5-c968269cb42a</webElementGuid>
+      <webElementGuid>5d976b51-e8b8-4392-8c66-b9f34fb95cd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;loaded&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static  menu-expanded pace-done&quot;]/div[@class=&quot;app-content content&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;content-header row&quot;]/div[@class=&quot;content-header-left col-md-9 col-12 mb-2&quot;]/div[@class=&quot;row breadcrumbs-top&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;breadcrumb-wrapper&quot;]/ol[@class=&quot;breadcrumb&quot;]/li[@class=&quot;breadcrumb-item&quot;]/a[1]</value>
-      <webElementGuid>84137a69-dd20-47f0-8b3c-580aea712895</webElementGuid>
+      <webElementGuid>f33540bd-1069-44f9-ad17-0cb67967891d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Customer Management')]</value>
-      <webElementGuid>b81f346d-5cf0-464c-9fda-04b9c8f0c373</webElementGuid>
+      <webElementGuid>d36ef041-96b4-479a-9599-00667c9d4139</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1]</value>
-      <webElementGuid>fcf4fd1c-74af-4d07-8365-b3bc1024b297</webElementGuid>
+      <webElementGuid>e08bfa9f-0942-479b-8610-733ff8af34c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wording Notification'])[1]/following::a[2]</value>
-      <webElementGuid>80fdbfaf-f1c5-4fc5-81af-90315c85a358</webElementGuid>
+      <webElementGuid>f11924ee-0dfa-41e8-9639-2c4f46ca203b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Profile'])[1]/preceding::a[1]</value>
-      <webElementGuid>0d2a3634-8372-4944-8388-9a584c4f8bb4</webElementGuid>
+      <webElementGuid>8926ed3f-6864-4f85-a155-47af987afdcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Profile'])[2]/preceding::a[1]</value>
-      <webElementGuid>05a79870-6cd6-4260-828e-de02c9b3baa5</webElementGuid>
+      <webElementGuid>0e1e62bc-ca12-45d9-9909-9682ae1f957e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'https://uat-dashboard.blicicil.com/user-management')])[2]</value>
-      <webElementGuid>daa2ab08-0da1-400e-b266-8dbbcf8e8e5d</webElementGuid>
+      <webElementGuid>58b5c29c-569d-451c-9fb1-2ee6e76bcbd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ol/li[2]/a</value>
-      <webElementGuid>84f9512d-f5ff-4f73-a00c-7de86550a1c0</webElementGuid>
+      <webElementGuid>6d83622c-e8d2-42ad-a86d-b7dda1c0c05f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://uat-dashboard.blicicil.com/user-management' and (text() = 'Customer Management' or . = 'Customer Management')]</value>
-      <webElementGuid>f247f2cd-12bb-41a2-b77d-a5b95c246882</webElementGuid>
+      <webElementGuid>104a917f-7137-4e6b-b7a4-edc850548ffc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

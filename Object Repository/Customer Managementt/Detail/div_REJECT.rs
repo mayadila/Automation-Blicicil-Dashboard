@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Customer Management (1)</name>
+   <name>div_REJECT</name>
    <tag></tag>
-   <elementGuidId>0f9e549e-6853-48db-9df5-3d967c53c476</elementGuidId>
+   <elementGuidId>7f80dad7-73ee-454a-a7cb-de7830de69c4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#status_pengajuan</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='main-menu-navigation']/li[2]/a/span</value>
+         <value>//div[@id='status_pengajuan']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>c855df10-e368-4579-9029-d55fbcd27f4c</webElementGuid>
+      <value>div</value>
+      <webElementGuid>adbdcab3-db41-45d8-9c4f-6988d0a7f6a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>status_pengajuan</value>
+      <webElementGuid>bbb8a546-b3c3-4be0-a0e8-b45512e13332</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menu-title text-truncate</value>
-      <webElementGuid>bca9977f-9910-4fab-94f2-955419af9995</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-i18n</name>
-      <type>Main</type>
-      <value>Dashboards</value>
-      <webElementGuid>1926cf83-21b0-45da-8382-4f65063d953a</webElementGuid>
+      <value>rounded-pill p-status text-white mb-1 bg-danger</value>
+      <webElementGuid>50468468-1a1e-4827-bb63-41b6e086b65d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Customer Management</value>
-      <webElementGuid>3b18b120-8c3d-4e87-8075-a8c82183b751</webElementGuid>
+      <value>REJECT</value>
+      <webElementGuid>f526594d-aede-43f2-accb-b3e33a5a092d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]/span[@class=&quot;menu-title text-truncate&quot;]</value>
-      <webElementGuid>d6f070bd-fb42-4278-9353-04b601fa51b9</webElementGuid>
+      <value>id(&quot;status_pengajuan&quot;)</value>
+      <webElementGuid>29fe3a0c-bfd4-4517-b96b-0d0e9ea2b471</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//ul[@id='main-menu-navigation']/li[2]/a/span</value>
-      <webElementGuid>8644f2e5-01c1-422c-8761-884fe9159529</webElementGuid>
+      <value>//div[@id='status_pengajuan']</value>
+      <webElementGuid>2759535d-9afe-4cca-9086-c4465abde34a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[1]</value>
-      <webElementGuid>d1c3b57f-7672-4556-92c4-3e367464a789</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MARLINA FAUZI MIRRA'])[1]/following::div[1]</value>
+      <webElementGuid>2d42ac76-9028-4caf-b823-4f29ed7a5bf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blicicil'])[1]/following::span[2]</value>
-      <webElementGuid>575ac8e3-0fc2-4e19-ae57-18d83142792b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Profile'])[2]/following::div[7]</value>
+      <webElementGuid>0982f8c3-30dd-4e44-ab60-4a3ea4b925fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master'])[1]/preceding::span[1]</value>
-      <webElementGuid>0dac2cd3-3099-497f-8449-ef11792f4396</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::div[2]</value>
+      <webElementGuid>705c8431-c87a-4b22-92ea-54d2fcf93aba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchants'])[1]/preceding::span[2]</value>
-      <webElementGuid>243156a2-b71a-413c-8238-16e64ccf887c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Limit maks:'])[1]/preceding::div[5]</value>
+      <webElementGuid>961d015a-2721-4a10-9bd9-079340c6d371</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Customer Management']/parent::*</value>
-      <webElementGuid>dc4a2763-7ad2-4b2d-a403-f9610db37a80</webElementGuid>
+      <value>//*/text()[normalize-space(.)='REJECT']/parent::*</value>
+      <webElementGuid>2bdbb8c2-02e7-4361-add0-6c83c7704445</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a/span</value>
-      <webElementGuid>4b0302c6-06d0-48b5-a52f-78f8df592298</webElementGuid>
+      <value>//div[2]/div[2]/div/div[2]/div/div/div</value>
+      <webElementGuid>5e979f35-a2ae-4c48-91b8-fdf8568dddd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Customer Management' or . = 'Customer Management')]</value>
-      <webElementGuid>7a3a03c4-f060-4505-b86f-5202df621b27</webElementGuid>
+      <value>//div[@id = 'status_pengajuan' and (text() = 'REJECT' or . = 'REJECT')]</value>
+      <webElementGuid>03027f82-0443-4390-b333-6ab6f344ac82</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

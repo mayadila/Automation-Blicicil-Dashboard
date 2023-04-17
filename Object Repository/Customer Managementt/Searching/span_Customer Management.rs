@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_Dava raihan agus</name>
+   <name>span_Customer Management</name>
    <tag></tag>
-   <elementGuidId>a68bce95-534a-45cb-aead-e87da6437266</elementGuidId>
+   <elementGuidId>c41b14f6-e59b-4578-8dcc-6f493be3ef7e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#nama</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h4[@id='nama']</value>
+         <value>//ul[@id='main-menu-navigation']/li[2]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
-      <webElementGuid>8e7526f8-40c1-4ce7-a077-a20c9ad50d57</webElementGuid>
+      <value>span</value>
+      <webElementGuid>b595f1e1-3a65-4c18-9fab-2f4e9fddf597</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-md-left text-center text-lg-left text-capitalize mr-1</value>
-      <webElementGuid>53d32555-92fa-4667-92c7-7113513b87e7</webElementGuid>
+      <value>menu-title text-truncate</value>
+      <webElementGuid>7a6c6e38-1889-4f0f-be07-c6228aed4480</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>data-i18n</name>
       <type>Main</type>
-      <value>nama</value>
-      <webElementGuid>1c4ebc9d-fa9f-4cca-8149-6f877fdb47b4</webElementGuid>
+      <value>Dashboards</value>
+      <webElementGuid>020231ff-9701-484b-8d53-be8b34e0bc3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Dava raihan agus</value>
-      <webElementGuid>64057bfa-dfa7-41f3-9374-50c7ef779095</webElementGuid>
+      <value>Customer Management</value>
+      <webElementGuid>b52c02af-b4d4-4046-ae4b-de9bd97553e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nama&quot;)</value>
-      <webElementGuid>de077d9f-4ff2-453c-a615-9c8fbb7f4e1b</webElementGuid>
+      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]/span[@class=&quot;menu-title text-truncate&quot;]</value>
+      <webElementGuid>6dbc7894-8d06-4627-b070-c8ca5228b09d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//h4[@id='nama']</value>
-      <webElementGuid>cc0c8b31-dc41-41cb-a853-ecc7848a074c</webElementGuid>
+      <value>//ul[@id='main-menu-navigation']/li[2]/a/span</value>
+      <webElementGuid>db207e42-1985-48a0-a3c2-9cd7b5b01f12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Profile'])[2]/following::h4[1]</value>
-      <webElementGuid>229b1e0a-bde0-4880-b2d7-1ffc595bc985</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[1]</value>
+      <webElementGuid>4f46b4bf-70b6-4a70-abe9-718ab0e7fcdf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Profile'])[1]/following::h4[1]</value>
-      <webElementGuid>cd2a0fe2-273c-4e4f-b303-a71a73d4752d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blicicil'])[1]/following::span[2]</value>
+      <webElementGuid>2e344247-ad3f-451a-adcc-cb6178cfd38f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='PENDING'])[1]/preceding::h4[1]</value>
-      <webElementGuid>8d3fe8bf-6141-4e09-bf76-f3a765dc38f1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master'])[1]/preceding::span[1]</value>
+      <webElementGuid>a7b0dd60-3d7e-4a72-a6d8-0254cf03fc34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::h4[1]</value>
-      <webElementGuid>c583adbf-73e2-4fdf-9395-4dc68a63b1a3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchants'])[1]/preceding::span[2]</value>
+      <webElementGuid>dd4fbc96-d159-4367-9297-3ed13139ef1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Dava raihan agus']/parent::*</value>
-      <webElementGuid>d260521a-9238-473f-95c9-888c845a00e2</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Customer Management']/parent::*</value>
+      <webElementGuid>225f14f0-9fe4-4931-8caa-d967f0d4fd71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h4</value>
-      <webElementGuid>74dad55a-e4d8-49a9-87a4-ad85eb985974</webElementGuid>
+      <value>//li[2]/a/span</value>
+      <webElementGuid>23fecddb-1f83-44d9-9ef3-f2896a6b9715</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h4[@id = 'nama' and (text() = 'Dava raihan agus' or . = 'Dava raihan agus')]</value>
-      <webElementGuid>08536bca-df0d-4305-992d-c2699f4a6620</webElementGuid>
+      <value>//span[(text() = 'Customer Management' or . = 'Customer Management')]</value>
+      <webElementGuid>a1617b2d-4198-448f-8476-af0c6f1a3ffb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

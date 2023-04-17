@@ -3,7 +3,7 @@
    <description></description>
    <name>div_PENDING</name>
    <tag></tag>
-   <elementGuidId>aae57c6d-ac76-4e8a-8ac4-5d4d47e97edb</elementGuidId>
+   <elementGuidId>a0973b25-2751-4d4a-bceb-7ef899da93aa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9bebea1e-fb4e-4c5c-81ac-99b084e57483</webElementGuid>
+      <webElementGuid>6674f121-65f6-4f92-8156-0f6bc1c680ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>status_pengajuan</value>
-      <webElementGuid>c2d433a8-4afd-4829-b2cb-a0b1030395c9</webElementGuid>
+      <webElementGuid>e9662b16-012b-4ecb-950b-72c8dae07e56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rounded-pill p-status text-white mb-1 bg-warning</value>
-      <webElementGuid>7c8d3eb9-5711-43d2-9701-98825df175c7</webElementGuid>
+      <webElementGuid>d5fcb722-c20d-4fe0-b62c-df7a9a37e475</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PENDING</value>
-      <webElementGuid>364e3a63-c832-4ca4-8c30-1bac5e1aae42</webElementGuid>
+      <webElementGuid>ec1221f3-54c0-43ab-857e-88ad4c26f5de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;status_pengajuan&quot;)</value>
-      <webElementGuid>1a176c0e-cf56-493f-b29f-170e4b462831</webElementGuid>
+      <webElementGuid>73084b91-51d3-4a51-8c62-0f8133c8b1c2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='status_pengajuan']</value>
-      <webElementGuid>8b0aaf63-b1d8-4a1c-87bb-cf3260e4f182</webElementGuid>
+      <webElementGuid>aeac2dfe-2113-4c33-b126-4d54ac63581e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='felix audrey'])[1]/following::div[1]</value>
-      <webElementGuid>f655798a-31a2-412f-8b9f-91fe705eb0a1</webElementGuid>
+      <webElementGuid>fdf25732-e734-45d8-ada2-8df60bb2e8e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Profile'])[2]/following::div[7]</value>
-      <webElementGuid>92ca3dab-78fd-4187-b008-37d7bfd40e98</webElementGuid>
+      <webElementGuid>a0df05a8-dfe2-446e-8768-6546f71314c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::div[2]</value>
-      <webElementGuid>839c6d3b-be6c-4692-bf41-ca72a3e3277c</webElementGuid>
+      <webElementGuid>b85c8231-41f4-44ec-8964-4e2aee29235e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Limit maks:'])[1]/preceding::div[5]</value>
-      <webElementGuid>de96e6f9-a6b0-4732-8170-7d81f116c158</webElementGuid>
+      <webElementGuid>ce2b8f99-224e-4ac4-8b55-a6f8d391ee52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='PENDING']/parent::*</value>
-      <webElementGuid>f3fd6ebb-2ead-428d-b2aa-5e3a426ed667</webElementGuid>
+      <webElementGuid>304a12d3-6e8a-4ef2-b15f-9aa608166631</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div[2]/div/div/div</value>
-      <webElementGuid>122ca83e-9b09-4982-8000-e631e02fb87d</webElementGuid>
+      <webElementGuid>4fa730ed-d975-4d87-bf2a-a1fd3343fae8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'status_pengajuan' and (text() = 'PENDING' or . = 'PENDING')]</value>
-      <webElementGuid>6e9fe9ce-5fb9-4226-9a55-1a8994434e1c</webElementGuid>
+      <webElementGuid>b2fecc65-6279-4d0d-86e1-a672f5541b42</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

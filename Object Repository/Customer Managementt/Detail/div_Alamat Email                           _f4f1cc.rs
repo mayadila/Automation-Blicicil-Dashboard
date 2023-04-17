@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Alamat Email                           _d91bf5</name>
+   <name>div_Alamat Email                           _f4f1cc</name>
    <tag></tag>
-   <elementGuidId>4b096744-7f03-4e7a-ab98-25f78bde73e7</elementGuidId>
+   <elementGuidId>5a953680-37cf-4c8f-8aba-2d465e801832</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c0ce0df0-c7d0-4e0d-a1de-6cdf8dd5cdbf</webElementGuid>
+      <webElementGuid>7a00919e-831b-44ba-bf1f-e4ae55904a23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>row</value>
-      <webElementGuid>d68d9d66-2f66-49a7-b07a-3256e972df91</webElementGuid>
+      <webElementGuid>2988386e-4d0a-4659-bb8c-c08cbeb0720a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,25 +40,25 @@
       <value>
                                 
                                     Alamat Email
-                                    davaraihanagus@gmail.com
+                                    marlina.mirra@gmail.com
                                 
 
                                 
                                     NIK
-                                    3205111203040001
+                                    3276065703860002
                                 
 
                                 
                                     Status Pernikahan
-                                    Lajang
+                                    Janda/Duda
                                 
 
                                 
                                     Nama Ibu Kandung
-                                    aas karyati
+                                    SRI MULYANA
                                 
                             </value>
-      <webElementGuid>5578648c-7009-44bd-b1cb-e5ea121cdc1e</webElementGuid>
+      <webElementGuid>037c7533-7a50-45f9-8ca6-999f89f86409</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pills-nasabah&quot;)/div[@class=&quot;row&quot;]</value>
-      <webElementGuid>61014ed4-470f-4b31-b457-f0815daf7523</webElementGuid>
+      <webElementGuid>df4231b4-6e0f-4f78-b2f8-fcdfa666a909</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pills-nasabah']/div</value>
-      <webElementGuid>56c4c6d2-0831-4b94-9e4f-95e17ca21f6d</webElementGuid>
+      <webElementGuid>04f022da-dad6-4c4a-bf18-50a644fee651</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Identitas'])[1]/following::div[4]</value>
-      <webElementGuid>9e979729-af3b-465d-a066-844ac930870d</webElementGuid>
+      <webElementGuid>bc908b9c-729e-49c7-b52d-e76c6045eada</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Kontak'])[1]/following::div[4]</value>
-      <webElementGuid>7d5cfd9c-abb5-4011-8db4-595fccdefdbe</webElementGuid>
+      <webElementGuid>0e8d6f8e-db46-4915-96e9-91dbc921f3dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=', All rights Reserved'])[1]/preceding::div[56]</value>
-      <webElementGuid>6a581d46-7554-4718-95fb-5929fdae5a2a</webElementGuid>
+      <webElementGuid>1ee7e37e-a556-41bd-b402-f737d19961a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div[2]/div/div/div</value>
-      <webElementGuid>eb1625a7-09d6-4ce2-a68c-225a1fd544da</webElementGuid>
+      <webElementGuid>04a166af-7053-4f57-866b-8d8747e27c08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,44 +116,44 @@
       <value>//div[(text() = '
                                 
                                     Alamat Email
-                                    davaraihanagus@gmail.com
+                                    marlina.mirra@gmail.com
                                 
 
                                 
                                     NIK
-                                    3205111203040001
+                                    3276065703860002
                                 
 
                                 
                                     Status Pernikahan
-                                    Lajang
+                                    Janda/Duda
                                 
 
                                 
                                     Nama Ibu Kandung
-                                    aas karyati
+                                    SRI MULYANA
                                 
                             ' or . = '
                                 
                                     Alamat Email
-                                    davaraihanagus@gmail.com
+                                    marlina.mirra@gmail.com
                                 
 
                                 
                                     NIK
-                                    3205111203040001
+                                    3276065703860002
                                 
 
                                 
                                     Status Pernikahan
-                                    Lajang
+                                    Janda/Duda
                                 
 
                                 
                                     Nama Ibu Kandung
-                                    aas karyati
+                                    SRI MULYANA
                                 
                             ')]</value>
-      <webElementGuid>121e3380-d89c-421a-a9ce-5b92e36d202d</webElementGuid>
+      <webElementGuid>253e680d-7943-4450-8499-8d428f4ac0d4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

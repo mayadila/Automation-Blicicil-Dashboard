@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Foto Diri</name>
+   <name>div_Cari</name>
    <tag></tag>
-   <elementGuidId>0325a0a1-c5cb-4996-87ff-819c0bd767f6</elementGuidId>
+   <elementGuidId>02f76af5-175e-4902-8664-8d8706de6591</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='pills-photo']/div/div[2]</value>
+         <value>//section[@id='complex-header-datatable']/div/div/div/div[2]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>89d71080-561a-4043-9434-6e72830c7f02</webElementGuid>
+      <webElementGuid>00da415f-1ed7-447b-a6d0-3e76c8aadfed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>col-12 col-md-6 col-lg-6</value>
-      <webElementGuid>42dee05d-938f-45ad-8ace-320f79a0d09e</webElementGuid>
+      <value>d-flex</value>
+      <webElementGuid>c669cdab-2b87-47e0-b17d-51d35352efc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,62 +38,60 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                                    
-                                        Foto Diri
-                                    
-                                    
+                                        Cari: 
                                         
-                                    
-                                </value>
-      <webElementGuid>ec635b2d-bc20-44ba-941f-5cac68e09c34</webElementGuid>
+                                            
+                                        
+                                    </value>
+      <webElementGuid>9720216f-9dfd-4481-8bf7-6e6338c5e775</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pills-photo&quot;)/div[@class=&quot;row mr-2&quot;]/div[@class=&quot;col-12 col-md-6 col-lg-6&quot;]</value>
-      <webElementGuid>5a27bbf4-4188-418f-9338-542d75bf3a73</webElementGuid>
+      <value>id(&quot;complex-header-datatable&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card pb-1&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;d-flex justify-content-between mb-3 mt-3&quot;]/div[@class=&quot;d-flex&quot;]</value>
+      <webElementGuid>0190ead7-ce6e-4f84-b499-3465304a0809</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='pills-photo']/div/div[2]</value>
-      <webElementGuid>68ad9ad4-bc6e-4add-9cb9-2a1f5a09e771</webElementGuid>
+      <value>//section[@id='complex-header-datatable']/div/div/div/div[2]/div/div[2]</value>
+      <webElementGuid>7d6e21ff-da3d-4e29-9c86-46918e14f103</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Identitas'])[1]/following::div[55]</value>
-      <webElementGuid>32ad9fbb-0c41-4538-b2a1-a2f6ce3b1ef9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show'])[1]/following::div[2]</value>
+      <webElementGuid>e58e517e-639a-4d63-a8e9-6fb0aa31b17f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Kontak'])[1]/following::div[55]</value>
-      <webElementGuid>06b724c5-c514-4a3a-981c-730cf03a2796</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List of Customers'])[1]/following::div[5]</value>
+      <webElementGuid>62a267b2-9073-445c-8686-0b2620a49b12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=', All rights Reserved'])[1]/preceding::div[5]</value>
-      <webElementGuid>554d55f2-3e83-46cb-b5e4-57fdd3ce4328</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search:'])[1]/preceding::div[3]</value>
+      <webElementGuid>2321672c-0d1c-4385-8a78-89278218e101</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/div[2]</value>
-      <webElementGuid>222400db-9f85-42c0-a1dd-08660e1686fb</webElementGuid>
+      <value>//div/div[2]/div/div[2]</value>
+      <webElementGuid>3efa264d-22eb-43ce-acb9-8cb61376d652</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,20 +99,16 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '
-                                    
-                                        Foto Diri
-                                    
-                                    
+                                        Cari: 
                                         
-                                    
-                                ' or . = '
-                                    
-                                        Foto Diri
-                                    
-                                    
+                                            
                                         
-                                    
-                                ')]</value>
-      <webElementGuid>536a3e48-15d7-40a2-94e1-90b356b2543d</webElementGuid>
+                                    ' or . = '
+                                        Cari: 
+                                        
+                                            
+                                        
+                                    ')]</value>
+      <webElementGuid>22d2357f-9eb4-44ba-a99e-1d302b7c54be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

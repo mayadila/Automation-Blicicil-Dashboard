@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Sisa</name>
    <tag></tag>
-   <elementGuidId>d7e7d556-b791-4b0b-99cb-7dd1edacdc34</elementGuidId>
+   <elementGuidId>1a9f9423-0d68-4e65-bc5a-b62266621f68</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='-Rp6.000.000'])[1]/following::div[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='-Rp10.000.000'])[1]/following::div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a14663c6-f4f7-427c-8061-f8a000a3a9ab</webElementGuid>
+      <webElementGuid>60166ad4-7ca4-41a1-b723-5c72c8598414</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-4 col-lg-6 col-md-6 label-text</value>
-      <webElementGuid>2a65bd0d-c346-4f19-9558-03bf5fca5e2b</webElementGuid>
+      <webElementGuid>eea88a2f-e10b-40f1-8148-509353e14b28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sisa:</value>
-      <webElementGuid>00602646-5e9f-4f47-8e81-6f01d0729d94</webElementGuid>
+      <webElementGuid>1b94975c-7bef-4d05-8301-c6df560e07a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +46,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;loaded&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static  menu-expanded pace-done&quot;]/div[@class=&quot;app-content content&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;mt-2 ml-1 w-full mr-3&quot;]/div[@class=&quot;d-flex flex-column flex-lg-row flex-sm-column flex-xl-row flex-md-row mb-4&quot;]/div[@class=&quot;row w-full mr-lg-1 mr-sm-0 mt-sm-2&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row mt-1&quot;]/div[@class=&quot;col-lg-4 col-12 col-md-6 border-right&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4 col-lg-6 col-md-6 label-text&quot;]</value>
-      <webElementGuid>952eb5c7-f6a9-471b-9ada-9c56a3385b4e</webElementGuid>
+      <webElementGuid>c50fffb6-4a83-4d56-81e3-07fe95b62798</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-Rp6.000.000'])[1]/following::div[2]</value>
-      <webElementGuid>c07b5354-84e3-414c-b64a-9b8404410fbd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-Rp10.000.000'])[1]/following::div[2]</value>
+      <webElementGuid>fd1f4103-7d1e-440b-94ce-3aa747568925</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,15 +62,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Terpakai:'])[1]/following::div[3]</value>
-      <webElementGuid>5d0a7d84-6896-482a-9904-b4319320beaf</webElementGuid>
+      <webElementGuid>f5acae87-a221-4fc7-a709-4a060bacfdff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp-6.000.000'])[1]/preceding::div[1]</value>
-      <webElementGuid>d34c5324-2e2d-49f0-b3af-cf3d663af7a1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp100.000'])[1]/preceding::div[1]</value>
+      <webElementGuid>09a04beb-3d3d-4cec-ab4b-d64c786651bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Pengajuan:'])[1]/preceding::div[2]</value>
-      <webElementGuid>fbfa53a7-6fea-4ec6-87b1-c89b75553518</webElementGuid>
+      <webElementGuid>0be9babd-8893-41cb-bd1e-a032108e5f49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sisa:']/parent::*</value>
-      <webElementGuid>cb788336-620b-4a0e-81b6-8701ded4d106</webElementGuid>
+      <webElementGuid>d2706cd7-71f9-4685-9132-c84edd35cd0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[3]/div</value>
-      <webElementGuid>9ce331aa-0fc0-43f8-b6a2-c1a11a749e92</webElementGuid>
+      <webElementGuid>ba9cd6c7-e87e-4fd9-9171-a0b757b92039</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Sisa:' or . = 'Sisa:')]</value>
-      <webElementGuid>dccd4bcb-74c9-4bcb-b004-ed60c666614c</webElementGuid>
+      <webElementGuid>20932e2c-daa9-42f1-b87a-b9b381e01fc1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

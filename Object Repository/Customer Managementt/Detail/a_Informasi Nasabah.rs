@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Informasi Nasabah</name>
    <tag></tag>
-   <elementGuidId>601c6d8f-34d3-4523-8d2a-184c9b96f19f</elementGuidId>
+   <elementGuidId>d6d07532-dc5e-4f47-8f42-1d3084570249</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ad74538e-55a8-4ae0-b8d4-2206b2991d44</webElementGuid>
+      <webElementGuid>40393d8a-5ca3-422b-ab50-c86bd8105e5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link user-detail</value>
-      <webElementGuid>892a5e4d-f38d-4396-b2ff-90a7bddffe93</webElementGuid>
+      <webElementGuid>78f472c6-87a5-4704-95c2-a6ae00feb1d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>pills-nasabah-tab</value>
-      <webElementGuid>87549832-0a5a-4a24-a7c7-273460b7d948</webElementGuid>
+      <webElementGuid>b05d0e7f-d79e-491c-9246-60da32d6fb0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>pill</value>
-      <webElementGuid>76740ff6-e9be-4b93-9084-f7caf014bc1d</webElementGuid>
+      <webElementGuid>864782f5-f592-4bb9-8b5a-0216fb695939</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#pills-nasabah</value>
-      <webElementGuid>245acb19-35a3-4bc4-8401-990d6edf6fab</webElementGuid>
+      <webElementGuid>3b015006-5b8c-4351-919a-6e97dbd95e99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>6925aedf-71a1-4b41-a665-770bb4fbd35d</webElementGuid>
+      <webElementGuid>fce699fe-1290-4eef-8ee8-2660eb9a1015</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>pills-nasabah</value>
-      <webElementGuid>1c470b99-dee5-48d7-8493-265c36458e16</webElementGuid>
+      <webElementGuid>916cb9b1-bf6c-4ff0-beaa-52942838caf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1bb4cbc9-7530-4f83-bb4e-5f79ff7ac9e2</webElementGuid>
+      <webElementGuid>246ee323-6665-4576-9ddc-9b3e84949daa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Informasi Nasabah</value>
-      <webElementGuid>fd413965-033e-4954-b046-f4643d47c331</webElementGuid>
+      <webElementGuid>ad2bb970-303b-4664-83dd-2c8f16566b3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pills-nasabah-tab&quot;)</value>
-      <webElementGuid>3457131d-9b4b-4ad5-bc9d-15931e9167cf</webElementGuid>
+      <webElementGuid>4d09b139-a780-42fd-9159-ab9ddc5c8af7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='pills-nasabah-tab']</value>
-      <webElementGuid>78fb5418-2ce3-417f-a372-0ae5fdf1f19c</webElementGuid>
+      <webElementGuid>f0e98171-1737-4cf3-8e98-d6b7b9895feb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='pills-tab']/li/a</value>
-      <webElementGuid>b1007a3c-097c-48a6-aee6-b537aa14e0d3</webElementGuid>
+      <webElementGuid>6cfd16bd-704d-4dd6-8cb8-8bb7f9a4b362</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Informasi Nasabah')]</value>
-      <webElementGuid>918129ef-19bc-4069-9040-31237cb814a6</webElementGuid>
+      <webElementGuid>2f23b404-75c5-44b2-a49c-47932816be74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,15 +126,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Pengajuan:'])[1]/following::a[1]</value>
-      <webElementGuid>0ad55543-c486-4b0a-9b6a-b767a3e46494</webElementGuid>
+      <webElementGuid>05a5668c-7fa3-43ca-811f-8d0932e3ebc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp-6.000.000'])[1]/following::a[1]</value>
-      <webElementGuid>cd122df2-4ed6-43a9-8c6a-9dbb165e79d5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp100.000'])[1]/following::a[1]</value>
+      <webElementGuid>55ab1f66-b38e-4805-ba80-43721a1d6c3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Alamat'])[1]/preceding::a[1]</value>
-      <webElementGuid>34d5aa3a-6066-4e5c-bb8f-3acaca7f8257</webElementGuid>
+      <webElementGuid>4c63e362-830b-4c17-a92e-40c03e161681</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +150,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Pekerjaan'])[1]/preceding::a[2]</value>
-      <webElementGuid>f953947d-9e5d-4fff-9d1a-dc8bc92de141</webElementGuid>
+      <webElementGuid>80674bd7-8973-4e7a-8558-9bbcd2df7123</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +158,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Informasi Nasabah']/parent::*</value>
-      <webElementGuid>ef3ff444-a5d7-42be-93ce-15f95fd6ee8e</webElementGuid>
+      <webElementGuid>4999946d-eff7-4d0d-980b-f51f606b4e13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +166,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#pills-nasabah')]</value>
-      <webElementGuid>de8c3e79-be83-429e-827b-3bc5d32b389f</webElementGuid>
+      <webElementGuid>4780f05c-fc71-40ee-bf65-634b67099a73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,7 +174,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/ul/li/a</value>
-      <webElementGuid>3195991f-48de-4b4d-9268-401436cf9606</webElementGuid>
+      <webElementGuid>46b392fb-8a3d-4c99-be25-32401cde274b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -182,6 +182,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'pills-nasabah-tab' and @href = '#pills-nasabah' and (text() = 'Informasi Nasabah' or . = 'Informasi Nasabah')]</value>
-      <webElementGuid>a0eb52f0-d902-4148-b9ff-065e5bacd4d7</webElementGuid>
+      <webElementGuid>d2f78610-a086-42e2-b2a8-e83c9935b750</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

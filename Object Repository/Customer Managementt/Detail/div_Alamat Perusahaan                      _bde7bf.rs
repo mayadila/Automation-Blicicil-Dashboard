@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Alamat Perusahaan                      _3c5281</name>
+   <name>div_Alamat Perusahaan                      _bde7bf</name>
    <tag></tag>
-   <elementGuidId>a7b3f50b-d042-4b43-a51f-4ea955f93f9b</elementGuidId>
+   <elementGuidId>c1f04be5-e4d2-4131-b90a-ec58133f555c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>60e9cfd2-8e8c-4e59-a9ce-bdb1e4d4c506</webElementGuid>
+      <webElementGuid>83f411bf-59f1-45c8-8607-d92db8f838c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-12 col-md-6 col-lg-6</value>
-      <webElementGuid>715ac53b-4958-484f-86a3-8da91005f06f</webElementGuid>
+      <webElementGuid>736e135b-8902-4e8c-8313-c547f72530d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +40,7 @@
       <value>
                                     
                                         Alamat Perusahaan
-                                        jl raya gunung putri
+                                        JL WIJAYA 1 NO 19
                                     
 
                                     
@@ -68,7 +68,7 @@
                                         -
                                     
                                 </value>
-      <webElementGuid>0e36a31c-680d-4dfa-a7ca-5ae451fe3db6</webElementGuid>
+      <webElementGuid>d5d8f93c-0b99-4105-a17f-338752bd6466</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pills-pekerjaan&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col-md-6 col-lg-6&quot;]</value>
-      <webElementGuid>6678220e-620a-4bf8-8150-1c4b8b268dd0</webElementGuid>
+      <webElementGuid>f518b4d6-4243-4fcb-9830-8ecd9e625f1c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pills-pekerjaan']/div/div[2]</value>
-      <webElementGuid>f975599c-ee93-4ab9-ad08-8784990bc816</webElementGuid>
+      <webElementGuid>77677a3b-1006-4430-b2ee-b07e66c58308</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Identitas'])[1]/following::div[30]</value>
-      <webElementGuid>3b895b22-9b77-453e-860e-202383fe8a01</webElementGuid>
+      <webElementGuid>3b5b1910-0f8d-48e3-8e8b-89a0fbd41419</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Kontak'])[1]/following::div[30]</value>
-      <webElementGuid>e6d3539e-9fb1-413d-8821-e858a5045bb2</webElementGuid>
+      <webElementGuid>8903a17d-8f5b-4f0b-9fb1-62d293996c80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=', All rights Reserved'])[1]/preceding::div[30]</value>
-      <webElementGuid>f1f1e7a1-acdc-4f9d-8aa1-91aca31268c7</webElementGuid>
+      <webElementGuid>2d118f83-9309-4260-9511-97bf9201de36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[3]/div/div[2]</value>
-      <webElementGuid>b5abb866-fd15-4170-8a9e-d2c2a07defba</webElementGuid>
+      <webElementGuid>abe3ad3a-7ba1-4391-9cc9-18f87e0f91cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <value>//div[(text() = '
                                     
                                         Alamat Perusahaan
-                                        jl raya gunung putri
+                                        JL WIJAYA 1 NO 19
                                     
 
                                     
@@ -156,7 +156,7 @@
                                 ' or . = '
                                     
                                         Alamat Perusahaan
-                                        jl raya gunung putri
+                                        JL WIJAYA 1 NO 19
                                     
 
                                     
@@ -184,6 +184,6 @@
                                         -
                                     
                                 ')]</value>
-      <webElementGuid>9ee70cd7-afd2-42db-86a4-58ecc0dae7ab</webElementGuid>
+      <webElementGuid>80c68c2a-8839-4a69-aff0-e22101abcb7d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

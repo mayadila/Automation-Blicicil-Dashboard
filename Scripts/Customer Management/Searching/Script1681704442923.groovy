@@ -17,3 +17,45 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Membuka chrome'
+WebUI.openBrowser('')
+
+'Membuka halaman login'
+WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
+
+'Menginputkan email valid'
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+
+'Menginputkan password valid'
+WebUI.setEncryptedText(findTestObject('Object Repository/Customer Managementt/Searching/input_Password_password'), 'aeHFOx8jV/A=')
+
+'Mengklik button login'
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching/button_Login'))
+
+'Mengklik menu Customer management'
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching/span_Customer Management'))
+
+'Menginputkan kata kunci pencarian'
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching/input_Cari_filterSearch'), '3404076403940005')
+
+'Menekan tombol enter di kolom pencarian'
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching/input_Cari_filterSearch'), Keys.chord(Keys.ENTER))
+
+'Menampilkan hasil yang dicari'
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching/div_Cari'))
+
+'Menginputkan kata kunci pencarian'
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching/input_Cari_filterSearch'), '3175072404860001')
+
+'Menekan tombol enter di kolom pencarian'
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching/input_Cari_filterSearch'), Keys.chord(Keys.ENTER))
+
+'Menampilkan hasil yang dicari'
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching/div_Cari'))
+
+'Menginputkan kata kunci pencarian'
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching/input_Cari_filterSearch'), '3174015010820009')
+
+'Menekan tombol enter di kolom pencarian'
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching/input_Cari_filterSearch'), Keys.chord(Keys.ENTER))
+

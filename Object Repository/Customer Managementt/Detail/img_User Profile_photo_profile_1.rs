@@ -3,7 +3,7 @@
    <description></description>
    <name>img_User Profile_photo_profile_1</name>
    <tag></tag>
-   <elementGuidId>a5e176b5-f39c-4ee0-b045-14ee7b165866</elementGuidId>
+   <elementGuidId>d89cf2dc-cacd-409d-b17b-17afa026471a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>0c599f77-a5f4-48c4-9609-3ef35d95d0d1</webElementGuid>
+      <webElementGuid>3a6afa71-c797-4a2d-bffc-dc9827fff1a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +30,15 @@
       <name>id</name>
       <type>Main</type>
       <value>photo_profile</value>
-      <webElementGuid>f12470e5-eeb4-4e64-81e6-20a7be24b765</webElementGuid>
+      <webElementGuid>77e98412-d308-45de-b04c-b5e0d9fb62b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>https://uat-dashboard.blicicil.com/assets/images/default.png</value>
-      <webElementGuid>769eafaf-b02f-4e74-ab8f-def841a15034</webElementGuid>
+      <value>https://blicicil.oss-ap-southeast-5.aliyuncs.com/stg/images/profile/63214ee364bd8a66633248a6/profile.png</value>
+      <webElementGuid>d8956064-2ca3-4ee6-b50e-5ec8356a2c63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>onerror</name>
       <type>Main</type>
       <value>this.onerror=null;this.src='https://uat-dashboard.blicicil.com/assets/images/default.png'</value>
-      <webElementGuid>78e87d1c-79f1-47b6-95b7-36ce3b081c4e</webElementGuid>
+      <webElementGuid>2da59a80-57db-4aab-9b26-073adcface3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;photo_profile&quot;)</value>
-      <webElementGuid>3c4e216b-23e4-4903-8958-90828be76afb</webElementGuid>
+      <webElementGuid>6bef205c-6b65-46a4-89c3-40b143a4e952</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,15 +62,15 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//img[@id='photo_profile']</value>
-      <webElementGuid>77c82f62-5dc1-4ade-baec-f5c4294caf2a</webElementGuid>
+      <webElementGuid>1fe48981-9772-41e9-900c-bb772030d32f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:img</name>
       <type>Main</type>
-      <value>//img[contains(@src,'https://uat-dashboard.blicicil.com/assets/images/default.png')]</value>
-      <webElementGuid>c660c7fe-c5b5-408e-8459-14b9f45f4571</webElementGuid>
+      <value>//img[contains(@src,'https://blicicil.oss-ap-southeast-5.aliyuncs.com/stg/images/profile/63214ee364bd8a66633248a6/profile.png')]</value>
+      <webElementGuid>fcea443a-0987-42ea-b79b-e3c1efb3b03b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,14 +78,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//img</value>
-      <webElementGuid>7cb9fa34-a585-4075-8a5f-028a1e268b87</webElementGuid>
+      <webElementGuid>51057342-c82f-4228-85bd-4d0f8d0b9037</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@id = 'photo_profile' and @src = 'https://uat-dashboard.blicicil.com/assets/images/default.png']</value>
-      <webElementGuid>1a91f9e4-fe22-4c23-b6d3-c14d227e251e</webElementGuid>
+      <value>//img[@id = 'photo_profile' and @src = 'https://blicicil.oss-ap-southeast-5.aliyuncs.com/stg/images/profile/63214ee364bd8a66633248a6/profile.png']</value>
+      <webElementGuid>36964476-ac28-416c-bac5-c5ef4f35906d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

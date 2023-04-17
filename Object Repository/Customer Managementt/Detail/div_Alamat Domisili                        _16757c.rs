@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Alamat Domisili                        _16757c</name>
    <tag></tag>
-   <elementGuidId>8a4fd30e-73c0-447d-974b-5ca8a45d2e20</elementGuidId>
+   <elementGuidId>93fe2297-58aa-43a7-a905-6677581af52e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>488762f1-14cd-4f78-a639-fa20bb3b3b73</webElementGuid>
+      <webElementGuid>dc8e8bd3-30fa-4ff7-aee7-7911553a8bc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-12 col-md-6 col-lg-6</value>
-      <webElementGuid>ecd29054-7456-451c-bea0-030efe437e38</webElementGuid>
+      <webElementGuid>6fb7764f-c239-4e4c-9eb8-b6226efc9735</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
                                         Tangerang
                                     
                                 </value>
-      <webElementGuid>3ebbc416-1293-4226-8b18-264d477bbb1e</webElementGuid>
+      <webElementGuid>d8301757-a642-40e1-b45d-53e78186d51c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pills-alamat&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col-md-6 col-lg-6&quot;]</value>
-      <webElementGuid>858100b0-39c1-4a56-919d-e0cf21d32fac</webElementGuid>
+      <webElementGuid>c8b57497-0c76-4a09-a2f4-ce15b65b3258</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pills-alamat']/div/div</value>
-      <webElementGuid>5bbed2cd-a541-4232-ba6c-afbdc64f48af</webElementGuid>
+      <webElementGuid>e182821c-ed88-4359-a3ea-8ffcdedbdae6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Identitas'])[1]/following::div[11]</value>
-      <webElementGuid>9a106d26-dfb7-491a-9ceb-e29a05b77b12</webElementGuid>
+      <webElementGuid>eccfdca7-269d-458e-a853-601879bc76f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Kontak'])[1]/following::div[11]</value>
-      <webElementGuid>f4c2de58-33aa-4802-8096-56c87d09b0da</webElementGuid>
+      <webElementGuid>61ad052a-a4df-4c7f-b6e6-8540ac411f86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=', All rights Reserved'])[1]/preceding::div[49]</value>
-      <webElementGuid>83de3871-420d-493f-bc5d-9d98f0bd043c</webElementGuid>
+      <webElementGuid>4180d06f-b769-41d9-8423-ba2ced9e9e3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div[2]/div/div[2]/div/div</value>
-      <webElementGuid>c42c5f79-c87f-4fbb-94e7-5a30fc35a1aa</webElementGuid>
+      <webElementGuid>45bed447-34bc-4d7c-9252-2557a17e4fe4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,6 +154,6 @@
                                         Tangerang
                                     
                                 ')]</value>
-      <webElementGuid>092c8189-72f4-4b61-aa20-e50197049dd9</webElementGuid>
+      <webElementGuid>6107cb70-c131-4891-8472-03d8d28ee9fe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

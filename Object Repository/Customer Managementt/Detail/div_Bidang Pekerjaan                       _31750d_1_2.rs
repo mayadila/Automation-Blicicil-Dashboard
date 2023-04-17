@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Bidang Pekerjaan                       _31750d_1_2</name>
    <tag></tag>
-   <elementGuidId>c64e6b91-2040-4be5-9dbd-57a4d5e947e2</elementGuidId>
+   <elementGuidId>b12ceba7-3335-4b99-8aa2-a26bae3006dc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>0759f257-8254-4c03-82fb-dd6afc4a0986</webElementGuid>
+      <webElementGuid>0d88f976-dad5-49ad-82c5-32497cd141a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-12 col-md-6 col-lg-6</value>
-      <webElementGuid>98dd6165-4c81-497a-b406-2d40af0f4454</webElementGuid>
+      <webElementGuid>6110637b-b149-4d33-b409-0aebf3203de6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,26 +50,26 @@
 
                                     
                                         Jabatan
-                                        staff
+                                        STAFF
                                     
 
                                     
                                         Penghasilan Bulanan
-                                        Rp 5.500.000
+                                        Rp 8.000.000
                                     
 
                                     
                                         Nama Perusahaan
-                                        pt karya tuban cemerlang
+                                        PT MEGA FINANCE
                                     
 
                                     
                                         Telepon Perusahaan
-                                        0218764944
+                                        02122777999
                                     
 
                                 </value>
-      <webElementGuid>62bb37da-cc99-4f54-89cd-00c0f9f43103</webElementGuid>
+      <webElementGuid>e8390608-9dbc-4495-ae9f-b1fbcd7eef3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pills-pekerjaan&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col-md-6 col-lg-6&quot;]</value>
-      <webElementGuid>5c10379e-4097-4803-a77e-776cda67f0b0</webElementGuid>
+      <webElementGuid>55d1530c-2272-4c47-a3f0-7f7459f979be</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pills-pekerjaan']/div/div</value>
-      <webElementGuid>13dcb985-bd3d-422e-abc9-bf9c0b2cac94</webElementGuid>
+      <webElementGuid>3590a73e-df93-40c6-b9a0-00c7ef2c7817</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Identitas'])[1]/following::div[23]</value>
-      <webElementGuid>71a3c350-1292-4dea-89f5-c0af11d2a999</webElementGuid>
+      <webElementGuid>1a193b11-5c82-49d2-83f3-b1b35f62f146</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Kontak'])[1]/following::div[23]</value>
-      <webElementGuid>fcf281bf-d5f3-43b5-b748-c7e18bed844a</webElementGuid>
+      <webElementGuid>52ab8860-1a27-43e7-8e7d-5a8abeedfcaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=', All rights Reserved'])[1]/preceding::div[37]</value>
-      <webElementGuid>2b724e05-3642-4664-94f4-0db325ec81ef</webElementGuid>
+      <webElementGuid>1e0f8a85-5783-482f-b662-a1754d41b8bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[3]/div/div</value>
-      <webElementGuid>f95132e4-3d31-4133-bb07-60aa368238d2</webElementGuid>
+      <webElementGuid>e3dca34c-1c6e-4d40-bec1-13a905c421ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,22 +137,22 @@
 
                                     
                                         Jabatan
-                                        staff
+                                        STAFF
                                     
 
                                     
                                         Penghasilan Bulanan
-                                        Rp 5.500.000
+                                        Rp 8.000.000
                                     
 
                                     
                                         Nama Perusahaan
-                                        pt karya tuban cemerlang
+                                        PT MEGA FINANCE
                                     
 
                                     
                                         Telepon Perusahaan
-                                        0218764944
+                                        02122777999
                                     
 
                                 ' or . = '
@@ -168,25 +168,25 @@
 
                                     
                                         Jabatan
-                                        staff
+                                        STAFF
                                     
 
                                     
                                         Penghasilan Bulanan
-                                        Rp 5.500.000
+                                        Rp 8.000.000
                                     
 
                                     
                                         Nama Perusahaan
-                                        pt karya tuban cemerlang
+                                        PT MEGA FINANCE
                                     
 
                                     
                                         Telepon Perusahaan
-                                        0218764944
+                                        02122777999
                                     
 
                                 ')]</value>
-      <webElementGuid>39abe769-8edc-4181-b45f-b02bcf95cdba</webElementGuid>
+      <webElementGuid>93bc79fe-4a4b-4138-8ebf-ab1d0785e368</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
