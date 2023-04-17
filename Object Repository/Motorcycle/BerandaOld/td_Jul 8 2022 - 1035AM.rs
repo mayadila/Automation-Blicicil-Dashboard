@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Jul 8 2022 - 1035AM</name>
+   <tag></tag>
+   <elementGuidId>8786ed69-bde9-4ee9-9232-b20c3077f689</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tbl-motorcycle']/tbody/tr[5]/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>22d51e8f-157c-4ad6-a48e-3c9342858aaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jul 8 2022 - 10:35AM</value>
+      <webElementGuid>7bcf6ba3-ad75-4a47-9efa-84450fc1fdc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tbl-motorcycle&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[1]</value>
+      <webElementGuid>d35a2086-e1a1-41cb-bdec-87aa793f1e74</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tbl-motorcycle']/tbody/tr[5]/td</value>
+      <webElementGuid>2e8c131c-4c95-4ec7-b9ba-528e6976931a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dibatalkan'])[4]/following::td[2]</value>
+      <webElementGuid>ae95d202-647a-4931-8bf5-1f80046f34f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[6]/following::td[4]</value>
+      <webElementGuid>41661787-0062-4e9d-b8fa-ca9f7ef110cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[7]/preceding::td[1]</value>
+      <webElementGuid>1942064d-632b-4da7-b412-1302299a18ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KURNIA RIADHI'])[1]/preceding::td[2]</value>
+      <webElementGuid>9319d6f4-f609-4c9f-b444-14784a12de7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Jul 8 2022 - 10:35AM']/parent::*</value>
+      <webElementGuid>44fafb3d-896c-46f8-bb11-ec727d00f7a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td</value>
+      <webElementGuid>79a272fc-2b0c-496b-87dc-fad106c4eec2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Jul 8 2022 - 10:35AM' or . = 'Jul 8 2022 - 10:35AM')]</value>
+      <webElementGuid>65717e49-d895-47db-8db7-312ce77d4b5a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

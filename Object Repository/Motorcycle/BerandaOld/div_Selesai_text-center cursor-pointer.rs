@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Selesai_text-center cursor-pointer</name>
+   <tag></tag>
+   <elementGuidId>bffb9603-0b58-4f0a-b2ad-b279b869fcf9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-center.cursor-pointer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tbl-motorcycle']/tbody/tr/td[7]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a5cd0e40-46f2-4fbd-9b8f-2d86a080d168</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-center cursor-pointer</value>
+      <webElementGuid>c0fbcf24-4659-4b59-ada9-270f4dc685ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tbl-motorcycle&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;dt-control&quot;]/div[@class=&quot;text-center cursor-pointer&quot;]</value>
+      <webElementGuid>b127b21d-d7b0-4dee-80b2-883554af5e07</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tbl-motorcycle']/tbody/tr/td[7]/div</value>
+      <webElementGuid>41f1aa3f-838b-4250-a0f6-b3cc86609dad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selesai'])[2]/following::div[1]</value>
+      <webElementGuid>232de155-428b-400c-ae5d-c8a320abcfb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BGRCC00415'])[1]/following::div[2]</value>
+      <webElementGuid>c2e5476c-9dc6-4e0e-b68e-67279294a63d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='May 25 2022 - 9:44AM'])[1]/preceding::div[1]</value>
+      <webElementGuid>fc43ed21-098c-48d2-9dfb-802cc732a3e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[2]/preceding::div[1]</value>
+      <webElementGuid>59feca1f-6f55-4341-afae-1b47d32df152</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[7]/div</value>
+      <webElementGuid>d2bd0821-c996-4c67-af05-78f8906c6813</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_MUHAMMAD ARDIKA</name>
+   <tag></tag>
+   <elementGuidId>d2858f86-7ac7-4152-9999-9bb8c252251c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(3)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tbl-motorcycle']/tbody/tr/td[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>1af892ef-ae95-4508-8c99-5c1d568b915b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MUHAMMAD ARDIKA</value>
+      <webElementGuid>aadbcdf6-d2e6-4feb-b1e6-aa3eab9d8818</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tbl-motorcycle&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[3]</value>
+      <webElementGuid>b64d4d36-6df7-4494-916f-ca809ec6ca53</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tbl-motorcycle']/tbody/tr/td[3]</value>
+      <webElementGuid>406feb12-1fb0-4fac-b370-9cdde900adec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::td[1]</value>
+      <webElementGuid>6e0f98d6-a523-416b-9b15-2d35c5928b30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jan 15 2022 - 3:47PM'])[1]/following::td[2]</value>
+      <webElementGuid>055815aa-0012-405b-bb5d-cf94b41599f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[2]/preceding::td[1]</value>
+      <webElementGuid>dda0ec4b-5c45-4673-aa99-231de3e4f066</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proses'])[2]/preceding::td[3]</value>
+      <webElementGuid>f6de1d2d-0f71-40ae-b1a2-10b350c7927c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='MUHAMMAD ARDIKA']/parent::*</value>
+      <webElementGuid>be79cc34-ff8c-4afd-9769-c9cf4a5913ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]</value>
+      <webElementGuid>dad7bc99-1fcb-467f-a208-6dae45eed175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'MUHAMMAD ARDIKA' or . = 'MUHAMMAD ARDIKA')]</value>
+      <webElementGuid>9e06ec4f-2ef7-4c99-9e79-cd33426e2027</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

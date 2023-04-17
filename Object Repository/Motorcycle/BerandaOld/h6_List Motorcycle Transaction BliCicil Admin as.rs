@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_List Motorcycle Transaction BliCicil Admin as</name>
+   <tag></tag>
+   <elementGuidId>178ff93c-ed15-4710-bde9-c8db552c26fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h6.mb-0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='complex-header-datatable']/div/div/div/div/div/h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>ae987d70-3d03-4945-9804-1ff08275b148</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-0</value>
+      <webElementGuid>76a822dc-4791-428a-84c2-3ea2708475f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>List Motorcycle Transaction BliCicil Admin as</value>
+      <webElementGuid>44c1fc9f-2a57-4f45-84e3-eda433cae082</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;complex-header-datatable&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header border-bottom p-1&quot;]/div[@class=&quot;head-label&quot;]/h6[@class=&quot;mb-0&quot;]</value>
+      <webElementGuid>fdf91000-28de-40a0-ba61-35408287b6af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='complex-header-datatable']/div/div/div/div/div/h6</value>
+      <webElementGuid>8d3633dc-2cf6-469e-831f-3274e43c0e33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Motorcycle'])[2]/following::h6[1]</value>
+      <webElementGuid>fb30ab7e-812d-4386-adec-a3d3f351e3fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::h6[1]</value>
+      <webElementGuid>f8e0be54-3c71-4606-8d8e-be835bd9eaca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search:'])[1]/preceding::h6[1]</value>
+      <webElementGuid>394c3e08-6425-4b10-b146-f547f3172935</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Date &amp; Time'])[1]/preceding::h6[1]</value>
+      <webElementGuid>2366db87-9078-4cb6-8011-3506c7a3a32b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='List Motorcycle Transaction BliCicil Admin as']/parent::*</value>
+      <webElementGuid>6595d04f-c781-47f3-aeb0-fa4d6bc4bf8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h6</value>
+      <webElementGuid>80e19380-0631-4894-8add-c6a677ecaabc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'List Motorcycle Transaction BliCicil Admin as' or . = 'List Motorcycle Transaction BliCicil Admin as')]</value>
+      <webElementGuid>eab79bd7-c3cc-4358-b808-8cd2d99b88e9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
