@@ -17,3 +17,53 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Membuka Chrome'
+WebUI.openBrowser('')
+
+'Membuka halaman login'
+WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
+
+'Menginputkan email valid'
+WebUI.setText(findTestObject('Object Repository/Login-Logout/Login Failed/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+
+'Menginputkan password invalid'
+WebUI.setEncryptedText(findTestObject('Object Repository/Login-Logout/Login Failed/input_Password_password'), 'zXiMgA/AYuq9JeP8OALDyA==')
+
+'Mengklik ikon mata untuk menampilkan password yang di masking'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Login Sukses/span_Password_input-group-text cursor-pointer'))
+
+'Mengklik ikon mata untuk menutup password menjadi masking'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Login Sukses/span_Password_input-group-text cursor-pointer'))
+
+'Mengklik button login'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Login Failed/button_Login'))
+
+'Menampilkan popup "nvalid Email or Password"'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Login Failed/div_ErrorInvalid Email or PasswordOKNoCancel'))
+
+WebUI.waitForAngularLoad(30)
+
+'Menghapus inputan email lama'
+WebUI.clearText(findTestObject('Object Repository/Login-Logout/Login Failed/input_Email_email'))
+
+'Menghapus inputan password lama'
+WebUI.clearText(findTestObject('Object Repository/Login-Logout/Login Failed/input_Password_password'))
+
+'Menginputkan email invalid'
+WebUI.setText(findTestObject('Object Repository/Login-Logout/Login Failed/input_Email_email'), 'evamayadila@megafinance.com')
+
+'Mengklik password valid'
+WebUI.setEncryptedText(findTestObject('Object Repository/Login-Logout/Login Failed/input_Password_password'), 'aeHFOx8jV/A=')
+
+'Mengklik ikon mata untuk menampilkan password yang di masking'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Login Sukses/span_Password_input-group-text cursor-pointer'))
+
+'Mengklik ikon mata untuk menutup password menjadi masking'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Login Sukses/span_Password_input-group-text cursor-pointer'))
+
+'Mengklik button login'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Login Failed/button_Login'))
+
+'Menampilkan popup "nvalid Email or Password"'
+WebUI.click(findTestObject('Object Repository/Login-Logout/Login Failed/div_ErrorAccount is not existOKNoCancel'))
+
