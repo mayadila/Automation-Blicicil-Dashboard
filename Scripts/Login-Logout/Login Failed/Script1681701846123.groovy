@@ -67,3 +67,9 @@ WebUI.click(findTestObject('Object Repository/Login-Logout/Login Failed/button_L
 'Menampilkan popup "nvalid Email or Password"'
 WebUI.click(findTestObject('Object Repository/Login-Logout/Login Failed/div_ErrorAccount is not existOKNoCancel'))
 
+'Menghapus inputan email lama'
+WebUI.clearText(findTestObject('Object Repository/Login-Logout/Login Failed/input_Email_email'))
+
+'Menghapus inputan password lama'
+WebUI.clearText(findTestObject('Object Repository/Login-Logout/Login Failed/input_Password_password'))
+

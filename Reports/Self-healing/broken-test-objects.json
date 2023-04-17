@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Customer Managementt/Beranda/a_Next",
+      "brokenLocator": "//ul[@id\u003d\u0027pagination-demo\u0027]/li[10]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Next\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Customer Managementt/Beranda/a_Next_link.png"
+    }
+  ]
 }
