@@ -5,9 +5,21 @@
 # Container Scanning customization: https://docs.gitlab.com/ee/user/application_security/container_scanning/#customizing-the-container-scanning-settings
 # Note that environment variables can be set in several places
 # See https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence
+# Requirements
+# A Katalon Studio project with the content saved in the root repository folder. If the project is under another location, you need to update KATALON_PROJECT_DIR with the corresponding value in the variable section
+# An active KRE license
+# A valid Katalon API key, which is stored as KATALON_API_KEY in Settings/CI/CD/Variables
 stages:
 - test
 sast:
   stage: test
+  script:
+    - katalonc.sh -projectPath=$KATALON_PROJECT_DIR -apiKey=$KATALON_API_KEY -browserType="Chrome" -retry=0 -statusDelay=20 -testSuitePath="Test Suites/TS_RegressionTest" 
 include:
 - template: Security/SAST.gitlab-ci.yml
+image: 'katalonstudio/katalon' # Use the latest version of Katalon Runtime Engine. We can also use other versions of Katalon Runtime Engine by specifying another tag, such as `katalonstudio/katalon:8.6.0`
+services:
+  - docker:dind
+variables:
+  # Specify Katalon Studio project directory. By default, it is stored under the root project folder.
+  KATALON_PROJECT_DIR: $CI_PROJECT_DIR
