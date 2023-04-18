@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Selesai</name>
+   <tag></tag>
+   <elementGuidId>12e02bfa-48af-4104-b30f-a6672401b6cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='dashboard-ecommerce']/div/div/div/div/div/div[6]/a/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>80108c29-3bc2-4da5-9f1a-fe3319fc0051</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-text font-small-3 mb-0</value>
+      <webElementGuid>0cff3187-4b15-44f5-ae46-a210f626e746</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Selesai</value>
+      <webElementGuid>2fdbf40c-aec1-4717-bf39-a6ee03daa41f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard-ecommerce&quot;)/div[@class=&quot;row match-height&quot;]/div[@class=&quot;col-xl-12 col-md-12 col-12&quot;]/div[@class=&quot;card card-statistics&quot;]/div[@class=&quot;card-body statistics-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-2 col-sm-6 col-12 mb-2 mb-sm-0&quot;]/a[1]/div[@class=&quot;media&quot;]/div[@class=&quot;media-body my-auto&quot;]/p[@class=&quot;card-text font-small-3 mb-0&quot;]</value>
+      <webElementGuid>b2acd670-cdcd-47b8-b115-7bac4552d6c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='dashboard-ecommerce']/div/div/div/div/div/div[6]/a/div/div[2]/p</value>
+      <webElementGuid>5f7d089b-3ece-4545-bf64-c39752c01a90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products Status'])[2]/following::p[6]</value>
+      <webElementGuid>0036f367-a14f-4ca4-8762-8a5bd7f141b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::p[6]</value>
+      <webElementGuid>bfeabb72-f97d-4782-98b9-e7a1a1421c7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List Products Status BliCicil Admin as'])[1]/preceding::p[1]</value>
+      <webElementGuid>93ff8d61-2ff8-4e8b-be65-c6c89fffbcd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export to Excel'])[1]/preceding::p[1]</value>
+      <webElementGuid>0fe76778-6912-4284-add8-f5e87381dc80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Selesai']/parent::*</value>
+      <webElementGuid>bfe19019-f077-4b47-aa1a-ddf2154ebc0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/a/div/div[2]/p</value>
+      <webElementGuid>9d5d8ab7-a9a2-4ed2-a9ad-9d954d732279</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Selesai' or . = 'Selesai')]</value>
+      <webElementGuid>e8cac174-9ffd-4145-a13c-0bd4c9033c80</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

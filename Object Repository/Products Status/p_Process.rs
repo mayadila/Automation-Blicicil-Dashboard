@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Process</name>
+   <tag></tag>
+   <elementGuidId>d6afba2f-8331-424b-8855-7f81d52be1d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.card-text.font-small-3.mb-0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='dashboard-ecommerce']/div/div/div/div/div/div/a/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>5038dfc5-60f4-4cda-a888-b0bc354a05f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-text font-small-3 mb-0</value>
+      <webElementGuid>08cc2359-216e-41ca-8dc6-01e908744434</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Process</value>
+      <webElementGuid>a285fffe-8d5b-4037-a22f-e54858f55dc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard-ecommerce&quot;)/div[@class=&quot;row match-height&quot;]/div[@class=&quot;col-xl-12 col-md-12 col-12&quot;]/div[@class=&quot;card card-statistics&quot;]/div[@class=&quot;card-body statistics-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-2 col-sm-6 col-12&quot;]/a[1]/div[@class=&quot;media&quot;]/div[@class=&quot;media-body my-auto&quot;]/p[@class=&quot;card-text font-small-3 mb-0&quot;]</value>
+      <webElementGuid>9e1a32cc-415e-452c-8353-146c2a5a6804</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='dashboard-ecommerce']/div/div/div/div/div/div/a/div/div[2]/p</value>
+      <webElementGuid>bd874975-24eb-4d76-9a47-d52315057cf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products Status'])[2]/following::p[1]</value>
+      <webElementGuid>5a05188c-a37b-46d6-95da-5c81a000187a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::p[1]</value>
+      <webElementGuid>8246588b-caa7-4b60-9e47-0f0af715456b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List Products Status BliCicil Admin as'])[1]/preceding::p[6]</value>
+      <webElementGuid>945882ff-36fb-430c-8ba9-f772a9d52484</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export to Excel'])[1]/preceding::p[6]</value>
+      <webElementGuid>45b055a1-0ef5-4274-a538-1aa0ed137087</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Process']/parent::*</value>
+      <webElementGuid>d7a61faa-996d-45f6-a81a-44fc01ff31d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>ac0b45b2-1b66-4aed-983a-49261b3ce469</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Process' or . = 'Process')]</value>
+      <webElementGuid>87c828b3-fee1-401a-9759-662dbb50b683</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

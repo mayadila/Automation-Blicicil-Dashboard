@@ -101,3 +101,5 @@ WebUI.getText(findTestObject('Object Repository/Motorcycle/Beranda/div_Transacti
 'Mengklik button Next Page'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/a_Next'))
 
+WebUI.refresh()
+
