@@ -66,9 +66,8 @@ WebUI.setText(findTestObject('Object Repository/Motorcycle/Searching/input_List 
 WebUI.sendKeys(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _ec3f45'), 
     Keys.chord(Keys.ENTER))
 
-'Menghapus inputan'
-WebUI.setText(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _ec3f45'), 
-    '')
+'Merefresh halaman list motorcycle'
+WebUI.refresh()
 
 'Mengklik Date Range'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _539eaf'))
@@ -124,6 +123,9 @@ WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/input_List Mo
 'Mengklik button clear'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/button_Clear'))
 
+'Merefresh halaman list motorcycle'
+WebUI.refresh()
+
 'Mengklik dropdown status pengajuan'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching/select_Status                              _ebcc15'), 
     'Selesai', true)
@@ -147,4 +149,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching
 'Mengklik dropdown status pengajuan'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching/select_Status                              _ebcc15'), 
     'Dibatalkan', true)
+
+'Merefresh halaman list motorcycle'
+WebUI.refresh()
 

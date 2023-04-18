@@ -302,3 +302,5 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_
 'Mengklik breadcumb customer management untuk kembali ke halaman customer management'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Customer Management'))
 
+WebUI.refresh()
+

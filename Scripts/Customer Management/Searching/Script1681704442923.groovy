@@ -59,3 +59,5 @@ WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching/i
 'Menekan tombol enter di kolom pencarian'
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching/input_Cari_filterSearch'), Keys.chord(Keys.ENTER))
 
+WebUI.refresh()
+
