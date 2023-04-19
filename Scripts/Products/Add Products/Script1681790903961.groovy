@@ -17,3 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
+
+WebUI.setText(findTestObject('Object Repository/Products/Add Products/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Products/Add Products/input_Password_password'), 'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('Object Repository/Products/Add Products/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/Products/Add Products/a_Products'))
+
+WebUI.click(findTestObject('Object Repository/Products/Add Products/span_New Product'))
+
+WebUI.getText(findTestObject('Object Repository/Products/Add Products/div_Add Product BliCicil Admin as'))
+
+WebUI.click(findTestObject('Object Repository/Products/Add Products/input_Product Name_txtProductName'))
+
+WebUI.setText(findTestObject('Object Repository/Products/Add Products/input_Product Name_txtProductName'), 'tesss')
+
+WebUI.setText(findTestObject('Object Repository/Products/Add Products/input_Product Slug_txtProductSlug'), 'tesss-1')
+
+WebUI.setText(findTestObject('Object Repository/Products/Add Products/input_Product Desc_txtProductDesc'), 'testings')
+
+WebUI.sendKeys(findTestObject('Products/Add Products/input_( 40 x 40 px )_txtProductImage'), 'C:/Users/202102359/Pictures/Dashboard/products.png')
+
+FilePath = WebUI.getAttribute(findTestObject('Products/Add Products/input_( 40 x 40 px )_txtProductImage'), 'value')
+
+WebUI.verifyMatch(FilePath, 'C:/Users/202102359/Pictures/Dashboard/Matched Elements/products.jpg', false)
+
+WebUI.click(findTestObject('Object Repository/Products/Add Products/button_Submit'))
+
+WebUI.click(findTestObject('Object Repository/Products/Add Products/div_SuccessOKNoCancel'))
+
