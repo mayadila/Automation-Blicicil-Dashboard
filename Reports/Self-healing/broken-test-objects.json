@@ -169,6 +169,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Products/Add Products/input_Product Image_txtProductImage_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Beranda/button_Unpublish",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Andre Pabertiyan\u0027])[1]/following::div[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type\u003d\u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Beranda/button_Unpublish_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Beranda/button_Yes",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[10]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027this data\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Beranda/button_Yes_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Beranda/button_No",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[12]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027No\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Beranda/button_No_neighbor.png"
     }
   ]
 }
