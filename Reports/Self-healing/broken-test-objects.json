@@ -139,6 +139,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Products/Beranda/button_Yes_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Products/Add Products/input_Product Name_txtProductImage",
+      "brokenLocator": "../../Pictures/Dashboard/products.png",
+      "brokenLocatorMethod": "IMAGE",
+      "proposedLocator": "//input[@id\u003d\u0027txtProductImage\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Products/Add Products/input_Product Name_txtProductImage_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Products/Add Products/input_Product_txtProductImage",
+      "brokenLocator": "../../Pictures/Dashboard/products.png",
+      "brokenLocatorMethod": "IMAGE",
+      "proposedLocator": "//input[@id\u003d\u0027txtProductImage\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Products/Add Products/input_Product_txtProductImage_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Products/Add Products/input_Product Image_txtProductImage",
+      "brokenLocator": "id(\"txtProductImage\")[count(. | //input[@type \u003d \u0027file\u0027 and @id \u003d \u0027txtProductImage\u0027 and @class \u003d \u0027custom-file\u0027 and @name \u003d \u0027txtProductImage\u0027 and @onclick \u003d concat(\"onFileChange(\" , \"\u0027\" , \"txtProductImage\" , \"\u0027\" , \", \" , \"\u0027\" , \"ProductImage\" , \"\u0027\" , \", 40, 40)\") and @placeholder \u003d \u0027Choose file\u0027]) \u003d count(//input[@type \u003d \u0027file\u0027 and @id \u003d \u0027txtProductImage\u0027 and @class \u003d \u0027custom-file\u0027 and @name \u003d \u0027txtProductImage\u0027 and @onclick \u003d concat(\"onFileChange(\" , \"\u0027\" , \"txtProductImage\" , \"\u0027\" , \", \" , \"\u0027\" , \"ProductImage\" , \"\u0027\" , \", 40, 40)\") and @placeholder \u003d \u0027Choose file\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027txtProductImage\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Products/Add Products/input_Product Image_txtProductImage_XPATH.png"
     }
   ]
 }

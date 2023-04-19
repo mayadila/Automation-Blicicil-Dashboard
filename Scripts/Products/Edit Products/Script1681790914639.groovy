@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
+
+WebUI.setText(findTestObject('Object Repository/Products/Edit Products/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Products/Edit Products/input_Password_password'), 'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('Object Repository/Products/Edit Products/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/Products/Edit Products/a_Products'))
+
+WebUI.click(findTestObject('Object Repository/Products/Edit Products/a_Edit'))
+
+WebUI.setText(findTestObject('Object Repository/Products/Edit Products/input_Product Name_txtProductName'), 'Hari ini tes')
+
+WebUI.setText(findTestObject('Object Repository/Products/Edit Products/input_Product Slug_txtProductSlug'), 'hari-ini-tes-1')
+
+WebUI.setText(findTestObject('Object Repository/Products/Edit Products/input_Product Desc_txtProductDesc'), 'hari ini tes')
+
+WebUI.uploadFile(findTestObject('Object Repository/Products/Edit Products/input_( 40 x 40 px )_txtProductImage'), 'C:\\Users\\202102359\\Pictures\\Dashboard]images.jpg')
+
+WebUI.click(findTestObject('Object Repository/Products/Edit Products/button_Submit'))
+
+WebUI.click(findTestObject('Object Repository/Products/Edit Products/div_SuccessOKNoCancel'))
+

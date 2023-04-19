@@ -20,6 +20,8 @@ import org.openqa.selenium.Keys as Keys
 'Membuka Chrome'
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 'Membuka halaman login'
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
