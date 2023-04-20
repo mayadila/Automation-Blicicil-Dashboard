@@ -199,6 +199,45 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Beranda/button_No_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Edit FAQ/html_Rich Text Editor, txaContenthtmlcursor_9a4d58",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//html",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Edit FAQ/html_Rich Text Editor, txaContenthtmlcursor_9a4d58_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Edit FAQ/p_testing ya",
+      "brokenLocator": "//p[@ref_element \u003d \u0027Object Repository/FAQS/Edit FAQ/iframe_Press ALT 0 for help_cke_wysiwyg_fra_043255\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027/html[1]\u0027])[1]/preceding::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Edit FAQ/p_testing ya_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Edit FAQ/input_Judul_txtProductName",
+      "brokenLocator": "//input[@id\u003d\u0027txtProductName\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Edit FAQ/input_Judul_txtProductName_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Edit FAQ/p_yayaaaa",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027/html[1]\u0027])[1]/preceding::p[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Edit FAQ/p_yayaaaa_position.png"
     }
   ]
 }
