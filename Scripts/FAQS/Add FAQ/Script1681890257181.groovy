@@ -17,3 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
+
+WebUI.setText(findTestObject('Object Repository/FAQS/Add FAQ/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/FAQS/Add FAQ/input_Password_password'), 'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('Object Repository/FAQS/Add FAQ/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/FAQS/Add FAQ/span_FAQ'))
+
+WebUI.click(findTestObject('Object Repository/FAQS/Add FAQ/svg_List FAQs BliCicil Admin as_feather fea_37b714'))
+
+WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ/div_Add FAQs BliCicil Admin as'))
+
+WebUI.setText(findTestObject('Object Repository/FAQS/Add FAQ/input_Judul_txtProductName'), 'Testing QA h')
+
+def deskripsi = 'testing aja'
+
+WebUI.setText(findTestObject('FAQS/Add FAQ/p'), deskripsi)
+
+WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ/div_Detail FAQs'))
+
+WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ/th_Release Date'))
+
+WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ/th_Author'))
+
+WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ/th_Views'))
+
+WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ/th_Last Update'))
+
+WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ/th_Status'))
+
+WebUI.click(findTestObject('Object Repository/FAQS/Add FAQ/button_Submit'))
+
+WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ/div_SuccessOKNoCancel'))
+

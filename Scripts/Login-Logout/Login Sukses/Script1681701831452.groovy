@@ -40,5 +40,3 @@ WebUI.click(findTestObject('Object Repository/Login-Logout/Login Sukses/span_Pas
 'Mengklik button login'
 WebUI.click(findTestObject('Object Repository/Login-Logout/Login Sukses/button_Login'))
 
-WebUI.waitForAngularLoad(30)
-

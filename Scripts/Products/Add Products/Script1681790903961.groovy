@@ -41,6 +41,8 @@ WebUI.setText(findTestObject('Object Repository/Products/Add Products/input_Prod
 
 WebUI.setText(findTestObject('Object Repository/Products/Add Products/input_Product Desc_txtProductDesc'), 'testings')
 
+WebUI.uploadFile(findTestObject('Products/Add Products/input_( 40 x 40 px )_txtProductImage'), 'C:/Users/202102359/Pictures/Dashboard/products.png')
+
 WebUI.sendKeys(findTestObject('Products/Add Products/input_( 40 x 40 px )_txtProductImage'), 'C:/Users/202102359/Pictures/Dashboard/products.png')
 
 FilePath = WebUI.getAttribute(findTestObject('Products/Add Products/input_( 40 x 40 px )_txtProductImage'), 'value')
