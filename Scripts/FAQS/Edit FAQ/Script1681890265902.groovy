@@ -17,41 +17,63 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Membuka Chrome'
 WebUI.openBrowser('')
 
+'Mazimize Windows Chrome'
+WebUI.maximizeWindow()
+
+'Membuka halaman login'
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
+'Menginputkan email valid'
 WebUI.setText(findTestObject('Object Repository/FAQS/Edit FAQ/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
+'Menginputkan password valid'
 WebUI.setEncryptedText(findTestObject('Object Repository/FAQS/Edit FAQ/input_Password_password'), 'aeHFOx8jV/A=')
 
+'Mengklik button Login'
 WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ/button_Login'))
 
+'Mengklik menu FAQ'
 WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ/span_FAQ'))
 
+'Mengklik button number page'
 WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ/a_3'))
 
+'Mengklik button edit pada salah satu list kontent FAQ'
 WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ/a_Edit'))
 
+'Membuka halaman edit FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Edit FAQ/div_Edit FAQs BliCicil Admin as'))
 
+'Mengganti isi Judul FAQ'
 WebUI.setText(findTestObject('Object Repository/FAQS/Edit FAQ/input_Judul_txtProductName'), 'Yayayayaya')
 
-WebUI.setText(findTestObject('FAQS/Edit FAQ/p_yayaaaa'), 'Diganti ya')
+'Meengganti / menambahkan isi deskripsi FAQ'
+WebUI.setText(findTestObject('FAQS/Edit FAQ/p_yayaaaa'), 'Ohghh ')
 
+'Disamping kanan ada kolom untuk Detail FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Edit FAQ/div_Detail FAQs'))
 
+'Kolom detail FAQ berisi : Release Date Konten FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Edit FAQ/th_Release Date'))
 
+'Kolom detail FAQ berisi : Author Konten FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Edit FAQ/th_Author'))
 
+'Kolom detail FAQ berisi :  Views Konten FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Edit FAQ/th_Views'))
 
+'Kolom detail FAQ berisi :  Last Update Konten FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Edit FAQ/th_Last Update'))
 
+'Kolom detail FAQ berisi :  Status Konten FAQ [Publish / Unpublish]'
 WebUI.getText(findTestObject('Object Repository/FAQS/Edit FAQ/th_Status'))
 
+'Mengklik button submit untuk menyimpan perubahan konten FAQ'
 WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ/span_Submit'))
 
+'Menampilkan popup Sukses untuk menyimpan'
 WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ/div_SuccessOKNoCancel'))
 
