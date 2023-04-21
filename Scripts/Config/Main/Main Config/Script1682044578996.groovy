@@ -17,26 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Membuka Chrome'
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-'Membuka halaman login'
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
-'Menginputkan email valid'
-WebUI.setText(findTestObject('Object Repository/Login-Logout/Login Sukses/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+WebUI.setText(findTestObject('Object Repository/Config/Main/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
-'Menginputkan password valid'
-WebUI.setEncryptedText(findTestObject('Object Repository/Login-Logout/Login Sukses/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Config/Main/input_Password_password'), 'aeHFOx8jV/A=')
 
-'Mengklik ikon mata untuk menampilkan password yang di masking'
-WebUI.click(findTestObject('Object Repository/Login-Logout/Login Sukses/span_Password_input-group-text cursor-pointer'))
+WebUI.click(findTestObject('Object Repository/Config/Main/button_Login'))
 
-'Mengklik ikon mata untuk menutup password menjadi masking'
-WebUI.click(findTestObject('Object Repository/Login-Logout/Login Sukses/span_Password_input-group-text cursor-pointer'))
+WebUI.click(findTestObject('Object Repository/Config/Main/a_Config'))
 
-'Mengklik button login'
-WebUI.click(findTestObject('Object Repository/Login-Logout/Login Sukses/button_Login'))
+WebUI.click(findTestObject('Object Repository/Config/Main/a_Main Config'))
+
+WebUI.getText(findTestObject('Object Repository/Config/Main/div_Main Config BliCicil Admin as          _9d871c'))
+
+WebUI.getText(findTestObject('Object Repository/Config/Main/th_Config'))
+
+WebUI.getText(findTestObject('Object Repository/Config/Main/th_Param'))
+
+WebUI.getText(findTestObject('Object Repository/Config/Main/th_Desc'))
+
+WebUI.getText(findTestObject('Object Repository/Config/Main/th_Value'))
+
+WebUI.getText(findTestObject('Object Repository/Config/Main/td_Email'))
+
+WebUI.getText(findTestObject('Object Repository/Config/Main/td_Hotline'))
+
+WebUI.setText(findTestObject('Object Repository/Config/Main/input_Email BliCicil_email'), 'blicicil@megafinance.co.id')
+
+WebUI.setText(findTestObject('Object Repository/Config/Main/input_Hotline BliCicil_hotline'), '(021) 72800818')
+
+WebUI.click(findTestObject('Object Repository/Config/Main/span_Save'))
+
+WebUI.click(findTestObject('null'))
 

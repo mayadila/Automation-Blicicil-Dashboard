@@ -169,6 +169,75 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Products/Add Products/input_Product Image_txtProductImage_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Beranda/button_Unpublish",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Andre Pabertiyan\u0027])[1]/following::div[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type\u003d\u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Beranda/button_Unpublish_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Beranda/button_Yes",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[10]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027this data\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Beranda/button_Yes_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Beranda/button_No",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[12]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027No\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Beranda/button_No_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Edit FAQ/html_Rich Text Editor, txaContenthtmlcursor_9a4d58",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//html",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Edit FAQ/html_Rich Text Editor, txaContenthtmlcursor_9a4d58_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Edit FAQ/p_testing ya",
+      "brokenLocator": "//p[@ref_element \u003d \u0027Object Repository/FAQS/Edit FAQ/iframe_Press ALT 0 for help_cke_wysiwyg_fra_043255\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027/html[1]\u0027])[1]/preceding::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Edit FAQ/p_testing ya_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Edit FAQ/input_Judul_txtProductName",
+      "brokenLocator": "//input[@id\u003d\u0027txtProductName\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Edit FAQ/input_Judul_txtProductName_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Edit FAQ/p_yayaaaa",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027/html[1]\u0027])[1]/preceding::p[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Edit FAQ/p_yayaaaa_position.png"
     }
   ]
 }
