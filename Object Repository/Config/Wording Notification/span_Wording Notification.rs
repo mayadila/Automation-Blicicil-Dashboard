@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_FAQ</name>
+   <name>span_Wording Notification</name>
    <tag></tag>
-   <elementGuidId>4475a1fe-96a7-4344-8339-cf4bfff07288</elementGuidId>
+   <elementGuidId>09b36e12-05e9-483b-8f00-86708ef06d7c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='main-menu-navigation']/li[9]/a/span</value>
+         <value>//ul[@id='main-menu-navigation']/li[10]/ul/li[3]/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,102 +22,102 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>b514d07b-3151-4029-a66a-a61514f6aab8</webElementGuid>
+      <webElementGuid>c844c3f1-448e-4384-8cd8-faeeff46686a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menu-title text-truncate</value>
-      <webElementGuid>112d6d3b-e84c-45e4-8d29-94c38dbf9b24</webElementGuid>
+      <value>menu-item</value>
+      <webElementGuid>5efa9223-3e06-4b2a-b683-0da61c1191d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-i18n</name>
       <type>Main</type>
-      <value>Dashboards</value>
-      <webElementGuid>87647772-4b89-4761-b9fe-6f4ed66b284a</webElementGuid>
+      <value>LoginV1</value>
+      <webElementGuid>ddfab6b8-48ac-43ee-b7cd-7d20a2a90e3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>FAQ</value>
-      <webElementGuid>1db2d83c-1567-483f-85bf-c3e9455a8bf7</webElementGuid>
+      <value>Wording Notification</value>
+      <webElementGuid>c2d4e827-8046-4efe-9f2f-09bad8364ce5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]/span[@class=&quot;menu-title text-truncate&quot;]</value>
-      <webElementGuid>bebd9837-7b3f-48d7-b26b-ef8a70c3fa16</webElementGuid>
+      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub open&quot;]/ul[@class=&quot;menu-content&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]/span[@class=&quot;menu-item&quot;]</value>
+      <webElementGuid>6a6f5e4d-aece-4938-8876-c94b6c0913b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='main-menu-navigation']/li[9]/a/span</value>
-      <webElementGuid>a15bed83-d36c-49e7-a6ea-9d485339b0a1</webElementGuid>
+      <value>//ul[@id='main-menu-navigation']/li[10]/ul/li[3]/a/span</value>
+      <webElementGuid>d824c598-8a37-4612-a6bc-c56df95185b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Special Offers'])[1]/following::span[1]</value>
-      <webElementGuid>474e9a1f-fd43-4aef-a01f-b968193e57a8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Config'])[1]/following::span[1]</value>
+      <webElementGuid>db49f862-0e04-46b4-a464-7f6ecd14ba24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='News'])[1]/following::span[2]</value>
-      <webElementGuid>3d0e2bfd-3d7a-4235-9884-4d0d99a22131</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administrator'])[2]/following::span[2]</value>
+      <webElementGuid>df2c42e0-de37-42d0-a176-e74787722ae8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Config'])[1]/preceding::span[1]</value>
-      <webElementGuid>f3d22603-dcc0-495e-9f02-36344d759a95</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recent transaction'])[1]/preceding::span[1]</value>
+      <webElementGuid>f5b19f8f-a8a2-4732-8c5d-4eca8973303e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administrator'])[2]/preceding::span[2]</value>
-      <webElementGuid>da8f894b-4213-4185-b7d0-3e633a049dde</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total amount transacted'])[1]/preceding::span[1]</value>
+      <webElementGuid>28ddf75b-df48-4fd3-aae7-cba289ad8b45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='FAQ']/parent::*</value>
-      <webElementGuid>bf12575d-b6be-4e08-8da4-dd0e54eb5308</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Wording Notification']/parent::*</value>
+      <webElementGuid>a047dc08-76ac-408b-9ff9-b9c2b8e303a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[9]/a/span</value>
-      <webElementGuid>68154a5a-ea61-4d32-9732-2681646c7ba4</webElementGuid>
+      <value>//li[10]/ul/li[3]/a/span</value>
+      <webElementGuid>a55a7daf-d72e-486c-b936-4ec2523cb290</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'FAQ' or . = 'FAQ')]</value>
-      <webElementGuid>e48d5525-7f93-4ba7-afc3-9c649a9947f3</webElementGuid>
+      <value>//span[(text() = 'Wording Notification' or . = 'Wording Notification')]</value>
+      <webElementGuid>3939a263-0932-4328-a5e1-c595f59b0421</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

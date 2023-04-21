@@ -16,115 +16,109 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
-'Membuka chrome'
 WebUI.openBrowser('')
 
-'Maximize Window'
-WebUI.maximizeWindow()
-
-'Membuka halaman login'
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
-'Menginputkan email valid'
 WebUI.setText(findTestObject('Object Repository/FAQS/Beranda/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
-'Menginputkan password valid'
 WebUI.setEncryptedText(findTestObject('Object Repository/FAQS/Beranda/input_Password_password'), 'aeHFOx8jV/A=')
 
-'Mengklik button login'
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Login'))
 
-'Mengklik menu FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda/span_FAQ'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/a_FAQ'))
 
-'Membuka halaman List FAQ Blicicil\r\n'
 WebUI.getText(findTestObject('Object Repository/FAQS/Beranda/div_List FAQs BliCicil Admin as            _3c8d92'))
 
-'Menampilkan table berisi : Question'
+WebUI.delay(5)
+
 WebUI.getText(findTestObject('Object Repository/FAQS/Beranda/th_Question'))
 
-'Menampilkan table berisi : Answer'
 WebUI.getText(findTestObject('Object Repository/FAQS/Beranda/th_Answer'))
 
-'Menampilkan table berisi : Status'
 WebUI.getText(findTestObject('Object Repository/FAQS/Beranda/th_Status'))
 
-'Menampilkan table berisi : Action'
 WebUI.getText(findTestObject('Object Repository/FAQS/Beranda/th_Action'))
 
-'Mengklik button number page'
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda/a_3'))
 
-'Mengklik button Prev Page'
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda/a_Previous'))
 
-'Mengklik button Next Page'
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda/a_Next'))
 
-'Mengklik button Unpublish untuk menonaktifkan FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Unpublish'))
+WebUI.delay(5)
 
-'Menampilkan popup "Are you sure want to unpublish this" ?'
-WebUI.getText(findTestObject('Object Repository/FAQS/Beranda/div_Are you sure want to unpublish this dat_a999af'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/a_1'))
 
-'Mengklik button No "Jika tidak ingin menonaktifkan FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_No'))
+WebUI.delay(5)
 
-'Mengklik button Unpublish untuk menonaktifkan FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Unpublish'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/a_2'))
 
-'Menampilkan popup "Are you sure want to unpublish this" ?'
-WebUI.getText(findTestObject('Object Repository/FAQS/Beranda/div_Are you sure want to unpublish this dat_a999af'))
+WebUI.delay(5)
 
-'Mengklik button Yes "Jika ingin menonaktifkan FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Yes'))
-
-'Mengklik button number page'
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda/a_3'))
 
-'Terdapat kolom pencarian\r\n'
-WebUI.getText(findTestObject('Object Repository/FAQS/Beranda/label_Search'))
+WebUI.delay(5)
 
-'Menginputkan kata kunci dikolom pencarian'
-WebUI.setText(findTestObject('Object Repository/FAQS/Beranda/input_Search_form-control form-control-sm'), 'NIK')
-
-'Menekan tombol enter keyboard dikolom pencarian yang sudah terisi'
-WebUI.sendKeys(findTestObject('Object Repository/FAQS/Beranda/input_Search_form-control form-control-sm'), Keys.chord(Keys.ENTER))
-
-'Menginputkan kata kunci dikolom pencarian'
-WebUI.setText(findTestObject('Object Repository/FAQS/Beranda/input_Search_form-control form-control-sm'), 'modal')
-
-'Menekan tombol enter keyboard dikolom pencarian yang sudah terisi'
-WebUI.sendKeys(findTestObject('Object Repository/FAQS/Beranda/input_Search_form-control form-control-sm'), Keys.chord(Keys.ENTER))
-
-'Mengklik button Unpublish untuk menonaktifkan FAQ'
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Unpublish'))
 
-'Menampilkan popup "Are you sure want to unpublish this" ?'
-WebUI.getText(findTestObject('Object Repository/FAQS/Beranda/div_Are you sure want to unpublish this dat_a999af'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/div_Are you sure want to unpublish this dat_a999af'))
 
-'Mengklik button Yes "Jika ingin menonaktifkan FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Yes'))
-
-'Mengklik button Publish untuk mengaktifkan FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Publish'))
-
-'Menampilkan popup "Are you sure want to publish this" ?'
-WebUI.getText(findTestObject('Object Repository/FAQS/Beranda/div_Are you sure want to publish this dataYesNoNo'))
-
-'Mengklik button No "Jika tidak ingin mengaktifkan FAQ'
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_No'))
 
-'Mengklik button Publish untuk mengaktifkan FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Publish'))
+WebUI.delay(5)
 
-'Menampilkan popup "Are you sure want to publish this" ?'
-WebUI.getText(findTestObject('Object Repository/FAQS/Beranda/div_Are you sure want to publish this dataYesNoNo'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Unpublish'))
 
-'Mengklik button Yes "Jika ingin mengaktifkan FAQ'
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/div_Are you sure want to unpublish this dat_a999af'))
+
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Yes'))
 
-'Merefresh halaman'
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/a_3'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/a_1'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Publish'))
+
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/div_Are you sure want to publish this dataYesNoNo'))
+
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_No'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Publish'))
+
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/div_Are you sure want to publish this dataYesNoNo'))
+
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Yes'))
+
+WebUI.setText(findTestObject('Object Repository/FAQS/Beranda/input_Search_form-control form-control-sm'), 'Modal')
+
+WebUI.sendKeys(findTestObject('Object Repository/FAQS/Beranda/input_Search_form-control form-control-sm'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/FAQS/Beranda/input_Search_form-control form-control-sm'), 'NIK')
+
+WebUI.sendKeys(findTestObject('Object Repository/FAQS/Beranda/input_Search_form-control form-control-sm'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(5)
+
 WebUI.refresh()
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
 

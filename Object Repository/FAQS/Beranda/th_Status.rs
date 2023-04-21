@@ -3,7 +3,7 @@
    <description></description>
    <name>th_Status</name>
    <tag></tag>
-   <elementGuidId>2c59aeaf-b4ab-4fdd-aa6c-6cc8544f6773</elementGuidId>
+   <elementGuidId>c9bb9c2c-7299-4b5a-8bbf-ff505597d4dc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>th</value>
-      <webElementGuid>d8c6648e-edb0-4360-b4c2-48938015c122</webElementGuid>
+      <webElementGuid>7cebd375-3a08-47c7-9884-ee2683e77101</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sorting_disabled</value>
-      <webElementGuid>126871ce-6c38-45e7-9d40-eec4ddcd3f02</webElementGuid>
+      <webElementGuid>d726ff47-cbe6-4701-9a88-bfc0038a73c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>rowspan</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>6e3385cf-704a-45a7-93ee-d6b1eef94b4b</webElementGuid>
+      <webElementGuid>40a05dda-dfd2-4ee6-bc48-ec8ee211802d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>colspan</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>115733f4-9401-40e3-bda2-e930c53aa119</webElementGuid>
+      <webElementGuid>0de86b0b-4afd-41c8-a888-6d966723b8f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Status</value>
-      <webElementGuid>076257f9-d7f1-4939-bf52-94fc382525ea</webElementGuid>
+      <webElementGuid>b6d65cdd-f6d2-4502-acfb-a66a01e30bb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbl-faq&quot;)/thead[1]/tr[1]/th[@class=&quot;sorting_disabled&quot;]</value>
-      <webElementGuid>5caeeb8e-4ed0-4c72-8747-c912905b194a</webElementGuid>
+      <webElementGuid>8cca07f2-06e6-4767-aa17-35efbed3fb31</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='tbl-faq']/thead/tr/th[3]</value>
-      <webElementGuid>e15fea76-3960-46e4-8fdb-49c66d4d31d9</webElementGuid>
+      <webElementGuid>c7208b6d-1a4d-438b-8542-86c4b6d23133</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Answer'])[1]/following::th[1]</value>
-      <webElementGuid>bf6b930d-7e2a-4b5f-8249-654969f0999d</webElementGuid>
+      <webElementGuid>9385b0da-a83b-477f-b3a0-641f25c3e224</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Question'])[1]/following::th[2]</value>
-      <webElementGuid>2ea27738-0586-47e9-9d60-e75493a242a1</webElementGuid>
+      <webElementGuid>7a82422b-f12a-4276-ba51-9fbd1919796e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,15 +94,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/preceding::th[1]</value>
-      <webElementGuid>d9e58985-a240-424c-9bc2-ebf025c07cfe</webElementGuid>
+      <webElementGuid>7aaf3042-79e3-4fc5-97f6-f2f897ed7a5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Melihat Detail Kredit'])[1]/preceding::th[2]</value>
-      <webElementGuid>e9411cdf-9017-47e1-a967-cee62e9675c6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NIK Sudah Terdaftar'])[1]/preceding::th[2]</value>
+      <webElementGuid>31f4d3b1-976d-4251-af9c-5a6374143995</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Status']/parent::*</value>
-      <webElementGuid>fb2e0028-132f-477f-9cd0-7ba71435268e</webElementGuid>
+      <webElementGuid>d16f5052-003d-411c-b67b-fa1c5ccd6695</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//th[3]</value>
-      <webElementGuid>e5b2ced7-a3b5-4dbc-a73f-39ac9b097b9b</webElementGuid>
+      <webElementGuid>38d61f3d-0de4-49b4-a4a7-005b0989b7c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//th[(text() = 'Status' or . = 'Status')]</value>
-      <webElementGuid>d2aaec8f-95cf-459e-ac4d-438f5b9533c0</webElementGuid>
+      <webElementGuid>b66f5726-4802-406b-a01e-d29cfc05d8d9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

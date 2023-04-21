@@ -238,6 +238,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Edit FAQ/p_yayaaaa_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Beranda/a_3",
+      "brokenLocator": "import org.openqa.selenium.JavascriptExecutor;",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027tbl-faq_paginate\u0027]/ul/li[4]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Beranda/a_3_idRelative.png"
     }
   ]
 }

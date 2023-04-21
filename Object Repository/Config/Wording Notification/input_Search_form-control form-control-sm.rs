@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Search_form-control form-control-sm</name>
    <tag></tag>
-   <elementGuidId>fa6035c5-3b7b-4b11-b2c9-9e97ccce8e03</elementGuidId>
+   <elementGuidId>596471c6-6f44-418e-a12c-83aad1c0620f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0b59b6bf-0d20-4fcf-9d44-fc7a1de860b4</webElementGuid>
+      <webElementGuid>4422d1c7-158c-4387-8092-0f52b0194ca4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>2b8d1d11-bbfb-4c13-b455-020b5245057c</webElementGuid>
+      <webElementGuid>d11951ee-78e6-4701-823d-c0130da5146c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +38,23 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control form-control-sm</value>
-      <webElementGuid>361963c0-c5fa-47b9-a914-ee1455e4ace2</webElementGuid>
+      <webElementGuid>686ba50c-a26f-49bd-9e02-7d3ef63ad337</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-controls</name>
       <type>Main</type>
-      <value>tbl-faq</value>
-      <webElementGuid>6b05e7a7-81ba-4f15-809d-236089674587</webElementGuid>
+      <value>tbl-wording-notif</value>
+      <webElementGuid>1e8b0d49-61ee-4194-9153-e9e1051ad443</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-faq_filter&quot;)/label[1]/input[@class=&quot;form-control form-control-sm&quot;]</value>
-      <webElementGuid>d9e29147-e79f-43c0-9d9d-681bbb9e33c0</webElementGuid>
+      <value>id(&quot;tbl-wording-notif_filter&quot;)/label[1]/input[@class=&quot;form-control form-control-sm&quot;]</value>
+      <webElementGuid>df6a52d4-f3d7-410a-af8d-98fca54e6427</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,15 +62,15 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='search']</value>
-      <webElementGuid>234413e7-33ca-4582-ac46-488e7a00af4a</webElementGuid>
+      <webElementGuid>9aa73bf5-e718-40aa-b9db-a220738d023b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tbl-faq_filter']/label/input</value>
-      <webElementGuid>7bce1388-6ad1-47fb-af8b-fad232c98db1</webElementGuid>
+      <value>//div[@id='tbl-wording-notif_filter']/label/input</value>
+      <webElementGuid>69120c6b-2d4c-4f0a-98ab-30d8b42837c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>8c25b42f-0eb0-4f37-a18f-8c3ff3f20ae4</webElementGuid>
+      <webElementGuid>195a5b99-aae2-424f-bbcc-4e8e26414090</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'search']</value>
-      <webElementGuid>7c5c0e00-f636-4510-90d3-b8388fb4a8a2</webElementGuid>
+      <webElementGuid>8ddcfb18-b8ae-4b33-bd22-d91090916c00</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
