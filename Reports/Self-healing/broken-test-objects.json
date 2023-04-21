@@ -268,6 +268,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Beranda/a_3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Beranda FAQ/a_3",
+      "brokenLocator": "//div[@id\u003d\u0027tbl-faq_paginate\u0027]/ul/li[4]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027, All rights Reserved\u0027])[1]/preceding::a[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Beranda FAQ/a_3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Beranda FAQ/a_Next",
+      "brokenLocator": "refre",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[@id\u003d\u0027tbl-faq_next\u0027]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Beranda FAQ/a_Next_idRelative.png"
     }
   ]
 }
