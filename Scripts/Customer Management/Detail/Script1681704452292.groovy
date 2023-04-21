@@ -37,6 +37,8 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/button
 'Mengklik menu customer management'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/span_Customer Management'))
 
+WebUI.delay(5)
+
 'Mengklik button button Detail pada action '
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Detail'))
 
@@ -79,6 +81,8 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/p_Tr
 'Menampilkan jumlah transaksi dibatalkan'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/p_Transaksi Dibatalkan'))
 
+WebUI.delay(5)
+
 'Mengklik button Informasi Alamat'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Alamat'))
 
@@ -106,6 +110,8 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_
 'Menampilkan informasi penjamin : NIK KTP, Nama Lengkap, Tanggal lahir, Nomor Handphone'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Informasi Penjamin                     _204717'))
 
+WebUI.delay(5)
+
 'Mengklik button Foto Identitas'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Foto Identitas'))
 
@@ -115,20 +121,28 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_
 'Menampilkan foto selfie'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Foto Diri'))
 
+WebUI.delay(5)
+
 'Mengklik button Informasi Nasabah'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Nasabah'))
 
 'Menampilkan Alamat Email, NIK, Status Pernikahan, Nama Ibu Kandung'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Alamat Email                           _6b0f09'))
 
+WebUI.delay(5)
+
 'Mengklik breadcumb Customer Management "untuk kembali ke halaman customer management"'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Customer Management'))
+
+WebUI.delay(5)
 
 'Menginputkan kata kunci di kolom pencarian'
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Detail/input_Cari_filterSearch'), '3404076403940005')
 
 'Menekan tombol enter keyboard di kolom pencarian yang terisi'
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Detail/input_Cari_filterSearch'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(5)
 
 'Mengklik button Detail pada action '
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Detail_1'))
@@ -172,6 +186,8 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/p_Tr
 'Menampilkan jumlah transaksi dibatalkan'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/p_Transaksi Dibatalkan'))
 
+WebUI.delay(5)
+
 'Mengklik button Informasi Alamat'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Alamat'))
 
@@ -180,6 +196,8 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_
 
 'Menampilkan  Kecamatan, Kelurahan, Kode Pos, Status Rumah'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Kecamatan                              _012674'))
+
+WebUI.delay(5)
 
 'Mengklik button Informasi Pekerjaan'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan'))
@@ -190,6 +208,8 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_
 'Menampilkan Alamat Perusahaan, Provinsi, Kota, Kecamatan, Kelurahan, Kode Pos'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Alamat Perusahaan                      _2103c0'))
 
+WebUI.delay(5)
+
 'Mengklik button Informasi Kontak'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Kontak'))
 
@@ -198,6 +218,8 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_
 
 'Menampilkan informasi penjamin : NIK KTP, Nama Lengkap, Tanggal lahir, Nomor Handphone'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Informasi Penjamin                     _204717'))
+
+WebUI.delay(5)
 
 'Mengklik button Foto Identitas'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Foto Identitas'))
@@ -208,14 +230,20 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_
 'Menampilkan foto selfie'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Foto Diri'))
 
+WebUI.delay(5)
+
 'Mengklik button Informasi Nasabah'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Nasabah'))
 
 'Menampilkan Alamat Email, NIK, Status Pernikahan, Nama Ibu Kandung'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Alamat Email                           _5ab7b4'))
 
+WebUI.delay(5)
+
 'Mengklik breadcumb Customer Management "untuk kembali ke halaman customer management"'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Customer Management'))
+
+WebUI.delay(5)
 
 'Mengklik button Detail pada action '
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Detail_1_2'))
@@ -259,6 +287,8 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/p_Tr
 'Menampilkan jumlah transaksi dibatalkan'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/p_Transaksi Dibatalkan'))
 
+WebUI.delay(5)
+
 'Mengklik button Informasi Alamat'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Alamat'))
 
@@ -267,6 +297,8 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_
 
 'Menampilkan  Kecamatan, Kelurahan, Kode Pos, Status Rumah'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Kecamatan                              _ea67e0'))
+
+WebUI.delay(5)
 
 'Mengklik button Informasi Pekerjaan'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan'))
@@ -277,6 +309,8 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_
 'Menampilkan Alamat Perusahaan, Provinsi, Kota, Kecamatan, Kelurahan, Kode Pos'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Alamat Perusahaan                      _bde7bf'))
 
+WebUI.delay(5)
+
 'Mengklik button Informasi Kontak'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Kontak'))
 
@@ -285,6 +319,8 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_
 
 'Menampilkan informasi penjamin : NIK KTP, Nama Lengkap, Tanggal lahir, Nomor Handphone'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Informasi Penjamin                     _204717'))
+
+WebUI.delay(5)
 
 'Mengklik button Foto Identitas'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Foto Identitas'))
@@ -295,14 +331,20 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_
 'Menampilkan foto selfie'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Foto Diri'))
 
+WebUI.delay(5)
+
 'Mengklik button Informasi Nasabah'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Nasabah'))
 
 'Menampilkan Alamat Email, NIK, Status Pernikahan, Nama Ibu Kandung'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Alamat Email                           _f4f1cc'))
 
+WebUI.delay(5)
+
 'Mengklik breadcumb customer management untuk kembali ke halaman customer management'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Customer Management'))
 
-WebUI.refresh()
+WebUI.delay(5)
+
+WebUI.closeBrowser()
 

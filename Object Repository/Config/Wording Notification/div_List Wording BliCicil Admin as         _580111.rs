@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_List FAQs BliCicil Admin as            _3c8d92</name>
+   <name>div_List Wording BliCicil Admin as         _580111</name>
    <tag></tag>
-   <elementGuidId>2babf207-1d59-45bb-bc42-22bfeacf991b</elementGuidId>
+   <elementGuidId>dbcfd094-7968-47f1-92c8-05234ecfaa24</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1d52e914-e263-40d8-a605-b785298f2d3a</webElementGuid>
+      <webElementGuid>740f2da1-7d7c-4a0a-8022-2123e17e4132</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-header border-bottom p-1</value>
-      <webElementGuid>1fea04b9-b511-4e22-b744-36bb09f9bd34</webElementGuid>
+      <webElementGuid>84a0245e-a3d1-40de-a0c4-d7484577aba6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,16 +38,17 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                                
-                                    List FAQs BliCicil Admin as
-                                
-                                
                                     
-                                        New FAQ
+                                        List Wording BliCicil Admin as
                                     
-                                
-                            </value>
-      <webElementGuid>a9d88f0c-5518-4e68-98e6-93d22209d542</webElementGuid>
+                                    
+                                        
+                                            New Wording Message
+                                        
+                                        
+                                    
+                                </value>
+      <webElementGuid>543148ed-22aa-4985-bd9e-ad6eb3fdb4d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;complex-header-datatable&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header border-bottom p-1&quot;]</value>
-      <webElementGuid>cd00a70b-ffaf-4ffe-b884-9e91d5bfb519</webElementGuid>
+      <webElementGuid>5948287a-f35d-46d4-a347-426eb8e676d6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,15 +64,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='complex-header-datatable']/div/div/div/div</value>
-      <webElementGuid>e0ac142d-2b5c-4af7-9462-9ef892667e2f</webElementGuid>
+      <webElementGuid>6c05c891-e0de-4cd5-8b12-6825dcc7d0bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='FAQs'])[1]/following::div[5]</value>
-      <webElementGuid>cbc598ec-0c97-4088-a428-94a44063bbba</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wording Notification'])[2]/following::div[5]</value>
+      <webElementGuid>93e110dd-6c16-45e1-aa2f-8b5797be2b19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::div[5]</value>
-      <webElementGuid>f6d2970f-f279-4944-91f3-b43c3a13a831</webElementGuid>
+      <webElementGuid>f1247c36-5b3d-4c5f-bcda-1ad5ab4cd769</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +88,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/div/div/div</value>
-      <webElementGuid>f9fea342-3f46-4361-b718-100e962757db</webElementGuid>
+      <webElementGuid>4798e2dc-b06e-41f4-94e3-25e57771cd6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,24 +96,26 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '
-                                
-                                    List FAQs BliCicil Admin as
-                                
-                                
                                     
-                                        New FAQ
+                                        List Wording BliCicil Admin as
                                     
-                                
-                            ' or . = '
-                                
-                                    List FAQs BliCicil Admin as
-                                
-                                
                                     
-                                        New FAQ
+                                        
+                                            New Wording Message
+                                        
+                                        
                                     
-                                
-                            ')]</value>
-      <webElementGuid>6f966916-3d19-48a9-8a4c-b4a62292eef3</webElementGuid>
+                                ' or . = '
+                                    
+                                        List Wording BliCicil Admin as
+                                    
+                                    
+                                        
+                                            New Wording Message
+                                        
+                                        
+                                    
+                                ')]</value>
+      <webElementGuid>d5efc1b5-18ec-4aa3-9153-8291cc14a744</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

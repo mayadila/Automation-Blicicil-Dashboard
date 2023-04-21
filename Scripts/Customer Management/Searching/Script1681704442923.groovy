@@ -37,6 +37,8 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching/but
 'Mengklik menu Customer management'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching/span_Customer Management'))
 
+WebUI.delay(5)
+
 'Menginputkan kata kunci pencarian'
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching/input_Cari_filterSearch'), '3404076403940005')
 
@@ -45,6 +47,8 @@ WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching/
 
 'Menampilkan hasil yang dicari'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching/div_Cari'))
+
+WebUI.delay(5)
 
 'Menginputkan kata kunci pencarian'
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching/input_Cari_filterSearch'), '3175072404860001')
@@ -55,11 +59,19 @@ WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching/
 'Menampilkan hasil yang dicari'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching/div_Cari'))
 
+WebUI.delay(5)
+
 'Menginputkan kata kunci pencarian'
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching/input_Cari_filterSearch'), '3174015010820009')
 
 'Menekan tombol enter di kolom pencarian'
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching/input_Cari_filterSearch'), Keys.chord(Keys.ENTER))
 
+WebUI.delay(5)
+
 WebUI.refresh()
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
 

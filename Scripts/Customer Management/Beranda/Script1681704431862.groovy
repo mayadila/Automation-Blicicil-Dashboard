@@ -20,6 +20,7 @@ import org.openqa.selenium.Keys as Keys
 'Membuka Chrome'
 WebUI.openBrowser('')
 
+'Maximize Window Chrome'
 WebUI.maximizeWindow()
 
 'Membuka halaman login'
@@ -37,31 +38,53 @@ WebUI.click(findTestObject('Object Repository/Login-Logout/Login Sukses/button_L
 'Mengklik menu customer management'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/span_Customer Management'))
 
+WebUI.delay(5)
+
 'Mengklik button angka page'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_4'))
+
+WebUI.delay(5)
 
 'Mengklik button page "Prev"'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Prev'))
 
+WebUI.delay(5)
+
 'Mengklik button page "Next"'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Next'))
+
+WebUI.delay(5)
 
 'Mengklik dropdown Show baris table '
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Beranda/select_5                                   _cfa6f0'), 
     '10', true)
 
+WebUI.delay(5)
+
 'Mengklik dropdown show baris tabel'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Beranda/select_5                                   _cfa6f0'), 
     '25', true)
 
+WebUI.delay(5)
+
 'Mengklik button angka page'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_3'))
+
+WebUI.delay(5)
 
 'Mengklik button page "Prev"'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Next'))
 
+WebUI.delay(5)
+
 'Mengklik button page Next'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Prev'))
 
+WebUI.delay(5)
+
 WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
 
