@@ -17,43 +17,67 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Membuka Chrome'
+'Membuka chrome'
 WebUI.openBrowser('')
-
-'Mazimize Windows Chrome'
-WebUI.maximizeWindow()
 
 'Membuka halaman login'
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 'Menginputkan email valid'
-WebUI.setText(findTestObject('Object Repository/FAQS/Success/Edit FAQ/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+WebUI.setText(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
 'Menginputkan password valid'
-WebUI.setEncryptedText(findTestObject('Object Repository/FAQS/Success/Edit FAQ/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/input_Password_password'), 'aeHFOx8jV/A=')
 
-'Mengklik button Login'
-WebUI.click(findTestObject('Object Repository/FAQS/Success/Edit FAQ/button_Login'))
+'Mengklik login'
+WebUI.click(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/button_Login'))
 
 'Mengklik menu FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Success/Edit FAQ/span_FAQ'))
+WebUI.click(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/a_FAQ'))
 
-'Mengklik button number page'
-WebUI.click(findTestObject('Object Repository/FAQS/Success/Edit FAQ/a_3'))
-
-'Mengklik button edit pada salah satu list kontent FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Success/Edit FAQ/a_Edit'))
-
-'Membuka halaman edit FAQ'
-WebUI.getText(findTestObject('Object Repository/FAQS/Success/Edit FAQ/div_Edit FAQs BliCicil Admin as'))
+'Membuka halaman list Faq'
+WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/div_List FAQs BliCicil Admin as            _3c8d92'))
 
 WebUI.delay(5)
 
-'Mengganti isi Judul FAQ'
-WebUI.setText(findTestObject('Object Repository/FAQS/Success/Edit FAQ/input_Judul_txtProductName'), 'Coba edit ya')
+'Mengklik button number page'
+WebUI.click(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/a_3'))
+
+WebUI.delay(5)
+
+'Mengklik button edit pada salah satu FAQ'
+WebUI.click(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/a_Edit'))
+
+'Membuka halaman edit FAQ'
+WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/div_Edit FAQs BliCicil Admin as'))
+
+'Mengosongkan judul / pertanyaan FAQ'
+WebUI.setText(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/input_Judul_txtProductName'), '')
+
+'Deskripsi tetap terisi'
+WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/div_Deskripsi                              _179ac0'))
+
+WebUI.delay(5)
+
+'Mengklik button submit'
+WebUI.click(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/button_Submit'))
+
+'Menampilkan popup erorr message'
+WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/div_ErrorThe title field is required.OKNoCancel'))
+
+WebUI.delay(5)
+
+'Merefresh halaman add'
+WebUI.refresh()
 
 'Meengganti / menambahkan isi deskripsi FAQ'
-WebUI.setText(findTestObject('FAQS/Success/Edit FAQ/p_yayaaaa'), 'eDIT faq')
+WebUI.setText(findTestObject('FAQS/Success/Edit FAQ/p_yayaaaa'), '')
+
+'Mengklik button submit'
+WebUI.click(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/button_Submit'))
+
+'Menampilkan popup erorr message'
+WebUI.getText(findTestObject('FAQS/Failed/Edit FAQ/div_ErrorThe description field is required.OKNoCancel'))
 
 'Disamping kanan ada kolom untuk Detail FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Success/Edit FAQ/div_Detail FAQs'))
@@ -73,16 +97,8 @@ WebUI.getText(findTestObject('Object Repository/FAQS/Success/Edit FAQ/th_Last Up
 'Kolom detail FAQ berisi :  Status Konten FAQ [Publish / Unpublish]'
 WebUI.getText(findTestObject('Object Repository/FAQS/Success/Edit FAQ/th_Status'))
 
-'Mengklik button submit untuk menyimpan perubahan konten FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Success/Edit FAQ/span_Submit'))
-
-'Menampilkan popup Sukses untuk menyimpan'
-WebUI.click(findTestObject('Object Repository/FAQS/Success/Edit FAQ/div_SuccessOKNoCancel'))
-
-'Meredirect ke halaman list FAQ setelah selesai ADD '
-WebUI.getText(findTestObject('Object Repository/FAQS/Success/Add FAQs/div_List FAQs BliCicil Admin as            _3c8d92'))
-
 WebUI.delay(10)
 
+'Menutup chrome'
 WebUI.closeBrowser()
 

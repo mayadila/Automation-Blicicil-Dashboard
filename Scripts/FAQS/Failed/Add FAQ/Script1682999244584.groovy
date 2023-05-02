@@ -20,46 +20,80 @@ import org.openqa.selenium.Keys as Keys
 'Membuka chrome'
 WebUI.openBrowser('')
 
-'Mazimize Windows Chrome'
-WebUI.maximizeWindow()
-
 'Membuka halaman login'
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
-'menginputkan email valid'
-WebUI.setText(findTestObject('Object Repository/FAQS/Success/Add FAQs/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+'Menginputkan email valid'
+WebUI.setText(findTestObject('Object Repository/FAQS/Failed/Add FAQ/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
 'Menginputkan password valid'
-WebUI.setEncryptedText(findTestObject('Object Repository/FAQS/Success/Add FAQs/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/FAQS/Failed/Add FAQ/input_Password_password'), 'aeHFOx8jV/A=')
 
 'Mengklik button login'
-WebUI.click(findTestObject('Object Repository/FAQS/Success/Add FAQs/button_Login'))
+WebUI.click(findTestObject('Object Repository/FAQS/Failed/Add FAQ/button_Login'))
 
 'Mengklik menu FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Success/Add FAQs/a_FAQ'))
+WebUI.click(findTestObject('Object Repository/FAQS/Failed/Add FAQ/a_FAQ'))
 
 'Membuka halaman list FAQ'
-WebUI.getText(findTestObject('Object Repository/FAQS/Success/Add FAQs/div_List FAQs BliCicil Admin as            _3c8d92'))
+WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Add FAQ/div_List FAQs BliCicil Admin as            _3c8d92'))
 
-'Mengklik button Add FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Success/Add FAQs/span_New FAQ'))
+'Mengklik menu Add FAQ'
+WebUI.click(findTestObject('FAQS/Failed/Add FAQ/span_New FAQ'))
 
-'Membuka halaman Add FAQ'
-WebUI.getText(findTestObject('Object Repository/FAQS/Success/Add FAQs/div_Add FAQs BliCicil Admin as'))
+WebUI.delay(5)
+
+'Tidak menginputkan judul / pertanyaan FAQ'
+WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Add FAQ/div_Judul'))
+
+'Tidak menginputkan deskripsi FAQ'
+WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Add FAQ/div_Deskripsi                              _57f324'))
+
+WebUI.delay(5)
+
+'Mengklik button submit'
+WebUI.click(findTestObject('Object Repository/FAQS/Failed/Add FAQ/button_Submit'))
+
+'Menmapilkan popup alertnya'
+WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Add FAQ/div_ErrorThe title field is required.OKNoCancel'))
 
 WebUI.delay(5)
 
 'Menginputkan judul / pertanyaan FAQ'
-WebUI.setText(findTestObject('Object Repository/FAQS/Success/Add FAQs/input_Judul_txtProductName'), 'Testingss')
+WebUI.setText(findTestObject('Object Repository/FAQS/Failed/Add FAQ/input_Judul_txtProductName'), 'hanya saja')
+
+'Tidak menginputkan deskripsi FAQ'
+WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Add FAQ/div_Deskripsi                              _57f324'))
+
+WebUI.delay(5)
+
+'Mengklik button submit'
+WebUI.click(findTestObject('Object Repository/FAQS/Failed/Add FAQ/span_Submit'))
+
+'Menmapilkan popup alertnya'
+WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Add FAQ/div_ErrorThe description field is required._797e22'))
+
+WebUI.delay(5)
+
+'Tidak menginputkan judul / pertanyaan FAQ'
+WebUI.clearText(findTestObject('Object Repository/FAQS/Failed/Add FAQ/input_Judul_txtProductName'))
 
 'Mendeklarasi isi inputan di deskripsi'
 def txaContent = 'DDDD'
 
 'Menginputkan isi deskripsi'
-WebUI.setText(findTestObject('Object Repository/FAQS/Success/Add FAQs/p'), txaContent)
+WebUI.setText(findTestObject('FAQS/Failed/Add FAQ/p'), txaContent)
 
 'Mendapatkan atribut inputan deskripsinya'
-input_Value = WebUI.getAttribute(findTestObject('Object Repository/FAQS/Success/Add FAQs/p'), 'value')
+input_Value = WebUI.getAttribute(findTestObject('FAQS/Failed/Add FAQ/p'), 'value')
+
+WebUI.delay(5)
+
+'Mengklik button submit'
+WebUI.click(findTestObject('Object Repository/FAQS/Failed/Add FAQ/span_Submit'))
+
+'Menmapilkan popup alertnya'
+WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Add FAQ/div_ErrorThe title field is required.OKNoCancel'))
 
 'Menampilkan kolom detail FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Success/Add FAQs/div_Detail FAQs'))
@@ -78,15 +112,6 @@ WebUI.getText(findTestObject('Object Repository/FAQS/Success/Add FAQs/th_Last Up
 
 'Menampilkan status FAQ : Publish / Unpublish'
 WebUI.getText(findTestObject('Object Repository/FAQS/Success/Add FAQs/th_Status'))
-
-'Mengklik button Submit'
-WebUI.click(findTestObject('Object Repository/FAQS/Success/Add FAQs/button_Submit'))
-
-'Menampilkan popup bahwa sukses ADD FAQ'
-WebUI.getText(findTestObject('Object Repository/FAQS/Success/Add FAQs/div_SuccessOKNoCancel'))
-
-'Meredirect ke halaman list FAQ setelah selesai ADD '
-WebUI.getText(findTestObject('Object Repository/FAQS/Success/Add FAQs/div_List FAQs BliCicil Admin as            _3c8d92'))
 
 WebUI.delay(10)
 

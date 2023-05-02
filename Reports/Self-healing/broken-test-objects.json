@@ -298,6 +298,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Add FAQ/input_Judul_txtProductName_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Success/Edit FAQ/p_yayaaaa",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027/html[1]\u0027])[1]/preceding::p[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Success/Edit FAQ/p_yayaaaa_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FAQS/Failed/Edit FAQ/div_ErrorThe description field is required.OKNoCancel",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027`\u0027])[2]/following::div[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[8]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Failed/Edit FAQ/div_ErrorThe description field is required.OKNoCancel_position.png"
     }
   ]
 }
