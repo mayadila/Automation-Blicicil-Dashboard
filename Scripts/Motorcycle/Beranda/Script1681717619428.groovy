@@ -105,3 +105,8 @@ WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/a_Next'))
 
 WebUI.refresh()
 
+WebUI.delay(10)
+
+'Menutup chrome'
+WebUI.closeBrowser()
+

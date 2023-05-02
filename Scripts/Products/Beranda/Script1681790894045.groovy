@@ -172,3 +172,8 @@ WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Yes'))
 'Merefresh halaman list Products'
 WebUI.refresh()
 
+WebUI.delay(10)
+
+'Menutup chrome'
+WebUI.closeBrowser()
+

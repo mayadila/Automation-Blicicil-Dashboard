@@ -290,3 +290,8 @@ WebUI.click(findTestObject('Object Repository/Products Status/button_Export to E
 'Merefresh halaman list products status'
 WebUI.refresh()
 
+WebUI.delay(10)
+
+'Menutup chrome'
+WebUI.closeBrowser()
+
