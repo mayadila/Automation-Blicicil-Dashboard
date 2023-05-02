@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>th_Author</name>
+   <name>span_New FAQ</name>
    <tag></tag>
-   <elementGuidId>157ba16f-b241-4722-b85e-4b6f57a46a24</elementGuidId>
+   <elementGuidId>59b77952-9601-4335-811e-37511a4d0be0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='complex-header-datatable']/div/div[2]/div/div[2]/table/tbody/tr[2]/th</value>
+         <key>CSS</key>
+         <value>a.btn.btn-primary.btn-xs.waves-effect.waves-float.waves-light > span</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>tr:nth-of-type(2) > th</value>
+         <key>XPATH</key>
+         <value>//section[@id='complex-header-datatable']/div/div/div/div/div[2]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>th</value>
-      <webElementGuid>00eb54a1-c9ce-48ae-ade3-97fb7ef1560a</webElementGuid>
+      <value>span</value>
+      <webElementGuid>e14a5f07-6d1e-452c-ae54-c9fbdeb3201c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Author</value>
-      <webElementGuid>bd32ac11-7a0d-4a37-969d-a25efa330774</webElementGuid>
+      <value>New FAQ</value>
+      <webElementGuid>66e04eda-41eb-4609-b46c-60e64afd79fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;complex-header-datatable&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body border-bottom p-1&quot;]/table[1]/tbody[1]/tr[2]/th[1]</value>
-      <webElementGuid>73b02e53-0636-452e-ab48-6d1b08c5c524</webElementGuid>
+      <value>id(&quot;complex-header-datatable&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header border-bottom p-1&quot;]/div[@class=&quot;dt-action-buttons text-right&quot;]/a[@class=&quot;btn btn-primary btn-xs waves-effect waves-float waves-light&quot;]/span[1]</value>
+      <webElementGuid>f8022529-abd0-4ec3-9ae0-e71851a1c908</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='complex-header-datatable']/div/div[2]/div/div[2]/table/tbody/tr[2]/th</value>
-      <webElementGuid>b40db186-0e61-44c3-b7cf-1130649dcd60</webElementGuid>
+      <value>//section[@id='complex-header-datatable']/div/div/div/div/div[2]/a/span</value>
+      <webElementGuid>f38de51a-3bb5-4fbb-93f2-a29e9815e453</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::th[1]</value>
-      <webElementGuid>65e1fe8b-27b4-4448-890c-f3fe139eec10</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List FAQs BliCicil Admin as'])[1]/following::span[1]</value>
+      <webElementGuid>441ed9e3-c311-47c6-ad79-bcd5eeb3e894</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Release Date'])[1]/following::th[1]</value>
-      <webElementGuid>12fefa14-4fa2-4892-a53d-2fa0a9a3281c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FAQs'])[1]/following::span[1]</value>
+      <webElementGuid>05fefb43-80f7-40fd-849c-37142135d501</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[2]/preceding::th[1]</value>
-      <webElementGuid>c160342e-de89-4259-97b1-9e203c7e29d4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search:'])[1]/preceding::span[1]</value>
+      <webElementGuid>c55e1b0a-fdb6-4223-b0b5-13ceb43443b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Views'])[1]/preceding::th[1]</value>
-      <webElementGuid>c8fcf090-4271-4802-be2a-b5bc887aab74</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Question'])[1]/preceding::span[1]</value>
+      <webElementGuid>11013f76-dc23-48dc-94ba-e393c5232164</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Author']/parent::*</value>
-      <webElementGuid>ff0b8d34-2ce7-4778-b25c-91bdb2f262e5</webElementGuid>
+      <value>//*/text()[normalize-space(.)='New FAQ']/parent::*</value>
+      <webElementGuid>30622679-b049-4b6c-bbd4-df53fd4eb1a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/th</value>
-      <webElementGuid>70b1d9d7-46d4-4e82-b099-00468d2cc310</webElementGuid>
+      <value>//div[2]/a/span</value>
+      <webElementGuid>b69ef946-ef74-4173-abad-a0930db31364</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//th[(text() = 'Author' or . = 'Author')]</value>
-      <webElementGuid>0b75350b-1651-4f1e-b239-bc4d32f1bff6</webElementGuid>
+      <value>//span[(text() = 'New FAQ' or . = 'New FAQ')]</value>
+      <webElementGuid>580bd4d3-123a-4e48-9e9f-2db8eedf384c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

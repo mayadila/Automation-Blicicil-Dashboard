@@ -3,15 +3,15 @@
    <description></description>
    <name>div_SuccessOKNoCancel</name>
    <tag></tag>
-   <elementGuidId>68308252-b349-4b91-9fd1-8a5d506863e1</elementGuidId>
+   <elementGuidId>5b1df38d-fa76-4b25-b8fc-6def3432c637</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Andre Pabertiyan'])[1]/following::div[7]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>div.swal2-popup.swal2-modal.swal2-icon-success.swal2-show</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Andre Pabertiyan'])[1]/following::div[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b69de0cc-3092-4504-abb5-bc8681e59558</webElementGuid>
+      <webElementGuid>4ec97526-0bc5-45e4-86ef-753c8ab6b084</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>swal2-title</value>
-      <webElementGuid>5842dba6-985c-48f9-9869-d19ef5cdebec</webElementGuid>
+      <webElementGuid>bfc0b994-1385-4fa7-8bb3-1732f5545a9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>swal2-html-container</value>
-      <webElementGuid>8166858d-bae4-40ff-aee6-afeb65d9f30b</webElementGuid>
+      <webElementGuid>1db2ea3c-6645-465c-8893-6ffd7f8b1afc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>swal2-popup swal2-modal swal2-icon-success swal2-show</value>
-      <webElementGuid>acc6bd47-0020-4a53-abc3-6add1e8e8736</webElementGuid>
+      <webElementGuid>e9a36675-09a6-4b43-86e0-aaeb41436961</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>1d4183d7-02b8-43ab-b1b6-45f9d20bcba0</webElementGuid>
+      <webElementGuid>2ff97341-a01c-46b4-b496-88d700716299</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>491ce93e-e740-423c-9672-eca29c932d19</webElementGuid>
+      <webElementGuid>fccd2ef0-d579-4852-8364-2af1d681655d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-live</name>
       <type>Main</type>
       <value>assertive</value>
-      <webElementGuid>94f93117-b476-4ccc-98ad-a52d98bcb101</webElementGuid>
+      <webElementGuid>5cd805be-748b-430e-b2e5-2dd53275673e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2ec2130c-9319-4cf2-871d-316bcd6bd6c0</webElementGuid>
+      <webElementGuid>d64fa0cd-4217-4996-96ca-cccc91d7b89d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
    
   
 Success!OKNoCancel</value>
-      <webElementGuid>d548b33e-c56b-4c0b-b278-a07dfcf7a8f0</webElementGuid>
+      <webElementGuid>8be6e630-c384-4abc-a376-8e647ee26f26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,23 +98,23 @@ Success!OKNoCancel</value>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;loaded swal2-shown swal2-height-auto&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static menu-expanded pace-done swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-success swal2-show&quot;]</value>
-      <webElementGuid>70344f7a-c5d7-44ce-a764-30295e2ac6cd</webElementGuid>
+      <webElementGuid>d2f0862d-70ca-4e3d-993c-173713336768</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Andre Pabertiyan'])[1]/following::div[7]</value>
-      <webElementGuid>a247029c-c6cf-4f6e-a7b1-ba3b2a90abd1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Andre Pabertiyan'])[1]/following::div[6]</value>
+      <webElementGuid>cb7d96e8-816f-4306-8afe-628acc150ade</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[9]/div</value>
-      <webElementGuid>ef36c4bc-7525-4abc-b729-88d78c5b90a6</webElementGuid>
+      <value>//div[8]/div</value>
+      <webElementGuid>04d349f6-60f6-4485-bf09-2a29c3bb09f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@ Success!OKNoCancel' or . = '×
    
   
 Success!OKNoCancel')]</value>
-      <webElementGuid>687ec78f-a160-4e83-bdc8-0c8fb75b22d6</webElementGuid>
+      <webElementGuid>674689a9-bfc7-4260-b8d1-867849c2db61</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

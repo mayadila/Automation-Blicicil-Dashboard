@@ -3,15 +3,15 @@
    <description></description>
    <name>p</name>
    <tag></tag>
-   <elementGuidId>d7b94358-6d0a-43b9-8cd1-b853b1eb0e00</elementGuidId>
+   <elementGuidId>7001b09d-f66f-4dbd-aabe-9d4229bff1b4</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//p</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>0a003414-fbf9-473b-bf9d-e26128f85ec5</webElementGuid>
+      <webElementGuid>15dd0422-91d0-4c2e-a347-332b27c59e9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +30,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;cke_editable cke_editable_themed cke_contents_ltr cke_show_borders&quot;]/p[1]</value>
-      <webElementGuid>fc2b2cf1-ef72-4c28-a4c0-d5f958761a7c</webElementGuid>
+      <webElementGuid>e0bfbbec-7478-4df3-9e4c-718685b14815</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/FAQS/Add FAQ/iframe_Press ALT 0 for help_cke_wysiwyg_fra_043255</value>
-      <webElementGuid>9753baae-363b-4b0d-a903-281edc692658</webElementGuid>
+      <value>Object Repository/FAQS/Add FAQs/iframe_Press ALT 0 for help_cke_wysiwyg_fra_043255</value>
+      <webElementGuid>9c0a1ea1-d3c7-4f08-a088-1ba9fa6f7345</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
-      <webElementGuid>9a0f23ab-83b4-4a96-8510-ed308d85b152</webElementGuid>
+      <webElementGuid>d29c4108-3171-4c0a-ac0b-de000a95a9d4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

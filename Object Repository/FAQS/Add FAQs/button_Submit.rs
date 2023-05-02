@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Submit</name>
    <tag></tag>
-   <elementGuidId>c81ae40e-885c-4147-812b-29f46a3ddbe4</elementGuidId>
+   <elementGuidId>14459ca4-fd3a-4940-bf69-d316e5534c57</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btn_save']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#btn_save</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn_save']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3d3c4254-69dd-486a-a372-efb5213a7a72</webElementGuid>
+      <webElementGuid>b42d41db-b756-4317-bd9e-d0505365ec84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ab3eaba7-6fa7-4e6e-a3af-fdea509887ef</webElementGuid>
+      <webElementGuid>fafc1c11-d335-47ae-8d44-b80fea429bc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btn_save</value>
-      <webElementGuid>592ae016-455f-469a-81c5-b81f5b7019df</webElementGuid>
+      <webElementGuid>5a4eecda-67e1-4239-b45f-c8343f7c34b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-block waves-effect waves-float waves-light</value>
-      <webElementGuid>5b66f2df-b950-4a6d-96de-01a00868c54d</webElementGuid>
+      <webElementGuid>1c4d12e9-32c6-4d78-813a-343a39dc3d88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
                                 
                                 Submit
                             </value>
-      <webElementGuid>21fb23ea-02c7-475c-9bc1-33ac7f2cc199</webElementGuid>
+      <webElementGuid>8116c28d-f8cf-4223-ac5c-d1c1877db2d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btn_save&quot;)</value>
-      <webElementGuid>b10bb227-1218-487c-ab76-a613349c15f2</webElementGuid>
+      <webElementGuid>43caebd4-e0dd-4014-8153-bb3352c3ddf4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='btn_save']</value>
-      <webElementGuid>ebfa172d-6bb5-4376-aa99-cca15f5bb6c6</webElementGuid>
+      <webElementGuid>7b9ee72e-7a13-4092-bbf2-1aa2c026725c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='complex-header-datatable']/div/div[2]/button</value>
-      <webElementGuid>be835375-5cce-4d4b-be06-d9c2a8499789</webElementGuid>
+      <webElementGuid>89c41a3c-f5bd-4e18-af7e-bba2c37274bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Paragraphs: 3, Words: 2'])[1]/following::button[1]</value>
-      <webElementGuid>0fbc2641-be8b-4efe-b928-cfeec1907747</webElementGuid>
+      <webElementGuid>4170c2cb-c84a-4f59-94b0-057d38c87117</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='p'])[1]/following::button[1]</value>
-      <webElementGuid>6c274feb-7736-4019-adf9-16f92a7dfc4e</webElementGuid>
+      <webElementGuid>1184e430-3b0e-4a96-826f-627d7196b392</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail FAQs'])[1]/preceding::button[1]</value>
-      <webElementGuid>3170b686-9b1a-433e-a9f9-11f3c25caf86</webElementGuid>
+      <webElementGuid>eac8f09a-336f-44ff-be8c-cc9cc1c4c429</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>49f7e5eb-8c4d-4df9-a47b-4844462529c8</webElementGuid>
+      <webElementGuid>b2dea653-01fb-4427-ad46-7a945cdd565d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +127,6 @@
                                 
                                 Submit
                             ')]</value>
-      <webElementGuid>5c61d168-3e6e-43f0-a03b-217c8b678b97</webElementGuid>
+      <webElementGuid>bdd8d06a-0318-46d5-8a56-7fdbb527a82d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
