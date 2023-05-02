@@ -26,48 +26,48 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 'Menginputkan email valid'
-WebUI.setText(findTestObject('Object Repository/Config/Administrator/Edit Admin/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+WebUI.setText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
 'Menginputkan password valid'
-WebUI.setEncryptedText(findTestObject('Object Repository/Config/Administrator/Edit Admin/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/input_Password_password'), 'aeHFOx8jV/A=')
 
 'Mengklik button Login'
-WebUI.click(findTestObject('Object Repository/Config/Administrator/Edit Admin/button_Login'))
+WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/button_Login'))
 
 'Mengklik menu config'
-WebUI.click(findTestObject('Object Repository/Config/Administrator/Edit Admin/a_Config'))
+WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/a_Config'))
 
 'Mengklik submenu administrator'
-WebUI.click(findTestObject('Object Repository/Config/Administrator/Edit Admin/span_Administrator'))
+WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/span_Administrator'))
 
 WebUI.delay(5)
 
 'Mengklik button edit'
-WebUI.click(findTestObject('Object Repository/Config/Administrator/Edit Admin/a_Edit'))
+WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/a_Edit'))
 
 'Membuka halaman edit '
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Edit Admin/div_Edit Administrator BliCicil Admin as'))
+WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/div_Edit Administrator BliCicil Admin as'))
 
 'mengubah email user'
-WebUI.setText(findTestObject('Object Repository/Config/Administrator/Edit Admin/input_Email_lalaland'), 'fredi@megafinance.co.id')
+WebUI.setText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/input_Email_lalaland'), 'fredi@megafinance.co.id')
 
 WebUI.delay(5)
 
 'mengubah password user'
-WebUI.setEncryptedText(findTestObject('Object Repository/Config/Administrator/Edit Admin/input_Password_txtPassword'), 'zXiMgA/AYuq9JeP8OALDyA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/input_Password_txtPassword'), 'zXiMgA/AYuq9JeP8OALDyA==')
 
 WebUI.delay(5)
 
 'Mengubah nama user'
-WebUI.setText(findTestObject('Object Repository/Config/Administrator/Edit Admin/input_Name_txtName'), 'Fredi')
+WebUI.setText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/input_Name_txtName'), 'Fredi')
 
 WebUI.delay(5)
 
 'Mengklik button submit'
-WebUI.click(findTestObject('Object Repository/Config/Administrator/Edit Admin/button_Submit'))
+WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/button_Submit'))
 
 'Menampilkan popup sukses submit perubahan'
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Edit Admin/div_SuccessOKNoCancel'))
+WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/div_SuccessOKNoCancel'))
 
 WebUI.delay(10)
 
