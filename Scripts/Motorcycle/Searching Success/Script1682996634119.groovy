@@ -26,52 +26,52 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 'Menginputkan email valid'
-WebUI.setText(findTestObject('Object Repository/Motorcycle/Searching/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+WebUI.setText(findTestObject('Object Repository/Motorcycle/Searching Success/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
 'Menginputkan password valid'
-WebUI.setEncryptedText(findTestObject('Object Repository/Motorcycle/Searching/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Motorcycle/Searching Success/input_Password_password'), 'aeHFOx8jV/A=')
 
 'Mengklik button login'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/button_Login'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/button_Login'))
 
 'Mengklik button menu transaction'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/a_Transaction'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/a_Transaction'))
 
 'Mengklik button menu motorcycle'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/a_Motorcycle'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/a_Motorcycle'))
 
 WebUI.delay(5)
 
 'Menginputkan kata kunci dikolom pencarian'
-WebUI.setText(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _ec3f45'), 
+WebUI.setText(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _ec3f45'), 
     'Radi')
 
 'Menekan tombol enter keyboard di kolom pencarian'
-WebUI.sendKeys(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _ec3f45'), 
+WebUI.sendKeys(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _ec3f45'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 
-WebUI.clearText(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _ec3f45'))
+WebUI.clearText(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _ec3f45'))
 
 'Menginputkan kata kunci dikolom pencarian'
-WebUI.setText(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _ec3f45'), 
+WebUI.setText(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _ec3f45'), 
     'Kurnia')
 
 'Menekan tombol enter keyboard di kolom pencarian'
-WebUI.sendKeys(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _ec3f45'), 
+WebUI.sendKeys(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _ec3f45'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 
-WebUI.clearText(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _ec3f45'))
+WebUI.clearText(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _ec3f45'))
 
 'Menginputkan kata kunci dikolom pencarian'
-WebUI.setText(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _ec3f45'), 
+WebUI.setText(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _ec3f45'), 
     'Novis')
 
 'Menekan tombol enter keyboard di kolom pencarianMenginputkan kata kunci dikolom pencarian'
-WebUI.sendKeys(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _ec3f45'), 
+WebUI.sendKeys(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _ec3f45'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
@@ -82,74 +82,74 @@ WebUI.refresh()
 WebUI.delay(5)
 
 'Mengklik Date Range'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _539eaf'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf'))
 
 'Mengklik yesterday\r\n'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/li_Yesterday'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/li_Yesterday'))
 
 WebUI.delay(5)
 
 'Mengklik Date Range'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _539eaf'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf'))
 
 'Mengklik Last 7 days'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/li_Last 7 Days'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/li_Last 7 Days'))
 
 WebUI.delay(5)
 
 'Mengklik Date Range'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _539eaf'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf'))
 
 'Mengklik Last 30 days'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/li_Last 30 Days'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/li_Last 30 Days'))
 
 WebUI.delay(5)
 
 'Mengklik Date Range'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _539eaf'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf'))
 
 'Mengklik This Month'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/li_This Month'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/li_This Month'))
 
 WebUI.delay(5)
 
 'Mengklik Date Range'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _539eaf'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf'))
 
 'Mengklik Last Month'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/li_Last Month'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/li_Last Month'))
 
 WebUI.delay(5)
 
 'Mengklik Date Range'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _539eaf'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf'))
 
 'Mengklik Custome Range Date'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/li_Custom Range'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/li_Custom Range'))
 
 WebUI.delay(5)
 
 'Memilih range tanggal yang diinginkan'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/th_Custom Range_prev available'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/th_Custom Range_prev available'))
 
 'Mengklik button Apply'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/button_Apply'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/button_Apply'))
 
 WebUI.delay(5)
 
 'Mengklik Date Range'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _539eaf'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf'))
 
 'Mengklik Today'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/li_Today'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/li_Today'))
 
 WebUI.delay(5)
 
 'Mengklik Date Range'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/input_List Motorcycle Transaction BliCicil _539eaf'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf'))
 
 'Mengklik button clear'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Searching/button_Clear'))
+WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Success/button_Clear'))
 
 'Merefresh halaman list motorcycle'
 WebUI.refresh()
@@ -157,37 +157,37 @@ WebUI.refresh()
 WebUI.delay(5)
 
 'Mengklik dropdown status pengajuan'
-WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching/select_Status                              _ebcc15'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15'), 
     'Selesai', true)
 
 WebUI.delay(5)
 
 'Mengklik dropdown status pengajuan'
-WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching/select_Status                              _ebcc15'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15'), 
     'Proses', true)
 
 WebUI.delay(5)
 
 'Mengklik dropdown status pengajuan'
-WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching/select_Status                              _ebcc15'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15'), 
     'Transaksi', true)
 
 WebUI.delay(5)
 
 'Mengklik dropdown status pengajuan'
-WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching/select_Status                              _ebcc15'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15'), 
     'TTD Kontrak', true)
 
 WebUI.delay(5)
 
 'Mengklik dropdown status pengajuan'
-WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching/select_Status                              _ebcc15'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15'), 
     'Ditolak', true)
 
 WebUI.delay(5)
 
 'Mengklik dropdown status pengajuan'
-WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching/select_Status                              _ebcc15'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15'), 
     'Dibatalkan', true)
 
 'Merefresh halaman list motorcycle'

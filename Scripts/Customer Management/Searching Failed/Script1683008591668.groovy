@@ -26,41 +26,41 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 'Menginputkan email valid'
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Failed/Searching/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
 'Menginputkan password'
-WebUI.setEncryptedText(findTestObject('Object Repository/Customer Managementt/Failed/Searching/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Password_password'), 
     'aeHFOx8jV/A=')
 
 'Mengklik button login'
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Failed/Searching/button_Login'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Failed/button_Login'))
 
 'Mengklik menu customer management'
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Failed/Searching/a_Customer Management'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Failed/a_Customer Management'))
 
 WebUI.delay(5)
 
 'Menginputkan kata kunci di pencarian'
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Failed/Searching/input_Cari_filterSearch'), 'abi')
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Cari_filterSearch'), 'abi')
 
 'Mengenter inputan kata kunci dipencarian'
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Failed/Searching/input_Cari_filterSearch'), Keys.chord(
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Cari_filterSearch'), Keys.chord(
         Keys.ENTER))
 
-WebUI.getText(findTestObject('Customer Managementt/Failed/Searching/td_No data available in table'))
+WebUI.getText(findTestObject('Customer Managementt/Searching Failed/td_No data available in table'))
 
 WebUI.delay(5)
 
 WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
 
 'Menginputkan kata kunci di pencarian'
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Failed/Searching/input_Cari_filterSearch'), '09876543')
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Cari_filterSearch'), '09876543')
 
 'Mengenter inputan kata kunci dipencarian'
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Failed/Searching/input_Cari_filterSearch'), Keys.chord(
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Cari_filterSearch'), Keys.chord(
         Keys.ENTER))
 
-WebUI.getText(findTestObject('Customer Managementt/Failed/Searching/td_No data available in table'))
+WebUI.getText(findTestObject('Customer Managementt/Searching Failed/td_No data available in table'))
 
 WebUI.delay(10)
 

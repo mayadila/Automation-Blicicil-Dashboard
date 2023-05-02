@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Searching</name>
+   <name>Searching Success</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a68d4110-c46c-420e-9ab0-a3d8418cb264</testCaseGuid>

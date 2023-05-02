@@ -318,6 +318,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/FAQS/Failed/Edit FAQ/div_ErrorThe description field is required.OKNoCancel_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Motorcycle/Searching Failed/th_Application Number",
+      "brokenLocator": "get",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//table[@id\u003d\u0027tbl-motorcycle\u0027]/thead/tr/th[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Motorcycle/Searching Failed/th_Application Number_idRelative.png"
     }
   ]
 }
