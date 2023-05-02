@@ -53,5 +53,7 @@ WebUI.setText(findTestObject('Object Repository/Config/Main/input_Hotline BliCic
 
 WebUI.click(findTestObject('Object Repository/Config/Main/span_Save'))
 
-WebUI.click(findTestObject('null'))
+WebUI.delay(10)
+
+WebUI.closeBrowser()
 
