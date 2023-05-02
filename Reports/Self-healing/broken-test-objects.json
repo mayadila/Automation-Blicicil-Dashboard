@@ -328,6 +328,46 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Motorcycle/Searching Failed/th_Application Number_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Config/Administrator/Beranda/button_Deactivate",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type \u003d \u0027button\u0027 and (text() \u003d \u0027Deactivate\u0027 or . \u003d \u0027Deactivate\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Config/Administrator/Beranda/button_Deactivate_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Config/Administrator/Beranda/button_No",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[15]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027No\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Config/Administrator/Beranda/button_No_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Config/Administrator/Beranda/button_Yes",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[13]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027No\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Config/Administrator/Beranda/button_Yes_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Config/Administrator/Beranda/td_Nonactive",
+      "brokenLocator": "//table[@id\u003d\u0027tbl-administrator\u0027]/tbody/tr[5]/td[6]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[(text() \u003d \u0027Nonactive\u0027 or . \u003d \u0027Nonactive\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Config/Administrator/Beranda/td_Nonactive_customAttributes.png"
     }
   ]
 }
