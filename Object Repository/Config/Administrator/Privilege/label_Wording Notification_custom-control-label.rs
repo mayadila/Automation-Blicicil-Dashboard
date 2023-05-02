@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Wording Notification_custom-control-label</name>
+   <tag></tag>
+   <elementGuidId>cb31d28e-9e26-4431-bae5-1d787483a429</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(4) > td:nth-of-type(3) > div.custom-control.custom-switch.custom-control-inline > label.custom-control-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody[@id='contentPrivilege']/tr[4]/td[3]/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>ae21f337-16e8-4313-b96d-72764639e928</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-control-label</value>
+      <webElementGuid>145df189-dab3-443a-8f17-98b2d3ffca9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>61e177bead372d747765da2d</value>
+      <webElementGuid>ce4b3517-2770-412e-87cb-bf965543abe2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contentPrivilege&quot;)/tr[4]/td[3]/div[@class=&quot;custom-control custom-switch custom-control-inline&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
+      <webElementGuid>e78c49bd-ac9a-4c9b-9950-2f5a5474f98b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='contentPrivilege']/tr[4]/td[3]/div/label</value>
+      <webElementGuid>38e41698-f5ab-4b5e-b3bb-37a7d30a69f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wording Notification'])[2]/following::label[1]</value>
+      <webElementGuid>a6780689-f4ae-473e-87a8-dfbec2f76393</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Config'])[6]/following::label[1]</value>
+      <webElementGuid>a426478f-9b91-472b-907f-a1c6c87c3020</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[2]/preceding::label[1]</value>
+      <webElementGuid>054a9808-31b8-4f7a-a209-87fca5f194f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[2]/preceding::label[1]</value>
+      <webElementGuid>18f79e82-b831-4ff1-861c-270a635b5a9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[3]/div/label</value>
+      <webElementGuid>6ab17229-11af-4588-898f-cc60ba2eeb77</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

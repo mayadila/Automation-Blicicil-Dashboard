@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Privilege</name>
+   <tag></tag>
+   <elementGuidId>8e8760e0-68fd-4a3f-aeff-704fe96cc38a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr.even > td:nth-of-type(7) > a.btn.btn-flat-dark.btn-sm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tbl-administrator']/tbody/tr[2]/td[7]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>652d6079-a7be-4997-912b-9f29a0bef55a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://uat-dashboard.blicicil.com/config/administrator/privilage?token=61f0c50826c9fc32027dacc0</value>
+      <webElementGuid>3e609b54-ef63-4359-a084-2f668b82a521</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-flat-dark btn-sm</value>
+      <webElementGuid>7a0c7b5a-ffc7-4b48-a86c-16ce20cea4fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Privilege</value>
+      <webElementGuid>ecc5688a-4ce1-4a02-ac15-9d921bfc9175</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tbl-administrator&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[7]/a[@class=&quot;btn btn-flat-dark btn-sm&quot;]</value>
+      <webElementGuid>c928a42e-cd56-4e3e-9706-9fa06d8eec91</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tbl-administrator']/tbody/tr[2]/td[7]/a</value>
+      <webElementGuid>a8c8fa4e-8b0d-4458-8e04-c8cb5aa36cac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Privilege')])[2]</value>
+      <webElementGuid>241df0a1-157d-4b9f-bc18-3f2c7bd06430</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activate'])[1]/following::a[1]</value>
+      <webElementGuid>4689a2e5-5f33-408b-aff0-75b0b69ece18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nonactive'])[1]/following::a[1]</value>
+      <webElementGuid>644156be-045e-493a-a027-707ac71fd2ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/preceding::a[1]</value>
+      <webElementGuid>f1fa968d-f9d9-42be-8c93-db3831a5bd9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hendra Gunawan'])[1]/preceding::a[2]</value>
+      <webElementGuid>9dc01a12-a4dc-4984-a66f-91492c326f2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/config/administrator/privilage?token=61f0c50826c9fc32027dacc0')]</value>
+      <webElementGuid>8a935a58-7bf2-4c6a-b967-b32be88c0847</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[7]/a</value>
+      <webElementGuid>7079f150-02d9-4c04-bf00-012b17ae9b02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://uat-dashboard.blicicil.com/config/administrator/privilage?token=61f0c50826c9fc32027dacc0' and (text() = 'Privilege' or . = 'Privilege')]</value>
+      <webElementGuid>a2eff0c4-adf5-4273-9baa-eb0bda16ada5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
