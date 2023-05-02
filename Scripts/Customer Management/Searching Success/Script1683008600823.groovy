@@ -26,46 +26,46 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 'Menginputkan email valid'
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Success/Searching/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
 'Menginputkan password valid'
-WebUI.setEncryptedText(findTestObject('Object Repository/Customer Managementt/Success/Searching/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_Password_password'), 'aeHFOx8jV/A=')
 
 'Mengklik button login'
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Success/Searching/button_Login'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/button_Login'))
 
 'Mengklik menu Customer management'
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Success/Searching/span_Customer Management'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/span_Customer Management'))
 
 WebUI.delay(5)
 
 'Menginputkan kata kunci pencarian'
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Success/Searching/input_Cari_filterSearch'), '3404076403940005')
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_Cari_filterSearch'), '3404076403940005')
 
 'Menekan tombol enter di kolom pencarian'
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Success/Searching/input_Cari_filterSearch'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_Cari_filterSearch'), Keys.chord(Keys.ENTER))
 
 'Menampilkan hasil yang dicari'
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Success/Searching/div_Cari'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/div_Cari'))
 
 WebUI.delay(5)
 
 'Menginputkan kata kunci pencarian'
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Success/Searching/input_Cari_filterSearch'), '3175072404860001')
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_Cari_filterSearch'), '3175072404860001')
 
 'Menekan tombol enter di kolom pencarian'
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Success/Searching/input_Cari_filterSearch'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_Cari_filterSearch'), Keys.chord(Keys.ENTER))
 
 'Menampilkan hasil yang dicari'
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Success/Searching/div_Cari'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/div_Cari'))
 
 WebUI.delay(5)
 
 'Menginputkan kata kunci pencarian'
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Success/Searching/input_Cari_filterSearch'), '3174015010820009')
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_Cari_filterSearch'), '3174015010820009')
 
 'Menekan tombol enter di kolom pencarian'
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Success/Searching/input_Cari_filterSearch'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_Cari_filterSearch'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 
