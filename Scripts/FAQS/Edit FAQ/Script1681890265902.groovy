@@ -47,11 +47,13 @@ WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ/a_Edit'))
 'Membuka halaman edit FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Edit FAQ/div_Edit FAQs BliCicil Admin as'))
 
+WebUI.delay(5)
+
 'Mengganti isi Judul FAQ'
-WebUI.setText(findTestObject('Object Repository/FAQS/Edit FAQ/input_Judul_txtProductName'), 'Yayayayaya')
+WebUI.setText(findTestObject('Object Repository/FAQS/Edit FAQ/input_Judul_txtProductName'), 'Coba edit ya')
 
 'Meengganti / menambahkan isi deskripsi FAQ'
-WebUI.setText(findTestObject('FAQS/Edit FAQ/p_yayaaaa'), 'Ohghh ')
+WebUI.setText(findTestObject('FAQS/Edit FAQ/p_yayaaaa'), 'eDIT faq')
 
 'Disamping kanan ada kolom untuk Detail FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Edit FAQ/div_Detail FAQs'))
@@ -76,4 +78,11 @@ WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ/span_Submit'))
 
 'Menampilkan popup Sukses untuk menyimpan'
 WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ/div_SuccessOKNoCancel'))
+
+'Meredirect ke halaman list FAQ setelah selesai ADD '
+WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQs/div_List FAQs BliCicil Admin as            _3c8d92'))
+
+WebUI.delay(10)
+
+WebUI.closeBrowser()
 

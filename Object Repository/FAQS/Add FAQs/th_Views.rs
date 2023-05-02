@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>th_Release Date</name>
+   <name>th_Views</name>
    <tag></tag>
-   <elementGuidId>674516fa-d61c-4ae0-9e2c-bd83c7fdd36f</elementGuidId>
+   <elementGuidId>4fb51f4b-bbb8-436b-a012-49a7c13e755a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='complex-header-datatable']/div/div[2]/div/div[2]/table/tbody/tr/th</value>
+         <key>CSS</key>
+         <value>tr:nth-of-type(3) > th</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>th</value>
+         <key>XPATH</key>
+         <value>//section[@id='complex-header-datatable']/div/div[2]/div/div[2]/table/tbody/tr[3]/th</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>th</value>
-      <webElementGuid>df96763e-f7a2-4666-966f-4a9d0130d645</webElementGuid>
+      <webElementGuid>23b2fe20-9426-4516-ad75-d8ddf8336f99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Release Date</value>
-      <webElementGuid>3dca94d6-31f6-4d4f-91fa-b5922f18c1e3</webElementGuid>
+      <value>Views</value>
+      <webElementGuid>938cff25-b37f-4fe2-8fa3-ad32f0390115</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;complex-header-datatable&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body border-bottom p-1&quot;]/table[1]/tbody[1]/tr[1]/th[1]</value>
-      <webElementGuid>709bdae0-dfee-4a66-b035-16faf6c0aec4</webElementGuid>
+      <value>id(&quot;complex-header-datatable&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body border-bottom p-1&quot;]/table[1]/tbody[1]/tr[3]/th[1]</value>
+      <webElementGuid>765774c8-21b1-4f4c-91d5-9e33ad814c04</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='complex-header-datatable']/div/div[2]/div/div[2]/table/tbody/tr/th</value>
-      <webElementGuid>5ede6e92-29eb-4401-b0fb-a685812d879a</webElementGuid>
+      <value>//section[@id='complex-header-datatable']/div/div[2]/div/div[2]/table/tbody/tr[3]/th</value>
+      <webElementGuid>f94cacea-413f-442f-9796-6b06879ef8c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail FAQs'])[1]/following::th[1]</value>
-      <webElementGuid>d58e77b1-170e-4c38-99c7-b38c2a9bf93e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[2]/following::th[1]</value>
+      <webElementGuid>d713ba8f-f219-4936-bd75-12b48ac401d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::th[1]</value>
-      <webElementGuid>f298f0de-7e0e-46ff-9a33-287d6c881d4b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Author'])[1]/following::th[1]</value>
+      <webElementGuid>62346d9a-b5b1-4616-b534-157c86dd0468</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::th[1]</value>
-      <webElementGuid>9fb6963c-1027-4ce7-a8aa-5036476b090e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[3]/preceding::th[1]</value>
+      <webElementGuid>ef6ccdca-5ef8-49bf-a0e2-71d4e493f2bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Author'])[1]/preceding::th[1]</value>
-      <webElementGuid>9499683c-775b-43bf-8fbb-39b3c9318ebe</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Update'])[1]/preceding::th[1]</value>
+      <webElementGuid>78dadb1b-95a0-40cb-9496-4bac4c892ea0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Release Date']/parent::*</value>
-      <webElementGuid>86b74506-e1d8-460e-9fdf-8fcaa5d4a302</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Views']/parent::*</value>
+      <webElementGuid>9c7ed281-f645-444b-9553-670cf40390d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//th</value>
-      <webElementGuid>1623874f-bb5f-48d3-82a9-b2f1531b24cf</webElementGuid>
+      <value>//tr[3]/th</value>
+      <webElementGuid>e4cf1777-a309-427a-a9d3-6a12852cbe79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//th[(text() = 'Release Date' or . = 'Release Date')]</value>
-      <webElementGuid>64cc332b-b866-44b1-9a5a-386bd2e12784</webElementGuid>
+      <value>//th[(text() = 'Views' or . = 'Views')]</value>
+      <webElementGuid>4007a545-1526-4f0c-ac5d-c0ea31994b3f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

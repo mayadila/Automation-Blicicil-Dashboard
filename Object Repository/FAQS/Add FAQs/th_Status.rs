@@ -3,15 +3,15 @@
    <description></description>
    <name>th_Status</name>
    <tag></tag>
-   <elementGuidId>7683508d-6ce1-4e7f-96ad-597cfba5c9f7</elementGuidId>
+   <elementGuidId>ea385122-3c17-4081-8b58-098c5a9f08b9</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//section[@id='complex-header-datatable']/div/div[2]/div/div[2]/table/tbody/tr[5]/th</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>tr:nth-of-type(5) > th</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='complex-header-datatable']/div/div[2]/div/div[2]/table/tbody/tr[5]/th</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>th</value>
-      <webElementGuid>b1708644-fb77-4643-ad70-c5d63570ac07</webElementGuid>
+      <webElementGuid>d7424eff-df60-4095-8914-79036c9a49a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Status</value>
-      <webElementGuid>7865afbf-5d0f-4a4d-9acc-1fa542241bad</webElementGuid>
+      <webElementGuid>7a069ca2-c280-4a2b-b58f-acac3318b67d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;complex-header-datatable&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body border-bottom p-1&quot;]/table[1]/tbody[1]/tr[5]/th[1]</value>
-      <webElementGuid>1d599f4e-c1b7-42ab-bbaf-80fb1127cbfc</webElementGuid>
+      <webElementGuid>016aae8b-f75a-49b3-84e2-68d07ce41b13</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='complex-header-datatable']/div/div[2]/div/div[2]/table/tbody/tr[5]/th</value>
-      <webElementGuid>df7dae4c-0f22-4997-a3de-3ee2431c4552</webElementGuid>
+      <webElementGuid>c376f990-058e-4617-8f43-4f08874cd076</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[4]/following::th[1]</value>
-      <webElementGuid>1ae43362-6f07-48ee-8641-6e5190c6f80a</webElementGuid>
+      <webElementGuid>9ea8132a-2532-41b8-af73-d7518a6c9254</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Update'])[1]/following::th[1]</value>
-      <webElementGuid>a7002a99-0a11-4c53-a6e5-b7140be1606b</webElementGuid>
+      <webElementGuid>6677fedb-10f2-4029-a3a6-d0193badc4f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[5]/preceding::th[1]</value>
-      <webElementGuid>0ad41219-75d1-4fb9-8edd-51d56d721fed</webElementGuid>
+      <webElementGuid>b5aa142f-b1c7-4690-9b19-5fb228431bf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Status']/parent::*</value>
-      <webElementGuid>3931197f-5df7-4612-8420-21000b5dcb41</webElementGuid>
+      <webElementGuid>0f7d1973-3cfd-4fe7-a4a6-11e4691b7def</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/th</value>
-      <webElementGuid>b072c465-cb6f-4db8-980a-ad8907f215a2</webElementGuid>
+      <webElementGuid>38032214-cf31-4418-8cf5-69e949eb416b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//th[(text() = 'Status' or . = 'Status')]</value>
-      <webElementGuid>47a61bad-9f16-4acb-b534-82dbc02a7f80</webElementGuid>
+      <webElementGuid>300af2b5-af68-4769-8a37-ae1869d60075</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
