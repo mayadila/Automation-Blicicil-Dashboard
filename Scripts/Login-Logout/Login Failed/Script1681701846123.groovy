@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Object Repository/Login-Logout/Login Failed/button_L
 'Menampilkan popup "nvalid Email or Password"'
 WebUI.click(findTestObject('Object Repository/Login-Logout/Login Failed/div_ErrorInvalid Email or PasswordOKNoCancel'))
 
-WebUI.waitForAngularLoad(30)
+WebUI.delay(5)
 
 'Menghapus inputan email lama'
 WebUI.clearText(findTestObject('Object Repository/Login-Logout/Login Failed/input_Email_email'))
@@ -74,4 +74,9 @@ WebUI.clearText(findTestObject('Object Repository/Login-Logout/Login Failed/inpu
 
 'Menghapus inputan password lama'
 WebUI.clearText(findTestObject('Object Repository/Login-Logout/Login Failed/input_Password_password'))
+
+WebUI.delay(10)
+
+'Menutup chrome'
+WebUI.closeBrowser()
 

@@ -40,3 +40,8 @@ WebUI.click(findTestObject('Object Repository/Login-Logout/Login Sukses/span_Pas
 'Mengklik button login'
 WebUI.click(findTestObject('Object Repository/Login-Logout/Login Sukses/button_Login'))
 
+WebUI.delay(10)
+
+'Menutup chrome'
+WebUI.closeBrowser()
+
