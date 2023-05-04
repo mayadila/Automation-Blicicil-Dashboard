@@ -368,6 +368,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Config/Administrator/Beranda/td_Nonactive_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Master Toko/Beranda/th_Alamat",
+      "brokenLocator": "g",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//table[@id\u003d\u0027tbl-toko\u0027]/thead/tr/th[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Master Toko/Beranda/th_Alamat_idRelative.png"
     }
   ]
 }
