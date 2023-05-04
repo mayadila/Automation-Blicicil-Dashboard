@@ -19,6 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+'Maximize Window Chrome'
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 WebUI.setText(findTestObject('Object Repository/Master Toko/Success/Add Toko/input_Email_email'), 'eva.mayadila@megafinance.co.id')
