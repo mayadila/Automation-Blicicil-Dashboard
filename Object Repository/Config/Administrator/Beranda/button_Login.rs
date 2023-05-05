@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>fe2dba4f-a93d-471e-a93b-5252c3ac5efe</webElementGuid>
+      <webElementGuid>eea3e986-5654-4205-be97-9ba8f7ba50ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-block waves-effect waves-float waves-light</value>
-      <webElementGuid>4cbfaf68-7357-490c-9d56-75eba54fb94b</webElementGuid>
+      <webElementGuid>5aac61fa-260a-4451-a34a-f369868da134</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>4</value>
-      <webElementGuid>32b68ca6-c8a0-45db-bdc3-b72d68c2ab28</webElementGuid>
+      <webElementGuid>0019c4e3-6876-460a-86e1-6e3e388bb461</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>16a9576a-7e95-4356-b134-f642091c46f8</webElementGuid>
+      <webElementGuid>dab29f46-2e98-4f53-a1f0-f66b88ebdb8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;frmLogin&quot;)/button[@class=&quot;btn btn-primary btn-block waves-effect waves-float waves-light&quot;]</value>
-      <webElementGuid>c372c1b2-2d3f-4861-8b86-0a22c2be6fcb</webElementGuid>
+      <webElementGuid>799757b1-7a1e-4023-aaa6-d03f0722ff8c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='frmLogin']/button</value>
-      <webElementGuid>b1383a7e-5f2f-4b8f-9026-65872632b859</webElementGuid>
+      <webElementGuid>f8d84eb8-e736-40ba-be05-9f7fb7b069ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>dafa94fe-1226-4b2e-9a93-b720c196c526</webElementGuid>
+      <webElementGuid>cad86f9f-0eb6-4573-87b4-3b8b8c203da5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>ed417a69-e04f-4ec3-ad9f-0161592cb399</webElementGuid>
+      <webElementGuid>03c64843-3705-4d1c-ba34-819038e61205</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>2bc18997-e2f2-43da-982c-1aacaa04e7c4</webElementGuid>
+      <webElementGuid>ae7d0e0f-e29d-4b8b-800f-486cb50b87f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>52bdbd11-8f90-41b1-a6e2-829f21188336</webElementGuid>
+      <webElementGuid>12c7003f-6c3c-4f45-ac76-fe7cc080484e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>c3dd9b71-2b82-4705-8c66-4976dc3ba6ad</webElementGuid>
+      <webElementGuid>520bbd8e-0158-4167-9214-a45992215f9c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -24,46 +24,46 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 'Menginputkan email valid'
-WebUI.setText(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+WebUI.setText(findTestObject('Object Repository/FAQS/Edit FAQ Failed/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
 'Menginputkan password valid'
-WebUI.setEncryptedText(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/FAQS/Edit FAQ Failed/input_Password_password'), 'aeHFOx8jV/A=')
 
 'Mengklik login'
-WebUI.click(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/button_Login'))
+WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ Failed/button_Login'))
 
 'Mengklik menu FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/a_FAQ'))
+WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ Failed/a_FAQ'))
 
 'Membuka halaman list Faq'
-WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/div_List FAQs BliCicil Admin as            _3c8d92'))
+WebUI.getText(findTestObject('Object Repository/FAQS/Edit FAQ Failed/div_List FAQs BliCicil Admin as            _3c8d92'))
 
 WebUI.delay(5)
 
 'Mengklik button number page'
-WebUI.click(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/a_3'))
+WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ Failed/a_3'))
 
 WebUI.delay(5)
 
 'Mengklik button edit pada salah satu FAQ'
-WebUI.click(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/a_Edit'))
+WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ Failed/a_Edit'))
 
 'Membuka halaman edit FAQ'
-WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/div_Edit FAQs BliCicil Admin as'))
+WebUI.getText(findTestObject('Object Repository/FAQS/Edit FAQ Failed/div_Edit FAQs BliCicil Admin as'))
 
 'Mengosongkan judul / pertanyaan FAQ'
-WebUI.setText(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/input_Judul_txtProductName'), '')
+WebUI.setText(findTestObject('Object Repository/FAQS/Edit FAQ Failed/input_Judul_txtProductName'), '')
 
 'Deskripsi tetap terisi'
-WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/div_Deskripsi                              _179ac0'))
+WebUI.getText(findTestObject('Object Repository/FAQS/Edit FAQ Failed/div_Deskripsi                              _179ac0'))
 
 WebUI.delay(5)
 
 'Mengklik button submit'
-WebUI.click(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/button_Submit'))
+WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ Failed/button_Submit'))
 
 'Menampilkan popup erorr message'
-WebUI.getText(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/div_ErrorThe title field is required.OKNoCancel'))
+WebUI.getText(findTestObject('Object Repository/FAQS/Edit FAQ Failed/div_ErrorThe title field is required.OKNoCancel'))
 
 WebUI.delay(5)
 
@@ -71,31 +71,31 @@ WebUI.delay(5)
 WebUI.refresh()
 
 'Meengganti / menambahkan isi deskripsi FAQ'
-WebUI.setText(findTestObject('FAQS/Success/Edit FAQ/p_yayaaaa'), '')
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
 'Mengklik button submit'
-WebUI.click(findTestObject('Object Repository/FAQS/Failed/Edit FAQ/button_Submit'))
+WebUI.click(findTestObject('Object Repository/FAQS/Edit FAQ Failed/button_Submit'))
 
 'Menampilkan popup erorr message'
-WebUI.getText(findTestObject('FAQS/Failed/Edit FAQ/div_ErrorThe description field is required.OKNoCancel'))
+WebUI.getText(findTestObject('FAQS/Edit FAQ Failed/div_ErrorThe description field is required.OKNoCancel'))
 
 'Disamping kanan ada kolom untuk Detail FAQ'
-WebUI.getText(findTestObject('Object Repository/FAQS/Success/Edit FAQ/div_Detail FAQs'))
+WebUI.getText(findTestObject('null'))
 
 'Kolom detail FAQ berisi : Release Date Konten FAQ'
-WebUI.getText(findTestObject('Object Repository/FAQS/Success/Edit FAQ/th_Release Date'))
+WebUI.getText(findTestObject('null'))
 
 'Kolom detail FAQ berisi : Author Konten FAQ'
-WebUI.getText(findTestObject('Object Repository/FAQS/Success/Edit FAQ/th_Author'))
+WebUI.getText(findTestObject('null'))
 
 'Kolom detail FAQ berisi :  Views Konten FAQ'
-WebUI.getText(findTestObject('Object Repository/FAQS/Success/Edit FAQ/th_Views'))
+WebUI.getText(findTestObject('null'))
 
 'Kolom detail FAQ berisi :  Last Update Konten FAQ'
-WebUI.getText(findTestObject('Object Repository/FAQS/Success/Edit FAQ/th_Last Update'))
+WebUI.getText(findTestObject('null'))
 
 'Kolom detail FAQ berisi :  Status Konten FAQ [Publish / Unpublish]'
-WebUI.getText(findTestObject('Object Repository/FAQS/Success/Edit FAQ/th_Status'))
+WebUI.getText(findTestObject('null'))
 
 WebUI.delay(10)
 

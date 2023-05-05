@@ -17,53 +17,123 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Membuka chrome'
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
-'Membuka halaman login'
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
-'Menginputkan email valid'
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
-'Menginputkan password'
 WebUI.setEncryptedText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Password_password'), 
     'aeHFOx8jV/A=')
 
-'Mengklik button login'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Failed/button_Login'))
 
-'Mengklik menu customer management'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Failed/a_Customer Management'))
 
 WebUI.delay(5)
 
-'Menginputkan kata kunci di pencarian'
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Cari_filterSearch'), 'abi')
-
-'Mengenter inputan kata kunci dipencarian'
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Cari_filterSearch'), Keys.chord(
-        Keys.ENTER))
-
-WebUI.getText(findTestObject('Customer Managementt/Searching Failed/td_No data available in table'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
+    'name', true)
 
 WebUI.delay(5)
 
-WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
+    '081')
 
-'Menginputkan kata kunci di pencarian'
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Cari_filterSearch'), '09876543')
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
+    Keys.chord(Keys.ENTER))
 
-'Mengenter inputan kata kunci dipencarian'
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Cari_filterSearch'), Keys.chord(
-        Keys.ENTER))
+WebUI.delay(5)
 
-WebUI.getText(findTestObject('Customer Managementt/Searching Failed/td_No data available in table'))
+WebUI.refresh()
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
+    'mobile_phone', true)
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
+    'Eva')
+
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.delay(5)
+
+WebUI.refresh()
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
+    'nik', true)
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
+    'Gita')
+
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.delay(5)
+
+WebUI.refresh()
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Year                                _c79051'), 
+    '2023', true)
+
+WebUI.delay(5)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
+    'name', true)
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
+    '089')
+
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.delay(5)
+
+WebUI.refresh()
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Year                                _c79051'), 
+    '2023', true)
+
+WebUI.delay(5)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
+    'mobile_phone', true)
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
+    'Renaka')
+
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.delay(5)
+
+WebUI.refresh()
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Year                                _c79051'), 
+    '2022', true)
+
+WebUI.delay(5)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
+    'nik', true)
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
+    'Hend')
+
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(10)
 
-'Menutup chrome'
 WebUI.closeBrowser()
 

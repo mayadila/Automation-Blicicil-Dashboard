@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Deskripsi                              _179ac0</name>
+   <tag></tag>
+   <elementGuidId>e5a7e330-0c73-4053-8410-a107e6154415</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='frmProduct']/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>99adaf6d-90c6-4069-a10a-1c4c3726e3bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-group</value>
+      <webElementGuid>c3540cc0-e9ba-4913-8ace-24b3b1b4f469</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                            Deskripsi
+                                            &lt;p>eDIT faq&lt;/p>Rich Text Editor, txaContentEditor toolbarsDocument SourceClipboard/Undo CutKeyboard shortcut Ctrl+X CopyKeyboard shortcut Ctrl+C PasteKeyboard shortcut Ctrl+V Paste as plain textKeyboard shortcut Ctrl+Shift+V Paste from Word UndoKeyboard shortcut Ctrl+Z RedoKeyboard shortcut Ctrl+YEditing Find Replace Select All Spell Check As You TypeBasic Styles BoldKeyboard shortcut Ctrl+B ItalicKeyboard shortcut Ctrl+I UnderlineKeyboard shortcut Ctrl+U Strikethrough Subscript Superscript Remove FormatParagraph Insert/Remove Numbered List Insert/Remove Bulleted List Decrease Indent Increase Indent Block Quote Create Div Container Align Left Center Align Right Justify Text direction from left to right Text direction from right to leftLinks LinkKeyboard shortcut Ctrl+K Unlink AnchorInsert Insert Code Snippet Chart Table Insert Horizontal Line Smiley Insert Special Character Insert Page Break for Printing Embed YouTube Video Image emojiStylesStylesStylesFormatFormatFontFontSizeSizeColors Text Color Background ColorTools Show Blocksabout About CKEditor 4Press ALT 0 for help◢Elements path Paragraphs: 1, Words: 2
+                                        </value>
+      <webElementGuid>9f67f994-714e-43a8-8180-7cd56d4134c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;frmProduct&quot;)/div[@class=&quot;form-group&quot;]</value>
+      <webElementGuid>d9ff3c15-4b06-4f0e-b995-71558ea4b935</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frmProduct']/div[2]</value>
+      <webElementGuid>791a97ae-38d2-41b9-92d2-b12e3ea0e98f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Judul'])[1]/following::div[2]</value>
+      <webElementGuid>5512861a-99ef-4207-b8a3-163ca3c8723f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit FAQs BliCicil Admin as'])[1]/following::div[4]</value>
+      <webElementGuid>39f29d11-5c98-4566-b5a5-1c7e3195cedc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]</value>
+      <webElementGuid>41f5b573-c77c-48be-9978-8bfa340303e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+                                            Deskripsi
+                                            &lt;p>eDIT faq&lt;/p>Rich Text Editor, txaContentEditor toolbarsDocument SourceClipboard/Undo CutKeyboard shortcut Ctrl+X CopyKeyboard shortcut Ctrl+C PasteKeyboard shortcut Ctrl+V Paste as plain textKeyboard shortcut Ctrl+Shift+V Paste from Word UndoKeyboard shortcut Ctrl+Z RedoKeyboard shortcut Ctrl+YEditing Find Replace Select All Spell Check As You TypeBasic Styles BoldKeyboard shortcut Ctrl+B ItalicKeyboard shortcut Ctrl+I UnderlineKeyboard shortcut Ctrl+U Strikethrough Subscript Superscript Remove FormatParagraph Insert/Remove Numbered List Insert/Remove Bulleted List Decrease Indent Increase Indent Block Quote Create Div Container Align Left Center Align Right Justify Text direction from left to right Text direction from right to leftLinks LinkKeyboard shortcut Ctrl+K Unlink AnchorInsert Insert Code Snippet Chart Table Insert Horizontal Line Smiley Insert Special Character Insert Page Break for Printing Embed YouTube Video Image emojiStylesStylesStylesFormatFormatFontFontSizeSizeColors Text Color Background ColorTools Show Blocksabout About CKEditor 4Press ALT 0 for help◢Elements path Paragraphs: 1, Words: 2
+                                        ' or . = '
+                                            Deskripsi
+                                            &lt;p>eDIT faq&lt;/p>Rich Text Editor, txaContentEditor toolbarsDocument SourceClipboard/Undo CutKeyboard shortcut Ctrl+X CopyKeyboard shortcut Ctrl+C PasteKeyboard shortcut Ctrl+V Paste as plain textKeyboard shortcut Ctrl+Shift+V Paste from Word UndoKeyboard shortcut Ctrl+Z RedoKeyboard shortcut Ctrl+YEditing Find Replace Select All Spell Check As You TypeBasic Styles BoldKeyboard shortcut Ctrl+B ItalicKeyboard shortcut Ctrl+I UnderlineKeyboard shortcut Ctrl+U Strikethrough Subscript Superscript Remove FormatParagraph Insert/Remove Numbered List Insert/Remove Bulleted List Decrease Indent Increase Indent Block Quote Create Div Container Align Left Center Align Right Justify Text direction from left to right Text direction from right to leftLinks LinkKeyboard shortcut Ctrl+K Unlink AnchorInsert Insert Code Snippet Chart Table Insert Horizontal Line Smiley Insert Special Character Insert Page Break for Printing Embed YouTube Video Image emojiStylesStylesStylesFormatFormatFontFontSizeSizeColors Text Color Background ColorTools Show Blocksabout About CKEditor 4Press ALT 0 for help◢Elements path Paragraphs: 1, Words: 2
+                                        ')]</value>
+      <webElementGuid>1f83d789-b77d-457f-82ed-64e2d30bf3e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

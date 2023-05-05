@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_Views</name>
+   <tag></tag>
+   <elementGuidId>516501e0-8284-4b57-a0ab-57afd252dba8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(3) > th</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='complex-header-datatable']/div/div[2]/div/div[2]/table/tbody/tr[3]/th</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>6259e123-28ea-4eb6-bd14-f8c28db95f4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Views</value>
+      <webElementGuid>81361589-949b-4af3-90ee-06680f7fc693</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;complex-header-datatable&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body border-bottom p-1&quot;]/table[1]/tbody[1]/tr[3]/th[1]</value>
+      <webElementGuid>dbf59109-428e-4ab8-962e-fce3cd64bc08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='complex-header-datatable']/div/div[2]/div/div[2]/table/tbody/tr[3]/th</value>
+      <webElementGuid>e33f678f-8f0e-4b9e-b3d6-57605ba17e89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Eva'])[2]/following::th[1]</value>
+      <webElementGuid>fde1cb61-c763-45b5-b9d5-7ef31d618f01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Author'])[1]/following::th[1]</value>
+      <webElementGuid>f2b32806-7f8c-4ec7-baf3-b4ee0b39b905</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Update'])[1]/preceding::th[1]</value>
+      <webElementGuid>06009d8b-c05c-43f5-b165-b9fbbf868577</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/preceding::th[2]</value>
+      <webElementGuid>d1426c86-3b1e-42b9-82d1-754034864df3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Views']/parent::*</value>
+      <webElementGuid>0c4f3df0-b794-4bc9-ab9f-881728bcb8bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/th</value>
+      <webElementGuid>88de5071-3fa6-41ee-9b5a-9496193d415a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'Views' or . = 'Views')]</value>
+      <webElementGuid>2e3050ce-2930-4df0-a4f1-8cd45c30cc7d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

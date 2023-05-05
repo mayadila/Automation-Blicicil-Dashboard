@@ -17,74 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Membuka Chrome'
 WebUI.openBrowser('')
 
-'Maximize Window Chrome'
-WebUI.maximizeWindow()
-
-'Membuka halaman login'
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
-'Menginputkan email valid'
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Beranda/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
-'Menginputkan password'
 WebUI.setEncryptedText(findTestObject('Object Repository/Customer Managementt/Beranda/input_Password_password'), 'aeHFOx8jV/A=')
 
-'Mengklik button login'
-WebUI.click(findTestObject('Object Repository/Login-Logout/Login Sukses/button_Login'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/button_Login'))
 
-'Mengklik menu customer management'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/span_Customer Management'))
 
-WebUI.delay(5)
-
-'Mengklik button angka page'
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_4'))
+WebUI.getText(findTestObject('Object Repository/Customer Managementt/Beranda/div_List of Customers'))
 
 WebUI.delay(5)
 
-'Mengklik button page "Prev"'
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_2'))
+
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Prev'))
 
 WebUI.delay(5)
 
-'Mengklik button page "Next"'
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Next'))
 
 WebUI.delay(5)
 
-'Mengklik dropdown Show baris table '
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Beranda/select_5                                   _cfa6f0'), 
-    '10', true)
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Detail'))
 
 WebUI.delay(5)
 
-'Mengklik dropdown show baris tabel'
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Beranda/select_5                                   _cfa6f0'), 
-    '25', true)
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Customer Management'))
 
-WebUI.delay(5)
-
-'Mengklik button angka page'
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_3'))
-
-WebUI.delay(5)
-
-'Mengklik button page "Prev"'
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Next'))
-
-WebUI.delay(5)
-
-'Mengklik button page Next'
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Prev'))
-
-WebUI.delay(5)
-
-WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.closeBrowser()
 

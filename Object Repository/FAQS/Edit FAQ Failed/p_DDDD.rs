@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_DDDD</name>
+   <tag></tag>
+   <elementGuidId>65789b1b-3658-4755-92c1-972f36225d62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='DDDD`']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>234c3423-21a4-4ac4-af1c-f734da2f1895</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DDDD`</value>
+      <webElementGuid>98a0c398-8dc2-4ade-83fb-b22bbf1164ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;cke_editable cke_editable_themed cke_contents_ltr cke_show_borders&quot;]/p[1]</value>
+      <webElementGuid>539ee986-c4a8-43b4-a937-ad7a28fff9f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/FAQS/Edit FAQ Failed/iframe_Press ALT 0 for help_cke_wysiwyg_fra_043255</value>
+      <webElementGuid>2dd33ad6-d63d-477c-a20c-67d64209b290</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='DDDD`']/parent::*</value>
+      <webElementGuid>e1c9439d-dec8-41de-acba-2eddc9ffbee6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>d7d89899-893a-46c9-bae7-d7c2d8768e1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'DDDD`' or . = 'DDDD`')]</value>
+      <webElementGuid>b4335b42-1bdc-4372-bb8d-5d77b2cfa37d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

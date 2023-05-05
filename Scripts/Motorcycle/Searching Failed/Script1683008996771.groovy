@@ -50,27 +50,6 @@ WebUI.setText(findTestObject('Object Repository/Motorcycle/Searching Failed/inpu
 WebUI.sendKeys(findTestObject('Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _ec3f45'), 
     Keys.chord(Keys.ENTER))
 
-'Menampilkan table yang berisi Tanggal & Jam Transaksi'
-WebUI.getText(findTestObject('Object Repository/Motorcycle/Searching Failed/th_Transaction Date  Time'))
-
-'Menampilkan table yang berisi Nomor Aplikasi'
-WebUI.getText(findTestObject('Object Repository/Motorcycle/Searching Failed/th_Application Number'))
-
-'Menampilkan table yang berisi Nama Customer'
-WebUI.getText(findTestObject('Object Repository/Motorcycle/Searching Failed/th_Customer Name'))
-
-'Menampilkan table yang berisi Nomor Kontrak'
-WebUI.getText(findTestObject('Object Repository/Motorcycle/Searching Failed/th_Contract Number'))
-
-'Menampilkan table yang berisi Jumlah Rupiah Item Value'
-WebUI.getText(findTestObject('Object Repository/Motorcycle/Searching Failed/th_Item Value (Rp)'))
-
-'Menampilkan table yang berisi Status Pengajuan'
-WebUI.getText(findTestObject('Object Repository/Motorcycle/Searching Failed/th_Status'))
-
-'Menampilkan pesan bahwa tidak ada data pada kata kunci tersebut'
-WebUI.getText(findTestObject('Object Repository/Motorcycle/Searching Failed/td_No matching records found'))
-
 'Mengklik date range'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _539eaf'))
 
@@ -140,27 +119,6 @@ WebUI.setText(findTestObject('Object Repository/Motorcycle/Searching Failed/inpu
 'Mengenter kata kunci di kolom pencarian'
 WebUI.sendKeys(findTestObject('Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _ec3f45'), 
     Keys.chord(Keys.ENTER))
-
-'Menampilkan table yang berisi Tanggal & Jam Transaksi'
-WebUI.getText(findTestObject('Object Repository/Motorcycle/Searching Failed/th_Transaction Date  Time'))
-
-'Menampilkan table yang berisi Nomor Aplikasi'
-WebUI.getText(findTestObject('Object Repository/Motorcycle/Searching Failed/th_Application Number'))
-
-'Menampilkan table yang berisi Nama Customer'
-WebUI.getText(findTestObject('Object Repository/Motorcycle/Searching Failed/th_Customer Name'))
-
-'Menampilkan table yang berisi Nomor Kontrak'
-WebUI.getText(findTestObject('Object Repository/Motorcycle/Searching Failed/th_Contract Number'))
-
-'Menampilkan table yang berisi Jumlah Rupiah Item Value'
-WebUI.getText(findTestObject('Object Repository/Motorcycle/Searching Failed/th_Item Value (Rp)'))
-
-'Menampilkan table yang berisi Status Pengajuan'
-WebUI.getText(findTestObject('Object Repository/Motorcycle/Searching Failed/th_Status'))
-
-'Menampilkan pesan bahwa tidak ada data pada kata kunci tersebut'
-WebUI.getText(findTestObject('Object Repository/Motorcycle/Searching Failed/td_No matching records found'))
 
 WebUI.delay(5)
 
