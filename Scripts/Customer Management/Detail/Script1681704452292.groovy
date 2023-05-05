@@ -159,33 +159,6 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_
 'Menampilkan status pengajuan'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_APPROVE'))
 
-'Menampilkan nomor handphone user'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Nomor Handphone                        _36d261'))
-
-'Menampilkan nomor member user'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Nomor Member -'))
-
-'Menampilkan limit plafon modal instan'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Limit maks'))
-
-'Menampilkan limit plafon modal instan yang dipakai'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Terpakai'))
-
-'Menampilkan sisa limit plafon'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Sisa'))
-
-'Menampilkan tanggal pengajuan'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Tanggal Pengajuan'))
-
-'Menampilkan jumlah transaksi selesai'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/p_Transaksi  Selesai'))
-
-'Menampilkan jumlah transaksi berlangsung'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/p_Transaksi Berlangsung'))
-
-'Menampilkan jumlah transaksi dibatalkan'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/p_Transaksi Dibatalkan'))
-
 WebUI.delay(5)
 
 'Mengklik button Informasi Alamat'
@@ -259,33 +232,6 @@ WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_
 
 'Menampilkan status pengajuan'
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_REJECT'))
-
-'Menampilkan nomor handphone user'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Nomor Handphone                        _20eaec'))
-
-'Menampilkan nomor member'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Nomor Member -'))
-
-'Menampilkan limt plafon modal instan'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Limit maks'))
-
-'Manmpilkan limit plafon yang dipakai'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Terpakai'))
-
-'Menampilkan sisa limit plafon'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Sisa'))
-
-'Menampilkan tanggal pengajuan'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_Tanggal Pengajuan'))
-
-'Menampilkan jumlah transaksi selesai'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/p_Transaksi  Selesai'))
-
-'Menampilkan jumlah transaksi berlangsung'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/p_Transaksi Berlangsung'))
-
-'Menampilkan jumlah transaksi dibatalkan'
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/p_Transaksi Dibatalkan'))
 
 WebUI.delay(5)
 

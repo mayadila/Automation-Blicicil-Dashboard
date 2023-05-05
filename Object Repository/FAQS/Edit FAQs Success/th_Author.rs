@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_Author</name>
+   <tag></tag>
+   <elementGuidId>cdbd959b-1fdb-4e26-a111-aed266c8b743</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(2) > th</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='complex-header-datatable']/div/div[2]/div/div[2]/table/tbody/tr[2]/th</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>b77de26e-7380-4775-ae49-a7a74529660c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Author</value>
+      <webElementGuid>d367fb34-f915-4d40-899f-a2171d1f5ffb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;complex-header-datatable&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body border-bottom p-1&quot;]/table[1]/tbody[1]/tr[2]/th[1]</value>
+      <webElementGuid>aefa9891-407c-4ea0-bcac-5730ec25cf86</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='complex-header-datatable']/div/div[2]/div/div[2]/table/tbody/tr[2]/th</value>
+      <webElementGuid>4e09ad86-713c-4e8b-9f36-228a7bd0b35f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Release Date'])[1]/following::th[1]</value>
+      <webElementGuid>0cfa4a5c-326b-4cb7-aee8-7917ee2f1581</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail FAQs'])[1]/following::th[2]</value>
+      <webElementGuid>178d6dca-6c09-4117-a339-6315ae1dfe79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Eva'])[2]/preceding::th[1]</value>
+      <webElementGuid>96edeca0-9b2b-44ae-b8b7-bbb80d77cbe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Views'])[1]/preceding::th[1]</value>
+      <webElementGuid>39df487b-f965-4960-8c9a-9527caa0f06f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Author']/parent::*</value>
+      <webElementGuid>c59305b2-88dd-4ac4-a01b-312943b2e846</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/th</value>
+      <webElementGuid>c6a5aa1e-9adb-44d2-81c5-e5ce090f481a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'Author' or . = 'Author')]</value>
+      <webElementGuid>d3a6824c-c9d1-4700-8fb4-1e49a223a7b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
