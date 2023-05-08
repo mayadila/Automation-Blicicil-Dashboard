@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_List of Customers_filterSearch</name>
+   <name>input_Search_form-control form-control-sm</name>
    <tag></tag>
-   <elementGuidId>c43efeb2-237a-4f56-ae76-b3e6243230c2</elementGuidId>
+   <elementGuidId>7cabd0c4-c3ad-43aa-81da-7ef1b81f83bd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#filterSearch</value>
+         <value>input.form-control.form-control-sm</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='filterSearch']</value>
+         <value>//input[@type='search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,71 +22,55 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>854d09e7-a14b-4bec-add7-01ebff057969</webElementGuid>
+      <webElementGuid>b07a12b1-09ed-4a1b-bc44-2f92646db88b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>ace7fef1-1ae4-4fde-b8a1-400f92766149</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>filterSearch</value>
-      <webElementGuid>18727333-d3b3-469b-b4be-8ce60aead2e6</webElementGuid>
+      <value>search</value>
+      <webElementGuid>dc85c3bb-c690-4684-bb26-d19b1fef854f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>820d2bf0-c1f9-418e-b19a-1b4a26a43933</webElementGuid>
+      <value>form-control form-control-sm</value>
+      <webElementGuid>9d59c438-27a2-4c50-9e9b-96abe7134276</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>aria-controls</name>
       <type>Main</type>
-      <value>Masukkan keyword   </value>
-      <webElementGuid>5054b28e-3dbf-4028-91f3-8c2961c99150</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>filterSearch</value>
-      <webElementGuid>c17a6366-5fc8-40e9-856c-e4ad27c6a3eb</webElementGuid>
+      <value>tbl-kategori-toko</value>
+      <webElementGuid>6df9a7b7-cf1d-4acc-924a-9f062bb38adb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;filterSearch&quot;)</value>
-      <webElementGuid>b6a307d0-d597-4f66-9e7a-c8cc8397f138</webElementGuid>
+      <value>id(&quot;tbl-kategori-toko_filter&quot;)/label[1]/input[@class=&quot;form-control form-control-sm&quot;]</value>
+      <webElementGuid>b40bbc66-163e-48c6-9708-8cd1890c220e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='filterSearch']</value>
-      <webElementGuid>76432c4d-2a0a-4fa9-88ec-a10aa6530024</webElementGuid>
+      <value>//input[@type='search']</value>
+      <webElementGuid>e22aa190-fa44-4910-aec6-3cde761ec6b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='complex-header-datatable']/div/div/div/div[2]/div/div[2]/div[2]/div/input</value>
-      <webElementGuid>104bcc4e-f306-4bc8-ac15-d782e39eef1d</webElementGuid>
+      <value>//div[@id='tbl-kategori-toko_filter']/label/input</value>
+      <webElementGuid>97a3a644-b0b1-442f-a7ce-a8c022bfaeb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,14 +78,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>8c344cf2-c47f-449f-ade7-930123808572</webElementGuid>
+      <webElementGuid>c2657558-5893-4e87-88c0-e1b5cf3cf75e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'filterSearch' and @placeholder = 'Masukkan keyword   ' and @name = 'filterSearch']</value>
-      <webElementGuid>8785485b-b62e-48c9-8722-d9ac44acde01</webElementGuid>
+      <value>//input[@type = 'search']</value>
+      <webElementGuid>db3a218e-930c-49cd-a080-9659d91687e5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
