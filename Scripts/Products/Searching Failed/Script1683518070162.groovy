@@ -17,3 +17,38 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+'Maximize Window Chrome'
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
+
+WebUI.setText(findTestObject('Object Repository/Products/Searching Failed/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Products/Searching Failed/input_Password_password'), 'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('Object Repository/Products/Searching Failed/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/Products/Searching Failed/a_Products'))
+
+WebUI.getText(findTestObject('Object Repository/Products/Searching Failed/div_List Products BliCicil Admin as        _565225'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/Products/Searching Failed/input_Search_form-control form-control-sm'), '12345')
+
+WebUI.sendKeys(findTestObject('Object Repository/Products/Searching Failed/input_Search_form-control form-control-sm'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/Products/Searching Failed/input_Search_form-control form-control-sm'), 'MI')
+
+WebUI.sendKeys(findTestObject('Object Repository/Products/Searching Failed/input_Search_form-control form-control-sm'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.delay(10)
+
+WebUI.closeBrowser()
+

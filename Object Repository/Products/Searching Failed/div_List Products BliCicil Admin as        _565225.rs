@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_List FAQs BliCicil Admin as            _3c8d92</name>
+   <name>div_List Products BliCicil Admin as        _565225</name>
    <tag></tag>
-   <elementGuidId>8bdc5282-b8af-4414-87f7-476f478c0f51</elementGuidId>
+   <elementGuidId>698cf025-a5e6-407d-a34c-82689f236711</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>db4eb5e1-24e8-4e35-829c-fcf6a5fc43be</webElementGuid>
+      <webElementGuid>b64933db-a6a0-4d25-bb69-a2b50185d84f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-header border-bottom p-1</value>
-      <webElementGuid>5d8059b9-d64d-4956-b59c-56b6969aac31</webElementGuid>
+      <webElementGuid>00bf50b8-362d-4f22-a3e1-47124edeedad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,15 +39,15 @@
       <type>Main</type>
       <value>
                                 
-                                    List FAQs BliCicil Admin as
+                                    List Products BliCicil Admin as
                                 
                                 
                                     
-                                        New FAQ
+                                        New Product
                                     
                                 
                             </value>
-      <webElementGuid>2f2c9392-9af1-4503-a770-af74895372fe</webElementGuid>
+      <webElementGuid>269335d6-20d3-42b2-8aa7-14b49dbd4a53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;complex-header-datatable&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header border-bottom p-1&quot;]</value>
-      <webElementGuid>950a1fe8-9d37-4c4e-957d-2cb4775d3187</webElementGuid>
+      <webElementGuid>2e8372cd-6eed-4979-9fa1-a24b1d615d1c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,15 +63,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='complex-header-datatable']/div/div/div/div</value>
-      <webElementGuid>763ad57f-0cb3-42e6-a349-ce2087df33f0</webElementGuid>
+      <webElementGuid>828785ef-c4c6-46d2-a0ec-cca049d309c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='FAQs'])[1]/following::div[5]</value>
-      <webElementGuid>03dc3ea6-521f-4c33-9814-18ce6a2a5db8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[2]/following::div[5]</value>
+      <webElementGuid>e9c2257a-54d8-4aee-8504-90bf90cac4bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::div[5]</value>
-      <webElementGuid>4845f7ec-d066-4a16-950c-544f6538ebee</webElementGuid>
+      <webElementGuid>7439706e-922c-4b8e-82d2-5bd6f2ccf626</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/div/div/div</value>
-      <webElementGuid>bb45669f-f9db-4a8d-aca2-ceca79c715a0</webElementGuid>
+      <webElementGuid>750eb1ae-4728-4cfc-977b-3e79c0490053</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,23 +96,23 @@
       <type>Main</type>
       <value>//div[(text() = '
                                 
-                                    List FAQs BliCicil Admin as
+                                    List Products BliCicil Admin as
                                 
                                 
                                     
-                                        New FAQ
+                                        New Product
                                     
                                 
                             ' or . = '
                                 
-                                    List FAQs BliCicil Admin as
+                                    List Products BliCicil Admin as
                                 
                                 
                                     
-                                        New FAQ
+                                        New Product
                                     
                                 
                             ')]</value>
-      <webElementGuid>73900e64-178b-43ba-a51a-10f3de236d9a</webElementGuid>
+      <webElementGuid>45541572-c3f4-4a55-abef-b2557ae22dba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

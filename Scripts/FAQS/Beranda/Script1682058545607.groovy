@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 WebUI.setText(findTestObject('Object Repository/FAQS/Beranda FAQ/input_Email_email'), 'eva.mayadila@megafinance.co.id')
@@ -31,17 +33,9 @@ WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_FAQ'))
 
 WebUI.getText(findTestObject('Object Repository/FAQS/Beranda FAQ/div_List FAQs BliCicil Admin as            _3c8d92'))
 
-WebUI.getText(findTestObject('Object Repository/FAQS/Beranda FAQ/th_Question'))
-
-WebUI.getText(findTestObject('Object Repository/FAQS/Beranda FAQ/th_Answer'))
-
-WebUI.getText(findTestObject('Object Repository/FAQS/Beranda FAQ/th_Status'))
-
-WebUI.getText(findTestObject('Object Repository/FAQS/Beranda FAQ/th_Action'))
-
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_3'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_2'))
 
 WebUI.delay(5)
 
@@ -51,29 +45,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_Next'))
 
-WebUI.refresh()
-
-WebUI.setText(findTestObject('Object Repository/FAQS/Beranda FAQ/input_Search_form-control form-control-sm'), 'Modal')
-
-WebUI.sendKeys(findTestObject('Object Repository/FAQS/Beranda FAQ/input_Search_form-control form-control-sm'), Keys.chord(
-        Keys.ENTER))
-
 WebUI.delay(5)
-
-WebUI.clearText(findTestObject('Object Repository/FAQS/Beranda FAQ/input_Search_form-control form-control-sm'))
-
-WebUI.setText(findTestObject('Object Repository/FAQS/Beranda FAQ/input_Search_form-control form-control-sm'), 'NIK ')
-
-WebUI.sendKeys(findTestObject('Object Repository/FAQS/Beranda FAQ/input_Search_form-control form-control-sm'), Keys.chord(
-        Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.clearText(findTestObject('Object Repository/FAQS/Beranda FAQ/input_Search_form-control form-control-sm'))
-
-WebUI.refresh()
-
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_3'))
 
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Unpublish'))
 
@@ -91,7 +63,7 @@ WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Yes'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_3'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_2'))
 
 WebUI.delay(5)
 
@@ -109,9 +81,7 @@ WebUI.getText(findTestObject('Object Repository/FAQS/Beranda FAQ/div_Are you sur
 
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Yes'))
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_3'))
-
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.closeBrowser()
 

@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Are you sure want to publish this dataYesNoNo</name>
    <tag></tag>
-   <elementGuidId>c3747e05-a536-4ff3-a1e8-81548aacd451</elementGuidId>
+   <elementGuidId>0c1c28d5-2874-4163-a49b-19b3c9bc158b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>df2ddc9d-1f12-43bb-bad2-7364da7160ca</webElementGuid>
+      <webElementGuid>aebb002c-c006-4690-9c52-da6da98010da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>swal2-title</value>
-      <webElementGuid>6126704d-d11a-4e28-8788-035d0ce3f97a</webElementGuid>
+      <webElementGuid>a7522082-df2b-40b3-adba-01d4180659b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>swal2-html-container</value>
-      <webElementGuid>ca480701-184b-4296-963d-2877568c1042</webElementGuid>
+      <webElementGuid>a2ce8602-ea21-43bf-92d2-9de55fa081a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>swal2-popup swal2-modal swal2-icon-warning swal2-show</value>
-      <webElementGuid>99bfa591-85cb-4931-97b9-5794ee3be8e2</webElementGuid>
+      <webElementGuid>237012d9-29f6-4647-8149-e5210d1985ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>3af86bf1-35f4-4059-be8f-0a81638b7c21</webElementGuid>
+      <webElementGuid>218bd65f-be59-4262-be28-67d019feca3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>c92d1d82-0629-4863-934f-b6003542dfb8</webElementGuid>
+      <webElementGuid>899f82f9-e48d-47cb-9498-e553bed89353</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-live</name>
       <type>Main</type>
       <value>assertive</value>
-      <webElementGuid>d57089f8-2194-4ea7-bab6-743bd76596e2</webElementGuid>
+      <webElementGuid>b8bc304b-70e3-4be5-aedb-b8c6c556525b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e70d2e95-4593-47b5-8f95-077d33951291</webElementGuid>
+      <webElementGuid>9bafcf3f-a0f6-4952-9662-f8142ed1904e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>text</name>
       <type>Main</type>
       <value>×!Are you sure want to publish this data?YesNoNo</value>
-      <webElementGuid>2ef1dcbf-fd85-435a-a6a6-76554943e0f6</webElementGuid>
+      <webElementGuid>2e18e5f0-e1d6-4b60-be4c-f95f80f47f73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;loaded swal2-shown swal2-height-auto&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static menu-expanded pace-done swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-warning swal2-show&quot;]</value>
-      <webElementGuid>917c6365-2105-4533-afb3-4759d564e5d3</webElementGuid>
+      <webElementGuid>75b129f0-7ecf-4c94-9141-af41d3d0aa32</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Andre Pabertiyan'])[1]/following::div[4]</value>
-      <webElementGuid>0cd0e612-874d-4dca-8188-440709b063bd</webElementGuid>
+      <webElementGuid>ab4f6be0-bb98-42c1-822e-76e7db07a57a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div</value>
-      <webElementGuid>52f8302b-6b2e-406c-8fcf-be7dd591697b</webElementGuid>
+      <webElementGuid>b74b1f39-0eca-42fa-8f85-c5ee6f318e2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '×!Are you sure want to publish this data?YesNoNo' or . = '×!Are you sure want to publish this data?YesNoNo')]</value>
-      <webElementGuid>2bdfedea-09bc-4789-8caf-7f6438ce4fe6</webElementGuid>
+      <webElementGuid>973d7af4-438a-4b6c-bf64-d4c6d9754e26</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Search_form-control form-control-sm</name>
    <tag></tag>
-   <elementGuidId>0ae9c99a-4692-4a9c-ad3f-255b1832e138</elementGuidId>
+   <elementGuidId>deeb1abb-df9f-40f2-b1b4-de2877826074</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1193e660-5137-4dfe-8c4d-18e4650d3b6a</webElementGuid>
+      <webElementGuid>a502d338-01cb-4c03-be1e-21d8081942d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>01529051-f5eb-4240-933f-42c2a8d6467c</webElementGuid>
+      <webElementGuid>021ca02d-d3ba-4c8a-ac12-603f47ae98b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +38,23 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control form-control-sm</value>
-      <webElementGuid>26397338-e5e7-477a-a7b1-74e2dadaf3aa</webElementGuid>
+      <webElementGuid>010f1376-045a-4c84-830f-450d9c3ffaa0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-controls</name>
       <type>Main</type>
-      <value>tbl-faq</value>
-      <webElementGuid>ea615fe2-edca-4967-b3d6-495684c5581d</webElementGuid>
+      <value>tbl-products</value>
+      <webElementGuid>d873e046-c414-4bcc-b9f4-764e24724264</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-faq_filter&quot;)/label[1]/input[@class=&quot;form-control form-control-sm&quot;]</value>
-      <webElementGuid>26c86bef-94f6-4a7c-8348-6c721dcf0afd</webElementGuid>
+      <value>id(&quot;tbl-products_filter&quot;)/label[1]/input[@class=&quot;form-control form-control-sm&quot;]</value>
+      <webElementGuid>056d6a1b-ee0f-463a-b30a-1f31b218357a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,15 +62,15 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='search']</value>
-      <webElementGuid>bb35bcdd-c539-4cd5-8125-6cad52b3dfd8</webElementGuid>
+      <webElementGuid>a963713f-1961-4896-8e94-3fc581771b38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tbl-faq_filter']/label/input</value>
-      <webElementGuid>1d2d92cd-2c4d-484c-ba71-8b94c8fc1945</webElementGuid>
+      <value>//div[@id='tbl-products_filter']/label/input</value>
+      <webElementGuid>0c4ff090-5b88-4cdf-b0e9-01752383cacb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>2c988569-9146-46cc-a3d1-0067bc9ed145</webElementGuid>
+      <webElementGuid>0dd886b8-d7a9-42f6-981d-d23b92668160</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'search']</value>
-      <webElementGuid>975c1d9f-bde2-482b-8802-a1d7b54aff23</webElementGuid>
+      <webElementGuid>9c6df424-b8d0-4e6b-b0ee-141d766204a4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
