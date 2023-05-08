@@ -23,35 +23,34 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Beranda/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+WebUI.setText(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Customer Managementt/Beranda/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/input_Password_password'), 
+    'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/button_Login'))
+WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/span_Customer Management'))
+WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/a_Master'))
 
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Beranda/div_List of Customers'))
+WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/a_Kategori Toko'))
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_2'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Prev'))
+WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/div_List Kategori Toko BliCicil Admin as   _2278a0'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Next'))
+WebUI.setText(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'), 
+    '123456')
+
+WebUI.sendKeys(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Detail'))
+WebUI.setText(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'), 
+    'Sharp')
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Customer Management'))
+WebUI.sendKeys(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(10)
 

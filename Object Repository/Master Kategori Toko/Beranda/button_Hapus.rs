@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Next_1</name>
+   <name>button_Hapus</name>
    <tag></tag>
-   <elementGuidId>3e54d113-2be2-40db-a847-66c02962e5ed</elementGuidId>
+   <elementGuidId>68550d52-8816-4bd9-bcbd-76125299209e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.page-link.next</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='pagination-demo']/li[10]/a</value>
+         <value>(//button[@type='button'])[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>91316e3e-a23a-4b02-b9b5-bd4683979ebd</webElementGuid>
+      <value>button</value>
+      <webElementGuid>20ac67fc-85f5-43a7-aa05-9dd3a06c374a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>type</name>
       <type>Main</type>
-      <value>#page-21</value>
-      <webElementGuid>fe484919-999a-43bb-b88b-61d68184577b</webElementGuid>
+      <value>button</value>
+      <webElementGuid>8059fabe-a157-44bb-a389-09aadf5d3bc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>page-link next</value>
-      <webElementGuid>b7b4cf5a-d30f-4b99-ac14-a902c5ba64ce</webElementGuid>
+      <value>btn btn-flat-danger</value>
+      <webElementGuid>7c08f762-fdd0-4795-b42f-426169d95b1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>showConfirmationPopup('delete', () => actionKategoriToko('14'), 'Panasonic Ramayana')</value>
+      <webElementGuid>d7f7a40b-ad18-4be7-9c21-af7536c823e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Next</value>
-      <webElementGuid>5e5de822-7bde-4c8c-9ae0-770eb1907473</webElementGuid>
+      <value>Hapus</value>
+      <webElementGuid>381d0589-00b8-4774-85ba-eef9acc9b7c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pagination-demo&quot;)/li[10]/a[@class=&quot;page-link next&quot;]</value>
-      <webElementGuid>0fa71bd5-f2ca-44b3-b5b9-07a400032acf</webElementGuid>
+      <value>id(&quot;tbl-kategori-toko&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[3]/button[@class=&quot;btn btn-flat-danger&quot;]</value>
+      <webElementGuid>5873eea7-a734-44e9-8aa5-b84796cabafc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>5656e05e-98f7-4236-933a-1f37f7d46962</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='pagination-demo']/li[10]/a</value>
-      <webElementGuid>0f5cd067-f21f-4b6e-963c-3e8430b0bf94</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Next')]</value>
-      <webElementGuid>fba47e88-00a0-44bb-82c9-16dd696cf2ae</webElementGuid>
+      <value>//table[@id='tbl-kategori-toko']/tbody/tr[6]/td[3]/button</value>
+      <webElementGuid>3269d7a3-a8cf-45af-ae14-509cc2e0e23e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='…'])[1]/following::a[5]</value>
-      <webElementGuid>c1e4c436-171d-4731-8751-5abf445dfda6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[6]/following::button[1]</value>
+      <webElementGuid>72bdf2e0-a77e-4343-861e-589e65e6ccc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prev'])[1]/following::a[7]</value>
-      <webElementGuid>5f1e9528-c8b1-407c-be4c-e57695de101c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[11]/following::button[1]</value>
+      <webElementGuid>da83d2be-f0da-4ada-9a36-1dd9dbf1eac1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=', All rights Reserved'])[1]/preceding::a[2]</value>
-      <webElementGuid>04481f80-2369-44cc-ade1-c4eea0276a57</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmart Cilandak'])[1]/preceding::button[1]</value>
+      <webElementGuid>1e83d612-4960-429e-a3e0-159e444df4c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Next']/parent::*</value>
-      <webElementGuid>dc6b1104-dece-44bd-bb9a-5091a69de4a7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>(//a[contains(@href, '#page-21')])[2]</value>
-      <webElementGuid>cc448acc-a521-4ce0-8cb9-783577df6fd5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[12]/preceding::button[1]</value>
+      <webElementGuid>f9a967cf-6cf7-4b80-be0c-6646057f458e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div[2]/div[3]/ul/li[10]/a</value>
-      <webElementGuid>ffcaa950-0cb1-4e6d-bd51-37e60e904073</webElementGuid>
+      <value>//tr[6]/td[3]/button</value>
+      <webElementGuid>8a923e71-cf68-47d3-870f-21b1d617280d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#page-21' and (text() = 'Next' or . = 'Next')]</value>
-      <webElementGuid>327ba391-8732-4466-aa17-90f9c04843be</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Hapus' or . = 'Hapus')]</value>
+      <webElementGuid>4fdf148f-a21a-4fb5-8037-415a618739bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

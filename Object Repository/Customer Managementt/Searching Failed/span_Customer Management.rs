@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_5</name>
+   <name>span_Customer Management</name>
    <tag></tag>
-   <elementGuidId>f1f88dc0-ac35-4b85-92fb-e21eb5899705</elementGuidId>
+   <elementGuidId>8654a40f-ec3e-4669-8326-c7d87d7c257a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>li:nth-of-type(6) > a.page-link</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='pagination-demo']/li[6]/a</value>
+         <value>//ul[@id='main-menu-navigation']/li[2]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>7780df97-a8ce-43a8-95c3-07dadb9fd089</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#page-5</value>
-      <webElementGuid>7b1e6935-1ebd-402b-8503-26191bbe11b0</webElementGuid>
+      <value>span</value>
+      <webElementGuid>0b60ecd4-46f2-449a-8d0e-7dcee6ab1120</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>page-link</value>
-      <webElementGuid>748df5e3-45d7-4ca0-ac98-7307b945577c</webElementGuid>
+      <value>menu-title text-truncate</value>
+      <webElementGuid>4ba37b79-69f9-477b-999d-945a920f01b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-i18n</name>
+      <type>Main</type>
+      <value>Dashboards</value>
+      <webElementGuid>92332899-9abe-427b-aaaa-311b774f3891</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>5</value>
-      <webElementGuid>1fdd1adf-348b-4c79-9beb-9360ca3ebdc1</webElementGuid>
+      <value>Customer Management</value>
+      <webElementGuid>81b92e13-c5d3-4477-be17-b885ff63a859</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pagination-demo&quot;)/li[6]/a[@class=&quot;page-link&quot;]</value>
-      <webElementGuid>d4f9d56f-26bb-4735-b4ad-45db14a54cd9</webElementGuid>
+      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]/span[@class=&quot;menu-title text-truncate&quot;]</value>
+      <webElementGuid>d7cbe809-cd02-4ea8-ac9d-750aa989d3b4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='pagination-demo']/li[6]/a</value>
-      <webElementGuid>7a2d3c7c-74fa-4a52-ae65-a64830fa7141</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'5')]</value>
-      <webElementGuid>500a32bc-bf63-49ed-bc20-3012e1720ef8</webElementGuid>
+      <value>//ul[@id='main-menu-navigation']/li[2]/a/span</value>
+      <webElementGuid>69a96f37-f4fe-447e-8b5c-3068dd2ef3a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prev'])[1]/following::a[4]</value>
-      <webElementGuid>fa230864-f0f6-41c8-8c2a-29e8e7265093</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[1]</value>
+      <webElementGuid>bfc24c20-d9a3-4737-8872-d7f48593c9a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 10 of 10 entries'])[1]/following::a[4]</value>
-      <webElementGuid>e079307b-02a9-42ea-b7ed-26683812292b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blicicil'])[1]/following::span[2]</value>
+      <webElementGuid>7928ae2d-976c-4a0a-b2ae-58d5428494fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='…'])[1]/preceding::a[1]</value>
-      <webElementGuid>161fac0d-400b-42dd-886d-865bf07522dd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master'])[1]/preceding::span[1]</value>
+      <webElementGuid>272d6562-36b6-4063-a36b-948e08cd2d78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[3]</value>
-      <webElementGuid>a6c50702-f869-45bc-8cf5-c6eac049ac2f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchants'])[1]/preceding::span[2]</value>
+      <webElementGuid>e7e35465-3561-474d-b698-d63098ed110c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#page-5')]</value>
-      <webElementGuid>334f7a15-3f0b-4edc-b97e-6aab95de0c88</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Customer Management']/parent::*</value>
+      <webElementGuid>f08baeb8-f60f-4a4c-8b46-24166eb74b3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div[2]/div[3]/ul/li[6]/a</value>
-      <webElementGuid>6ba5da36-fbd8-476d-a45a-e05814a0fed2</webElementGuid>
+      <value>//li[2]/a/span</value>
+      <webElementGuid>3037708d-f902-4323-8a86-182b8ea9daf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#page-5' and (text() = '5' or . = '5')]</value>
-      <webElementGuid>9479c721-f724-41de-aa9f-9e4b86f3497e</webElementGuid>
+      <value>//span[(text() = 'Customer Management' or . = 'Customer Management')]</value>
+      <webElementGuid>18f7c99e-82e4-4afc-b36b-70b32fe3b419</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

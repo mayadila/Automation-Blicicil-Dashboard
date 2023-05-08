@@ -3,7 +3,7 @@
    <description></description>
    <name>select_Search by                           _8b0677</name>
    <tag></tag>
-   <elementGuidId>d8aa2082-b831-4edb-8e6a-cb861c7ea122</elementGuidId>
+   <elementGuidId>655c5094-cb96-497e-8a2f-62194083868c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>a4bcf835-a5d1-44ff-8e4f-51806b86964e</webElementGuid>
+      <webElementGuid>608373df-0faa-4239-b9f9-a3f428cdfbf6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>filterParamsSearch</value>
-      <webElementGuid>42ac85f6-eab7-42a7-9c99-7a94ea5e29a5</webElementGuid>
+      <webElementGuid>705cba73-f99d-4f76-964f-5d960531e0cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>filterParamsSearch</value>
-      <webElementGuid>edf5e7c5-23b9-4798-9860-e33e41160f06</webElementGuid>
+      <webElementGuid>19d59dd9-7bd2-4766-91b0-c1cb78055486</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>e2b3b2db-8c23-46fa-86a4-adbcee97f3d2</webElementGuid>
+      <webElementGuid>49afde8c-3a7f-492e-a0c6-46a4ceaf53ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>onSelectFilter()</value>
-      <webElementGuid>1ba42c7a-34e6-4e5a-af89-a1e19dd249a3</webElementGuid>
+      <webElementGuid>679ba85d-c414-48ce-8d93-a3bf3a4bb981</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
                                                 Mobile Number
                                                 NIK
                                             </value>
-      <webElementGuid>c4177356-b2fe-4f88-8291-268300c97203</webElementGuid>
+      <webElementGuid>188c1dab-ac7a-4d73-b306-b94c30faa324</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;filterParamsSearch&quot;)</value>
-      <webElementGuid>3188b13a-695b-45c9-a6a5-31912617b8f8</webElementGuid>
+      <webElementGuid>bf080648-c0a1-423a-8966-bf7e619eeba8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='filterParamsSearch']</value>
-      <webElementGuid>9be694a7-33de-42e8-b939-79bdbc306bb4</webElementGuid>
+      <webElementGuid>4a4e98ed-b442-4a07-b8c6-54f010f569ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='complex-header-datatable']/div/div/div/div[2]/div/div[2]/div/select</value>
-      <webElementGuid>f7f03961-4b14-476c-9068-ae428fc33b5a</webElementGuid>
+      <webElementGuid>96db8dae-d5db-4895-b16f-fc05c59fa56f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='List of Customers'])[1]/following::select[3]</value>
-      <webElementGuid>734d00fa-7ae9-416b-b0f5-b7168ddbafb6</webElementGuid>
+      <webElementGuid>e2746857-a25b-4733-8c94-82b9660740c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Management'])[2]/following::select[3]</value>
-      <webElementGuid>ee00ada8-ba73-4f65-a0f7-a949a018bae9</webElementGuid>
+      <webElementGuid>4b37de4f-af8a-430e-b0f4-2c59786786ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search:'])[1]/preceding::select[1]</value>
-      <webElementGuid>a38bdde3-12a0-4382-9504-c474863689d8</webElementGuid>
+      <webElementGuid>ef738cc4-a5f7-40d5-9f94-c3c517669ed8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/select</value>
-      <webElementGuid>4c4ef94d-d05e-431a-99c1-db476084fa95</webElementGuid>
+      <webElementGuid>f74b471c-c775-4b2e-b075-0d8c787f8803</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
                                                 Mobile Number
                                                 NIK
                                             ')]</value>
-      <webElementGuid>398f8319-d9f6-489a-992e-a04e3c8e0629</webElementGuid>
+      <webElementGuid>f89fdc76-8d15-49be-be6a-29595feed1d2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Email_email</name>
+   <name>input_List of Customers_filterSearch_1</name>
    <tag></tag>
-   <elementGuidId>9c4056ee-9da5-4954-95b9-2dcd0eda464d</elementGuidId>
+   <elementGuidId>87039b35-a92b-4e43-8a80-95d1c8ad16a6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#email</value>
+         <value>#filterSearch</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='email']</value>
+         <value>//input[@id='filterSearch']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>26307baf-1cba-477b-a012-0f303a0e08cb</webElementGuid>
+      <webElementGuid>9a84610a-1ce7-4b0b-983e-95d1bfa69ea3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>8b469d89-d214-4c31-b768-34561f80e280</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>filterSearch</value>
+      <webElementGuid>c33ebd38-0f0a-4e2d-bfda-ddc39c13c4e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,79 +46,47 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>0c544ce2-61f7-4df4-9adf-f0ed5acfc2fc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>email</value>
-      <webElementGuid>f851f3fb-62ee-40a5-aaef-11eccd6b442a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>bbc36ca4-2445-42fb-9549-c31f66718ff5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>email</value>
-      <webElementGuid>d08616a8-72a0-4514-944e-6c5f43d96e24</webElementGuid>
+      <webElementGuid>70642b29-9cac-4525-b3a1-c6cc46cb5820</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Enter email</value>
-      <webElementGuid>683aff5b-aeb9-4d48-85da-c75a4aef2562</webElementGuid>
+      <value>Masukkan keyword   </value>
+      <webElementGuid>ddf40c64-7ece-41be-ab8e-38912ff5d87b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
+      <name>name</name>
       <type>Main</type>
-      <value>login-email</value>
-      <webElementGuid>46517e63-b6ba-40c8-a63c-a37fab06da14</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>f75671d1-c0b5-4e78-a00e-1bbc871f0cd9</webElementGuid>
+      <value>filterSearch</value>
+      <webElementGuid>753d94b9-2b6e-4eb8-90bd-2c6e64ae08d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;email&quot;)</value>
-      <webElementGuid>9a99a414-a878-4d66-9425-78579cb4d9a7</webElementGuid>
+      <value>id(&quot;filterSearch&quot;)</value>
+      <webElementGuid>0cb15f14-9269-4dde-8dd9-320855401f5b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='email']</value>
-      <webElementGuid>8a974a3d-db34-4f8f-9873-1cab46daae40</webElementGuid>
+      <value>//input[@id='filterSearch']</value>
+      <webElementGuid>b2da56dc-7384-4706-9cfb-34afdf17b4b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frmLogin']/div/input</value>
-      <webElementGuid>f93a06e9-2c8d-4b69-a2fa-8ce997a6274f</webElementGuid>
+      <value>//section[@id='complex-header-datatable']/div/div/div/div[2]/div/div[2]/div[2]/div/input</value>
+      <webElementGuid>48a3007f-9528-45fe-a99e-b771310ea4af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,14 +94,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>fe024da1-820d-4205-b6e5-d7227390850d</webElementGuid>
+      <webElementGuid>3263747a-0cae-45cc-b2af-2d4131cea38a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'email' and @type = 'text' and @name = 'email' and @placeholder = 'Enter email']</value>
-      <webElementGuid>74c157d3-64c2-4d06-90cf-d7516a2f762e</webElementGuid>
+      <value>//input[@type = 'number' and @id = 'filterSearch' and @placeholder = 'Masukkan keyword   ' and @name = 'filterSearch']</value>
+      <webElementGuid>ec6e67e8-acfb-48c9-b655-cf9a7f658412</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

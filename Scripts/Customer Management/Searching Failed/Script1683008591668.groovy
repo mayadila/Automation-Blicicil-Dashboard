@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Email_email'), 'eva.mayadila@megafinance.co.id')
@@ -26,46 +28,15 @@ WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching F
 WebUI.setEncryptedText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Password_password'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Failed/button_Login'))
+WebUI.click(findTestObject('Customer Managementt/Searching Failed/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Failed/a_Customer Management'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Failed/span_Customer Management'))
 
-WebUI.delay(5)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Show                                _69175e'), 
+    '5', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
-    'name', true)
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
-    '081')
-
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.refresh()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
-    'mobile_phone', true)
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
-    'Eva')
-
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.refresh()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
-    'nik', true)
-
-WebUI.delay(5)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Year                                _c79051'), 
+    '2023', true)
 
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
     'Gita')
@@ -77,18 +48,17 @@ WebUI.delay(5)
 
 WebUI.refresh()
 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Show                                _69175e'), 
+    '5', true)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Year                                _c79051'), 
     '2023', true)
-
-WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
     'name', true)
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
-    '089')
+    'Eva')
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
     Keys.chord(Keys.ENTER))
@@ -96,41 +66,39 @@ WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching 
 WebUI.delay(5)
 
 WebUI.refresh()
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Show                                _69175e'), 
+    '5', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Year                                _c79051'), 
     '2023', true)
 
-WebUI.delay(5)
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
     'mobile_phone', true)
 
-WebUI.delay(5)
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'), 
+    '123435')
 
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
-    'Renaka')
-
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 
 WebUI.refresh()
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Year                                _c79051'), 
-    '2022', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Show                                _69175e'), 
+    '5', true)
 
-WebUI.delay(5)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Year                                _c79051'), 
+    '2023', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
     'nik', true)
 
-WebUI.delay(5)
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'), 
+    '092827333')
 
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
-    'Hend')
-
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(10)

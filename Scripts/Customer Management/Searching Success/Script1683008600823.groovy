@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_Email_email'), 'eva.mayadila@megafinance.co.id')
@@ -28,28 +30,27 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Customer Managementt/Se
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_Customer Management'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/span_Customer Management'))
 
 WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Show                                _69175e'), 
     '10', true)
 
-WebUI.delay(5)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Show                                _69175e'), 
-    '5', true)
-
-WebUI.delay(5)
-
-WebUI.refresh()
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Year                                _c79051'), 
     '2023', true)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_2'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Show                                _69175e'), 
+    '5', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Year                                _c79051'), 
+    '2022', true)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_4'))
 
 WebUI.delay(5)
 
@@ -65,186 +66,52 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Suc
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Show                                _69175e'), 
-    '10', true)
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
+    '3404076403940005')
 
-WebUI.delay(5)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Show                                _69175e'), 
-    '5', true)
-
-WebUI.delay(5)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Year                                _c79051'), 
-    '2022', true)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_21'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_Prev_1'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_Next_1'))
-
-WebUI.delay(5)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Show                                _69175e'), 
-    '10', true)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_5'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_Prev_1_2'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_Next_1_2'))
-
-WebUI.delay(5)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Show                                _69175e'), 
-    '25', true)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_4'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_Prev_1_2_3'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_Next_1_2_3'))
-
-WebUI.delay(5)
-
-WebUI.refresh()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Year                                _c79051'), 
-    '2022', true)
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'), 
     'name', true)
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
-    'Hen')
+    'G')
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 
-WebUI.refresh()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'), 
-    'mobile_phone', true)
-
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
-    '0812')
+    'Testing')
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 
-WebUI.refresh()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Year                                _c79051'), 
-    '2022', true)
-
-WebUI.delay(5)
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'), 
     'mobile_phone', true)
 
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
     '081288065124')
 
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.refresh()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Year                                _c79051'), 
-    '2023', true)
 
 WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'), 
     'nik', true)
 
-WebUI.delay(5)
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
+    '31')
 
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
-    '3509')
-
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.refresh()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Show                                _69175e'), 
-    '10', true)
-
-WebUI.delay(5)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Year                                _c79051'), 
-    '2022', true)
-
-WebUI.delay(5)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'), 
-    'mobile_phone', true)
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
-    '081')
-
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Show                                _69175e'), 
-    '5', true)
-
-WebUI.delay(5)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Show                                _69175e'), 
-    '10', true)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_4'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_Prev_1_2_3'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_Next_1_2_3'))
 
 WebUI.delay(10)
 
