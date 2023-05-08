@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Are you sure want to activate Elektroni_a747f7</name>
    <tag></tag>
-   <elementGuidId>d7d54e43-4278-43d3-8976-94cf622c05b4</elementGuidId>
+   <elementGuidId>a95b63cf-858f-484d-9a66-e718b011bf73</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9d3832ba-f065-46c2-95a2-64565a98c028</webElementGuid>
+      <webElementGuid>b787fa7c-9749-456d-94c7-9a87460ac8e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>swal2-title</value>
-      <webElementGuid>1b7c458b-3aee-4117-a57f-69e662c2231c</webElementGuid>
+      <webElementGuid>0a5de889-6fb4-466e-9ae7-1b6e866a7607</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>swal2-html-container</value>
-      <webElementGuid>cae92707-607d-4ed5-bc69-dc5539d73371</webElementGuid>
+      <webElementGuid>3062ca56-532b-47c8-98db-4a85e7881fa1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>swal2-popup swal2-modal swal2-icon-warning swal2-show</value>
-      <webElementGuid>0ef25fb4-ccef-47f0-9178-f55accc00bc1</webElementGuid>
+      <webElementGuid>e5126651-33db-47ab-b8f5-fae4b11c8156</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>e53b45c3-cb18-46b6-92a4-4c3d5cd9c971</webElementGuid>
+      <webElementGuid>39320a30-bf66-4e0d-8f5a-f9af4dfb351c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>80917bfb-23e5-4337-92ff-2f223b314fd2</webElementGuid>
+      <webElementGuid>d858d057-1270-4706-b1ae-de557c781849</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-live</name>
       <type>Main</type>
       <value>assertive</value>
-      <webElementGuid>ca00ce8d-2353-42ef-b9d3-dec76c4ae6bb</webElementGuid>
+      <webElementGuid>1b9d2875-aed1-427b-a3b2-be0403caf870</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>257e22da-1ce2-4433-bd47-875db3563456</webElementGuid>
+      <webElementGuid>9011c1ee-b860-4535-87ec-713effd8236b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>text</name>
       <type>Main</type>
       <value>×!Are you sure want to activate Elektronik?YesNoNo</value>
-      <webElementGuid>02d369c3-e14c-482b-9320-52b656631497</webElementGuid>
+      <webElementGuid>5128330e-10cf-4a14-bb41-5167549dce7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;loaded swal2-shown swal2-height-auto&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static menu-expanded pace-done swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-warning swal2-show&quot;]</value>
-      <webElementGuid>f35ab377-ef04-457a-b8bc-cc47b9059037</webElementGuid>
+      <webElementGuid>525a6722-db15-499b-87b8-b3909dbc8d43</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Andre Pabertiyan'])[1]/following::div[4]</value>
-      <webElementGuid>8669b616-ba8a-4926-bd17-2ea94c2ef6a3</webElementGuid>
+      <webElementGuid>99635600-54ab-4a49-b412-2a470988cc2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div</value>
-      <webElementGuid>d9343bd8-2ad4-4ddc-bcf8-bcae1fd0d628</webElementGuid>
+      <webElementGuid>a04150d5-a373-46b6-af6f-11f36ff919c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '×!Are you sure want to activate Elektronik?YesNoNo' or . = '×!Are you sure want to activate Elektronik?YesNoNo')]</value>
-      <webElementGuid>8159d907-312c-4ff9-bef6-964b844c6601</webElementGuid>
+      <webElementGuid>a7967e46-b684-4e46-813f-1c016775594a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

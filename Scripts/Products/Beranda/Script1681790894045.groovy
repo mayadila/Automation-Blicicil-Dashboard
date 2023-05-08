@@ -17,163 +17,69 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Membuka Chrome'
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
-'Membuka halaman login'
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
-'Menginputkan email valid'
 WebUI.setText(findTestObject('Object Repository/Products/Beranda/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
-'Menginputkan password'
 WebUI.setEncryptedText(findTestObject('Object Repository/Products/Beranda/input_Password_password'), 'aeHFOx8jV/A=')
 
-'Mengklik button login'
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Login'))
 
-'Mengklik menu products'
-WebUI.click(findTestObject('Object Repository/Products/Beranda/span_Products'))
+WebUI.click(findTestObject('Object Repository/Products/Beranda/a_Products'))
 
-'Membuka halaman list products'
 WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_List Products BliCicil Admin as        _565225'))
 
-'Menampilkan table berisi Product terdiri dari Image, Name, Deskripsi'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/th_Product'))
+WebUI.delay(5)
 
-'Menampilkan table berisi image products'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/th_Image'))
-
-'Menampilkan table berisi name products'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/th_Name'))
-
-'Menampilkan table berisi deskripsi products'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/th_Desc'))
-
-'Menampilkan table berisi Loan terdiri dari Request, Approbe, Decline'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/th_Loan'))
-
-'Menampilkan table berisi request loan'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/th_Request'))
-
-'Menampilkan table berisi approve loan'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/th_Approve'))
-
-'Menampilkan table berisi decline loan'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/th_Decline'))
-
-'Menampilkan table berisi last update products'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/th_Last Update'))
-
-'Menampilkan table berisi status products'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/th_Status'))
-
-'Menampilkan table berisi action products [Deactivate, Activate]'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/th_Action'))
-
-'Mengklik button Deactivate untuk menonaktifkan products'
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Deactivate'))
 
-'Menampilkan popup "Are you sure want to deactivate "Nama Produk" ?'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to deactivate Elektro_3becbc'))
+WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to deactivate Hari in_e58443'))
 
-'Mengklik button No "Jika tidak ingin menonaktifkan products"'
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_No'))
 
-'Mengklik button Deactivate untuk menonaktifkan products'
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Deactivate'))
 
-'Menampilkan popup "Are you sure want to deactivate "Nama Produk" ?'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to deactivate Elektro_3becbc'))
+WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to deactivate Hari in_e58443'))
 
-'Mengklik button Yes "Jika ingin menonaktifkan products"'
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Yes'))
 
-'Mengklik button Activate untuk mengaktifkan products'
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Products/Beranda/a_2'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Products/Beranda/a_Previous'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Products/Beranda/a_Next'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Products/Beranda/a_1'))
+
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Activate'))
 
-'Are you sure want to activate "Nama Produk" ?'
 WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to activate Elektroni_a747f7'))
 
-'Mengklik button No "Jika tidak ingin mengaktifkan products"'
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_No'))
 
-'Mengklik button Activate untuk mengaktifkan products'
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Activate'))
 
-'Are you sure want to activate "Nama Produk" ?'
 WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to activate Elektroni_a747f7'))
 
-'Mengklik button Yes "Jika ingin mengaktifkan products"'
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Yes'))
 
-'Kolom pencarian'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/label_Search'))
+WebUI.delay(5)
 
-'Menginputkan kata kunci dikolom pencarian'
-WebUI.setText(findTestObject('Object Repository/Products/Beranda/input_Search_form-control form-control-sm'), 'Motor')
-
-'Menekan enter di kolom pencarian yang sudah terisi untuk menampilkan hasilnya'
-WebUI.sendKeys(findTestObject('Object Repository/Products/Beranda/input_Search_form-control form-control-sm'), Keys.chord(
-        Keys.ENTER))
-
-'Menginputkan kata kunci dikolom pencarian'
-WebUI.setText(findTestObject('Object Repository/Products/Beranda/input_Search_form-control form-control-sm'), 'Multigu')
-
-'Menekan enter di kolom pencarian yang sudah terisi untuk menampilkan hasilnya'
-WebUI.sendKeys(findTestObject('Object Repository/Products/Beranda/input_Search_form-control form-control-sm'), Keys.chord(
-        Keys.ENTER))
-
-'Mengklik button Deactivate untuk menonaktifkan products'
-WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Deactivate'))
-
-'Menampilkan popup "Are you sure want to deactivate "Nama Produk" ?'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to deactivate Multigu_4a77ed'))
-
-'Mengklik button No "Jika tidak ingin menonaktifkan products"'
-WebUI.click(findTestObject('Object Repository/Products/Beranda/button_No'))
-
-'Mengklik button Deactivate untuk menonaktifkan products'
-WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Deactivate'))
-
-'Menampilkan popup "Are you sure want to deactivate "Nama Produk" ?'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to deactivate Multigu_4a77ed'))
-
-'Mengklik button Yes "Jika ingin menonaktifkan products"'
-WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Yes'))
-
-'Menginputkan kata kunci dikolom pencarian'
-WebUI.setText(findTestObject('Object Repository/Products/Beranda/input_Search_form-control form-control-sm'), 'elektronik')
-
-'Menekan enter di kolom pencarian yang sudah terisi untuk menampilkan hasilnya'
-WebUI.sendKeys(findTestObject('Object Repository/Products/Beranda/input_Search_form-control form-control-sm'), Keys.chord(
-        Keys.ENTER))
-
-'Mengklik button Deactivate untuk menonaktifkan products'
-WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Deactivate'))
-
-'Menampilkan popup "Are you sure want to deactivate "Nama Produk" ?'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to deactivate Elektro_3becbc'))
-
-'Mengklik button No "Jika tidak ingin menonaktifkan products"'
-WebUI.click(findTestObject('Object Repository/Products/Beranda/button_No'))
-
-'Mengklik button Deactivate untuk menonaktifkan products'
-WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Deactivate'))
-
-'Menampilkan popup "Are you sure want to deactivate "Nama Produk" ?'
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to deactivate Elektro_3becbc'))
-
-'Mengklik button Yes "Jika ingin menonaktifkan products"'
-WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Yes'))
-
-'Merefresh halaman list Products'
-WebUI.refresh()
-
-WebUI.delay(10)
-
-'Menutup chrome'
 WebUI.closeBrowser()
 

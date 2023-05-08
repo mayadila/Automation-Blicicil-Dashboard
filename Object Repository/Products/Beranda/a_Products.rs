@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Products</name>
+   <name>a_Products</name>
    <tag></tag>
-   <elementGuidId>c6e02e9d-7e7c-4fb7-86de-da4c43075a4a</elementGuidId>
+   <elementGuidId>79a29040-7022-49f6-8057-6856c3cbcab9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='main-menu-navigation']/li[5]/a/span</value>
+         <value>//ul[@id='main-menu-navigation']/li[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>d357e072-f888-4416-a7ee-17ef83a39e61</webElementGuid>
+      <value>a</value>
+      <webElementGuid>3eff4c17-bc9e-461b-bb76-f0695fff3a02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>menu-title text-truncate</value>
-      <webElementGuid>a38b9b7e-144a-49ac-874c-48da25ef2907</webElementGuid>
+      <value>d-flex align-items-center</value>
+      <webElementGuid>c8adcca4-876f-485f-b6d7-35ae3f96697c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-i18n</name>
+      <name>href</name>
       <type>Main</type>
-      <value>Dashboards</value>
-      <webElementGuid>2eed4787-14a3-42e1-b5f1-4ffb59dca262</webElementGuid>
+      <value>https://uat-dashboard.blicicil.com/products</value>
+      <webElementGuid>c5f0c19f-f78f-4ef8-af0b-2ce88613aa8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Products</value>
-      <webElementGuid>80dad7ed-355f-4367-add3-e9c827f8e9d0</webElementGuid>
+      <value>
+											
+											Products
+										</value>
+      <webElementGuid>33a39e7d-602b-40f2-8c41-adb31ee42289</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]/span[@class=&quot;menu-title text-truncate&quot;]</value>
-      <webElementGuid>14b13da6-1648-4d9d-9798-0dfed7f3dd05</webElementGuid>
+      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
+      <webElementGuid>9f8301ed-8b4c-4ff9-b5d8-95c02a346ae2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='main-menu-navigation']/li[5]/a/span</value>
-      <webElementGuid>0f643935-655f-441d-979e-007ebc135622</webElementGuid>
+      <value>//ul[@id='main-menu-navigation']/li[5]/a</value>
+      <webElementGuid>3bc973f3-9efe-40fc-9237-bec64367abee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Motorcycle'])[1]/following::span[1]</value>
-      <webElementGuid>bf83b778-6fad-49b6-a58d-ff91ee9599da</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Motorcycle'])[1]/following::a[1]</value>
+      <webElementGuid>59ef6a5a-f2f6-48cb-9806-4d39cdddf8ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction'])[1]/following::span[2]</value>
-      <webElementGuid>c6a684a5-964c-4e89-aa5b-f2d39cbb7f59</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction'])[1]/following::a[2]</value>
+      <webElementGuid>c6ddfd6b-fc62-46a8-bb94-b359070b725e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products Status'])[1]/preceding::span[1]</value>
-      <webElementGuid>039da522-8c7d-4ee4-bfca-d5e4ed037b5c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products Status'])[1]/preceding::a[1]</value>
+      <webElementGuid>c5890c2d-77de-43a5-98e5-d2d53b73710d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='News'])[1]/preceding::span[2]</value>
-      <webElementGuid>e04ae441-9b47-4aaf-88f6-5048693a0f85</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Products']/parent::*</value>
-      <webElementGuid>8dfc399b-df2c-4dfb-8ede-c568f9d53728</webElementGuid>
+      <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/products')]</value>
+      <webElementGuid>65fa5187-1b38-4fd5-bf05-ae24ecafb165</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[5]/a/span</value>
-      <webElementGuid>9d06ad84-83bb-43f1-bc84-c7aa99689e9d</webElementGuid>
+      <value>//li[5]/a</value>
+      <webElementGuid>6ae1a05e-8fd7-4c6f-b4ea-ae9f7e916800</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Products' or . = 'Products')]</value>
-      <webElementGuid>7f2a1199-949c-4da4-8108-3756352ef9e8</webElementGuid>
+      <value>//a[@href = 'https://uat-dashboard.blicicil.com/products' and (text() = '
+											
+											Products
+										' or . = '
+											
+											Products
+										')]</value>
+      <webElementGuid>ce0900d4-af0b-4e52-ac3f-b1ecd63e425d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
