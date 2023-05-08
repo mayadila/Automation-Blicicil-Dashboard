@@ -36,14 +36,6 @@ WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/a_Toko'))
 
 WebUI.getText(findTestObject('Object Repository/Master Toko/Beranda/div_List Toko BliCicil Admin as            _dde361'))
 
-WebUI.getText(findTestObject('Object Repository/Master Toko/Beranda/th_Nama'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Beranda/th_Alamat'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Beranda/th_Status'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Beranda/th_Action'))
-
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/a_4'))
