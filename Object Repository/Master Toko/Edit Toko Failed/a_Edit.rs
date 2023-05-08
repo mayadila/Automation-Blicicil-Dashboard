@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Activate</name>
+   <name>a_Edit</name>
    <tag></tag>
-   <elementGuidId>448ebf13-2c46-4ff2-94ec-e79fccaeb530</elementGuidId>
+   <elementGuidId>96436744-8e92-4e52-9b37-325cae2889d7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-flat-success</value>
+         <value>a.btn.btn-flat-info</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='button']</value>
+         <value>//table[@id='tbl-toko']/tbody/tr/td[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,119 +21,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>2590d4a2-4dd1-4bc5-860f-7b2ab5e61555</webElementGuid>
+      <value>a</value>
+      <webElementGuid>f06cbbd5-0128-4ff3-baa3-eeb6a504b344</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>6346a6e3-073c-40e7-a363-c88feec4e066</webElementGuid>
+      <value>https://uat-dashboard.blicicil.com/master/toko/edit?token=633e3c86af080000c4006de7</value>
+      <webElementGuid>3e52cd1a-6908-44b2-a70a-24e18b527ce0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-flat-success</value>
-      <webElementGuid>403aa55c-be0f-47cf-bc0f-a68428f227ec</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>showConfirmationPopup('activate', () => actionProduct('61e15fa0d0f78412495afbc3', 0), 'Elektronik')</value>
-      <webElementGuid>3567f083-dca5-4086-9dc9-5f8b579f8c05</webElementGuid>
+      <value>btn btn-flat-info</value>
+      <webElementGuid>eaac2740-c5ee-465c-803e-bfe6bba54e28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Activate</value>
-      <webElementGuid>1be77809-331e-4e32-9862-589761683cf0</webElementGuid>
+      <value>Edit</value>
+      <webElementGuid>b8eb6b6d-70f9-46af-99e0-a1394b209b7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-products&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[9]/button[@class=&quot;btn btn-flat-success&quot;]</value>
-      <webElementGuid>cb2e3480-ee69-4720-9204-16b3cecfd29f</webElementGuid>
+      <value>id(&quot;tbl-toko&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[4]/a[@class=&quot;btn btn-flat-info&quot;]</value>
+      <webElementGuid>a02141c0-6b77-423c-9858-f37a080887a1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@type='button']</value>
-      <webElementGuid>a0501d74-eb8d-4df2-b3fc-4194465dcf8a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-products']/tbody/tr/td[9]/button</value>
-      <webElementGuid>281bfbcd-8d48-48f5-a405-e136b4755cff</webElementGuid>
+      <value>//table[@id='tbl-toko']/tbody/tr/td[4]/a</value>
+      <webElementGuid>40a02ac5-a071-4a80-ac86-70858bd4f171</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Edit')]</value>
+      <webElementGuid>587eacbf-490f-4126-bdc7-c436b903be71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non Active'])[1]/following::button[1]</value>
-      <webElementGuid>453158f6-4449-4607-ae19-e6263d78b70c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deactivate'])[1]/following::a[1]</value>
+      <webElementGuid>5c64862b-4963-4255-9176-af0b888736b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elektronik'])[1]/following::button[1]</value>
-      <webElementGuid>a48608c0-a057-4e86-9672-339a56101b9b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::a[1]</value>
+      <webElementGuid>0512448b-bccf-4d9b-b506-f5b72d8c6e15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::button[1]</value>
-      <webElementGuid>227758f7-6bb0-4ede-b04f-59d222fac034</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmart Carrefour Central Park'])[1]/preceding::a[1]</value>
+      <webElementGuid>f7b6834b-c758-42a0-b5de-d1bd4e3ad939</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Multiguna'])[1]/preceding::button[1]</value>
-      <webElementGuid>cb954a40-ac27-4d0c-ae05-47c936be3e35</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[2]/preceding::a[1]</value>
+      <webElementGuid>4bb7ae5d-d216-49b0-bf22-a4a73bb9bd39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Activate']/parent::*</value>
-      <webElementGuid>8aa81d90-e41b-43ec-9585-d96b6a7051c6</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
+      <webElementGuid>89042728-4a53-4ff0-8704-246e7b5860f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/master/toko/edit?token=633e3c86af080000c4006de7')]</value>
+      <webElementGuid>39be10fb-caf1-4f20-9fc8-b9a13f4ecf3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>7c70ccc2-dd29-42f7-86d0-d4a1cceca1e3</webElementGuid>
+      <value>//td[4]/a</value>
+      <webElementGuid>ef3059c3-9811-430a-b3b4-3ddaac6de5dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Activate' or . = 'Activate')]</value>
-      <webElementGuid>88f26dec-bd83-4eab-be4b-922619b2a40c</webElementGuid>
+      <value>//a[@href = 'https://uat-dashboard.blicicil.com/master/toko/edit?token=633e3c86af080000c4006de7' and (text() = 'Edit' or . = 'Edit')]</value>
+      <webElementGuid>4467c8ae-354b-456b-bd9b-0feffea4b177</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

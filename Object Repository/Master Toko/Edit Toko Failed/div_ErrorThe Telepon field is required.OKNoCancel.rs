@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Are you sure want to activate Elektroni_a747f7</name>
+   <name>div_ErrorThe Telepon field is required.OKNoCancel</name>
    <tag></tag>
-   <elementGuidId>a95b63cf-858f-484d-9a66-e718b011bf73</elementGuidId>
+   <elementGuidId>657866aa-a3bd-4221-8519-b96512c8003e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.swal2-popup.swal2-modal.swal2-icon-warning.swal2-show</value>
+         <value>div.swal2-popup.swal2-modal.swal2-icon-error.swal2-show</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b787fa7c-9749-456d-94c7-9a87460ac8e2</webElementGuid>
+      <webElementGuid>0b423110-cf31-4b24-a35b-01a77d163aae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>swal2-title</value>
-      <webElementGuid>0a5de889-6fb4-466e-9ae7-1b6e866a7607</webElementGuid>
+      <webElementGuid>5fc7a6e1-d23c-4bb1-a092-2c98ae8b9765</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>swal2-html-container</value>
-      <webElementGuid>3062ca56-532b-47c8-98db-4a85e7881fa1</webElementGuid>
+      <webElementGuid>bedb42a5-b172-412d-bb85-4f613529198b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>swal2-popup swal2-modal swal2-icon-warning swal2-show</value>
-      <webElementGuid>e5126651-33db-47ab-b8f5-fae4b11c8156</webElementGuid>
+      <value>swal2-popup swal2-modal swal2-icon-error swal2-show</value>
+      <webElementGuid>d67aab5d-0f38-4e87-a4c8-4d8703bdeda3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>39320a30-bf66-4e0d-8f5a-f9af4dfb351c</webElementGuid>
+      <webElementGuid>3d89fcc9-57c8-4ca4-abce-fb6164674186</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>d858d057-1270-4706-b1ae-de557c781849</webElementGuid>
+      <webElementGuid>a415eac7-1a0b-4bcc-82fc-22f1ddb7cf68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-live</name>
       <type>Main</type>
       <value>assertive</value>
-      <webElementGuid>1b9d2875-aed1-427b-a3b2-be0403caf870</webElementGuid>
+      <webElementGuid>62cc8bea-9b9f-441b-990b-fa0f4cf7b355</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,23 +78,27 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9011c1ee-b860-4535-87ec-713effd8236b</webElementGuid>
+      <webElementGuid>3ccfe614-0239-42d3-a2aa-86b3ae8b3b1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>×!Are you sure want to activate Elektronik?YesNoNo</value>
-      <webElementGuid>5128330e-10cf-4a14-bb41-5167549dce7b</webElementGuid>
+      <value>×
+    
+    
+  
+Error!The Telepon field is required.OKNoCancel</value>
+      <webElementGuid>9ff3cd50-cff9-4c94-8ce4-fe0c27910ab9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;loaded swal2-shown swal2-height-auto&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static menu-expanded pace-done swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-warning swal2-show&quot;]</value>
-      <webElementGuid>525a6722-db15-499b-87b8-b3909dbc8d43</webElementGuid>
+      <value>/html[@class=&quot;loaded swal2-shown swal2-height-auto&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static menu-expanded pace-done swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-error swal2-show&quot;]</value>
+      <webElementGuid>54929b76-c1a2-4165-866b-4203b3f91b57</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Andre Pabertiyan'])[1]/following::div[4]</value>
-      <webElementGuid>99635600-54ab-4a49-b412-2a470988cc2c</webElementGuid>
+      <webElementGuid>25336160-dd82-4d4d-bf3c-ffeb367f541c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,14 +114,22 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div</value>
-      <webElementGuid>a04150d5-a373-46b6-af6f-11f36ff919c6</webElementGuid>
+      <webElementGuid>ebac0852-5dab-420e-aaad-8b9bbdbd15b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '×!Are you sure want to activate Elektronik?YesNoNo' or . = '×!Are you sure want to activate Elektronik?YesNoNo')]</value>
-      <webElementGuid>a7967e46-b684-4e46-813f-1c016775594a</webElementGuid>
+      <value>//div[(text() = '×
+    
+    
+  
+Error!The Telepon field is required.OKNoCancel' or . = '×
+    
+    
+  
+Error!The Telepon field is required.OKNoCancel')]</value>
+      <webElementGuid>3a5598e5-a7b9-4ec5-ac85-802185b78724</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_password</name>
+   <name>input_Dealer Code_txtDealerCode</name>
    <tag></tag>
-   <elementGuidId>3974c803-0c67-4a72-88a6-9eb71058f979</elementGuidId>
+   <elementGuidId>b639b3ca-9698-41a5-a89e-b6c2c7fd04be</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#password</value>
+         <value>#txtDealerCode</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='password']</value>
+         <value>//input[@id='txtDealerCode']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,102 +22,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ade15993-bedd-407f-8abb-17b7255eeaa4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control form-control-merge</value>
-      <webElementGuid>660646c4-5c7f-4434-a7f7-f0169a38ce30</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>59db8181-bc92-4673-93af-8c324fa41c5e</webElementGuid>
+      <webElementGuid>1bedcca7-009f-4c49-9d16-d94fe4aed2f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>b0b6729b-b319-4a3d-ba7f-3bedcbfd4464</webElementGuid>
+      <value>text</value>
+      <webElementGuid>2ab7fdc9-5968-41ce-89ea-325effb37bbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>acb20a4e-6508-4016-abf1-a425d26d8fe1</webElementGuid>
+      <value>txtDealerCode</value>
+      <webElementGuid>65b85f34-e623-4562-840f-b5cadde127af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Enter password</value>
-      <webElementGuid>bd9bd083-42dd-4597-967f-c36fd0223c44</webElementGuid>
+      <value>Input dealer code</value>
+      <webElementGuid>f8b748ee-63a5-459d-b91f-ad564bc7d5fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
+      <name>class</name>
       <type>Main</type>
-      <value>login-password</value>
-      <webElementGuid>7bb40605-0f30-4b96-b44b-68117038c31c</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>38ca5c15-9a33-42c9-8f06-1cebdd69e466</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>txtDealerCode</value>
+      <webElementGuid>c23acfe3-6bdd-4579-8bd0-9516e832bb50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>value</name>
       <type>Main</type>
-      <value>2</value>
-      <webElementGuid>ff3654b3-af79-4b58-9743-10ba871a6596</webElementGuid>
+      <value>TC</value>
+      <webElementGuid>e939fa83-01ea-4091-abec-b64ed5496e9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;password&quot;)</value>
-      <webElementGuid>f3892a1b-b535-4963-bb0f-38ef656012ef</webElementGuid>
+      <value>id(&quot;txtDealerCode&quot;)</value>
+      <webElementGuid>18022c82-25fa-4a07-8cb6-aac700d43abe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='password']</value>
-      <webElementGuid>ba10e62f-4871-4238-80c2-0b497badd05b</webElementGuid>
+      <value>//input[@id='txtDealerCode']</value>
+      <webElementGuid>5cbcde8f-2ba1-4d40-b38a-21fb1025c6e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frmLogin']/div[2]/div[2]/input</value>
-      <webElementGuid>f5979afd-819c-41a4-95af-18488ead5e58</webElementGuid>
+      <value>//form[@id='frmToko']/div[6]/div/div/input</value>
+      <webElementGuid>91f9613c-9a03-450f-a5aa-03b290dff151</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>6a11d248-d0e8-44ea-9667-15f0c6851c56</webElementGuid>
+      <value>//div[6]/div/div/input</value>
+      <webElementGuid>c7477c6f-6c70-4d78-87b1-819c0cdbee60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'password' and @type = 'password' and @name = 'password' and @placeholder = 'Enter password']</value>
-      <webElementGuid>f6603b5d-b459-452c-8e53-ad38813f8c47</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'txtDealerCode' and @placeholder = 'Input dealer code' and @name = 'txtDealerCode']</value>
+      <webElementGuid>19c3470b-04a4-4ce2-a23e-dc18b70c8dd6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

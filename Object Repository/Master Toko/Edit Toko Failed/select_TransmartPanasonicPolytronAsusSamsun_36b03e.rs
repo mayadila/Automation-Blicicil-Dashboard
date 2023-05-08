@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Deactivate</name>
+   <name>select_TransmartPanasonicPolytronAsusSamsun_36b03e</name>
    <tag></tag>
-   <elementGuidId>560f576b-d9c6-418f-8fc2-463dfb45cf86</elementGuidId>
+   <elementGuidId>51742bdd-5436-454a-819a-66d098c47fd6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#comboBoxMerchant</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
+         <value>//select[@id='comboBoxMerchant']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>f47cac0e-51b5-424b-96c7-6317012e8bbf</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>b990eb50-9d06-4eb2-ac0b-81b3733fb10d</webElementGuid>
+      <value>select</value>
+      <webElementGuid>124ba7ea-b04a-4f3a-850e-17c6c4eb5b4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-flat-danger</value>
-      <webElementGuid>e85e3432-d45d-4462-83b0-4b6e36ecdfa4</webElementGuid>
+      <value>form-control form-control</value>
+      <webElementGuid>766106d7-a0ff-48f0-b23b-4ece6ab658be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>id</name>
       <type>Main</type>
-      <value>showConfirmationPopup('deactivate', () => actionProduct('643e464694782805670677b2', 1), 'Hari ini tes')</value>
-      <webElementGuid>1857d3a1-b205-447c-9995-4f4456ba01ca</webElementGuid>
+      <value>comboBoxMerchant</value>
+      <webElementGuid>32299bd8-be40-4855-96e1-0d89b1073287</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>comboBoxMerchant</value>
+      <webElementGuid>68704040-c42b-4c63-aaec-292a40d69ba4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Deactivate</value>
-      <webElementGuid>fef7cd03-ee47-4e7f-83fd-1bceebcc6a98</webElementGuid>
+      <value>TransmartPanasonicPolytronAsusSamsungErafone</value>
+      <webElementGuid>ae83b429-2a64-4b2d-9bca-d8b9ca50f693</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-products&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[9]/button[@class=&quot;btn btn-flat-danger&quot;]</value>
-      <webElementGuid>2a69ca8f-37da-461c-af21-c9fe68a8b439</webElementGuid>
+      <value>id(&quot;comboBoxMerchant&quot;)</value>
+      <webElementGuid>e14a14ca-f4ae-43f3-a3c4-f1d17b85f625</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>ee4becae-9d2f-4de7-89bd-f0dbd6e25836</webElementGuid>
+      <value>//select[@id='comboBoxMerchant']</value>
+      <webElementGuid>3b345673-2e66-4194-9053-210227f1aece</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-products']/tbody/tr[5]/td[9]/button</value>
-      <webElementGuid>d0c4c686-a58c-4df0-bdb2-668bff54df6b</webElementGuid>
+      <value>//form[@id='frmToko']/div/div/div/select</value>
+      <webElementGuid>f1e23013-d303-43d1-a48d-71decdfea787</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[5]/following::button[1]</value>
-      <webElementGuid>6a37241b-fb9f-49ed-9a51-9e8b5655ca50</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchant'])[1]/following::select[1]</value>
+      <webElementGuid>ba5d3739-d38f-44cd-ae1f-345f682856fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='hari ini tes'])[1]/following::button[1]</value>
-      <webElementGuid>3c69ff23-7c3e-4954-be10-ba9fcf6ca83d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Toko BliCicil Admin as'])[1]/following::select[1]</value>
+      <webElementGuid>d81af99a-cc54-4b5d-9a79-86a85c111e17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[5]/preceding::button[1]</value>
-      <webElementGuid>a06202e7-ab52-4fbf-884a-9e47a7a0b302</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[1]/preceding::select[1]</value>
+      <webElementGuid>5c0ae751-ac65-499f-9f9a-449a7bc06197</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='tesss'])[1]/preceding::button[1]</value>
-      <webElementGuid>1fc42fcc-8be4-4dde-bb8a-c338edadcf5d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Toko'])[1]/preceding::select[2]</value>
+      <webElementGuid>d0bc9c01-2159-4307-ac3d-e5866c7006f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[5]/td[9]/button</value>
-      <webElementGuid>2f11519c-78a3-44a0-a1cc-61c0d761f02e</webElementGuid>
+      <value>//select</value>
+      <webElementGuid>72081033-d8d4-4f20-b7f2-d36209643e6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Deactivate' or . = 'Deactivate')]</value>
-      <webElementGuid>ae00c86c-97a1-4b5d-9672-220aa64c02d9</webElementGuid>
+      <value>//select[@id = 'comboBoxMerchant' and @name = 'comboBoxMerchant' and (text() = 'TransmartPanasonicPolytronAsusSamsungErafone' or . = 'TransmartPanasonicPolytronAsusSamsungErafone')]</value>
+      <webElementGuid>13b2eaf2-ddff-4506-a603-ee4a6fdab599</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Deactivate</name>
+   <name>button_Activate</name>
    <tag></tag>
-   <elementGuidId>560f576b-d9c6-418f-8fc2-463dfb45cf86</elementGuidId>
+   <elementGuidId>62f16b3f-d444-4300-81e9-0ff76428a358</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>button.btn.btn-flat-success</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
+         <value>//button[@type='button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f47cac0e-51b5-424b-96c7-6317012e8bbf</webElementGuid>
+      <webElementGuid>49b26bbd-254b-40ab-853f-04c5e175cd9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,102 +30,110 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b990eb50-9d06-4eb2-ac0b-81b3733fb10d</webElementGuid>
+      <webElementGuid>6cdab517-9100-4b15-a4c7-a45b69138bfd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-flat-danger</value>
-      <webElementGuid>e85e3432-d45d-4462-83b0-4b6e36ecdfa4</webElementGuid>
+      <value>btn btn-flat-success</value>
+      <webElementGuid>ea97589c-407e-4942-9f0a-94ecd85a8b60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>showConfirmationPopup('deactivate', () => actionProduct('643e464694782805670677b2', 1), 'Hari ini tes')</value>
-      <webElementGuid>1857d3a1-b205-447c-9995-4f4456ba01ca</webElementGuid>
+      <value>showConfirmationPopup('activate', () => actionProduct('61e15fa0d0f78412495afbc2', 0), 'Modal Instan')</value>
+      <webElementGuid>36fb7725-5a4c-4f2e-8158-ded7ea1af393</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Deactivate</value>
-      <webElementGuid>fef7cd03-ee47-4e7f-83fd-1bceebcc6a98</webElementGuid>
+      <value>Activate</value>
+      <webElementGuid>e2561bdd-ea3a-44ff-a247-b7e2cf955e3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-products&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[9]/button[@class=&quot;btn btn-flat-danger&quot;]</value>
-      <webElementGuid>2a69ca8f-37da-461c-af21-c9fe68a8b439</webElementGuid>
+      <value>id(&quot;tbl-products&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[9]/button[@class=&quot;btn btn-flat-success&quot;]</value>
+      <webElementGuid>b89766e7-671f-4f41-a09c-017a80fab8ff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>ee4becae-9d2f-4de7-89bd-f0dbd6e25836</webElementGuid>
+      <value>//button[@type='button']</value>
+      <webElementGuid>289e100d-7b7c-4ed1-b5a8-0e4a87c337ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-products']/tbody/tr[5]/td[9]/button</value>
-      <webElementGuid>d0c4c686-a58c-4df0-bdb2-668bff54df6b</webElementGuid>
+      <value>//table[@id='tbl-products']/tbody/tr/td[9]/button</value>
+      <webElementGuid>69d9bdb0-5d98-49ac-abd9-1c9b728ccadd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[5]/following::button[1]</value>
-      <webElementGuid>6a37241b-fb9f-49ed-9a51-9e8b5655ca50</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non Active'])[1]/following::button[1]</value>
+      <webElementGuid>098cdc6c-3cdb-4383-90d7-809014c465ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='hari ini tes'])[1]/following::button[1]</value>
-      <webElementGuid>3c69ff23-7c3e-4954-be10-ba9fcf6ca83d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kemudahan pinjaman kini hadir di genggaman anda. Yuk langsung ajukan pinjaman kamu disini.'])[1]/following::button[1]</value>
+      <webElementGuid>9f6a8963-0977-4dbf-b4c9-f1d4e6a6405d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[5]/preceding::button[1]</value>
-      <webElementGuid>a06202e7-ab52-4fbf-884a-9e47a7a0b302</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::button[1]</value>
+      <webElementGuid>a3f60735-7c80-41b5-a896-d5da81c0f31c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='tesss'])[1]/preceding::button[1]</value>
-      <webElementGuid>1fc42fcc-8be4-4dde-bb8a-c338edadcf5d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Motor Baru'])[1]/preceding::button[1]</value>
+      <webElementGuid>d5a8ed27-caa7-4ab1-9d18-705e838580e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Activate']/parent::*</value>
+      <webElementGuid>d6649185-d6ab-4272-a9b9-66031194dac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[5]/td[9]/button</value>
-      <webElementGuid>2f11519c-78a3-44a0-a1cc-61c0d761f02e</webElementGuid>
+      <value>//button</value>
+      <webElementGuid>cff009f7-2683-4342-8433-57445195e3cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Deactivate' or . = 'Deactivate')]</value>
-      <webElementGuid>ae00c86c-97a1-4b5d-9672-220aa64c02d9</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Activate' or . = 'Activate')]</value>
+      <webElementGuid>e46f865e-3ddf-4c13-9e8c-0372e9f2ef61</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

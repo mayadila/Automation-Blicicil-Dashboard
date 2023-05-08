@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Are you sure want to activate Elektroni_a747f7</name>
+   <name>div_ErrorThe Latitude field is required.OKNoCancel</name>
    <tag></tag>
-   <elementGuidId>a95b63cf-858f-484d-9a66-e718b011bf73</elementGuidId>
+   <elementGuidId>8c4f7c16-5525-4170-a108-445b62ea4f1e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.swal2-popup.swal2-modal.swal2-icon-warning.swal2-show</value>
+         <value>div.swal2-popup.swal2-modal.swal2-icon-error.swal2-show</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b787fa7c-9749-456d-94c7-9a87460ac8e2</webElementGuid>
+      <webElementGuid>bee54864-d865-43d5-ad3a-79ce84fec0b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>swal2-title</value>
-      <webElementGuid>0a5de889-6fb4-466e-9ae7-1b6e866a7607</webElementGuid>
+      <webElementGuid>cfaca2f4-fbc3-48de-a9ce-f849c313a7dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>swal2-html-container</value>
-      <webElementGuid>3062ca56-532b-47c8-98db-4a85e7881fa1</webElementGuid>
+      <webElementGuid>86ab605c-4ce8-4182-8339-077afd79491b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>swal2-popup swal2-modal swal2-icon-warning swal2-show</value>
-      <webElementGuid>e5126651-33db-47ab-b8f5-fae4b11c8156</webElementGuid>
+      <value>swal2-popup swal2-modal swal2-icon-error swal2-show</value>
+      <webElementGuid>8ad366da-0945-4586-81a9-2fedbe186233</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>39320a30-bf66-4e0d-8f5a-f9af4dfb351c</webElementGuid>
+      <webElementGuid>dc894fe6-2308-4daa-9eda-81940b19fc5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>d858d057-1270-4706-b1ae-de557c781849</webElementGuid>
+      <webElementGuid>abc0aa03-c94c-425b-9091-b13d24818bba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-live</name>
       <type>Main</type>
       <value>assertive</value>
-      <webElementGuid>1b9d2875-aed1-427b-a3b2-be0403caf870</webElementGuid>
+      <webElementGuid>0c0feba5-5ece-477b-8825-7c2820896bb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,23 +78,27 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9011c1ee-b860-4535-87ec-713effd8236b</webElementGuid>
+      <webElementGuid>5083d1cb-1f19-4e9b-99c2-faf1e8dc3d13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>×!Are you sure want to activate Elektronik?YesNoNo</value>
-      <webElementGuid>5128330e-10cf-4a14-bb41-5167549dce7b</webElementGuid>
+      <value>×
+    
+    
+  
+Error!The Latitude field is required.OKNoCancel</value>
+      <webElementGuid>6e410e18-767f-48e0-9c9f-0d8a9b8fa970</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;loaded swal2-shown swal2-height-auto&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static menu-expanded pace-done swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-warning swal2-show&quot;]</value>
-      <webElementGuid>525a6722-db15-499b-87b8-b3909dbc8d43</webElementGuid>
+      <value>/html[@class=&quot;loaded swal2-shown swal2-height-auto&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static menu-expanded pace-done swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-error swal2-show&quot;]</value>
+      <webElementGuid>49e5b556-8148-4501-9a5f-6a02dcda971c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Andre Pabertiyan'])[1]/following::div[4]</value>
-      <webElementGuid>99635600-54ab-4a49-b412-2a470988cc2c</webElementGuid>
+      <webElementGuid>b316571e-f2dd-405f-8247-ae7499e34437</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,14 +114,22 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div</value>
-      <webElementGuid>a04150d5-a373-46b6-af6f-11f36ff919c6</webElementGuid>
+      <webElementGuid>094a17d2-2cc2-4503-bcba-6c1ab381b25d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '×!Are you sure want to activate Elektronik?YesNoNo' or . = '×!Are you sure want to activate Elektronik?YesNoNo')]</value>
-      <webElementGuid>a7967e46-b684-4e46-813f-1c016775594a</webElementGuid>
+      <value>//div[(text() = '×
+    
+    
+  
+Error!The Latitude field is required.OKNoCancel' or . = '×
+    
+    
+  
+Error!The Latitude field is required.OKNoCancel')]</value>
+      <webElementGuid>402f9db9-35be-4692-b348-d052965c83cb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

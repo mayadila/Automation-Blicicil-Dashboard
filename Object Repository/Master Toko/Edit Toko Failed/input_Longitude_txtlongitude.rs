@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_password</name>
+   <name>input_Longitude_txtlongitude</name>
    <tag></tag>
-   <elementGuidId>3974c803-0c67-4a72-88a6-9eb71058f979</elementGuidId>
+   <elementGuidId>91e07084-a686-4ff4-9717-54f54c320de8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#password</value>
+         <value>#txtlongitude</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='password']</value>
+         <value>//input[@id='txtlongitude']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,102 +22,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ade15993-bedd-407f-8abb-17b7255eeaa4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control form-control-merge</value>
-      <webElementGuid>660646c4-5c7f-4434-a7f7-f0169a38ce30</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>59db8181-bc92-4673-93af-8c324fa41c5e</webElementGuid>
+      <webElementGuid>be878db3-1ebc-48e4-9f52-1d4f11202181</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>b0b6729b-b319-4a3d-ba7f-3bedcbfd4464</webElementGuid>
+      <value>text</value>
+      <webElementGuid>0c72fdfa-6730-4ca0-92a4-5e34dda35939</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>pattern</name>
+      <type>Main</type>
+      <value>\[[+-]?[0-9]*\.?[0-9]+,[+-]?[0-9]*\.?[0-9]+]</value>
+      <webElementGuid>61c5ce14-d0a7-4c30-b9a3-c213bbfdf223</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>txtlongitude</value>
+      <webElementGuid>e867f92f-b2c1-4ba1-9e45-c0b7f9798bc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>b1dd1026-3bdd-4156-b9c2-c4376c3324d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>acb20a4e-6508-4016-abf1-a425d26d8fe1</webElementGuid>
+      <value>txtlongitude</value>
+      <webElementGuid>2a671515-9e0a-47b9-a8b5-60e43809bbb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Enter password</value>
-      <webElementGuid>bd9bd083-42dd-4597-967f-c36fd0223c44</webElementGuid>
+      <value>Masukkan longitude</value>
+      <webElementGuid>d8c4a908-f2cb-4cfe-aa82-8565061a0a9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
+      <name>value</name>
       <type>Main</type>
-      <value>login-password</value>
-      <webElementGuid>7bb40605-0f30-4b96-b44b-68117038c31c</webElementGuid>
+      <value>106.814095</value>
+      <webElementGuid>c412309c-60c1-4c4a-89bc-049a670c423a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>onkeydown</name>
       <type>Main</type>
-      <value>2</value>
-      <webElementGuid>ff3654b3-af79-4b58-9743-10ba871a6596</webElementGuid>
+      <value>return((47&lt;event.keyCode &amp;&amp; event.keyCode&lt;58 &amp;&amp; event.shiftKey==false) || (event.keyCode==190 &amp;&amp; event.shiftKey==false) || event.keyCode==37 || event.keyCode==39 || event.keyCode==46 || event.keyCode==8)</value>
+      <webElementGuid>349cb5e8-8f09-4f9d-ac9c-b4da79cb7c8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;password&quot;)</value>
-      <webElementGuid>f3892a1b-b535-4963-bb0f-38ef656012ef</webElementGuid>
+      <value>id(&quot;txtlongitude&quot;)</value>
+      <webElementGuid>2d869b51-cf30-4b53-9ea5-04bed8c6fdf7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='password']</value>
-      <webElementGuid>ba10e62f-4871-4238-80c2-0b497badd05b</webElementGuid>
+      <value>//input[@id='txtlongitude']</value>
+      <webElementGuid>fce85c59-100e-4553-933a-4bd2850aff82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frmLogin']/div[2]/div[2]/input</value>
-      <webElementGuid>f5979afd-819c-41a4-95af-18488ead5e58</webElementGuid>
+      <value>//form[@id='frmToko']/div[9]/div/div/input</value>
+      <webElementGuid>f6eb6579-91a5-4a6b-843b-9c60f8d20d25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>6a11d248-d0e8-44ea-9667-15f0c6851c56</webElementGuid>
+      <value>//div[9]/div/div/input</value>
+      <webElementGuid>d60d2ba6-0b56-4891-bf6e-789bf7e51077</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'password' and @type = 'password' and @name = 'password' and @placeholder = 'Enter password']</value>
-      <webElementGuid>f6603b5d-b459-452c-8e53-ad38813f8c47</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'txtlongitude' and @name = 'txtlongitude' and @placeholder = 'Masukkan longitude']</value>
+      <webElementGuid>d4f26b59-7ee4-4193-b55e-65fb45ff633f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
