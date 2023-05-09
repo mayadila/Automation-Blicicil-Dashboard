@@ -3,7 +3,7 @@
    <description></description>
    <name>a_2</name>
    <tag></tag>
-   <elementGuidId>8661e006-1968-4875-8007-e330a2697aea</elementGuidId>
+   <elementGuidId>afd9dbef-f1cd-4dc6-902f-a5970d43aea9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d5d2aca8-95d5-443f-93aa-c1235a41df62</webElementGuid>
+      <webElementGuid>dc96179c-ed55-4fce-93c1-4ddec1b7941c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>bfd86540-9ee1-485c-b973-cacaa98ffe45</webElementGuid>
+      <webElementGuid>4da6b8b9-7efe-45f2-a362-0a279d67afac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>tbl-administrator</value>
-      <webElementGuid>aa546df9-8048-448e-88a0-ef31db923c36</webElementGuid>
+      <webElementGuid>a92a4ba9-211c-47ec-9200-f33e560febcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-dt-idx</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>c5e85864-8cb9-4ef1-9aa3-b0797634752b</webElementGuid>
+      <webElementGuid>df9129fa-e89b-4fb7-8f3e-1f87b61c1d49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>3294f22b-8d57-4001-bc1d-e1da4c4b39dc</webElementGuid>
+      <webElementGuid>1dd39878-6b4e-4ae4-99d6-c6f180e30b06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>page-link</value>
-      <webElementGuid>d076fc1e-2d17-4f1f-9f6b-75257eec768b</webElementGuid>
+      <webElementGuid>710aff92-96f5-443a-aebb-73dc42e4d489</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>23dd087d-a192-4e94-9519-f5a2a637acb1</webElementGuid>
+      <webElementGuid>e78c8139-5cf3-4572-a143-0748f8437c4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbl-administrator_paginate&quot;)/ul[@class=&quot;pagination&quot;]/li[@class=&quot;paginate_button page-item&quot;]/a[@class=&quot;page-link&quot;]</value>
-      <webElementGuid>e0fc3afc-f0e1-4748-b4a8-00e0d31b2523</webElementGuid>
+      <webElementGuid>8c9ab9ee-6a8b-4162-ba52-f360e4853a2b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='tbl-administrator_paginate']/ul/li[3]/a</value>
-      <webElementGuid>e81f06d3-142b-4595-82bd-557aa13ff984</webElementGuid>
+      <webElementGuid>b31da9cd-6bc8-4806-ac7a-d6ac756d8821</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,15 +94,15 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'2')]</value>
-      <webElementGuid>b2709589-78bf-4b0b-9d39-aaa5c7395c62</webElementGuid>
+      <webElementGuid>e8113bc8-e5d5-48c6-96b3-418ddef7302d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 10 of 20 entries'])[1]/following::a[3]</value>
-      <webElementGuid>6a53a3b6-25d6-42c2-b30d-33427b9e0170</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 10 of 15 entries'])[1]/following::a[3]</value>
+      <webElementGuid>faa79394-44ac-46e2-91e6-75915f57bb2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[10]/following::a[3]</value>
-      <webElementGuid>2500ac3d-c747-4048-bc7f-0c5424f62232</webElementGuid>
+      <webElementGuid>253d4a76-9efc-4416-a6cd-836bedc59bc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=', All rights Reserved'])[1]/preceding::a[3]</value>
-      <webElementGuid>af27abe5-2a61-4239-a917-6ca60078da71</webElementGuid>
+      <webElementGuid>24ccfa62-a16d-4417-a0b2-af85649a4a84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+      <webElementGuid>c592a924-8d77-4e94-bcde-0b45fccaf5fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[7]</value>
-      <webElementGuid>98af8762-7134-48e9-924c-e64978f07478</webElementGuid>
+      <webElementGuid>ceb01b21-6e82-4047-8a6e-3f9a6f3c2451</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/ul/li[3]/a</value>
-      <webElementGuid>18773ca5-e393-4f83-879a-0e0b4e882067</webElementGuid>
+      <webElementGuid>0bb74c7a-a714-4a26-bc52-3bac3c816dc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = '2' or . = '2')]</value>
-      <webElementGuid>fa64792c-550a-48e0-ac03-28fdf402696f</webElementGuid>
+      <webElementGuid>d1331326-21d2-4f50-8357-41421f10241e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

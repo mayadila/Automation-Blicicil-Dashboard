@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Activate</name>
    <tag></tag>
-   <elementGuidId>7e265591-b800-42b0-9112-3d418bb2af93</elementGuidId>
+   <elementGuidId>7c6834b8-3153-4775-8eca-22a65b51da63</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>button.btn.btn-flat-success.btn-sm</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[8]</value>
+         <value>(//button[@type='button'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>50ab3f4f-5722-47fe-aa24-27faf7d4352b</webElementGuid>
+      <webElementGuid>3f8865b2-59ed-4175-8317-eaffc96f0db8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>dedb2a36-4e22-4aaf-9127-92acc4219f40</webElementGuid>
+      <webElementGuid>21b0474c-c3c3-4b64-ba4e-65c7b4d0df90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-flat-success btn-sm</value>
-      <webElementGuid>172e0d7c-092d-4628-b7ac-698d3252d959</webElementGuid>
+      <webElementGuid>1da33e4e-15fa-4add-ac7c-75a2c8507be3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>showConfirmationPopup('activate', () => actionProduct('62644bf0b8ef4aa6104c1c08', 0), 'Akatsuki')</value>
-      <webElementGuid>971f5c37-26dd-42fb-b94e-6a9c4d5e54d9</webElementGuid>
+      <value>showConfirmationPopup('activate', () => actionProduct('61f0c50826c9fc32027dacc0', 0), 'Fredi Bong')</value>
+      <webElementGuid>5fd21cab-d626-4064-b49e-d02d201a064a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Activate</value>
-      <webElementGuid>1e02a433-aa09-4308-858b-57ed37472f5e</webElementGuid>
+      <webElementGuid>be071127-8a63-471e-bad4-05c3471ad4ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,63 +62,71 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbl-administrator&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[7]/button[@class=&quot;btn btn-flat-success btn-sm&quot;]</value>
-      <webElementGuid>93c37324-5bf8-406e-abb1-9f2c2f7ce733</webElementGuid>
+      <webElementGuid>fbe5035a-c659-4110-aaf7-6d416522b9f1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[8]</value>
-      <webElementGuid>c0327cb1-f915-4848-9bfb-bbacd3f32aaf</webElementGuid>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>160540f3-c166-4768-a502-7f59a24a109a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-administrator']/tbody/tr[8]/td[7]/button</value>
-      <webElementGuid>44d292de-406d-40ed-98e6-e88dd5b22e42</webElementGuid>
+      <value>//table[@id='tbl-administrator']/tbody/tr[2]/td[7]/button</value>
+      <webElementGuid>d26f7aea-e39a-4730-a395-27a554ec5803</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nonactive'])[4]/following::button[1]</value>
-      <webElementGuid>967b4ed9-8f3c-4182-ba22-ce9f2f1a137d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nonactive'])[1]/following::button[1]</value>
+      <webElementGuid>92b36c19-c3ba-4597-ac5b-4d0fae289459</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[4]/following::button[1]</value>
-      <webElementGuid>6fce609f-47bb-4b0d-b26d-e84fac135493</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='fredi@megafinance.co.id'])[1]/following::button[1]</value>
+      <webElementGuid>39e5689c-ff34-4c8d-a683-5e69c062f410</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privilege'])[8]/preceding::button[1]</value>
-      <webElementGuid>80226d6c-6935-470c-88c3-a67e8a77e894</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privilege'])[2]/preceding::button[1]</value>
+      <webElementGuid>715e509c-44d3-4614-9421-ce3a284659d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[8]/preceding::button[1]</value>
-      <webElementGuid>e0425656-8061-47af-8ec3-e8616cdc724c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/preceding::button[1]</value>
+      <webElementGuid>090b7027-ba7f-4e09-9004-bc1178878e5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Activate']/parent::*</value>
+      <webElementGuid>9ebb8998-f2f8-40ed-85b9-b6e6998a8281</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[8]/td[7]/button</value>
-      <webElementGuid>93724ff2-c027-4bed-8e16-a24fd74d1898</webElementGuid>
+      <value>//tr[2]/td[7]/button</value>
+      <webElementGuid>5f9424f4-a0c8-4ae5-a5e8-38d2f9576fe9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Activate' or . = 'Activate')]</value>
-      <webElementGuid>6a2d4d48-d2ea-4320-ab27-0dc9789449f9</webElementGuid>
+      <webElementGuid>43680abd-cfb1-48f2-a4d7-53d407ccf012</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

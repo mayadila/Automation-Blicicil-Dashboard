@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Are you sure want to deactivate blicici_4d10fb</name>
+   <name>div_Are you sure want to deactivate Fredi B_6240d1</name>
    <tag></tag>
-   <elementGuidId>e22ed921-14e9-4f5b-91f3-5f614ede4ab4</elementGuidId>
+   <elementGuidId>0adf1c40-4503-448c-bfab-3f60750a73e4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>48acf622-830d-4f72-aa06-8fc214897113</webElementGuid>
+      <webElementGuid>996dbe65-12ce-47dd-a225-446bfcb60bd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>swal2-title</value>
-      <webElementGuid>bbe5e9a9-d664-409b-94d7-c33b5fb50873</webElementGuid>
+      <webElementGuid>ad84172a-ff1a-4673-bde6-9e41ec0c8fc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>swal2-html-container</value>
-      <webElementGuid>f6ecbec1-502b-4dd4-b1dd-b57dc1bfcde6</webElementGuid>
+      <webElementGuid>c0da6191-7e5c-4386-a898-d0d2966e4b80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>swal2-popup swal2-modal swal2-icon-warning swal2-show</value>
-      <webElementGuid>46aa934d-567f-4285-ac92-bc5e41f97a4b</webElementGuid>
+      <webElementGuid>17397319-d05c-4c6f-9745-1e9f38abafac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>cce2adee-97b0-45d3-946a-141a12b741c7</webElementGuid>
+      <webElementGuid>8be950e3-14be-4fc1-a37d-6506c2799d53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>3458b090-0815-40f4-a25a-4c53a1d02dd5</webElementGuid>
+      <webElementGuid>7f72d3d5-e871-4ee8-b1ed-c8b517eb5908</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-live</name>
       <type>Main</type>
       <value>assertive</value>
-      <webElementGuid>d85c88e6-27b5-4497-b673-ed4688924605</webElementGuid>
+      <webElementGuid>10d4ee70-cb52-4975-a20f-773d74188bf1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,15 +78,15 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2c5dc09d-dba6-4071-a093-e8d8accc5c3f</webElementGuid>
+      <webElementGuid>7a2d3a16-8e9a-48b1-b489-8e2d841a03d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>×!Are you sure want to deactivate blicicil?YesNoNo</value>
-      <webElementGuid>fc2da37b-f04a-4ba6-8c6b-e2f36eed5277</webElementGuid>
+      <value>×!Are you sure want to deactivate Fredi Bong?YesNoNo</value>
+      <webElementGuid>97ff5716-5b91-4e4b-a8c1-1e3a9bd6a3ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;loaded swal2-shown swal2-height-auto&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static menu-expanded pace-done swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-warning swal2-show&quot;]</value>
-      <webElementGuid>5552340b-b056-4b27-b435-86134d25bd2c</webElementGuid>
+      <webElementGuid>7de7ba66-2984-4de6-941b-333f073e26d5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Andre Pabertiyan'])[1]/following::div[4]</value>
-      <webElementGuid>cbfc2411-8337-4843-88e3-4103940f1530</webElementGuid>
+      <webElementGuid>1e75d9db-ad3e-4a46-b27f-191ad8984d38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,14 +110,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div</value>
-      <webElementGuid>1719549a-923e-49dd-b44c-3076629ae8f0</webElementGuid>
+      <webElementGuid>9b5d39b4-3aa1-477c-816d-045c8d9f5c14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '×!Are you sure want to deactivate blicicil?YesNoNo' or . = '×!Are you sure want to deactivate blicicil?YesNoNo')]</value>
-      <webElementGuid>b3b9d4a0-ec74-4856-acb2-5789d60ab37f</webElementGuid>
+      <value>//div[(text() = '×!Are you sure want to deactivate Fredi Bong?YesNoNo' or . = '×!Are you sure want to deactivate Fredi Bong?YesNoNo')]</value>
+      <webElementGuid>5108f455-366d-4d7c-9347-dd8ef7bde048</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
