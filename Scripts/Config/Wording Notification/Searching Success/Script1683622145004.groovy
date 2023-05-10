@@ -23,34 +23,36 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Beranda/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Searching Success/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Config/Wording Notification/Beranda/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Config/Wording Notification/Searching Success/input_Password_password'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/button_Login'))
+WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Searching Success/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/a_Config'))
+WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Searching Success/a_Config'))
 
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/span_Wording Notification'))
+WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Searching Success/span_Wording Notification'))
 
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/div_List Wording BliCicil Admin as         _580111'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/a_3'))
+WebUI.getText(findTestObject('Object Repository/Config/Wording Notification/Searching Success/div_List Wording BliCicil Admin as         _580111'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/a_Previous'))
+WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Searching Success/input_Search_form-control form-control-sm'), 
+    'NIK')
+
+WebUI.sendKeys(findTestObject('Object Repository/Config/Wording Notification/Searching Success/input_Search_form-control form-control-sm'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/a_Next'))
+WebUI.refresh()
 
-WebUI.delay(5)
+WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Searching Success/input_Search_form-control form-control-sm'), 
+    'Pengajuan')
 
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/a_1'))
+WebUI.sendKeys(findTestObject('Object Repository/Config/Wording Notification/Searching Success/input_Search_form-control form-control-sm'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(10)
 
