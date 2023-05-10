@@ -17,281 +17,139 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Membuka Chrome'
 WebUI.openBrowser('')
 
-'Membuka halaman login'
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
-'Menginputkan email valid'
 WebUI.setText(findTestObject('Object Repository/Products Status/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
-'Menginputkan password valid'
 WebUI.setEncryptedText(findTestObject('Object Repository/Products Status/input_Password_password'), 'aeHFOx8jV/A=')
 
-'Mengklik button login'
 WebUI.click(findTestObject('Object Repository/Products Status/button_Login'))
 
-'Mengklik menu Products Status'
-WebUI.click(findTestObject('Object Repository/Products Status/span_Products Status'))
+WebUI.click(findTestObject('Object Repository/Products Status/a_Products Status'))
 
-'Membuka halaman List Products Status Blicicil '
-WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _5ccfe3'))
+WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _9ba51a'))
 
-'Menampilkan table berisi nama produk'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Product'))
+WebUI.delay(5)
 
-'Menampilkan table berisi order id'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Order ID'))
-
-'Menampilkan table berisi dokumen id'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Document ID'))
-
-'Menampilkan table berisi nama yang melakukan pengajuan'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Requestor'))
-
-'Menampilkan table berisi jumlah OTR/Pinjaman (Rp)'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_OTR  Pinjaman'))
-
-'Menampilkan table berisi jumlah downpayment (Rp)'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Downpayment'))
-
-'Menampilkan table berisi status pengajuan'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Status'))
-
-'Mengklik button Export To Excel untuk melihat detail dari products status'
-WebUI.click(findTestObject('Object Repository/Products Status/button_Export to Excel'))
-
-'Mengklik button Proses untuk menampilkan table list products status Prosess'
 WebUI.click(findTestObject('Object Repository/Products Status/p_Process'))
 
-'Membuka halaman list products status Prosess'
-WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _5ccfe3'))
+WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _9ba51a'))
 
-'Menampilkan table berisi nama produk'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Product'))
+WebUI.delay(5)
 
-'Menampilkan table berisi order id'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Order ID'))
-
-'Menampilkan table berisi dokumen id'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Document ID'))
-
-'Menampilkan table berisi nama yang melakukan pengajuan'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Requestor'))
-
-'Menampilkan table berisi jumlah OTR/Pinjaman (Rp)'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_OTR  Pinjaman'))
-
-'Menampilkan table berisi jumlah downpayment (Rp)'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Downpayment'))
-
-'Menampilkan table berisi status pengajuan'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Status'))
-
-'Mengklik button number page'
 WebUI.click(findTestObject('Object Repository/Products Status/a_4'))
 
-'Mengklik button number page'
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Products Status/a_12'))
 
-'Mengklik button Export To Excel untuk melihat detail dari products status'
-WebUI.click(findTestObject('Object Repository/Products Status/button_Export to Excel'))
+WebUI.delay(5)
 
-'Mengklik button number page'
 WebUI.click(findTestObject('Object Repository/Products Status/a_1'))
 
-'Mengklik button Proses untuk menampilkan table list products status TTD Kontrak'
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Products Status/button_Export to                           _94e730'))
+
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Products Status/p_TTD Kontrak'))
 
-'Membuka halaman list products status TTD Kontrak'
-WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _5ccfe3'))
+WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _9ba51a'))
 
-'Menampilkan table berisi nama produk'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Product'))
+WebUI.delay(5)
 
-'Menampilkan table berisi order id'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Order ID'))
-
-'Menampilkan table berisi dokumen id'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Document ID'))
-
-'Menampilkan table berisi nama yang melakukan pengajuan'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Requestor'))
-
-'Menampilkan table berisi jumlah OTR/Pinjaman (Rp)'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_OTR  Pinjaman'))
-
-'Menampilkan table berisi jumlah downpayment (Rp)'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Downpayment'))
-
-'Menampilkan table berisi status pengajuan'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Status'))
-
-'Mengklik button number page'
 WebUI.click(findTestObject('Object Repository/Products Status/a_2'))
 
-'Mengklik button number page'
-WebUI.click(findTestObject('Object Repository/Products Status/a_1'))
+WebUI.delay(5)
 
-'Mengklik button Export To Excel untuk melihat detail dari products status'
-WebUI.click(findTestObject('Object Repository/Products Status/button_Export to Excel'))
+WebUI.click(findTestObject('Object Repository/Products Status/button_Export to                           _94e730'))
 
-'Mengklik button Proses untuk menampilkan table list products status Transaksi'
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Products Status/p_Transaksi'))
 
-'Membuka halaman list products status Transaksi'
-WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _5ccfe3'))
+WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _9ba51a'))
 
-'Menampilkan table berisi nama produk'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Product'))
+WebUI.delay(5)
 
-'Menampilkan table berisi order id'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Order ID'))
+WebUI.click(findTestObject('Object Repository/Products Status/button_Export to                           _94e730'))
 
-'Menampilkan table berisi dokumen id'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Document ID'))
+WebUI.delay(5)
 
-'Menampilkan table berisi nama yang melakukan pengajuan'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Requestor'))
-
-'Menampilkan table berisi jumlah OTR/Pinjaman (Rp)'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_OTR  Pinjaman'))
-
-'Menampilkan table berisi jumlah downpayment (Rp)'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Downpayment'))
-
-'Menampilkan table berisi status pengajuan'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Status'))
-
-'Mengklik button Export To Excel untuk melihat detail dari products status'
-WebUI.click(findTestObject('Object Repository/Products Status/button_Export to Excel'))
-
-'Mengklik button Proses untuk menampilkan table list products status Ditolak'
 WebUI.click(findTestObject('Object Repository/Products Status/p_Ditolak'))
 
-'Membuka halaman list products status Ditolak'
-WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _5ccfe3'))
+WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _9ba51a'))
 
-'Menampilkan table berisi nama produk'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Product'))
+WebUI.delay(5)
 
-'Menampilkan table berisi order id'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Order ID'))
-
-'Menampilkan table berisi dokumen id'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Document ID'))
-
-'Menampilkan table berisi nama yang melakukan pengajuan'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Requestor'))
-
-'Menampilkan table berisi jumlah OTR/Pinjaman (Rp)'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_OTR  Pinjaman'))
-
-'Menampilkan table berisi jumlah downpayment (Rp)'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Downpayment'))
-
-'Menampilkan table berisi status pengajuan'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Status'))
-
-'Mengklik button number page'
-WebUI.click(findTestObject('Object Repository/Products Status/a_9'))
-
-'Mengklik button number page'
 WebUI.click(findTestObject('Object Repository/Products Status/a_5'))
 
-'Mengklik button number page'
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Products Status/a_9'))
+
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Products Status/a_1'))
 
-'Mengklik button Export To Excel untuk melihat detail dari products status'
-WebUI.click(findTestObject('Object Repository/Products Status/button_Export to Excel'))
+WebUI.delay(5)
 
-'Mengklik button Proses untuk menampilkan table list products status Dibatalkan'
+WebUI.click(findTestObject('Object Repository/Products Status/button_Export to                           _94e730'))
+
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Products Status/p_Dibatalkan'))
 
-'Membuka halaman list products status Dibatalkan'
-WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _5ccfe3'))
+WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _9ba51a'))
 
-'Menampilkan table berisi nama produk'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Product'))
+WebUI.delay(5)
 
-'Menampilkan table berisi order id'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Order ID'))
+WebUI.click(findTestObject('Object Repository/Products Status/a_5'))
 
-'Menampilkan table berisi dokumen id'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Document ID'))
+WebUI.delay(5)
 
-'Menampilkan table berisi nama yang melakukan pengajuan'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Requestor'))
+WebUI.click(findTestObject('Object Repository/Products Status/a_30'))
 
-'Menampilkan table berisi jumlah OTR/Pinjaman (Rp)'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_OTR  Pinjaman'))
+WebUI.delay(5)
 
-'Menampilkan table berisi jumlah downpayment (Rp)'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Downpayment'))
+WebUI.click(findTestObject('Object Repository/Products Status/a_26'))
 
-'Menampilkan table berisi status pengajuan'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Status'))
+WebUI.delay(5)
 
-'Mengklik button number page'
-WebUI.click(findTestObject('Object Repository/Products Status/a_29'))
-
-'Mengklik button number page'
-WebUI.click(findTestObject('Object Repository/Products Status/a_25'))
-
-'Mengklik button number page'
 WebUI.click(findTestObject('Object Repository/Products Status/a_1'))
 
-'Mengklik button Export To Excel untuk melihat detail dari products status'
-WebUI.click(findTestObject('Object Repository/Products Status/button_Export to Excel'))
+WebUI.delay(5)
 
-'Mengklik button Proses untuk menampilkan table list products status Selesai'
+WebUI.click(findTestObject('Object Repository/Products Status/button_Export to                           _94e730'))
+
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Products Status/p_Selesai'))
 
-'Membuka halaman list products status Selesai'
-WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _5ccfe3'))
+WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _9ba51a'))
 
-'Menampilkan table berisi nama produk'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Product'))
+WebUI.delay(5)
 
-'Menampilkan table berisi order id'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Order ID'))
-
-'Menampilkan table berisi dokumen id'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Document ID'))
-
-'Menampilkan table berisi nama yang melakukan pengajuan'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Requestor'))
-
-'Menampilkan table berisi jumlah OTR/Pinjaman (Rp)'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_OTR  Pinjaman'))
-
-'Menampilkan table berisi jumlah downpayment (Rp)'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Downpayment'))
-
-'Menampilkan table berisi status pengajuan'
-WebUI.getText(findTestObject('Object Repository/Products Status/th_Status'))
-
-'Mengklik button number page'
-WebUI.click(findTestObject('Object Repository/Products Status/a_16'))
-
-'Mengklik button number page'
-WebUI.click(findTestObject('Object Repository/Products Status/a_13'))
-
-'Mengklik button number page'
-WebUI.click(findTestObject('Object Repository/Products Status/a_1'))
-
-'Mengklik button number page'
 WebUI.click(findTestObject('Object Repository/Products Status/a_4'))
 
-'Mengklik button Export To Excel untuk melihat detail dari products status'
-WebUI.click(findTestObject('Object Repository/Products Status/button_Export to Excel'))
+WebUI.delay(5)
 
-'Merefresh halaman list products status'
-WebUI.refresh()
+WebUI.click(findTestObject('Object Repository/Products Status/a_16'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Products Status/a_1'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Products Status/button_Export to                           _94e730'))
 
 WebUI.delay(10)
 
-'Menutup chrome'
 WebUI.closeBrowser()
 

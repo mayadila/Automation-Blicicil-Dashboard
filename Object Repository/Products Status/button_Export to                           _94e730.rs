@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>th_Requestor</name>
+   <name>button_Export to                           _94e730</name>
    <tag></tag>
-   <elementGuidId>1493e4aa-afc2-41ce-bcaa-10318c476958</elementGuidId>
+   <elementGuidId>3d4855c1-7b24-4375-8325-a23062ac978e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#btn_export</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='tbl-product-status']/thead/tr/th[4]</value>
+         <value>//button[@id='btn_export']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,106 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>th</value>
-      <webElementGuid>6e0e21a2-7d85-4c0b-b723-70d12020dc59</webElementGuid>
+      <value>button</value>
+      <webElementGuid>fafdf6ab-fe61-412c-8b73-36f9b2056a61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sorting_disabled</value>
-      <webElementGuid>0f2b50bc-bda8-4f1f-b2c0-b2a7ad8c1c97</webElementGuid>
+      <value>dt-button create-new btn btn-primary waves-effect waves-float waves-light</value>
+      <webElementGuid>2dca4d5c-564d-4786-9e4f-ebe5ef4037f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>rowspan</name>
+      <name>id</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>cad7dc4d-5c07-45b6-8057-3b89b36b8c62</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>colspan</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>b3986ab5-6b25-4086-afda-0e126c8453c9</webElementGuid>
+      <value>btn_export</value>
+      <webElementGuid>7be7c832-d493-4b78-8bb3-1835a7a5d6b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Requestor</value>
-      <webElementGuid>e8d15123-ae5b-4701-b2a1-4e1090d2dae4</webElementGuid>
+      <value>Export to
+                                            Excel</value>
+      <webElementGuid>c39a914f-d3b3-47ad-a1f9-91f7ac493863</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-product-status&quot;)/thead[1]/tr[1]/th[@class=&quot;sorting_disabled&quot;]</value>
-      <webElementGuid>a6ad80d9-340c-435e-8821-fc8c3a8cb8d5</webElementGuid>
+      <value>id(&quot;btn_export&quot;)</value>
+      <webElementGuid>27dfd3c1-74b8-408f-9b54-04afa235ff64</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btn_export']</value>
+      <webElementGuid>79c3ba9e-fb5b-4b13-90bc-a601be03ec38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-product-status']/thead/tr/th[4]</value>
-      <webElementGuid>5dbc8077-7607-40e3-ae3a-331704500a31</webElementGuid>
+      <value>//section[@id='complex-header-datatable']/div/div/div/div/div[2]/div/button</value>
+      <webElementGuid>30dffc1d-62bd-4eed-9f23-cb28a138848c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Document ID'])[1]/following::th[1]</value>
-      <webElementGuid>5e0c43ab-3866-485a-96f5-e808261f8fbc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List Products Status BliCicil Admin as'])[1]/following::button[1]</value>
+      <webElementGuid>bb6867c8-eaca-4658-8bdc-5c4b198580b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order ID'])[1]/following::th[2]</value>
-      <webElementGuid>84313ecb-5323-4e78-bfe0-ee4ebd2a6e87</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products Status'])[2]/following::button[1]</value>
+      <webElementGuid>480e4776-551f-4f7a-a204-d0a2e13c664a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OTR / Pinjaman'])[1]/preceding::th[1]</value>
-      <webElementGuid>7c57d775-58c7-4011-b08e-b417fe4739b4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Processing...'])[1]/preceding::button[1]</value>
+      <webElementGuid>66e331f2-43f8-48f9-9555-7502ac894c41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Downpayment'])[1]/preceding::th[2]</value>
-      <webElementGuid>1a752259-a31f-4718-a2de-96201660fcf2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Requestor']/parent::*</value>
-      <webElementGuid>6c736328-672a-4613-8468-de67e4b5b95f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tgl Pengajuan'])[1]/preceding::button[1]</value>
+      <webElementGuid>b47f60c3-25b8-4294-a81a-fd7c3db9871d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//th[4]</value>
-      <webElementGuid>0b92963e-e74f-486c-aeb6-87f30a09a096</webElementGuid>
+      <value>//button</value>
+      <webElementGuid>ec9af651-7c56-404c-b403-2450c64d826f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//th[(text() = 'Requestor' or . = 'Requestor')]</value>
-      <webElementGuid>792d9a01-9754-48f8-a9bc-61f822978be7</webElementGuid>
+      <value>//button[@id = 'btn_export' and (text() = 'Export to
+                                            Excel' or . = 'Export to
+                                            Excel')]</value>
+      <webElementGuid>6632c2ed-0b30-4bfd-9f98-e035d19f65c6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
