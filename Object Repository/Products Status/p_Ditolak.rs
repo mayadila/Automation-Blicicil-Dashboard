@@ -3,7 +3,7 @@
    <description></description>
    <name>p_Ditolak</name>
    <tag></tag>
-   <elementGuidId>bf139dfc-5f48-4532-96ff-01e66d87f355</elementGuidId>
+   <elementGuidId>fcfde042-5c5d-4b49-9df6-a06a66920719</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>548ad4ee-185b-4329-bec7-dfb60a9fe210</webElementGuid>
+      <webElementGuid>9e68cd17-09b1-49a0-83a8-368ef14bb0d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-text font-small-3 mb-0</value>
-      <webElementGuid>6d44d80e-3574-4c10-bbce-f94487f95664</webElementGuid>
+      <webElementGuid>18642629-38da-4faf-9671-22b8e83c2492</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ditolak</value>
-      <webElementGuid>e6bafbd9-b9e5-4be7-b6ad-b364dc494ceb</webElementGuid>
+      <webElementGuid>81abf766-aebe-4270-8a52-9caa0185f74e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dashboard-ecommerce&quot;)/div[@class=&quot;row match-height&quot;]/div[@class=&quot;col-xl-12 col-md-12 col-12&quot;]/div[@class=&quot;card card-statistics&quot;]/div[@class=&quot;card-body statistics-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-2 col-sm-6 col-12 mb-2 mb-sm-0&quot;]/a[1]/div[@class=&quot;media&quot;]/div[@class=&quot;media-body my-auto&quot;]/p[@class=&quot;card-text font-small-3 mb-0&quot;]</value>
-      <webElementGuid>facb43ca-7760-4010-86c6-13297658732f</webElementGuid>
+      <webElementGuid>11711f56-9296-45b0-ad3b-7608425c916a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='dashboard-ecommerce']/div/div/div/div/div/div[4]/a/div/div[2]/p</value>
-      <webElementGuid>90dea725-4485-4482-9785-3d4df2a257b4</webElementGuid>
+      <webElementGuid>67c5bca7-fbd6-4539-a2e6-893f9ad16d20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Products Status'])[2]/following::p[4]</value>
-      <webElementGuid>4ecd8673-ec0e-4400-beaf-4ff6fce37967</webElementGuid>
+      <webElementGuid>5a8a7189-af43-4204-9787-f44d80667f4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::p[4]</value>
-      <webElementGuid>ca3cace5-9462-4863-a8bb-68f82e5786c9</webElementGuid>
+      <webElementGuid>3e47d922-ee0a-4fba-b6a5-4f69c65425fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,15 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='List Products Status BliCicil Admin as'])[1]/preceding::p[3]</value>
-      <webElementGuid>271d9c7c-4e95-4285-b765-8f61706b6b7c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export to Excel'])[1]/preceding::p[3]</value>
-      <webElementGuid>140a81b1-5df7-4813-955f-b67c79c50961</webElementGuid>
+      <webElementGuid>3f0201b8-c4a2-4607-94ed-db91e163e9c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ditolak']/parent::*</value>
-      <webElementGuid>680a6b66-a215-44e9-8d6e-bedb6a0870f5</webElementGuid>
+      <webElementGuid>c4112a1b-0436-4112-bac1-d898b2a572f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/a/div/div[2]/p</value>
-      <webElementGuid>ecffbd35-3a74-4d38-89bb-449e2293ba36</webElementGuid>
+      <webElementGuid>168ed651-4019-422e-9f6e-016324a72ed5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Ditolak' or . = 'Ditolak')]</value>
-      <webElementGuid>5295960f-788a-4dfa-9eff-531557e987c2</webElementGuid>
+      <webElementGuid>fd4bacd6-d113-42a9-b416-43593703b8f8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

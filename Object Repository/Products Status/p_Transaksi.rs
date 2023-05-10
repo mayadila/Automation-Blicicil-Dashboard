@@ -3,7 +3,7 @@
    <description></description>
    <name>p_Transaksi</name>
    <tag></tag>
-   <elementGuidId>a6ff795f-5485-461f-90d1-14c6c34ce8c3</elementGuidId>
+   <elementGuidId>d53fd65a-c471-4a72-8727-f2a485258bf3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>d20e04ff-5e06-45f8-8421-f262c499b16b</webElementGuid>
+      <webElementGuid>b19c3c98-4da9-414a-93bd-8855b0704491</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-text font-small-3 mb-0</value>
-      <webElementGuid>9d09a515-8057-4eb7-832d-6c2f1f047e04</webElementGuid>
+      <webElementGuid>e4d26ddf-df24-4dd6-9510-835fe4e06fc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Transaksi</value>
-      <webElementGuid>e967cf7e-caf6-4240-a14a-52c1666bb678</webElementGuid>
+      <webElementGuid>05f5604d-f60c-4b02-9869-41c892f26ff4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dashboard-ecommerce&quot;)/div[@class=&quot;row match-height&quot;]/div[@class=&quot;col-xl-12 col-md-12 col-12&quot;]/div[@class=&quot;card card-statistics&quot;]/div[@class=&quot;card-body statistics-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-2 col-sm-6 col-12 mb-2 mb-xl-0&quot;]/a[1]/div[@class=&quot;media&quot;]/div[@class=&quot;media-body my-auto&quot;]/p[@class=&quot;card-text font-small-3 mb-0&quot;]</value>
-      <webElementGuid>c48d2a87-2a66-4762-b9df-83bc1fc23fa9</webElementGuid>
+      <webElementGuid>d2554bf9-0e0c-43a3-90d2-46d55d95e6e2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='dashboard-ecommerce']/div/div/div/div/div/div[3]/a/div/div[2]/p</value>
-      <webElementGuid>26ea326f-f7e0-4387-99ec-fefacf9c5d2d</webElementGuid>
+      <webElementGuid>ba0886bb-17e6-4edd-9be4-2591914f55dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Products Status'])[2]/following::p[3]</value>
-      <webElementGuid>6768822a-a673-4187-86e9-03174f9e21b8</webElementGuid>
+      <webElementGuid>86979abf-80e6-4504-9390-e4be34192b24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::p[3]</value>
-      <webElementGuid>ea740bc7-4d3a-4baf-ad5d-4a07088cab45</webElementGuid>
+      <webElementGuid>26e25063-c3c8-4e6d-b91f-5369605e8df7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,15 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='List Products Status BliCicil Admin as'])[1]/preceding::p[4]</value>
-      <webElementGuid>58a31978-fe04-4ce4-b775-c04fcfb44364</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export to Excel'])[1]/preceding::p[4]</value>
-      <webElementGuid>d9acd963-3efe-462e-92be-a55f55a60fbe</webElementGuid>
+      <webElementGuid>1743dea4-8029-4ebe-a306-f1ac90a97122</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Transaksi']/parent::*</value>
-      <webElementGuid>d991303e-76f6-4389-938c-58c3e9bae25d</webElementGuid>
+      <webElementGuid>2df64476-1b10-4bbd-8bb0-714ec0cb17ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a/div/div[2]/p</value>
-      <webElementGuid>7171bed3-0d21-4b71-8ade-c33f39395d48</webElementGuid>
+      <webElementGuid>b406ea2e-481b-4947-99ae-22cba056d9bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Transaksi' or . = 'Transaksi')]</value>
-      <webElementGuid>2fa23463-1d4e-41ea-bac2-738f8c3b4f15</webElementGuid>
+      <webElementGuid>ee3b4758-e807-434b-90eb-6e2b99537f7e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
