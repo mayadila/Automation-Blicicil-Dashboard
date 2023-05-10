@@ -19,73 +19,40 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Beranda/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Config/Wording Notification/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Config/Wording Notification/Beranda/input_Password_password'), 
+    'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/button_Login'))
+WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/a_Config'))
+WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/a_Config'))
 
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/span_Wording Notification'))
+WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/span_Wording Notification'))
 
-WebUI.getText(findTestObject('Object Repository/Config/Wording Notification/div_List Wording BliCicil Admin as         _580111'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/a_3'))
+WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/div_List Wording BliCicil Admin as         _580111'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/a_Previous'))
+WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/a_3'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/a_Next'))
+WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/a_Previous'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/a_1'))
+WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/a_Next'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/a_2'))
+WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/a_1'))
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/a_3'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Config/Wording Notification/a_1'))
-
-WebUI.delay(5)
-
-WebUI.getText(findTestObject('Object Repository/Config/Wording Notification/label_Search'))
-
-WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/input_Search_form-control form-control-sm'), 
-    'NIK')
-
-WebUI.sendKeys(findTestObject('Object Repository/Config/Wording Notification/input_Search_form-control form-control-sm'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.clearText(findTestObject('Object Repository/Config/Wording Notification/input_Search_form-control form-control-sm'))
-
-WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/input_Search_form-control form-control-sm'), 
-    'PLAFON')
-
-WebUI.sendKeys(findTestObject('Object Repository/Config/Wording Notification/input_Search_form-control form-control-sm'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.refresh()
-
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.closeBrowser()
 
