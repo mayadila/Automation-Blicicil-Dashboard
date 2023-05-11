@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Are you sure want to delete this dataYesNoNo</name>
+   <name>div_Are you sure want to delete Testing 3YesNoNo</name>
    <tag></tag>
-   <elementGuidId>d7dbec6a-cc85-474c-a5c1-fc075ab286d6</elementGuidId>
+   <elementGuidId>8fe5dac9-f2ad-4d48-a098-6ee21beebf2e</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Andre Pabertiyan'])[1]/following::div[4]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>div.swal2-popup.swal2-modal.swal2-icon-warning.swal2-show</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Andre Pabertiyan'])[1]/following::div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>2396c5e7-738a-4c4a-8eca-17222128e22f</webElementGuid>
+      <webElementGuid>068342d8-edbe-411e-9721-95db0051d202</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>swal2-title</value>
-      <webElementGuid>527760c6-8fbb-4f40-9c63-db17a0d86392</webElementGuid>
+      <webElementGuid>bcee0ff2-8e90-452c-8e7a-348e0ef19ede</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>swal2-html-container</value>
-      <webElementGuid>41c759f2-f2cf-4b10-937f-923c35662b20</webElementGuid>
+      <webElementGuid>6ced323a-8ae0-411a-9838-cef0995ebc36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>swal2-popup swal2-modal swal2-icon-warning swal2-show</value>
-      <webElementGuid>e9010108-afc5-49aa-a303-658e81da663f</webElementGuid>
+      <webElementGuid>6f3e0d6f-63eb-499f-bc04-f7126ce713a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>d050b32f-1975-4e6a-aa8f-ad487858ccf4</webElementGuid>
+      <webElementGuid>11dc255b-4680-4249-b00b-963213c8fbe9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>fc26304c-86b5-4b26-9f9a-c50cbc16b50d</webElementGuid>
+      <webElementGuid>300b6266-73b0-4358-a37e-5cce307affd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-live</name>
       <type>Main</type>
       <value>assertive</value>
-      <webElementGuid>e1e1048d-65c2-40de-9bfc-33d3f208be64</webElementGuid>
+      <webElementGuid>54c89757-9191-45cf-8e26-cdcd29788f77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,15 +78,15 @@
       <name>aria-modal</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4ee14965-98ad-4ef0-af25-874a5ac107cf</webElementGuid>
+      <webElementGuid>79c833fb-d2f7-4cb2-9402-a9d48c1edebf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>×!Are you sure want to delete this data?YesNoNo</value>
-      <webElementGuid>2f0842a2-7abd-4158-8290-bc984482afb1</webElementGuid>
+      <value>×!Are you sure want to delete Testing 3?YesNoNo</value>
+      <webElementGuid>1865b5fe-1e1e-4842-a9a4-422353234835</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;loaded swal2-shown swal2-height-auto&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static menu-expanded pace-done swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-warning swal2-show&quot;]</value>
-      <webElementGuid>31b86df9-75f7-4702-8806-86e5c76cb968</webElementGuid>
+      <webElementGuid>08454963-a9b6-4a7d-a2c0-043af410cb14</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Andre Pabertiyan'])[1]/following::div[4]</value>
-      <webElementGuid>f6db38e4-f4dd-454a-926e-2409240511fc</webElementGuid>
+      <webElementGuid>53b4330a-6daa-43ed-88c7-a95be5d4f2fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,14 +110,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div</value>
-      <webElementGuid>0a5135fb-94f1-4bed-8449-694b8982bae2</webElementGuid>
+      <webElementGuid>04611d0d-26f3-4d79-8cad-654f87fe9354</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '×!Are you sure want to delete this data?YesNoNo' or . = '×!Are you sure want to delete this data?YesNoNo')]</value>
-      <webElementGuid>57f6dfdc-e54a-4ba6-8aa9-7471ad748507</webElementGuid>
+      <value>//div[(text() = '×!Are you sure want to delete Testing 3?YesNoNo' or . = '×!Are you sure want to delete Testing 3?YesNoNo')]</value>
+      <webElementGuid>a109bc10-7102-46f3-afa4-db5bafa157f5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

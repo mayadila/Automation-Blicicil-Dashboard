@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Headline</name>
    <tag></tag>
-   <elementGuidId>deef8cdd-7fbc-4c93-9a25-36ed556cff0b</elementGuidId>
+   <elementGuidId>f368c2ee-2667-45c8-a8ae-6adc8615bf0c</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//ul[@id='main-menu-navigation']/li[3]/ul/li[8]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>437931e7-58e2-4e03-b803-7c37abb31ec6</webElementGuid>
+      <webElementGuid>4a3abb73-e43f-4a6b-86fa-44f27e0cffe7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center</value>
-      <webElementGuid>8090d1c8-9d0f-4685-8022-d133a0fc7c95</webElementGuid>
+      <webElementGuid>cf8bc3ac-0910-4c51-8210-b9e17a80026f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://uat-dashboard.blicicil.com/master/headline</value>
-      <webElementGuid>b0d95b2c-617e-4dd3-9003-54614678d1a1</webElementGuid>
+      <webElementGuid>338eeeea-d4e2-4a33-9331-b8b77a45e4ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
 							                		
 							                		Headline
 							                	</value>
-      <webElementGuid>db1c8135-09c5-4e76-a79e-8fac64ba3769</webElementGuid>
+      <webElementGuid>0ddf007a-5c98-4d0a-82e5-632c36780bfd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub open&quot;]/ul[@class=&quot;menu-content&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
-      <webElementGuid>03eec4b8-05db-4d32-bcb8-e8265b6ded61</webElementGuid>
+      <webElementGuid>ded93d68-e062-4727-9ae0-af31b535dab9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='main-menu-navigation']/li[3]/ul/li[8]/a</value>
-      <webElementGuid>b0c5cd60-c77c-439d-9470-ac5fc7214f44</webElementGuid>
+      <webElementGuid>cdf9585a-07ad-4920-84b0-8ce0784d743f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Highlight'])[1]/following::a[1]</value>
-      <webElementGuid>db4057f4-f329-4050-a891-16a51342384f</webElementGuid>
+      <webElementGuid>4f4ce36d-22db-4681-b847-ceaee6f05551</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank'])[1]/following::a[2]</value>
-      <webElementGuid>f63aa3b2-fbd7-4239-a4e2-79824677a6a5</webElementGuid>
+      <webElementGuid>7651ca28-3824-4f2a-acd1-f1e2f0ad4b50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction'])[1]/preceding::a[1]</value>
-      <webElementGuid>d48ee20d-314b-4241-9dff-6632cc03a825</webElementGuid>
+      <webElementGuid>d3dedc96-c00e-4695-9112-fa1087c5ce66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/master/headline')]</value>
-      <webElementGuid>9076ad91-c59a-4d26-ba8e-cdd0aa9cb079</webElementGuid>
+      <webElementGuid>51692bbe-961f-471e-be3f-5f97dc3ca3dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/ul/li[8]/a</value>
-      <webElementGuid>047d49d2-5add-4836-9512-05ea675b3788</webElementGuid>
+      <webElementGuid>f9f54f96-e13d-4a6e-a221-170f6b0ac141</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
 							                		
 							                		Headline
 							                	')]</value>
-      <webElementGuid>7b2faddc-b753-47d8-91c6-c38cd71f603b</webElementGuid>
+      <webElementGuid>136800fd-1da4-4478-8035-52460170bc67</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

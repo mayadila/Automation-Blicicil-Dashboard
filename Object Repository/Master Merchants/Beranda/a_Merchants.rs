@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>th_Kategori</name>
+   <name>a_Merchants</name>
    <tag></tag>
-   <elementGuidId>bed91c50-109e-4b13-b555-b539b8aed679</elementGuidId>
+   <elementGuidId>9756b470-f70c-4666-96c4-5ca2132c3ec2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='tbl-headline']/thead/tr/th[3]</value>
+         <value>//ul[@id='main-menu-navigation']/li[3]/ul/li/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>th</value>
-      <webElementGuid>0b17c1fc-7cb7-46b4-807d-3ca86a73b092</webElementGuid>
+      <value>a</value>
+      <webElementGuid>cc98ab7f-d327-4a75-94d9-93c9e0df3348</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sorting_disabled</value>
-      <webElementGuid>246b5a19-2047-4c97-b850-69aee8239ffd</webElementGuid>
+      <value>d-flex align-items-center</value>
+      <webElementGuid>e0179105-8c2a-461d-93e4-a2285e4590ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>rowspan</name>
+      <name>href</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>4932a5b0-6e98-4965-a0d9-7781fcf5d0d5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>colspan</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>7fe0d105-a439-4cea-8c74-3ea587d1fa84</webElementGuid>
+      <value>https://uat-dashboard.blicicil.com/master/merchants</value>
+      <webElementGuid>27d91ce2-c00a-4563-aad3-af40ec96446c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kategori</value>
-      <webElementGuid>5882ad84-3d0a-4d83-b41b-7486ef5be523</webElementGuid>
+      <value>
+							                		
+							                		Merchants
+							                	</value>
+      <webElementGuid>0c180c80-ea55-457d-9ee1-1fbfeb2eb1b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-headline&quot;)/thead[1]/tr[@class=&quot;text-center&quot;]/th[@class=&quot;sorting_disabled&quot;]</value>
-      <webElementGuid>b3e44a24-9f09-4f0f-9f5c-a43484ee92f5</webElementGuid>
+      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub open&quot;]/ul[@class=&quot;menu-content&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
+      <webElementGuid>22471f6c-2042-4606-842e-57d32e2a02d6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-headline']/thead/tr/th[3]</value>
-      <webElementGuid>b3064afc-abb5-485c-8d7d-9b7a0daeacd6</webElementGuid>
+      <value>//ul[@id='main-menu-navigation']/li[3]/ul/li/a</value>
+      <webElementGuid>ac040a9d-e2b4-45ea-a957-f4a49f17fcc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Headline'])[3]/following::th[1]</value>
-      <webElementGuid>0fee81e6-e6a3-4ea3-8485-d55aa26cfe28</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master'])[1]/following::a[1]</value>
+      <webElementGuid>cb5a027a-b1c3-4428-866a-ff1cd892fc93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gambar'])[1]/following::th[2]</value>
-      <webElementGuid>1d1852d6-1d21-484b-bd83-6ac1e980e22d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Management'])[1]/following::a[2]</value>
+      <webElementGuid>d3d4e6b4-4e57-49de-9e5a-18679746a888</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/preceding::th[1]</value>
-      <webElementGuid>7e2810fe-ec0a-45fa-ad5a-3ac1aefb29f9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchant Offers'])[1]/preceding::a[1]</value>
+      <webElementGuid>8ebee879-9c8a-4a9e-bdd7-53e8276c7db7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beli gadget kekinian jadi lebih hemat'])[1]/preceding::th[2]</value>
-      <webElementGuid>d58cdc63-36cc-4c81-8c5d-5081ecd27afe</webElementGuid>
+      <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/master/merchants')]</value>
+      <webElementGuid>e1887064-7639-464a-8a5e-9bea11571bea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//th[3]</value>
-      <webElementGuid>99e9db71-ca44-44d6-aeb4-e6bdf2398313</webElementGuid>
+      <value>//li[3]/ul/li/a</value>
+      <webElementGuid>f58857f6-cfca-4639-888b-681dbcea0ef4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//th[(text() = 'Kategori' or . = 'Kategori')]</value>
-      <webElementGuid>caea92f3-090b-480e-a941-b9720c3d8eac</webElementGuid>
+      <value>//a[@href = 'https://uat-dashboard.blicicil.com/master/merchants' and (text() = '
+							                		
+							                		Merchants
+							                	' or . = '
+							                		
+							                		Merchants
+							                	')]</value>
+      <webElementGuid>c105e3ab-2872-4162-aac5-77195cc67bae</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Hapus</name>
    <tag></tag>
-   <elementGuidId>db67861d-d717-4575-a231-0d202d8c9220</elementGuidId>
+   <elementGuidId>37cf7da0-862c-4cf2-aec6-02bbb2fe1c1a</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[10]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[9]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e09325a6-e190-44ec-99af-6dc01138f41b</webElementGuid>
+      <webElementGuid>234540ee-ab9f-4cc2-9faf-64c9f03421e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e72d6213-cada-4085-b0e5-844174d1bb5f</webElementGuid>
+      <webElementGuid>2d5b9d16-4d09-426c-bbc9-ee120c8381e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-flat-danger</value>
-      <webElementGuid>c6e8eaa1-d256-449e-b32f-52aa8194e33e</webElementGuid>
+      <webElementGuid>87b37379-af22-46e6-a0a9-5b44606d248e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>showConfirmationPopup('delete', () => deleteHeadline('64520c2c5fb3bc922700c715'), '')</value>
-      <webElementGuid>db26300d-5f73-4141-adb6-f4f81edc633e</webElementGuid>
+      <value>showConfirmationPopup('delete', () => actionProduct('9'), 'Testing 3')</value>
+      <webElementGuid>7dfe2005-b5a9-4690-8780-4a68898bc551</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,63 +54,71 @@
       <name>text</name>
       <type>Main</type>
       <value>Hapus</value>
-      <webElementGuid>4c040460-1c09-491d-95b1-b68d2e9591df</webElementGuid>
+      <webElementGuid>ccf32bbe-206c-4e97-9bb4-f717dac60c33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-headline&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[4]/button[@class=&quot;btn btn-flat-danger&quot;]</value>
-      <webElementGuid>2321b133-a686-4240-8fe6-d6c1fb3c395e</webElementGuid>
+      <value>id(&quot;tbl-master-merchants&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[3]/button[@class=&quot;btn btn-flat-danger&quot;]</value>
+      <webElementGuid>b17acd6a-2f2b-43f2-9b7b-b7bcbb8b339f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[10]</value>
-      <webElementGuid>1f94b696-cef7-4d88-bb7c-bbc9674ad4c1</webElementGuid>
+      <value>(//button[@type='button'])[9]</value>
+      <webElementGuid>21cec848-0a31-4bd9-ba38-477b2da3b96c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-headline']/tbody/tr[10]/td[4]/button</value>
-      <webElementGuid>44c3e493-3e66-48be-ac0b-426d9aa97b5b</webElementGuid>
+      <value>//table[@id='tbl-master-merchants']/tbody/tr[9]/td[3]/button</value>
+      <webElementGuid>19439b50-8395-48ec-b8a6-5f97596c6408</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[10]/following::button[1]</value>
-      <webElementGuid>3c6235e0-f9fa-4b08-ba93-6d12d4207462</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing 3'])[1]/following::button[1]</value>
+      <webElementGuid>ee2c16d2-6268-4059-a4ab-acc588dc6468</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Teknologi'])[1]/following::button[1]</value>
-      <webElementGuid>29a57450-472d-4af8-a886-51ad0346f250</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[8]/following::button[1]</value>
+      <webElementGuid>4f4088a2-2c93-47dc-9f3e-a42ba7869970</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 10 of 12 entries'])[1]/preceding::button[1]</value>
-      <webElementGuid>5192364d-35a6-4ab1-b71c-80ee29453fcd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[9]/preceding::button[1]</value>
+      <webElementGuid>33b0b47c-9779-4033-aa53-6da8da0476a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing 4'])[1]/preceding::button[1]</value>
+      <webElementGuid>402dd5e6-7bbb-4495-b178-0c029bba8883</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[10]/td[4]/button</value>
-      <webElementGuid>06235f49-d836-4592-b6f2-fd03f8b12b2c</webElementGuid>
+      <value>//tr[9]/td[3]/button</value>
+      <webElementGuid>e0ecafbd-d420-4bbd-84b6-8f309e36092c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Hapus' or . = 'Hapus')]</value>
-      <webElementGuid>e167ae22-05ec-4469-936f-8cd2e79e4530</webElementGuid>
+      <webElementGuid>b8dbb81d-bc36-49da-821b-5d9276f1a989</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

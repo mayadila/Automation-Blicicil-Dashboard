@@ -19,7 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-'Maximize Window Chrome'
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
@@ -32,23 +31,17 @@ WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/button_Log
 
 WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/a_Master'))
 
-WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/a_Headline'))
+WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/span_Headline'))
 
 WebUI.getText(findTestObject('Object Repository/Master Headline/Beranda/div_List Headline BliCicil Admin as        _f528db'))
 
-WebUI.getText(findTestObject('Object Repository/Master Headline/Beranda/th_Gambar'))
-
-WebUI.getText(findTestObject('Object Repository/Master Headline/Beranda/th_Headline'))
-
-WebUI.getText(findTestObject('Object Repository/Master Headline/Beranda/th_Kategori'))
-
-WebUI.getText(findTestObject('Object Repository/Master Headline/Beranda/th_Action'))
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/a_2'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/a_1'))
+WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/a_Previous'))
 
 WebUI.delay(5)
 
@@ -56,10 +49,25 @@ WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/a_Next'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/a_Previous'))
+WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/a_1'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/button_Hapus'))
+
+WebUI.getText(findTestObject('Object Repository/Master Headline/Beranda/div_Are you sure want to delete this dataYesNoNo'))
+
+WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/button_No'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/button_Hapus'))
+
+WebUI.getText(findTestObject('Object Repository/Master Headline/Beranda/div_Are you sure want to delete this dataYesNoNo'))
+
+WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/button_Yes'))
 
 WebUI.delay(10)
 
-'Menutup chrome'
 WebUI.closeBrowser()
 

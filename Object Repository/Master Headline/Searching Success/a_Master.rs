@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>a_Master</name>
    <tag></tag>
-   <elementGuidId>04876963-3a94-4a33-aad2-6832e317939f</elementGuidId>
+   <elementGuidId>e61d1652-9dd8-437a-8b76-53ba842db505</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='frmLogin']/button</value>
+         <value>//ul[@id='main-menu-navigation']/li[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary.btn-block.waves-effect.waves-float.waves-light</value>
+         <value>li.nav-item.has-sub > a.d-flex.align-items-center</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>b7983add-5a70-4be3-baae-decd691c74a8</webElementGuid>
+      <value>a</value>
+      <webElementGuid>1007ff9a-399c-43b5-b730-d35281e99d5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-block waves-effect waves-float waves-light</value>
-      <webElementGuid>8db2d203-349f-431a-bc4c-72e88aa258b6</webElementGuid>
+      <value>d-flex align-items-center</value>
+      <webElementGuid>d2db0d03-b12d-4dff-90b1-366e536b3b86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>href</name>
       <type>Main</type>
-      <value>4</value>
-      <webElementGuid>45902747-1db3-49ab-a6ba-fdb8fb524288</webElementGuid>
+      <value>#</value>
+      <webElementGuid>b52ce531-bfb1-42c3-be48-f62588484ef3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>65163329-b430-48a8-9a49-4226b7d058b4</webElementGuid>
+      <value>
+											
+											Master
+										</value>
+      <webElementGuid>348c5f79-ccdf-4bf1-8349-3a1a94cbb150</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;frmLogin&quot;)/button[@class=&quot;btn btn-primary btn-block waves-effect waves-float waves-light&quot;]</value>
-      <webElementGuid>463c2f40-7535-4ef8-91ed-9bfa1cb16f18</webElementGuid>
+      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
+      <webElementGuid>cb76dc35-b198-4c92-91aa-953708e6f4a1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frmLogin']/button</value>
-      <webElementGuid>4df26df9-29c8-4dac-a5cd-6eeca88fa824</webElementGuid>
+      <value>//ul[@id='main-menu-navigation']/li[3]/a</value>
+      <webElementGuid>53ecbfd9-9310-4038-98d9-b6661eedd575</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>555f9440-496f-4633-a7ea-009a5ebf890d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Management'])[1]/following::a[1]</value>
+      <webElementGuid>e360d487-50f5-4dad-beaf-c37ba29500dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>171d4eaf-74c8-4481-8ec6-6015f780996f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[2]</value>
+      <webElementGuid>512ea291-e1ba-4b3e-bfc8-9944e986a4f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>6bd26a0a-e54b-4bf7-9d65-e2fbf22ba51e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchants'])[1]/preceding::a[1]</value>
+      <webElementGuid>6de155fe-6266-45da-94bd-3c02c1de6546</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#')]</value>
+      <webElementGuid>c59043a6-ce0e-4ae0-bf05-670f91f3b59a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>352f7abc-bd00-4690-b1dd-26bea1ca33ec</webElementGuid>
+      <value>//li[3]/a</value>
+      <webElementGuid>e6ad3a9d-c853-49a6-aae8-fa57c726e1ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>a4e494bc-f73d-4f29-90b0-1c110e7eb56b</webElementGuid>
+      <value>//a[@href = '#' and (text() = '
+											
+											Master
+										' or . = '
+											
+											Master
+										')]</value>
+      <webElementGuid>5dd90149-0d2a-4607-8740-5b2c42649fb5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

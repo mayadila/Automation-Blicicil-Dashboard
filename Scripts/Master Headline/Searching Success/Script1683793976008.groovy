@@ -23,32 +23,36 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/Master Merchants/Searching Failed/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+WebUI.setText(findTestObject('Object Repository/Master Headline/Searching Success/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Master Merchants/Searching Failed/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Master Headline/Searching Success/input_Password_password'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Master Merchants/Searching Failed/button_Login'))
+WebUI.click(findTestObject('Master Headline/Searching Success/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Master Merchants/Searching Failed/a_Master'))
+WebUI.click(findTestObject('Object Repository/Master Headline/Searching Success/a_Master'))
 
-WebUI.click(findTestObject('Object Repository/Master Merchants/Searching Failed/a_Merchants'))
+WebUI.click(findTestObject('Object Repository/Master Headline/Searching Success/span_Headline'))
+
+WebUI.getText(findTestObject('Object Repository/Master Headline/Searching Success/div_List Headline BliCicil Admin as        _f528db'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'), 
-    'Apple')
+WebUI.setText(findTestObject('Object Repository/Master Headline/Searching Success/input_Search_form-control form-control-sm'), 
+    'Beli gadget')
 
-WebUI.sendKeys(findTestObject('Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'), 
+WebUI.sendKeys(findTestObject('Object Repository/Master Headline/Searching Success/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 
 WebUI.refresh()
 
-WebUI.setText(findTestObject('Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'), 
-    'Ibox')
+WebUI.delay(5)
 
-WebUI.sendKeys(findTestObject('Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'), 
+WebUI.setText(findTestObject('Object Repository/Master Headline/Searching Success/input_Search_form-control form-control-sm'), 
+    'Elektronik')
+
+WebUI.sendKeys(findTestObject('Object Repository/Master Headline/Searching Success/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(10)
