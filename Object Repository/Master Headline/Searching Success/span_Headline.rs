@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>th_Gambar</name>
+   <name>span_Headline</name>
    <tag></tag>
-   <elementGuidId>63149527-22fb-4b53-869f-3d5d7efdc730</elementGuidId>
+   <elementGuidId>a5868ebe-8d7c-4535-94af-37ae306d88ef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>th.sorting_disabled</value>
+         <key>XPATH</key>
+         <value>//ul[@id='main-menu-navigation']/li[3]/ul/li[8]/a/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='tbl-headline']/thead/tr/th</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>th</value>
-      <webElementGuid>6f7b5db1-cd7c-4322-966a-c00ebbaf1e81</webElementGuid>
+      <value>span</value>
+      <webElementGuid>74cfa573-6d30-40be-b780-5398f14f696e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sorting_disabled</value>
-      <webElementGuid>367b1009-9704-4ff8-80e1-505adaf60d74</webElementGuid>
+      <value>menu-item</value>
+      <webElementGuid>0e246b33-6488-4277-9c81-51f01f65fed1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>rowspan</name>
+      <name>data-i18n</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>62ab22fc-e4d4-4c5b-80e7-2e54b78f2d16</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>colspan</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>3be51e95-497a-423d-af44-ecd1376fd75e</webElementGuid>
+      <value>LoginV1</value>
+      <webElementGuid>199b331b-06e3-402e-8358-d92f1002f239</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Gambar</value>
-      <webElementGuid>39a2a62f-bc3d-46a3-bf0e-6ba07948ec79</webElementGuid>
+      <value>Headline</value>
+      <webElementGuid>e44dfb05-cf1f-4a9c-9024-53f7127f51f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-headline&quot;)/thead[1]/tr[@class=&quot;text-center&quot;]/th[@class=&quot;sorting_disabled&quot;]</value>
-      <webElementGuid>d642e65f-0db5-4cd6-9515-4efc5821b1fe</webElementGuid>
+      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub open&quot;]/ul[@class=&quot;menu-content&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]/span[@class=&quot;menu-item&quot;]</value>
+      <webElementGuid>d25440ee-dcb3-4c1d-beed-4cc671516ad6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-headline']/thead/tr/th</value>
-      <webElementGuid>d8598a55-9593-49d6-b805-4c71d32040de</webElementGuid>
+      <value>//ul[@id='main-menu-navigation']/li[3]/ul/li[8]/a/span</value>
+      <webElementGuid>faa390cd-1ca6-4087-9db8-163c203aa363</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search:'])[1]/following::th[1]</value>
-      <webElementGuid>ac3a1e87-3864-4a84-bc76-7958bfc9e9db</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Highlight'])[1]/following::span[1]</value>
+      <webElementGuid>92a2c8d1-2250-45f2-8a43-28b3365de1da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Headline'])[1]/following::th[1]</value>
-      <webElementGuid>16c8f512-5b9c-4c41-96c4-9fc53390c8e4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank'])[1]/following::span[2]</value>
+      <webElementGuid>bdf77ce9-9fc7-4b89-a726-562aa637fab4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Headline'])[3]/preceding::th[1]</value>
-      <webElementGuid>a0712bb4-2009-4ab5-a93c-64030e94cea6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction'])[1]/preceding::span[1]</value>
+      <webElementGuid>0cecba28-7615-44bf-ae11-b6e70dd16025</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[2]/preceding::th[2]</value>
-      <webElementGuid>d5e94be1-e886-4dc3-873e-3d325c00ba34</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Motorcycle'])[1]/preceding::span[2]</value>
+      <webElementGuid>8dc725fa-adf9-48af-aa68-40b85c96dcf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Gambar']/parent::*</value>
-      <webElementGuid>467ec97b-0db1-4659-ae9e-58e041da7e47</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Headline']/parent::*</value>
+      <webElementGuid>369f0266-cb53-40d0-ae3b-68de4bc2447f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//th</value>
-      <webElementGuid>85ffcb63-a88d-4b47-9476-b9ea04b980f9</webElementGuid>
+      <value>//li[3]/ul/li[8]/a/span</value>
+      <webElementGuid>e47391d7-7b78-4be0-81bd-ffa7e45c8c1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//th[(text() = 'Gambar' or . = 'Gambar')]</value>
-      <webElementGuid>576c2230-2241-4a42-bf53-9c81f00cedbc</webElementGuid>
+      <value>//span[(text() = 'Headline' or . = 'Headline')]</value>
+      <webElementGuid>1ce776f8-ce09-4660-bf5a-626d75919169</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

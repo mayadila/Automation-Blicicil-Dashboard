@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>th_Kategori</name>
+   <name>a_Master</name>
    <tag></tag>
-   <elementGuidId>bed91c50-109e-4b13-b555-b539b8aed679</elementGuidId>
+   <elementGuidId>e61d1652-9dd8-437a-8b76-53ba842db505</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//ul[@id='main-menu-navigation']/li[3]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='tbl-headline']/thead/tr/th[3]</value>
+         <key>CSS</key>
+         <value>li.nav-item.has-sub > a.d-flex.align-items-center</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>th</value>
-      <webElementGuid>0b17c1fc-7cb7-46b4-807d-3ca86a73b092</webElementGuid>
+      <value>a</value>
+      <webElementGuid>1007ff9a-399c-43b5-b730-d35281e99d5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sorting_disabled</value>
-      <webElementGuid>246b5a19-2047-4c97-b850-69aee8239ffd</webElementGuid>
+      <value>d-flex align-items-center</value>
+      <webElementGuid>d2db0d03-b12d-4dff-90b1-366e536b3b86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>rowspan</name>
+      <name>href</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>4932a5b0-6e98-4965-a0d9-7781fcf5d0d5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>colspan</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>7fe0d105-a439-4cea-8c74-3ea587d1fa84</webElementGuid>
+      <value>#</value>
+      <webElementGuid>b52ce531-bfb1-42c3-be48-f62588484ef3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kategori</value>
-      <webElementGuid>5882ad84-3d0a-4d83-b41b-7486ef5be523</webElementGuid>
+      <value>
+											
+											Master
+										</value>
+      <webElementGuid>348c5f79-ccdf-4bf1-8349-3a1a94cbb150</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-headline&quot;)/thead[1]/tr[@class=&quot;text-center&quot;]/th[@class=&quot;sorting_disabled&quot;]</value>
-      <webElementGuid>b3e44a24-9f09-4f0f-9f5c-a43484ee92f5</webElementGuid>
+      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
+      <webElementGuid>cb76dc35-b198-4c92-91aa-953708e6f4a1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-headline']/thead/tr/th[3]</value>
-      <webElementGuid>b3064afc-abb5-485c-8d7d-9b7a0daeacd6</webElementGuid>
+      <value>//ul[@id='main-menu-navigation']/li[3]/a</value>
+      <webElementGuid>53ecbfd9-9310-4038-98d9-b6661eedd575</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Headline'])[3]/following::th[1]</value>
-      <webElementGuid>0fee81e6-e6a3-4ea3-8485-d55aa26cfe28</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Management'])[1]/following::a[1]</value>
+      <webElementGuid>e360d487-50f5-4dad-beaf-c37ba29500dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gambar'])[1]/following::th[2]</value>
-      <webElementGuid>1d1852d6-1d21-484b-bd83-6ac1e980e22d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[2]</value>
+      <webElementGuid>512ea291-e1ba-4b3e-bfc8-9944e986a4f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/preceding::th[1]</value>
-      <webElementGuid>7e2810fe-ec0a-45fa-ad5a-3ac1aefb29f9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchants'])[1]/preceding::a[1]</value>
+      <webElementGuid>6de155fe-6266-45da-94bd-3c02c1de6546</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beli gadget kekinian jadi lebih hemat'])[1]/preceding::th[2]</value>
-      <webElementGuid>d58cdc63-36cc-4c81-8c5d-5081ecd27afe</webElementGuid>
+      <value>//a[contains(@href, '#')]</value>
+      <webElementGuid>c59043a6-ce0e-4ae0-bf05-670f91f3b59a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//th[3]</value>
-      <webElementGuid>99e9db71-ca44-44d6-aeb4-e6bdf2398313</webElementGuid>
+      <value>//li[3]/a</value>
+      <webElementGuid>e6ad3a9d-c853-49a6-aae8-fa57c726e1ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//th[(text() = 'Kategori' or . = 'Kategori')]</value>
-      <webElementGuid>caea92f3-090b-480e-a941-b9720c3d8eac</webElementGuid>
+      <value>//a[@href = '#' and (text() = '
+											
+											Master
+										' or . = '
+											
+											Master
+										')]</value>
+      <webElementGuid>5dd90149-0d2a-4607-8740-5b2c42649fb5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
