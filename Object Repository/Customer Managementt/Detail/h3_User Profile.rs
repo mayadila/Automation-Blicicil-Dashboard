@@ -3,15 +3,15 @@
    <description></description>
    <name>h3_User Profile</name>
    <tag></tag>
-   <elementGuidId>de305c0a-91c6-4948-aed3-67b6a11077d3</elementGuidId>
+   <elementGuidId>188b4a1e-649e-4e49-81ee-2397e54202de</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>h3.ml-1</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='User Profile'])[1]/following::h3[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.ml-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>5016fc9e-67f7-415e-a7d4-1d39bc7ac500</webElementGuid>
+      <webElementGuid>b11d1b69-f8ed-4c66-8214-aea17512e958</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ml-1</value>
-      <webElementGuid>642478c7-8863-4760-a369-ef70bcf499e1</webElementGuid>
+      <webElementGuid>b3e6a6b7-b3d8-4503-b564-ca42db453801</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>User Profile</value>
-      <webElementGuid>c6a02977-56fc-4912-bb2d-ed2a3b98ce6f</webElementGuid>
+      <webElementGuid>8a8b86bc-5961-4bcc-a562-8f858547c2a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;loaded&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static  menu-expanded pace-done&quot;]/div[@class=&quot;app-content content&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/h3[@class=&quot;ml-1&quot;]</value>
-      <webElementGuid>fb42aa51-c8ef-4d83-bfc4-2f4d5e40101f</webElementGuid>
+      <webElementGuid>47cada88-51c6-4cdc-b30d-1406afab05d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Profile'])[1]/following::h3[1]</value>
-      <webElementGuid>a9fe140b-34cf-4f6c-9c59-2c304f5f7673</webElementGuid>
+      <webElementGuid>217bd9fa-de8b-4ed6-a5a3-f36f5241baef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,15 +62,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Management'])[2]/following::h3[1]</value>
-      <webElementGuid>33d0a2fd-2f16-4894-bbdd-568c7321a60a</webElementGuid>
+      <webElementGuid>b97dc672-94b7-466d-aaad-7305574b9415</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='felix audrey'])[1]/preceding::h3[1]</value>
-      <webElementGuid>fbfc49cf-496c-4b16-a8f7-3379b8448362</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='gita'])[1]/preceding::h3[1]</value>
+      <webElementGuid>657c9363-4802-4598-b701-4c5380e3c08d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PENDING'])[1]/preceding::h3[1]</value>
-      <webElementGuid>4996658d-9b98-4aa6-8729-8857dc3e0d02</webElementGuid>
+      <webElementGuid>472caba3-f8e4-44ce-8507-d2e40d1d4cb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h3</value>
-      <webElementGuid>4668a49d-3ff3-401a-8c24-9bcb9f34ea97</webElementGuid>
+      <webElementGuid>56aa1121-cb9a-42b6-a478-d94d169cb83c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[(text() = 'User Profile' or . = 'User Profile')]</value>
-      <webElementGuid>908d6873-a3c6-4611-938d-3362258cc510</webElementGuid>
+      <webElementGuid>ac2b0e0f-1dcd-4048-9cbc-7f92133728f3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

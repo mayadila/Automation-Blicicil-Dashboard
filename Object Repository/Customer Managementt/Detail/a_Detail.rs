@@ -3,14 +3,15 @@
    <description></description>
    <name>a_Detail</name>
    <tag></tag>
-   <elementGuidId>baa8e419-52f8-40a3-8c70-1d26b374aee2</elementGuidId>
+   <elementGuidId>03a76f41-6e93-4276-acd3-89c44090248f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//table[@id='tbl-user-management']/tbody/tr/td[8]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='tbl-user-management']/tbody/tr[3]/td[8]/a</value>
+         <key>CSS</key>
+         <value>a.btn.btn-flat-info</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>59d40f8a-21a1-4ecc-a570-19b5fca41ae1</webElementGuid>
+      <webElementGuid>41fe1c91-f8a4-44c7-ab96-17270857bddc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://uat-dashboard.blicicil.com/user-management/detail?token=64253fdc7cc8c75500077470</value>
-      <webElementGuid>0d229c72-98b1-4a36-a44f-6fd8b36ff45a</webElementGuid>
+      <value>https://uat-dashboard.blicicil.com/user-management/detail?token=63c900953ff52505dc7c9eee</value>
+      <webElementGuid>81fcd4c5-1c5c-4757-a7f4-21e3faa76b7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-flat-info</value>
-      <webElementGuid>86f71020-b96d-4e53-9886-3505699497d8</webElementGuid>
+      <webElementGuid>6ea0baa7-8b72-4f34-9a7f-58c12346c20a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Detail</value>
-      <webElementGuid>923d3ba3-5dc1-49cf-ad24-59d53a535516</webElementGuid>
+      <webElementGuid>511388e2-0a4b-4682-91d9-1fbaa4f071b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,78 +54,86 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbl-user-management&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[8]/a[@class=&quot;btn btn-flat-info&quot;]</value>
-      <webElementGuid>0a256302-e23a-48ec-9970-f1f0db9bda25</webElementGuid>
+      <webElementGuid>dc49eaae-6466-4fbd-bb38-1aa488900e9a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-user-management']/tbody/tr[3]/td[8]/a</value>
-      <webElementGuid>8e2ec31e-83c2-4cee-afa4-6504983c1c92</webElementGuid>
+      <value>//table[@id='tbl-user-management']/tbody/tr/td[8]/a</value>
+      <webElementGuid>7254edc3-2fe3-4c57-ad58-b9a44f7f015e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'Detail')])[3]</value>
-      <webElementGuid>787570e0-a0e9-4ea9-8cb1-c7032116f462</webElementGuid>
+      <value>//a[contains(text(),'Detail')]</value>
+      <webElementGuid>973fdb11-a757-4361-a724-e05e309ad6bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::a[1]</value>
-      <webElementGuid>6b67261d-9f2b-45fd-8ee5-956f5a198156</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::a[1]</value>
+      <webElementGuid>ac1180f8-82fe-4cdc-acac-c22bab84d44c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 10.000.000'])[1]/following::a[1]</value>
-      <webElementGuid>025b4f83-9198-4fac-9cc4-0f88a56dc373</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 0'])[2]/following::a[1]</value>
+      <webElementGuid>994bfdef-5a23-43db-83cd-302490649916</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='MARLINA FAUZI MIRRA'])[1]/preceding::a[1]</value>
-      <webElementGuid>b655f7c4-a7a0-4c61-a5eb-e8fb4fe5789b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='nun'])[1]/preceding::a[1]</value>
+      <webElementGuid>2a695ec0-4e95-4776-b9d5-c1e4f8c76388</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 20.000.000'])[2]/preceding::a[1]</value>
-      <webElementGuid>0d524dcd-0292-49a2-abf1-c6936781fd5a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::a[1]</value>
+      <webElementGuid>a4b5246d-2e94-4794-9d0d-b397e6c39c5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Detail']/parent::*</value>
+      <webElementGuid>2fcac80b-eadf-49a0-96b3-4ceb7da5be03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/user-management/detail?token=64253fdc7cc8c75500077470')]</value>
-      <webElementGuid>8c43ca1a-6c3a-4886-afd9-8990c6131644</webElementGuid>
+      <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/user-management/detail?token=63c900953ff52505dc7c9eee')]</value>
+      <webElementGuid>608ea889-3570-4227-b8ee-f8bd994e69b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[3]/td[8]/a</value>
-      <webElementGuid>21c90562-91c4-4572-bb51-fc4e999567c3</webElementGuid>
+      <value>//td[8]/a</value>
+      <webElementGuid>3cece3ad-fc6e-4f23-a4d5-e82acc55bbe3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'https://uat-dashboard.blicicil.com/user-management/detail?token=64253fdc7cc8c75500077470' and (text() = 'Detail' or . = 'Detail')]</value>
-      <webElementGuid>549d4fb4-291f-4289-9235-4c6073bbe888</webElementGuid>
+      <value>//a[@href = 'https://uat-dashboard.blicicil.com/user-management/detail?token=63c900953ff52505dc7c9eee' and (text() = 'Detail' or . = 'Detail')]</value>
+      <webElementGuid>adf907f3-9d62-4bb8-9964-96e8bf809d97</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

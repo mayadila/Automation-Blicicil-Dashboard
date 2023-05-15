@@ -31,9 +31,27 @@ WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/butto
 
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/a_Config'))
 
-WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/span_Administrator'))
+WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/a_Administrator'))
 
 WebUI.getText(findTestObject('Object Repository/Config/Administrator/Beranda/div_List Administrator BliCicil Admin as   _6945c6'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/button_Activate'))
+
+WebUI.getText(findTestObject('Object Repository/Config/Administrator/Beranda/div_Are you sure want to activate FrediYesNoNo'))
+
+WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/button_No'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/button_Activate'))
+
+WebUI.getText(findTestObject('Object Repository/Config/Administrator/Beranda/div_Are you sure want to activate FrediYesNoNo'))
+
+WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/button_Yes'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/a_2'))
 
@@ -51,25 +69,9 @@ WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/a_1')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/button_Activate'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Beranda/div_Are you sure want to activate Fredi Bon_6c3a13'))
-
-WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/button_No'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/button_Activate'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Beranda/div_Are you sure want to activate Fredi Bon_6c3a13'))
-
-WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/button_Yes'))
-
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/button_Deactivate'))
 
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Beranda/div_Are you sure want to deactivate Fredi B_6240d1'))
+WebUI.getText(findTestObject('Object Repository/Config/Administrator/Beranda/div_Are you sure want to deactivate FrediYesNoNo'))
 
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/button_No'))
 
@@ -77,12 +79,11 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/button_Deactivate'))
 
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Beranda/div_Are you sure want to deactivate Fredi B_6240d1'))
+WebUI.getText(findTestObject('Object Repository/Config/Administrator/Beranda/div_Are you sure want to deactivate FrediYesNoNo'))
 
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Beranda/button_Yes'))
 
 WebUI.delay(10)
 
-'Menutup chrome'
 WebUI.closeBrowser()
 

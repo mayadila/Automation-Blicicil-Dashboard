@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Informasi Pekerjaan</name>
    <tag></tag>
-   <elementGuidId>afb7aaf1-1404-4cef-b6ff-e38c2596e960</elementGuidId>
+   <elementGuidId>f3c9e798-03f7-4df2-a34f-ae4cdca6b680</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#pills-pekerjaan-tab</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[@id='pills-pekerjaan-tab']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pills-pekerjaan-tab</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8ee8dbf8-13bd-4ae3-bcd7-d023b19fcfce</webElementGuid>
+      <webElementGuid>eb7e5f7c-fe2e-41e3-abeb-489daa07284f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link user-detail</value>
-      <webElementGuid>4bc81016-b9d8-4da7-bce7-508d461cc2d7</webElementGuid>
+      <webElementGuid>7781a9f9-abbf-4bd4-a6ad-54a2d33ec6b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>pills-pekerjaan-tab</value>
-      <webElementGuid>5aa93077-4425-4483-ace3-458a50139b73</webElementGuid>
+      <webElementGuid>5076b440-20d2-4f8f-9e0e-f41ed731bc34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>pill</value>
-      <webElementGuid>75356641-327f-4e74-b425-ff1719c476c2</webElementGuid>
+      <webElementGuid>cbe88b8c-1e1c-403e-be16-da9d4bede2c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#pills-pekerjaan</value>
-      <webElementGuid>452dffd6-df64-4b56-b184-c4c7ab9231e0</webElementGuid>
+      <webElementGuid>777c74a1-76d9-4c0e-af1f-2d3ad01cde96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>44e32a6a-2ae0-47ae-9b12-4ef5edf8d86c</webElementGuid>
+      <webElementGuid>de484809-d0a3-48ce-8434-ac6f270ed2d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>pills-pekerjaan</value>
-      <webElementGuid>65a58bf0-2f87-4dae-9b2b-53f452203b53</webElementGuid>
+      <webElementGuid>d34759a1-5467-415c-8320-f2334e1e8db0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3fbfcdf0-0222-4640-a0f1-0a7e346c289b</webElementGuid>
+      <webElementGuid>87d8bffc-40b8-4236-84ec-4a9949e36e84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Informasi Pekerjaan</value>
-      <webElementGuid>2b3a1497-1bb8-4cb8-89df-9a8b20b9c041</webElementGuid>
+      <webElementGuid>dcc63d95-1872-4d2d-8fd0-9faba5cfd34d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pills-pekerjaan-tab&quot;)</value>
-      <webElementGuid>298b615e-8149-4256-9798-b4634df14fb5</webElementGuid>
+      <webElementGuid>46e9a1d1-cb7e-42d0-ae10-b7b0e7d49c11</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='pills-pekerjaan-tab']</value>
-      <webElementGuid>c5b0848c-2518-4aaa-b1e7-c0126fa42d52</webElementGuid>
+      <webElementGuid>a8af6578-4f21-45af-b5ec-1e5272ab3ade</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='pills-tab']/li[3]/a</value>
-      <webElementGuid>543ab361-ce65-4af1-a32a-f665e5d9cb02</webElementGuid>
+      <webElementGuid>5fc1a3cd-fe0e-457a-bab2-054d1fcf2975</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Informasi Pekerjaan')]</value>
-      <webElementGuid>7857c2b9-739a-429b-88a1-c0df7815ad50</webElementGuid>
+      <webElementGuid>ef03ef8c-67c5-4796-a41f-2a411624c255</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Alamat'])[1]/following::a[1]</value>
-      <webElementGuid>dff527aa-c8c4-4ac0-b4dc-71818abeccae</webElementGuid>
+      <webElementGuid>225d3f98-f020-490a-bad2-e996b689d463</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Nasabah'])[1]/following::a[2]</value>
-      <webElementGuid>65c1ceae-c580-4dfe-857a-3416ced1b5c4</webElementGuid>
+      <webElementGuid>0cd184f5-1d7b-4741-9afd-a04910447173</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Kontak'])[1]/preceding::a[1]</value>
-      <webElementGuid>a8a8f109-b3cb-4c12-9163-dd1449f962ce</webElementGuid>
+      <webElementGuid>358ca695-d9ea-4272-bfd7-31fc8c9c5e3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +150,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Identitas'])[1]/preceding::a[2]</value>
-      <webElementGuid>78c5be50-5399-40d1-b9e9-15cb10456135</webElementGuid>
+      <webElementGuid>69ffda27-a4bc-4dcd-b66c-cfcebdfb5597</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +158,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Informasi Pekerjaan']/parent::*</value>
-      <webElementGuid>a1cec466-6cd4-499a-84ff-c6d8fa80b688</webElementGuid>
+      <webElementGuid>70fde2ba-db0c-414f-8d67-b48f8cd31b0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +166,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#pills-pekerjaan')]</value>
-      <webElementGuid>6616aad7-8c62-4df6-9079-c1ffd3929f6d</webElementGuid>
+      <webElementGuid>4960b588-c773-42fb-8c72-218df44e0b0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,7 +174,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/ul/li[3]/a</value>
-      <webElementGuid>ff240083-2bdc-4f72-a00c-3f1879aa4bc0</webElementGuid>
+      <webElementGuid>1bd0d40c-d67c-46a4-b7ab-4af791983c6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -182,6 +182,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'pills-pekerjaan-tab' and @href = '#pills-pekerjaan' and (text() = 'Informasi Pekerjaan' or . = 'Informasi Pekerjaan')]</value>
-      <webElementGuid>449e7bbb-15a4-47c0-a00e-a2692c1e641e</webElementGuid>
+      <webElementGuid>eda6b149-7038-4613-9e70-f2b4aa686c90</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
