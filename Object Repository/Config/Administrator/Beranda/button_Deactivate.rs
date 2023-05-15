@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Deactivate</name>
    <tag></tag>
-   <elementGuidId>cea2cc3c-56df-47aa-ada5-1e33304dd041</elementGuidId>
+   <elementGuidId>5face02d-ed89-49cd-8a7a-140e42e73b40</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>tr.even > td:nth-of-type(7) > button.btn.btn-flat-danger.btn-sm</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.even > td:nth-of-type(7) > button.btn.btn-flat-danger.btn-sm</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0d916110-194f-42da-a62a-20f7ed463470</webElementGuid>
+      <webElementGuid>cc844601-6ada-49ea-882d-9487199dd502</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f7cd7f28-74e5-4916-bc01-ae82e3d5abe4</webElementGuid>
+      <webElementGuid>72546b50-0e64-44a4-99d1-76bd4628a7a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-flat-danger btn-sm</value>
-      <webElementGuid>af4473ba-89ce-445b-9f3d-45c4eeae55ea</webElementGuid>
+      <webElementGuid>15e9df65-94b6-441f-8cc7-9dd5018f4be3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>showConfirmationPopup('deactivate', () => actionProduct('61f0c50826c9fc32027dacc0', 1), 'Fredi Bong')</value>
-      <webElementGuid>34c55a89-796e-4e7d-8230-e355b7b25caf</webElementGuid>
+      <value>showConfirmationPopup('deactivate', () => actionProduct('61f0c50826c9fc32027dacc0', 1), 'Fredi')</value>
+      <webElementGuid>49e2e782-c79a-4235-bd6a-d204ef62badc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Deactivate</value>
-      <webElementGuid>8509d57f-3ab8-49a5-be1c-617001f8a941</webElementGuid>
+      <webElementGuid>e99113d4-9bbe-4c4d-8ee0-46ca0bf2e034</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbl-administrator&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[7]/button[@class=&quot;btn btn-flat-danger btn-sm&quot;]</value>
-      <webElementGuid>247c5347-12a4-4044-bd1e-93bb4e282369</webElementGuid>
+      <webElementGuid>1136955d-cecc-43ed-9f83-da2aaf0a3348</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>b8aec381-3b0c-4351-be00-39476158b063</webElementGuid>
+      <webElementGuid>e727b0b7-bec7-457f-9e05-2bd9b8e1436c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='tbl-administrator']/tbody/tr[2]/td[7]/button</value>
-      <webElementGuid>9783c02b-1934-42f5-bd12-2a75a0305505</webElementGuid>
+      <webElementGuid>5ddbce6b-fdfe-4b54-b0c2-d0845d799893</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[2]/following::button[1]</value>
-      <webElementGuid>4e8ddf64-65ba-47f6-93b0-4d37a17e3101</webElementGuid>
+      <webElementGuid>4ae6c0ee-f9d5-4ccf-b853-80bc259c2a4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='fredi@megafinance.co.id'])[1]/following::button[1]</value>
-      <webElementGuid>ce762ae9-0f82-4446-8a23-3952d91b4cf5</webElementGuid>
+      <webElementGuid>147aa054-e33f-4c94-891f-0f5838c34c73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Privilege'])[2]/preceding::button[1]</value>
-      <webElementGuid>47804faf-12a9-4386-ba38-798fb4eb56bb</webElementGuid>
+      <webElementGuid>3fd5f6e9-a919-4ade-b6ac-f980197df132</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/preceding::button[1]</value>
-      <webElementGuid>ca1f712c-814b-43a1-8b8b-897dd953f65f</webElementGuid>
+      <webElementGuid>8cdb25a9-5813-48f6-885d-867d3f9e80a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[7]/button</value>
-      <webElementGuid>c2fca19f-5403-42a8-bf2e-a1e0c36097d3</webElementGuid>
+      <webElementGuid>179f9704-8764-4a12-b72b-39b03b87b47f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Deactivate' or . = 'Deactivate')]</value>
-      <webElementGuid>93afb393-32f1-4628-8fc3-046b26fbe1d6</webElementGuid>
+      <webElementGuid>77db3db4-8bd6-4ee9-a154-80f1bbfcb612</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

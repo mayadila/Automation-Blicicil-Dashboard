@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Foto Identitas</name>
    <tag></tag>
-   <elementGuidId>43218725-667e-4ef9-a2d2-5c156970de23</elementGuidId>
+   <elementGuidId>264a2afb-5100-4cf9-8ae6-98eedb0b3fb7</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#pills-photo-tab</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[@id='pills-photo-tab']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pills-photo-tab</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>14a21e6c-1317-43e4-a7ca-3d94fdfb624d</webElementGuid>
+      <webElementGuid>10fef909-1cdd-4f4c-a7c3-8e49f4374588</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link user-detail</value>
-      <webElementGuid>1e216af7-dc56-487f-80cf-9a886c32bee2</webElementGuid>
+      <webElementGuid>088c19d5-5985-43a8-89f5-d9000978b8d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>pills-photo-tab</value>
-      <webElementGuid>a263c91b-bc44-449f-854d-3e552d07ce51</webElementGuid>
+      <webElementGuid>0d728916-5094-4165-8654-7504417a1524</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>pill</value>
-      <webElementGuid>bb78a5e5-5acb-4cf8-967e-984b34d6061e</webElementGuid>
+      <webElementGuid>d927d5e2-d06f-416d-87a3-0e91fa7f697c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#pills-photo</value>
-      <webElementGuid>a785eb10-f15b-4974-9e84-08b2f49b7aa8</webElementGuid>
+      <webElementGuid>55d491d5-9fb7-43e9-ab9b-452e91a85152</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>cb8583ba-aec7-4b33-9357-9532316c3386</webElementGuid>
+      <webElementGuid>407ac970-40d1-4470-a254-9b0048f61685</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>pills-photo</value>
-      <webElementGuid>99113759-8b81-45c9-811e-2b8b57d218e8</webElementGuid>
+      <webElementGuid>6c0c5f27-7c96-46d8-8721-04abe20d0770</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>871eae6b-1cc2-4bfb-b759-7f2d096a5f62</webElementGuid>
+      <webElementGuid>c32c3a6b-0b52-4ae7-8abf-c4f0c2fe53c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Foto Identitas</value>
-      <webElementGuid>56bcebd2-4228-44de-983b-9691bc3cfd96</webElementGuid>
+      <webElementGuid>ad67cceb-2ba8-4610-b685-601fbe40529c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pills-photo-tab&quot;)</value>
-      <webElementGuid>aab8ecc8-1d26-4e88-9cd9-990dea4686a4</webElementGuid>
+      <webElementGuid>4a140a96-36dc-4706-a599-c30ff4134f73</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='pills-photo-tab']</value>
-      <webElementGuid>bebb802f-7010-49c8-b630-251514218e39</webElementGuid>
+      <webElementGuid>f17f51ea-183b-4aa3-9e4e-68f25d8f39f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='pills-tab']/li[5]/a</value>
-      <webElementGuid>0077059d-d4fa-4c5b-ab48-4f4acf824d89</webElementGuid>
+      <webElementGuid>b89e24f9-4edf-44a7-a306-5b295e060b3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Foto Identitas')]</value>
-      <webElementGuid>819c344b-e41d-4e52-9f89-f37de4780fca</webElementGuid>
+      <webElementGuid>2d47bca5-92e0-421d-9e9e-8879f8f47bb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Kontak'])[1]/following::a[1]</value>
-      <webElementGuid>d7765d7f-61bd-4101-9fdc-ccd704f4d610</webElementGuid>
+      <webElementGuid>d3146b18-e4c1-454d-86f8-849929d6d849</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Pekerjaan'])[1]/following::a[2]</value>
-      <webElementGuid>9f0ce3cd-b430-4b79-ba9a-aa099285e023</webElementGuid>
+      <webElementGuid>5784bc46-88a3-459a-8425-a32f11767fd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=', All rights Reserved'])[1]/preceding::a[2]</value>
-      <webElementGuid>78585667-65dd-48d2-a5c3-4980a33978b0</webElementGuid>
+      <webElementGuid>1ca91f6a-c84a-402b-ba91-e2e53930be16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +150,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Foto Identitas']/parent::*</value>
-      <webElementGuid>7b394ab8-6fd3-47c5-8da4-5fd1a888c475</webElementGuid>
+      <webElementGuid>640a2e67-2029-4d55-89ce-1140fa679555</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +158,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#pills-photo')]</value>
-      <webElementGuid>4d36471f-385f-4106-a573-a2f8b69f0277</webElementGuid>
+      <webElementGuid>cb9efb1d-de57-41f2-bba8-ee404e65dc69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +166,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/ul/li[5]/a</value>
-      <webElementGuid>6212e4c4-312b-41fc-a7e7-3a6bc9efe130</webElementGuid>
+      <webElementGuid>1e5a81c3-1e45-4590-a93a-c00d6503b62d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,6 +174,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'pills-photo-tab' and @href = '#pills-photo' and (text() = 'Foto Identitas' or . = 'Foto Identitas')]</value>
-      <webElementGuid>08cd0e24-4df5-4ca5-bb6b-36c55b48765f</webElementGuid>
+      <webElementGuid>ed289716-c698-4c07-9671-23edd8fcb1ba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

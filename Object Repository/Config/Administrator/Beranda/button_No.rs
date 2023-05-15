@@ -3,15 +3,15 @@
    <description></description>
    <name>button_No</name>
    <tag></tag>
-   <elementGuidId>49181e55-9923-4135-ab4a-c37203e53a1a</elementGuidId>
+   <elementGuidId>f8328863-6850-4a37-8806-1a4b98251cfe</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.swal2-cancel.btn-cancel</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[15]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.swal2-cancel.btn-cancel</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4ed90d06-240c-44cc-b2b6-4c0c021d0dc0</webElementGuid>
+      <webElementGuid>d352579d-7650-4c36-b563-724dd48e514b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>172df0fa-7653-4299-ae7d-1a114fe9e5e6</webElementGuid>
+      <webElementGuid>32c17976-6d9a-4e45-91f6-0c795eea1d1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>swal2-cancel btn-cancel</value>
-      <webElementGuid>baee17ff-2fe0-4fab-9c98-394fcfa69db6</webElementGuid>
+      <webElementGuid>49aa6d96-201c-403a-bf11-38a0909024e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>No</value>
-      <webElementGuid>f03cd6ab-d9a5-41fc-81a0-a3b4c0fa4e80</webElementGuid>
+      <webElementGuid>4755ab6f-a9c6-4a4c-806b-2011c3127fb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;loaded swal2-shown swal2-height-auto&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static menu-expanded pace-done swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-warning swal2-show&quot;]/div[@class=&quot;swal2-actions&quot;]/button[@class=&quot;swal2-cancel btn-cancel&quot;]</value>
-      <webElementGuid>8fa89366-23ed-4d79-a878-35d2fca658ad</webElementGuid>
+      <webElementGuid>bc3ddb08-c751-4f6c-bee2-039f979e73cf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[15]</value>
-      <webElementGuid>0d452130-c69b-4dd5-8991-f0570e743771</webElementGuid>
+      <webElementGuid>90894a99-6256-40cc-a22a-1d7efcb7b33c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::button[1]</value>
-      <webElementGuid>f807d9e3-0257-43ea-8168-5fa42cfe3d4d</webElementGuid>
+      <webElementGuid>c6872b4d-64d3-43a5-8992-ab5aff51244f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::button[2]</value>
-      <webElementGuid>218cd4c4-cefb-4eed-b038-9411247c6366</webElementGuid>
+      <webElementGuid>5c527f48-b207-4618-ac77-ca395b5904a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[3]</value>
-      <webElementGuid>7c046037-fe5b-4ec5-b0b2-734c323cf77a</webElementGuid>
+      <webElementGuid>eade7703-a30a-4e71-a8b6-ba8d5486ce15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'No' or . = 'No')]</value>
-      <webElementGuid>6c6369f9-2107-4aa9-a02d-508a2b064525</webElementGuid>
+      <webElementGuid>0ad9faad-1b09-4fa2-a6e4-6384ef002038</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

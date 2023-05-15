@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Informasi Kontak</name>
    <tag></tag>
-   <elementGuidId>938324f0-f646-4e15-83d1-5f9be40e5183</elementGuidId>
+   <elementGuidId>65871cd2-5abc-4abf-ae61-adf7c0ed755b</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#pills-kontak-tab</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[@id='pills-kontak-tab']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pills-kontak-tab</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6ff7d15c-119e-478c-a914-208177443405</webElementGuid>
+      <webElementGuid>f0e95432-a75a-4855-a241-76631167b0eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link user-detail</value>
-      <webElementGuid>aff8a845-230a-4ec2-88d1-c4ff20fba8a2</webElementGuid>
+      <webElementGuid>d9b8d319-f3a2-4320-a852-44d30f34f7a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>pills-kontak-tab</value>
-      <webElementGuid>3f6a344e-054d-4793-8969-f96ea1cd25cf</webElementGuid>
+      <webElementGuid>ad6df825-260c-4e57-aa7c-4604bb5c6c09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>pill</value>
-      <webElementGuid>291f6fb3-160a-4327-adc6-46dd5b0b2d7a</webElementGuid>
+      <webElementGuid>6bd14a3e-9016-45af-afd6-a0e21a7b3de1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#pills-kontak</value>
-      <webElementGuid>31e6fc0a-7094-4967-be92-10a272d1d4c3</webElementGuid>
+      <webElementGuid>3a391c20-bddc-42e4-97f9-3227f075befa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>7ac90673-6c39-48bd-897c-830187ab00d2</webElementGuid>
+      <webElementGuid>99edef75-5977-4252-8ac6-da8c266b8fc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>pills-kontak</value>
-      <webElementGuid>eb094a58-7f9e-48d9-becf-97a95d5691e9</webElementGuid>
+      <webElementGuid>a1dc2812-e147-4c93-b21f-810aa44264fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>84745a37-f567-487c-aaef-26837067af6f</webElementGuid>
+      <webElementGuid>31a09066-a32d-4de9-8d26-e314458bed0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Informasi Kontak</value>
-      <webElementGuid>1016cfff-7912-4b22-8ff3-a9924da893ad</webElementGuid>
+      <webElementGuid>64c2ce1f-ff97-456e-a770-26da1309fb9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pills-kontak-tab&quot;)</value>
-      <webElementGuid>92d8714d-aea3-4a6d-b74b-8edaa85fb02d</webElementGuid>
+      <webElementGuid>b9b955e7-caae-40e2-80ab-83527bc6f96a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='pills-kontak-tab']</value>
-      <webElementGuid>91cd9c69-73ab-483d-80db-4331c3819a3e</webElementGuid>
+      <webElementGuid>17951e51-fe1b-4ed9-ba18-339e4a3442b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='pills-tab']/li[4]/a</value>
-      <webElementGuid>ad302f53-4743-4708-bd82-1d70dd8d0daf</webElementGuid>
+      <webElementGuid>6f72c978-093e-4103-839d-6da1907c3164</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Informasi Kontak')]</value>
-      <webElementGuid>e4cb3726-f5d6-4ee2-a5bd-5742d5c389f0</webElementGuid>
+      <webElementGuid>6672ee8c-8721-43a7-bea1-418c1adc3a46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Pekerjaan'])[1]/following::a[1]</value>
-      <webElementGuid>8e354c71-8bfe-48ca-ba1c-a0877bb35e09</webElementGuid>
+      <webElementGuid>20e141cf-0fa6-444d-a33c-3f40f8b12444</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Alamat'])[1]/following::a[2]</value>
-      <webElementGuid>efdbc7eb-3482-47c0-b805-c87adf0fbac1</webElementGuid>
+      <webElementGuid>50e933c3-5396-425f-9d30-eb2c3ca012b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Identitas'])[1]/preceding::a[1]</value>
-      <webElementGuid>fa1285f1-8fb9-418c-898e-7d4f6ac97ff9</webElementGuid>
+      <webElementGuid>51f6ee28-078d-487d-9c8d-e7ab3bd01ddb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +150,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Informasi Kontak']/parent::*</value>
-      <webElementGuid>0f2955f5-ccb1-423b-810a-12823f1dc682</webElementGuid>
+      <webElementGuid>60886c0d-d1b6-4f1b-bbb8-70c657c27147</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +158,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#pills-kontak')]</value>
-      <webElementGuid>40614301-8ebc-4ec1-b605-7f0e65a2776f</webElementGuid>
+      <webElementGuid>29dc8b16-ffdf-4f11-bf16-a326a30c2e52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +166,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/ul/li[4]/a</value>
-      <webElementGuid>76fa724a-159a-459d-98a9-4c6ecf9dd44b</webElementGuid>
+      <webElementGuid>604f08a0-98b2-48b5-afff-3c26107b8926</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,6 +174,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'pills-kontak-tab' and @href = '#pills-kontak' and (text() = 'Informasi Kontak' or . = 'Informasi Kontak')]</value>
-      <webElementGuid>59df04c7-470b-448e-a79a-9c37a5cd7f36</webElementGuid>
+      <webElementGuid>1c211170-813b-4c7c-b053-2f581d3bb654</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
