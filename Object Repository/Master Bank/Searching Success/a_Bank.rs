@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_FAQ</name>
+   <name>a_Bank</name>
    <tag></tag>
-   <elementGuidId>fe7b6508-779f-4faf-b955-f7922b237b04</elementGuidId>
+   <elementGuidId>957fdf45-9e0a-4889-81bd-86c3247e1f57</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='main-menu-navigation']/li[9]/a</value>
+         <value>//ul[@id='main-menu-navigation']/li[3]/ul/li[6]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>554a8990-cf1c-4e7d-9834-c00f40c5023d</webElementGuid>
+      <webElementGuid>1a8fea42-da15-4a0d-acd3-4f33581151d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center</value>
-      <webElementGuid>b9e13d3c-7fcc-46da-bd66-bdb446f71158</webElementGuid>
+      <webElementGuid>d50b6e6f-e609-4ccf-ba45-070c90832fe7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://uat-dashboard.blicicil.com/faqs</value>
-      <webElementGuid>33a69983-b512-4be7-add8-35e0e6881310</webElementGuid>
+      <value>https://uat-dashboard.blicicil.com/master/bank</value>
+      <webElementGuid>2ee1c841-9b09-417f-adbb-0968806e9ef5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,79 +46,79 @@
       <name>text</name>
       <type>Main</type>
       <value>
-											
-											FAQ
-										</value>
-      <webElementGuid>ee9b56df-c474-4f7d-95bb-bc8da85604d3</webElementGuid>
+							                		
+							                		Bank
+							                	</value>
+      <webElementGuid>06040a48-bd7a-4b34-ae23-f4efb49a787c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
-      <webElementGuid>62ad0d98-f5fe-42c4-914c-fa646e0b5b55</webElementGuid>
+      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub open&quot;]/ul[@class=&quot;menu-content&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
+      <webElementGuid>ae8fb2ba-1f08-492d-821e-852529ef8c39</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='main-menu-navigation']/li[9]/a</value>
-      <webElementGuid>af059b2e-12d0-465d-b545-858c7ee35ac3</webElementGuid>
+      <value>//ul[@id='main-menu-navigation']/li[3]/ul/li[6]/a</value>
+      <webElementGuid>22b8e8f0-c6cb-405a-9651-8dac35302098</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Special Offers'])[1]/following::a[1]</value>
-      <webElementGuid>1197a54d-b4e2-45ce-812b-d3e56962b6a4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/following::a[1]</value>
+      <webElementGuid>9de12855-bbf3-4e3a-82f5-3d23e9a53aaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='News'])[1]/following::a[2]</value>
-      <webElementGuid>91229e9f-47e4-4289-a11c-e62be05263dc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori Toko'])[1]/following::a[2]</value>
+      <webElementGuid>11de45ae-6cd7-4e5d-b65a-47822df5b20b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Config'])[1]/preceding::a[1]</value>
-      <webElementGuid>dcb86315-fdd5-4649-a8f9-99066a9ac355</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Highlight'])[1]/preceding::a[1]</value>
+      <webElementGuid>c0403603-eeec-40ab-bcfd-202b236a3e5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/faqs')]</value>
-      <webElementGuid>d83b7dff-bd8d-4f32-a71b-8d024eae1414</webElementGuid>
+      <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/master/bank')]</value>
+      <webElementGuid>0b66b04b-51fc-432f-9b1f-c158d819ef74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[9]/a</value>
-      <webElementGuid>44167eb6-ce37-42a5-80c0-771ffe3fe0f7</webElementGuid>
+      <value>//li[3]/ul/li[6]/a</value>
+      <webElementGuid>1303ed54-dc4a-46d5-a0b1-5bbb11af788e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'https://uat-dashboard.blicicil.com/faqs' and (text() = '
-											
-											FAQ
-										' or . = '
-											
-											FAQ
-										')]</value>
-      <webElementGuid>7606fd5e-a7f7-4073-93a2-5af421f91b28</webElementGuid>
+      <value>//a[@href = 'https://uat-dashboard.blicicil.com/master/bank' and (text() = '
+							                		
+							                		Bank
+							                	' or . = '
+							                		
+							                		Bank
+							                	')]</value>
+      <webElementGuid>b5aa7421-8fc3-4fd8-92d6-d4da9bdf88fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

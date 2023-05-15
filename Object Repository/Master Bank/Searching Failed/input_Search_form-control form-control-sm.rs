@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Search_form-control form-control-sm</name>
    <tag></tag>
-   <elementGuidId>0ae9c99a-4692-4a9c-ad3f-255b1832e138</elementGuidId>
+   <elementGuidId>800f5692-4a64-42f4-9bed-da94d79e1226</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>input.form-control.form-control-sm</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@type='search']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.form-control-sm</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1193e660-5137-4dfe-8c4d-18e4650d3b6a</webElementGuid>
+      <webElementGuid>bf03462d-023b-4d96-9961-87763ed61d95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>01529051-f5eb-4240-933f-42c2a8d6467c</webElementGuid>
+      <webElementGuid>e4c57430-be98-48e9-9d5b-abc5a3e3346a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +38,23 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control form-control-sm</value>
-      <webElementGuid>26397338-e5e7-477a-a7b1-74e2dadaf3aa</webElementGuid>
+      <webElementGuid>e2448f87-ece7-45c5-a723-6f0e0447f53e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-controls</name>
       <type>Main</type>
-      <value>tbl-faq</value>
-      <webElementGuid>ea615fe2-edca-4967-b3d6-495684c5581d</webElementGuid>
+      <value>tbl-bank</value>
+      <webElementGuid>d1257204-022d-4861-8ddd-4503ee5e0fd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-faq_filter&quot;)/label[1]/input[@class=&quot;form-control form-control-sm&quot;]</value>
-      <webElementGuid>26c86bef-94f6-4a7c-8348-6c721dcf0afd</webElementGuid>
+      <value>id(&quot;tbl-bank_filter&quot;)/label[1]/input[@class=&quot;form-control form-control-sm&quot;]</value>
+      <webElementGuid>5feddd62-3805-4103-9e9a-40840015ca08</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,15 +62,15 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='search']</value>
-      <webElementGuid>bb35bcdd-c539-4cd5-8125-6cad52b3dfd8</webElementGuid>
+      <webElementGuid>23d07479-11a3-4868-991f-b85a717adf2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tbl-faq_filter']/label/input</value>
-      <webElementGuid>1d2d92cd-2c4d-484c-ba71-8b94c8fc1945</webElementGuid>
+      <value>//div[@id='tbl-bank_filter']/label/input</value>
+      <webElementGuid>8bccc644-7087-4dc8-9fe0-ee1e65b88820</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>2c988569-9146-46cc-a3d1-0067bc9ed145</webElementGuid>
+      <webElementGuid>21dc69cc-175b-4457-a895-5f28f00971bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'search']</value>
-      <webElementGuid>975c1d9f-bde2-482b-8802-a1d7b54aff23</webElementGuid>
+      <webElementGuid>b11d007c-10de-4f85-b8e5-a8dcc3d1d416</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
