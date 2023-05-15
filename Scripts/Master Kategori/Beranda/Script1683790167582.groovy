@@ -17,3 +17,61 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
+
+WebUI.setText(findTestObject('Object Repository/Master Kategori/Beranda/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Master Kategori/Beranda/input_Password_password'), 'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Master'))
+
+WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Kategori'))
+
+WebUI.getText(findTestObject('Object Repository/Master Kategori/Beranda/div_List Kategori BliCicil Admin as        _5a5735'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_2'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Previous'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Next'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_1'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/Master Kategori/Beranda/input_Search_form-control form-control-sm'), 'Elektronik')
+
+WebUI.sendKeys(findTestObject('Object Repository/Master Kategori/Beranda/input_Search_form-control form-control-sm'), Keys.chord(
+        Keys.ENTER))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/Master Kategori/Beranda/input_Search_form-control form-control-sm'), 'Dapur')
+
+WebUI.sendKeys(findTestObject('Object Repository/Master Kategori/Beranda/input_Search_form-control form-control-sm'), Keys.chord(
+        Keys.ENTER))
+
+WebUI.delay(5)
+
+WebUI.refresh()
+
+WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_2'))
+
+WebUI.delay(10)
+
+WebUI.closeBrowser()
+
