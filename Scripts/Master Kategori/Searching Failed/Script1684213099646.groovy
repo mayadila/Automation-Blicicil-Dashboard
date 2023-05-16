@@ -23,47 +23,37 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/Master Kategori/Beranda/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+WebUI.setText(findTestObject('Object Repository/Master Kategori/Searching Failed/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Master Kategori/Beranda/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Master Kategori/Searching Failed/input_Password_password'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Master'))
-
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Kategori'))
-
-WebUI.getText(findTestObject('Object Repository/Master Kategori/Beranda/div_List Kategori BliCicil Admin as        _5a5735'))
+WebUI.click(findTestObject('Object Repository/Master Kategori/Searching Failed/button_Login'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_2'))
+WebUI.click(findTestObject('Object Repository/Master Kategori/Searching Failed/a_Master'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Next'))
+WebUI.click(findTestObject('Object Repository/Master Kategori/Searching Failed/a_Kategori'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/button_Hapus'))
+WebUI.setText(findTestObject('Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'), 
+    'kursi')
 
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/button_Yes'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Next'))
+WebUI.sendKeys(findTestObject('Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Previous'))
+WebUI.refresh()
 
-WebUI.delay(5)
+WebUI.setText(findTestObject('Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'), 
+    '123')
 
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_2'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_1'))
+WebUI.sendKeys(findTestObject('Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 

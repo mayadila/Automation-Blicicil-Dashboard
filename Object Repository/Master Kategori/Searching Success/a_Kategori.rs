@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Master</name>
+   <name>a_Kategori</name>
    <tag></tag>
-   <elementGuidId>741f5947-2590-4662-b2b1-3fc16048d10f</elementGuidId>
+   <elementGuidId>e0f9a110-9529-4de5-b5ca-0013b9aa9bd3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='main-menu-navigation']/li[3]/a</value>
+         <value>//ul[@id='main-menu-navigation']/li[3]/ul/li[5]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>li.nav-item.has-sub > a.d-flex.align-items-center</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>405493f1-ea98-4e89-b473-2c1dfe0d9ee7</webElementGuid>
+      <webElementGuid>cf9dbcc5-5153-4b8c-a99a-7b0476155b6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center</value>
-      <webElementGuid>db851549-1568-40de-93bf-0ccf86111eaa</webElementGuid>
+      <webElementGuid>c3a4fc71-5992-4ae0-98ec-4a4f043122d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
-      <webElementGuid>50592724-73cf-4c0b-9350-53459ad6eab8</webElementGuid>
+      <value>https://uat-dashboard.blicicil.com/master/kategori</value>
+      <webElementGuid>c0f67411-ba6a-47e7-a1ee-68dfe26978d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,79 +46,79 @@
       <name>text</name>
       <type>Main</type>
       <value>
-											
-											Master
-										</value>
-      <webElementGuid>9b567e9d-8d8a-4958-bbd0-4a09eb889988</webElementGuid>
+							                		
+							                		Kategori
+							                	</value>
+      <webElementGuid>272cf890-ebdb-40ea-ba9d-7da90fdf0b8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
-      <webElementGuid>c89aa00b-c8ec-4875-b2b8-e914a863dde3</webElementGuid>
+      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub open&quot;]/ul[@class=&quot;menu-content&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
+      <webElementGuid>04b29c45-5f17-47f7-9e7c-913e1d599c3f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='main-menu-navigation']/li[3]/a</value>
-      <webElementGuid>13ca4ead-80af-4f70-81c3-9f7ea4a612d8</webElementGuid>
+      <value>//ul[@id='main-menu-navigation']/li[3]/ul/li[5]/a</value>
+      <webElementGuid>be5043f2-183e-48e8-a480-2f4f0d3319e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Management'])[1]/following::a[1]</value>
-      <webElementGuid>40f37b5f-f30f-4cf1-9433-8bf900094f4a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori Toko'])[1]/following::a[1]</value>
+      <webElementGuid>062fe32e-ee6d-4ba5-8d95-6ccc9f46e4b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[2]</value>
-      <webElementGuid>81471ab3-acca-445a-bede-8d83d2d76b03</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Toko'])[1]/following::a[2]</value>
+      <webElementGuid>0483c493-c2ef-4850-8264-2671ca696ffa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchants'])[1]/preceding::a[1]</value>
-      <webElementGuid>d1cf653c-40ac-4ff6-95e4-4a6eb84c47cb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank'])[1]/preceding::a[1]</value>
+      <webElementGuid>1b4685b5-b72f-4928-8737-07964d728497</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>b797edaa-21f0-453f-8b1b-7f519caa0e39</webElementGuid>
+      <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/master/kategori')]</value>
+      <webElementGuid>c17c0ca5-40a9-4564-bfc6-3d609c958236</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/a</value>
-      <webElementGuid>8b895b14-aefe-408a-9982-80d8871da35c</webElementGuid>
+      <value>//li[3]/ul/li[5]/a</value>
+      <webElementGuid>d1dbc192-74ff-4ffb-afdf-7962bc39fcba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and (text() = '
-											
-											Master
-										' or . = '
-											
-											Master
-										')]</value>
-      <webElementGuid>53f855ad-8ab1-4de7-ac8f-b3db8d065f60</webElementGuid>
+      <value>//a[@href = 'https://uat-dashboard.blicicil.com/master/kategori' and (text() = '
+							                		
+							                		Kategori
+							                	' or . = '
+							                		
+							                		Kategori
+							                	')]</value>
+      <webElementGuid>4ea9dda4-839d-4956-9917-e274bdfda229</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
