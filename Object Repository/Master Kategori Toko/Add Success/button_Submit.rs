@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>button_Submit</name>
    <tag></tag>
-   <elementGuidId>b39900ee-332d-4a63-81c9-6fe4fdbc1658</elementGuidId>
+   <elementGuidId>770d736d-c269-4606-a4e5-473273b25a2c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='frmLogin']/button</value>
+         <value>//button[@type='submit']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>895749ff-9af8-49d2-89e8-9bdf34bba281</webElementGuid>
+      <webElementGuid>baa04520-f829-43ee-9e7e-06a377c8157b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>3511b203-e575-4a59-a616-3fdb46c180f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,63 +38,58 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-block waves-effect waves-float waves-light</value>
-      <webElementGuid>00aebe4c-a0d4-49f7-953f-cd430ac6016e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>4</value>
-      <webElementGuid>658ce639-d321-4942-acff-ef221fa42379</webElementGuid>
+      <webElementGuid>7456f2b6-cc05-4ecb-a4cf-2c72b7cd7b9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>13c719b0-a9bb-41fa-b236-7e8f76d5b41e</webElementGuid>
+      <value>
+                                                
+                                                Submit
+                                            </value>
+      <webElementGuid>beafbb51-9db5-43ab-aafc-045b92c610de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;frmLogin&quot;)/button[@class=&quot;btn btn-primary btn-block waves-effect waves-float waves-light&quot;]</value>
-      <webElementGuid>11461a26-4431-4bdd-af65-41c84b92fe27</webElementGuid>
+      <value>id(&quot;frmKategori&quot;)/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-sm-9 offset-sm-3&quot;]/button[@class=&quot;btn btn-primary btn-block waves-effect waves-float waves-light&quot;]</value>
+      <webElementGuid>e86f68fd-ac12-41f2-a520-24121ac2780b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>9b91b97d-74d1-4212-a269-c9faaf654ddb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frmLogin']/button</value>
-      <webElementGuid>03d3cb43-856f-4546-a05c-25207e6c274f</webElementGuid>
+      <value>//form[@id='frmKategori']/div[4]/div/button</value>
+      <webElementGuid>f31f7547-12a6-4298-b26f-80f51bcf5ea1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>d7469389-d58e-4d01-9fb3-117ce006fc46</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='fgsgsg'])[1]/following::button[1]</value>
+      <webElementGuid>27663331-f794-48fe-bdeb-70804e19df60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>9fcf012c-eed5-436c-be24-75906eeb52cd</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>e15beee1-bf55-4ebc-9152-88bfeeaba34e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DSDDSDDS'])[1]/following::button[1]</value>
+      <webElementGuid>358baa84-b6f7-4f3c-bc32-b8b05db3aa06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,14 +97,20 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>e62217cb-cc92-47aa-b04c-b41f4de5ce41</webElementGuid>
+      <webElementGuid>20c033e8-4d58-4459-ab57-7e7c92a65f4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>e5801f37-f6ea-4151-98d2-c246e770e910</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = '
+                                                
+                                                Submit
+                                            ' or . = '
+                                                
+                                                Submit
+                                            ')]</value>
+      <webElementGuid>57024062-0191-46de-ba6c-a970754bd574</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_password</name>
+   <name>input_Komputer  Laptop_category</name>
    <tag></tag>
-   <elementGuidId>10762e75-7df9-4ca4-a350-0cc8f2d47386</elementGuidId>
+   <elementGuidId>c0ea12e8-326e-4ca8-99be-537d58c9a03a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='password']</value>
+         <value>//input[@id='category62f316842b878f0347211e9e']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#password</value>
+         <value>#category62f316952b878f0347211e9f</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,87 +22,71 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>985cea05-e5f8-40a6-908c-03e28790684e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control form-control-merge</value>
-      <webElementGuid>2092884a-4c9c-4329-aa7c-67cb36d8376c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>41480b8c-ebc1-41a4-9074-6b6964b9566b</webElementGuid>
+      <webElementGuid>37a6ed00-a9bc-426f-9a09-127eb3ba4ff8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>6e717bd2-3c4c-4c46-84d9-4831be9c27d9</webElementGuid>
+      <value>checkbox</value>
+      <webElementGuid>02e4809e-7a59-44f1-a239-6a028ac46cb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>dc5b0813-90fe-46e0-8fac-281dc9880661</webElementGuid>
+      <value>category</value>
+      <webElementGuid>e9bdde48-7b56-4f9e-b9bd-7c031d485a5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-input</value>
+      <webElementGuid>8e722da1-b31d-413b-9fb9-dbd952565a42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Enter password</value>
-      <webElementGuid>9c5ee4b9-359a-4dde-ae97-8ef3780ec288</webElementGuid>
+      <value>category62f316952b878f0347211e9f</value>
+      <webElementGuid>ce205959-eb47-4fce-87e9-425ee7ce7c8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
+      <name>value</name>
       <type>Main</type>
-      <value>login-password</value>
-      <webElementGuid>b6cd499b-56e5-4b98-8aed-47ee2da2c3ec</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>2</value>
-      <webElementGuid>99a8d8d1-35d8-435d-83f8-b3aef4a55daa</webElementGuid>
+      <value>62f316952b878f0347211e9f</value>
+      <webElementGuid>5718471b-3ea9-4b06-b0f9-206676fce670</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;password&quot;)</value>
-      <webElementGuid>22fab0d6-4e61-4636-8c7f-09ca8faf483d</webElementGuid>
+      <value>id(&quot;category62f316952b878f0347211e9f&quot;)</value>
+      <webElementGuid>bc52dadd-e8cd-41dd-a193-63f25643c0ad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='password']</value>
-      <webElementGuid>3f48d512-6963-4518-a30a-d9279a0b1537</webElementGuid>
+      <value>//input[@id='category62f316952b878f0347211e9f']</value>
+      <webElementGuid>a81974c7-d93f-42ff-b1da-d8326d50f1ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frmLogin']/div[2]/div[2]/input</value>
-      <webElementGuid>fe6eb34d-ba1c-4c95-bc21-55c0031d0e9e</webElementGuid>
+      <value>//div[@id='comboBoxCategory']/div[2]/input</value>
+      <webElementGuid>d145b244-dd6c-43f3-bfa0-db9cb76cb765</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,14 +94,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>0ccb3485-679f-4461-8709-479e6d9d4385</webElementGuid>
+      <webElementGuid>9edcadac-bd23-4e94-a15d-f43fca2e751d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'password' and @type = 'password' and @name = 'password' and @placeholder = 'Enter password']</value>
-      <webElementGuid>719d5d31-7910-4d3e-9d17-0270a84645a3</webElementGuid>
+      <value>//input[@type = 'checkbox' and @name = 'category' and @id = 'category62f316952b878f0347211e9f']</value>
+      <webElementGuid>40ddccaf-0c2d-47e7-9350-1c78c3ad1a9d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

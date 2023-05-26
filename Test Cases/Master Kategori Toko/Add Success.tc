@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>00ee5fd9-40e4-40ce-8b57-91af75b1c777</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d2b275d-9e06-43a3-b082-abb2aeaf5785</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bc5e365a-5de4-4fc7-97f5-a259d14d742b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>93a77a51-1cb5-4aa5-8268-4522d99469b8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>3d2b275d-9e06-43a3-b082-abb2aeaf5785</id>
+      <masked>false</masked>
+      <name>checked</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>bc5e365a-5de4-4fc7-97f5-a259d14d742b</id>
+      <masked>false</masked>
+      <name>notChecked</name>
+   </variable>
+   <variable>
+      <defaultValue>'48'</defaultValue>
+      <description></description>
+      <id>93a77a51-1cb5-4aa5-8268-4522d99469b8</id>
+      <masked>false</masked>
+      <name>toko</name>
+   </variable>
+</TestCaseEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Email_email</name>
+   <name>input_Komputer  Laptop_category</name>
    <tag></tag>
-   <elementGuidId>efc92da9-36c5-4f42-a3ed-e43b40507f74</elementGuidId>
+   <elementGuidId>3a8234bd-60f9-4db8-8ef9-1a3ff4c012ad</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='email']</value>
+         <key>CSS</key>
+         <value>#category62f316952b878f0347211e9f</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#email</value>
+         <key>XPATH</key>
+         <value>//input[@id='category62f316842b878f0347211e9e']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,102 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e311e5a9-314e-4899-9a81-ccc4dcbf3432</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>88ffdab8-ef5d-4b0a-abf7-c299d4c9f055</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>email</value>
-      <webElementGuid>6668661a-88ca-44ae-9ddd-d77174b17c7d</webElementGuid>
+      <webElementGuid>72077f72-338c-4703-99f6-feaacdcc327d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>1e5a29c2-4275-45f5-805e-f5edd7721213</webElementGuid>
+      <value>checkbox</value>
+      <webElementGuid>2bc9e04a-aba6-4991-8959-35bf56742214</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>1793b3f5-02b0-4ec9-9074-f27c26acf280</webElementGuid>
+      <value>category</value>
+      <webElementGuid>d7134710-bf80-4623-ba31-3aa96eb0543f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-input</value>
+      <webElementGuid>30a0854c-48bd-4b11-98af-3b55f1144dfd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Enter email</value>
-      <webElementGuid>5462eba0-439d-4215-8791-c5976955e540</webElementGuid>
+      <value>category62f316952b878f0347211e9f</value>
+      <webElementGuid>d6a97ab2-c770-4695-bace-2c53fea0d47c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
+      <name>value</name>
       <type>Main</type>
-      <value>login-email</value>
-      <webElementGuid>9e7dcf13-6297-451e-883c-eb62e0ad7acf</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>39cf81ae-2ce6-415f-b3da-3a05b2016105</webElementGuid>
+      <value>62f316952b878f0347211e9f</value>
+      <webElementGuid>a038ca2a-5011-46bd-bd65-33d179e13924</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;email&quot;)</value>
-      <webElementGuid>0bed2032-dcb2-4570-ae48-16329683bab6</webElementGuid>
+      <value>id(&quot;category62f316952b878f0347211e9f&quot;)</value>
+      <webElementGuid>32f6a9aa-c622-4331-9386-05059d7536b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='email']</value>
-      <webElementGuid>bf980e5c-9eac-4e42-870c-328d5a63ed77</webElementGuid>
+      <value>//input[@id='category62f316952b878f0347211e9f']</value>
+      <webElementGuid>9dd3d219-e681-4883-82e8-7ecb2c60c09d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frmLogin']/div/input</value>
-      <webElementGuid>83331ef1-3332-4197-a0e8-e74ce70376b1</webElementGuid>
+      <value>//div[@id='comboBoxCategory']/div[2]/input</value>
+      <webElementGuid>f85ee2f7-8f73-4550-985a-871fc3971e7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>b4d2f869-8baf-48a4-ae0f-8e30a795d006</webElementGuid>
+      <value>//div[2]/input</value>
+      <webElementGuid>3c1bfe57-0a3f-42f6-93dd-397a82e0343e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'email' and @type = 'text' and @name = 'email' and @placeholder = 'Enter email']</value>
-      <webElementGuid>1834acb8-16fc-4e2c-9f47-e16d6afb0050</webElementGuid>
+      <value>//input[@type = 'checkbox' and @name = 'category' and @id = 'category62f316952b878f0347211e9f']</value>
+      <webElementGuid>6a650f07-8976-498e-85a7-2588a0f9b490</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

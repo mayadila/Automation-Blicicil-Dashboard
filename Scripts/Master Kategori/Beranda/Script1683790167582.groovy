@@ -45,16 +45,6 @@ WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Next'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/button_Hapus'))
-
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/button_Yes'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Next'))
-
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Previous'))
 
 WebUI.delay(5)

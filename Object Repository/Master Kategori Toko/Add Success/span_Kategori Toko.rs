@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Kategori Toko</name>
+   <tag></tag>
+   <elementGuidId>30c2c6f7-7133-4d74-968c-24d7f733b6dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='main-menu-navigation']/li[3]/ul/li[4]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6017a9cb-2c24-460c-8cc2-e8e5a6f56066</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menu-item</value>
+      <webElementGuid>ee5e17a3-396f-46d9-84aa-b14b00498947</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-i18n</name>
+      <type>Main</type>
+      <value>LoginV1</value>
+      <webElementGuid>7a7afb8c-54aa-43b8-ab1c-370af436b682</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kategori Toko</value>
+      <webElementGuid>399cf8f1-8f5a-4f6a-b95f-fd2577e72e09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub open&quot;]/ul[@class=&quot;menu-content&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]/span[@class=&quot;menu-item&quot;]</value>
+      <webElementGuid>fcf48fe2-79a4-4ca2-af45-47c5b5b8368d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='main-menu-navigation']/li[3]/ul/li[4]/a/span</value>
+      <webElementGuid>5c2cd1ac-5d71-471c-886d-e9976a7bf7be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Toko'])[1]/following::span[1]</value>
+      <webElementGuid>0a76bfa3-278f-436f-b1c5-0795920b6b40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchant Offers'])[1]/following::span[2]</value>
+      <webElementGuid>ed220aee-c0d9-444a-93d4-7b1d288d7100</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/preceding::span[1]</value>
+      <webElementGuid>bc13422e-b068-4090-b89c-c29ac38b08b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank'])[1]/preceding::span[2]</value>
+      <webElementGuid>13afc3b5-1bfc-4d99-a32e-9e74cd688fd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kategori Toko']/parent::*</value>
+      <webElementGuid>dc2e0f78-ecb0-4707-822e-12db01b17980</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/ul/li[4]/a/span</value>
+      <webElementGuid>af4453f3-daa4-4272-9b66-90e07f1a4464</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Kategori Toko' or . = 'Kategori Toko')]</value>
+      <webElementGuid>49d615ea-9e95-4dc4-8625-ca0d571c54d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
