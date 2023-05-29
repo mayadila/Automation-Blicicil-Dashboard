@@ -33,31 +33,19 @@ WebUI.click(findTestObject('Object Repository/Special Offers/Beranda/a_Special O
 
 WebUI.getText(findTestObject('Object Repository/Special Offers/Beranda/div_List Special Offers BliCicil Admin as  _c44b9e'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Special Offers/Beranda/a_2'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Special Offers/Beranda/a_Previous'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Special Offers/Beranda/a_Next'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Special Offers/Beranda/a_1'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Special Offers/Beranda/button_Unpublish'))
 
 WebUI.getText(findTestObject('Object Repository/Special Offers/Beranda/div_Are you sure want to unpublish Testing _bfd948'))
 
 WebUI.click(findTestObject('Object Repository/Special Offers/Beranda/button_No'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Special Offers/Beranda/button_Unpublish'))
 
@@ -65,23 +53,17 @@ WebUI.getText(findTestObject('Object Repository/Special Offers/Beranda/div_Are y
 
 WebUI.click(findTestObject('Object Repository/Special Offers/Beranda/button_Yes'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Special Offers/Beranda/button_Publish'))
 
 WebUI.getText(findTestObject('Object Repository/Special Offers/Beranda/div_Are you sure want to publish Testing Of_049f0d'))
 
 WebUI.click(findTestObject('Object Repository/Special Offers/Beranda/button_No'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Special Offers/Beranda/button_Publish'))
 
 WebUI.getText(findTestObject('Object Repository/Special Offers/Beranda/div_Are you sure want to publish Testing Of_049f0d'))
 
 WebUI.click(findTestObject('Object Repository/Special Offers/Beranda/button_Yes'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 
