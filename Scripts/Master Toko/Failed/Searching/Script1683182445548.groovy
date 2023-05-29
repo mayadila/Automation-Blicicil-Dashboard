@@ -36,8 +36,6 @@ WebUI.click(findTestObject('Object Repository/Master Toko/Searching Failed/a_Tok
 
 WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/div_List Toko BliCicil Admin as            _dde361'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Master Toko/Searching Failed/input_Search_form-control form-control-sm'), 
     '12345678')
 
@@ -51,8 +49,6 @@ WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/th_
 WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/th_Status'))
 
 WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/th_Action'))
-
-WebUI.delay(5)
 
 WebUI.refresh()
 
@@ -71,8 +67,6 @@ WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/th_
 WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/th_Action'))
 
 WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/td_No matching records found'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 
