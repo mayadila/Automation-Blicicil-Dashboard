@@ -33,15 +33,11 @@ WebUI.click(findTestObject('Object Repository/Master Merchants/Searching Failed/
 
 WebUI.click(findTestObject('Object Repository/Master Merchants/Searching Failed/a_Merchants'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'), 
     'Apple')
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
 
 WebUI.refresh()
 
@@ -50,8 +46,6 @@ WebUI.setText(findTestObject('Object Repository/Master Merchants/Searching Faile
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

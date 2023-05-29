@@ -35,15 +35,11 @@ WebUI.click(findTestObject('Object Repository/Master Merchants/Searching Success
 
 WebUI.getText(findTestObject('Object Repository/Master Merchants/Searching Success/div_List Merchant BliCicil Admin as        _d762cc'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm'), 
     'Trans')
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
 
 WebUI.refresh()
 
@@ -52,8 +48,6 @@ WebUI.setText(findTestObject('Object Repository/Master Merchants/Searching Succe
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 
