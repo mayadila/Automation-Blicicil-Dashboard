@@ -35,23 +35,13 @@ WebUI.click(findTestObject('Object Repository/Master Merchants/Beranda/a_Merchan
 
 WebUI.getText(findTestObject('Object Repository/Master Merchants/Beranda/div_List Merchant BliCicil Admin as        _d762cc'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Merchants/Beranda/a_2'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Merchants/Beranda/a_Previous'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Merchants/Beranda/a_Next'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Merchants/Beranda/a_1'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Merchants/Beranda/button_Hapus'))
 
@@ -59,15 +49,11 @@ WebUI.getText(findTestObject('Object Repository/Master Merchants/Beranda/div_Are
 
 WebUI.click(findTestObject('Object Repository/Master Merchants/Beranda/button_No'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Merchants/Beranda/button_Hapus'))
 
 WebUI.getText(findTestObject('Object Repository/Master Merchants/Beranda/div_Are you sure want to delete Testing 3YesNoNo'))
 
 WebUI.click(findTestObject('Object Repository/Master Merchants/Beranda/button_Yes'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 
