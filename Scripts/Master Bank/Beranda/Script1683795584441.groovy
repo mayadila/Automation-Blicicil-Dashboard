@@ -31,15 +31,11 @@ WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/a_Master'))
 
 WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/a_Bank'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/button_Delete'))
 
 WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/div_Are you sure want to delete Bank Bukopi_1a81ad'))
 
 WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/button_No'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/button_Delete'))
 
@@ -47,19 +43,11 @@ WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/div_Are you su
 
 WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/button_Yes'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/a_4'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/a_Previous'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/a_Next'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

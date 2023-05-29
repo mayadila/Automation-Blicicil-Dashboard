@@ -34,39 +34,25 @@ WebUI.click(findTestObject('Object Repository/Products/Beranda/a_Products'))
 
 WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_List Products BliCicil Admin as        _565225'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Deactivate'))
 
 WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to deactivate Hari in_e58443'))
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_No'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Deactivate'))
 
 WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to deactivate Hari in_e58443'))
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Yes'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/a_2'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products/Beranda/a_Previous'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/a_Next'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products/Beranda/a_1'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Activate'))
 
@@ -74,15 +60,11 @@ WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sur
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_No'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Activate'))
 
 WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to activate Elektroni_a747f7'))
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Yes'))
-
-WebUI.delay(5)
 
 WebUI.closeBrowser()
 

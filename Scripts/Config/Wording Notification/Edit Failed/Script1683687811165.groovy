@@ -32,45 +32,29 @@ WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Edit F
 
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Edit Failed/a_Wording Notification'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Edit Failed/a_Edit'))
 
 WebUI.getText(findTestObject('Object Repository/Config/Wording Notification/Edit Failed/div_Edit Wording Notification BliCicil Admin as'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Edit Failed/input_Title_txtTitle'), '')
-
-WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Edit Failed/textarea_Produk khusus untuk member aktif. _9a6a1b'), 
     'Produk khusus untuk member aktif. Silakan ajukan pembiayaan Elektronik/ Motor/ Multiguna untuk bisa mendapatkan fasilitas ini')
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Edit Failed/button_Submit'))
 
 WebUI.getText(findTestObject('Object Repository/Config/Wording Notification/Edit Failed/div_ErrorThe Wording Title field is require_03ae6c'))
 
-WebUI.delay(5)
-
 WebUI.refresh()
 
 WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Edit Failed/input_Title_txtTitle'), 'Fasilitas Belum Tersedia')
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Edit Failed/textarea_Produk khusus untuk member aktif. _9a6a1b'), 
     '')
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Edit Failed/button_Submit'))
 
 WebUI.getText(findTestObject('Object Repository/Config/Wording Notification/Edit Failed/div_ErrorThe Wording Desc field is required_c86839'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

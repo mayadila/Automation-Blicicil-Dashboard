@@ -35,23 +35,13 @@ WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Beranda/a_Kat
 
 WebUI.getText(findTestObject('Object Repository/Master Kategori Toko/Beranda/div_List Kategori Toko BliCicil Admin as   _2278a0'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Beranda/a_2'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Beranda/a_Previous'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Beranda/a_Next'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Beranda/a_1'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Beranda/button_Hapus'))
 
@@ -59,15 +49,11 @@ WebUI.getText(findTestObject('Object Repository/Master Kategori Toko/Beranda/div
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Beranda/button_No'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Beranda/button_Hapus'))
 
 WebUI.getText(findTestObject('Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a'))
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Beranda/button_Yes'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

@@ -36,15 +36,11 @@ WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Search
 
 WebUI.getText(findTestObject('Object Repository/Config/Wording Notification/Searching Success/div_List Wording BliCicil Admin as         _580111'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Searching Success/input_Search_form-control form-control-sm'), 
     'NIK')
 
 WebUI.sendKeys(findTestObject('Object Repository/Config/Wording Notification/Searching Success/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
 
 WebUI.refresh()
 
@@ -53,8 +49,6 @@ WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Sear
 
 WebUI.sendKeys(findTestObject('Object Repository/Config/Wording Notification/Searching Success/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

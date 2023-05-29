@@ -33,14 +33,10 @@ WebUI.click(findTestObject('Object Repository/News/Searching Success/a_News'))
 
 WebUI.getText(findTestObject('Object Repository/News/Searching Success/div_List News BliCicil Admin as            _9f1570'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/News/Searching Success/input_Search_form-control form-control-sm'), 'Blicicil')
 
 WebUI.sendKeys(findTestObject('Object Repository/News/Searching Success/input_Search_form-control form-control-sm'), Keys.chord(
         Keys.ENTER))
-
-WebUI.delay(5)
 
 WebUI.refresh()
 
@@ -48,8 +44,6 @@ WebUI.setText(findTestObject('Object Repository/News/Searching Success/input_Sea
 
 WebUI.sendKeys(findTestObject('Object Repository/News/Searching Success/input_Search_form-control form-control-sm'), Keys.chord(
         Keys.ENTER))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

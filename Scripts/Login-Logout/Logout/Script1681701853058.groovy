@@ -34,8 +34,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Login-Logout/Logout/inp
 'Mengklik button login'
 WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/button_Login'))
 
-WebUI.delay(5)
-
 'Mengklik button ikon profil'
 WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/div_E'))
 
@@ -48,8 +46,6 @@ WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/div_Are you su
 'Mengklik button No "jika tidak ingin logout"'
 WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/button_No'))
 
-WebUI.delay(5)
-
 'Mengklik button ikon profil'
 WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/div_E'))
 
@@ -60,8 +56,6 @@ WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/div_Are you su
 
 'Mengklik button Yes "jika ingin logout"'
 WebUI.click(findTestObject('Object Repository/Login-Logout/Logout/button_Yes'))
-
-WebUI.delay(10)
 
 'Menutup chrome'
 WebUI.closeBrowser()

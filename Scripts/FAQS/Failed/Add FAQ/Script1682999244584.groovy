@@ -44,15 +44,11 @@ WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ Failed/div_List FAQ
 'Mengklik menu Add FAQ'
 WebUI.click(findTestObject('FAQS/Add FAQ Failed/span_New FAQ'))
 
-WebUI.delay(5)
-
 'Tidak menginputkan judul / pertanyaan FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ Failed/div_Judul'))
 
 'Tidak menginputkan deskripsi FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ Failed/div_Deskripsi                              _57f324'))
-
-WebUI.delay(5)
 
 'Mengklik button submit'
 WebUI.click(findTestObject('Object Repository/FAQS/Add FAQ Failed/button_Submit'))
@@ -60,23 +56,17 @@ WebUI.click(findTestObject('Object Repository/FAQS/Add FAQ Failed/button_Submit'
 'Menmapilkan popup alertnya'
 WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ Failed/div_ErrorThe title field is required.OKNoCancel'))
 
-WebUI.delay(5)
-
 'Menginputkan judul / pertanyaan FAQ'
 WebUI.setText(findTestObject('Object Repository/FAQS/Add FAQ Failed/input_Judul_txtProductName'), 'hanya saja')
 
 'Tidak menginputkan deskripsi FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ Failed/div_Deskripsi                              _57f324'))
 
-WebUI.delay(5)
-
 'Mengklik button submit'
 WebUI.click(findTestObject('Object Repository/FAQS/Add FAQ Failed/span_Submit'))
 
 'Menmapilkan popup alertnya'
 WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ Failed/div_ErrorThe description field is required._797e22'))
-
-WebUI.delay(5)
 
 'Tidak menginputkan judul / pertanyaan FAQ'
 WebUI.clearText(findTestObject('Object Repository/FAQS/Add FAQ Failed/input_Judul_txtProductName'))
@@ -89,8 +79,6 @@ WebUI.setText(findTestObject('FAQS/Add FAQ Failed/p'), txaContent)
 
 'Mendapatkan atribut inputan deskripsinya'
 input_Value = WebUI.getAttribute(findTestObject('FAQS/Add FAQ Failed/p'), 'value')
-
-WebUI.delay(5)
 
 'Mengklik button submit'
 WebUI.click(findTestObject('Object Repository/FAQS/Add FAQ Failed/span_Submit'))
@@ -115,8 +103,6 @@ WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ Success/th_Last Upd
 
 'Menampilkan status FAQ : Publish / Unpublish'
 WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ Success/th_Status'))
-
-WebUI.delay(10)
 
 'Menutup chrome'
 WebUI.closeBrowser()

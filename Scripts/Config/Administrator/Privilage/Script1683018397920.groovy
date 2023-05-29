@@ -61,42 +61,26 @@ WebUI.getText(findTestObject('Object Repository/Config/Administrator/Privilege/t
 'Menampilkan table berisi Action On / Off radiobutton'
 WebUI.getText(findTestObject('Object Repository/Config/Administrator/Privilege/th_Action'))
 
-WebUI.delay(5)
-
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Wording Notification_custom-control-label'))
-
-WebUI.delay(5)
 
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Config_custom-control-label'))
 
-WebUI.delay(5)
-
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Master_custom-control-label'))
-
-WebUI.delay(5)
 
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Products_custom-control-label'))
 
-WebUI.delay(5)
-
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Products Status_custom-control-label'))
-
-WebUI.delay(5)
 
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Special Offers_custom-control-label'))
 
-WebUI.delay(5)
-
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Dashboard_custom-control-label'))
-
-WebUI.delay(5)
 
 'Mengklik button Save Change'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/button_Save Change'))
@@ -106,8 +90,6 @@ WebUI.getText(findTestObject('Object Repository/Config/Administrator/Privilege/d
 
 'Meredirect ke halaman list administrator'
 WebUI.getText(findTestObject('Object Repository/Config/Administrator/Privilege/div_List Administrator BliCicil Admin as   _6945c6'))
-
-WebUI.delay(5)
 
 'Status Active'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/div_Active'))
@@ -118,62 +100,38 @@ WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/a_P
 'Membuka halaman privelege'
 WebUI.getText(findTestObject('Object Repository/Config/Administrator/Privilege/div_Privilage Administrator BliCicil Admin as'))
 
-WebUI.delay(5)
-
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Config_custom-control-label'))
-
-WebUI.delay(5)
 
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Transaction_custom-control-label'))
 
-WebUI.delay(5)
-
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Master_custom-control-label'))
-
-WebUI.delay(5)
 
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Products_custom-control-label'))
 
-WebUI.delay(5)
-
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Products Status_custom-control-label'))
-
-WebUI.delay(5)
 
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Special Offers_custom-control-label'))
 
-WebUI.delay(5)
-
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Customer Management_custom-control-label'))
 
-WebUI.delay(5)
-
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_News_custom-control-label'))
-
-WebUI.delay(5)
 
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_FAQ_custom-control-label'))
 
-WebUI.delay(5)
-
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Customer Management_custom-control-label'))
 
-WebUI.delay(5)
-
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_News_custom-control-label'))
-
-WebUI.delay(5)
 
 'Off / On radio button'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Privilege/label_Master_custom-control-label'))
@@ -186,8 +144,6 @@ WebUI.getText(findTestObject('Object Repository/Config/Administrator/Privilege/d
 
 'Meredirect ke halaman list administrator'
 WebUI.getText(findTestObject('Object Repository/Config/Administrator/Privilege/div_List Administrator BliCicil Admin as   _6945c6'))
-
-WebUI.delay(10)
 
 'Menutup chrome'
 WebUI.closeBrowser()

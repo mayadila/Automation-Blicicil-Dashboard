@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 WebUI.setText(findTestObject('Object Repository/Master Kategori Toko/Edit Success/input_Email_email'), 'eva.mayadila@megafinance.co.id')
@@ -42,15 +44,11 @@ if (notChecked == true) {
     WebUI.check(findTestObject('Master Kategori Toko/Add Success/input_Komputer  Laptop_category'))
 }
 
-WebUI.delay(5)
-
 notChecked = WebUI.verifyElementNotChecked(findTestObject('Master Kategori Toko/Edit Success/input_TV_category'), 0)
 
 if (notChecked == true) {
     WebUI.check(findTestObject('Master Kategori Toko/Add Success/input_TV_category'))
 }
-
-WebUI.delay(5)
 
 checked = WebUI.verifyElementChecked(findTestObject('Master Kategori Toko/Edit Success/input_Komputer  Laptop_category'), 
     0)
@@ -59,15 +57,11 @@ if (checked == true) {
     WebUI.uncheck(findTestObject('Master Kategori Toko/Edit Success/input_Komputer  Laptop_category'))
 }
 
-WebUI.delay(5)
-
 checked = WebUI.verifyElementChecked(findTestObject('Master Kategori Toko/Edit Success/input_TV_category'), 0)
 
 if (checked == true) {
     WebUI.uncheck(findTestObject('Master Kategori Toko/Edit Success/input_TV_category'))
 }
-
-WebUI.delay(5)
 
 checked = WebUI.verifyElementChecked(findTestObject('Master Kategori Toko/Edit Success/input_Pendingin Ruangan_category'), 
     0)
@@ -76,15 +70,11 @@ if (checked == true) {
     WebUI.uncheck(findTestObject('Master Kategori Toko/Edit Success/input_Pendingin Ruangan_category'))
 }
 
-WebUI.delay(5)
-
 checked = WebUI.verifyElementChecked(findTestObject('Master Kategori Toko/Edit Success/input_Audio_category'), 0)
 
 if (checked == true) {
     WebUI.uncheck(findTestObject('Master Kategori Toko/Edit Success/input_Audio_category'))
 }
-
-WebUI.delay(5)
 
 notChecked = WebUI.verifyElementNotChecked(findTestObject('Master Kategori Toko/Edit Success/input_Pendingin Ruangan_category'), 
     0)
@@ -93,21 +83,15 @@ if (notChecked == true) {
     WebUI.check(findTestObject('Master Kategori Toko/Add Success/input_Pendingin Ruangan_category'))
 }
 
-WebUI.delay(5)
-
 notChecked = WebUI.verifyElementNotChecked(findTestObject('Master Kategori Toko/Edit Success/input_Audio_category'), 0)
 
 if (notChecked == true) {
     WebUI.check(findTestObject('Master Kategori Toko/Add Success/input_Audio_category'))
 }
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Edit Success/button_Submit'))
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Edit Success/div_SuccessOKNoCancel'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

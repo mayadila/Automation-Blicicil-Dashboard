@@ -31,39 +31,25 @@ WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_FAQ'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Publish'))
 
 WebUI.getText(findTestObject('Object Repository/FAQS/Beranda FAQ/div_Are you sure want to publish this dataYesNoNo'))
 
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_No'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Publish'))
 
 WebUI.getText(findTestObject('Object Repository/FAQS/Beranda FAQ/div_Are you sure want to publish this dataYesNoNo'))
 
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Yes'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_2'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_1'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_Next'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_Previous'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Unpublish'))
 
@@ -71,15 +57,11 @@ WebUI.getText(findTestObject('Object Repository/FAQS/Beranda FAQ/div_Are you sur
 
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_No'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Unpublish'))
 
 WebUI.getText(findTestObject('Object Repository/FAQS/Beranda FAQ/div_Are you sure want to unpublish this dat_a999af'))
 
 WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Yes'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

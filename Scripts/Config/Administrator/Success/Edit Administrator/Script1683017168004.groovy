@@ -29,7 +29,8 @@ WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
 'Menginputkan password valid'
-WebUI.setEncryptedText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/input_Password_password'), 
+    'aeHFOx8jV/A=')
 
 'Mengklik button Login'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/button_Login'))
@@ -40,8 +41,6 @@ WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Edit 
 'Mengklik submenu administrator'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/span_Administrator'))
 
-WebUI.delay(5)
-
 'Mengklik button edit'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/a_Edit'))
 
@@ -51,25 +50,18 @@ WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Edi
 'mengubah email user'
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/input_Email_lalaland'), 'fredi@megafinance.co.id')
 
-WebUI.delay(5)
-
 'mengubah password user'
-WebUI.setEncryptedText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/input_Password_txtPassword'), 'zXiMgA/AYuq9JeP8OALDyA==')
-
-WebUI.delay(5)
+WebUI.setEncryptedText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/input_Password_txtPassword'), 
+    'zXiMgA/AYuq9JeP8OALDyA==')
 
 'Mengubah nama user'
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/input_Name_txtName'), 'Fredi')
-
-WebUI.delay(5)
 
 'Mengklik button submit'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/button_Submit'))
 
 'Menampilkan popup sukses submit perubahan'
 WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Edit Admin/div_SuccessOKNoCancel'))
-
-WebUI.delay(10)
 
 'Menutup chrome'
 WebUI.closeBrowser()

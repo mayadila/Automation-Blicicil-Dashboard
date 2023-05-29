@@ -40,8 +40,6 @@ WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/a_Tran
 'Mengklik submenu motorcycle'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/a_Motorcycle'))
 
-WebUI.delay(5)
-
 'Menginputkan kata kunci di kolom pencarian'
 WebUI.setText(findTestObject('Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _ec3f45'), 
     'ajkd')
@@ -56,15 +54,11 @@ WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/input_
 'Mengklik yesterday pada date range'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/li_Yesterday'))
 
-WebUI.delay(5)
-
 'Mengklik date range'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _539eaf'))
 
 'Mengklik last 7 days pada date range'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/li_Last 7 Days'))
-
-WebUI.delay(5)
 
 'Mengklik date range'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _539eaf'))
@@ -72,23 +66,17 @@ WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/input_
 'Mengklik last 30 days pada date range'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/li_Last 30 Days'))
 
-WebUI.delay(5)
-
 'Mengklik date range'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _539eaf'))
 
 'Mengklik this month pada date range'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/li_This Month'))
 
-WebUI.delay(5)
-
 'Mengklik date range'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _539eaf'))
 
 'Mengklik last month pada date range'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/li_Last Month'))
-
-WebUI.delay(5)
 
 'Mengklik date range'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _539eaf'))
@@ -99,15 +87,11 @@ WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/li_Cus
 'Mengklik button apply setelah memilih rentang tanggal'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/button_Apply'))
 
-WebUI.delay(5)
-
 'Mengklik date range'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _539eaf'))
 
 'Mengklik button clear untuk mengkosongkan date rangge'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Searching Failed/button_Clear'))
-
-WebUI.delay(5)
 
 'Merefresh halaman'
 WebUI.refresh()
@@ -120,43 +104,29 @@ WebUI.setText(findTestObject('Object Repository/Motorcycle/Searching Failed/inpu
 WebUI.sendKeys(findTestObject('Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _ec3f45'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.delay(5)
-
 'Mengklik Selesai pada dropdown status'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching Failed/select_Status                              _ebcc15'), 
     'Selesai', true)
-
-WebUI.delay(5)
 
 'Mengklik Prosess pada dropdown status'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching Failed/select_Status                              _ebcc15'), 
     'Proses', true)
 
-WebUI.delay(5)
-
 'Mengklik Transaksi pada dropdown status'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching Failed/select_Status                              _ebcc15'), 
     'Transaksi', true)
-
-WebUI.delay(5)
 
 'Mengklik TTD Kontrak pada dropdown status'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching Failed/select_Status                              _ebcc15'), 
     'TTD Kontrak', true)
 
-WebUI.delay(5)
-
 'Mengklik Ditolak pada dropdown status'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching Failed/select_Status                              _ebcc15'), 
     'Ditolak', true)
 
-WebUI.delay(5)
-
 'Mengklik Dibatalkan pada dropdown status'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Motorcycle/Searching Failed/select_Status                              _ebcc15'), 
     'Dibatalkan', true)
-
-WebUI.delay(10)
 
 'Menutup chrome'
 WebUI.closeBrowser()

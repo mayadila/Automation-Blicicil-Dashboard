@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 WebUI.setText(findTestObject('Object Repository/Master Kategori Toko/Add Success/input_Email_email'), 'eva.mayadila@megafinance.co.id')
@@ -33,11 +35,7 @@ WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Success/s
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Success/svg_List Kategori Toko BliCicil Admin as_fe_5a1635'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Success/div_--Pilih Kategori--'))
-
-WebUI.delay(5)
 
 notChecked = WebUI.verifyElementNotChecked(findTestObject('Master Kategori Toko/Add Success/input_Komputer  Laptop_category'), 
     0)
@@ -46,23 +44,17 @@ if (notChecked == true) {
     WebUI.check(findTestObject('Master Kategori Toko/Add Success/input_Komputer  Laptop_category'))
 }
 
-WebUI.delay(5)
-
 notChecked = WebUI.verifyElementNotChecked(findTestObject('Master Kategori Toko/Add Success/input_TV_category'), 0)
 
 if (notChecked == true) {
     WebUI.check(findTestObject('Master Kategori Toko/Add Success/input_TV_category'))
 }
 
-WebUI.delay(5)
-
 notChecked = WebUI.verifyElementNotChecked(findTestObject('Master Kategori Toko/Add Success/input_Dapur_category'), 0)
 
 if (notChecked == true) {
     WebUI.check(findTestObject('Master Kategori Toko/Add Success/input_Dapur_category'))
 }
-
-WebUI.delay(5)
 
 notChecked = WebUI.verifyElementNotChecked(findTestObject('Master Kategori Toko/Add Success/input_Kamera  Recoder_category'), 
     0)
@@ -71,13 +63,9 @@ if (notChecked == true) {
     WebUI.check(findTestObject('Master Kategori Toko/Add Success/input_Kamera  Recoder_category'))
 }
 
-WebUI.delay(5)
-
 WebUI.selectOptionByValue(findTestObject('Master Kategori Toko/Add Success/Pilih toko'), toko, true)
 
 WebUI.click(findTestObject('Master Kategori Toko/Add Success/button_Submit'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

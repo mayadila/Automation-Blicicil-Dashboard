@@ -29,23 +29,15 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Master Kategori/Searchi
 
 WebUI.click(findTestObject('Object Repository/Master Kategori/Searching Failed/button_Login'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Kategori/Searching Failed/a_Master'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Kategori/Searching Failed/a_Kategori'))
-
-WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'), 
     'kursi')
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
 
 WebUI.refresh()
 
@@ -54,8 +46,6 @@ WebUI.setText(findTestObject('Object Repository/Master Kategori/Searching Failed
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
 
 WebUI.closeBrowser()
 

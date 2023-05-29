@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 WebUI.setText(findTestObject('Object Repository/Master Kategori Toko/Add Failed/input_Email_email'), 'eva.mayadila@megafinance.co.id')
@@ -33,21 +35,13 @@ WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Failed/a_
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Failed/a_New Kategori Toko'))
 
-WebUI.delay(5)
-
 WebUI.getText(findTestObject('Object Repository/Master Kategori Toko/Add Failed/label_Nama Toko'))
 
-WebUI.delay(5)
-
 WebUI.getText(findTestObject('Object Repository/Master Kategori Toko/Add Failed/label_Nama Kategori'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Failed/button_Submit'))
 
 WebUI.getText(findTestObject('Object Repository/Master Kategori Toko/Add Failed/div_ErrorThe Nama Toko field is required.OK_1fe216'))
-
-WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Master Kategori Toko/Add Failed/select_--Pilih Toko--Transmart Carrefour Ce_f40f7e'), 
     toko, true)
@@ -56,21 +50,13 @@ WebUI.getText(findTestObject('Object Repository/Master Kategori Toko/Add Failed/
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Failed/button_Submit'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Failed/a_2'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Failed/a_New Kategori Toko'))
 
 WebUI.getText(findTestObject('Object Repository/Master Kategori Toko/Add Failed/label_Nama Toko'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Master Kategori Toko/Add Failed/div_--Pilih Kategori--'))
-
-WebUI.delay(5)
 
 notChecked = WebUI.verifyElementNotChecked(findTestObject('Master Kategori Toko/Add Success/input_Komputer  Laptop_category'), 
     0)
@@ -79,13 +65,9 @@ if (notChecked == true) {
     WebUI.check(findTestObject('Master Kategori Toko/Add Success/input_Komputer  Laptop_category'))
 }
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Failed/button_Submit'))
 
 WebUI.getText(findTestObject('Object Repository/Master Kategori Toko/Add Failed/div_ErrorThe Nama Toko field is required.OK_1fe216'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

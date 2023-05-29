@@ -32,15 +32,11 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Suc
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/span_Customer Management'))
 
-WebUI.delay(5)
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Show                                _69175e'), 
     '10', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Year                                _c79051'), 
     '2023', true)
-
-WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Show                                _69175e'), 
     '5', true)
@@ -48,31 +44,19 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Year                                _c79051'), 
     '2022', true)
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_4'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_Prev'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_Next'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_1'))
-
-WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
     '3404076403940005')
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'), 
     'name', true)
@@ -83,15 +67,11 @@ WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching S
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
     'Testing')
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'), 
     'mobile_phone', true)
@@ -102,8 +82,6 @@ WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching S
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.delay(5)
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'), 
     'nik', true)
 
@@ -112,8 +90,6 @@ WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching S
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

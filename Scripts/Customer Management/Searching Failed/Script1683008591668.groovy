@@ -44,8 +44,6 @@ WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching F
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.delay(5)
-
 WebUI.refresh()
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Show                                _69175e'), 
@@ -62,8 +60,6 @@ WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching F
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
 
 WebUI.refresh()
 
@@ -82,8 +78,6 @@ WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching F
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.delay(5)
-
 WebUI.refresh()
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Show                                _69175e'), 
@@ -100,8 +94,6 @@ WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching F
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

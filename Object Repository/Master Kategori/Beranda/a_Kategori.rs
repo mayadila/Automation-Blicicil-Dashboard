@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Kategori</name>
    <tag></tag>
-   <elementGuidId>52afe538-96fd-4883-8152-acf8c471320b</elementGuidId>
+   <elementGuidId>1b37b971-07f4-4c56-b022-03b51237278c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>bfbf9627-f33b-4ae0-9ff3-08a4666cc47b</webElementGuid>
+      <webElementGuid>348a3004-f1e8-4108-9a7f-7a5a5a7e64b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center</value>
-      <webElementGuid>3d2e0878-0835-482a-aa40-d28c1cddddc8</webElementGuid>
+      <webElementGuid>6760f0bf-1207-4ada-98fd-89689504a1f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://uat-dashboard.blicicil.com/master/kategori</value>
-      <webElementGuid>62d642da-496e-4b09-9b4d-13b62326799b</webElementGuid>
+      <webElementGuid>a9184630-bf9e-4eef-b752-ce047f0fb64b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
 							                		
 							                		Kategori
 							                	</value>
-      <webElementGuid>134939c8-bab0-4f5b-b1b6-815d73b92ef2</webElementGuid>
+      <webElementGuid>262555a3-9cad-4c5f-ac8c-eaa483e4351d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub open&quot;]/ul[@class=&quot;menu-content&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
-      <webElementGuid>84f8cb07-eea5-4370-b4d5-0277ec602e17</webElementGuid>
+      <webElementGuid>d4fd9421-22c3-4727-aa66-d4db56901bae</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='main-menu-navigation']/li[3]/ul/li[5]/a</value>
-      <webElementGuid>11ad78e9-b003-403c-a56d-5a964db7aaf3</webElementGuid>
+      <webElementGuid>d8c2bf36-b6be-414f-ae5e-8421793181d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori Toko'])[1]/following::a[1]</value>
-      <webElementGuid>485e26bc-35be-4f1b-a616-d077d5b4505b</webElementGuid>
+      <webElementGuid>2ee76e2d-5e0d-42b6-b30b-7354e4b354a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Toko'])[1]/following::a[2]</value>
-      <webElementGuid>2686607f-ae5e-4b8d-ba3b-80642eeb2913</webElementGuid>
+      <webElementGuid>5a0f1360-6022-49f6-8f76-0df5a956f6a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank'])[1]/preceding::a[1]</value>
-      <webElementGuid>c3b6b4bc-0ce2-40b1-a588-e28c7604e233</webElementGuid>
+      <webElementGuid>3c40c645-ead7-46d1-b09e-82178104a037</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/master/kategori')]</value>
-      <webElementGuid>152436a5-46f6-4554-98fc-ba8a1410c9ab</webElementGuid>
+      <webElementGuid>fb690a52-1106-4ffd-af1b-02d7377409b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/ul/li[5]/a</value>
-      <webElementGuid>1de96c08-69e4-4bf1-a017-e425eb88c28d</webElementGuid>
+      <webElementGuid>af9a32a3-7eec-4842-884a-d1ddf701df86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
 							                		
 							                		Kategori
 							                	')]</value>
-      <webElementGuid>6d43e41d-a815-4e30-b6c3-3569f5e599ae</webElementGuid>
+      <webElementGuid>fefe1e9b-0c95-49ff-ac26-1170166771bd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

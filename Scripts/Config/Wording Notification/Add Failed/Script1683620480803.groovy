@@ -46,19 +46,11 @@ WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Add Fa
 
 WebUI.getText(findTestObject('Object Repository/Config/Wording Notification/Add Failed/div_ErrorThe Wording Title field is require_03ae6c'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Add Failed/input_Title_txtTitle'), 'tes')
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Add Failed/textarea_Desc_txtDesc'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Add Failed/input_Location_txtLocation'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Add Failed/button_Submit'))
 
@@ -66,21 +58,13 @@ WebUI.getText(findTestObject('Object Repository/Config/Wording Notification/Add 
 
 WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Add Failed/input_Title_txtTitle'), 'tesss')
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Add Failed/textarea_Desc_txtDesc'), 'testing')
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Add Failed/input_Location_txtLocation'), '')
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Add Failed/button_Submit'))
 
 WebUI.getText(findTestObject('Object Repository/Config/Wording Notification/Add Failed/div_ErrorThe Wording Location field is requ_33f913'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

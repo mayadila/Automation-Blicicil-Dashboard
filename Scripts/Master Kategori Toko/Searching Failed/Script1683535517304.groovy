@@ -36,23 +36,17 @@ WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Searching Fai
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/div_List Kategori Toko BliCicil Admin as   _2278a0'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'), 
     '123456')
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'), 
     'Sharp')
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

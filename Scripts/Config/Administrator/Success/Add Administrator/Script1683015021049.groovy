@@ -29,7 +29,8 @@ WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Success/Add Admin/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
 'Menginputkan password valid'
-WebUI.setEncryptedText(findTestObject('Object Repository/Config/Administrator/Success/Add Admin/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Config/Administrator/Success/Add Admin/input_Password_password'), 
+    'aeHFOx8jV/A=')
 
 'Mengklik button login'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Add Admin/button_Login'))
@@ -43,8 +44,6 @@ WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Add A
 'Membuka halaman list administrator'
 WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Add Admin/div_List Administrator BliCicil Admin as   _6945c6'))
 
-WebUI.delay(5)
-
 'Mengklik button Add Administrator'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Add Admin/a_New Administrator'))
 
@@ -54,17 +53,12 @@ WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Add
 'Menginputkan nama user'
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Success/Add Admin/input_Name_txtName'), 'QA')
 
-WebUI.delay(5)
-
 'Menginputkan alamat email user'
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Success/Add Admin/input_Email_lalaland'), 'qa@megafinance.co.id')
 
-WebUI.delay(5)
-
 'Menginputkan password user'
-WebUI.setEncryptedText(findTestObject('Object Repository/Config/Administrator/Success/Add Admin/input_Password_txtPassword'), 'aeHFOx8jV/A=')
-
-WebUI.delay(5)
+WebUI.setEncryptedText(findTestObject('Object Repository/Config/Administrator/Success/Add Admin/input_Password_txtPassword'), 
+    'aeHFOx8jV/A=')
 
 'Mengklik button submit'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Add Admin/button_Submit'))
@@ -72,12 +66,8 @@ WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Add A
 'Menampilkan popup suksess Add Administrator'
 WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Add Admin/div_SuccessOKNoCancel'))
 
-WebUI.delay(5)
-
 'Mengklik button number page'
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Add Admin/a_2'))
-
-WebUI.delay(10)
 
 'Menutup chrome'
 WebUI.closeBrowser()

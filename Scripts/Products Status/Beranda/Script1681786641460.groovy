@@ -33,123 +33,69 @@ WebUI.click(findTestObject('Object Repository/Products Status/a_Products Status'
 
 WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _9ba51a'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/p_Process'))
 
 WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _9ba51a'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/a_4'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Products Status/a_12'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/a_1'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/button_Export to                           _94e730'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Products Status/p_TTD Kontrak'))
 
 WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _9ba51a'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/a_2'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/button_Export to                           _94e730'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Products Status/p_Transaksi'))
 
 WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _9ba51a'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/button_Export to                           _94e730'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Products Status/p_Ditolak'))
 
 WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _9ba51a'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/a_5'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Products Status/a_9'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/a_1'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/button_Export to                           _94e730'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Products Status/p_Dibatalkan'))
 
 WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _9ba51a'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/a_5'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Products Status/a_30'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/a_26'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Products Status/a_1'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/button_Export to                           _94e730'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Products Status/p_Selesai'))
 
 WebUI.getText(findTestObject('Object Repository/Products Status/div_List Products Status BliCicil Admin as _9ba51a'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/a_4'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Products Status/a_16'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/a_1'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Products Status/button_Export to                           _94e730'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

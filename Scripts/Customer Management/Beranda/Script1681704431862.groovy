@@ -33,27 +33,15 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/span_
 
 WebUI.getText(findTestObject('Object Repository/Customer Managementt/Beranda/div_List of Customers'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_2'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Prev'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Next'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Detail'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Customer Management'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

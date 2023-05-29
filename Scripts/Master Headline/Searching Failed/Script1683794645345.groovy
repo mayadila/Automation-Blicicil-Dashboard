@@ -33,27 +33,19 @@ WebUI.click(findTestObject('Object Repository/Master Headline/Searching Failed/a
 
 WebUI.click(findTestObject('Object Repository/Master Headline/Searching Failed/a_Headline'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Master Headline/Searching Failed/input_Search_form-control form-control-sm'), 
     'blicicil')
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Headline/Searching Failed/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.delay(5)
-
 WebUI.refresh()
-
-WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Master Headline/Searching Failed/input_Search_form-control form-control-sm'), 
     'dana instant')
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Headline/Searching Failed/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 
