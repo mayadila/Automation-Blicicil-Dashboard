@@ -31,14 +31,10 @@ WebUI.click(findTestObject('Object Repository/News/Searching Failed/button_Login
 
 WebUI.click(findTestObject('Object Repository/News/Searching Failed/a_News'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/News/Searching Failed/input_Search_form-control form-control-sm'), 'Bisnis')
 
 WebUI.sendKeys(findTestObject('Object Repository/News/Searching Failed/input_Search_form-control form-control-sm'), Keys.chord(
         Keys.ENTER))
-
-WebUI.delay(5)
 
 WebUI.refresh()
 
@@ -46,8 +42,6 @@ WebUI.setText(findTestObject('Object Repository/News/Searching Failed/input_Sear
 
 WebUI.sendKeys(findTestObject('Object Repository/News/Searching Failed/input_Search_form-control form-control-sm'), Keys.chord(
         Keys.ENTER))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

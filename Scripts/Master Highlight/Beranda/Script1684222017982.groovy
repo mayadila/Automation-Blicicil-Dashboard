@@ -35,35 +35,21 @@ WebUI.click(findTestObject('Object Repository/Master Highlight/Beranda/a_Highlig
 
 WebUI.getText(findTestObject('Object Repository/Master Highlight/Beranda/div_List Highlight BliCicil Admin as       _048319'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Highlight/Beranda/a_2'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Highlight/Beranda/a_Previous'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Highlight/Beranda/a_Next'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Highlight/Beranda/a_1'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Highlight/Beranda/button_Unpublish'))
 
 WebUI.click(findTestObject('Object Repository/Master Highlight/Beranda/button_No'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Highlight/Beranda/button_Unpublish'))
 
 WebUI.click(findTestObject('Object Repository/Master Highlight/Beranda/button_Yes'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

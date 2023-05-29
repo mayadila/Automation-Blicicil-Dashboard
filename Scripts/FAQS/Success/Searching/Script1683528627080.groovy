@@ -33,29 +33,21 @@ WebUI.click(findTestObject('Object Repository/FAQS/Searching Success/a_FAQ'))
 
 WebUI.getText(findTestObject('Object Repository/FAQS/Searching Success/div_List FAQs BliCicil Admin as            _3c8d92'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'), 'Modal')
 
 WebUI.sendKeys(findTestObject('Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'), Keys.chord(
         Keys.ENTER))
-
-WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'), 'Limit')
 
 WebUI.sendKeys(findTestObject('Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'), Keys.chord(
         Keys.ENTER))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/FAQS/Searching Success/button_Unpublish'))
 
 WebUI.getText(findTestObject('Object Repository/FAQS/Searching Success/div_Are you sure want to unpublish this dat_a999af'))
 
 WebUI.click(findTestObject('Object Repository/FAQS/Searching Success/button_No'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/FAQS/Searching Success/button_Unpublish'))
 
@@ -63,23 +55,17 @@ WebUI.getText(findTestObject('Object Repository/FAQS/Searching Success/div_Are y
 
 WebUI.click(findTestObject('Object Repository/FAQS/Searching Success/button_Yes'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/FAQS/Searching Success/button_Publish'))
 
 WebUI.getText(findTestObject('Object Repository/FAQS/Searching Success/div_Are you sure want to publish this dataYesNoNo'))
 
 WebUI.click(findTestObject('Object Repository/FAQS/Searching Success/button_No'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/FAQS/Searching Success/button_Publish'))
 
 WebUI.getText(findTestObject('Object Repository/FAQS/Searching Success/div_Are you sure want to publish this dataYesNoNo'))
 
 WebUI.click(findTestObject('Object Repository/FAQS/Searching Success/button_Yes'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

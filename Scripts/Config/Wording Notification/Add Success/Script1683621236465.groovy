@@ -36,33 +36,21 @@ WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Add Su
 
 WebUI.getText(findTestObject('Object Repository/Config/Wording Notification/Add Success/div_List Wording BliCicil Admin as         _580111'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Add Success/a_New Wording Message'))
 
 WebUI.getText(findTestObject('Object Repository/Config/Wording Notification/Add Success/div_Add Wording Notification BliCicil Admin as'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Add Success/input_Title_txtTitle'), 'Fitur Not Available')
-
-WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Add Success/textarea_Desc_txtDesc'), 'Fitur tidak tersedia')
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Add Success/input_Location_txtLocation'), 'testing')
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Add Success/button_Submit'))
 
 WebUI.getText(findTestObject('Object Repository/Config/Wording Notification/Add Success/div_SuccessOKNoCancel'))
 
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Add Success/a_3'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

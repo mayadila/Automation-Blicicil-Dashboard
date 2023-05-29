@@ -32,35 +32,21 @@ WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Edit S
 
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Edit Success/span_Wording Notification'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Edit Success/a_2'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Edit Success/a_Edit'))
 
 WebUI.getText(findTestObject('Object Repository/Config/Wording Notification/Edit Success/div_Edit Wording Notification BliCicil Admin as'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Edit Success/input_Title_txtTitle'), 'Pengujian Wording Error')
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Wording Notification/Edit Success/textarea_uji wordings'), 'Error EKYC')
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Edit Success/button_Submit'))
 
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Edit Success/div_SuccessOKNoCancel'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Edit Success/a_2'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

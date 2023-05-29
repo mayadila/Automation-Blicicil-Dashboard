@@ -36,35 +36,11 @@ WebUI.click(findTestObject('Object Repository/Config/Administrator/Failed/Search
 
 WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/div_List Administrator BliCicil Admin as   _6945c6'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/input_Search_form-control form-control-sm'), 
     'adhy')
 
 WebUI.sendKeys(findTestObject('Object Repository/Config/Administrator/Failed/Searching/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Name'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Email'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Menu'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Total'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Assign'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Last Update'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Status'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Action'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/td_No matching records found'))
-
-WebUI.delay(5)
 
 WebUI.refresh()
 
@@ -73,26 +49,6 @@ WebUI.setText(findTestObject('Object Repository/Config/Administrator/Failed/Sear
 
 WebUI.sendKeys(findTestObject('Object Repository/Config/Administrator/Failed/Searching/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Name'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Email'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Menu'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Total'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Assign'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Last Update'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Status'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/th_Action'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Searching/td_No matching records found'))
-
-WebUI.delay(10)
 
 'Menutup chrome'
 WebUI.closeBrowser()

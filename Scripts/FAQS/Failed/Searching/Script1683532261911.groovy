@@ -33,21 +33,15 @@ WebUI.click(findTestObject('Object Repository/FAQS/Searching Failed/a_FAQ'))
 
 WebUI.getText(findTestObject('Object Repository/FAQS/Searching Failed/div_List FAQs BliCicil Admin as            _3c8d92'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'), '12345678')
 
 WebUI.sendKeys(findTestObject('Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'), Keys.chord(
         Keys.ENTER))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'), 'products')
 
 WebUI.sendKeys(findTestObject('Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'), Keys.chord(
         Keys.ENTER))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

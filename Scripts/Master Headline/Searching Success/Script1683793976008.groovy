@@ -35,27 +35,19 @@ WebUI.click(findTestObject('Object Repository/Master Headline/Searching Success/
 
 WebUI.getText(findTestObject('Object Repository/Master Headline/Searching Success/div_List Headline BliCicil Admin as        _f528db'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Master Headline/Searching Success/input_Search_form-control form-control-sm'), 
     'Beli gadget')
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Headline/Searching Success/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.delay(5)
-
 WebUI.refresh()
-
-WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Master Headline/Searching Success/input_Search_form-control form-control-sm'), 
     'Elektronik')
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Headline/Searching Success/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

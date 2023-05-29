@@ -33,23 +33,17 @@ WebUI.click(findTestObject('Object Repository/Master Bank/Searching Success/a_Ma
 
 WebUI.click(findTestObject('Object Repository/Master Bank/Searching Success/a_Bank'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Master Bank/Searching Success/input_Search_form-control form-control-sm'), 
     'BRI')
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Bank/Searching Success/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Master Bank/Searching Success/input_Search_form-control form-control-sm'), 
     'Syariah')
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Bank/Searching Success/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

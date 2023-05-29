@@ -40,19 +40,13 @@ WebUI.click(findTestObject('Object Repository/Config/Administrator/Failed/Edit A
 
 WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Edit Admin/div_Edit Administrator BliCicil Admin as'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Failed/Edit Admin/input_Name_txtName'), '')
 
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Failed/Edit Admin/input_Email_lalaland'), 'tytan.setyawan@megafinance.co.id')
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Failed/Edit Admin/button_Submit'))
 
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Failed/Edit Admin/div_ErrorThe Name field is required.OKNoCancel'))
-
-WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Failed/Edit Admin/input_Name_txtName'), 'Tytan')
 
@@ -61,8 +55,6 @@ WebUI.setText(findTestObject('Object Repository/Config/Administrator/Failed/Edit
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Failed/Edit Admin/button_Submit'))
 
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Failed/Edit Admin/div_ErrorThe Email field is required.OKNoCancel'))
-
-WebUI.delay(10)
 
 'Menutup chrome'
 WebUI.closeBrowser()

@@ -35,23 +35,13 @@ WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/span_Headl
 
 WebUI.getText(findTestObject('Object Repository/Master Headline/Beranda/div_List Headline BliCicil Admin as        _f528db'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/a_2'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/a_Previous'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/a_Next'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/a_1'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/button_Hapus'))
 
@@ -59,15 +49,11 @@ WebUI.getText(findTestObject('Object Repository/Master Headline/Beranda/div_Are 
 
 WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/button_No'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/button_Hapus'))
 
 WebUI.getText(findTestObject('Object Repository/Master Headline/Beranda/div_Are you sure want to delete this dataYesNoNo'))
 
 WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/button_Yes'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

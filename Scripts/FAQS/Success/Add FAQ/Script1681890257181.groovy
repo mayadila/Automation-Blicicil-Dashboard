@@ -41,31 +41,23 @@ WebUI.click(findTestObject('Object Repository/FAQS/Add FAQ Success/a_FAQ'))
 'Membuka halaman list FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ Success/div_List FAQs BliCicil Admin as            _3c8d92'))
 
-WebUI.delay(5)
-
 'Mengklik button Add FAQ'
 WebUI.click(findTestObject('Object Repository/FAQS/Add FAQ Success/span_New FAQ'))
 
 'Membuka halaman Add FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ Success/div_Add FAQs BliCicil Admin as'))
 
-WebUI.delay(5)
-
 'Menginputkan judul / pertanyaan FAQ'
 WebUI.setText(findTestObject('Object Repository/FAQS/Add FAQ Success/input_Judul_txtProductName'), 'Testingss')
 
-WebUI.delay(5)
-
 'Mendeklarasi isi inputan di deskripsi'
-def txaContent = 'DDDD'
+def txaContent = 'testing'
 
 'Menginputkan isi deskripsi'
 WebUI.setText(findTestObject('Object Repository/FAQS/Add FAQ Success/p'), txaContent)
 
 'Mendapatkan atribut inputan deskripsinya'
 input_Value = WebUI.getAttribute(findTestObject('Object Repository/FAQS/Add FAQ Success/p'), 'value')
-
-WebUI.delay(5)
 
 'Menampilkan kolom detail FAQ'
 WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ Success/div_Detail FAQs'))
@@ -93,8 +85,6 @@ WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ Success/div_Success
 
 'Meredirect ke halaman list FAQ setelah selesai ADD '
 WebUI.getText(findTestObject('Object Repository/FAQS/Add FAQ Success/div_List FAQs BliCicil Admin as            _3c8d92'))
-
-WebUI.delay(10)
 
 'Menutup chrome'
 WebUI.closeBrowser()

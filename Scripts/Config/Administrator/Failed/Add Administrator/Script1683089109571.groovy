@@ -36,41 +36,27 @@ WebUI.click(findTestObject('Object Repository/Config/Administrator/Failed/Add Ad
 
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Failed/Add Admin/span_New Administrator'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Failed/Add Admin/input_Name_txtName'))
 
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Failed/Add Admin/input_Email_lalaland'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Failed/Add Admin/button_Submit'))
 
 WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Add Admin/div_ErrorThe Name field is required.OKNoCancel'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Failed/Add Admin/input_Name_txtName'), 'abc')
 
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Failed/Add Admin/input_Email_lalaland'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Failed/Add Admin/button_Submit'))
 
 WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Add Admin/div_ErrorThe Email field is required.OKNoCancel'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Failed/Add Admin/input_Email_lalaland'), 'abc@gmail')
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Config/Administrator/Failed/Add Admin/button_Submit'))
 
 WebUI.getText(findTestObject('Object Repository/Config/Administrator/Failed/Add Admin/div_ErrorThe Password field is required.OKNoCancel'))
-
-WebUI.delay(8)
 
 'Menutup chrome'
 WebUI.closeBrowser()

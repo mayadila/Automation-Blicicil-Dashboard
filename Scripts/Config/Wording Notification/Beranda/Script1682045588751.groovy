@@ -36,23 +36,13 @@ WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Berand
 
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/div_List Wording BliCicil Admin as         _580111'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/a_3'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/a_Previous'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/a_Next'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Config/Wording Notification/Beranda/a_1'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

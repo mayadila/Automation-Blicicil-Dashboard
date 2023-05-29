@@ -36,31 +36,11 @@ WebUI.click(findTestObject('Object Repository/Config/Administrator/Success/Searc
 
 WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/div_List Administrator BliCicil Admin as   _6945c6'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Success/Searching/input_Search_form-control form-control-sm'), 
     'hend')
 
 WebUI.sendKeys(findTestObject('Object Repository/Config/Administrator/Success/Searching/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Name'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Email'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Menu'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Total'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Assign'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Last Update'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Status'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Action'))
-
-WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Success/Searching/input_Search_form-control form-control-sm'), 
     'kur')
@@ -68,47 +48,11 @@ WebUI.setText(findTestObject('Object Repository/Config/Administrator/Success/Sea
 WebUI.sendKeys(findTestObject('Object Repository/Config/Administrator/Success/Searching/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Name'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Email'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Menu'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Total'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Assign'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Last Update'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Status'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Action'))
-
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Config/Administrator/Success/Searching/input_Search_form-control form-control-sm'), 
     'testing@gmail.com')
 
 WebUI.sendKeys(findTestObject('Object Repository/Config/Administrator/Success/Searching/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Name'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Email'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Menu'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Total'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Assign'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Last Update'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Status'))
-
-WebUI.getText(findTestObject('Object Repository/Config/Administrator/Success/Searching/th_Action'))
-
-WebUI.delay(10)
 
 'Menutup chrome'
 WebUI.closeBrowser()

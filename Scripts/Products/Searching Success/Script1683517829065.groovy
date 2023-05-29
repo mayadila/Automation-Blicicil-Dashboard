@@ -34,55 +34,17 @@ WebUI.click(findTestObject('Object Repository/Products/Searching Success/a_Produ
 
 WebUI.getText(findTestObject('Object Repository/Products/Searching Success/div_List Products BliCicil Admin as        _565225'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Products/Searching Success/input_Search_form-control form-control-sm'), 
     'Elektronik')
 
 WebUI.sendKeys(findTestObject('Object Repository/Products/Searching Success/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Products/Searching Success/input_Search_form-control form-control-sm'), 
     'Mo')
 
 WebUI.sendKeys(findTestObject('Object Repository/Products/Searching Success/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Products/Searching Success/button_Deactivate'))
-
-WebUI.getText(findTestObject('Object Repository/Products/Searching Success/div_Are you sure want to deactivate Modal I_75131c'))
-
-WebUI.click(findTestObject('Object Repository/Products/Searching Success/button_No'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Products/Searching Success/button_Deactivate'))
-
-WebUI.getText(findTestObject('Object Repository/Products/Searching Success/div_Are you sure want to deactivate Modal I_75131c'))
-
-WebUI.click(findTestObject('Object Repository/Products/Searching Success/button_Yes'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Products/Searching Success/button_Activate'))
-
-WebUI.getText(findTestObject('Object Repository/Products/Searching Success/div_Are you sure want to activate Modal Ins_7dfbe8'))
-
-WebUI.click(findTestObject('Object Repository/Products/Searching Success/button_No'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Products/Searching Success/button_Activate'))
-
-WebUI.getText(findTestObject('Object Repository/Products/Searching Success/div_Are you sure want to activate Modal Ins_7dfbe8'))
-
-WebUI.click(findTestObject('Object Repository/Products/Searching Success/button_Yes'))
-
-WebUI.delay(5)
 
 WebUI.closeBrowser()
 

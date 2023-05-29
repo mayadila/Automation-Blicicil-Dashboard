@@ -38,45 +38,25 @@ WebUI.getText(findTestObject('Object Repository/Master Toko/Add Toko Success/div
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Add Toko Success/svg_List Toko BliCicil Admin as_feather fea_a26c67'))
 
-WebUI.delay(5)
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Add Toko Success/select_TransmartPanasonicPolytronAsusSamsun_36b03e'), 
     '3', true)
-
-WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Add Toko Success/select_Aceh SelatanBalanganBalikpapanBantae_4910c5'), 
     '430', true)
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Master Toko/Add Toko Success/input_Nama Toko_txtNamaToko'), 'Testing Toko Baru')
-
-WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Master Toko/Add Toko Success/input_Outlet Name_txtNamaOutlet'), 'Toko Baru ya')
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Master Toko/Add Toko Success/textarea_Address_txtAlamat'), 'Jalan Wiajya')
-
-WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Master Toko/Add Toko Success/input_Dealer Code_txtDealerCode'), 'D00345')
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Master Toko/Add Toko Success/input_Telephone_txtTelepon'), '0293847475940')
-
-WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Master Toko/Add Toko Success/input_Latitude_txtlatitude'), '-60.28888')
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Master Toko/Add Toko Success/input_Longitude_txtlongitude'), '102.4848493')
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Add Toko Success/button_Submit'))
 
@@ -84,11 +64,7 @@ WebUI.getText(findTestObject('Object Repository/Master Toko/Add Toko Success/div
 
 WebUI.getText(findTestObject('Object Repository/Master Toko/Add Toko Success/div_List Toko BliCicil Admin as            _dde361'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Master Toko/Add Toko Success/a_172'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

@@ -35,15 +35,11 @@ WebUI.click(findTestObject('Object Repository/Master Highlight/Searching Failed/
 
 WebUI.click(findTestObject('Object Repository/Master Highlight/Searching Failed/div_List Highlight BliCicil Admin as       _048319'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm'), 
     'sbs')
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
 
 WebUI.refresh()
 
@@ -52,8 +48,6 @@ WebUI.setText(findTestObject('Object Repository/Master Highlight/Searching Faile
 
 WebUI.sendKeys(findTestObject('Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

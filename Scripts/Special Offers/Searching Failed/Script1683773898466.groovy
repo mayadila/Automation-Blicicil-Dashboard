@@ -31,15 +31,11 @@ WebUI.click(findTestObject('Object Repository/Special Offers/Searching Failed/bu
 
 WebUI.click(findTestObject('Object Repository/Special Offers/Searching Failed/a_Special Offers'))
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('Object Repository/Special Offers/Searching Failed/input_Search_form-control form-control-sm'), 
     'motor baru')
 
 WebUI.sendKeys(findTestObject('Object Repository/Special Offers/Searching Failed/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
 
 WebUI.refresh()
 
@@ -48,8 +44,6 @@ WebUI.setText(findTestObject('Object Repository/Special Offers/Searching Failed/
 
 WebUI.sendKeys(findTestObject('Object Repository/Special Offers/Searching Failed/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 
