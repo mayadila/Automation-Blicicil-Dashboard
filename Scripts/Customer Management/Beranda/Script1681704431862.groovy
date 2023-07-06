@@ -31,17 +31,22 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/butto
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/span_Customer Management'))
 
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Beranda/div_List of Customers'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Beranda/select_Show                                _69175e'), 
+    '10', true)
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_2'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Beranda/select_Show                                _69175e'), 
+    '25', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Beranda/select_Show                                _69175e'), 
+    '5', true)
+
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_4'))
+
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_5'))
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Prev'))
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Next'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Detail'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Beranda/a_Customer Management'))
 
 WebUI.closeBrowser()
 

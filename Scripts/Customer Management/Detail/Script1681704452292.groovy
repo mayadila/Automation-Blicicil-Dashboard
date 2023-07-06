@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/span_C
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Detail'))
 
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/h3_User Profile'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/h3_User Profile'))
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Alamat'))
 
@@ -43,13 +43,25 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Info
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Foto Identitas'))
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Nasabah'))
-
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Customer Management'))
+
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_3'))
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Detail_1'))
 
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/h3_User Profile'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Alamat'))
+
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan'))
+
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Kontak'))
+
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Foto Identitas'))
+
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Customer Management'))
+
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_5'))
+
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Detail_1_2'))
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Alamat'))
 
@@ -59,25 +71,22 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Info
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Foto Identitas'))
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Nasabah'))
-
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Customer Management'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Detail/select_Year                                _c79051'), 
-    '2022', true)
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_5'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Detail/select_Search by                           _8b0677'), 
-    'nik', true)
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_7'))
 
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Detail/input_List of Customers_filterSearch'), '3404076403940005')
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_9'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Detail/input_List of Customers_filterSearch'), Keys.chord(
-        Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_11'))
+
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_13'))
+
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_15'))
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Detail_1_2_3'))
 
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/div_User Profile'))
-
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Alamat'))
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan'))
@@ -85,32 +94,6 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Info
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Kontak'))
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Foto Identitas'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Nasabah'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Customer Management'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Detail/select_Year                                _c79051'), 
-    '2022', true)
-
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Detail/input_List of Customers_filterSearch_1'), '6112012907950011')
-
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Detail/input_List of Customers_filterSearch_1'), Keys.chord(
-        Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Detail_1_2_3_4'))
-
-WebUI.getText(findTestObject('Object Repository/Customer Managementt/Detail/h3_User Profile'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Alamat'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Kontak'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Foto Identitas'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Nasabah'))
 
 WebUI.closeBrowser()
 

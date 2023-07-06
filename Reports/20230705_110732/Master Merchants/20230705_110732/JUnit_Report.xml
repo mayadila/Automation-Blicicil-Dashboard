@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Master Merchants" time="57.385" tests="3" failures="0" errors="0">
+   <testsuite name="Master Merchants" tests="3" failures="0" errors="0" time="57.385" skipped="0" timestamp="2023-07-05 11:07:34" hostname="202102359 - KPO-Blicicil.pdc.megafinance.co.id" id="Test Suites/Master Merchants">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230705_110732\\Master Merchants\\20230705_110732"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230705_110732\\Master Merchants\\20230705_110732\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="202102359 - KPO-Blicicil.pdc.megafinance.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.16.53"/>
+         <property name="sessionId" value="5f6ee55af5df5d6056a15fb99addba73"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Master Merchants/Beranda" time="32.458" classname="Test Cases/Master Merchants/Beranda" status="PASSED">
+         <system-out><![CDATA[2023-07-05 11:07:34 - [TEST_CASE][PASSED] - Test Cases/Master Merchants/Beranda: Test Cases/Master Merchants/Beranda
+
+2023-07-05 11:07:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-05 11:07:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-05 11:07:34 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-05 11:07:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-05 11:07:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-05 11:07:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-05 11:07:36 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-05 11:07:36 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-05 11:07:38 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-05 11:07:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Merchants/Beranda/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Merchants/Beranda/input_Email_email'
+
+2023-07-05 11:07:39 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Merchants/Beranda/input_Email_email'
+
+2023-07-05 11:07:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Merchants/Beranda/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Merchants/Beranda/input_Password_password'
+
+2023-07-05 11:07:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Merchants/Beranda/input_Password_password'
+
+2023-07-05 11:07:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Beranda/button_Login")): Object: 'Object Repository/Master Merchants/Beranda/button_Login' is clicked on
+
+2023-07-05 11:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Beranda/button_Login' is clicked on
+
+2023-07-05 11:07:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Beranda/a_Master")): Object: 'Object Repository/Master Merchants/Beranda/a_Master' is clicked on
+
+2023-07-05 11:07:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Beranda/a_Master' is clicked on
+
+2023-07-05 11:07:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Beranda/a_Merchants")): Object: 'Object Repository/Master Merchants/Beranda/a_Merchants' is clicked on
+
+2023-07-05 11:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Beranda/a_Merchants' is clicked on
+
+2023-07-05 11:07:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Beranda/a_2")): Object: 'Object Repository/Master Merchants/Beranda/a_2' is clicked on
+
+2023-07-05 11:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Beranda/a_2' is clicked on
+
+2023-07-05 11:07:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Beranda/a_Previous")): Object: 'Object Repository/Master Merchants/Beranda/a_Previous' is clicked on
+
+2023-07-05 11:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Beranda/a_Previous' is clicked on
+
+2023-07-05 11:07:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Beranda/a_Next")): Object: 'Object Repository/Master Merchants/Beranda/a_Next' is clicked on
+
+2023-07-05 11:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Beranda/a_Next' is clicked on
+
+2023-07-05 11:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Beranda/button_Hapus")): Object: 'Object Repository/Master Merchants/Beranda/button_Hapus' is clicked on
+
+2023-07-05 11:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Beranda/button_Hapus' is clicked on
+
+2023-07-05 11:08:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Beranda/button_No")): Object: 'Object Repository/Master Merchants/Beranda/button_No' is clicked on
+
+2023-07-05 11:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Beranda/button_No' is clicked on
+
+2023-07-05 11:08:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Beranda/button_Hapus")): Object: 'Object Repository/Master Merchants/Beranda/button_Hapus' is clicked on
+
+2023-07-05 11:08:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Beranda/button_Hapus' is clicked on
+
+2023-07-05 11:08:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Beranda/button_Yes")): Object: 'Object Repository/Master Merchants/Beranda/button_Yes' is clicked on
+
+2023-07-05 11:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Beranda/button_Yes' is clicked on
+
+2023-07-05 11:08:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Beranda/a_Edit")): Object: 'Object Repository/Master Merchants/Beranda/a_Edit' is clicked on
+
+2023-07-05 11:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Beranda/a_Edit' is clicked on
+
+2023-07-05 11:08:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Merchants/Beranda/input_Merchant Name_txtProductName"), "Transmartt"): Text 'Transmartt' is set on object 'Object Repository/Master Merchants/Beranda/input_Merchant Name_txtProductName'
+
+2023-07-05 11:08:04 - [MESSAGE][PASSED] - Text 'Transmartt' is set on object 'Object Repository/Master Merchants/Beranda/input_Merchant Name_txtProductName'
+
+2023-07-05 11:08:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Merchants/Beranda/textarea_Jalan Lebak Bulus Raya No.8, RT.11_24ee91"), "Jalan Lebak Bulus Raya No.8, RT.11/RW.10, Pd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12440"): Text 'Jalan Lebak Bulus Raya No.8, RT.11/RW.10, Pd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12440' is set on object 'Object Repository/Master Merchants/Beranda/textarea_Jalan Lebak Bulus Raya No.8, RT.11_24ee91'
+
+2023-07-05 11:08:05 - [MESSAGE][PASSED] - Text 'Jalan Lebak Bulus Raya No.8, RT.11/RW.10, Pd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12440' is set on object 'Object Repository/Master Merchants/Beranda/textarea_Jalan Lebak Bulus Raya No.8, RT.11_24ee91'
+
+2023-07-05 11:08:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Beranda/button_Submit")): Object: 'Object Repository/Master Merchants/Beranda/button_Submit' is clicked on
+
+2023-07-05 11:08:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Beranda/button_Submit' is clicked on
+
+2023-07-05 11:08:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-05 11:08:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Merchants/Searching Failed" time="12.086" classname="Test Cases/Master Merchants/Searching Failed" status="PASSED">
+         <system-out><![CDATA[2023-07-05 11:08:06 - [TEST_CASE][PASSED] - Test Cases/Master Merchants/Searching Failed: Test Cases/Master Merchants/Searching Failed
+
+2023-07-05 11:08:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-05 11:08:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-05 11:08:07 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-05 11:08:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-05 11:08:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-05 11:08:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-05 11:08:08 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-05 11:08:08 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-05 11:08:09 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-05 11:08:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Merchants/Searching Failed/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Merchants/Searching Failed/input_Email_email'
+
+2023-07-05 11:08:10 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Merchants/Searching Failed/input_Email_email'
+
+2023-07-05 11:08:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Merchants/Searching Failed/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Merchants/Searching Failed/input_Password_password'
+
+2023-07-05 11:08:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Merchants/Searching Failed/input_Password_password'
+
+2023-07-05 11:08:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Searching Failed/button_Login")): Object: 'Object Repository/Master Merchants/Searching Failed/button_Login' is clicked on
+
+2023-07-05 11:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Searching Failed/button_Login' is clicked on
+
+2023-07-05 11:08:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Searching Failed/a_Master")): Object: 'Object Repository/Master Merchants/Searching Failed/a_Master' is clicked on
+
+2023-07-05 11:08:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Searching Failed/a_Master' is clicked on
+
+2023-07-05 11:08:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Searching Failed/a_Merchants")): Object: 'Object Repository/Master Merchants/Searching Failed/a_Merchants' is clicked on
+
+2023-07-05 11:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Searching Failed/a_Merchants' is clicked on
+
+2023-07-05 11:08:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm"), "Apple"): Text 'Apple' is set on object 'Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:15 - [MESSAGE][PASSED] - Text 'Apple' is set on object 'Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:16 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-05 11:08:16 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-05 11:08:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm"), "Ibox"): Text 'Ibox' is set on object 'Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:17 - [MESSAGE][PASSED] - Text 'Ibox' is set on object 'Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-05 11:08:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Merchants/Searching Success" time="12.601" classname="Test Cases/Master Merchants/Searching Success" status="PASSED">
+         <system-out><![CDATA[2023-07-05 11:08:18 - [TEST_CASE][PASSED] - Test Cases/Master Merchants/Searching Success: Test Cases/Master Merchants/Searching Success
+
+2023-07-05 11:08:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-05 11:08:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-05 11:08:19 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-05 11:08:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-05 11:08:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-05 11:08:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-05 11:08:20 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-05 11:08:20 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-05 11:08:21 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-05 11:08:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Merchants/Searching Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Merchants/Searching Success/input_Email_email'
+
+2023-07-05 11:08:22 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Merchants/Searching Success/input_Email_email'
+
+2023-07-05 11:08:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Merchants/Searching Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Merchants/Searching Success/input_Password_password'
+
+2023-07-05 11:08:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Merchants/Searching Success/input_Password_password'
+
+2023-07-05 11:08:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Searching Success/button_Login")): Object: 'Object Repository/Master Merchants/Searching Success/button_Login' is clicked on
+
+2023-07-05 11:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Searching Success/button_Login' is clicked on
+
+2023-07-05 11:08:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Searching Success/a_Master")): Object: 'Object Repository/Master Merchants/Searching Success/a_Master' is clicked on
+
+2023-07-05 11:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Searching Success/a_Master' is clicked on
+
+2023-07-05 11:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Merchants/Searching Success/a_Merchants")): Object: 'Object Repository/Master Merchants/Searching Success/a_Merchants' is clicked on
+
+2023-07-05 11:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Merchants/Searching Success/a_Merchants' is clicked on
+
+2023-07-05 11:08:26 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Merchants/Searching Success/div_List Merchant BliCicil Admin as        _d762cc")): Text of object 'Object Repository/Master Merchants/Searching Success/div_List Merchant BliCicil Admin as        _d762cc' is: 'List Merchant BliCicil Admin as
+New Merchant'
+
+2023-07-05 11:08:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Merchants/Searching Success/div_List Merchant BliCicil Admin as        _d762cc' is: 'List Merchant BliCicil Admin as
+New Merchant'
+
+2023-07-05 11:08:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm"), "Trans"): Text 'Trans' is set on object 'Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:28 - [MESSAGE][PASSED] - Text 'Trans' is set on object 'Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:28 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-05 11:08:28 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-05 11:08:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm"), "Pol"): Text 'Pol' is set on object 'Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:30 - [MESSAGE][PASSED] - Text 'Pol' is set on object 'Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-05 11:08:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-05 11:08:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-05 11:07:34 - [TEST_SUITE][PASSED] - Master Merchants: Test Cases/Master Merchants/Searching Success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

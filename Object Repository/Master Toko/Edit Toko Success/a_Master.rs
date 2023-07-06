@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Master</name>
    <tag></tag>
-   <elementGuidId>9a07a444-3176-4aae-a819-8a3a09d26fbe</elementGuidId>
+   <elementGuidId>8a987682-75b3-4a1f-9dae-1836f34097cf</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>li.nav-item.has-sub > a.d-flex.align-items-center</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//ul[@id='main-menu-navigation']/li[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.nav-item.has-sub > a.d-flex.align-items-center</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8176163b-7b67-431d-8600-2952c384ac67</webElementGuid>
+      <webElementGuid>fad9f47f-1d91-439c-a20b-fb1744834dab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center</value>
-      <webElementGuid>2906f570-9c85-41b5-9670-2dcfa8c61bce</webElementGuid>
+      <webElementGuid>cc387fdf-f3fe-431b-8fa7-9c88f692b7b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>de6ad952-fcdf-4561-bf5a-dc5b5e954b22</webElementGuid>
+      <webElementGuid>4506f557-45cd-4c36-a6fd-d9bb64710fd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
 											
 											Master
 										</value>
-      <webElementGuid>dac0a142-e9f9-4375-b139-33480b6bce41</webElementGuid>
+      <webElementGuid>4b97f19c-e0fe-4783-a0f5-ab9050c0dc6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
-      <webElementGuid>9f039377-c23e-42f4-83d3-7d75b6fcab97</webElementGuid>
+      <webElementGuid>433f26a7-b90b-4d1d-a9ff-59a5dcef0ceb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='main-menu-navigation']/li[3]/a</value>
-      <webElementGuid>2c0d7934-a9b3-4ef2-8cba-f8d6da532aa8</webElementGuid>
+      <webElementGuid>6a8a620c-5a0d-481d-85ab-40a69a3bc66b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Management'])[1]/following::a[1]</value>
-      <webElementGuid>cc944caa-a23e-48af-9129-04ec98bd00b5</webElementGuid>
+      <webElementGuid>654ae2fc-2426-4955-bd9f-619c92104400</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[2]</value>
-      <webElementGuid>23c930eb-ff49-409e-9d55-dcea853d37b9</webElementGuid>
+      <webElementGuid>58637f84-3d5a-49e2-979e-4d6b54aa5439</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchants'])[1]/preceding::a[1]</value>
-      <webElementGuid>f19822dd-8446-409a-a2fc-7edffec03b4f</webElementGuid>
+      <webElementGuid>8eda4059-fa57-43c0-8962-ba1b205c8285</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>080a8ec1-7a9a-496c-a4f4-a13e24b2b863</webElementGuid>
+      <webElementGuid>a07542f7-011a-45e2-909b-34a47c2a85d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/a</value>
-      <webElementGuid>815d14c5-d0be-491d-a175-f1bf62edf694</webElementGuid>
+      <webElementGuid>738b7340-2ba7-4124-8fc4-97685c30717c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
 											
 											Master
 										')]</value>
-      <webElementGuid>1391c9dd-6c9c-4154-a3fd-909c41e64027</webElementGuid>
+      <webElementGuid>8a2b8986-7db7-4d83-a07c-954962f84dc8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

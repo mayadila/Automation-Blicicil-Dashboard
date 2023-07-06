@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Latitude_txtlatitude</name>
    <tag></tag>
-   <elementGuidId>e2faa5a9-279f-4658-a34c-507540309ea4</elementGuidId>
+   <elementGuidId>4e5c273b-c184-4fca-95b9-d7669cbba3f4</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#txtlatitude</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='txtlatitude']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#txtlatitude</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1cb02f0a-1ebd-4601-9945-4e499663f28a</webElementGuid>
+      <webElementGuid>cf12a391-c0d7-4d80-9db1-47a2f38d64cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>1ecf5e10-b88c-4ede-8e42-b2044b8db3ed</webElementGuid>
+      <webElementGuid>790b4596-af89-4b27-ad36-bcf8a8f22e86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>pattern</name>
       <type>Main</type>
       <value>\[[+-]?[0-9]*\.?[0-9]+,[+-]?[0-9]*\.?[0-9]+]</value>
-      <webElementGuid>e4c39115-9506-4549-8179-06ccb2c47fd7</webElementGuid>
+      <webElementGuid>a02f1c38-9779-4b13-8cb4-3b7169681624</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txtlatitude</value>
-      <webElementGuid>7e201e44-91fa-45fa-950c-a063cca7879d</webElementGuid>
+      <webElementGuid>b44940c4-a95d-43f6-aeb1-9e07d9f951ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>29dc4fa4-c464-4092-bb8a-0824a3b50a41</webElementGuid>
+      <webElementGuid>b8b3b64e-057d-4770-9750-c0bc8444f586</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>name</name>
       <type>Main</type>
       <value>txtlatitude</value>
-      <webElementGuid>f186d317-b03d-4614-8606-a84a19446e25</webElementGuid>
+      <webElementGuid>ac877b8a-aced-47f1-9e9e-fbb8c4224f0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,15 +70,15 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan latitude</value>
-      <webElementGuid>888a681f-64c2-47da-81da-1beccb94c4d2</webElementGuid>
+      <webElementGuid>75091f2b-c450-4228-b4c4-7964fc906901</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>-6.300641</value>
-      <webElementGuid>4ee33913-b863-44b4-baf5-fe42aefafef2</webElementGuid>
+      <value>-10.2838384</value>
+      <webElementGuid>13df09a0-94b2-4b02-a597-ab1607356cc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>onkeydown</name>
       <type>Main</type>
       <value>return((47&lt;event.keyCode &amp;&amp; event.keyCode&lt;58 &amp;&amp; event.shiftKey==false) || (event.keyCode==190 &amp;&amp; event.shiftKey==false) || event.keyCode==37 || event.keyCode==39 || event.keyCode==46 || event.keyCode==189 || event.keyCode==8)</value>
-      <webElementGuid>ad2a15e0-f81b-457f-9e77-95f1a1f14a20</webElementGuid>
+      <webElementGuid>13a952fc-2e49-4123-9390-49884738e91c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txtlatitude&quot;)</value>
-      <webElementGuid>9201a691-9a5f-4bcd-a550-f0bd5742de46</webElementGuid>
+      <webElementGuid>e0104444-9e54-41f9-9c21-652ab7c92686</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txtlatitude']</value>
-      <webElementGuid>844fa504-44b0-4274-8020-b30caf735cc6</webElementGuid>
+      <webElementGuid>13aaf4a3-1cdb-4bae-b06d-a20da8b83927</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='frmToko']/div[8]/div/div/input</value>
-      <webElementGuid>8d4705ae-267f-4b0b-8b53-1dfcb8207f43</webElementGuid>
+      <webElementGuid>576e7b52-1686-4ae5-b203-30540706b2e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/div/input</value>
-      <webElementGuid>7b487591-78ea-40f0-9ef6-5610c79a6a50</webElementGuid>
+      <webElementGuid>08d74385-03aa-4e6e-be71-0822df28a811</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'txtlatitude' and @name = 'txtlatitude' and @placeholder = 'Masukkan latitude']</value>
-      <webElementGuid>63c08470-0738-46ef-b6e8-a7f61475f341</webElementGuid>
+      <webElementGuid>272d7caf-2928-459f-9d97-f1066376de6d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

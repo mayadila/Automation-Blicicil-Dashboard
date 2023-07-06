@@ -32,64 +32,90 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Suc
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/span_Customer Management'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Show                                _69175e'), 
-    '10', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Year                                _c79051'), 
-    '2023', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Show                                _69175e'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Year                                _c79051'), 
-    '2022', true)
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_4'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_Prev'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_Next'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Success/a_1'))
-
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
-    '3404076403940005')
-
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
-    Keys.chord(Keys.ENTER))
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'), 
     'name', true)
 
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
-    'G')
+    'Eva')
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
     Keys.chord(Keys.ENTER))
+
+WebUI.refresh()
 
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
-    'Testing')
+    'Hendra')
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'), 
     Keys.chord(Keys.ENTER))
+
+WebUI.delay(2)
+
+WebUI.refresh()
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'), 
     'mobile_phone', true)
 
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
-    '081288065124')
+    '0812880651')
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
     Keys.chord(Keys.ENTER))
+
+WebUI.delay(2)
+
+WebUI.refresh()
+
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
+    '0812')
+
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.delay(2)
+
+WebUI.refresh()
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'), 
     'nik', true)
 
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
-    '31')
+    '340407640')
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
     Keys.chord(Keys.ENTER))
+
+WebUI.delay(2)
+
+WebUI.refresh()
+
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
+    '340')
+
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.delay(2)
+
+WebUI.refresh()
+
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
+    '3203')
+
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.delay(2)
+
+WebUI.refresh()
+
+WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
+    '320')
+
+WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

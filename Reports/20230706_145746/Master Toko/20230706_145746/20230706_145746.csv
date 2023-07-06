@@ -1,0 +1,277 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master Toko,Chrome 114.0.0.0,,,2023-07-06 14:57:48,2023-07-06 15:02:28,4m - 40.254s,FAILED
+,,,,,,,
+Test Cases/Master Toko/Beranda,Chrome 114.0.0.0,,,2023-07-06 14:57:48,2023-07-06 14:58:06,17.900s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-06 14:57:48,2023-07-06 14:57:51,2.429s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-06 14:57:51,2023-07-06 14:57:51,0.037s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-06 14:57:51,2023-07-06 14:57:52,1.007s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Beranda/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-06 14:57:52,2023-07-06 14:57:52,0.905s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Toko/Beranda/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-06 14:57:52,2023-07-06 14:57:53,0.438s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/button_Login""))",Chrome 114.0.0.0,,,2023-07-06 14:57:53,2023-07-06 14:57:53,0.474s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/a_Master""))",Chrome 114.0.0.0,,,2023-07-06 14:57:53,2023-07-06 14:57:55,1.827s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/a_Toko""))",Chrome 114.0.0.0,,,2023-07-06 14:57:55,2023-07-06 14:57:56,0.904s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/button_Deactivate""))",Chrome 114.0.0.0,,,2023-07-06 14:57:56,2023-07-06 14:57:57,1.109s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/button_No""))",Chrome 114.0.0.0,,,2023-07-06 14:57:57,2023-07-06 14:57:58,0.543s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/button_Deactivate""))",Chrome 114.0.0.0,,,2023-07-06 14:57:58,2023-07-06 14:57:58,0.729s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/button_Yes""))",Chrome 114.0.0.0,,,2023-07-06 14:57:58,2023-07-06 14:57:59,0.519s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/button_Activate""))",Chrome 114.0.0.0,,,2023-07-06 14:57:59,2023-07-06 14:58:00,1.121s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/button_No""))",Chrome 114.0.0.0,,,2023-07-06 14:58:00,2023-07-06 14:58:01,0.525s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/button_Activate""))",Chrome 114.0.0.0,,,2023-07-06 14:58:01,2023-07-06 14:58:01,0.680s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/button_Yes""))",Chrome 114.0.0.0,,,2023-07-06 14:58:01,2023-07-06 14:58:02,0.473s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/a_4""))",Chrome 114.0.0.0,,,2023-07-06 14:58:02,2023-07-06 14:58:03,1.066s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/a_Next""))",Chrome 114.0.0.0,,,2023-07-06 14:58:03,2023-07-06 14:58:03,0.527s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/a_Previous""))",Chrome 114.0.0.0,,,2023-07-06 14:58:03,2023-07-06 14:58:04,0.550s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Beranda/a_Maps""))",Chrome 114.0.0.0,,,2023-07-06 14:58:04,2023-07-06 14:58:05,0.957s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-06 14:58:05,2023-07-06 14:58:06,0.776s,PASSED
+,,,,,,,
+Test Cases/Master Toko/Success/Add Toko,Chrome 114.0.0.0,,,2023-07-06 14:58:06,2023-07-06 14:58:52,46.638s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-06 14:58:06,2023-07-06 14:58:08,1.510s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,Maximize Window Chrome,,2023-07-06 14:58:08,2023-07-06 14:58:08,0.015s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-06 14:58:08,2023-07-06 14:58:08,0.622s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-06 14:58:08,2023-07-06 14:58:09,0.961s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Toko/Add Toko Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-06 14:58:09,2023-07-06 14:58:10,0.492s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-06 14:58:10,2023-07-06 14:58:10,0.553s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Success/a_Master""))",Chrome 114.0.0.0,,,2023-07-06 14:58:10,2023-07-06 14:58:12,1.834s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Success/a_Toko""))",Chrome 114.0.0.0,,,2023-07-06 14:58:12,2023-07-06 14:58:13,0.819s,PASSED
+"getText(findTestObject(""Object Repository/Master Toko/Add Toko Success/div_List Toko BliCicil Admin as            _dde361""))",Chrome 114.0.0.0,,,2023-07-06 14:58:13,2023-07-06 14:58:14,0.968s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Success/svg_List Toko BliCicil Admin as_feather fea_a26c67""))",Chrome 114.0.0.0,,,2023-07-06 14:58:14,2023-07-06 14:58:15,0.661s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Master Toko/Add Toko Success/select_TransmartPanasonicPolytronAsusSamsun_36b03e""), ""3"", true)",Chrome 114.0.0.0,,,2023-07-06 14:58:15,2023-07-06 14:58:17,2.005s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Master Toko/Add Toko Success/select_Aceh SelatanBalanganBalikpapanBantae_4910c5""), ""430"", true)",Chrome 114.0.0.0,,,2023-07-06 14:58:17,2023-07-06 14:58:28,11.769s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Success/input_Nama Toko_txtNamaToko""), ""Testing Toko Baru"")",Chrome 114.0.0.0,,,2023-07-06 14:58:28,2023-07-06 14:58:29,0.703s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Success/input_Outlet Name_txtNamaOutlet""), ""Toko Baru ya"")",Chrome 114.0.0.0,,,2023-07-06 14:58:29,2023-07-06 14:58:30,0.682s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Success/textarea_Address_txtAlamat""), ""Jalan Wiajya"")",Chrome 114.0.0.0,,,2023-07-06 14:58:30,2023-07-06 14:58:30,0.672s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Success/input_Dealer Code_txtDealerCode""), ""D00345"")",Chrome 114.0.0.0,,,2023-07-06 14:58:30,2023-07-06 14:58:31,0.671s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Success/input_Telephone_txtTelepon""), ""0293847475940"")",Chrome 114.0.0.0,,,2023-07-06 14:58:31,2023-07-06 14:58:32,0.695s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Success/input_Latitude_txtlatitude""), ""-60.28888"")",Chrome 114.0.0.0,,,2023-07-06 14:58:32,2023-07-06 14:58:33,0.670s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Success/input_Longitude_txtlongitude""), ""102.4848493"")",Chrome 114.0.0.0,,,2023-07-06 14:58:33,2023-07-06 14:58:33,0.680s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Success/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 14:58:33,2023-07-06 14:58:46,12.815s,PASSED
+"getText(findTestObject(""Object Repository/Master Toko/Add Toko Success/div_SuccessOKNoCancel""))",Chrome 114.0.0.0,,,2023-07-06 14:58:46,2023-07-06 14:58:47,1.152s,PASSED
+"getText(findTestObject(""Object Repository/Master Toko/Add Toko Success/div_List Toko BliCicil Admin as            _dde361""))",Chrome 114.0.0.0,,,2023-07-06 14:58:47,2023-07-06 14:58:48,0.445s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Success/a_172""))",Chrome 114.0.0.0,,,2023-07-06 14:58:48,2023-07-06 14:58:52,4.066s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-06 14:58:52,2023-07-06 14:58:52,0.669s,PASSED
+,,,,,,,
+Test Cases/Master Toko/Failed/Add Toko,Chrome 114.0.0.0,,,2023-07-06 14:58:52,2023-07-06 15:00:08,1m - 15.807s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-06 14:58:53,2023-07-06 14:58:54,1.425s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,Maximize Window Chrome,,2023-07-06 14:58:54,2023-07-06 14:58:54,0.016s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-06 14:58:54,2023-07-06 14:58:54,0.506s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-06 14:58:54,2023-07-06 14:58:55,0.935s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-06 14:58:55,2023-07-06 14:58:56,0.420s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/button_Login""))",Chrome 114.0.0.0,,,2023-07-06 14:58:56,2023-07-06 14:58:56,0.466s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/a_Master""))",Chrome 114.0.0.0,,,2023-07-06 14:58:56,2023-07-06 14:58:58,1.800s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/a_Toko""))",Chrome 114.0.0.0,,,2023-07-06 14:58:58,2023-07-06 14:58:59,0.815s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/a_New Toko""))",Chrome 114.0.0.0,,,2023-07-06 14:58:59,2023-07-06 14:59:00,1.337s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/div_Add Toko BliCicil Admin as""))",Chrome 114.0.0.0,,,2023-07-06 14:59:00,2023-07-06 14:59:01,1.066s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_Merchant""))",Chrome 114.0.0.0,,,2023-07-06 14:59:01,2023-07-06 14:59:02,0.354s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_City""))",Chrome 114.0.0.0,,,2023-07-06 14:59:02,2023-07-06 14:59:02,0.336s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko""))",Chrome 114.0.0.0,,,2023-07-06 14:59:02,2023-07-06 14:59:02,0.355s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet""))",Chrome 114.0.0.0,,,2023-07-06 14:59:02,2023-07-06 14:59:03,0.398s,PASSED
+"click(findTestObject(""Master Toko/Add Toko Failed/textarea_Address_txtAlamat""))",Chrome 114.0.0.0,,,2023-07-06 14:59:03,2023-07-06 14:59:03,0.361s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode""))",Chrome 114.0.0.0,,,2023-07-06 14:59:03,2023-07-06 14:59:03,0.369s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon""))",Chrome 114.0.0.0,,,2023-07-06 14:59:03,2023-07-06 14:59:04,0.365s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude""))",Chrome 114.0.0.0,,,2023-07-06 14:59:04,2023-07-06 14:59:04,0.367s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude""))",Chrome 114.0.0.0,,,2023-07-06 14:59:04,2023-07-06 14:59:05,0.379s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 14:59:05,2023-07-06 14:59:05,0.396s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Store name field is required.O_09bc32""))",Chrome 114.0.0.0,,,2023-07-06 14:59:05,2023-07-06 14:59:07,1.630s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_Merchant""))",Chrome 114.0.0.0,,,2023-07-06 14:59:07,2023-07-06 14:59:09,2.469s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_City""))",Chrome 114.0.0.0,,,2023-07-06 14:59:09,2023-07-06 14:59:09,0.360s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko""), ""abc"")",Chrome 114.0.0.0,,,2023-07-06 14:59:09,2023-07-06 14:59:10,0.727s,PASSED
+"click(findTestObject(""Master Toko/Add Toko Failed/textarea_Address_txtAlamat""))",Chrome 114.0.0.0,,,2023-07-06 14:59:10,2023-07-06 14:59:11,0.367s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet""))",Chrome 114.0.0.0,,,2023-07-06 14:59:11,2023-07-06 14:59:11,0.366s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode""))",Chrome 114.0.0.0,,,2023-07-06 14:59:11,2023-07-06 14:59:11,0.349s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon""))",Chrome 114.0.0.0,,,2023-07-06 14:59:11,2023-07-06 14:59:12,0.405s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude""))",Chrome 114.0.0.0,,,2023-07-06 14:59:12,2023-07-06 14:59:12,0.399s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude""))",Chrome 114.0.0.0,,,2023-07-06 14:59:12,2023-07-06 14:59:13,0.423s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 14:59:13,2023-07-06 14:59:13,0.428s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Address field is required.OKNoCancel""))",Chrome 114.0.0.0,,,2023-07-06 14:59:13,2023-07-06 14:59:14,1.232s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_Merchant""))",Chrome 114.0.0.0,,,2023-07-06 14:59:14,2023-07-06 14:59:17,2.424s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_City""))",Chrome 114.0.0.0,,,2023-07-06 14:59:17,2023-07-06 14:59:17,0.355s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko""), ""abc"")",Chrome 114.0.0.0,,,2023-07-06 14:59:17,2023-07-06 14:59:18,0.728s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet""))",Chrome 114.0.0.0,,,2023-07-06 14:59:18,2023-07-06 14:59:18,0.413s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat""), ""Jalan wijaya"")",Chrome 114.0.0.0,,,2023-07-06 14:59:18,2023-07-06 14:59:19,0.767s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode""))",Chrome 114.0.0.0,,,2023-07-06 14:59:19,2023-07-06 14:59:19,0.413s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon""))",Chrome 114.0.0.0,,,2023-07-06 14:59:19,2023-07-06 14:59:20,0.407s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude""))",Chrome 114.0.0.0,,,2023-07-06 14:59:20,2023-07-06 14:59:20,0.408s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude""))",Chrome 114.0.0.0,,,2023-07-06 14:59:20,2023-07-06 14:59:20,0.408s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 14:59:20,2023-07-06 14:59:21,0.397s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Outlet name field is required._e4b0d3""))",Chrome 114.0.0.0,,,2023-07-06 14:59:21,2023-07-06 14:59:22,1.248s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_Merchant""))",Chrome 114.0.0.0,,,2023-07-06 14:59:22,2023-07-06 14:59:25,2.535s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_City""))",Chrome 114.0.0.0,,,2023-07-06 14:59:25,2023-07-06 14:59:25,0.364s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko""), ""abcv"")",Chrome 114.0.0.0,,,2023-07-06 14:59:25,2023-07-06 14:59:26,0.774s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet""), ""ABC"")",Chrome 114.0.0.0,,,2023-07-06 14:59:26,2023-07-06 14:59:27,0.722s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat""), ""Jalan wijaya kusuma"")",Chrome 114.0.0.0,,,2023-07-06 14:59:27,2023-07-06 14:59:27,0.745s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode""), """")",Chrome 114.0.0.0,,,2023-07-06 14:59:27,2023-07-06 14:59:28,0.747s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode""))",Chrome 114.0.0.0,,,2023-07-06 14:59:28,2023-07-06 14:59:28,0.472s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon""))",Chrome 114.0.0.0,,,2023-07-06 14:59:28,2023-07-06 14:59:29,0.398s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude""))",Chrome 114.0.0.0,,,2023-07-06 14:59:29,2023-07-06 14:59:29,0.369s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude""))",Chrome 114.0.0.0,,,2023-07-06 14:59:29,2023-07-06 14:59:30,0.360s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 14:59:30,2023-07-06 14:59:30,0.401s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Dealer code field is required._49c3fb""))",Chrome 114.0.0.0,,,2023-07-06 14:59:30,2023-07-06 14:59:31,0.617s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_Merchant""))",Chrome 114.0.0.0,,,2023-07-06 14:59:31,2023-07-06 14:59:33,2.717s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_City""))",Chrome 114.0.0.0,,,2023-07-06 14:59:33,2023-07-06 14:59:34,0.521s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko""), ""abc"")",Chrome 114.0.0.0,,,2023-07-06 14:59:34,2023-07-06 14:59:35,0.772s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet""), ""ABC"")",Chrome 114.0.0.0,,,2023-07-06 14:59:35,2023-07-06 14:59:35,0.733s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat""), ""Jalan wijaya kusuma"")",Chrome 114.0.0.0,,,2023-07-06 14:59:35,2023-07-06 14:59:36,0.793s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode""), ""ab"")",Chrome 114.0.0.0,,,2023-07-06 14:59:36,2023-07-06 14:59:37,0.734s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon""), """")",Chrome 114.0.0.0,,,2023-07-06 14:59:37,2023-07-06 14:59:38,0.786s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude""))",Chrome 114.0.0.0,,,2023-07-06 14:59:38,2023-07-06 14:59:38,0.420s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude""))",Chrome 114.0.0.0,,,2023-07-06 14:59:38,2023-07-06 14:59:39,0.393s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 14:59:39,2023-07-06 14:59:39,0.382s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Telepon field is required.OKNoCancel""))",Chrome 114.0.0.0,,,2023-07-06 14:59:39,2023-07-06 14:59:40,1.217s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_Merchant""))",Chrome 114.0.0.0,,,2023-07-06 14:59:40,2023-07-06 14:59:43,2.513s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_City""))",Chrome 114.0.0.0,,,2023-07-06 14:59:43,2023-07-06 14:59:43,0.397s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko""), ""abc"")",Chrome 114.0.0.0,,,2023-07-06 14:59:43,2023-07-06 14:59:44,0.762s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet""), ""ABC"")",Chrome 114.0.0.0,,,2023-07-06 14:59:44,2023-07-06 14:59:45,0.802s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat""), ""Jalan wijaya kusuma"")",Chrome 114.0.0.0,,,2023-07-06 14:59:45,2023-07-06 14:59:45,0.762s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode""), ""abc"")",Chrome 114.0.0.0,,,2023-07-06 14:59:45,2023-07-06 14:59:46,0.761s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon""), ""021023903"")",Chrome 114.0.0.0,,,2023-07-06 14:59:46,2023-07-06 14:59:47,0.768s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude""))",Chrome 114.0.0.0,,,2023-07-06 14:59:47,2023-07-06 14:59:47,0.385s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude""))",Chrome 114.0.0.0,,,2023-07-06 14:59:47,2023-07-06 14:59:48,0.418s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 14:59:48,2023-07-06 14:59:48,0.385s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Latitude field is required.OKNoCancel""))",Chrome 114.0.0.0,,,2023-07-06 14:59:48,2023-07-06 14:59:49,1.195s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_Merchant""))",Chrome 114.0.0.0,,,2023-07-06 14:59:49,2023-07-06 14:59:52,2.513s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_City""))",Chrome 114.0.0.0,,,2023-07-06 14:59:52,2023-07-06 14:59:52,0.391s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko""), ""abc"")",Chrome 114.0.0.0,,,2023-07-06 14:59:52,2023-07-06 14:59:53,0.720s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet""), ""ABC"")",Chrome 114.0.0.0,,,2023-07-06 14:59:53,2023-07-06 14:59:54,0.751s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat""), ""Jalan wijaya kusuma"")",Chrome 114.0.0.0,,,2023-07-06 14:59:54,2023-07-06 14:59:54,0.771s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode""), ""abc"")",Chrome 114.0.0.0,,,2023-07-06 14:59:54,2023-07-06 14:59:55,0.702s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon""), ""0210239033"")",Chrome 114.0.0.0,,,2023-07-06 14:59:55,2023-07-06 14:59:56,0.684s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude""), ""-19.4647"")",Chrome 114.0.0.0,,,2023-07-06 14:59:56,2023-07-06 14:59:57,0.717s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude""))",Chrome 114.0.0.0,,,2023-07-06 14:59:57,2023-07-06 14:59:57,0.384s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 14:59:57,2023-07-06 14:59:57,0.420s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Longitude field is required.OK_5f5eec""))",Chrome 114.0.0.0,,,2023-07-06 14:59:57,2023-07-06 14:59:58,1.090s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_Merchant""))",Chrome 114.0.0.0,,,2023-07-06 14:59:58,2023-07-06 15:00:01,2.568s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/label_City""))",Chrome 114.0.0.0,,,2023-07-06 15:00:01,2023-07-06 15:00:01,0.396s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko""), ""abc"")",Chrome 114.0.0.0,,,2023-07-06 15:00:01,2023-07-06 15:00:02,0.769s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet""), ""ABC"")",Chrome 114.0.0.0,,,2023-07-06 15:00:02,2023-07-06 15:00:03,0.676s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat""), ""Jalan wijaya kusuma"")",Chrome 114.0.0.0,,,2023-07-06 15:00:03,2023-07-06 15:00:04,0.729s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode""), """")",Chrome 114.0.0.0,,,2023-07-06 15:00:04,2023-07-06 15:00:04,0.725s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon""), ""021023903"")",Chrome 114.0.0.0,,,2023-07-06 15:00:04,2023-07-06 15:00:05,0.748s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude""), ""-19.46473"")",Chrome 114.0.0.0,,,2023-07-06 15:00:05,2023-07-06 15:00:06,0.712s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude""), ""106.489599"")",Chrome 114.0.0.0,,,2023-07-06 15:00:06,2023-07-06 15:00:06,0.736s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 15:00:06,2023-07-06 15:00:07,0.389s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Dealer code field is required._49c3fb""))",Chrome 114.0.0.0,,,2023-07-06 15:00:07,2023-07-06 15:00:07,0.606s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-06 15:00:07,2023-07-06 15:00:08,0.698s,PASSED
+,,,,,,,
+Test Cases/Master Toko/Success/Edit Toko,Chrome 114.0.0.0,,,2023-07-06 15:00:08,2023-07-06 15:00:34,26.335s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-06 15:00:09,2023-07-06 15:00:10,1.402s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-06 15:00:10,2023-07-06 15:00:10,0.513s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-06 15:00:10,2023-07-06 15:00:11,0.857s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Toko/Edit Toko Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-06 15:00:11,2023-07-06 15:00:12,0.393s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-06 15:00:12,2023-07-06 15:00:12,0.493s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Success/a_Master""))",Chrome 114.0.0.0,,,2023-07-06 15:00:12,2023-07-06 15:00:14,1.771s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Success/a_Toko""))",Chrome 114.0.0.0,,,2023-07-06 15:00:14,2023-07-06 15:00:15,0.651s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Success/a_Edit""))",Chrome 114.0.0.0,,,2023-07-06 15:00:15,2023-07-06 15:00:16,1.321s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Master Toko/Edit Toko Success/select_TransmartPanasonicPolytronAsusSamsun_e34999""), ""4"", true)",Chrome 114.0.0.0,,,2023-07-06 15:00:16,2023-07-06 15:00:18,1.670s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Master Toko/Edit Toko Success/select_Aceh BaratAceh Barat DayaAceh BesarA_60dc3d""), ""429"", true)",Chrome 114.0.0.0,,,2023-07-06 15:00:18,2023-07-06 15:00:29,11.544s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Success/input_Nama Toko_txtNamaToko""), ""Asus Asyncron Store"")",Chrome 114.0.0.0,,,2023-07-06 15:00:29,2023-07-06 15:00:30,0.691s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Success/input_Outlet Name_txtNamaOutlet""), ""Asus Async Store"")",Chrome 114.0.0.0,,,2023-07-06 15:00:30,2023-07-06 15:00:31,0.722s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Success/textarea_Jalan Kebayoran Baru No 10""), ""Jalan Kebayoran Baru Kav 20"")",Chrome 114.0.0.0,,,2023-07-06 15:00:31,2023-07-06 15:00:31,0.744s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Success/input_Dealer Code_txtDealerCode""), ""A003"")",Chrome 114.0.0.0,,,2023-07-06 15:00:31,2023-07-06 15:00:32,0.680s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Success/input_Telephone_txtTelepon""), ""0239394444"")",Chrome 114.0.0.0,,,2023-07-06 15:00:32,2023-07-06 15:00:33,0.714s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Success/input_Latitude_txtlatitude""), ""-20.30490494"")",Chrome 114.0.0.0,,,2023-07-06 15:00:33,2023-07-06 15:00:33,0.714s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Success/input_Longitude_txtlongitude""), ""109.37364474"")",Chrome 114.0.0.0,,,2023-07-06 15:00:33,2023-07-06 15:00:34,0.686s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Success/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 15:00:34,2023-07-06 15:00:34,0.399s,PASSED
+,,,,,,,
+Test Cases/Master Toko/Failed/Edit Toko,Chrome 114.0.0.0,,,2023-07-06 15:00:34,2023-07-06 15:01:26,51.070s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-06 15:00:35,2023-07-06 15:00:37,2.110s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-06 15:00:37,2023-07-06 15:00:37,0.016s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-06 15:00:37,2023-07-06 15:00:37,0.454s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-06 15:00:37,2023-07-06 15:00:38,0.926s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-06 15:00:38,2023-07-06 15:00:39,0.378s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/button_Login""))",Chrome 114.0.0.0,,,2023-07-06 15:00:39,2023-07-06 15:00:39,0.474s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/a_Master""))",Chrome 114.0.0.0,,,2023-07-06 15:00:39,2023-07-06 15:00:41,1.767s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/a_Toko""))",Chrome 114.0.0.0,,,2023-07-06 15:00:41,2023-07-06 15:00:42,0.863s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/a_Edit""))",Chrome 114.0.0.0,,,2023-07-06 15:00:42,2023-07-06 15:00:43,1.305s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko""), """")",Chrome 114.0.0.0,,,2023-07-06 15:00:43,2023-07-06 15:00:44,1.340s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet""), ""Panasonic Store"")",Chrome 114.0.0.0,,,2023-07-06 15:00:44,2023-07-06 15:00:45,0.684s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn""), ""Jalan Wijya"")",Chrome 114.0.0.0,,,2023-07-06 15:00:45,2023-07-06 15:00:46,0.697s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode""), ""PAN021"")",Chrome 114.0.0.0,,,2023-07-06 15:00:46,2023-07-06 15:00:46,0.675s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon""), ""0211111"")",Chrome 114.0.0.0,,,2023-07-06 15:00:46,2023-07-06 15:00:47,0.680s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude""), ""-1.756"")",Chrome 114.0.0.0,,,2023-07-06 15:00:47,2023-07-06 15:00:48,0.682s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude""), ""109.544467"")",Chrome 114.0.0.0,,,2023-07-06 15:00:48,2023-07-06 15:00:48,0.671s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 15:00:48,2023-07-06 15:00:52,3.451s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-06 15:00:52,2023-07-06 15:00:53,0.625s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko""), ""Panasonic Store"")",Chrome 114.0.0.0,,,2023-07-06 15:00:53,2023-07-06 15:00:54,1.382s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet""), """")",Chrome 114.0.0.0,,,2023-07-06 15:00:54,2023-07-06 15:00:55,0.701s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn""), ""Jl. Wijaya"")",Chrome 114.0.0.0,,,2023-07-06 15:00:55,2023-07-06 15:00:55,0.711s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode""), ""PAN022"")",Chrome 114.0.0.0,,,2023-07-06 15:00:55,2023-07-06 15:00:56,0.686s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon""), ""02123333"")",Chrome 114.0.0.0,,,2023-07-06 15:00:56,2023-07-06 15:00:57,0.685s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude""), ""-1.756588"")",Chrome 114.0.0.0,,,2023-07-06 15:00:57,2023-07-06 15:00:57,0.695s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude""), ""109.5444"")",Chrome 114.0.0.0,,,2023-07-06 15:00:57,2023-07-06 15:00:58,0.714s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 15:00:58,2023-07-06 15:00:58,0.368s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-06 15:00:58,2023-07-06 15:00:59,0.340s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko""), ""Panasonic Store"")",Chrome 114.0.0.0,,,2023-07-06 15:00:59,2023-07-06 15:01:00,1.397s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet""), ""Panasonic Store"")",Chrome 114.0.0.0,,,2023-07-06 15:01:00,2023-07-06 15:01:01,0.709s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn""), """")",Chrome 114.0.0.0,,,2023-07-06 15:01:01,2023-07-06 15:01:02,0.688s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode""), ""PN003"")",Chrome 114.0.0.0,,,2023-07-06 15:01:02,2023-07-06 15:01:02,0.708s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon""), ""021339393"")",Chrome 114.0.0.0,,,2023-07-06 15:01:02,2023-07-06 15:01:03,0.716s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude""), ""-1.756333444"")",Chrome 114.0.0.0,,,2023-07-06 15:01:03,2023-07-06 15:01:04,0.681s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude""), ""109.544"")",Chrome 114.0.0.0,,,2023-07-06 15:01:04,2023-07-06 15:01:04,0.706s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 15:01:04,2023-07-06 15:01:05,0.353s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-06 15:01:05,2023-07-06 15:01:05,0.349s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko""), ""Panasonic Store"")",Chrome 114.0.0.0,,,2023-07-06 15:01:05,2023-07-06 15:01:07,1.438s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet""), ""Panasonic Store"")",Chrome 114.0.0.0,,,2023-07-06 15:01:07,2023-07-06 15:01:07,0.729s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn""), ""Jl. Wijya"")",Chrome 114.0.0.0,,,2023-07-06 15:01:07,2023-07-06 15:01:08,0.732s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode""), """")",Chrome 114.0.0.0,,,2023-07-06 15:01:08,2023-07-06 15:01:09,0.658s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon""), ""02139494949"")",Chrome 114.0.0.0,,,2023-07-06 15:01:09,2023-07-06 15:01:09,0.696s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude""), ""-67.3373833"")",Chrome 114.0.0.0,,,2023-07-06 15:01:09,2023-07-06 15:01:10,0.743s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude""), ""109.5444676"")",Chrome 114.0.0.0,,,2023-07-06 15:01:10,2023-07-06 15:01:11,0.692s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 15:01:11,2023-07-06 15:01:11,0.357s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-06 15:01:11,2023-07-06 15:01:11,0.300s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko""), ""Panasonic Store"")",Chrome 114.0.0.0,,,2023-07-06 15:01:11,2023-07-06 15:01:13,1.426s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet""), ""Panasonic Store"")",Chrome 114.0.0.0,,,2023-07-06 15:01:13,2023-07-06 15:01:14,0.684s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn""), ""Jl. Wijaya"")",Chrome 114.0.0.0,,,2023-07-06 15:01:14,2023-07-06 15:01:14,0.683s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode""), ""P0202"")",Chrome 114.0.0.0,,,2023-07-06 15:01:14,2023-07-06 15:01:15,0.672s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon""), ""021303030303"")",Chrome 114.0.0.0,,,2023-07-06 15:01:15,2023-07-06 15:01:16,0.686s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude""), """")",Chrome 114.0.0.0,,,2023-07-06 15:01:16,2023-07-06 15:01:16,0.648s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude""), ""109.544467"")",Chrome 114.0.0.0,,,2023-07-06 15:01:16,2023-07-06 15:01:17,0.697s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 15:01:17,2023-07-06 15:01:17,0.339s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-06 15:01:17,2023-07-06 15:01:18,0.354s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko""), ""pANASONIC sTORE"")",Chrome 114.0.0.0,,,2023-07-06 15:01:18,2023-07-06 15:01:19,1.387s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet""), ""bbbbb"")",Chrome 114.0.0.0,,,2023-07-06 15:01:19,2023-07-06 15:01:20,0.659s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet""))",Chrome 114.0.0.0,,,2023-07-06 15:01:20,2023-07-06 15:01:20,0.366s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/div_Outlet Name_col-sm-9""))",Chrome 114.0.0.0,,,2023-07-06 15:01:20,2023-07-06 15:01:20,0.324s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet""), ""Panasonic Store"")",Chrome 114.0.0.0,,,2023-07-06 15:01:20,2023-07-06 15:01:21,0.778s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn""), ""Jl Wijaya"")",Chrome 114.0.0.0,,,2023-07-06 15:01:21,2023-07-06 15:01:22,0.673s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode""), ""PAN2222"")",Chrome 114.0.0.0,,,2023-07-06 15:01:22,2023-07-06 15:01:23,0.676s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon""), ""02133444"")",Chrome 114.0.0.0,,,2023-07-06 15:01:23,2023-07-06 15:01:23,0.655s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude""), ""-10.363636"")",Chrome 114.0.0.0,,,2023-07-06 15:01:23,2023-07-06 15:01:24,0.725s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude""), """")",Chrome 114.0.0.0,,,2023-07-06 15:01:24,2023-07-06 15:01:25,0.644s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Edit Toko Failed/button_Submit""))",Chrome 114.0.0.0,,,2023-07-06 15:01:25,2023-07-06 15:01:25,0.340s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-06 15:01:25,2023-07-06 15:01:26,0.665s,PASSED
+,,,,,,,
+Test Cases/Master Toko/Success/Searching,Chrome 114.0.0.0,,,2023-07-06 15:01:26,2023-07-06 15:02:14,48.621s,FAILED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-06 15:01:26,2023-07-06 15:01:27,1.347s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-06 15:01:27,2023-07-06 15:01:27,0.016s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-06 15:01:27,2023-07-06 15:01:28,0.552s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Searching Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-06 15:01:28,2023-07-06 15:01:29,0.897s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Toko/Searching Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-06 15:01:29,2023-07-06 15:01:29,0.513s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-06 15:01:29,2023-07-06 15:01:30,0.516s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/a_Master""))",Chrome 114.0.0.0,,,2023-07-06 15:01:30,2023-07-06 15:01:32,2.101s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/a_Toko""))",Chrome 114.0.0.0,,,2023-07-06 15:01:32,2023-07-06 15:01:33,0.960s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Master Toko/Searching Success/select_Search by                           _752fd7""), ""store_name"", true)",Chrome 114.0.0.0,,,2023-07-06 15:01:33,2023-07-06 15:01:34,1.818s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch""), ""Furniture"")",Chrome 114.0.0.0,,,2023-07-06 15:01:34,2023-07-06 15:01:35,0.774s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-06 15:01:35,2023-07-06 15:01:36,0.479s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch""), ""Electronic"")",Chrome 114.0.0.0,,,2023-07-06 15:01:36,2023-07-06 15:01:37,1.539s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-06 15:01:37,2023-07-06 15:01:38,0.372s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-06 15:01:38,2023-07-06 15:01:38,0.261s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Master Toko/Searching Success/select_Search by                           _752fd7""), ""dealer_code"", true)",Chrome 114.0.0.0,,,2023-07-06 15:01:38,2023-07-06 15:01:40,1.794s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch""), ""ERF"")",Chrome 114.0.0.0,,,2023-07-06 15:01:40,2023-07-06 15:01:41,0.798s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-06 15:01:41,2023-07-06 15:01:41,0.423s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/a_4""))",Chrome 114.0.0.0,,,2023-07-06 15:01:41,2023-07-06 15:02:14,33.245s,FAILED
+,,,,,,,
+Test Cases/Master Toko/Failed/Searching,Chrome 114.0.0.0,,,2023-07-06 15:02:14,2023-07-06 15:02:28,13.632s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-06 15:02:15,2023-07-06 15:02:17,2.094s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-06 15:02:17,2023-07-06 15:02:17,0.019s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-06 15:02:17,2023-07-06 15:02:17,0.465s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Searching Failed/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-06 15:02:17,2023-07-06 15:02:18,1.033s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Toko/Searching Failed/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-06 15:02:18,2023-07-06 15:02:19,0.754s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Failed/button_Login""))",Chrome 114.0.0.0,,,2023-07-06 15:02:19,2023-07-06 15:02:20,0.717s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Failed/a_Master""))",Chrome 114.0.0.0,,,2023-07-06 15:02:20,2023-07-06 15:02:22,2.213s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Failed/a_Toko""))",Chrome 114.0.0.0,,,2023-07-06 15:02:22,2023-07-06 15:02:23,0.935s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch""), ""abc"")",Chrome 114.0.0.0,,,2023-07-06 15:02:23,2023-07-06 15:02:24,1.567s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-06 15:02:24,2023-07-06 15:02:25,0.416s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-06 15:02:25,2023-07-06 15:02:25,0.474s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch""), ""megafinance"")",Chrome 114.0.0.0,,,2023-07-06 15:02:25,2023-07-06 15:02:27,1.373s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-06 15:02:27,2023-07-06 15:02:27,0.415s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-06 15:02:27,2023-07-06 15:02:28,0.707s,PASSED

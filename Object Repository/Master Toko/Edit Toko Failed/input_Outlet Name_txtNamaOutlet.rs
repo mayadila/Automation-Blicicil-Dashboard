@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Outlet Name_txtNamaOutlet</name>
    <tag></tag>
-   <elementGuidId>ab0ce62a-3dad-4c82-bf3c-861ddaaa8264</elementGuidId>
+   <elementGuidId>c8d73c5d-5d11-4654-9883-3ab7aaa35813</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#txtNamaOutlet</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='txtNamaOutlet']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#txtNamaOutlet</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d2c408dd-84f9-460e-8236-11faadc97c68</webElementGuid>
+      <webElementGuid>17870ffa-f55c-434a-9366-1ea35bc8a26d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>dcfef0f9-ee59-476f-9dd9-1879d1230806</webElementGuid>
+      <webElementGuid>7326d150-4f5e-46ed-929d-4908564104a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txtNamaOutlet</value>
-      <webElementGuid>3ef617a6-618d-4dcd-8455-f37e217db5e0</webElementGuid>
+      <webElementGuid>6ad7bcf6-7d2f-4ed6-a6aa-df61ba92d10b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>d5ca55de-eecf-4c66-82f1-65404d69d721</webElementGuid>
+      <webElementGuid>94a2f20f-3526-4c78-bc1d-bffb9a37bcb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>txtNamaOutlet</value>
-      <webElementGuid>744db696-703d-4719-8f1a-5334c352c5bf</webElementGuid>
+      <webElementGuid>f1cf8a4a-fb0c-4512-941e-5776cee98ff6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,15 +62,15 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Input outlet name</value>
-      <webElementGuid>15ee6f8d-587f-46cb-b74c-a9062bf42cbf</webElementGuid>
+      <webElementGuid>4662087e-9ffa-45ed-8366-4449a941fcd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Transmart Cilandak</value>
-      <webElementGuid>30d6531b-76b0-4f1d-b809-de92de1588a9</webElementGuid>
+      <value>bbbbb</value>
+      <webElementGuid>1b5ec01d-e8f6-47b5-b538-9bc3f3849fcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txtNamaOutlet&quot;)</value>
-      <webElementGuid>821e5571-4f6b-47a7-8b18-294e230cc3bf</webElementGuid>
+      <webElementGuid>d3b6fb26-7875-4f61-8cf1-377934c8ae54</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txtNamaOutlet']</value>
-      <webElementGuid>869ffd76-b5b2-478d-8876-a9c50bab3a49</webElementGuid>
+      <webElementGuid>9e833b7d-f498-4266-8402-a5e87d57f52d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='frmToko']/div[4]/div/div/input</value>
-      <webElementGuid>831e3bba-4150-4640-98d1-e5b3b375bbdf</webElementGuid>
+      <webElementGuid>e4b6cede-07ff-4372-9ea3-08e4fa647083</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/input</value>
-      <webElementGuid>a9ad54b5-baf7-4bf5-924e-b1a56b5e25a3</webElementGuid>
+      <webElementGuid>b6824fc7-56e0-4d41-8703-d8dcdb60564f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'txtNamaOutlet' and @name = 'txtNamaOutlet' and @placeholder = 'Input outlet name']</value>
-      <webElementGuid>c0cae1f4-46ea-4b7e-b66c-8c742db2c5b3</webElementGuid>
+      <webElementGuid>66437056-4d66-44ad-b444-1cfec86283fa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

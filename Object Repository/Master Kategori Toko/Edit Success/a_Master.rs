@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>cd3ad70b-475b-405b-bb69-c7f9e76116ef</webElementGuid>
+      <webElementGuid>c6abe0b3-ab1f-4545-84c9-a3ee142688ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center</value>
-      <webElementGuid>6984bf18-b074-44f0-bcc0-7219a3115b96</webElementGuid>
+      <webElementGuid>3e6a0e65-3716-4706-bee9-539bb61aa076</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>0faa3a46-f802-4152-819e-3066e6ce7c57</webElementGuid>
+      <webElementGuid>9d30c90b-686d-46ee-897d-5d70b4ee2d87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
 											
 											Master
 										</value>
-      <webElementGuid>9ae7c801-570a-419a-9812-a3e376a0a957</webElementGuid>
+      <webElementGuid>c9c24fdc-b0c6-4d22-adcc-0f1410d0527e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
-      <webElementGuid>a43ee7b3-9c99-4214-8768-6e6d5593e3e9</webElementGuid>
+      <webElementGuid>54fb5da9-d99e-49ef-b010-6db0c85c73c1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='main-menu-navigation']/li[3]/a</value>
-      <webElementGuid>58c0a663-dd78-4d8b-a3f2-c72f20ae9eb8</webElementGuid>
+      <webElementGuid>a17fb867-0dc3-4a6f-a2e9-4975ebe12ecd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Management'])[1]/following::a[1]</value>
-      <webElementGuid>d35957e8-914f-4483-be84-2c657b0b69de</webElementGuid>
+      <webElementGuid>df7e1270-7853-4369-9d1f-070f351e7348</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[2]</value>
-      <webElementGuid>a7b26697-f933-47e8-b0e9-cc6de0fd2252</webElementGuid>
+      <webElementGuid>b34d8451-e412-4fd2-9d11-15f9024b40e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchants'])[1]/preceding::a[1]</value>
-      <webElementGuid>b1800464-3cbc-4ad7-a5da-cfa8e6f2c0a6</webElementGuid>
+      <webElementGuid>7e990672-afe5-45aa-85cf-54dec817faf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>1cd707bf-38e1-4ce5-97c3-9a74532098c6</webElementGuid>
+      <webElementGuid>c81608a1-c528-448f-8e17-f40ae9d16a83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/a</value>
-      <webElementGuid>bdb40a07-03a7-4e04-ba96-6a858c4b62d0</webElementGuid>
+      <webElementGuid>b289c8bc-5144-4ade-8948-8ec40c731baf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
 											
 											Master
 										')]</value>
-      <webElementGuid>ac53b00d-167e-4867-9799-1f6ad2d69c8d</webElementGuid>
+      <webElementGuid>556d2b10-8f18-463e-8132-b6255ec970d4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

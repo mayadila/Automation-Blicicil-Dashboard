@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Dealer Code_txtDealerCode</name>
    <tag></tag>
-   <elementGuidId>b639b3ca-9698-41a5-a89e-b6c2c7fd04be</elementGuidId>
+   <elementGuidId>8c464424-1586-4599-a4bd-37e0410e9533</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#txtDealerCode</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='txtDealerCode']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#txtDealerCode</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1bedcca7-009f-4c49-9d16-d94fe4aed2f2</webElementGuid>
+      <webElementGuid>646b2baa-cc0b-4236-8f97-b906a690c9f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>2ab7fdc9-5968-41ce-89ea-325effb37bbe</webElementGuid>
+      <webElementGuid>f4547ef9-50cf-4088-95c2-d6d2ab32e25e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txtDealerCode</value>
-      <webElementGuid>65b85f34-e623-4562-840f-b5cadde127af</webElementGuid>
+      <webElementGuid>c0654dd0-9b66-4707-9f9a-e77241ed098c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Input dealer code</value>
-      <webElementGuid>f8b748ee-63a5-459d-b91f-ad564bc7d5fe</webElementGuid>
+      <webElementGuid>609197af-699f-4d53-8c0b-036ce88c8fdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>38ca5c15-9a33-42c9-8f06-1cebdd69e466</webElementGuid>
+      <webElementGuid>4c17f27f-eedc-4a35-89c6-20223458c290</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,15 +62,15 @@
       <name>name</name>
       <type>Main</type>
       <value>txtDealerCode</value>
-      <webElementGuid>c23acfe3-6bdd-4579-8bd0-9516e832bb50</webElementGuid>
+      <webElementGuid>e618d181-5d22-4923-ad56-6833433674ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>TC</value>
-      <webElementGuid>e939fa83-01ea-4091-abec-b64ed5496e9d</webElementGuid>
+      <value>ngtj</value>
+      <webElementGuid>d47ad5e0-be04-40ae-8714-cb541d6ccc47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txtDealerCode&quot;)</value>
-      <webElementGuid>18022c82-25fa-4a07-8cb6-aac700d43abe</webElementGuid>
+      <webElementGuid>52056030-0e54-4d47-892d-6e91407fe43c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txtDealerCode']</value>
-      <webElementGuid>5cbcde8f-2ba1-4d40-b38a-21fb1025c6e9</webElementGuid>
+      <webElementGuid>3c2f2fac-69fb-479a-9ad3-fc52a91088e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='frmToko']/div[6]/div/div/input</value>
-      <webElementGuid>91f9613c-9a03-450f-a5aa-03b290dff151</webElementGuid>
+      <webElementGuid>f860cdbf-0a60-4077-a346-8bfc74472ba6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/div/input</value>
-      <webElementGuid>c7477c6f-6c70-4d78-87b1-819c0cdbee60</webElementGuid>
+      <webElementGuid>d7ebbe71-6537-4ea5-a957-4cac8a8f7367</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'txtDealerCode' and @placeholder = 'Input dealer code' and @name = 'txtDealerCode']</value>
-      <webElementGuid>19c3470b-04a4-4ce2-a23e-dc18b70c8dd6</webElementGuid>
+      <webElementGuid>e581b052-4945-4eb0-a99f-3c58e866a262</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

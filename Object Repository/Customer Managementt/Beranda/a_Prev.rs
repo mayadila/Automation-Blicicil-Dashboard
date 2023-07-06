@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Prev</name>
    <tag></tag>
-   <elementGuidId>014a768d-7bd2-40b8-ae4b-799541fcf126</elementGuidId>
+   <elementGuidId>ca4686c2-9df6-46f4-b225-2d70e03210d7</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>a.page-link.prev</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//ul[@id='pagination-demo']/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.page-link.prev</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7dc1bee2-817b-4170-b41a-4c5b114a4b23</webElementGuid>
+      <webElementGuid>b34dedf9-d1b2-4943-9271-f565574fdd9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#page-1</value>
-      <webElementGuid>73c23e27-c3d5-4f22-a285-4f9c612c7907</webElementGuid>
+      <value>#page-4</value>
+      <webElementGuid>21ecab5a-b26b-4115-a884-b5e023f52c53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>page-link prev</value>
-      <webElementGuid>e55d0ac6-1440-48d7-9238-376f651111e7</webElementGuid>
+      <webElementGuid>79fde795-49d1-4e4a-9907-4f73d4a6b725</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Prev</value>
-      <webElementGuid>e8f91d66-9e61-4258-b87b-33aef8b8e065</webElementGuid>
+      <webElementGuid>de1e655d-e5e7-4d40-bcbb-58c1be5dc9aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pagination-demo&quot;)/li[1]/a[@class=&quot;page-link prev&quot;]</value>
-      <webElementGuid>114fa318-468b-4e76-88aa-b3e54d9d0ff4</webElementGuid>
+      <webElementGuid>2fc923c8-2bbf-476d-aaa1-db1fbff7921a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='pagination-demo']/li/a</value>
-      <webElementGuid>34192611-4207-46b1-baae-1950edf63736</webElementGuid>
+      <webElementGuid>5b974fad-4851-4ca3-995c-2f7b6628f376</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,31 +70,39 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Prev')]</value>
-      <webElementGuid>74f7b3be-f2b3-4e6d-9c7d-794a9702d2ff</webElementGuid>
+      <webElementGuid>5dea1505-eaa3-4ccf-aaa3-23dcc21a271b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 3 of 3 entries'])[1]/following::a[1]</value>
-      <webElementGuid>fb611ada-7224-4fce-b81b-4aa7f4bdee6a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 5 of 5 entries'])[1]/following::a[1]</value>
+      <webElementGuid>158b2880-57d4-4736-9e72-0c1f25b49809</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail'])[3]/following::a[1]</value>
-      <webElementGuid>f0d9209f-f4f4-4626-95c4-b71d63de470a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail'])[5]/following::a[1]</value>
+      <webElementGuid>71900ecb-746b-4ddf-8f9f-8ef22a9aba6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[2]</value>
-      <webElementGuid>1c94436b-da19-4d4d-992c-9c2d6cb384a5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='…'])[1]/preceding::a[7]</value>
+      <webElementGuid>d5452ce5-754b-4587-a754-3cf7993b55f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[9]</value>
+      <webElementGuid>c2a3f6da-61c6-4460-aa99-b334aa48d68f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,15 +110,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Prev']/parent::*</value>
-      <webElementGuid>5fa075dd-c027-4654-9cb0-53d6a197a359</webElementGuid>
+      <webElementGuid>c256e378-c83f-4ee4-a363-4fb06d1e5102</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#page-1')]</value>
-      <webElementGuid>6b776240-9d8e-42b3-8a79-37cbf376c6f7</webElementGuid>
+      <value>//a[contains(@href, '#page-4')]</value>
+      <webElementGuid>e0e926f4-d8a8-4947-96a6-2204f8141461</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,14 +126,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div[3]/ul/li/a</value>
-      <webElementGuid>b924e524-8390-4457-bddf-5b51f064f576</webElementGuid>
+      <webElementGuid>4d4af449-3746-42c6-b7fe-0a0fcd0426a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#page-1' and (text() = 'Prev' or . = 'Prev')]</value>
-      <webElementGuid>3c4ceede-3f93-4cce-a016-abc71f9765ff</webElementGuid>
+      <value>//a[@href = '#page-4' and (text() = 'Prev' or . = 'Prev')]</value>
+      <webElementGuid>2be108a5-a9c9-4883-8c31-165228fe5921</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

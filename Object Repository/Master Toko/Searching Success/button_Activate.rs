@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Activate</name>
    <tag></tag>
-   <elementGuidId>eaacb955-a275-421e-92ed-15e7042cfdb4</elementGuidId>
+   <elementGuidId>14079377-c53d-4f3b-8c7e-f9ead0eb9d34</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>button.btn.btn-flat-success</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cabbfaa3-8854-4168-8169-4e5175aa879a</webElementGuid>
+      <webElementGuid>c48fc6e3-4b04-486c-9741-02196a97a5ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9832b620-a09b-48ee-8461-28e035fbd728</webElementGuid>
+      <webElementGuid>091b3f16-9e41-4ddf-8784-78fe8176db89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-flat-success</value>
-      <webElementGuid>e2686a41-b2d8-49d9-9ceb-18bbe278ebae</webElementGuid>
+      <webElementGuid>822c3833-d522-4c8f-ad45-f2af03220841</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>showConfirmationPopup('activate', () => actionProduct('4', 1), 'Transmart Carrefour Central Park')</value>
-      <webElementGuid>bcd0ae29-7b92-4ecd-9173-8a776ee2c026</webElementGuid>
+      <value>showConfirmationPopup('activate', () => actionProduct('2026', 1), 'ERAFONE MEGASTORE MT HARYONO BALIKPAPAN')</value>
+      <webElementGuid>eeb39a73-ef9c-4310-ba37-321c49f1f1cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,31 +54,39 @@
       <name>text</name>
       <type>Main</type>
       <value>Activate</value>
-      <webElementGuid>5c1525d4-9fff-459c-9f2a-02ff58537c51</webElementGuid>
+      <webElementGuid>a7fe4454-31d7-4067-865a-d5a2aaa1f785</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-toko&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[4]/button[@class=&quot;btn btn-flat-success&quot;]</value>
-      <webElementGuid>106ce5d6-3c4b-40a6-8836-d86840e3a60c</webElementGuid>
+      <value>id(&quot;tbl-toko&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[8]/button[@class=&quot;btn btn-flat-success&quot;]</value>
+      <webElementGuid>8af4a4d7-27c7-43f2-a12e-11fb5d74de06</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>9996930a-49ce-4c99-80dd-db9b8a0d52b0</webElementGuid>
+      <value>//button[@type='button']</value>
+      <webElementGuid>f15a503c-4626-4f8d-82a1-a9cf7d058a11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-toko']/tbody/tr[2]/td[4]/button</value>
-      <webElementGuid>39026fc1-4155-4c96-99bb-96914dfab859</webElementGuid>
+      <value>//table[@id='tbl-toko']/tbody/tr/td[8]/button</value>
+      <webElementGuid>f61b3af0-d855-47ec-8756-6d3b24e462ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maps'])[2]/following::button[1]</value>
+      <webElementGuid>5e8832c8-caa5-4188-a4e7-1766848c2904</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,31 +94,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Non Active'])[1]/following::button[1]</value>
-      <webElementGuid>fa78117f-c8ae-4725-915b-500c345e8b93</webElementGuid>
+      <webElementGuid>73317ec7-f126-4f7a-8be5-586a90c6bf30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmart Carrefour Central Park'])[1]/following::button[1]</value>
-      <webElementGuid>dde26367-8dff-4960-addc-01003c263971</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::button[1]</value>
+      <webElementGuid>6af6465e-bd77-4839-9aa8-3f37a13a6a8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/preceding::button[1]</value>
-      <webElementGuid>ad21736b-ed91-4f6e-8c49-ef4bfc33b168</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmart Emporium Pluit'])[1]/preceding::button[1]</value>
-      <webElementGuid>e114815d-c3ec-45b9-9f37-d01748ea2266</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ERF105'])[2]/preceding::button[1]</value>
+      <webElementGuid>2a15daa5-51ec-4d16-9598-f00ead16d107</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,15 +118,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Activate']/parent::*</value>
-      <webElementGuid>52594c23-5f02-4171-89de-9191a95e09a7</webElementGuid>
+      <webElementGuid>b2e3f7ed-ef1c-4e8b-9d05-d97983788147</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[4]/button</value>
-      <webElementGuid>1dd09cbc-4ee7-4dc6-b603-9f6a08e0870d</webElementGuid>
+      <value>//button</value>
+      <webElementGuid>45e2c6d8-780a-4f32-bd38-93b840a8429f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Activate' or . = 'Activate')]</value>
-      <webElementGuid>0b89a785-38c4-4ba3-81c8-e69f3f831e79</webElementGuid>
+      <webElementGuid>875b2045-74ca-41c4-8a8d-1b2a5de8f90c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

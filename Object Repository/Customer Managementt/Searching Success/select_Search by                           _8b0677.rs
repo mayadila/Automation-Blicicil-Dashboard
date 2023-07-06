@@ -3,15 +3,15 @@
    <description></description>
    <name>select_Search by                           _8b0677</name>
    <tag></tag>
-   <elementGuidId>d7f6109b-5c6c-448f-a1d2-b5084ec92d68</elementGuidId>
+   <elementGuidId>13b3125d-e54e-49ba-bc76-08ff6676f470</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#filterParamsSearch</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//select[@id='filterParamsSearch']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#filterParamsSearch</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>964dac01-bc57-44f1-b66d-59ff9cb09e0a</webElementGuid>
+      <webElementGuid>8b0625a2-ec53-47af-8d3d-53e83b1fa331</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>filterParamsSearch</value>
-      <webElementGuid>af2652de-3863-44b1-8a82-a266e3f6c190</webElementGuid>
+      <webElementGuid>f4f83ea3-9091-4d85-80ca-dbdb137bb98e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>filterParamsSearch</value>
-      <webElementGuid>87491ab6-0f4c-45b3-87b4-401022c7c45f</webElementGuid>
+      <webElementGuid>33b8304f-3d7c-4990-b5f1-32ac01c055c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>3857c3f7-7c90-4f5c-b8d6-d43c9b8ab0b6</webElementGuid>
+      <webElementGuid>c9820574-ece4-47a2-a221-01e339b78635</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>onSelectFilter()</value>
-      <webElementGuid>dda52a23-f1d9-4778-93e4-4835c690021c</webElementGuid>
+      <webElementGuid>dc315fd7-0056-4b0d-84f6-36f475320b92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
                                                 Mobile Number
                                                 NIK
                                             </value>
-      <webElementGuid>fb317a49-fa08-4d5b-84ca-8d17219297ba</webElementGuid>
+      <webElementGuid>cb8b42e8-34de-4e2b-853d-e2ed2ea1abcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;filterParamsSearch&quot;)</value>
-      <webElementGuid>665fdffa-7f19-4192-8f44-3e71fc389020</webElementGuid>
+      <webElementGuid>1ec113f4-2cb1-4ad4-9a2e-2af345ecdc31</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='filterParamsSearch']</value>
-      <webElementGuid>517e45a8-5fd1-476b-afcf-f944f6ef3b2d</webElementGuid>
+      <webElementGuid>16717d47-4448-43d1-adef-a9de48fcc36a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,23 +91,23 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='complex-header-datatable']/div/div/div/div[2]/div/div[2]/div/select</value>
-      <webElementGuid>2b5c1c3e-b1fc-4f87-acb1-958c53381577</webElementGuid>
+      <webElementGuid>3a580b77-8e2d-453d-8f99-78d93d95ce80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='List of Customers'])[1]/following::select[3]</value>
-      <webElementGuid>fc6afdd1-f18a-4274-b8a8-0690cdd1d40a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List of Customers'])[1]/following::select[2]</value>
+      <webElementGuid>e9894a38-fd0f-4b3e-a75c-a687f6e3db54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Management'])[2]/following::select[3]</value>
-      <webElementGuid>67cc12f3-5e31-4ccf-89ef-3d8d8bdc698d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Management'])[2]/following::select[2]</value>
+      <webElementGuid>eb2cbb9e-16b0-45e4-b4d3-8ef30f190a69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search:'])[1]/preceding::select[1]</value>
-      <webElementGuid>dd230d21-ce23-4d33-9114-266ba64e7b93</webElementGuid>
+      <webElementGuid>b379a64b-2684-4641-9334-3f234159b679</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/select</value>
-      <webElementGuid>ae2cb1a7-4d43-4c33-8297-0a3518901b93</webElementGuid>
+      <webElementGuid>0da8f2cb-948e-4cf2-b110-5388fd3fe5e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
                                                 Mobile Number
                                                 NIK
                                             ')]</value>
-      <webElementGuid>252707a4-1acd-4241-bf24-2a648be04455</webElementGuid>
+      <webElementGuid>388bdcb8-dbc6-4fec-a70c-10a2301408fb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
