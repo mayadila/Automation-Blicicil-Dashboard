@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Merchants</name>
    <tag></tag>
-   <elementGuidId>9756b470-f70c-4666-96c4-5ca2132c3ec2</elementGuidId>
+   <elementGuidId>e5a986d3-331a-4304-b02a-28e5af001662</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//ul[@id='main-menu-navigation']/li[3]/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>cc98ab7f-d327-4a75-94d9-93c9e0df3348</webElementGuid>
+      <webElementGuid>e925d643-b46a-40fc-8836-29e95d68368c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center</value>
-      <webElementGuid>e0179105-8c2a-461d-93e4-a2285e4590ff</webElementGuid>
+      <webElementGuid>f69ebd7c-4f17-44d8-b4ca-2dd819d71a2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://uat-dashboard.blicicil.com/master/merchants</value>
-      <webElementGuid>27d91ce2-c00a-4563-aad3-af40ec96446c</webElementGuid>
+      <webElementGuid>c1b1cb39-5252-4231-b6c2-5f8ab7588f4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
 							                		
 							                		Merchants
 							                	</value>
-      <webElementGuid>0c180c80-ea55-457d-9ee1-1fbfeb2eb1b5</webElementGuid>
+      <webElementGuid>10efd030-394f-4261-a229-92d6bd36df64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub open&quot;]/ul[@class=&quot;menu-content&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
-      <webElementGuid>22471f6c-2042-4606-842e-57d32e2a02d6</webElementGuid>
+      <webElementGuid>a2a35bc2-efe6-4fa0-897e-67c50e3f625a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='main-menu-navigation']/li[3]/ul/li/a</value>
-      <webElementGuid>ac040a9d-e2b4-45ea-a957-f4a49f17fcc2</webElementGuid>
+      <webElementGuid>ea21f08b-f118-4df9-8721-6f08b113fbc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Master'])[1]/following::a[1]</value>
-      <webElementGuid>cb5a027a-b1c3-4428-866a-ff1cd892fc93</webElementGuid>
+      <webElementGuid>d153a770-8244-40b1-b11b-ec1a172af20f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Management'])[1]/following::a[2]</value>
-      <webElementGuid>d3d4e6b4-4e57-49de-9e5a-18679746a888</webElementGuid>
+      <webElementGuid>0ed7cbdd-b288-4833-b684-8fd258920d62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchant Offers'])[1]/preceding::a[1]</value>
-      <webElementGuid>8ebee879-9c8a-4a9e-bdd7-53e8276c7db7</webElementGuid>
+      <webElementGuid>2bfda92b-7b67-4541-8df0-2dc8009f8d6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/master/merchants')]</value>
-      <webElementGuid>e1887064-7639-464a-8a5e-9bea11571bea</webElementGuid>
+      <webElementGuid>58aaad48-78f5-42d5-8754-9139a34c5d5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/ul/li/a</value>
-      <webElementGuid>f58857f6-cfca-4639-888b-681dbcea0ef4</webElementGuid>
+      <webElementGuid>b354cea3-f2a4-4a24-8c72-ee6c6c73a36b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
 							                		
 							                		Merchants
 							                	')]</value>
-      <webElementGuid>c105e3ab-2872-4162-aac5-77195cc67bae</webElementGuid>
+      <webElementGuid>bb7dcbe5-f435-43fb-94e9-05c61e76954f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

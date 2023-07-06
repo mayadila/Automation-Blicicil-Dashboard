@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Telephone_txtTelepon</name>
    <tag></tag>
-   <elementGuidId>4055e53b-a926-4cb0-b183-7b64cec8f49e</elementGuidId>
+   <elementGuidId>c5222bdb-9aa5-4a22-bbac-94ac942488cb</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#txtTelepon</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='txtTelepon']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#txtTelepon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e9e96b3a-f585-43d9-b3ff-657d63d6ed8a</webElementGuid>
+      <webElementGuid>8f3b81ce-01dd-41d9-b5e8-c35fa4a262c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>46708005-02da-4c6c-ab4d-8663e7f6217e</webElementGuid>
+      <webElementGuid>3fbc295f-35eb-4415-9eb5-561c334a08b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>13</value>
-      <webElementGuid>68d7a2f6-ecab-41eb-91e3-03ffa7cbb2fb</webElementGuid>
+      <webElementGuid>de01794f-84a2-4d34-a5a2-319a9c52213e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txtTelepon</value>
-      <webElementGuid>ef45f226-c657-40d0-bf08-ff92bf58eb38</webElementGuid>
+      <webElementGuid>437b6b01-dc47-44e2-b6d9-624510b85ba4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Input telephone number</value>
-      <webElementGuid>1a9d834d-c599-4894-a746-15396484b3e7</webElementGuid>
+      <webElementGuid>17e7f165-2f22-47f4-96d0-442830fde774</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>oninput</name>
       <type>Main</type>
       <value>numberOnly(this.id);</value>
-      <webElementGuid>87da1be3-3944-4307-bb19-77c3fadc7856</webElementGuid>
+      <webElementGuid>4d3d9639-c9af-4494-b1b4-2726935b73ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>d1db6e4a-db78-48ec-b39d-bf84572a1e04</webElementGuid>
+      <webElementGuid>a3e71cdc-a351-4103-9048-aa9459a8c6b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,15 +78,15 @@
       <name>name</name>
       <type>Main</type>
       <value>txtTelepon</value>
-      <webElementGuid>a841b550-49ae-4b88-afad-5354b7dd9628</webElementGuid>
+      <webElementGuid>8de271be-eb7e-4d9d-9ea3-0b417419dd8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>0891829124212</value>
-      <webElementGuid>da67dd71-9e26-4a14-88dd-1f4908e75311</webElementGuid>
+      <value>021394949490</value>
+      <webElementGuid>82ca485b-5202-409a-abe0-57ee07922aa3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txtTelepon&quot;)</value>
-      <webElementGuid>db4e9e57-139c-4b6b-ae12-0172c17b85ec</webElementGuid>
+      <webElementGuid>e1b2f086-b3b2-44b0-982d-08d5455f94a4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txtTelepon']</value>
-      <webElementGuid>9c0affee-2b28-4ac8-afd4-98b657347e84</webElementGuid>
+      <webElementGuid>5f4f90b3-0947-4574-b7e7-39cb8017b2e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='frmToko']/div[7]/div/div/input</value>
-      <webElementGuid>d62e31db-0c7b-4b44-b84b-70ad28de586b</webElementGuid>
+      <webElementGuid>3a41bdb7-acca-4c48-8efe-51ac7dc2bb11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/div/input</value>
-      <webElementGuid>778982f6-a868-475a-9599-ab6a3f9b538b</webElementGuid>
+      <webElementGuid>40115aee-40b2-489b-857d-16d291d86743</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'txtTelepon' and @placeholder = 'Input telephone number' and @name = 'txtTelepon']</value>
-      <webElementGuid>d0297273-d967-44cd-b00c-4432d6445a25</webElementGuid>
+      <webElementGuid>bed98604-ab00-4525-8c42-5de55b5ec341</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

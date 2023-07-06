@@ -19,7 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-'Maximize Window Chrome'
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
@@ -34,43 +33,29 @@ WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/a_Master'))
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/a_Toko'))
 
-WebUI.getText(findTestObject('Object Repository/Master Toko/Beranda/div_List Toko BliCicil Admin as            _dde361'))
+WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_Deactivate'))
+
+WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_No'))
+
+WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_Deactivate'))
+
+WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_Yes'))
+
+WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_Activate'))
+
+WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_No'))
+
+WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_Activate'))
+
+WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_Yes'))
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/a_4'))
 
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/a_172'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/a_168'))
+WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/a_Next'))
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/a_Previous'))
 
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/a_Next'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/a_1'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_Deactivate'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/div_Are you sure want to deactivate Transma_af0d13'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_No'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_Deactivate'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/div_Are you sure want to deactivate Transma_af0d13'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_Yes'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_Activate'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/div_Are you sure want to activate Transmart_078b02'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_No'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_Activate'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/div_Are you sure want to activate Transmart_078b02'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/button_Yes'))
+WebUI.click(findTestObject('Object Repository/Master Toko/Beranda/a_Maps'))
 
 WebUI.closeBrowser()
 

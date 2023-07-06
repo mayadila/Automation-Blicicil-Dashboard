@@ -19,7 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-'Maximize Window Chrome'
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
@@ -36,192 +35,117 @@ WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Failed/a_Tok
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Failed/a_Edit'))
 
-WebUI.getText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/div_Edit Toko BliCicil Admin as'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Failed/select_TransmartPanasonicPolytronAsusSamsun_36b03e'), 
-    '2', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Failed/select_Aceh SelatanBalanganBalikpapanBantae_4910c5'), 
-    '430', true)
-
 WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'), '')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'), 'Transmart Cilandak')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'), 'Panasonic Store')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/textarea_Jl. Raya Cilandak KKO No.27, RT.1R_639af4'), 
-    'Jl. Raya Cilandak KKO No.27, RT.1/RW.5, Cilandak Tim, Kec. Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'), 'Jalan Wijya')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'), 'TC1')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'), 'PAN021')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'), '12345678')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'), '0211111')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'), '-6.300646')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'), '-1.756')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'), '106.814095')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'), '109.544467')
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Failed/button_Submit'))
 
-WebUI.getText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/div_ErrorThe Store name field is required.O_09bc32'))
-
 WebUI.refresh()
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Failed/select_TransmartPanasonicPolytronAsusSamsun_36b03e'), 
-    '2', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Failed/select_Aceh SelatanBalanganBalikpapanBantae_4910c5'), 
-    '430', true)
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'), 'Transmart Cilandak')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'), 'Panasonic Store')
 
 WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'), '')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/textarea_Jl. Raya Cilandak KKO No.27, RT.1R_639af4'), 
-    'Jl. Raya Cilandak KKO No.27, RT.1/RW.5, Cilandak Tim, Kec. Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 1256')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'), 'Jl. Wijaya')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'), 'TC2')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'), 'PAN022')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'), '12345678')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'), '02123333')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'), '-6.300645')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'), '-1.756588')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'), '106.814093')
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Failed/button_Submit'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/div_ErrorThe Outlet name field is required._e4b0d3'))
-
-WebUI.refresh()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Failed/select_TransmartPanasonicPolytronAsusSamsun_36b03e'), 
-    '4', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Failed/select_Aceh SelatanBalanganBalikpapanBantae_4910c5'), 
-    '427', true)
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'), 'Transmart Cilandak')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'), 'Transmart Cilandak')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/textarea_Jl. Raya Cilandak KKO No.27, RT.1R_639af4'), 
-    '')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'), 'TC3')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'), '12345678')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'), '-6.300645')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'), '106.814093')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'), '109.5444')
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Failed/button_Submit'))
 
-WebUI.getText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/div_ErrorThe Address field is required.OKNoCancel'))
+WebUI.refresh()
+
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'), 'Panasonic Store')
+
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'), 'Panasonic Store')
+
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'), '')
+
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'), 'PN003')
+
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'), '021339393')
+
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'), '-1.756333444')
+
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'), '109.544')
+
+WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Failed/button_Submit'))
 
 WebUI.refresh()
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Failed/select_TransmartPanasonicPolytronAsusSamsun_36b03e'), 
-    '2', true)
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'), 'Panasonic Store')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Failed/select_Aceh SelatanBalanganBalikpapanBantae_4910c5'), 
-    '430', true)
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'), 'Panasonic Store')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'), 'Transmart Cilandak')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'), 'Transmart Cilandak')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/textarea_Jl. Raya Cilandak KKO No.27, RT.1R_639af4'), 
-    'Jl. Raya Cilandak KKO No.27, RT.1/RW.5, Cilandak Tim, Kec. Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 1256')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'), 'Jl. Wijya')
 
 WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'), '')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'), '12345678')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'), '02139494949')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'), '-6.300642')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'), '-67.3373833')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'), '106.814090')
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Failed/button_Submit'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/div_ErrorThe Dealer code field is required._49c3fb'))
-
-WebUI.refresh()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Failed/select_TransmartPanasonicPolytronAsusSamsun_36b03e'), 
-    '4', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Failed/select_Aceh SelatanBalanganBalikpapanBantae_4910c5'), 
-    '413', true)
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'), 'Transmart Cilandak')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'), 'Transmart Cilandak')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/textarea_Jl. Raya Cilandak KKO No.27, RT.1R_639af4'), 
-    'Jl. Raya Cilandak KKO No.27, RT.1/RW.5, Cilandak Tim, Kec. Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 1256')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'), 'TC4')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'), '')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'), '-6.300644')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'), '106.814092')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'), '109.5444676')
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Failed/button_Submit'))
 
-WebUI.getText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/div_ErrorThe Telepon field is required.OKNoCancel'))
-
 WebUI.refresh()
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Failed/select_TransmartPanasonicPolytronAsusSamsun_36b03e'), 
-    '2', true)
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'), 'Panasonic Store')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Failed/select_Aceh SelatanBalanganBalikpapanBantae_4910c5'), 
-    '121', true)
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'), 'Panasonic Store')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'), 'Transmart Cilandak')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'), 'Jl. Wijaya')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'), 'Transmart Cilandak')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'), 'P0202')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/textarea_Jl. Raya Cilandak KKO No.27, RT.1R_639af4'), 
-    'Jl. Raya Cilandak KKO No.27, RT.1/RW.5, Cilandak Tim, Kec. Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 1256')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'), 'TC5')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'), '12345678')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'), '021303030303')
 
 WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'), '')
 
-WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Failed/button_Submit'))
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'), '109.544467')
 
-WebUI.getText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/div_ErrorThe Latitude field is required.OKNoCancel'))
+WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Failed/button_Submit'))
 
 WebUI.refresh()
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Failed/select_TransmartPanasonicPolytronAsusSamsun_36b03e'), 
-    '5', true)
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'), 'pANASONIC sTORE')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Failed/select_Aceh SelatanBalanganBalikpapanBantae_4910c5'), 
-    '100', true)
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'), 'bbbbb')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'), 'Transmart Cilandak')
+WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'))
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'), 'Transmart Cilandak')
+WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Failed/div_Outlet Name_col-sm-9'))
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/textarea_Jl. Raya Cilandak KKO No.27, RT.1R_639af4'), 
-    'Jl. Raya Cilandak KKO No.27, RT.1/RW.5, Cilandak Tim, Kec. Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 1250')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'), 'Panasonic Store')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'), 'TC6')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'), 'Jl Wijaya')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'), '424452435')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'), 'PAN2222')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'), '-6.300646')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'), '02133444')
+
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'), '-10.363636')
 
 WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'), '')
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Failed/button_Submit'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Edit Toko Failed/div_ErrorThe Longitude field is required.OK_5f5eec'))
 
 WebUI.closeBrowser()
 

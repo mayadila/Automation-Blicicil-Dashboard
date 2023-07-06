@@ -19,7 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-'Maximize Window Chrome'
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
@@ -34,71 +33,54 @@ WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/a_Ma
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/a_Toko'))
 
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Success/div_List Toko BliCicil Admin as            _dde361'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Searching Success/select_Search by                           _752fd7'), 
+    'store_name', true)
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Searching Success/input_Search_form-control form-control-sm'), 
-    'transmart')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'), 'Furniture')
 
-WebUI.sendKeys(findTestObject('Object Repository/Master Toko/Searching Success/input_Search_form-control form-control-sm'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/a_8'))
+WebUI.setText(findTestObject('Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'), 'Electronic')
 
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/a_Previous'))
+WebUI.sendKeys(findTestObject('Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/a_Next'))
+WebUI.refresh()
 
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/a_1'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Searching Success/select_Search by                           _752fd7'), 
+    'dealer_code', true)
 
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_Activate'))
+WebUI.setText(findTestObject('Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'), 'ERF')
 
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Success/div_Are you sure want to activate Transmart_078b02'))
+WebUI.sendKeys(findTestObject('Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_No'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_Activate'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Success/div_Are you sure want to activate Transmart_078b02'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_Yes'))
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Searching Success/input_Search_form-control form-control-sm'), 
-    'tasik')
-
-WebUI.sendKeys(findTestObject('Object Repository/Master Toko/Searching Success/input_Search_form-control form-control-sm'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/a_2'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/a_Previous'))
+WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/a_4'))
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/a_Next'))
 
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/a_1'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_Activate'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Success/div_Are you sure want to activate undefinedYesNoNo'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_No'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_Activate'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Success/div_Are you sure want to activate undefinedYesNoNo'))
-
-WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_Yes'))
+WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/a_Previous'))
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_Deactivate'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Success/div_Are you sure want to deactivate undefin_0213c2'))
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_No'))
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_Deactivate'))
 
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Success/div_Are you sure want to deactivate undefin_0213c2'))
+WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_Yes'))
+
+WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/a_4'))
+
+WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_Activate'))
+
+WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_No'))
+
+WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_Activate'))
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/button_Yes'))
+
+WebUI.click(findTestObject('Object Repository/Master Toko/Searching Success/a_4'))
 
 WebUI.closeBrowser()
 

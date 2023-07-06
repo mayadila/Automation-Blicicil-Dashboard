@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Deactivate</name>
    <tag></tag>
-   <elementGuidId>1449d802-3aee-463a-bb72-62638478b94a</elementGuidId>
+   <elementGuidId>974bc6bd-c192-40db-9caa-1d383a80ced7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-flat-danger</value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='button']</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d4e3720a-883d-4923-9e31-633b733411c8</webElementGuid>
+      <webElementGuid>6bcf0502-5f97-49f6-b8fd-c0f0eab27ee6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e30a2f94-fec1-4d69-aa19-fcda82d5048a</webElementGuid>
+      <webElementGuid>3d291795-43d5-474a-b713-de5b9d65f1b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-flat-danger</value>
-      <webElementGuid>8dac2c21-3c9d-4087-9752-c6dfc7df083d</webElementGuid>
+      <webElementGuid>41b95949-0b57-4a4b-9751-8ac1545f1abf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>showConfirmationPopup('deactivate', () => actionProduct('1', 0), 'Transmart Cilandak')</value>
-      <webElementGuid>9852b896-e799-4dcc-a752-475008e36ddf</webElementGuid>
+      <value>showConfirmationPopup('deactivate', () => actionProduct('2197', 0), 'Toko Furniture Centre Dc-Mall')</value>
+      <webElementGuid>7f0a76e5-f37c-4226-8c20-3f166c1dc12a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,79 +54,71 @@
       <name>text</name>
       <type>Main</type>
       <value>Deactivate</value>
-      <webElementGuid>2a45eb73-1f53-4dd6-ae27-2db2805509ab</webElementGuid>
+      <webElementGuid>3df0dbf1-301e-4b40-935b-b7e415064071</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-toko&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[4]/button[@class=&quot;btn btn-flat-danger&quot;]</value>
-      <webElementGuid>cb110e14-50f8-4a21-be91-a3edcc689310</webElementGuid>
+      <value>id(&quot;tbl-toko&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[8]/button[@class=&quot;btn btn-flat-danger&quot;]</value>
+      <webElementGuid>93fc5486-1054-4afd-bec6-9f123c139bf6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='button']</value>
-      <webElementGuid>da7adc84-dde9-45b5-857d-1084b6274a9a</webElementGuid>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>86c702f7-02bf-4915-bb6c-82b0274ffb95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-toko']/tbody/tr/td[4]/button</value>
-      <webElementGuid>c37b58f2-7fe6-461b-a96c-02227d5f6b1e</webElementGuid>
+      <value>//table[@id='tbl-toko']/tbody/tr[4]/td[8]/button</value>
+      <webElementGuid>6b53c86d-3766-479a-8842-bb9cdc7a2f1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::button[1]</value>
-      <webElementGuid>16c5fb68-e594-4e78-92f3-ef66736608a3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maps'])[5]/following::button[1]</value>
+      <webElementGuid>267678fe-3dd0-4e09-83d4-451db42969df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmart Cilandak'])[1]/following::button[1]</value>
-      <webElementGuid>21217ebe-ea88-4d44-a379-ba1c73d1aca5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[4]/following::button[1]</value>
+      <webElementGuid>e3a03195-a2e8-42cd-b19f-c3a2d0cff0b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::button[1]</value>
-      <webElementGuid>c81eebb0-5d4d-4651-b8a6-3d546c1220ff</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[4]/preceding::button[1]</value>
+      <webElementGuid>7be13991-f256-4e49-b920-fad3c153bea8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmart Carrefour Central Park'])[1]/preceding::button[1]</value>
-      <webElementGuid>e8c0d3e5-7200-4312-bc5f-7aad4b540ab9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Deactivate']/parent::*</value>
-      <webElementGuid>e13efba8-6c8e-49ac-8ab0-f072d8476fb2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CPIB085'])[1]/preceding::button[1]</value>
+      <webElementGuid>5a9cfaff-e9f7-402b-a403-5b6156609224</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>ba771d31-63bf-4023-bbe1-a5ea7137ecf8</webElementGuid>
+      <value>//tr[4]/td[8]/button</value>
+      <webElementGuid>05f57fc6-f0c4-4d07-b185-7f899b3dd9be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Deactivate' or . = 'Deactivate')]</value>
-      <webElementGuid>7e3e1769-81a3-49fc-8b1a-ac2b3cdfa138</webElementGuid>
+      <webElementGuid>fb052bf9-5621-46af-a240-315dad5d3594</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

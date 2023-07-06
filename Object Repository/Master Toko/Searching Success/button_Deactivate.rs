@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Deactivate</name>
    <tag></tag>
-   <elementGuidId>3f52e89a-e84e-41c3-a9df-eb4c4437a39d</elementGuidId>
+   <elementGuidId>eddaea3c-0464-4b3e-b3cf-e8fff71ee340</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>tr.even > td:nth-of-type(4) > button.btn.btn-flat-danger</value>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
+         <key>CSS</key>
+         <value>button.btn.btn-flat-danger</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a95641ec-5d83-4f67-ac80-23e9218c7c28</webElementGuid>
+      <webElementGuid>60cf6f77-38c9-4595-83cb-d26fb35447d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1ae43488-10fa-4f62-a094-09992ff8398d</webElementGuid>
+      <webElementGuid>b04b0190-594c-4747-ba0a-1fcaa2dbd708</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-flat-danger</value>
-      <webElementGuid>57c00714-e8f0-4a27-b881-09ae83f9e7f1</webElementGuid>
+      <webElementGuid>4e75fb8b-2dd5-4487-acda-1068749585d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>showConfirmationPopup('deactivate', () => actionProduct('82', 0), 'undefined')</value>
-      <webElementGuid>0ea9b225-9d7b-42eb-ac67-864864f36ea4</webElementGuid>
+      <value>showConfirmationPopup('deactivate', () => actionProduct('2026', 0), 'ERAFONE MEGASTORE MT HARYONO BALIKPAPAN')</value>
+      <webElementGuid>86e17c9b-d101-43f4-92d8-7f6e428753cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,71 +54,79 @@
       <name>text</name>
       <type>Main</type>
       <value>Deactivate</value>
-      <webElementGuid>0fdb7243-9cbf-4eab-bff5-0aa825887c84</webElementGuid>
+      <webElementGuid>32ad41ab-89a7-4681-a59e-ffb2236d1ff3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-toko&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[4]/button[@class=&quot;btn btn-flat-danger&quot;]</value>
-      <webElementGuid>1a871909-1a1b-4138-a1e2-0cb921efc1af</webElementGuid>
+      <value>id(&quot;tbl-toko&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[8]/button[@class=&quot;btn btn-flat-danger&quot;]</value>
+      <webElementGuid>902553e6-27b5-4514-bf3e-653d5c0eb123</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[6]</value>
-      <webElementGuid>0b394733-7aed-4c58-abe7-9e8e07bf2253</webElementGuid>
+      <value>//button[@type='button']</value>
+      <webElementGuid>5d93e22b-7c77-47de-95fa-011f4ca3b541</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-toko']/tbody/tr[6]/td[4]/button</value>
-      <webElementGuid>3adc00cf-0ac7-4f8a-85c7-04c9c4923b2b</webElementGuid>
+      <value>//table[@id='tbl-toko']/tbody/tr/td[8]/button</value>
+      <webElementGuid>afce454c-9beb-48b6-b1b7-4397d364dc5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[2]/following::button[1]</value>
-      <webElementGuid>49b11c43-8154-4475-821f-ed8e4b11147c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maps'])[2]/following::button[1]</value>
+      <webElementGuid>25ce757c-6c52-42b3-8f41-9ed3cc4d9291</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='TRANSHELLO TASIKMALAYA JL.IR. H.JUANDA SUKAMULYA BUNGURSARI TASIKMALAYA'])[1]/following::button[1]</value>
-      <webElementGuid>fbd9053a-be78-4576-b54e-e5b599f69b1d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::button[1]</value>
+      <webElementGuid>e9172d28-aa76-4171-ab13-5e3d554becd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[6]/preceding::button[1]</value>
-      <webElementGuid>877768ba-62b1-40a6-a511-bba5679288ae</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::button[1]</value>
+      <webElementGuid>84aba376-be08-4813-b468-4632f0d49ac6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='MASSINDO PAMERAN TASIKMALAYA'])[1]/preceding::button[1]</value>
-      <webElementGuid>8aa4256f-7b83-4e24-9fcd-dc240329f736</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ERF105'])[2]/preceding::button[1]</value>
+      <webElementGuid>26b79bf0-ec4c-4dd6-a421-efc25b1c498b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Deactivate']/parent::*</value>
+      <webElementGuid>969581b9-8447-4c7c-8047-9baac89da1f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[6]/td[4]/button</value>
-      <webElementGuid>1d96d810-1071-4c7a-bf7f-040828f9dc88</webElementGuid>
+      <value>//button</value>
+      <webElementGuid>ea756d4e-cb5a-420f-a2af-edefba164162</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Deactivate' or . = 'Deactivate')]</value>
-      <webElementGuid>8fa9f365-0b62-4614-a92c-f1b41233681b</webElementGuid>
+      <webElementGuid>90bc4d80-1d43-4027-ba60-959384fe7844</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

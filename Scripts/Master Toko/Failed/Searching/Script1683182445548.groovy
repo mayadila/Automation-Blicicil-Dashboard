@@ -19,7 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-'Maximize Window Chrome'
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
@@ -34,39 +33,17 @@ WebUI.click(findTestObject('Object Repository/Master Toko/Searching Failed/a_Mas
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Searching Failed/a_Toko'))
 
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/div_List Toko BliCicil Admin as            _dde361'))
+WebUI.setText(findTestObject('Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch'), 'abc')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Searching Failed/input_Search_form-control form-control-sm'), 
-    '12345678')
-
-WebUI.sendKeys(findTestObject('Object Repository/Master Toko/Searching Failed/input_Search_form-control form-control-sm'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/th_Nama'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/th_Alamat'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/th_Status'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/th_Action'))
+WebUI.sendKeys(findTestObject('Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch'), Keys.chord(
+        Keys.ENTER))
 
 WebUI.refresh()
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Searching Failed/input_Search_form-control form-control-sm'), 
-    'Abcvf')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch'), 'megafinance')
 
-WebUI.sendKeys(findTestObject('Object Repository/Master Toko/Searching Failed/input_Search_form-control form-control-sm'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/th_Nama'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/th_Alamat'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/th_Status'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/th_Action'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Searching Failed/td_No matching records found'))
+WebUI.sendKeys(findTestObject('Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch'), Keys.chord(
+        Keys.ENTER))
 
 WebUI.closeBrowser()
 

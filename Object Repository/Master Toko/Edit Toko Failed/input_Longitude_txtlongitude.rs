@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Longitude_txtlongitude</name>
    <tag></tag>
-   <elementGuidId>91e07084-a686-4ff4-9717-54f54c320de8</elementGuidId>
+   <elementGuidId>7f76a6ee-d159-4f95-b7ca-42a0ee01739b</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#txtlongitude</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='txtlongitude']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#txtlongitude</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>be878db3-1ebc-48e4-9f52-1d4f11202181</webElementGuid>
+      <webElementGuid>75b2d9f0-b2c2-47d4-b364-d189c5390f01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>0c72fdfa-6730-4ca0-92a4-5e34dda35939</webElementGuid>
+      <webElementGuid>0e44c1f6-0574-43e6-a896-5342fd9649f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>pattern</name>
       <type>Main</type>
       <value>\[[+-]?[0-9]*\.?[0-9]+,[+-]?[0-9]*\.?[0-9]+]</value>
-      <webElementGuid>61c5ce14-d0a7-4c30-b9a3-c213bbfdf223</webElementGuid>
+      <webElementGuid>d15781f0-629b-40e5-b518-787e612db1c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txtlongitude</value>
-      <webElementGuid>e867f92f-b2c1-4ba1-9e45-c0b7f9798bc8</webElementGuid>
+      <webElementGuid>471b9354-00ec-4c70-a1bb-967dec0fbb04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>b1dd1026-3bdd-4156-b9c2-c4376c3324d2</webElementGuid>
+      <webElementGuid>04ad35fb-89d3-482b-a970-b6117ca54ffc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>name</name>
       <type>Main</type>
       <value>txtlongitude</value>
-      <webElementGuid>2a671515-9e0a-47b9-a8b5-60e43809bbb2</webElementGuid>
+      <webElementGuid>b866efff-5b99-4794-9aab-7a4ef29f8889</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,15 +70,15 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan longitude</value>
-      <webElementGuid>d8c4a908-f2cb-4cfe-aa82-8565061a0a9e</webElementGuid>
+      <webElementGuid>cca2d1cb-c2a4-4544-9187-640dd7b7960a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>106.814095</value>
-      <webElementGuid>c412309c-60c1-4c4a-89bc-049a670c423a</webElementGuid>
+      <value>109.544467665</value>
+      <webElementGuid>c0495d21-927a-431c-aa75-b0a104e15b7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>onkeydown</name>
       <type>Main</type>
       <value>return((47&lt;event.keyCode &amp;&amp; event.keyCode&lt;58 &amp;&amp; event.shiftKey==false) || (event.keyCode==190 &amp;&amp; event.shiftKey==false) || event.keyCode==37 || event.keyCode==39 || event.keyCode==46 || event.keyCode==8)</value>
-      <webElementGuid>349cb5e8-8f09-4f9d-ac9c-b4da79cb7c8c</webElementGuid>
+      <webElementGuid>f6e44203-52c0-4423-b8c1-91906d78c635</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txtlongitude&quot;)</value>
-      <webElementGuid>2d869b51-cf30-4b53-9ea5-04bed8c6fdf7</webElementGuid>
+      <webElementGuid>445f4363-d4cf-4f1c-9400-1f75816c2cbf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txtlongitude']</value>
-      <webElementGuid>fce85c59-100e-4553-933a-4bd2850aff82</webElementGuid>
+      <webElementGuid>8b40afac-3a2d-47ef-bf25-5a5eed6f79a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='frmToko']/div[9]/div/div/input</value>
-      <webElementGuid>f6eb6579-91a5-4a6b-843b-9c60f8d20d25</webElementGuid>
+      <webElementGuid>c30d1b6b-6345-4dc9-bd15-4b90fa875293</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/div/div/input</value>
-      <webElementGuid>d60d2ba6-0b56-4891-bf6e-789bf7e51077</webElementGuid>
+      <webElementGuid>bb6c172d-8ad6-43e1-a12f-95e55efce491</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'txtlongitude' and @name = 'txtlongitude' and @placeholder = 'Masukkan longitude']</value>
-      <webElementGuid>d4f26b59-7ee4-4193-b55e-65fb45ff633f</webElementGuid>
+      <webElementGuid>2ebcc971-52ce-41a3-b51a-deabd38daa01</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

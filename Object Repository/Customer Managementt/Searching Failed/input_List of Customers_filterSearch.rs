@@ -3,15 +3,15 @@
    <description></description>
    <name>input_List of Customers_filterSearch</name>
    <tag></tag>
-   <elementGuidId>c43efeb2-237a-4f56-ae76-b3e6243230c2</elementGuidId>
+   <elementGuidId>71b35415-b960-4dfb-8e36-0b18ca5a545d</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#filterSearch</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='filterSearch']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#filterSearch</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>854d09e7-a14b-4bec-add7-01ebff057969</webElementGuid>
+      <webElementGuid>e6fc9eb0-67da-4384-bbfd-210178c81aaf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>ace7fef1-1ae4-4fde-b8a1-400f92766149</webElementGuid>
+      <webElementGuid>fc252e98-2903-4a70-8de8-e96d9cb5f022</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>filterSearch</value>
-      <webElementGuid>18727333-d3b3-469b-b4be-8ce60aead2e6</webElementGuid>
+      <webElementGuid>c8751d32-0142-4435-b4ba-b1cc9ee84cf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>820d2bf0-c1f9-418e-b19a-1b4a26a43933</webElementGuid>
+      <webElementGuid>a8c03622-7046-486e-b919-621fa1fc9e83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan keyword   </value>
-      <webElementGuid>5054b28e-3dbf-4028-91f3-8c2961c99150</webElementGuid>
+      <webElementGuid>d65111a9-51e4-4106-bc0f-2e89d2a77b89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>name</name>
       <type>Main</type>
       <value>filterSearch</value>
-      <webElementGuid>c17a6366-5fc8-40e9-856c-e4ad27c6a3eb</webElementGuid>
+      <webElementGuid>fa886bee-87e7-4521-8ea3-bc0c8ae3ee07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;filterSearch&quot;)</value>
-      <webElementGuid>b6a307d0-d597-4f66-9e7a-c8cc8397f138</webElementGuid>
+      <webElementGuid>49e74a34-cba1-42b1-aa3e-2b2b6c31393f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='filterSearch']</value>
-      <webElementGuid>76432c4d-2a0a-4fa9-88ec-a10aa6530024</webElementGuid>
+      <webElementGuid>9608a045-2b82-4433-9aa1-a5ae91b2922d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='complex-header-datatable']/div/div/div/div[2]/div/div[2]/div[2]/div/input</value>
-      <webElementGuid>104bcc4e-f306-4bc8-ac15-d782e39eef1d</webElementGuid>
+      <webElementGuid>b5d77a63-d374-4227-b76b-7160988eabe3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>8c344cf2-c47f-449f-ade7-930123808572</webElementGuid>
+      <webElementGuid>bfded4fc-4baf-41ea-be06-4f8ac92b48b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'filterSearch' and @placeholder = 'Masukkan keyword   ' and @name = 'filterSearch']</value>
-      <webElementGuid>8785485b-b62e-48c9-8722-d9ac44acde01</webElementGuid>
+      <webElementGuid>ee0bd40b-c139-4d75-a2bc-30acf6c1d419</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

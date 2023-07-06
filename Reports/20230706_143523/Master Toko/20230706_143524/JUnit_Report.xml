@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Master Toko" time="371.373" tests="7" failures="2" errors="0">
+   <testsuite name="Master Toko" tests="7" failures="2" errors="0" time="371.373" skipped="0" timestamp="2023-07-06 14:35:27" hostname="202102359 - KPO-Blicicil.pdc.megafinance.co.id" id="Test Suites/Master Toko">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230706_143523\\Master Toko\\20230706_143524"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230706_143523\\Master Toko\\20230706_143524\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230706_143523\\Master Toko\\20230706_143524\\1688628977776.png, C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230706_143523\\Master Toko\\20230706_143524\\1688629286935.png"/>
+         <property name="hostName" value="202102359 - KPO-Blicicil.pdc.megafinance.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.16.53"/>
+         <property name="sessionId" value="179d2eb44a9e0b18a37cf6b6bb9f2ad3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Master Toko/Beranda" time="50.784" classname="Test Cases/Master Toko/Beranda" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Master Toko/Beranda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Toko/Beranda/a_Next'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Beranda.run(Beranda:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688628924841.run(TempTestSuite1688628924841.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;#&quot; aria-controls=&quot;tbl-toko&quot; data-dt-idx=&quot;8&quot; tabindex=&quot;0&quot; class=&quot;page-link&quot;>...&lt;/a> is not clickable at point (2202, 924). Other element would receive the click: &lt;li class=&quot;paginate_button page-item next disabled&quot; id=&quot;tbl-toko_next&quot;>...&lt;/li>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\202102~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51931}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c71748a02e35df3277c87070333a8da7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-07-06 14:35:27 - [TEST_CASE][FAILED] - Test Cases/Master Toko/Beranda: Test Cases/Master Toko/Beranda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Toko/Beranda/a_Next'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Beranda.run(Beranda:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688628924841.run(TempTestSuite1688628924841.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" aria-controls="tbl-toko" data-dt-idx="8" tabindex="0" class="page-link">...</a> is not clickable at point (2202, 924). Other element would receive the click: <li class="paginate_button page-item next disabled" id="tbl-toko_next">...</li>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\202102~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51931}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c71748a02e35df3277c87070333a8da7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-07-06 14:35:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-06 14:35:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-06 14:35:27 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-06 14:35:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-06 14:35:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-06 14:35:29 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-06 14:35:30 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-06 14:35:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Beranda/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Toko/Beranda/input_Email_email'
+
+2023-07-06 14:35:31 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Toko/Beranda/input_Email_email'
+
+2023-07-06 14:35:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Toko/Beranda/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Toko/Beranda/input_Password_password'
+
+2023-07-06 14:35:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Toko/Beranda/input_Password_password'
+
+2023-07-06 14:35:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Beranda/button_Login")): Object: 'Object Repository/Master Toko/Beranda/button_Login' is clicked on
+
+2023-07-06 14:35:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Beranda/button_Login' is clicked on
+
+2023-07-06 14:35:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Beranda/a_Master")): Object: 'Object Repository/Master Toko/Beranda/a_Master' is clicked on
+
+2023-07-06 14:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Beranda/a_Master' is clicked on
+
+2023-07-06 14:35:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Beranda/a_Toko")): Object: 'Object Repository/Master Toko/Beranda/a_Toko' is clicked on
+
+2023-07-06 14:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Beranda/a_Toko' is clicked on
+
+2023-07-06 14:35:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Beranda/a_4")): Object: 'Object Repository/Master Toko/Beranda/a_4' is clicked on
+
+2023-07-06 14:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Beranda/a_4' is clicked on
+
+2023-07-06 14:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Beranda/a_220")): Object: 'Object Repository/Master Toko/Beranda/a_220' is clicked on
+
+2023-07-06 14:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Beranda/a_220' is clicked on
+
+2023-07-06 14:35:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Beranda/a_217")): Object: 'Object Repository/Master Toko/Beranda/a_217' is clicked on
+
+2023-07-06 14:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Beranda/a_217' is clicked on
+
+2023-07-06 14:35:45 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Master Toko/Beranda/a_Next")): Unable to click on object 'Object Repository/Master Toko/Beranda/a_Next' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Toko/Beranda/a_Next'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Beranda.run(Beranda:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688628924841.run(TempTestSuite1688628924841.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" aria-controls="tbl-toko" data-dt-idx="8" tabindex="0" class="page-link">...</a> is not clickable at point (2202, 924). Other element would receive the click: <li class="paginate_button page-item next disabled" id="tbl-toko_next">...</li>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\202102~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51931}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c71748a02e35df3277c87070333a8da7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1683169236228.run(Script1683169236228.groovy:40)
+	... 13 more
+)
+
+2023-07-06 14:36:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Master Toko/Beranda/a_Next' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Toko/Beranda/a_Next'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Beranda.run(Beranda:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688628924841.run(TempTestSuite1688628924841.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" aria-controls="tbl-toko" data-dt-idx="8" tabindex="0" class="page-link">...</a> is not clickable at point (2202, 924). Other element would receive the click: <li class="paginate_button page-item next disabled" id="tbl-toko_next">...</li>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\202102~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51931}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c71748a02e35df3277c87070333a8da7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1683169236228.run(Script1683169236228.groovy:40)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230706_143523\\Master Toko\\20230706_143524\\1688628977776.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-06 14:35:27 - [TEST_CASE][FAILED] - Test Cases/Master Toko/Beranda: Test Cases/Master Toko/Beranda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Toko/Beranda/a_Next'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Beranda.run(Beranda:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688628924841.run(TempTestSuite1688628924841.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" aria-controls="tbl-toko" data-dt-idx="8" tabindex="0" class="page-link">...</a> is not clickable at point (2202, 924). Other element would receive the click: <li class="paginate_button page-item next disabled" id="tbl-toko_next">...</li>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\202102~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51931}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c71748a02e35df3277c87070333a8da7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Toko/Success/Add Toko" time="64.113" classname="Test Cases/Master Toko/Success/Add Toko" status="PASSED">
+         <system-out><![CDATA[2023-07-06 14:36:18 - [TEST_CASE][PASSED] - Test Cases/Master Toko/Success/Add Toko: Test Cases/Master Toko/Success/Add Toko
+
+2023-07-06 14:36:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-06 14:36:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-06 14:36:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-06 14:36:18 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-06 14:36:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-06 14:36:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-06 14:36:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-06 14:36:20 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-06 14:36:20 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-06 14:36:20 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-06 14:36:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Toko/Add Toko Success/input_Email_email'
+
+2023-07-06 14:36:21 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Toko/Add Toko Success/input_Email_email'
+
+2023-07-06 14:36:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Toko/Add Toko Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Toko/Add Toko Success/input_Password_password'
+
+2023-07-06 14:36:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Toko/Add Toko Success/input_Password_password'
+
+2023-07-06 14:36:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Success/button_Login")): Object: 'Object Repository/Master Toko/Add Toko Success/button_Login' is clicked on
+
+2023-07-06 14:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Success/button_Login' is clicked on
+
+2023-07-06 14:36:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Success/a_Master")): Object: 'Object Repository/Master Toko/Add Toko Success/a_Master' is clicked on
+
+2023-07-06 14:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Success/a_Master' is clicked on
+
+2023-07-06 14:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Success/a_Toko")): Object: 'Object Repository/Master Toko/Add Toko Success/a_Toko' is clicked on
+
+2023-07-06 14:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Success/a_Toko' is clicked on
+
+2023-07-06 14:36:25 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Toko/Add Toko Success/div_List Toko BliCicil Admin as            _dde361")): Text of object 'Object Repository/Master Toko/Add Toko Success/div_List Toko BliCicil Admin as            _dde361' is: 'List Toko BliCicil Admin as
+New Toko'
+
+2023-07-06 14:36:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Toko/Add Toko Success/div_List Toko BliCicil Admin as            _dde361' is: 'List Toko BliCicil Admin as
+New Toko'
+
+2023-07-06 14:36:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Success/svg_List Toko BliCicil Admin as_feather fea_a26c67")): Object: 'Object Repository/Master Toko/Add Toko Success/svg_List Toko BliCicil Admin as_feather fea_a26c67' is clicked on
+
+2023-07-06 14:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Success/svg_List Toko BliCicil Admin as_feather fea_a26c67' is clicked on
+
+2023-07-06 14:36:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master Toko/Add Toko Success/select_TransmartPanasonicPolytronAsusSamsun_36b03e"), "3", true): All options with value '3' are selected in object 'Object Repository/Master Toko/Add Toko Success/select_TransmartPanasonicPolytronAsusSamsun_36b03e'  using regular expression
+
+2023-07-06 14:36:28 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Master Toko/Add Toko Success/select_TransmartPanasonicPolytronAsusSamsun_36b03e'  using regular expression
+
+2023-07-06 14:36:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master Toko/Add Toko Success/select_Aceh SelatanBalanganBalikpapanBantae_4910c5"), "430", true): All options with value '430' are selected in object 'Object Repository/Master Toko/Add Toko Success/select_Aceh SelatanBalanganBalikpapanBantae_4910c5'  using regular expression
+
+2023-07-06 14:36:41 - [MESSAGE][PASSED] - All options with value '430' are selected in object 'Object Repository/Master Toko/Add Toko Success/select_Aceh SelatanBalanganBalikpapanBantae_4910c5'  using regular expression
+
+2023-07-06 14:36:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Success/input_Nama Toko_txtNamaToko"), "Testing Toko Baru"): Text 'Testing Toko Baru' is set on object 'Object Repository/Master Toko/Add Toko Success/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:36:42 - [MESSAGE][PASSED] - Text 'Testing Toko Baru' is set on object 'Object Repository/Master Toko/Add Toko Success/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:36:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Success/input_Outlet Name_txtNamaOutlet"), "Toko Baru ya"): Text 'Toko Baru ya' is set on object 'Object Repository/Master Toko/Add Toko Success/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:36:43 - [MESSAGE][PASSED] - Text 'Toko Baru ya' is set on object 'Object Repository/Master Toko/Add Toko Success/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:36:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Success/textarea_Address_txtAlamat"), "Jalan Wiajya"): Text 'Jalan Wiajya' is set on object 'Object Repository/Master Toko/Add Toko Success/textarea_Address_txtAlamat'
+
+2023-07-06 14:36:44 - [MESSAGE][PASSED] - Text 'Jalan Wiajya' is set on object 'Object Repository/Master Toko/Add Toko Success/textarea_Address_txtAlamat'
+
+2023-07-06 14:36:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Success/input_Dealer Code_txtDealerCode"), "D00345"): Text 'D00345' is set on object 'Object Repository/Master Toko/Add Toko Success/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:36:45 - [MESSAGE][PASSED] - Text 'D00345' is set on object 'Object Repository/Master Toko/Add Toko Success/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:36:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Success/input_Telephone_txtTelepon"), "0293847475940"): Text '0293847475940' is set on object 'Object Repository/Master Toko/Add Toko Success/input_Telephone_txtTelepon'
+
+2023-07-06 14:36:46 - [MESSAGE][PASSED] - Text '0293847475940' is set on object 'Object Repository/Master Toko/Add Toko Success/input_Telephone_txtTelepon'
+
+2023-07-06 14:36:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Success/input_Latitude_txtlatitude"), "-60.28888"): Text '-60.28888' is set on object 'Object Repository/Master Toko/Add Toko Success/input_Latitude_txtlatitude'
+
+2023-07-06 14:36:46 - [MESSAGE][PASSED] - Text '-60.28888' is set on object 'Object Repository/Master Toko/Add Toko Success/input_Latitude_txtlatitude'
+
+2023-07-06 14:36:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Success/input_Longitude_txtlongitude"), "102.4848493"): Text '102.4848493' is set on object 'Object Repository/Master Toko/Add Toko Success/input_Longitude_txtlongitude'
+
+2023-07-06 14:36:47 - [MESSAGE][PASSED] - Text '102.4848493' is set on object 'Object Repository/Master Toko/Add Toko Success/input_Longitude_txtlongitude'
+
+2023-07-06 14:36:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Success/button_Submit")): Object: 'Object Repository/Master Toko/Add Toko Success/button_Submit' is clicked on
+
+2023-07-06 14:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Success/button_Submit' is clicked on
+
+2023-07-06 14:36:48 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Toko/Add Toko Success/div_SuccessOKNoCancel")): Text of object 'Object Repository/Master Toko/Add Toko Success/div_SuccessOKNoCancel' is: 'Messages
+Timeline
+Exceptions
+Views5
+Route
+Queries30
+Models70
+Mails
+Gate
+Session
+Request
+7.4.30
+49.1ms
+5MB
+GET master/toko/add'
+
+2023-07-06 14:36:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Toko/Add Toko Success/div_SuccessOKNoCancel' is: 'Messages
+Timeline
+Exceptions
+Views5
+Route
+Queries30
+Models70
+Mails
+Gate
+Session
+Request
+7.4.30
+49.1ms
+5MB
+GET master/toko/add'
+
+2023-07-06 14:36:49 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Toko/Add Toko Success/div_List Toko BliCicil Admin as            _dde361")): Text of object 'Object Repository/Master Toko/Add Toko Success/div_List Toko BliCicil Admin as            _dde361' is: 'Add Toko BliCicil Admin as'
+
+2023-07-06 14:36:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Toko/Add Toko Success/div_List Toko BliCicil Admin as            _dde361' is: 'Add Toko BliCicil Admin as'
+
+2023-07-06 14:36:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Success/a_172")): Object: 'Object Repository/Master Toko/Add Toko Success/a_172' is clicked on
+
+2023-07-06 14:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Success/a_172' is clicked on
+
+2023-07-06 14:37:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-06 14:37:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Toko/Failed/Add Toko" time="76.002" classname="Test Cases/Master Toko/Failed/Add Toko" status="PASSED">
+         <system-out><![CDATA[2023-07-06 14:37:22 - [TEST_CASE][PASSED] - Test Cases/Master Toko/Failed/Add Toko: Test Cases/Master Toko/Failed/Add Toko
+
+2023-07-06 14:37:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-06 14:37:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-06 14:37:22 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-06 14:37:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-06 14:37:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-06 14:37:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-06 14:37:23 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-06 14:37:23 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-06 14:37:24 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-06 14:37:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Email_email'
+
+2023-07-06 14:37:25 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Email_email'
+
+2023-07-06 14:37:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Toko/Add Toko Failed/input_Password_password'
+
+2023-07-06 14:37:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Toko/Add Toko Failed/input_Password_password'
+
+2023-07-06 14:37:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/button_Login")): Object: 'Object Repository/Master Toko/Add Toko Failed/button_Login' is clicked on
+
+2023-07-06 14:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/button_Login' is clicked on
+
+2023-07-06 14:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/a_Master")): Object: 'Object Repository/Master Toko/Add Toko Failed/a_Master' is clicked on
+
+2023-07-06 14:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/a_Master' is clicked on
+
+2023-07-06 14:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/a_Toko")): Object: 'Object Repository/Master Toko/Add Toko Failed/a_Toko' is clicked on
+
+2023-07-06 14:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/a_Toko' is clicked on
+
+2023-07-06 14:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/a_New Toko")): Object: 'Object Repository/Master Toko/Add Toko Failed/a_New Toko' is clicked on
+
+2023-07-06 14:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/a_New Toko' is clicked on
+
+2023-07-06 14:37:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/div_Add Toko BliCicil Admin as")): Object: 'Object Repository/Master Toko/Add Toko Failed/div_Add Toko BliCicil Admin as' is clicked on
+
+2023-07-06 14:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/div_Add Toko BliCicil Admin as' is clicked on
+
+2023-07-06 14:37:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_Merchant")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:37:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_City")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:37:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko' is clicked on
+
+2023-07-06 14:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko' is clicked on
+
+2023-07-06 14:37:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet' is clicked on
+
+2023-07-06 14:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet' is clicked on
+
+2023-07-06 14:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Master Toko/Add Toko Failed/textarea_Address_txtAlamat")): Object: 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat' is clicked on
+
+2023-07-06 14:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat' is clicked on
+
+2023-07-06 14:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode' is clicked on
+
+2023-07-06 14:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode' is clicked on
+
+2023-07-06 14:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon' is clicked on
+
+2023-07-06 14:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon' is clicked on
+
+2023-07-06 14:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude' is clicked on
+
+2023-07-06 14:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude' is clicked on
+
+2023-07-06 14:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude' is clicked on
+
+2023-07-06 14:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude' is clicked on
+
+2023-07-06 14:37:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/button_Submit")): Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:37:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Store name field is required.O_09bc32")): Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Store name field is required.O_09bc32' is clicked on
+
+2023-07-06 14:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Store name field is required.O_09bc32' is clicked on
+
+2023-07-06 14:37:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_Merchant")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:37:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_City")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:37:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko"), "abc"): Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:37:40 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:37:40 - [TEST_STEP][PASSED] - click(findTestObject("Master Toko/Add Toko Failed/textarea_Address_txtAlamat")): Object: 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat' is clicked on
+
+2023-07-06 14:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat' is clicked on
+
+2023-07-06 14:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet' is clicked on
+
+2023-07-06 14:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet' is clicked on
+
+2023-07-06 14:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode' is clicked on
+
+2023-07-06 14:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode' is clicked on
+
+2023-07-06 14:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon' is clicked on
+
+2023-07-06 14:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon' is clicked on
+
+2023-07-06 14:37:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude' is clicked on
+
+2023-07-06 14:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude' is clicked on
+
+2023-07-06 14:37:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude' is clicked on
+
+2023-07-06 14:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude' is clicked on
+
+2023-07-06 14:37:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/button_Submit")): Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:37:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Address field is required.OKNoCancel")): Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Address field is required.OKNoCancel' is clicked on
+
+2023-07-06 14:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Address field is required.OKNoCancel' is clicked on
+
+2023-07-06 14:37:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_Merchant")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:37:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_City")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:37:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko"), "abc"): Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:37:48 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:37:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet' is clicked on
+
+2023-07-06 14:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet' is clicked on
+
+2023-07-06 14:37:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat"), "Jalan wijaya"): Text 'Jalan wijaya' is set on object 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat'
+
+2023-07-06 14:37:49 - [MESSAGE][PASSED] - Text 'Jalan wijaya' is set on object 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat'
+
+2023-07-06 14:37:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode' is clicked on
+
+2023-07-06 14:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode' is clicked on
+
+2023-07-06 14:37:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon' is clicked on
+
+2023-07-06 14:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon' is clicked on
+
+2023-07-06 14:37:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude' is clicked on
+
+2023-07-06 14:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude' is clicked on
+
+2023-07-06 14:37:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude' is clicked on
+
+2023-07-06 14:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude' is clicked on
+
+2023-07-06 14:37:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/button_Submit")): Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:37:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Outlet name field is required._e4b0d3")): Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Outlet name field is required._e4b0d3' is clicked on
+
+2023-07-06 14:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Outlet name field is required._e4b0d3' is clicked on
+
+2023-07-06 14:37:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_Merchant")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:37:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:37:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_City")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:37:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko"), "abcv"): Text 'abcv' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:37:56 - [MESSAGE][PASSED] - Text 'abcv' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:37:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet"), "ABC"): Text 'ABC' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:37:56 - [MESSAGE][PASSED] - Text 'ABC' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:37:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat"), "Jalan wijaya kusuma"): Text 'Jalan wijaya kusuma' is set on object 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat'
+
+2023-07-06 14:37:57 - [MESSAGE][PASSED] - Text 'Jalan wijaya kusuma' is set on object 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat'
+
+2023-07-06 14:37:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode"), ""): Text '' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:37:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:37:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode' is clicked on
+
+2023-07-06 14:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode' is clicked on
+
+2023-07-06 14:37:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon' is clicked on
+
+2023-07-06 14:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon' is clicked on
+
+2023-07-06 14:37:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude' is clicked on
+
+2023-07-06 14:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude' is clicked on
+
+2023-07-06 14:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude' is clicked on
+
+2023-07-06 14:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude' is clicked on
+
+2023-07-06 14:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/button_Submit")): Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Dealer code field is required._49c3fb")): Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Dealer code field is required._49c3fb' is clicked on
+
+2023-07-06 14:38:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Dealer code field is required._49c3fb' is clicked on
+
+2023-07-06 14:38:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_Merchant")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:38:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_City")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:38:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko"), "abc"): Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:38:04 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:38:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet"), "ABC"): Text 'ABC' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:38:05 - [MESSAGE][PASSED] - Text 'ABC' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:38:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat"), "Jalan wijaya kusuma"): Text 'Jalan wijaya kusuma' is set on object 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat'
+
+2023-07-06 14:38:06 - [MESSAGE][PASSED] - Text 'Jalan wijaya kusuma' is set on object 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat'
+
+2023-07-06 14:38:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode"), "ab"): Text 'ab' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:38:07 - [MESSAGE][PASSED] - Text 'ab' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:38:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon"), ""): Text '' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:38:07 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:38:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude' is clicked on
+
+2023-07-06 14:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude' is clicked on
+
+2023-07-06 14:38:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude' is clicked on
+
+2023-07-06 14:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude' is clicked on
+
+2023-07-06 14:38:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/button_Submit")): Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:38:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Telepon field is required.OKNoCancel")): Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Telepon field is required.OKNoCancel' is clicked on
+
+2023-07-06 14:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Telepon field is required.OKNoCancel' is clicked on
+
+2023-07-06 14:38:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_Merchant")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:38:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_City")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:38:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko"), "abc"): Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:38:13 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:38:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet"), "ABC"): Text 'ABC' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:38:14 - [MESSAGE][PASSED] - Text 'ABC' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:38:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat"), "Jalan wijaya kusuma"): Text 'Jalan wijaya kusuma' is set on object 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat'
+
+2023-07-06 14:38:15 - [MESSAGE][PASSED] - Text 'Jalan wijaya kusuma' is set on object 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat'
+
+2023-07-06 14:38:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode"), "abc"): Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:38:15 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:38:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon"), "021023903"): Text '021023903' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:38:16 - [MESSAGE][PASSED] - Text '021023903' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:38:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude' is clicked on
+
+2023-07-06 14:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude' is clicked on
+
+2023-07-06 14:38:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude' is clicked on
+
+2023-07-06 14:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude' is clicked on
+
+2023-07-06 14:38:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/button_Submit")): Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:38:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Latitude field is required.OKNoCancel")): Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Latitude field is required.OKNoCancel' is clicked on
+
+2023-07-06 14:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Latitude field is required.OKNoCancel' is clicked on
+
+2023-07-06 14:38:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_Merchant")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_City")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:38:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko"), "abc"): Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:38:22 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:38:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet"), "ABC"): Text 'ABC' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:38:23 - [MESSAGE][PASSED] - Text 'ABC' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:38:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat"), "Jalan wijaya kusuma"): Text 'Jalan wijaya kusuma' is set on object 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat'
+
+2023-07-06 14:38:23 - [MESSAGE][PASSED] - Text 'Jalan wijaya kusuma' is set on object 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat'
+
+2023-07-06 14:38:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode"), "abc"): Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:38:24 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:38:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon"), "0210239033"): Text '0210239033' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:38:25 - [MESSAGE][PASSED] - Text '0210239033' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:38:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude"), "-19.4647"): Text '-19.4647' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:38:25 - [MESSAGE][PASSED] - Text '-19.4647' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:38:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude")): Object: 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude' is clicked on
+
+2023-07-06 14:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude' is clicked on
+
+2023-07-06 14:38:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/button_Submit")): Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:38:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Longitude field is required.OK_5f5eec")): Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Longitude field is required.OK_5f5eec' is clicked on
+
+2023-07-06 14:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Longitude field is required.OK_5f5eec' is clicked on
+
+2023-07-06 14:38:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_Merchant")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_Merchant' is clicked on
+
+2023-07-06 14:38:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/label_City")): Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/label_City' is clicked on
+
+2023-07-06 14:38:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko"), "abc"): Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:38:31 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:38:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet"), "ABC"): Text 'ABC' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:38:32 - [MESSAGE][PASSED] - Text 'ABC' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:38:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat"), "Jalan wijaya kusuma"): Text 'Jalan wijaya kusuma' is set on object 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat'
+
+2023-07-06 14:38:33 - [MESSAGE][PASSED] - Text 'Jalan wijaya kusuma' is set on object 'Object Repository/Master Toko/Add Toko Failed/textarea_Address_txtAlamat'
+
+2023-07-06 14:38:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode"), ""): Text '' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:38:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:38:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon"), "021023903"): Text '021023903' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:38:34 - [MESSAGE][PASSED] - Text '021023903' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:38:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude"), "-19.46473"): Text '-19.46473' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:38:35 - [MESSAGE][PASSED] - Text '-19.46473' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:38:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude"), "106.489599"): Text '106.489599' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude'
+
+2023-07-06 14:38:35 - [MESSAGE][PASSED] - Text '106.489599' is set on object 'Object Repository/Master Toko/Add Toko Failed/input_Longitude_txtlongitude'
+
+2023-07-06 14:38:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/button_Submit")): Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Dealer code field is required._49c3fb")): Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Dealer code field is required._49c3fb' is clicked on
+
+2023-07-06 14:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Add Toko Failed/div_ErrorThe Dealer code field is required._49c3fb' is clicked on
+
+2023-07-06 14:38:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-06 14:38:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Toko/Success/Edit Toko" time="53.929" classname="Test Cases/Master Toko/Success/Edit Toko" status="PASSED">
+         <system-out><![CDATA[2023-07-06 14:38:38 - [TEST_CASE][PASSED] - Test Cases/Master Toko/Success/Edit Toko: Test Cases/Master Toko/Success/Edit Toko
+
+2023-07-06 14:38:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-06 14:38:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-06 14:38:38 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-06 14:38:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-06 14:38:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-06 14:38:39 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-06 14:38:40 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-06 14:38:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Toko/Edit Toko Success/input_Email_email'
+
+2023-07-06 14:38:41 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Toko/Edit Toko Success/input_Email_email'
+
+2023-07-06 14:38:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Toko/Edit Toko Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Toko/Edit Toko Success/input_Password_password'
+
+2023-07-06 14:38:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Toko/Edit Toko Success/input_Password_password'
+
+2023-07-06 14:38:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Success/button_Login")): Object: 'Object Repository/Master Toko/Edit Toko Success/button_Login' is clicked on
+
+2023-07-06 14:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Success/button_Login' is clicked on
+
+2023-07-06 14:38:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Success/a_Master")): Object: 'Object Repository/Master Toko/Edit Toko Success/a_Master' is clicked on
+
+2023-07-06 14:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Success/a_Master' is clicked on
+
+2023-07-06 14:38:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Success/a_Toko")): Object: 'Object Repository/Master Toko/Edit Toko Success/a_Toko' is clicked on
+
+2023-07-06 14:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Success/a_Toko' is clicked on
+
+2023-07-06 14:38:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Success/a_Edit")): Object: 'Object Repository/Master Toko/Edit Toko Success/a_Edit' is clicked on
+
+2023-07-06 14:38:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Success/a_Edit' is clicked on
+
+2023-07-06 14:38:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master Toko/Edit Toko Success/select_TransmartPanasonicPolytronAsusSamsun_e34999"), "4", true): All options with value '4' are selected in object 'Object Repository/Master Toko/Edit Toko Success/select_TransmartPanasonicPolytronAsusSamsun_e34999'  using regular expression
+
+2023-07-06 14:39:04 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Master Toko/Edit Toko Success/select_TransmartPanasonicPolytronAsusSamsun_e34999'  using regular expression
+
+2023-07-06 14:39:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master Toko/Edit Toko Success/select_Aceh BaratAceh Barat DayaAceh BesarA_60dc3d"), "429", true): All options with value '429' are selected in object 'Object Repository/Master Toko/Edit Toko Success/select_Aceh BaratAceh Barat DayaAceh BesarA_60dc3d'  using regular expression
+
+2023-07-06 14:39:15 - [MESSAGE][PASSED] - All options with value '429' are selected in object 'Object Repository/Master Toko/Edit Toko Success/select_Aceh BaratAceh Barat DayaAceh BesarA_60dc3d'  using regular expression
+
+2023-07-06 14:39:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Success/input_Nama Toko_txtNamaToko"), "Asus Asyncron Store"): Text 'Asus Asyncron Store' is set on object 'Object Repository/Master Toko/Edit Toko Success/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:39:16 - [MESSAGE][PASSED] - Text 'Asus Asyncron Store' is set on object 'Object Repository/Master Toko/Edit Toko Success/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:39:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Success/input_Outlet Name_txtNamaOutlet"), "Asus Async Store"): Text 'Asus Async Store' is set on object 'Object Repository/Master Toko/Edit Toko Success/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:39:17 - [MESSAGE][PASSED] - Text 'Asus Async Store' is set on object 'Object Repository/Master Toko/Edit Toko Success/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:39:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Success/textarea_Jalan Kebayoran Baru No 10"), "Jalan Kebayoran Baru Kav 20"): Text 'Jalan Kebayoran Baru Kav 20' is set on object 'Object Repository/Master Toko/Edit Toko Success/textarea_Jalan Kebayoran Baru No 10'
+
+2023-07-06 14:39:18 - [MESSAGE][PASSED] - Text 'Jalan Kebayoran Baru Kav 20' is set on object 'Object Repository/Master Toko/Edit Toko Success/textarea_Jalan Kebayoran Baru No 10'
+
+2023-07-06 14:39:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Success/input_Dealer Code_txtDealerCode"), "A003"): Text 'A003' is set on object 'Object Repository/Master Toko/Edit Toko Success/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:39:18 - [MESSAGE][PASSED] - Text 'A003' is set on object 'Object Repository/Master Toko/Edit Toko Success/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:39:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Success/input_Telephone_txtTelepon"), "0239394444"): Text '0239394444' is set on object 'Object Repository/Master Toko/Edit Toko Success/input_Telephone_txtTelepon'
+
+2023-07-06 14:39:19 - [MESSAGE][PASSED] - Text '0239394444' is set on object 'Object Repository/Master Toko/Edit Toko Success/input_Telephone_txtTelepon'
+
+2023-07-06 14:39:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Success/input_Latitude_txtlatitude"), "-20.30490494"): Text '-20.30490494' is set on object 'Object Repository/Master Toko/Edit Toko Success/input_Latitude_txtlatitude'
+
+2023-07-06 14:39:20 - [MESSAGE][PASSED] - Text '-20.30490494' is set on object 'Object Repository/Master Toko/Edit Toko Success/input_Latitude_txtlatitude'
+
+2023-07-06 14:39:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Success/input_Longitude_txtlongitude"), "109.37364474"): Text '109.37364474' is set on object 'Object Repository/Master Toko/Edit Toko Success/input_Longitude_txtlongitude'
+
+2023-07-06 14:39:20 - [MESSAGE][PASSED] - Text '109.37364474' is set on object 'Object Repository/Master Toko/Edit Toko Success/input_Longitude_txtlongitude'
+
+2023-07-06 14:39:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Success/button_Submit")): Object: 'Object Repository/Master Toko/Edit Toko Success/button_Submit' is clicked on
+
+2023-07-06 14:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Success/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Toko/Failed/Edit Toko" time="55.74" classname="Test Cases/Master Toko/Failed/Edit Toko" status="PASSED">
+         <system-out><![CDATA[2023-07-06 14:39:32 - [TEST_CASE][PASSED] - Test Cases/Master Toko/Failed/Edit Toko: Test Cases/Master Toko/Failed/Edit Toko
+
+2023-07-06 14:39:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-06 14:39:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-06 14:39:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-06 14:39:33 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-06 14:39:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-06 14:39:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-06 14:39:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-06 14:39:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-06 14:39:34 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-06 14:39:35 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-06 14:39:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Email_email'
+
+2023-07-06 14:39:36 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Email_email'
+
+2023-07-06 14:39:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Password_password'
+
+2023-07-06 14:39:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Password_password'
+
+2023-07-06 14:39:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Failed/button_Login")): Object: 'Object Repository/Master Toko/Edit Toko Failed/button_Login' is clicked on
+
+2023-07-06 14:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Failed/button_Login' is clicked on
+
+2023-07-06 14:39:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Failed/a_Master")): Object: 'Object Repository/Master Toko/Edit Toko Failed/a_Master' is clicked on
+
+2023-07-06 14:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Failed/a_Master' is clicked on
+
+2023-07-06 14:39:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Failed/a_Toko")): Object: 'Object Repository/Master Toko/Edit Toko Failed/a_Toko' is clicked on
+
+2023-07-06 14:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Failed/a_Toko' is clicked on
+
+2023-07-06 14:39:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Failed/a_Edit")): Object: 'Object Repository/Master Toko/Edit Toko Failed/a_Edit' is clicked on
+
+2023-07-06 14:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Failed/a_Edit' is clicked on
+
+2023-07-06 14:39:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko"), ""): Text '' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:39:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:39:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet"), "Panasonic Store"): Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:39:42 - [MESSAGE][PASSED] - Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:39:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn"), "Jalan Wijya"): Text 'Jalan Wijya' is set on object 'Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'
+
+2023-07-06 14:39:43 - [MESSAGE][PASSED] - Text 'Jalan Wijya' is set on object 'Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'
+
+2023-07-06 14:39:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode"), "PAN021"): Text 'PAN021' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:39:44 - [MESSAGE][PASSED] - Text 'PAN021' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:39:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon"), "0211111"): Text '0211111' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:39:44 - [MESSAGE][PASSED] - Text '0211111' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:39:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude"), "-1.756"): Text '-1.756' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:39:45 - [MESSAGE][PASSED] - Text '-1.756' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:39:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude"), "109.544467"): Text '109.544467' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'
+
+2023-07-06 14:39:46 - [MESSAGE][PASSED] - Text '109.544467' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'
+
+2023-07-06 14:39:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Failed/button_Submit")): Object: 'Object Repository/Master Toko/Edit Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:39:54 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-06 14:39:55 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-06 14:39:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko"), "Panasonic Store"): Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:39:56 - [MESSAGE][PASSED] - Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:39:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet"), ""): Text '' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:39:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:39:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn"), "Jl. Wijaya"): Text 'Jl. Wijaya' is set on object 'Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'
+
+2023-07-06 14:39:58 - [MESSAGE][PASSED] - Text 'Jl. Wijaya' is set on object 'Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'
+
+2023-07-06 14:39:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode"), "PAN022"): Text 'PAN022' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:39:58 - [MESSAGE][PASSED] - Text 'PAN022' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:39:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon"), "02123333"): Text '02123333' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:39:59 - [MESSAGE][PASSED] - Text '02123333' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:39:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude"), "-1.756588"): Text '-1.756588' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:40:00 - [MESSAGE][PASSED] - Text '-1.756588' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:40:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude"), "109.5444"): Text '109.5444' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'
+
+2023-07-06 14:40:00 - [MESSAGE][PASSED] - Text '109.5444' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'
+
+2023-07-06 14:40:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Failed/button_Submit")): Object: 'Object Repository/Master Toko/Edit Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:40:01 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-06 14:40:01 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-06 14:40:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko"), "Panasonic Store"): Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:40:03 - [MESSAGE][PASSED] - Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:40:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet"), "Panasonic Store"): Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:40:03 - [MESSAGE][PASSED] - Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:40:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn"), ""): Text '' is set on object 'Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'
+
+2023-07-06 14:40:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'
+
+2023-07-06 14:40:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode"), "PN003"): Text 'PN003' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:40:05 - [MESSAGE][PASSED] - Text 'PN003' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:40:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon"), "021339393"): Text '021339393' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:40:05 - [MESSAGE][PASSED] - Text '021339393' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:40:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude"), "-1.756333444"): Text '-1.756333444' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:40:06 - [MESSAGE][PASSED] - Text '-1.756333444' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:40:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude"), "109.544"): Text '109.544' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'
+
+2023-07-06 14:40:07 - [MESSAGE][PASSED] - Text '109.544' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'
+
+2023-07-06 14:40:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Failed/button_Submit")): Object: 'Object Repository/Master Toko/Edit Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:40:07 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-06 14:40:07 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-06 14:40:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko"), "Panasonic Store"): Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:40:09 - [MESSAGE][PASSED] - Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:40:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet"), "Panasonic Store"): Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:40:10 - [MESSAGE][PASSED] - Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:40:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn"), "Jl. Wijya"): Text 'Jl. Wijya' is set on object 'Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'
+
+2023-07-06 14:40:10 - [MESSAGE][PASSED] - Text 'Jl. Wijya' is set on object 'Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'
+
+2023-07-06 14:40:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode"), ""): Text '' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:40:11 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:40:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon"), "02139494949"): Text '02139494949' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:40:12 - [MESSAGE][PASSED] - Text '02139494949' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:40:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude"), "-67.3373833"): Text '-67.3373833' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:40:12 - [MESSAGE][PASSED] - Text '-67.3373833' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:40:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude"), "109.5444676"): Text '109.5444676' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'
+
+2023-07-06 14:40:13 - [MESSAGE][PASSED] - Text '109.5444676' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'
+
+2023-07-06 14:40:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Failed/button_Submit")): Object: 'Object Repository/Master Toko/Edit Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:40:13 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-06 14:40:14 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-06 14:40:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko"), "Panasonic Store"): Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:40:15 - [MESSAGE][PASSED] - Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:40:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet"), "Panasonic Store"): Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:40:16 - [MESSAGE][PASSED] - Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:40:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn"), "Jl. Wijaya"): Text 'Jl. Wijaya' is set on object 'Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'
+
+2023-07-06 14:40:16 - [MESSAGE][PASSED] - Text 'Jl. Wijaya' is set on object 'Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'
+
+2023-07-06 14:40:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode"), "P0202"): Text 'P0202' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:40:17 - [MESSAGE][PASSED] - Text 'P0202' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:40:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon"), "021303030303"): Text '021303030303' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:40:18 - [MESSAGE][PASSED] - Text '021303030303' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:40:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude"), ""): Text '' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:40:18 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:40:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude"), "109.544467"): Text '109.544467' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'
+
+2023-07-06 14:40:19 - [MESSAGE][PASSED] - Text '109.544467' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'
+
+2023-07-06 14:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Failed/button_Submit")): Object: 'Object Repository/Master Toko/Edit Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:40:19 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-06 14:40:20 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-06 14:40:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko"), "pANASONIC sTORE"): Text 'pANASONIC sTORE' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:40:21 - [MESSAGE][PASSED] - Text 'pANASONIC sTORE' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Nama Toko_txtNamaToko'
+
+2023-07-06 14:40:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet"), "bbbbb"): Text 'bbbbb' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:40:22 - [MESSAGE][PASSED] - Text 'bbbbb' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:40:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet")): Object: 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet' is clicked on
+
+2023-07-06 14:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet' is clicked on
+
+2023-07-06 14:40:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Failed/div_Outlet Name_col-sm-9")): Object: 'Object Repository/Master Toko/Edit Toko Failed/div_Outlet Name_col-sm-9' is clicked on
+
+2023-07-06 14:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Failed/div_Outlet Name_col-sm-9' is clicked on
+
+2023-07-06 14:40:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet"), "Panasonic Store"): Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:40:23 - [MESSAGE][PASSED] - Text 'Panasonic Store' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Outlet Name_txtNamaOutlet'
+
+2023-07-06 14:40:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn"), "Jl Wijaya"): Text 'Jl Wijaya' is set on object 'Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'
+
+2023-07-06 14:40:24 - [MESSAGE][PASSED] - Text 'Jl Wijaya' is set on object 'Object Repository/Master Toko/Edit Toko Failed/textarea_h thyn yn'
+
+2023-07-06 14:40:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode"), "PAN2222"): Text 'PAN2222' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:40:24 - [MESSAGE][PASSED] - Text 'PAN2222' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Dealer Code_txtDealerCode'
+
+2023-07-06 14:40:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon"), "02133444"): Text '02133444' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:40:25 - [MESSAGE][PASSED] - Text '02133444' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Telephone_txtTelepon'
+
+2023-07-06 14:40:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude"), "-10.363636"): Text '-10.363636' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:40:26 - [MESSAGE][PASSED] - Text '-10.363636' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Latitude_txtlatitude'
+
+2023-07-06 14:40:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude"), ""): Text '' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'
+
+2023-07-06 14:40:26 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Master Toko/Edit Toko Failed/input_Longitude_txtlongitude'
+
+2023-07-06 14:40:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Edit Toko Failed/button_Submit")): Object: 'Object Repository/Master Toko/Edit Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Edit Toko Failed/button_Submit' is clicked on
+
+2023-07-06 14:40:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-06 14:40:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Toko/Success/Searching" time="59.266" classname="Test Cases/Master Toko/Success/Searching" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Master Toko/Success/Searching FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Toko/Searching Success/button_Deactivate'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Searching.run(Searching:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688628924841.run(TempTestSuite1688628924841.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;button&quot; class=&quot;btn btn-flat-success&quot; onclick=&quot;showConfirmationPopup('activate', () => actionProduct('2026', 1), 'ERAFONE MEGASTORE MT HARYONO BALIKPAPAN')&quot;>...&lt;/button> is not clickable at point (2041, 19). Other element would receive the click: &lt;nav class=&quot;header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-light navbar-shadow&quot;>...&lt;/nav>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\202102~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8dcd41f3489e6942b66f332a85ec71d8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-07-06 14:40:27 - [TEST_CASE][FAILED] - Test Cases/Master Toko/Success/Searching: Test Cases/Master Toko/Success/Searching FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Toko/Searching Success/button_Deactivate'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Searching.run(Searching:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688628924841.run(TempTestSuite1688628924841.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="btn btn-flat-success" onclick="showConfirmationPopup('activate', () => actionProduct('2026', 1), 'ERAFONE MEGASTORE MT HARYONO BALIKPAPAN')">...</button> is not clickable at point (2041, 19). Other element would receive the click: <nav class="header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-light navbar-shadow">...</nav>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\202102~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8dcd41f3489e6942b66f332a85ec71d8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-07-06 14:40:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-06 14:40:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-06 14:40:28 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-06 14:40:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-06 14:40:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-06 14:40:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-06 14:40:29 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-06 14:40:29 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-06 14:40:29 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-06 14:40:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Searching Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Toko/Searching Success/input_Email_email'
+
+2023-07-06 14:40:30 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Toko/Searching Success/input_Email_email'
+
+2023-07-06 14:40:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Toko/Searching Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Toko/Searching Success/input_Password_password'
+
+2023-07-06 14:40:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Toko/Searching Success/input_Password_password'
+
+2023-07-06 14:40:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Searching Success/button_Login")): Object: 'Object Repository/Master Toko/Searching Success/button_Login' is clicked on
+
+2023-07-06 14:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Searching Success/button_Login' is clicked on
+
+2023-07-06 14:40:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Searching Success/a_Master")): Object: 'Object Repository/Master Toko/Searching Success/a_Master' is clicked on
+
+2023-07-06 14:40:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Searching Success/a_Master' is clicked on
+
+2023-07-06 14:40:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Searching Success/a_Toko")): Object: 'Object Repository/Master Toko/Searching Success/a_Toko' is clicked on
+
+2023-07-06 14:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Searching Success/a_Toko' is clicked on
+
+2023-07-06 14:40:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master Toko/Searching Success/select_Search by                           _752fd7"), "store_name", true): All options with value 'store_name' are selected in object 'Object Repository/Master Toko/Searching Success/select_Search by                           _752fd7'  using regular expression
+
+2023-07-06 14:40:35 - [MESSAGE][PASSED] - All options with value 'store_name' are selected in object 'Object Repository/Master Toko/Searching Success/select_Search by                           _752fd7'  using regular expression
+
+2023-07-06 14:40:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch"), "Furniture"): Text 'Furniture' is set on object 'Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'
+
+2023-07-06 14:40:36 - [MESSAGE][PASSED] - Text 'Furniture' is set on object 'Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'
+
+2023-07-06 14:40:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'
+
+2023-07-06 14:40:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'
+
+2023-07-06 14:40:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch"), "Electronic"): Text 'Electronic' is set on object 'Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'
+
+2023-07-06 14:40:38 - [MESSAGE][PASSED] - Text 'Electronic' is set on object 'Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'
+
+2023-07-06 14:40:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'
+
+2023-07-06 14:40:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'
+
+2023-07-06 14:40:38 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-06 14:40:39 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-06 14:40:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master Toko/Searching Success/select_Search by                           _752fd7"), "dealer_code", true): All options with value 'dealer_code' are selected in object 'Object Repository/Master Toko/Searching Success/select_Search by                           _752fd7'  using regular expression
+
+2023-07-06 14:40:40 - [MESSAGE][PASSED] - All options with value 'dealer_code' are selected in object 'Object Repository/Master Toko/Searching Success/select_Search by                           _752fd7'  using regular expression
+
+2023-07-06 14:40:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch"), "ERF"): Text 'ERF' is set on object 'Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'
+
+2023-07-06 14:40:41 - [MESSAGE][PASSED] - Text 'ERF' is set on object 'Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'
+
+2023-07-06 14:40:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'
+
+2023-07-06 14:40:41 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch'
+
+2023-07-06 14:40:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Searching Success/a_4")): Object: 'Object Repository/Master Toko/Searching Success/a_4' is clicked on
+
+2023-07-06 14:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Searching Success/a_4' is clicked on
+
+2023-07-06 14:40:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Searching Success/a_Next")): Object: 'Object Repository/Master Toko/Searching Success/a_Next' is clicked on
+
+2023-07-06 14:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Searching Success/a_Next' is clicked on
+
+2023-07-06 14:40:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Searching Success/a_Previous")): Object: 'Object Repository/Master Toko/Searching Success/a_Previous' is clicked on
+
+2023-07-06 14:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Searching Success/a_Previous' is clicked on
+
+2023-07-06 14:40:53 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Master Toko/Searching Success/button_Deactivate")): Unable to click on object 'Object Repository/Master Toko/Searching Success/button_Deactivate' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Toko/Searching Success/button_Deactivate'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Searching.run(Searching:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688628924841.run(TempTestSuite1688628924841.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="btn btn-flat-success" onclick="showConfirmationPopup('activate', () => actionProduct('2026', 1), 'ERAFONE MEGASTORE MT HARYONO BALIKPAPAN')">...</button> is not clickable at point (2041, 19). Other element would receive the click: <nav class="header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-light navbar-shadow">...</nav>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\202102~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8dcd41f3489e6942b66f332a85ec71d8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1683171760804.run(Script1683171760804.groovy:65)
+	... 13 more
+)
+
+2023-07-06 14:41:27 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Master Toko/Searching Success/button_Deactivate' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Toko/Searching Success/button_Deactivate'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Searching.run(Searching:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688628924841.run(TempTestSuite1688628924841.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="btn btn-flat-success" onclick="showConfirmationPopup('activate', () => actionProduct('2026', 1), 'ERAFONE MEGASTORE MT HARYONO BALIKPAPAN')">...</button> is not clickable at point (2041, 19). Other element would receive the click: <nav class="header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-light navbar-shadow">...</nav>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\202102~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8dcd41f3489e6942b66f332a85ec71d8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1683171760804.run(Script1683171760804.groovy:65)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230706_143523\\Master Toko\\20230706_143524\\1688629286935.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-06 14:40:27 - [TEST_CASE][FAILED] - Test Cases/Master Toko/Success/Searching: Test Cases/Master Toko/Success/Searching FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Toko/Searching Success/button_Deactivate'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Searching.run(Searching:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688628924841.run(TempTestSuite1688628924841.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="btn btn-flat-success" onclick="showConfirmationPopup('activate', () => actionProduct('2026', 1), 'ERAFONE MEGASTORE MT HARYONO BALIKPAPAN')">...</button> is not clickable at point (2041, 19). Other element would receive the click: <nav class="header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-light navbar-shadow">...</nav>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\202102~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8dcd41f3489e6942b66f332a85ec71d8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Toko/Failed/Searching" time="11.292" classname="Test Cases/Master Toko/Failed/Searching" status="PASSED">
+         <system-out><![CDATA[2023-07-06 14:41:27 - [TEST_CASE][PASSED] - Test Cases/Master Toko/Failed/Searching: Test Cases/Master Toko/Failed/Searching
+
+2023-07-06 14:41:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-06 14:41:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-06 14:41:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-06 14:41:28 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-06 14:41:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-06 14:41:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-06 14:41:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-06 14:41:29 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-06 14:41:29 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-06 14:41:29 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-06 14:41:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Searching Failed/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Toko/Searching Failed/input_Email_email'
+
+2023-07-06 14:41:30 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Toko/Searching Failed/input_Email_email'
+
+2023-07-06 14:41:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Toko/Searching Failed/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Toko/Searching Failed/input_Password_password'
+
+2023-07-06 14:41:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Toko/Searching Failed/input_Password_password'
+
+2023-07-06 14:41:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Searching Failed/button_Login")): Object: 'Object Repository/Master Toko/Searching Failed/button_Login' is clicked on
+
+2023-07-06 14:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Searching Failed/button_Login' is clicked on
+
+2023-07-06 14:41:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Searching Failed/a_Master")): Object: 'Object Repository/Master Toko/Searching Failed/a_Master' is clicked on
+
+2023-07-06 14:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Searching Failed/a_Master' is clicked on
+
+2023-07-06 14:41:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Toko/Searching Failed/a_Toko")): Object: 'Object Repository/Master Toko/Searching Failed/a_Toko' is clicked on
+
+2023-07-06 14:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Toko/Searching Failed/a_Toko' is clicked on
+
+2023-07-06 14:41:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch"), "abc"): Text 'abc' is set on object 'Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch'
+
+2023-07-06 14:41:35 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch'
+
+2023-07-06 14:41:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch'
+
+2023-07-06 14:41:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch'
+
+2023-07-06 14:41:35 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-06 14:41:35 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-06 14:41:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch"), "megafinance"): Text 'megafinance' is set on object 'Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch'
+
+2023-07-06 14:41:37 - [MESSAGE][PASSED] - Text 'megafinance' is set on object 'Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch'
+
+2023-07-06 14:41:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch'
+
+2023-07-06 14:41:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Toko/Searching Failed/input_New Toko_filterSearch'
+
+2023-07-06 14:41:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-06 14:41:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-06 14:35:27 - [TEST_SUITE][FAILED] - Master Toko: Test Cases/Master Toko/Beranda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Toko/Beranda/a_Next'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Beranda.run(Beranda:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688628924841.run(TempTestSuite1688628924841.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" aria-controls="tbl-toko" data-dt-idx="8" tabindex="0" class="page-link">...</a> is not clickable at point (2202, 924). Other element would receive the click: <li class="paginate_button page-item next disabled" id="tbl-toko_next">...</li>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\202102~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51931}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c71748a02e35df3277c87070333a8da7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-06 14:35:27 - [TEST_SUITE][FAILED] - Master Toko: Test Cases/Master Toko/Beranda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Toko/Beranda/a_Next'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Beranda.run(Beranda:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688628924841.run(TempTestSuite1688628924841.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" aria-controls="tbl-toko" data-dt-idx="8" tabindex="0" class="page-link">...</a> is not clickable at point (2202, 924). Other element would receive the click: <li class="paginate_button page-item next disabled" id="tbl-toko_next">...</li>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\202102~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51931}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c71748a02e35df3277c87070333a8da7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

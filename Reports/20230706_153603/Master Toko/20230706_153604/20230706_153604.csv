@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master Toko,Chrome 114.0.0.0,,,2023-07-06 15:36:06,2023-07-06 15:36:32,25.940s,PASSED
+,,,,,,,
+Test Cases/Master Toko/Success/Searching,Chrome 114.0.0.0,,,2023-07-06 15:36:07,2023-07-06 15:36:32,25.704s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-06 15:36:07,2023-07-06 15:36:09,2.464s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-06 15:36:09,2023-07-06 15:36:09,0.044s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-06 15:36:09,2023-07-06 15:36:10,0.814s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Searching Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-06 15:36:10,2023-07-06 15:36:12,1.406s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Toko/Searching Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-06 15:36:12,2023-07-06 15:36:12,0.489s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-06 15:36:12,2023-07-06 15:36:13,0.491s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/a_Master""))",Chrome 114.0.0.0,,,2023-07-06 15:36:13,2023-07-06 15:36:14,1.762s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/a_Toko""))",Chrome 114.0.0.0,,,2023-07-06 15:36:14,2023-07-06 15:36:15,0.742s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Master Toko/Searching Success/select_Search by                           _752fd7""), ""store_name"", true)",Chrome 114.0.0.0,,,2023-07-06 15:36:15,2023-07-06 15:36:17,1.768s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch""), ""Furniture"")",Chrome 114.0.0.0,,,2023-07-06 15:36:17,2023-07-06 15:36:18,0.811s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-06 15:36:18,2023-07-06 15:36:18,0.422s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch""), ""Electronic"")",Chrome 114.0.0.0,,,2023-07-06 15:36:18,2023-07-06 15:36:20,1.674s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-06 15:36:20,2023-07-06 15:36:20,0.395s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-06 15:36:20,2023-07-06 15:36:21,0.453s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Master Toko/Searching Success/select_Search by                           _752fd7""), ""dealer_code"", true)",Chrome 114.0.0.0,,,2023-07-06 15:36:21,2023-07-06 15:36:22,1.866s,PASSED
+"setText(findTestObject(""Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch""), ""ERF"")",Chrome 114.0.0.0,,,2023-07-06 15:36:22,2023-07-06 15:36:23,0.737s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Toko/Searching Success/input_New Toko_filterSearch""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-06 15:36:23,2023-07-06 15:36:24,0.398s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/a_4""))",Chrome 114.0.0.0,,,2023-07-06 15:36:24,2023-07-06 15:36:24,0.622s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/a_Next""))",Chrome 114.0.0.0,,,2023-07-06 15:36:24,2023-07-06 15:36:25,0.489s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/a_Previous""))",Chrome 114.0.0.0,,,2023-07-06 15:36:25,2023-07-06 15:36:25,0.556s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/button_Deactivate""))",Chrome 114.0.0.0,,,2023-07-06 15:36:25,2023-07-06 15:36:26,0.516s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/button_No""))",Chrome 114.0.0.0,,,2023-07-06 15:36:26,2023-07-06 15:36:26,0.526s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/button_Deactivate""))",Chrome 114.0.0.0,,,2023-07-06 15:36:26,2023-07-06 15:36:27,0.755s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/button_Yes""))",Chrome 114.0.0.0,,,2023-07-06 15:36:27,2023-07-06 15:36:28,0.488s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/a_4""))",Chrome 114.0.0.0,,,2023-07-06 15:36:28,2023-07-06 15:36:29,1.047s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/button_Activate""))",Chrome 114.0.0.0,,,2023-07-06 15:36:29,2023-07-06 15:36:29,0.462s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/button_No""))",Chrome 114.0.0.0,,,2023-07-06 15:36:29,2023-07-06 15:36:30,0.455s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/button_Activate""))",Chrome 114.0.0.0,,,2023-07-06 15:36:30,2023-07-06 15:36:30,0.668s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/button_Yes""))",Chrome 114.0.0.0,,,2023-07-06 15:36:30,2023-07-06 15:36:31,0.528s,PASSED
+"click(findTestObject(""Object Repository/Master Toko/Searching Success/a_4""))",Chrome 114.0.0.0,,,2023-07-06 15:36:31,2023-07-06 15:36:31,0.601s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-06 15:36:31,2023-07-06 15:36:32,0.904s,PASSED

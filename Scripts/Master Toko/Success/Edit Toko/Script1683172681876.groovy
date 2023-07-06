@@ -19,9 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-'Maximize Window Chrome'
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/input_Email_email'), 'eva.mayadila@megafinance.co.id')
@@ -36,37 +33,25 @@ WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Success/a_To
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Success/a_Edit'))
 
-WebUI.getText(findTestObject('Object Repository/Master Toko/Edit Toko Success/div_Edit Toko BliCicil Admin as'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Success/select_TransmartPanasonicPolytronAsusSamsun_e34999'), 
+    '4', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Success/select_TransmartPanasonicPolytronAsusSamsun_36b03e'), 
-    '2', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Success/select_Aceh BaratAceh Barat DayaAceh BesarA_60dc3d'), 
+    '429', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Success/select_TransmartPanasonicPolytronAsusSamsun_36b03e'), 
-    '1', true)
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/input_Nama Toko_txtNamaToko'), 'Asus Asyncron Store')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Master Toko/Edit Toko Success/select_Aceh SelatanBalanganBalikpapanBantae_4910c5'), 
-    '136', true)
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/input_Outlet Name_txtNamaOutlet'), 'Asus Async Store')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/input_Nama Toko_txtNamaToko'), 'Transmart Cilandak')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/textarea_Jalan Kebayoran Baru No 10'), 'Jalan Kebayoran Baru Kav 20')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/input_Outlet Name_txtNamaOutlet'), 'Transmart Cilandak ')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/input_Dealer Code_txtDealerCode'), 'A003')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/input_Dealer Code_txtDealerCode'), 'TC')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/input_Telephone_txtTelepon'), '0239394444')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/input_Telephone_txtTelepon'), '0891829124212')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/input_Latitude_txtlatitude'), '-20.30490494')
 
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/input_Telephone_txtTelepon'), '123456789')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/textarea_Jl. Raya Cilandak KKO No.27, RT.1R_047286'), 
-    'Jl. Raya Cilandak KKO No.27, RT.1/RW.5, Cilandak Tim, Kec. Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/input_Latitude_txtlatitude'), '-6.300641')
-
-WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/input_Longitude_txtlongitude'), '106.814095')
+WebUI.setText(findTestObject('Object Repository/Master Toko/Edit Toko Success/input_Longitude_txtlongitude'), '109.37364474')
 
 WebUI.click(findTestObject('Object Repository/Master Toko/Edit Toko Success/button_Submit'))
-
-WebUI.getText(findTestObject('Object Repository/Master Toko/Edit Toko Success/div_SuccessOKNoCancel'))
-
-WebUI.closeBrowser()
 

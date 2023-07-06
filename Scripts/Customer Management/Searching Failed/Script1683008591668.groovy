@@ -28,72 +28,46 @@ WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching F
 WebUI.setEncryptedText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_Password_password'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Customer Managementt/Searching Failed/button_Login'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Failed/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Searching Failed/span_Customer Management'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Show                                _69175e'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Year                                _c79051'), 
-    '2023', true)
-
-WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
-    'Gita')
-
-WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.refresh()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Show                                _69175e'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Year                                _c79051'), 
-    '2023', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
     'name', true)
 
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
-    'Eva')
+    'Dono')
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.delay(2)
+
 WebUI.refresh()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Show                                _69175e'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Year                                _c79051'), 
-    '2023', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
     'mobile_phone', true)
 
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'), 
-    '123435')
+    '233333')
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.delay(2)
+
 WebUI.refresh()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Show                                _69175e'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Year                                _c79051'), 
-    '2023', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'), 
     'nik', true)
 
 WebUI.setText(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'), 
-    '092827333')
+    '123456')
 
 WebUI.sendKeys(findTestObject('Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'), 
     Keys.chord(Keys.ENTER))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

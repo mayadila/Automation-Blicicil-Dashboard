@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Toko</name>
    <tag></tag>
-   <elementGuidId>f92eaca5-7c18-4df4-90de-38ac43c16019</elementGuidId>
+   <elementGuidId>29d8510a-3fdb-411d-83f6-f5f5c36d3565</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//ul[@id='main-menu-navigation']/li[3]/ul/li[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>21502a2e-c9f8-4478-9aa6-324f2fce211e</webElementGuid>
+      <webElementGuid>b9d86a4e-a92e-4dc3-afeb-3e4a930db489</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center</value>
-      <webElementGuid>a36c6175-c2b9-435c-9bea-7b758e2326a4</webElementGuid>
+      <webElementGuid>b4a55572-2d6f-438c-8364-b7b35a1f10f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://uat-dashboard.blicicil.com/master/toko</value>
-      <webElementGuid>81333c30-0d06-4b27-9b8f-5cbc21a228b9</webElementGuid>
+      <webElementGuid>dfeba2c7-6125-4298-b355-ca602a1d4574</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
 							                		
 							                		Toko
 							                	</value>
-      <webElementGuid>d329709b-3bee-44a3-9109-845bd61e8d79</webElementGuid>
+      <webElementGuid>31ce6e70-5430-4227-871b-4e0192f9fb5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub open&quot;]/ul[@class=&quot;menu-content&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
-      <webElementGuid>88f4760f-39cd-41de-a15f-47d8df419520</webElementGuid>
+      <webElementGuid>7c481e49-a0d3-4d2e-b6de-d6a1eb574bc4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='main-menu-navigation']/li[3]/ul/li[3]/a</value>
-      <webElementGuid>084ba205-6264-44cb-b4c2-24b743ab58a2</webElementGuid>
+      <webElementGuid>2d1b1a60-b123-4bd4-920a-0a4ec5270d95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchant Offers'])[1]/following::a[1]</value>
-      <webElementGuid>c0f12e6d-7173-419c-83b8-7dc052aa1f42</webElementGuid>
+      <webElementGuid>5e0707be-97c8-4b38-9545-35ceaecb9b57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchants'])[1]/following::a[2]</value>
-      <webElementGuid>9ab047e0-92ac-4bce-8498-a80e48eab94d</webElementGuid>
+      <webElementGuid>d7fdb907-6498-4653-bdc2-42ba18ec3c2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori Toko'])[1]/preceding::a[1]</value>
-      <webElementGuid>6146fef2-d5c1-43a8-b09d-8679cfe88f93</webElementGuid>
+      <webElementGuid>29c61f4b-909e-4a65-ba2a-0c440683cd41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/master/toko')]</value>
-      <webElementGuid>6e62ba82-9eb6-4968-a983-f2cad2299a6e</webElementGuid>
+      <webElementGuid>ecb30b3f-d221-4e6b-b897-af3dace780cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/ul/li[3]/a</value>
-      <webElementGuid>d6c24327-b0c8-48ff-971f-453197835730</webElementGuid>
+      <webElementGuid>f7907f83-e1d8-4188-bced-d2a86a20692f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
 							                		
 							                		Toko
 							                	')]</value>
-      <webElementGuid>7f079fe3-9901-44fa-859f-9b41ed9824f3</webElementGuid>
+      <webElementGuid>422eaa3e-b44c-42d9-b138-71be50af4150</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

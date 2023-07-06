@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Edit</name>
    <tag></tag>
-   <elementGuidId>99b9469f-f60b-4c8a-9bd7-353852ee36a6</elementGuidId>
+   <elementGuidId>cb89cc8e-2bf7-44c2-9924-2436da679e22</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tbl-toko']/tbody/tr/td[8]/a</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>a.btn.btn-flat-info</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//table[@id='tbl-toko']/tbody/tr/td[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7a25382b-c665-4397-9f57-2db52eacbff0</webElementGuid>
+      <webElementGuid>1d7b3840-55dd-4853-886b-d105669984c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://uat-dashboard.blicicil.com/master/toko/edit?token=633e3c86af080000c4006de7</value>
-      <webElementGuid>5df8ce19-2343-411b-8da0-5e932beb82c8</webElementGuid>
+      <value>https://uat-dashboard.blicicil.com/master/toko/edit?token=64a630c2b8f5cac059065754</value>
+      <webElementGuid>e484564a-f95e-452c-b0d4-8e38ca9694c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-flat-info</value>
-      <webElementGuid>4fef4d37-97a5-447c-9775-738e644185fe</webElementGuid>
+      <webElementGuid>6e035b0d-650f-4bad-8741-086709ac4ab3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,23 +46,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit</value>
-      <webElementGuid>8246a388-485a-4a84-a883-e732d59912a2</webElementGuid>
+      <webElementGuid>b91dac6e-57cc-442e-852c-40f21e4dcc7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-toko&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[4]/a[@class=&quot;btn btn-flat-info&quot;]</value>
-      <webElementGuid>f1346b3f-206b-46f5-91fc-2a6c39a91d21</webElementGuid>
+      <value>id(&quot;tbl-toko&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[8]/a[@class=&quot;btn btn-flat-info&quot;]</value>
+      <webElementGuid>6fae427b-cd4f-43a1-b6e4-78bf92701d1d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-toko']/tbody/tr/td[4]/a</value>
-      <webElementGuid>c8b2d554-c761-4cc2-a18f-923aca863ece</webElementGuid>
+      <value>//table[@id='tbl-toko']/tbody/tr/td[8]/a</value>
+      <webElementGuid>0c2d57b6-5b23-4949-b0f7-a4dfdd4e3154</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Edit')]</value>
-      <webElementGuid>477fc15d-990a-4a71-9a9f-c4b12d20de57</webElementGuid>
+      <webElementGuid>121dc068-cf59-463a-96e4-7689cddbca14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,31 +78,31 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Deactivate'])[1]/following::a[1]</value>
-      <webElementGuid>cf33a11d-fd7b-4716-8cce-e237c77e42d1</webElementGuid>
+      <webElementGuid>bcc67483-1f53-4805-9f7e-3dff0074d281</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::a[1]</value>
-      <webElementGuid>df0d0081-318f-4586-9e26-305471414a7c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maps'])[2]/following::a[1]</value>
+      <webElementGuid>5270a81e-8e51-4b3e-9935-e5a8de0e6356</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmart Carrefour Central Park'])[1]/preceding::a[1]</value>
-      <webElementGuid>1bd54570-873f-4ab8-b3c7-8881a7fded6d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ngtj'])[1]/preceding::a[1]</value>
+      <webElementGuid>3276c559-0989-4456-8e29-3debaf6ddcb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non Active'])[1]/preceding::a[1]</value>
-      <webElementGuid>5ad2b5d0-2859-49c2-b867-ab32b4944ad9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='bbbbbb'])[1]/preceding::a[1]</value>
+      <webElementGuid>d9c9bfb0-cf97-49f3-b97d-f4b0807cf1bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,30 +110,30 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
-      <webElementGuid>74b3c6d8-bc7f-49b4-9bde-5373f64b463d</webElementGuid>
+      <webElementGuid>3db539cb-217a-4636-8880-cb2a575329c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/master/toko/edit?token=633e3c86af080000c4006de7')]</value>
-      <webElementGuid>822e6aa1-fcb2-4590-ad03-37ebbf2919a2</webElementGuid>
+      <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/master/toko/edit?token=64a630c2b8f5cac059065754')]</value>
+      <webElementGuid>e5a6336c-3371-40bb-8a68-f5a3bd8611b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[4]/a</value>
-      <webElementGuid>cb4b1865-cd3e-4425-b786-0d33a0f3fe94</webElementGuid>
+      <value>//td[8]/a</value>
+      <webElementGuid>9c01dec5-e8c7-415d-8f50-64dfa81af94f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'https://uat-dashboard.blicicil.com/master/toko/edit?token=633e3c86af080000c4006de7' and (text() = 'Edit' or . = 'Edit')]</value>
-      <webElementGuid>acb44cde-f326-413a-818e-089de8883a04</webElementGuid>
+      <value>//a[@href = 'https://uat-dashboard.blicicil.com/master/toko/edit?token=64a630c2b8f5cac059065754' and (text() = 'Edit' or . = 'Edit')]</value>
+      <webElementGuid>18676aa8-d4da-4898-be47-39b8d9a78618</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
