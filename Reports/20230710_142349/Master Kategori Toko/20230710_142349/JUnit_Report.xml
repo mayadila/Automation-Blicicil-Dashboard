@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Master Kategori Toko" time="156.457" tests="6" failures="1" errors="0">
+   <testsuite name="Master Kategori Toko" tests="6" failures="1" errors="0" time="156.457" skipped="0" timestamp="2023-07-10 14:23:53" hostname="202102359 - KPO-Blicicil.pdc.megafinance.co.id" id="Test Suites/Master Kategori Toko">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230710_142349\\Master Kategori Toko\\20230710_142349"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230710_142349\\Master Kategori Toko\\20230710_142349\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230710_142349\\Master Kategori Toko\\20230710_142349\\1688973880010.png"/>
+         <property name="hostName" value="202102359 - KPO-Blicicil.pdc.megafinance.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.16.53"/>
+         <property name="sessionId" value="c5601f48a0d131f5b29d9fc1295611d8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Master Kategori Toko/Beranda" time="46.751" classname="Test Cases/Master Kategori Toko/Beranda" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Master Kategori Toko/Beranda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Kategori Toko/Beranda/a_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Beranda.run(Beranda:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688973829591.run(TempTestSuite1688973829591.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;#&quot; aria-controls=&quot;tbl-kategori-toko&quot; data-dt-idx=&quot;...&quot; tabindex=&quot;0&quot; class=&quot;page-link&quot;>2&lt;/a> is not clickable at point (2251, 1129). Other element would receive the click: &lt;span class=&quot;phpdebugbar-text&quot;>...&lt;/span>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:52449}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9ba3b4371aae9956587bb190c25abf6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-07-10 14:23:53 - [TEST_CASE][FAILED] - Test Cases/Master Kategori Toko/Beranda: Test Cases/Master Kategori Toko/Beranda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Kategori Toko/Beranda/a_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Beranda.run(Beranda:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688973829591.run(TempTestSuite1688973829591.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" aria-controls="tbl-kategori-toko" data-dt-idx="..." tabindex="0" class="page-link">2</a> is not clickable at point (2251, 1129). Other element would receive the click: <span class="phpdebugbar-text">...</span>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:52449}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9ba3b4371aae9956587bb190c25abf6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-07-10 14:23:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-10 14:23:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-10 14:23:54 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-10 14:23:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-10 14:23:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-10 14:23:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-10 14:23:57 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-10 14:23:57 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:24:00 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:24:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Beranda/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Beranda/input_Email_email'
+
+2023-07-10 14:24:01 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Beranda/input_Email_email'
+
+2023-07-10 14:24:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Beranda/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Beranda/input_Password_password'
+
+2023-07-10 14:24:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Beranda/input_Password_password'
+
+2023-07-10 14:24:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/button_Login")): Object: 'Object Repository/Master Kategori Toko/Beranda/button_Login' is clicked on
+
+2023-07-10 14:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/button_Login' is clicked on
+
+2023-07-10 14:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_Master")): Object: 'Object Repository/Master Kategori Toko/Beranda/a_Master' is clicked on
+
+2023-07-10 14:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/a_Master' is clicked on
+
+2023-07-10 14:24:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Beranda/a_Kategori Toko' is clicked on
+
+2023-07-10 14:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/a_Kategori Toko' is clicked on
+
+2023-07-10 14:24:06 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Kategori Toko/Beranda/div_List Kategori Toko BliCicil Admin as   _2278a0")): Text of object 'Object Repository/Master Kategori Toko/Beranda/div_List Kategori Toko BliCicil Admin as   _2278a0' is: 'List Kategori Toko BliCicil Admin as
+New Kategori Toko'
+
+2023-07-10 14:24:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Kategori Toko/Beranda/div_List Kategori Toko BliCicil Admin as   _2278a0' is: 'List Kategori Toko BliCicil Admin as
+New Kategori Toko'
+
+2023-07-10 14:24:07 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_2")): Unable to click on object 'Object Repository/Master Kategori Toko/Beranda/a_2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Kategori Toko/Beranda/a_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Beranda.run(Beranda:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688973829591.run(TempTestSuite1688973829591.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" aria-controls="tbl-kategori-toko" data-dt-idx="..." tabindex="0" class="page-link">2</a> is not clickable at point (2251, 1129). Other element would receive the click: <span class="phpdebugbar-text">...</span>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:52449}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9ba3b4371aae9956587bb190c25abf6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1683533357942.run(Script1683533357942.groovy:38)
+	... 13 more
+)
+
+2023-07-10 14:24:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Master Kategori Toko/Beranda/a_2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Kategori Toko/Beranda/a_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Beranda.run(Beranda:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688973829591.run(TempTestSuite1688973829591.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" aria-controls="tbl-kategori-toko" data-dt-idx="..." tabindex="0" class="page-link">2</a> is not clickable at point (2251, 1129). Other element would receive the click: <span class="phpdebugbar-text">...</span>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:52449}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9ba3b4371aae9956587bb190c25abf6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1683533357942.run(Script1683533357942.groovy:38)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230710_142349\\Master Kategori Toko\\20230710_142349\\1688973880010.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-10 14:23:53 - [TEST_CASE][FAILED] - Test Cases/Master Kategori Toko/Beranda: Test Cases/Master Kategori Toko/Beranda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Kategori Toko/Beranda/a_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Beranda.run(Beranda:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688973829591.run(TempTestSuite1688973829591.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" aria-controls="tbl-kategori-toko" data-dt-idx="..." tabindex="0" class="page-link">2</a> is not clickable at point (2251, 1129). Other element would receive the click: <span class="phpdebugbar-text">...</span>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:52449}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9ba3b4371aae9956587bb190c25abf6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Add Success" time="51.844" classname="Test Cases/Master Kategori Toko/Add Success" status="PASSED">
+         <system-out><![CDATA[2023-07-10 14:24:40 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Add Success: Test Cases/Master Kategori Toko/Add Success
+
+2023-07-10 14:24:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-10 14:24:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-10 14:24:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-10 14:24:41 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-10 14:24:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-10 14:24:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-10 14:24:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-10 14:24:43 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-10 14:24:43 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:24:44 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:24:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Add Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Add Success/input_Email_email'
+
+2023-07-10 14:24:45 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Add Success/input_Email_email'
+
+2023-07-10 14:24:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Add Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Add Success/input_Password_password'
+
+2023-07-10 14:24:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Add Success/input_Password_password'
+
+2023-07-10 14:24:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add Success/button_Login")): Object: 'Object Repository/Master Kategori Toko/Add Success/button_Login' is clicked on
+
+2023-07-10 14:24:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/button_Login' is clicked on
+
+2023-07-10 14:24:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add Success/a_Master")): Object: 'Object Repository/Master Kategori Toko/Add Success/a_Master' is clicked on
+
+2023-07-10 14:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/a_Master' is clicked on
+
+2023-07-10 14:24:47 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add Success/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Add Success/a_Kategori Toko' is clicked on
+
+2023-07-10 14:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/a_Kategori Toko' is clicked on
+
+2023-07-10 14:24:48 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add Success/a_New Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Add Success/a_New Kategori Toko' is clicked on
+
+2023-07-10 14:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/a_New Kategori Toko' is clicked on
+
+2023-07-10 14:24:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Master Kategori Toko/Add Success/Pilih toko"), toko, true): All options with value '27' are selected in object 'Object Repository/Master Kategori Toko/Add Success/Pilih toko'  using regular expression
+
+2023-07-10 14:25:27 - [MESSAGE][PASSED] - All options with value '27' are selected in object 'Object Repository/Master Kategori Toko/Add Success/Pilih toko'  using regular expression
+
+2023-07-10 14:25:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add Success/div_--Pilih Kategori--")): Object: 'Object Repository/Master Kategori Toko/Add Success/div_--Pilih Kategori--' is clicked on
+
+2023-07-10 14:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/div_--Pilih Kategori--' is clicked on
+
+2023-07-10 14:25:27 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add Success/input_Komputer  Laptop_category"), 0): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is not checked
+
+2023-07-10 14:25:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:25:27 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is not checked
+
+2023-07-10 14:25:27 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-10 14:25:27 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_Komputer  Laptop_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-10 14:25:28 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-10 14:25:28 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add Success/input_TV_category"), 0): Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is not checked
+
+2023-07-10 14:25:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:25:28 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is not checked
+
+2023-07-10 14:25:28 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is checked
+
+2023-07-10 14:25:28 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_TV_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is checked
+
+2023-07-10 14:25:28 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is checked
+
+2023-07-10 14:25:28 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add Success/input_Dapur_category"), 0): Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is not checked
+
+2023-07-10 14:25:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:25:29 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is not checked
+
+2023-07-10 14:25:29 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is checked
+
+2023-07-10 14:25:29 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_Dapur_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is checked
+
+2023-07-10 14:25:29 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is checked
+
+2023-07-10 14:25:29 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add Success/input_Kamera  Recoder_category"), 0): Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is not checked
+
+2023-07-10 14:25:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:25:30 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is not checked
+
+2023-07-10 14:25:30 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is checked
+
+2023-07-10 14:25:30 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_Kamera  Recoder_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is checked
+
+2023-07-10 14:25:30 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is checked
+
+2023-07-10 14:25:30 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add Success/button_Submit")): Object: 'Object Repository/Master Kategori Toko/Add Success/button_Submit' is clicked on
+
+2023-07-10 14:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/button_Submit' is clicked on
+
+2023-07-10 14:25:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-10 14:25:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Add Failed" time="16.34" classname="Test Cases/Master Kategori Toko/Add Failed" status="PASSED">
+         <system-out><![CDATA[2023-07-10 14:25:32 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Add Failed: Test Cases/Master Kategori Toko/Add Failed
+
+2023-07-10 14:25:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-10 14:25:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-10 14:25:32 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-10 14:25:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-10 14:25:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-10 14:25:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-10 14:25:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-10 14:25:34 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:25:34 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:25:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Add/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Add/input_Email_email'
+
+2023-07-10 14:25:36 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Add/input_Email_email'
+
+2023-07-10 14:25:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Add/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Add/input_Password_password'
+
+2023-07-10 14:25:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Add/input_Password_password'
+
+2023-07-10 14:25:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add/button_Login")): Object: 'Object Repository/Master Kategori Toko/Add/button_Login' is clicked on
+
+2023-07-10 14:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/button_Login' is clicked on
+
+2023-07-10 14:25:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add/a_Master")): Object: 'Object Repository/Master Kategori Toko/Add/a_Master' is clicked on
+
+2023-07-10 14:25:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/a_Master' is clicked on
+
+2023-07-10 14:25:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Add/a_Kategori Toko' is clicked on
+
+2023-07-10 14:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/a_Kategori Toko' is clicked on
+
+2023-07-10 14:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add/a_New Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Add/a_New Kategori Toko' is clicked on
+
+2023-07-10 14:25:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/a_New Kategori Toko' is clicked on
+
+2023-07-10 14:25:41 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/select_--Pilih Toko")): Object: 'Object Repository/Master Kategori Toko/Add/select_--Pilih Toko' is clicked on
+
+2023-07-10 14:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/select_--Pilih Toko' is clicked on
+
+2023-07-10 14:25:42 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/div_--Pilih Kategori--")): Object: 'Object Repository/Master Kategori Toko/Add/div_--Pilih Kategori--' is clicked on
+
+2023-07-10 14:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/div_--Pilih Kategori--' is clicked on
+
+2023-07-10 14:25:43 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/button_Submit")): Object: 'Object Repository/Master Kategori Toko/Add/button_Submit' is clicked on
+
+2023-07-10 14:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/button_Submit' is clicked on
+
+2023-07-10 14:25:44 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-10 14:25:44 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-10 14:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/select_--Pilih Toko")): Object: 'Object Repository/Master Kategori Toko/Add/select_--Pilih Toko' is clicked on
+
+2023-07-10 14:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/select_--Pilih Toko' is clicked on
+
+2023-07-10 14:25:45 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/div_--Pilih Kategori--")): Object: 'Object Repository/Master Kategori Toko/Add/div_--Pilih Kategori--' is clicked on
+
+2023-07-10 14:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/div_--Pilih Kategori--' is clicked on
+
+2023-07-10 14:25:46 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add/input_Komputer Laptop_category"), 0): Object 'Object Repository/Master Kategori Toko/Add/input_Komputer Laptop_category' is not checked
+
+2023-07-10 14:25:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add/input_Komputer Laptop_category' is not checked
+
+2023-07-10 14:25:46 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-10 14:25:46 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_Komputer  Laptop_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-10 14:25:47 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-10 14:25:47 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/button_Submit")): Object: 'Object Repository/Master Kategori Toko/Add/button_Submit' is clicked on
+
+2023-07-10 14:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/button_Submit' is clicked on
+
+2023-07-10 14:25:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-10 14:25:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Edit Sukses" time="16.719" classname="Test Cases/Master Kategori Toko/Edit Sukses" status="PASSED">
+         <system-out><![CDATA[2023-07-10 14:25:48 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Edit Sukses: Test Cases/Master Kategori Toko/Edit Sukses
+
+2023-07-10 14:25:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-10 14:25:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-10 14:25:48 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-10 14:25:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-10 14:25:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-10 14:25:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-10 14:25:50 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-10 14:25:50 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:25:51 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:25:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Edit/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Edit/input_Email_email'
+
+2023-07-10 14:25:52 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Edit/input_Email_email'
+
+2023-07-10 14:25:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Edit/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Edit/input_Password_password'
+
+2023-07-10 14:25:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Edit/input_Password_password'
+
+2023-07-10 14:25:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Edit/button_Login")): Object: 'Object Repository/Master Kategori Toko/Edit/button_Login' is clicked on
+
+2023-07-10 14:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/button_Login' is clicked on
+
+2023-07-10 14:25:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Edit/a_Master")): Object: 'Object Repository/Master Kategori Toko/Edit/a_Master' is clicked on
+
+2023-07-10 14:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/a_Master' is clicked on
+
+2023-07-10 14:25:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Edit/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Edit/a_Kategori Toko' is clicked on
+
+2023-07-10 14:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/a_Kategori Toko' is clicked on
+
+2023-07-10 14:25:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Edit/a_Edit")): Object: 'Object Repository/Master Kategori Toko/Edit/a_Edit' is clicked on
+
+2023-07-10 14:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/a_Edit' is clicked on
+
+2023-07-10 14:25:58 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Edit/div_Kategori")): Object: 'Object Repository/Master Kategori Toko/Edit/div_Kategori' is clicked on
+
+2023-07-10 14:25:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/div_Kategori' is clicked on
+
+2023-07-10 14:25:59 - [TEST_STEP][PASSED] - checked = verifyElementChecked(findTestObject("Master Kategori Toko/Edit/input_Komputer Laptop_category"), 0): Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is checked
+
+2023-07-10 14:25:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:25:59 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is checked
+
+2023-07-10 14:25:59 - [TEST_STEP][PASSED] - if (checked == true): Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is un-checked
+
+2023-07-10 14:25:59 - [TEST_STEP][PASSED] - uncheck(findTestObject("Master Kategori Toko/Edit/input_Komputer Laptop_category")): Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is un-checked
+
+2023-07-10 14:26:00 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is un-checked
+
+2023-07-10 14:26:00 - [TEST_STEP][PASSED] - checked = verifyElementChecked(findTestObject("Master Kategori Toko/Edit/input_TV_category"), 0): Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is checked
+
+2023-07-10 14:26:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:26:00 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is checked
+
+2023-07-10 14:26:00 - [TEST_STEP][PASSED] - if (checked == true): Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is un-checked
+
+2023-07-10 14:26:00 - [TEST_STEP][PASSED] - uncheck(findTestObject("Master Kategori Toko/Edit/input_TV_category")): Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is un-checked
+
+2023-07-10 14:26:01 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is un-checked
+
+2023-07-10 14:26:01 - [TEST_STEP][PASSED] - checked = verifyElementChecked(findTestObject("Master Kategori Toko/Edit/input_Kamera Recorder_category"), 0): Object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked
+
+2023-07-10 14:26:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:26:01 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked
+
+2023-07-10 14:26:01 - [TEST_STEP][PASSED] - if (checked == true): Object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked
+
+2023-07-10 14:26:01 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Edit/input_Kamera Recorder_category")): Object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked
+
+2023-07-10 14:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked
+
+2023-07-10 14:26:02 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Edit/input_Audio_category"), 0): Object 'Object Repository/Master Kategori Toko/Edit/input_Audio_category' is not checked
+
+2023-07-10 14:26:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_Audio_category' is not checked
+
+2023-07-10 14:26:02 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Edit/input_Audio_category' is checked
+
+2023-07-10 14:26:02 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Edit/input_Audio_category")): Object 'Object Repository/Master Kategori Toko/Edit/input_Audio_category' is checked
+
+2023-07-10 14:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_Audio_category' is checked
+
+2023-07-10 14:26:02 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Edit/input_Pendingin Ruangan_category"), 0): Object 'Object Repository/Master Kategori Toko/Edit/input_Pendingin Ruangan_category' is not checked
+
+2023-07-10 14:26:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:26:03 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_Pendingin Ruangan_category' is not checked
+
+2023-07-10 14:26:03 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Edit/input_Pendingin Ruangan_category' is checked
+
+2023-07-10 14:26:03 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Edit/input_Pendingin Ruangan_category")): Object 'Object Repository/Master Kategori Toko/Edit/input_Pendingin Ruangan_category' is checked
+
+2023-07-10 14:26:03 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_Pendingin Ruangan_category' is checked
+
+2023-07-10 14:26:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Edit/button_Submit")): Object: 'Object Repository/Master Kategori Toko/Edit/button_Submit' is clicked on
+
+2023-07-10 14:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/button_Submit' is clicked on
+
+2023-07-10 14:26:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-10 14:26:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Searching Success" time="12.52" classname="Test Cases/Master Kategori Toko/Searching Success" status="PASSED">
+         <system-out><![CDATA[2023-07-10 14:26:05 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Searching Success: Test Cases/Master Kategori Toko/Searching Success
+
+2023-07-10 14:26:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-10 14:26:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-10 14:26:05 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-10 14:26:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-10 14:26:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-10 14:26:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-10 14:26:07 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-10 14:26:07 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:26:08 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:26:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Email_email'
+
+2023-07-10 14:26:09 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Email_email'
+
+2023-07-10 14:26:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Password_password'
+
+2023-07-10 14:26:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Password_password'
+
+2023-07-10 14:26:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Success/button_Login")): Object: 'Object Repository/Master Kategori Toko/Searching Success/button_Login' is clicked on
+
+2023-07-10 14:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Success/button_Login' is clicked on
+
+2023-07-10 14:26:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Success/a_Master")): Object: 'Object Repository/Master Kategori Toko/Searching Success/a_Master' is clicked on
+
+2023-07-10 14:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Success/a_Master' is clicked on
+
+2023-07-10 14:26:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Success/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Searching Success/a_Kategori Toko' is clicked on
+
+2023-07-10 14:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Success/a_Kategori Toko' is clicked on
+
+2023-07-10 14:26:12 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/div_List Kategori Toko BliCicil Admin as   _2278a0")): Text of object 'Object Repository/Master Kategori Toko/Searching Success/div_List Kategori Toko BliCicil Admin as   _2278a0' is: 'List Kategori Toko BliCicil Admin as
+New Kategori Toko'
+
+2023-07-10 14:26:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Kategori Toko/Searching Success/div_List Kategori Toko BliCicil Admin as   _2278a0' is: 'List Kategori Toko BliCicil Admin as
+New Kategori Toko'
+
+2023-07-10 14:26:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm"), "Panasonic"): Text 'Panasonic' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:14 - [MESSAGE][PASSED] - Text 'Panasonic' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm"), "Carrefour"): Text 'Carrefour' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:16 - [MESSAGE][PASSED] - Text 'Carrefour' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-10 14:26:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Searching Failed" time="11.863" classname="Test Cases/Master Kategori Toko/Searching Failed" status="PASSED">
+         <system-out><![CDATA[2023-07-10 14:26:17 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Searching Failed: Test Cases/Master Kategori Toko/Searching Failed
+
+2023-07-10 14:26:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-10 14:26:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-10 14:26:17 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-10 14:26:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-10 14:26:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-10 14:26:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-10 14:26:19 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-10 14:26:19 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:26:20 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:26:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Email_email'
+
+2023-07-10 14:26:21 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Email_email'
+
+2023-07-10 14:26:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Password_password'
+
+2023-07-10 14:26:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Password_password'
+
+2023-07-10 14:26:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/button_Login")): Object: 'Object Repository/Master Kategori Toko/Searching Failed/button_Login' is clicked on
+
+2023-07-10 14:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Failed/button_Login' is clicked on
+
+2023-07-10 14:26:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/a_Master")): Object: 'Object Repository/Master Kategori Toko/Searching Failed/a_Master' is clicked on
+
+2023-07-10 14:26:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Failed/a_Master' is clicked on
+
+2023-07-10 14:26:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Searching Failed/a_Kategori Toko' is clicked on
+
+2023-07-10 14:26:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Failed/a_Kategori Toko' is clicked on
+
+2023-07-10 14:26:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/div_List Kategori Toko BliCicil Admin as   _2278a0")): Object: 'Object Repository/Master Kategori Toko/Searching Failed/div_List Kategori Toko BliCicil Admin as   _2278a0' is clicked on
+
+2023-07-10 14:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Failed/div_List Kategori Toko BliCicil Admin as   _2278a0' is clicked on
+
+2023-07-10 14:26:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm"), "123456"): Text '123456' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:26 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm"), "Sharp"): Text 'Sharp' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:28 - [MESSAGE][PASSED] - Text 'Sharp' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:26:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-10 14:26:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-10 14:23:53 - [TEST_SUITE][FAILED] - Master Kategori Toko: Test Cases/Master Kategori Toko/Beranda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Kategori Toko/Beranda/a_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Beranda.run(Beranda:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688973829591.run(TempTestSuite1688973829591.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" aria-controls="tbl-kategori-toko" data-dt-idx="..." tabindex="0" class="page-link">2</a> is not clickable at point (2251, 1129). Other element would receive the click: <span class="phpdebugbar-text">...</span>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:52449}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9ba3b4371aae9956587bb190c25abf6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-10 14:23:53 - [TEST_SUITE][FAILED] - Master Kategori Toko: Test Cases/Master Kategori Toko/Beranda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Kategori Toko/Beranda/a_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Beranda.run(Beranda:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688973829591.run(TempTestSuite1688973829591.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" aria-controls="tbl-kategori-toko" data-dt-idx="..." tabindex="0" class="page-link">2</a> is not clickable at point (2251, 1129). Other element would receive the click: <span class="phpdebugbar-text">...</span>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:52449}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9ba3b4371aae9956587bb190c25abf6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

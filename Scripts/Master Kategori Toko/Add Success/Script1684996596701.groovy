@@ -31,9 +31,11 @@ WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Success/b
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Success/a_Master'))
 
-WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Success/span_Kategori Toko'))
+WebUI.click(findTestObject('Master Kategori Toko/Add Success/a_Kategori Toko'))
 
-WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Success/svg_List Kategori Toko BliCicil Admin as_fe_5a1635'))
+WebUI.click(findTestObject('Master Kategori Toko/Add Success/a_New Kategori Toko'))
+
+WebUI.selectOptionByValue(findTestObject('Master Kategori Toko/Add Success/Pilih toko'), toko, true)
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Add Success/div_--Pilih Kategori--'))
 
@@ -62,8 +64,6 @@ notChecked = WebUI.verifyElementNotChecked(findTestObject('Master Kategori Toko/
 if (notChecked == true) {
     WebUI.check(findTestObject('Master Kategori Toko/Add Success/input_Kamera  Recoder_category'))
 }
-
-WebUI.selectOptionByValue(findTestObject('Master Kategori Toko/Add Success/Pilih toko'), toko, true)
 
 WebUI.click(findTestObject('Master Kategori Toko/Add Success/button_Submit'))
 
