@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master Highlight,Chrome 114.0.0.0,,,2023-07-10 16:50:37,2023-07-10 16:51:17,40.010s,PASSED
+,,,,,,,
+Test Cases/Master Highlight/Beranda,Chrome 114.0.0.0,,,2023-07-10 16:50:38,2023-07-10 16:50:53,15.171s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-10 16:50:38,2023-07-10 16:50:41,3.258s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-10 16:50:41,2023-07-10 16:50:41,0.046s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-10 16:50:41,2023-07-10 16:50:42,0.984s,PASSED
+"setText(findTestObject(""Object Repository/Master Highlight/Beranda/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-10 16:50:42,2023-07-10 16:50:43,1.037s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Highlight/Beranda/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-10 16:50:43,2023-07-10 16:50:44,0.479s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Beranda/button_Login""))",Chrome 114.0.0.0,,,2023-07-10 16:50:44,2023-07-10 16:50:44,0.544s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Beranda/a_Master""))",Chrome 114.0.0.0,,,2023-07-10 16:50:44,2023-07-10 16:50:46,1.821s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Beranda/a_Highlight""))",Chrome 114.0.0.0,,,2023-07-10 16:50:46,2023-07-10 16:50:47,0.839s,PASSED
+"getText(findTestObject(""Object Repository/Master Highlight/Beranda/div_List Highlight BliCicil Admin as       _048319""))",Chrome 114.0.0.0,,,2023-07-10 16:50:47,2023-07-10 16:50:48,0.955s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Beranda/a_2""))",Chrome 114.0.0.0,,,2023-07-10 16:50:48,2023-07-10 16:50:48,0.363s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Beranda/a_Previous""))",Chrome 114.0.0.0,,,2023-07-10 16:50:48,2023-07-10 16:50:49,0.469s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Beranda/a_Next""))",Chrome 114.0.0.0,,,2023-07-10 16:50:49,2023-07-10 16:50:49,0.482s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Beranda/a_1""))",Chrome 114.0.0.0,,,2023-07-10 16:50:49,2023-07-10 16:50:50,0.466s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Beranda/button_Unpublish""))",Chrome 114.0.0.0,,,2023-07-10 16:50:50,2023-07-10 16:50:50,0.511s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Beranda/button_No""))",Chrome 114.0.0.0,,,2023-07-10 16:50:50,2023-07-10 16:50:51,0.534s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Beranda/button_Unpublish""))",Chrome 114.0.0.0,,,2023-07-10 16:50:51,2023-07-10 16:50:51,0.712s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Beranda/button_Yes""))",Chrome 114.0.0.0,,,2023-07-10 16:50:51,2023-07-10 16:50:52,0.501s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-10 16:50:52,2023-07-10 16:50:53,0.766s,PASSED
+,,,,,,,
+Test Cases/Master Highlight/Searching Failed,Chrome 114.0.0.0,,,2023-07-10 16:50:53,2023-07-10 16:51:05,12.484s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-10 16:50:53,2023-07-10 16:50:55,1.653s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-10 16:50:55,2023-07-10 16:50:55,0.018s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-10 16:50:55,2023-07-10 16:50:55,0.605s,PASSED
+"setText(findTestObject(""Object Repository/Master Highlight/Searching Failed/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-10 16:50:55,2023-07-10 16:50:56,1.018s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Highlight/Searching Failed/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-10 16:50:56,2023-07-10 16:50:57,0.413s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Searching Failed/button_Login""))",Chrome 114.0.0.0,,,2023-07-10 16:50:57,2023-07-10 16:50:57,0.540s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Searching Failed/a_Master""))",Chrome 114.0.0.0,,,2023-07-10 16:50:57,2023-07-10 16:50:59,1.886s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Searching Failed/a_Highlight""))",Chrome 114.0.0.0,,,2023-07-10 16:50:59,2023-07-10 16:51:00,0.905s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Searching Failed/div_List Highlight BliCicil Admin as       _048319""))",Chrome 114.0.0.0,,,2023-07-10 16:51:00,2023-07-10 16:51:01,1.013s,PASSED
+"setText(findTestObject(""Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm""), ""sbs"")",Chrome 114.0.0.0,,,2023-07-10 16:51:01,2023-07-10 16:51:02,0.701s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-10 16:51:02,2023-07-10 16:51:02,0.517s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-10 16:51:02,2023-07-10 16:51:03,0.310s,PASSED
+"setText(findTestObject(""Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm""), ""modal instan"")",Chrome 114.0.0.0,,,2023-07-10 16:51:03,2023-07-10 16:51:04,1.411s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-10 16:51:04,2023-07-10 16:51:04,0.466s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-10 16:51:04,2023-07-10 16:51:05,0.773s,PASSED
+,,,,,,,
+Test Cases/Master Highlight/Searching Success,Chrome 114.0.0.0,,,2023-07-10 16:51:05,2023-07-10 16:51:17,11.994s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-10 16:51:06,2023-07-10 16:51:07,1.530s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-10 16:51:07,2023-07-10 16:51:07,0.018s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-10 16:51:07,2023-07-10 16:51:08,0.599s,PASSED
+"setText(findTestObject(""Object Repository/Master Highlight/Searching Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-10 16:51:08,2023-07-10 16:51:09,0.901s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Highlight/Searching Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-10 16:51:09,2023-07-10 16:51:09,0.402s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Searching Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-10 16:51:09,2023-07-10 16:51:09,0.478s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Searching Success/a_Master""))",Chrome 114.0.0.0,,,2023-07-10 16:51:09,2023-07-10 16:51:11,1.856s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Searching Success/a_Highlight""))",Chrome 114.0.0.0,,,2023-07-10 16:51:11,2023-07-10 16:51:12,0.738s,PASSED
+"click(findTestObject(""Object Repository/Master Highlight/Searching Success/div_List Highlight BliCicil Admin as       _048319""))",Chrome 114.0.0.0,,,2023-07-10 16:51:12,2023-07-10 16:51:13,1.053s,PASSED
+"setText(findTestObject(""Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm""), ""Promo"")",Chrome 114.0.0.0,,,2023-07-10 16:51:13,2023-07-10 16:51:14,0.724s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-10 16:51:14,2023-07-10 16:51:14,0.486s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-10 16:51:14,2023-07-10 16:51:15,0.362s,PASSED
+"setText(findTestObject(""Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm""), ""Test"")",Chrome 114.0.0.0,,,2023-07-10 16:51:15,2023-07-10 16:51:16,1.414s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-10 16:51:16,2023-07-10 16:51:17,0.460s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-10 16:51:17,2023-07-10 16:51:17,0.678s,PASSED

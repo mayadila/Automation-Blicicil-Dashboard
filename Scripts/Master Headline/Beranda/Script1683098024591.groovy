@@ -47,7 +47,7 @@ WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/button_Hap
 
 WebUI.getText(findTestObject('Object Repository/Master Headline/Beranda/div_Are you sure want to delete this dataYesNoNo'))
 
-WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/button_No'))
+WebUI.click(findTestObject('Master Headline/Beranda/button_No'))
 
 WebUI.click(findTestObject('Object Repository/Master Headline/Beranda/button_Hapus'))
 
