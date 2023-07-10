@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_--Pilih Kategori--</name>
+   <tag></tag>
+   <elementGuidId>43d6efa9-d3e2-44ad-9a8a-0b42a2ea67c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='categoryVal']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#categoryVal</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>15130d54-7e74-4f16-933e-590e05f42049</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>categoryVal</value>
+      <webElementGuid>93cc23bc-cd16-4b61-ae0b-2d7ca248277c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--Pilih Kategori--</value>
+      <webElementGuid>38f87ffb-4200-45ea-88e7-46d4a3e217c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;categoryVal&quot;)</value>
+      <webElementGuid>5ff49c3b-53e8-4ee7-92b3-1b62abbbfbad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p[@id='categoryVal']</value>
+      <webElementGuid>23b669af-9cd9-400d-a47a-56cbfd1d071f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='inputCategory']/p</value>
+      <webElementGuid>ad8e00d0-1731-4575-b970-7e1a0acd3fba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Kategori'])[1]/following::p[1]</value>
+      <webElementGuid>25eeba7c-d437-4148-bef2-be5e6b4ca659</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Toko'])[1]/following::p[1]</value>
+      <webElementGuid>21ffc80a-0155-422b-a7d2-1a4c3fd4240e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Komputer &amp; Laptop'])[1]/preceding::p[1]</value>
+      <webElementGuid>053f3fa1-65a1-4e32-8bf6-5704b88ee8c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TV'])[1]/preceding::p[1]</value>
+      <webElementGuid>d384798b-75ed-407c-b193-cf22d3e91f8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='--Pilih Kategori--']/parent::*</value>
+      <webElementGuid>def1c1c7-7dcf-462e-8f8f-c358a3223509</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/p</value>
+      <webElementGuid>a68a24df-a494-4912-a233-340e3b767d8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'categoryVal' and (text() = '--Pilih Kategori--' or . = '--Pilih Kategori--')]</value>
+      <webElementGuid>42c19910-db04-4036-b77b-0aa120a00984</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

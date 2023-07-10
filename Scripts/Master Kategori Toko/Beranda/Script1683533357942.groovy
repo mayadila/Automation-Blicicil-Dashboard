@@ -47,7 +47,7 @@ WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Beranda/butto
 
 WebUI.getText(findTestObject('Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a'))
 
-WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Beranda/button_No'))
+WebUI.click(findTestObject('Master Kategori Toko/Beranda/button_No'))
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Beranda/button_Hapus'))
 

@@ -38,7 +38,7 @@
       <name>notChecked</name>
    </variable>
    <variable>
-      <defaultValue>'48'</defaultValue>
+      <defaultValue>'27'</defaultValue>
       <description></description>
       <id>93a77a51-1cb5-4aa5-8268-4522d99469b8</id>
       <masked>false</masked>

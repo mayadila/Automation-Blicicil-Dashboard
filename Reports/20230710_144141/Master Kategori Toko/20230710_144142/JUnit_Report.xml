@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Master Kategori Toko" time="184.216" tests="6" failures="1" errors="0">
+   <testsuite name="Master Kategori Toko" tests="6" failures="1" errors="0" time="184.216" skipped="0" timestamp="2023-07-10 14:41:45" hostname="202102359 - KPO-Blicicil.pdc.megafinance.co.id" id="Test Suites/Master Kategori Toko">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230710_144141\\Master Kategori Toko\\20230710_144142"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230710_144141\\Master Kategori Toko\\20230710_144142\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230710_144141\\Master Kategori Toko\\20230710_144142\\1688975062231.png"/>
+         <property name="hostName" value="202102359 - KPO-Blicicil.pdc.megafinance.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.16.53"/>
+         <property name="sessionId" value="4bd9a5a88a208eb7bdc22677313db725"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Master Kategori Toko/Beranda" time="45.044" classname="Test Cases/Master Kategori Toko/Beranda" status="PASSED">
+         <system-out><![CDATA[2023-07-10 14:41:46 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Beranda: Test Cases/Master Kategori Toko/Beranda
+
+2023-07-10 14:41:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-10 14:41:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-10 14:41:47 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-10 14:41:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-10 14:41:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-10 14:41:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-10 14:41:50 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-10 14:41:50 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:41:52 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:41:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Beranda/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Beranda/input_Email_email'
+
+2023-07-10 14:41:53 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Beranda/input_Email_email'
+
+2023-07-10 14:41:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Beranda/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Beranda/input_Password_password'
+
+2023-07-10 14:41:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Beranda/input_Password_password'
+
+2023-07-10 14:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/button_Login")): Object: 'Object Repository/Master Kategori Toko/Beranda/button_Login' is clicked on
+
+2023-07-10 14:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/button_Login' is clicked on
+
+2023-07-10 14:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_Master")): Object: 'Object Repository/Master Kategori Toko/Beranda/a_Master' is clicked on
+
+2023-07-10 14:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/a_Master' is clicked on
+
+2023-07-10 14:41:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Beranda/a_Kategori Toko' is clicked on
+
+2023-07-10 14:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/a_Kategori Toko' is clicked on
+
+2023-07-10 14:41:57 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Kategori Toko/Beranda/div_List Kategori Toko BliCicil Admin as   _2278a0")): Text of object 'Object Repository/Master Kategori Toko/Beranda/div_List Kategori Toko BliCicil Admin as   _2278a0' is: 'List Kategori Toko BliCicil Admin as
+New Kategori Toko'
+
+2023-07-10 14:41:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Kategori Toko/Beranda/div_List Kategori Toko BliCicil Admin as   _2278a0' is: 'List Kategori Toko BliCicil Admin as
+New Kategori Toko'
+
+2023-07-10 14:41:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_2")): Object: 'Object Repository/Master Kategori Toko/Beranda/a_2' is clicked on
+
+2023-07-10 14:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/a_2' is clicked on
+
+2023-07-10 14:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_Previous")): Object: 'Object Repository/Master Kategori Toko/Beranda/a_Previous' is clicked on
+
+2023-07-10 14:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/a_Previous' is clicked on
+
+2023-07-10 14:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_Next")): Object: 'Object Repository/Master Kategori Toko/Beranda/a_Next' is clicked on
+
+2023-07-10 14:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/a_Next' is clicked on
+
+2023-07-10 14:42:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_1")): Object: 'Object Repository/Master Kategori Toko/Beranda/a_1' is clicked on
+
+2023-07-10 14:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/a_1' is clicked on
+
+2023-07-10 14:42:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/button_Hapus")): Object: 'Object Repository/Master Kategori Toko/Beranda/button_Hapus' is clicked on
+
+2023-07-10 14:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/button_Hapus' is clicked on
+
+2023-07-10 14:42:28 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a")): Text of object 'Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a' is: 'Messages
+Timeline
+Exceptions
+Views5
+Route
+Queries31
+Models88
+Mails
+Gate
+Session
+Request
+7.4.30
+50.16ms
+5MB
+GET master/katetoko'
+
+2023-07-10 14:42:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a' is: 'Messages
+Timeline
+Exceptions
+Views5
+Route
+Queries31
+Models88
+Mails
+Gate
+Session
+Request
+7.4.30
+50.16ms
+5MB
+GET master/katetoko'
+
+2023-07-10 14:42:28 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Beranda/button_No")): Object: 'Object Repository/Master Kategori Toko/Beranda/button_No' is clicked on
+
+2023-07-10 14:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/button_No' is clicked on
+
+2023-07-10 14:42:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/button_Hapus")): Object: 'Object Repository/Master Kategori Toko/Beranda/button_Hapus' is clicked on
+
+2023-07-10 14:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/button_Hapus' is clicked on
+
+2023-07-10 14:42:29 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a")): Text of object 'Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a' is: 'Messages
+Timeline
+Exceptions
+Views5
+Route
+Queries31
+Models88
+Mails
+Gate
+Session
+Request
+7.4.30
+50.16ms
+5MB
+GET master/katetoko'
+
+2023-07-10 14:42:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a' is: 'Messages
+Timeline
+Exceptions
+Views5
+Route
+Queries31
+Models88
+Mails
+Gate
+Session
+Request
+7.4.30
+50.16ms
+5MB
+GET master/katetoko'
+
+2023-07-10 14:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/button_Yes")): Object: 'Object Repository/Master Kategori Toko/Beranda/button_Yes' is clicked on
+
+2023-07-10 14:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/button_Yes' is clicked on
+
+2023-07-10 14:42:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-10 14:42:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Add Success" time="51.847" classname="Test Cases/Master Kategori Toko/Add Success" status="PASSED">
+         <system-out><![CDATA[2023-07-10 14:42:31 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Add Success: Test Cases/Master Kategori Toko/Add Success
+
+2023-07-10 14:42:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-10 14:42:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-10 14:42:31 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-10 14:42:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-10 14:42:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-10 14:42:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-10 14:42:33 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-10 14:42:33 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:42:34 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:42:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Add Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Add Success/input_Email_email'
+
+2023-07-10 14:42:35 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Add Success/input_Email_email'
+
+2023-07-10 14:42:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Add Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Add Success/input_Password_password'
+
+2023-07-10 14:42:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Add Success/input_Password_password'
+
+2023-07-10 14:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add Success/button_Login")): Object: 'Object Repository/Master Kategori Toko/Add Success/button_Login' is clicked on
+
+2023-07-10 14:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/button_Login' is clicked on
+
+2023-07-10 14:42:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add Success/a_Master")): Object: 'Object Repository/Master Kategori Toko/Add Success/a_Master' is clicked on
+
+2023-07-10 14:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/a_Master' is clicked on
+
+2023-07-10 14:42:38 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add Success/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Add Success/a_Kategori Toko' is clicked on
+
+2023-07-10 14:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/a_Kategori Toko' is clicked on
+
+2023-07-10 14:42:39 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add Success/a_New Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Add Success/a_New Kategori Toko' is clicked on
+
+2023-07-10 14:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/a_New Kategori Toko' is clicked on
+
+2023-07-10 14:42:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Master Kategori Toko/Add Success/Pilih toko"), toko, true): All options with value '27' are selected in object 'Object Repository/Master Kategori Toko/Add Success/Pilih toko'  using regular expression
+
+2023-07-10 14:43:17 - [MESSAGE][PASSED] - All options with value '27' are selected in object 'Object Repository/Master Kategori Toko/Add Success/Pilih toko'  using regular expression
+
+2023-07-10 14:43:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add Success/div_--Pilih Kategori--")): Object: 'Object Repository/Master Kategori Toko/Add Success/div_--Pilih Kategori--' is clicked on
+
+2023-07-10 14:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/div_--Pilih Kategori--' is clicked on
+
+2023-07-10 14:43:18 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add Success/input_Komputer  Laptop_category"), 0): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is not checked
+
+2023-07-10 14:43:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:43:18 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is not checked
+
+2023-07-10 14:43:18 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-10 14:43:18 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_Komputer  Laptop_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-10 14:43:19 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-10 14:43:19 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add Success/input_TV_category"), 0): Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is not checked
+
+2023-07-10 14:43:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:43:19 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is not checked
+
+2023-07-10 14:43:19 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is checked
+
+2023-07-10 14:43:19 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_TV_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is checked
+
+2023-07-10 14:43:20 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is checked
+
+2023-07-10 14:43:20 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add Success/input_Dapur_category"), 0): Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is not checked
+
+2023-07-10 14:43:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:43:20 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is not checked
+
+2023-07-10 14:43:20 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is checked
+
+2023-07-10 14:43:20 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_Dapur_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is checked
+
+2023-07-10 14:43:21 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is checked
+
+2023-07-10 14:43:21 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add Success/input_Kamera  Recoder_category"), 0): Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is not checked
+
+2023-07-10 14:43:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:43:21 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is not checked
+
+2023-07-10 14:43:21 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is checked
+
+2023-07-10 14:43:21 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_Kamera  Recoder_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is checked
+
+2023-07-10 14:43:21 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is checked
+
+2023-07-10 14:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add Success/button_Submit")): Object: 'Object Repository/Master Kategori Toko/Add Success/button_Submit' is clicked on
+
+2023-07-10 14:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/button_Submit' is clicked on
+
+2023-07-10 14:43:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-10 14:43:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Add Failed" time="15.852" classname="Test Cases/Master Kategori Toko/Add Failed" status="PASSED">
+         <system-out><![CDATA[2023-07-10 14:43:23 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Add Failed: Test Cases/Master Kategori Toko/Add Failed
+
+2023-07-10 14:43:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-10 14:43:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-10 14:43:23 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-10 14:43:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-10 14:43:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-10 14:43:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-10 14:43:25 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-10 14:43:25 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:43:26 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:43:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Add/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Add/input_Email_email'
+
+2023-07-10 14:43:27 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Add/input_Email_email'
+
+2023-07-10 14:43:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Add/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Add/input_Password_password'
+
+2023-07-10 14:43:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Add/input_Password_password'
+
+2023-07-10 14:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add/button_Login")): Object: 'Object Repository/Master Kategori Toko/Add/button_Login' is clicked on
+
+2023-07-10 14:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/button_Login' is clicked on
+
+2023-07-10 14:43:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add/a_Master")): Object: 'Object Repository/Master Kategori Toko/Add/a_Master' is clicked on
+
+2023-07-10 14:43:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/a_Master' is clicked on
+
+2023-07-10 14:43:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Add/a_Kategori Toko' is clicked on
+
+2023-07-10 14:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/a_Kategori Toko' is clicked on
+
+2023-07-10 14:43:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add/a_New Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Add/a_New Kategori Toko' is clicked on
+
+2023-07-10 14:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/a_New Kategori Toko' is clicked on
+
+2023-07-10 14:43:32 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/select_--Pilih Toko")): Object: 'Object Repository/Master Kategori Toko/Add/select_--Pilih Toko' is clicked on
+
+2023-07-10 14:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/select_--Pilih Toko' is clicked on
+
+2023-07-10 14:43:33 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/div_--Pilih Kategori--")): Object: 'Object Repository/Master Kategori Toko/Add/div_--Pilih Kategori--' is clicked on
+
+2023-07-10 14:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/div_--Pilih Kategori--' is clicked on
+
+2023-07-10 14:43:34 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/button_Submit")): Object: 'Object Repository/Master Kategori Toko/Add/button_Submit' is clicked on
+
+2023-07-10 14:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/button_Submit' is clicked on
+
+2023-07-10 14:43:34 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-10 14:43:35 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-10 14:43:35 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/select_--Pilih Toko")): Object: 'Object Repository/Master Kategori Toko/Add/select_--Pilih Toko' is clicked on
+
+2023-07-10 14:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/select_--Pilih Toko' is clicked on
+
+2023-07-10 14:43:36 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/div_--Pilih Kategori--")): Object: 'Object Repository/Master Kategori Toko/Add/div_--Pilih Kategori--' is clicked on
+
+2023-07-10 14:43:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/div_--Pilih Kategori--' is clicked on
+
+2023-07-10 14:43:37 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add/input_Komputer Laptop_category"), 0): Object 'Object Repository/Master Kategori Toko/Add/input_Komputer Laptop_category' is not checked
+
+2023-07-10 14:43:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:43:37 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add/input_Komputer Laptop_category' is not checked
+
+2023-07-10 14:43:37 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-10 14:43:37 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_Komputer  Laptop_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-10 14:43:37 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-10 14:43:37 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/button_Submit")): Object: 'Object Repository/Master Kategori Toko/Add/button_Submit' is clicked on
+
+2023-07-10 14:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/button_Submit' is clicked on
+
+2023-07-10 14:43:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-10 14:43:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Edit Sukses" time="43.338" classname="Test Cases/Master Kategori Toko/Edit Sukses" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Master Kategori Toko/Edit Sukses FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1397)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$11.call(Unknown Source)
+	at Edit Sukses.run(Edit Sukses:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688974902645.run(TempTestSuite1688974902645.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' located by 'id(&quot;category62f316ad2b878f0347211ea1&quot;)[count(. | //*[@type = 'checkbox' and @checked = 'true']) = count(//*[@type = 'checkbox' and @checked = 'true'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-07-10 14:43:39 - [TEST_CASE][FAILED] - Test Cases/Master Kategori Toko/Edit Sukses: Test Cases/Master Kategori Toko/Edit Sukses FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1397)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$11.call(Unknown Source)
+	at Edit Sukses.run(Edit Sukses:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688974902645.run(TempTestSuite1688974902645.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' located by 'id("category62f316ad2b878f0347211ea1")[count(. | //*[@type = 'checkbox' and @checked = 'true']) = count(//*[@type = 'checkbox' and @checked = 'true'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-07-10 14:43:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-10 14:43:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-10 14:43:39 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-10 14:43:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-10 14:43:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-10 14:43:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-10 14:43:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-10 14:43:41 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:43:41 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:43:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Edit/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Edit/input_Email_email'
+
+2023-07-10 14:43:42 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Edit/input_Email_email'
+
+2023-07-10 14:43:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Edit/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Edit/input_Password_password'
+
+2023-07-10 14:43:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Edit/input_Password_password'
+
+2023-07-10 14:43:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Edit/button_Login")): Object: 'Object Repository/Master Kategori Toko/Edit/button_Login' is clicked on
+
+2023-07-10 14:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/button_Login' is clicked on
+
+2023-07-10 14:43:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Edit/a_Master")): Object: 'Object Repository/Master Kategori Toko/Edit/a_Master' is clicked on
+
+2023-07-10 14:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/a_Master' is clicked on
+
+2023-07-10 14:43:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Edit/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Edit/a_Kategori Toko' is clicked on
+
+2023-07-10 14:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/a_Kategori Toko' is clicked on
+
+2023-07-10 14:43:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Edit/a_Edit")): Object: 'Object Repository/Master Kategori Toko/Edit/a_Edit' is clicked on
+
+2023-07-10 14:43:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/a_Edit' is clicked on
+
+2023-07-10 14:43:48 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Edit/div_Kategori")): Object: 'Object Repository/Master Kategori Toko/Edit/div_Kategori' is clicked on
+
+2023-07-10 14:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/div_Kategori' is clicked on
+
+2023-07-10 14:43:49 - [TEST_STEP][PASSED] - checked = verifyElementChecked(findTestObject("Master Kategori Toko/Edit/input_Komputer Laptop_category"), 0): Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is checked
+
+2023-07-10 14:43:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:43:49 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is checked
+
+2023-07-10 14:43:49 - [TEST_STEP][PASSED] - if (checked == true): Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is un-checked
+
+2023-07-10 14:43:49 - [TEST_STEP][PASSED] - uncheck(findTestObject("Master Kategori Toko/Edit/input_Komputer Laptop_category")): Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is un-checked
+
+2023-07-10 14:43:50 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is un-checked
+
+2023-07-10 14:43:50 - [TEST_STEP][PASSED] - checked = verifyElementChecked(findTestObject("Master Kategori Toko/Edit/input_TV_category"), 0): Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is checked
+
+2023-07-10 14:43:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:43:50 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is checked
+
+2023-07-10 14:43:50 - [TEST_STEP][PASSED] - if (checked == true): Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is un-checked
+
+2023-07-10 14:43:50 - [TEST_STEP][PASSED] - uncheck(findTestObject("Master Kategori Toko/Edit/input_TV_category")): Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is un-checked
+
+2023-07-10 14:43:50 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is un-checked
+
+2023-07-10 14:43:50 - [TEST_STEP][FAILED] - checked = verifyElementChecked(findTestObject("Master Kategori Toko/Edit/input_Kamera Recorder_category"), 0): Unable to verify object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1397)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$11.call(Unknown Source)
+	at Edit Sukses.run(Edit Sukses:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688974902645.run(TempTestSuite1688974902645.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' located by 'id("category62f316ad2b878f0347211ea1")[count(. | //*[@type = 'checkbox' and @checked = 'true']) = count(//*[@type = 'checkbox' and @checked = 'true'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1397)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$11.call(Unknown Source)
+	at Script1688973604492.run(Script1688973604492.groovy:52)
+	... 13 more
+)
+
+2023-07-10 14:43:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-10 14:44:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("category62f316ad2b878f0347211ea1")[count(. | //*[@type = 'checkbox' and @checked = 'true']) = count(//*[@type = 'checkbox' and @checked = 'true'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-07-10 14:44:22 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1397)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$11.call(Unknown Source)
+	at Edit Sukses.run(Edit Sukses:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688974902645.run(TempTestSuite1688974902645.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' located by 'id("category62f316ad2b878f0347211ea1")[count(. | //*[@type = 'checkbox' and @checked = 'true']) = count(//*[@type = 'checkbox' and @checked = 'true'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1397)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$11.call(Unknown Source)
+	at Script1688973604492.run(Script1688973604492.groovy:52)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230710_144141\\Master Kategori Toko\\20230710_144142\\1688975062231.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-10 14:43:39 - [TEST_CASE][FAILED] - Test Cases/Master Kategori Toko/Edit Sukses: Test Cases/Master Kategori Toko/Edit Sukses FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1397)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$11.call(Unknown Source)
+	at Edit Sukses.run(Edit Sukses:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688974902645.run(TempTestSuite1688974902645.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' located by 'id("category62f316ad2b878f0347211ea1")[count(. | //*[@type = 'checkbox' and @checked = 'true']) = count(//*[@type = 'checkbox' and @checked = 'true'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Searching Success" time="13.24" classname="Test Cases/Master Kategori Toko/Searching Success" status="PASSED">
+         <system-out><![CDATA[2023-07-10 14:44:22 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Searching Success: Test Cases/Master Kategori Toko/Searching Success
+
+2023-07-10 14:44:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-10 14:44:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-10 14:44:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-10 14:44:23 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-10 14:44:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-10 14:44:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-10 14:44:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-10 14:44:25 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-10 14:44:25 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:44:26 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:44:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Email_email'
+
+2023-07-10 14:44:27 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Email_email'
+
+2023-07-10 14:44:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Password_password'
+
+2023-07-10 14:44:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Password_password'
+
+2023-07-10 14:44:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Success/button_Login")): Object: 'Object Repository/Master Kategori Toko/Searching Success/button_Login' is clicked on
+
+2023-07-10 14:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Success/button_Login' is clicked on
+
+2023-07-10 14:44:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Success/a_Master")): Object: 'Object Repository/Master Kategori Toko/Searching Success/a_Master' is clicked on
+
+2023-07-10 14:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Success/a_Master' is clicked on
+
+2023-07-10 14:44:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Success/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Searching Success/a_Kategori Toko' is clicked on
+
+2023-07-10 14:44:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Success/a_Kategori Toko' is clicked on
+
+2023-07-10 14:44:31 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/div_List Kategori Toko BliCicil Admin as   _2278a0")): Text of object 'Object Repository/Master Kategori Toko/Searching Success/div_List Kategori Toko BliCicil Admin as   _2278a0' is: 'List Kategori Toko BliCicil Admin as
+New Kategori Toko'
+
+2023-07-10 14:44:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Kategori Toko/Searching Success/div_List Kategori Toko BliCicil Admin as   _2278a0' is: 'List Kategori Toko BliCicil Admin as
+New Kategori Toko'
+
+2023-07-10 14:44:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm"), "Panasonic"): Text 'Panasonic' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:33 - [MESSAGE][PASSED] - Text 'Panasonic' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm"), "Carrefour"): Text 'Carrefour' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:34 - [MESSAGE][PASSED] - Text 'Carrefour' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-10 14:44:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Searching Failed" time="14.438" classname="Test Cases/Master Kategori Toko/Searching Failed" status="PASSED">
+         <system-out><![CDATA[2023-07-10 14:44:35 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Searching Failed: Test Cases/Master Kategori Toko/Searching Failed
+
+2023-07-10 14:44:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-10 14:44:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-10 14:44:36 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-10 14:44:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-10 14:44:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-10 14:44:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-10 14:44:38 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-10 14:44:38 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:44:40 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-10 14:44:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Email_email'
+
+2023-07-10 14:44:41 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Email_email'
+
+2023-07-10 14:44:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Password_password'
+
+2023-07-10 14:44:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Password_password'
+
+2023-07-10 14:44:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/button_Login")): Object: 'Object Repository/Master Kategori Toko/Searching Failed/button_Login' is clicked on
+
+2023-07-10 14:44:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Failed/button_Login' is clicked on
+
+2023-07-10 14:44:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/a_Master")): Object: 'Object Repository/Master Kategori Toko/Searching Failed/a_Master' is clicked on
+
+2023-07-10 14:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Failed/a_Master' is clicked on
+
+2023-07-10 14:44:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Searching Failed/a_Kategori Toko' is clicked on
+
+2023-07-10 14:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Failed/a_Kategori Toko' is clicked on
+
+2023-07-10 14:44:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/div_List Kategori Toko BliCicil Admin as   _2278a0")): Object: 'Object Repository/Master Kategori Toko/Searching Failed/div_List Kategori Toko BliCicil Admin as   _2278a0' is clicked on
+
+2023-07-10 14:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Failed/div_List Kategori Toko BliCicil Admin as   _2278a0' is clicked on
+
+2023-07-10 14:44:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm"), "123456"): Text '123456' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:47 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm"), "Sharp"): Text 'Sharp' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:48 - [MESSAGE][PASSED] - Text 'Sharp' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-10 14:44:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-10 14:44:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-10 14:41:45 - [TEST_SUITE][FAILED] - Master Kategori Toko: Test Cases/Master Kategori Toko/Edit Sukses FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1397)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$11.call(Unknown Source)
+	at Edit Sukses.run(Edit Sukses:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688974902645.run(TempTestSuite1688974902645.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' located by 'id("category62f316ad2b878f0347211ea1")[count(. | //*[@type = 'checkbox' and @checked = 'true']) = count(//*[@type = 'checkbox' and @checked = 'true'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-10 14:41:45 - [TEST_SUITE][FAILED] - Master Kategori Toko: Test Cases/Master Kategori Toko/Edit Sukses FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1397)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$11.call(Unknown Source)
+	at Edit Sukses.run(Edit Sukses:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688974902645.run(TempTestSuite1688974902645.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' located by 'id("category62f316ad2b878f0347211ea1")[count(. | //*[@type = 'checkbox' and @checked = 'true']) = count(//*[@type = 'checkbox' and @checked = 'true'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
