@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Managament" time="124.764" tests="4" failures="0" errors="0">
+   <testsuite name="Customer Managament" tests="4" failures="0" errors="0" time="124.764" skipped="0" timestamp="2023-07-11 09:56:21" hostname="202102359 - KPO-Blicicil.pdc.megafinance.co.id" id="Test Suites/Customer Managament">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230711_095618\\Customer Managament\\20230711_095618"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230711_095618\\Customer Managament\\20230711_095618\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="202102359 - KPO-Blicicil.pdc.megafinance.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.16.53"/>
+         <property name="sessionId" value="8898ce988bfacd600df2f6e1d4fa1070"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Customer Management/Beranda" time="17.76" classname="Test Cases/Customer Management/Beranda" status="PASSED">
+         <system-out><![CDATA[2023-07-11 09:56:22 - [TEST_CASE][PASSED] - Test Cases/Customer Management/Beranda: Test Cases/Customer Management/Beranda
+
+2023-07-11 09:56:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 09:56:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-11 09:56:23 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-11 09:56:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 09:56:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 09:56:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 09:56:26 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 09:56:26 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 09:56:27 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 09:56:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Beranda/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Customer Managementt/Beranda/input_Email_email'
+
+2023-07-11 09:56:28 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Customer Managementt/Beranda/input_Email_email'
+
+2023-07-11 09:56:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Customer Managementt/Beranda/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Customer Managementt/Beranda/input_Password_password'
+
+2023-07-11 09:56:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Customer Managementt/Beranda/input_Password_password'
+
+2023-07-11 09:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Beranda/button_Login")): Object: 'Object Repository/Customer Managementt/Beranda/button_Login' is clicked on
+
+2023-07-11 09:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Beranda/button_Login' is clicked on
+
+2023-07-11 09:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Beranda/span_Customer Management")): Object: 'Object Repository/Customer Managementt/Beranda/span_Customer Management' is clicked on
+
+2023-07-11 09:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Beranda/span_Customer Management' is clicked on
+
+2023-07-11 09:56:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Customer Managementt/Beranda/select_Show                                _69175e"), "10", true): All options with value '10' are selected in object 'Object Repository/Customer Managementt/Beranda/select_Show                                _69175e'  using regular expression
+
+2023-07-11 09:56:34 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Customer Managementt/Beranda/select_Show                                _69175e'  using regular expression
+
+2023-07-11 09:56:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Customer Managementt/Beranda/select_Show                                _69175e"), "25", true): All options with value '25' are selected in object 'Object Repository/Customer Managementt/Beranda/select_Show                                _69175e'  using regular expression
+
+2023-07-11 09:56:35 - [MESSAGE][PASSED] - All options with value '25' are selected in object 'Object Repository/Customer Managementt/Beranda/select_Show                                _69175e'  using regular expression
+
+2023-07-11 09:56:35 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Customer Managementt/Beranda/select_Show                                _69175e"), "5", true): All options with value '5' are selected in object 'Object Repository/Customer Managementt/Beranda/select_Show                                _69175e'  using regular expression
+
+2023-07-11 09:56:36 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/Customer Managementt/Beranda/select_Show                                _69175e'  using regular expression
+
+2023-07-11 09:56:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Beranda/a_4")): Object: 'Object Repository/Customer Managementt/Beranda/a_4' is clicked on
+
+2023-07-11 09:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Beranda/a_4' is clicked on
+
+2023-07-11 09:56:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Beranda/a_5")): Object: 'Object Repository/Customer Managementt/Beranda/a_5' is clicked on
+
+2023-07-11 09:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Beranda/a_5' is clicked on
+
+2023-07-11 09:56:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Beranda/a_Prev")): Object: 'Object Repository/Customer Managementt/Beranda/a_Prev' is clicked on
+
+2023-07-11 09:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Beranda/a_Prev' is clicked on
+
+2023-07-11 09:56:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Beranda/a_Next")): Object: 'Object Repository/Customer Managementt/Beranda/a_Next' is clicked on
+
+2023-07-11 09:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Beranda/a_Next' is clicked on
+
+2023-07-11 09:56:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 09:56:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Management/Detail" time="37.445" classname="Test Cases/Customer Management/Detail" status="PASSED">
+         <system-out><![CDATA[2023-07-11 09:56:39 - [TEST_CASE][PASSED] - Test Cases/Customer Management/Detail: Test Cases/Customer Management/Detail
+
+2023-07-11 09:56:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 09:56:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-11 09:56:40 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-11 09:56:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 09:56:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 09:56:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 09:56:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 09:56:41 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 09:56:42 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 09:56:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Detail/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Customer Managementt/Detail/input_Email_email'
+
+2023-07-11 09:56:43 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Customer Managementt/Detail/input_Email_email'
+
+2023-07-11 09:56:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Customer Managementt/Detail/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Customer Managementt/Detail/input_Password_password'
+
+2023-07-11 09:56:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Customer Managementt/Detail/input_Password_password'
+
+2023-07-11 09:56:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/button_Login")): Object: 'Object Repository/Customer Managementt/Detail/button_Login' is clicked on
+
+2023-07-11 09:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/button_Login' is clicked on
+
+2023-07-11 09:56:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/span_Customer Management")): Object: 'Object Repository/Customer Managementt/Detail/span_Customer Management' is clicked on
+
+2023-07-11 09:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/span_Customer Management' is clicked on
+
+2023-07-11 09:56:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Detail")): Object: 'Object Repository/Customer Managementt/Detail/a_Detail' is clicked on
+
+2023-07-11 09:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Detail' is clicked on
+
+2023-07-11 09:56:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/h3_User Profile")): Object: 'Object Repository/Customer Managementt/Detail/h3_User Profile' is clicked on
+
+2023-07-11 09:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/h3_User Profile' is clicked on
+
+2023-07-11 09:56:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Informasi Alamat")): Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Alamat' is clicked on
+
+2023-07-11 09:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Alamat' is clicked on
+
+2023-07-11 09:56:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan")): Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan' is clicked on
+
+2023-07-11 09:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan' is clicked on
+
+2023-07-11 09:56:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Informasi Kontak")): Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Kontak' is clicked on
+
+2023-07-11 09:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Kontak' is clicked on
+
+2023-07-11 09:56:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Foto Identitas")): Object: 'Object Repository/Customer Managementt/Detail/a_Foto Identitas' is clicked on
+
+2023-07-11 09:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Foto Identitas' is clicked on
+
+2023-07-11 09:56:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Customer Management")): Object: 'Object Repository/Customer Managementt/Detail/a_Customer Management' is clicked on
+
+2023-07-11 09:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Customer Management' is clicked on
+
+2023-07-11 09:56:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_3")): Object: 'Object Repository/Customer Managementt/Detail/a_3' is clicked on
+
+2023-07-11 09:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_3' is clicked on
+
+2023-07-11 09:56:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Detail_1")): Object: 'Object Repository/Customer Managementt/Detail/a_Detail_1' is clicked on
+
+2023-07-11 09:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Detail_1' is clicked on
+
+2023-07-11 09:57:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Informasi Alamat")): Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Alamat' is clicked on
+
+2023-07-11 09:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Alamat' is clicked on
+
+2023-07-11 09:57:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan")): Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan' is clicked on
+
+2023-07-11 09:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan' is clicked on
+
+2023-07-11 09:57:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Informasi Kontak")): Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Kontak' is clicked on
+
+2023-07-11 09:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Kontak' is clicked on
+
+2023-07-11 09:57:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Foto Identitas")): Object: 'Object Repository/Customer Managementt/Detail/a_Foto Identitas' is clicked on
+
+2023-07-11 09:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Foto Identitas' is clicked on
+
+2023-07-11 09:57:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Customer Management")): Object: 'Object Repository/Customer Managementt/Detail/a_Customer Management' is clicked on
+
+2023-07-11 09:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Customer Management' is clicked on
+
+2023-07-11 09:57:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_5")): Object: 'Object Repository/Customer Managementt/Detail/a_5' is clicked on
+
+2023-07-11 09:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_5' is clicked on
+
+2023-07-11 09:57:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Detail_1_2")): Object: 'Object Repository/Customer Managementt/Detail/a_Detail_1_2' is clicked on
+
+2023-07-11 09:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Detail_1_2' is clicked on
+
+2023-07-11 09:57:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Informasi Alamat")): Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Alamat' is clicked on
+
+2023-07-11 09:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Alamat' is clicked on
+
+2023-07-11 09:57:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan")): Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan' is clicked on
+
+2023-07-11 09:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan' is clicked on
+
+2023-07-11 09:57:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Informasi Kontak")): Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Kontak' is clicked on
+
+2023-07-11 09:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Kontak' is clicked on
+
+2023-07-11 09:57:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Foto Identitas")): Object: 'Object Repository/Customer Managementt/Detail/a_Foto Identitas' is clicked on
+
+2023-07-11 09:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Foto Identitas' is clicked on
+
+2023-07-11 09:57:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Customer Management")): Object: 'Object Repository/Customer Managementt/Detail/a_Customer Management' is clicked on
+
+2023-07-11 09:57:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Customer Management' is clicked on
+
+2023-07-11 09:57:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_5")): Object: 'Object Repository/Customer Managementt/Detail/a_5' is clicked on
+
+2023-07-11 09:57:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_5' is clicked on
+
+2023-07-11 09:57:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_7")): Object: 'Object Repository/Customer Managementt/Detail/a_7' is clicked on
+
+2023-07-11 09:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_7' is clicked on
+
+2023-07-11 09:57:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_9")): Object: 'Object Repository/Customer Managementt/Detail/a_9' is clicked on
+
+2023-07-11 09:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_9' is clicked on
+
+2023-07-11 09:57:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_11")): Object: 'Object Repository/Customer Managementt/Detail/a_11' is clicked on
+
+2023-07-11 09:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_11' is clicked on
+
+2023-07-11 09:57:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_13")): Object: 'Object Repository/Customer Managementt/Detail/a_13' is clicked on
+
+2023-07-11 09:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_13' is clicked on
+
+2023-07-11 09:57:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_15")): Object: 'Object Repository/Customer Managementt/Detail/a_15' is clicked on
+
+2023-07-11 09:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_15' is clicked on
+
+2023-07-11 09:57:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Detail_1_2_3")): Object: 'Object Repository/Customer Managementt/Detail/a_Detail_1_2_3' is clicked on
+
+2023-07-11 09:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Detail_1_2_3' is clicked on
+
+2023-07-11 09:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Informasi Alamat")): Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Alamat' is clicked on
+
+2023-07-11 09:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Alamat' is clicked on
+
+2023-07-11 09:57:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan")): Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan' is clicked on
+
+2023-07-11 09:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan' is clicked on
+
+2023-07-11 09:57:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Informasi Kontak")): Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Kontak' is clicked on
+
+2023-07-11 09:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Informasi Kontak' is clicked on
+
+2023-07-11 09:57:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Detail/a_Foto Identitas")): Object: 'Object Repository/Customer Managementt/Detail/a_Foto Identitas' is clicked on
+
+2023-07-11 09:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Detail/a_Foto Identitas' is clicked on
+
+2023-07-11 09:57:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 09:57:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Management/Searching Failed" time="25.454" classname="Test Cases/Customer Management/Searching Failed" status="PASSED">
+         <system-out><![CDATA[2023-07-11 09:57:17 - [TEST_CASE][PASSED] - Test Cases/Customer Management/Searching Failed: Test Cases/Customer Management/Searching Failed
+
+2023-07-11 09:57:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 09:57:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-11 09:57:17 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-11 09:57:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 09:57:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 09:57:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 09:57:19 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 09:57:19 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 09:57:21 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 09:57:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Searching Failed/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Customer Managementt/Searching Failed/input_Email_email'
+
+2023-07-11 09:57:22 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Customer Managementt/Searching Failed/input_Email_email'
+
+2023-07-11 09:57:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Customer Managementt/Searching Failed/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Customer Managementt/Searching Failed/input_Password_password'
+
+2023-07-11 09:57:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Customer Managementt/Searching Failed/input_Password_password'
+
+2023-07-11 09:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Searching Failed/button_Login")): Object: 'Object Repository/Customer Managementt/Searching Failed/button_Login' is clicked on
+
+2023-07-11 09:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Searching Failed/button_Login' is clicked on
+
+2023-07-11 09:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Searching Failed/span_Customer Management")): Object: 'Object Repository/Customer Managementt/Searching Failed/span_Customer Management' is clicked on
+
+2023-07-11 09:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Searching Failed/span_Customer Management' is clicked on
+
+2023-07-11 09:57:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677"), "name", true): All options with value 'name' are selected in object 'Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'  using regular expression
+
+2023-07-11 09:57:27 - [MESSAGE][PASSED] - All options with value 'name' are selected in object 'Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'  using regular expression
+
+2023-07-11 09:57:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch"), "Dono"): Text 'Dono' is set on object 'Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'
+
+2023-07-11 09:57:28 - [MESSAGE][PASSED] - Text 'Dono' is set on object 'Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'
+
+2023-07-11 09:57:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'
+
+2023-07-11 09:57:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch'
+
+2023-07-11 09:57:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-11 09:57:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-11 09:57:31 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-11 09:57:31 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-11 09:57:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677"), "mobile_phone", true): All options with value 'mobile_phone' are selected in object 'Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'  using regular expression
+
+2023-07-11 09:57:33 - [MESSAGE][PASSED] - All options with value 'mobile_phone' are selected in object 'Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'  using regular expression
+
+2023-07-11 09:57:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1"), "233333"): Text '233333' is set on object 'Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:57:34 - [MESSAGE][PASSED] - Text '233333' is set on object 'Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:57:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:57:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:57:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-11 09:57:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-11 09:57:36 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-11 09:57:36 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-11 09:57:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677"), "nik", true): All options with value 'nik' are selected in object 'Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'  using regular expression
+
+2023-07-11 09:57:38 - [MESSAGE][PASSED] - All options with value 'nik' are selected in object 'Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677'  using regular expression
+
+2023-07-11 09:57:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1"), "123456"): Text '123456' is set on object 'Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:57:39 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:57:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:57:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:57:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-11 09:57:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-11 09:57:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 09:57:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Management/Searching Success" time="43.706" classname="Test Cases/Customer Management/Searching Success" status="PASSED">
+         <system-out><![CDATA[2023-07-11 09:57:42 - [TEST_CASE][PASSED] - Test Cases/Customer Management/Searching Success: Test Cases/Customer Management/Searching Success
+
+2023-07-11 09:57:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 09:57:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-11 09:57:43 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-11 09:57:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 09:57:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 09:57:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 09:57:46 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 09:57:46 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 09:57:46 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 09:57:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Searching Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Customer Managementt/Searching Success/input_Email_email'
+
+2023-07-11 09:57:48 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Customer Managementt/Searching Success/input_Email_email'
+
+2023-07-11 09:57:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Customer Managementt/Searching Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Customer Managementt/Searching Success/input_Password_password'
+
+2023-07-11 09:57:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Customer Managementt/Searching Success/input_Password_password'
+
+2023-07-11 09:57:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Searching Success/button_Login")): Object: 'Object Repository/Customer Managementt/Searching Success/button_Login' is clicked on
+
+2023-07-11 09:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Searching Success/button_Login' is clicked on
+
+2023-07-11 09:57:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Managementt/Searching Success/span_Customer Management")): Object: 'Object Repository/Customer Managementt/Searching Success/span_Customer Management' is clicked on
+
+2023-07-11 09:57:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Managementt/Searching Success/span_Customer Management' is clicked on
+
+2023-07-11 09:57:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677"), "name", true): All options with value 'name' are selected in object 'Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'  using regular expression
+
+2023-07-11 09:57:53 - [MESSAGE][PASSED] - All options with value 'name' are selected in object 'Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'  using regular expression
+
+2023-07-11 09:57:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch"), "Eva"): Text 'Eva' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'
+
+2023-07-11 09:57:54 - [MESSAGE][PASSED] - Text 'Eva' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'
+
+2023-07-11 09:57:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'
+
+2023-07-11 09:57:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'
+
+2023-07-11 09:57:54 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-11 09:57:54 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-11 09:57:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch"), "Hendra"): Text 'Hendra' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'
+
+2023-07-11 09:57:56 - [MESSAGE][PASSED] - Text 'Hendra' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'
+
+2023-07-11 09:57:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'
+
+2023-07-11 09:57:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch'
+
+2023-07-11 09:57:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-11 09:57:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-11 09:57:58 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-11 09:57:58 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-11 09:57:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677"), "mobile_phone", true): All options with value 'mobile_phone' are selected in object 'Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'  using regular expression
+
+2023-07-11 09:58:00 - [MESSAGE][PASSED] - All options with value 'mobile_phone' are selected in object 'Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'  using regular expression
+
+2023-07-11 09:58:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1"), "0812880651"): Text '0812880651' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:01 - [MESSAGE][PASSED] - Text '0812880651' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-11 09:58:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-11 09:58:03 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-11 09:58:04 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-11 09:58:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1"), "0812"): Text '0812' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:05 - [MESSAGE][PASSED] - Text '0812' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-11 09:58:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-11 09:58:08 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-11 09:58:08 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-11 09:58:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677"), "nik", true): All options with value 'nik' are selected in object 'Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'  using regular expression
+
+2023-07-11 09:58:10 - [MESSAGE][PASSED] - All options with value 'nik' are selected in object 'Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677'  using regular expression
+
+2023-07-11 09:58:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1"), "340407640"): Text '340407640' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:11 - [MESSAGE][PASSED] - Text '340407640' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-11 09:58:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-11 09:58:13 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-11 09:58:14 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-11 09:58:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1"), "340"): Text '340' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:15 - [MESSAGE][PASSED] - Text '340' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-11 09:58:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-11 09:58:17 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-11 09:58:18 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-11 09:58:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1"), "3203"): Text '3203' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:19 - [MESSAGE][PASSED] - Text '3203' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-11 09:58:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-11 09:58:21 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-11 09:58:22 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-11 09:58:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1"), "320"): Text '320' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:23 - [MESSAGE][PASSED] - Text '320' is set on object 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1'
+
+2023-07-11 09:58:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-11 09:58:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-11 09:58:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 09:58:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-11 09:56:21 - [TEST_SUITE][PASSED] - Customer Managament: Test Cases/Customer Management/Searching Success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

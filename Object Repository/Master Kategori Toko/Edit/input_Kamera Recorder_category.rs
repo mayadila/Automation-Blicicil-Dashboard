@@ -3,19 +3,15 @@
    <description></description>
    <name>input_Kamera Recorder_category</name>
    <tag></tag>
-   <elementGuidId>6625e9f6-961b-48f9-b090-a77adfc43e93</elementGuidId>
+   <elementGuidId>d10640c1-2803-41b2-b39e-4b5b53b5cdfe</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='category62f316ad2b878f0347211ea1']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;category62f316ad2b878f0347211ea1&quot;)[count(. | //*[@type = 'checkbox' and @checked = 'true']) = count(//*[@type = 'checkbox' and @checked = 'true'])]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#category62f316ad2b878f0347211ea1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='category62f316ad2b878f0347211ea1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>57941c77-87fe-4e07-b5d2-8ea5de6a3b5d</webElementGuid>
+      <webElementGuid>80a88b81-aa53-44e2-a4d4-38f7f5b7557c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>1e7a1700-bfe4-4647-b974-ed80abc380ca</webElementGuid>
+      <webElementGuid>cd319c85-63a2-48fa-9f8c-18ea132f0670</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,15 +38,15 @@
       <name>checked</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>05f8fafa-b6d4-4c03-8e83-6c2e5b49fc61</webElementGuid>
+      <webElementGuid>b2efca71-cda2-48eb-9bfc-fb95db6cccab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>category</value>
-      <webElementGuid>f911afa9-84fa-4b1b-abbf-3517aa081b37</webElementGuid>
+      <webElementGuid>b7ab65b2-d3ef-48d1-b661-1c13f32ce7ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,15 +54,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check-input</value>
-      <webElementGuid>fb5fbde1-6634-4150-abcf-0c7184a13fc4</webElementGuid>
+      <webElementGuid>a19fdd08-e620-4780-8382-cda581ea0618</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>category62f316ad2b878f0347211ea1</value>
-      <webElementGuid>2f2ee635-a2b1-481a-bab3-4a13662da317</webElementGuid>
+      <webElementGuid>d1badf06-7320-4cdb-a705-29b36bcc73ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,15 +70,15 @@
       <name>value</name>
       <type>Main</type>
       <value>62f316ad2b878f0347211ea1</value>
-      <webElementGuid>37867c6a-f016-4d1a-97d8-dcf1f9286c55</webElementGuid>
+      <webElementGuid>5fa38197-19db-49b8-8842-a04f456980a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;category62f316ad2b878f0347211ea1&quot;)</value>
-      <webElementGuid>e4af2a07-4de9-4ee5-97d7-513836b72223</webElementGuid>
+      <webElementGuid>61bdc9ea-9824-4903-b4b8-0262e08284a1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='category62f316ad2b878f0347211ea1']</value>
-      <webElementGuid>e891a120-dee0-4a40-874d-0cde846bf833</webElementGuid>
+      <webElementGuid>11285f54-b6bb-4f49-a69d-bc2ec4246943</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='comboBoxCategory']/div[4]/input</value>
-      <webElementGuid>0b761354-e0c1-42e1-8a63-d14241308d67</webElementGuid>
+      <webElementGuid>92ea75d2-e68e-456a-ae6b-9bae3f0b978a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/input</value>
-      <webElementGuid>85db0787-16ca-478d-9047-0af42f824043</webElementGuid>
+      <webElementGuid>46cdec98-9585-47b2-8f48-6d09c5151f88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox' and @checked = 'true' and @name = 'category' and @id = 'category62f316ad2b878f0347211ea1']</value>
-      <webElementGuid>70fe8eed-e2df-4890-924f-a9fd38273f0c</webElementGuid>
+      <webElementGuid>90eb1a39-0fda-4db5-913a-24c27ab1b9f9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

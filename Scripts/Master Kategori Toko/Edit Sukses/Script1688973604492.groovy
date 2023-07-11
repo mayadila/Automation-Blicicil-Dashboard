@@ -52,7 +52,7 @@ if (checked == true) {
 checked = WebUI.verifyElementChecked(findTestObject('Master Kategori Toko/Edit/input_Kamera Recorder_category'), 0)
 
 if (checked == true) {
-    WebUI.check(findTestObject('Master Kategori Toko/Edit/input_Kamera Recorder_category'))
+    WebUI.uncheck(findTestObject('Master Kategori Toko/Edit/input_Kamera Recorder_category'))
 }
 
 WebUI.click(findTestObject('Object Repository/Master Kategori Toko/Edit/button_Submit'))
