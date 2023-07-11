@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master Merchants,Chrome 114.0.0.0,,,2023-07-11 10:21:17,2023-07-11 10:22:04,46.326s,PASSED
+,,,,,,,
+Test Cases/Master Merchants/Beranda,Chrome 114.0.0.0,,,2023-07-11 10:21:18,2023-07-11 10:21:40,22.308s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-11 10:21:18,2023-07-11 10:21:21,3.286s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-11 10:21:21,2023-07-11 10:21:22,0.038s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-11 10:21:22,2023-07-11 10:21:22,0.778s,PASSED
+"setText(findTestObject(""Object Repository/Master Merchants/Beranda/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-11 10:21:22,2023-07-11 10:21:23,1.006s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Merchants/Beranda/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-11 10:21:23,2023-07-11 10:21:24,0.494s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Beranda/button_Login""))",Chrome 114.0.0.0,,,2023-07-11 10:21:24,2023-07-11 10:21:24,0.497s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Beranda/a_Master""))",Chrome 114.0.0.0,,,2023-07-11 10:21:24,2023-07-11 10:21:26,1.943s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Beranda/a_Merchants""))",Chrome 114.0.0.0,,,2023-07-11 10:21:26,2023-07-11 10:21:27,0.847s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Beranda/a_2""))",Chrome 114.0.0.0,,,2023-07-11 10:21:27,2023-07-11 10:21:30,3.242s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Beranda/a_Previous""))",Chrome 114.0.0.0,,,2023-07-11 10:21:30,2023-07-11 10:21:31,0.476s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Beranda/a_Next""))",Chrome 114.0.0.0,,,2023-07-11 10:21:31,2023-07-11 10:21:33,2.527s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Beranda/button_Hapus""))",Chrome 114.0.0.0,,,2023-07-11 10:21:33,2023-07-11 10:21:34,0.485s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Beranda/button_No""))",Chrome 114.0.0.0,,,2023-07-11 10:21:34,2023-07-11 10:21:34,0.473s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Beranda/button_Hapus""))",Chrome 114.0.0.0,,,2023-07-11 10:21:34,2023-07-11 10:21:35,0.690s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Beranda/button_Yes""))",Chrome 114.0.0.0,,,2023-07-11 10:21:35,2023-07-11 10:21:35,0.483s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Beranda/a_Edit""))",Chrome 114.0.0.0,,,2023-07-11 10:21:35,2023-07-11 10:21:37,1.211s,PASSED
+"setText(findTestObject(""Object Repository/Master Merchants/Beranda/input_Merchant Name_txtProductName""), ""Transmartt"")",Chrome 114.0.0.0,,,2023-07-11 10:21:37,2023-07-11 10:21:38,1.126s,PASSED
+"setText(findTestObject(""Object Repository/Master Merchants/Beranda/textarea_Jalan Lebak Bulus Raya No.8, RT.11_24ee91""), ""Jalan Lebak Bulus Raya No.8, RT.11/RW.10, Pd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12440"")",Chrome 114.0.0.0,,,2023-07-11 10:21:38,2023-07-11 10:21:39,1.066s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Beranda/button_Submit""))",Chrome 114.0.0.0,,,2023-07-11 10:21:39,2023-07-11 10:21:39,0.403s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-11 10:21:39,2023-07-11 10:21:40,0.753s,PASSED
+,,,,,,,
+Test Cases/Master Merchants/Searching Failed,Chrome 114.0.0.0,,,2023-07-11 10:21:40,2023-07-11 10:21:52,11.849s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-11 10:21:40,2023-07-11 10:21:42,1.534s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-11 10:21:42,2023-07-11 10:21:42,0.022s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-11 10:21:42,2023-07-11 10:21:43,0.996s,PASSED
+"setText(findTestObject(""Object Repository/Master Merchants/Searching Failed/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-11 10:21:43,2023-07-11 10:21:44,0.918s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Merchants/Searching Failed/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-11 10:21:44,2023-07-11 10:21:44,0.418s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Searching Failed/button_Login""))",Chrome 114.0.0.0,,,2023-07-11 10:21:44,2023-07-11 10:21:45,0.487s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Searching Failed/a_Master""))",Chrome 114.0.0.0,,,2023-07-11 10:21:45,2023-07-11 10:21:47,1.879s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Searching Failed/a_Merchants""))",Chrome 114.0.0.0,,,2023-07-11 10:21:47,2023-07-11 10:21:47,0.746s,PASSED
+"setText(findTestObject(""Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm""), ""Apple"")",Chrome 114.0.0.0,,,2023-07-11 10:21:47,2023-07-11 10:21:49,1.377s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-11 10:21:49,2023-07-11 10:21:49,0.484s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-11 10:21:49,2023-07-11 10:21:49,0.321s,PASSED
+"setText(findTestObject(""Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm""), ""Ibox"")",Chrome 114.0.0.0,,,2023-07-11 10:21:49,2023-07-11 10:21:51,1.271s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Merchants/Searching Failed/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-11 10:21:51,2023-07-11 10:21:51,0.449s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-11 10:21:51,2023-07-11 10:21:52,0.675s,PASSED
+,,,,,,,
+Test Cases/Master Merchants/Searching Success,Chrome 114.0.0.0,,,2023-07-11 10:21:52,2023-07-11 10:22:04,11.874s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-11 10:21:52,2023-07-11 10:21:54,1.559s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-11 10:21:54,2023-07-11 10:21:54,0.018s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-11 10:21:54,2023-07-11 10:21:54,0.547s,PASSED
+"setText(findTestObject(""Object Repository/Master Merchants/Searching Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-11 10:21:54,2023-07-11 10:21:55,0.918s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Merchants/Searching Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-11 10:21:55,2023-07-11 10:21:56,0.411s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Searching Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-11 10:21:56,2023-07-11 10:21:56,0.506s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Searching Success/a_Master""))",Chrome 114.0.0.0,,,2023-07-11 10:21:56,2023-07-11 10:21:58,1.906s,PASSED
+"click(findTestObject(""Object Repository/Master Merchants/Searching Success/a_Merchants""))",Chrome 114.0.0.0,,,2023-07-11 10:21:58,2023-07-11 10:21:59,0.859s,PASSED
+"getText(findTestObject(""Object Repository/Master Merchants/Searching Success/div_List Merchant BliCicil Admin as        _d762cc""))",Chrome 114.0.0.0,,,2023-07-11 10:21:59,2023-07-11 10:22:00,0.968s,PASSED
+"setText(findTestObject(""Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm""), ""Trans"")",Chrome 114.0.0.0,,,2023-07-11 10:22:00,2023-07-11 10:22:01,0.694s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-11 10:22:01,2023-07-11 10:22:01,0.451s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-11 10:22:01,2023-07-11 10:22:01,0.329s,PASSED
+"setText(findTestObject(""Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm""), ""Pol"")",Chrome 114.0.0.0,,,2023-07-11 10:22:01,2023-07-11 10:22:03,1.333s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Merchants/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-11 10:22:03,2023-07-11 10:22:03,0.453s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-11 10:22:03,2023-07-11 10:22:04,0.687s,PASSED

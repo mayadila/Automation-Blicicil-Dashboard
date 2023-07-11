@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Master Kategori Toko" time="126.889" tests="6" failures="0" errors="0">
+   <testsuite name="Master Kategori Toko" tests="6" failures="0" errors="0" time="126.889" skipped="0" timestamp="2023-07-11 10:10:44" hostname="202102359 - KPO-Blicicil.pdc.megafinance.co.id" id="Test Suites/Master Kategori Toko">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230711_101041\\Master Kategori Toko\\20230711_101041"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230711_101041\\Master Kategori Toko\\20230711_101041\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="202102359 - KPO-Blicicil.pdc.megafinance.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.16.53"/>
+         <property name="sessionId" value="431eb96224aabb37a13c790aeebbc636"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Master Kategori Toko/Beranda" time="20.138" classname="Test Cases/Master Kategori Toko/Beranda" status="PASSED">
+         <system-out><![CDATA[2023-07-11 10:10:44 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Beranda: Test Cases/Master Kategori Toko/Beranda
+
+2023-07-11 10:10:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 10:10:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-11 10:10:45 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-11 10:10:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 10:10:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 10:10:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 10:10:48 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 10:10:48 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:10:50 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:10:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Beranda/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Beranda/input_Email_email'
+
+2023-07-11 10:10:52 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Beranda/input_Email_email'
+
+2023-07-11 10:10:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Beranda/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Beranda/input_Password_password'
+
+2023-07-11 10:10:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Beranda/input_Password_password'
+
+2023-07-11 10:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/button_Login")): Object: 'Object Repository/Master Kategori Toko/Beranda/button_Login' is clicked on
+
+2023-07-11 10:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/button_Login' is clicked on
+
+2023-07-11 10:10:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_Master")): Object: 'Object Repository/Master Kategori Toko/Beranda/a_Master' is clicked on
+
+2023-07-11 10:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/a_Master' is clicked on
+
+2023-07-11 10:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Beranda/a_Kategori Toko' is clicked on
+
+2023-07-11 10:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/a_Kategori Toko' is clicked on
+
+2023-07-11 10:10:56 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Kategori Toko/Beranda/div_List Kategori Toko BliCicil Admin as   _2278a0")): Text of object 'Object Repository/Master Kategori Toko/Beranda/div_List Kategori Toko BliCicil Admin as   _2278a0' is: 'List Kategori Toko BliCicil Admin as
+New Kategori Toko'
+
+2023-07-11 10:10:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Kategori Toko/Beranda/div_List Kategori Toko BliCicil Admin as   _2278a0' is: 'List Kategori Toko BliCicil Admin as
+New Kategori Toko'
+
+2023-07-11 10:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_2")): Object: 'Object Repository/Master Kategori Toko/Beranda/a_2' is clicked on
+
+2023-07-11 10:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/a_2' is clicked on
+
+2023-07-11 10:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_Previous")): Object: 'Object Repository/Master Kategori Toko/Beranda/a_Previous' is clicked on
+
+2023-07-11 10:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/a_Previous' is clicked on
+
+2023-07-11 10:11:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_Next")): Object: 'Object Repository/Master Kategori Toko/Beranda/a_Next' is clicked on
+
+2023-07-11 10:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/a_Next' is clicked on
+
+2023-07-11 10:11:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/a_1")): Object: 'Object Repository/Master Kategori Toko/Beranda/a_1' is clicked on
+
+2023-07-11 10:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/a_1' is clicked on
+
+2023-07-11 10:11:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/button_Hapus")): Object: 'Object Repository/Master Kategori Toko/Beranda/button_Hapus' is clicked on
+
+2023-07-11 10:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/button_Hapus' is clicked on
+
+2023-07-11 10:11:01 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a")): Text of object 'Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a' is: 'Messages
+Timeline
+Exceptions
+Views5
+Route
+Queries31
+Models75
+Mails
+Gate
+Session
+Request
+7.4.30
+93.84ms
+5MB
+GET master/katetoko'
+
+2023-07-11 10:11:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a' is: 'Messages
+Timeline
+Exceptions
+Views5
+Route
+Queries31
+Models75
+Mails
+Gate
+Session
+Request
+7.4.30
+93.84ms
+5MB
+GET master/katetoko'
+
+2023-07-11 10:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Beranda/button_No")): Object: 'Object Repository/Master Kategori Toko/Beranda/button_No' is clicked on
+
+2023-07-11 10:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/button_No' is clicked on
+
+2023-07-11 10:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/button_Hapus")): Object: 'Object Repository/Master Kategori Toko/Beranda/button_Hapus' is clicked on
+
+2023-07-11 10:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/button_Hapus' is clicked on
+
+2023-07-11 10:11:03 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a")): Text of object 'Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a' is: 'Messages
+Timeline
+Exceptions
+Views5
+Route
+Queries31
+Models75
+Mails
+Gate
+Session
+Request
+7.4.30
+93.84ms
+5MB
+GET master/katetoko'
+
+2023-07-11 10:11:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a' is: 'Messages
+Timeline
+Exceptions
+Views5
+Route
+Queries31
+Models75
+Mails
+Gate
+Session
+Request
+7.4.30
+93.84ms
+5MB
+GET master/katetoko'
+
+2023-07-11 10:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Beranda/button_Yes")): Object: 'Object Repository/Master Kategori Toko/Beranda/button_Yes' is clicked on
+
+2023-07-11 10:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Beranda/button_Yes' is clicked on
+
+2023-07-11 10:11:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 10:11:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Add Success" time="50.483" classname="Test Cases/Master Kategori Toko/Add Success" status="PASSED">
+         <system-out><![CDATA[2023-07-11 10:11:04 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Add Success: Test Cases/Master Kategori Toko/Add Success
+
+2023-07-11 10:11:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 10:11:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-11 10:11:05 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-11 10:11:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 10:11:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 10:11:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 10:11:06 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 10:11:06 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:11:07 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:11:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Add Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Add Success/input_Email_email'
+
+2023-07-11 10:11:08 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Add Success/input_Email_email'
+
+2023-07-11 10:11:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Add Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Add Success/input_Password_password'
+
+2023-07-11 10:11:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Add Success/input_Password_password'
+
+2023-07-11 10:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add Success/button_Login")): Object: 'Object Repository/Master Kategori Toko/Add Success/button_Login' is clicked on
+
+2023-07-11 10:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/button_Login' is clicked on
+
+2023-07-11 10:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add Success/a_Master")): Object: 'Object Repository/Master Kategori Toko/Add Success/a_Master' is clicked on
+
+2023-07-11 10:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/a_Master' is clicked on
+
+2023-07-11 10:11:11 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add Success/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Add Success/a_Kategori Toko' is clicked on
+
+2023-07-11 10:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/a_Kategori Toko' is clicked on
+
+2023-07-11 10:11:12 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add Success/a_New Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Add Success/a_New Kategori Toko' is clicked on
+
+2023-07-11 10:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/a_New Kategori Toko' is clicked on
+
+2023-07-11 10:11:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Master Kategori Toko/Add Success/Pilih toko"), toko, true): All options with value '27' are selected in object 'Object Repository/Master Kategori Toko/Add Success/Pilih toko'  using regular expression
+
+2023-07-11 10:11:50 - [MESSAGE][PASSED] - All options with value '27' are selected in object 'Object Repository/Master Kategori Toko/Add Success/Pilih toko'  using regular expression
+
+2023-07-11 10:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add Success/div_--Pilih Kategori--")): Object: 'Object Repository/Master Kategori Toko/Add Success/div_--Pilih Kategori--' is clicked on
+
+2023-07-11 10:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/div_--Pilih Kategori--' is clicked on
+
+2023-07-11 10:11:50 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add Success/input_Komputer  Laptop_category"), 0): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is not checked
+
+2023-07-11 10:11:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-11 10:11:51 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is not checked
+
+2023-07-11 10:11:51 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-11 10:11:51 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_Komputer  Laptop_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-11 10:11:51 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-11 10:11:51 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add Success/input_TV_category"), 0): Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is not checked
+
+2023-07-11 10:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-11 10:11:52 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is not checked
+
+2023-07-11 10:11:52 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is checked
+
+2023-07-11 10:11:52 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_TV_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is checked
+
+2023-07-11 10:11:52 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_TV_category' is checked
+
+2023-07-11 10:11:52 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add Success/input_Dapur_category"), 0): Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is not checked
+
+2023-07-11 10:11:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-11 10:11:52 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is not checked
+
+2023-07-11 10:11:52 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is checked
+
+2023-07-11 10:11:52 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_Dapur_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is checked
+
+2023-07-11 10:11:53 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Dapur_category' is checked
+
+2023-07-11 10:11:53 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add Success/input_Kamera  Recoder_category"), 0): Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is not checked
+
+2023-07-11 10:11:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-11 10:11:53 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is not checked
+
+2023-07-11 10:11:53 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is checked
+
+2023-07-11 10:11:53 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_Kamera  Recoder_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is checked
+
+2023-07-11 10:11:54 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Kamera  Recoder_category' is checked
+
+2023-07-11 10:11:54 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add Success/button_Submit")): Object: 'Object Repository/Master Kategori Toko/Add Success/button_Submit' is clicked on
+
+2023-07-11 10:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add Success/button_Submit' is clicked on
+
+2023-07-11 10:11:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 10:11:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Add Failed" time="15.625" classname="Test Cases/Master Kategori Toko/Add Failed" status="PASSED">
+         <system-out><![CDATA[2023-07-11 10:11:55 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Add Failed: Test Cases/Master Kategori Toko/Add Failed
+
+2023-07-11 10:11:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 10:11:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-11 10:11:55 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-11 10:11:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 10:11:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 10:11:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 10:11:57 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 10:11:57 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:11:58 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:11:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Add/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Add/input_Email_email'
+
+2023-07-11 10:11:59 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Add/input_Email_email'
+
+2023-07-11 10:11:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Add/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Add/input_Password_password'
+
+2023-07-11 10:11:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Add/input_Password_password'
+
+2023-07-11 10:11:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add/button_Login")): Object: 'Object Repository/Master Kategori Toko/Add/button_Login' is clicked on
+
+2023-07-11 10:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/button_Login' is clicked on
+
+2023-07-11 10:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add/a_Master")): Object: 'Object Repository/Master Kategori Toko/Add/a_Master' is clicked on
+
+2023-07-11 10:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/a_Master' is clicked on
+
+2023-07-11 10:12:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Add/a_Kategori Toko' is clicked on
+
+2023-07-11 10:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/a_Kategori Toko' is clicked on
+
+2023-07-11 10:12:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Add/a_New Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Add/a_New Kategori Toko' is clicked on
+
+2023-07-11 10:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/a_New Kategori Toko' is clicked on
+
+2023-07-11 10:12:04 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/select_--Pilih Toko")): Object: 'Object Repository/Master Kategori Toko/Add/select_--Pilih Toko' is clicked on
+
+2023-07-11 10:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/select_--Pilih Toko' is clicked on
+
+2023-07-11 10:12:05 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/div_--Pilih Kategori--")): Object: 'Object Repository/Master Kategori Toko/Add/div_--Pilih Kategori--' is clicked on
+
+2023-07-11 10:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/div_--Pilih Kategori--' is clicked on
+
+2023-07-11 10:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/button_Submit")): Object: 'Object Repository/Master Kategori Toko/Add/button_Submit' is clicked on
+
+2023-07-11 10:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/button_Submit' is clicked on
+
+2023-07-11 10:12:06 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-11 10:12:07 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-11 10:12:07 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/select_--Pilih Toko")): Object: 'Object Repository/Master Kategori Toko/Add/select_--Pilih Toko' is clicked on
+
+2023-07-11 10:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/select_--Pilih Toko' is clicked on
+
+2023-07-11 10:12:08 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/div_--Pilih Kategori--")): Object: 'Object Repository/Master Kategori Toko/Add/div_--Pilih Kategori--' is clicked on
+
+2023-07-11 10:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/div_--Pilih Kategori--' is clicked on
+
+2023-07-11 10:12:08 - [TEST_STEP][PASSED] - notChecked = verifyElementNotChecked(findTestObject("Master Kategori Toko/Add/input_Komputer Laptop_category"), 0): Object 'Object Repository/Master Kategori Toko/Add/input_Komputer Laptop_category' is not checked
+
+2023-07-11 10:12:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-11 10:12:09 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add/input_Komputer Laptop_category' is not checked
+
+2023-07-11 10:12:09 - [TEST_STEP][PASSED] - if (notChecked == true): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-11 10:12:09 - [TEST_STEP][PASSED] - check(findTestObject("Master Kategori Toko/Add Success/input_Komputer  Laptop_category")): Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-11 10:12:09 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Add Success/input_Komputer  Laptop_category' is checked
+
+2023-07-11 10:12:09 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Add/button_Submit")): Object: 'Object Repository/Master Kategori Toko/Add/button_Submit' is clicked on
+
+2023-07-11 10:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Add/button_Submit' is clicked on
+
+2023-07-11 10:12:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 10:12:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Edit Sukses" time="14.121" classname="Test Cases/Master Kategori Toko/Edit Sukses" status="PASSED">
+         <system-out><![CDATA[2023-07-11 10:12:10 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Edit Sukses: Test Cases/Master Kategori Toko/Edit Sukses
+
+2023-07-11 10:12:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 10:12:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-11 10:12:11 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-11 10:12:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 10:12:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 10:12:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 10:12:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 10:12:13 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:12:13 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:12:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Edit/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Edit/input_Email_email'
+
+2023-07-11 10:12:14 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Edit/input_Email_email'
+
+2023-07-11 10:12:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Edit/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Edit/input_Password_password'
+
+2023-07-11 10:12:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Edit/input_Password_password'
+
+2023-07-11 10:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Edit/button_Login")): Object: 'Object Repository/Master Kategori Toko/Edit/button_Login' is clicked on
+
+2023-07-11 10:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/button_Login' is clicked on
+
+2023-07-11 10:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Edit/a_Master")): Object: 'Object Repository/Master Kategori Toko/Edit/a_Master' is clicked on
+
+2023-07-11 10:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/a_Master' is clicked on
+
+2023-07-11 10:12:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Edit/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Edit/a_Kategori Toko' is clicked on
+
+2023-07-11 10:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/a_Kategori Toko' is clicked on
+
+2023-07-11 10:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Edit/a_Edit")): Object: 'Object Repository/Master Kategori Toko/Edit/a_Edit' is clicked on
+
+2023-07-11 10:12:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/a_Edit' is clicked on
+
+2023-07-11 10:12:20 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori Toko/Edit/div_Kategori")): Object: 'Object Repository/Master Kategori Toko/Edit/div_Kategori' is clicked on
+
+2023-07-11 10:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/div_Kategori' is clicked on
+
+2023-07-11 10:12:21 - [TEST_STEP][PASSED] - checked = verifyElementChecked(findTestObject("Master Kategori Toko/Edit/input_Komputer Laptop_category"), 0): Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is checked
+
+2023-07-11 10:12:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-11 10:12:21 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is checked
+
+2023-07-11 10:12:21 - [TEST_STEP][PASSED] - if (checked == true): Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is un-checked
+
+2023-07-11 10:12:21 - [TEST_STEP][PASSED] - uncheck(findTestObject("Master Kategori Toko/Edit/input_Komputer Laptop_category")): Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is un-checked
+
+2023-07-11 10:12:22 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_Komputer Laptop_category' is un-checked
+
+2023-07-11 10:12:22 - [TEST_STEP][PASSED] - checked = verifyElementChecked(findTestObject("Master Kategori Toko/Edit/input_TV_category"), 0): Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is checked
+
+2023-07-11 10:12:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-11 10:12:22 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is checked
+
+2023-07-11 10:12:22 - [TEST_STEP][PASSED] - if (checked == true): Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is un-checked
+
+2023-07-11 10:12:22 - [TEST_STEP][PASSED] - uncheck(findTestObject("Master Kategori Toko/Edit/input_TV_category")): Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is un-checked
+
+2023-07-11 10:12:23 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_TV_category' is un-checked
+
+2023-07-11 10:12:23 - [TEST_STEP][PASSED] - checked = verifyElementChecked(findTestObject("Master Kategori Toko/Edit/input_Kamera Recorder_category"), 0): Object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked
+
+2023-07-11 10:12:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-11 10:12:23 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is checked
+
+2023-07-11 10:12:23 - [TEST_STEP][PASSED] - if (checked == true): Object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is un-checked
+
+2023-07-11 10:12:23 - [TEST_STEP][PASSED] - uncheck(findTestObject("Master Kategori Toko/Edit/input_Kamera Recorder_category")): Object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is un-checked
+
+2023-07-11 10:12:23 - [MESSAGE][PASSED] - Object 'Object Repository/Master Kategori Toko/Edit/input_Kamera Recorder_category' is un-checked
+
+2023-07-11 10:12:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Edit/button_Submit")): Object: 'Object Repository/Master Kategori Toko/Edit/button_Submit' is clicked on
+
+2023-07-11 10:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Edit/button_Submit' is clicked on
+
+2023-07-11 10:12:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 10:12:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Searching Success" time="12.698" classname="Test Cases/Master Kategori Toko/Searching Success" status="PASSED">
+         <system-out><![CDATA[2023-07-11 10:12:25 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Searching Success: Test Cases/Master Kategori Toko/Searching Success
+
+2023-07-11 10:12:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 10:12:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-11 10:12:25 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-11 10:12:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 10:12:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 10:12:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 10:12:27 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 10:12:27 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:12:27 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:12:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Email_email'
+
+2023-07-11 10:12:28 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Email_email'
+
+2023-07-11 10:12:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Password_password'
+
+2023-07-11 10:12:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Password_password'
+
+2023-07-11 10:12:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Success/button_Login")): Object: 'Object Repository/Master Kategori Toko/Searching Success/button_Login' is clicked on
+
+2023-07-11 10:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Success/button_Login' is clicked on
+
+2023-07-11 10:12:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Success/a_Master")): Object: 'Object Repository/Master Kategori Toko/Searching Success/a_Master' is clicked on
+
+2023-07-11 10:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Success/a_Master' is clicked on
+
+2023-07-11 10:12:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Success/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Searching Success/a_Kategori Toko' is clicked on
+
+2023-07-11 10:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Success/a_Kategori Toko' is clicked on
+
+2023-07-11 10:12:33 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/div_List Kategori Toko BliCicil Admin as   _2278a0")): Text of object 'Object Repository/Master Kategori Toko/Searching Success/div_List Kategori Toko BliCicil Admin as   _2278a0' is: 'List Kategori Toko BliCicil Admin as
+New Kategori Toko'
+
+2023-07-11 10:12:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Kategori Toko/Searching Success/div_List Kategori Toko BliCicil Admin as   _2278a0' is: 'List Kategori Toko BliCicil Admin as
+New Kategori Toko'
+
+2023-07-11 10:12:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm"), "Panasonic"): Text 'Panasonic' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:34 - [MESSAGE][PASSED] - Text 'Panasonic' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm"), "Carrefour"): Text 'Carrefour' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:36 - [MESSAGE][PASSED] - Text 'Carrefour' is set on object 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 10:12:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori Toko/Searching Failed" time="13.44" classname="Test Cases/Master Kategori Toko/Searching Failed" status="PASSED">
+         <system-out><![CDATA[2023-07-11 10:12:37 - [TEST_CASE][PASSED] - Test Cases/Master Kategori Toko/Searching Failed: Test Cases/Master Kategori Toko/Searching Failed
+
+2023-07-11 10:12:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 10:12:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-11 10:12:38 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-11 10:12:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 10:12:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 10:12:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 10:12:40 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 10:12:40 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:12:41 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:12:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Email_email'
+
+2023-07-11 10:12:42 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Email_email'
+
+2023-07-11 10:12:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Password_password'
+
+2023-07-11 10:12:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Password_password'
+
+2023-07-11 10:12:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/button_Login")): Object: 'Object Repository/Master Kategori Toko/Searching Failed/button_Login' is clicked on
+
+2023-07-11 10:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Failed/button_Login' is clicked on
+
+2023-07-11 10:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/a_Master")): Object: 'Object Repository/Master Kategori Toko/Searching Failed/a_Master' is clicked on
+
+2023-07-11 10:12:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Failed/a_Master' is clicked on
+
+2023-07-11 10:12:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/a_Kategori Toko")): Object: 'Object Repository/Master Kategori Toko/Searching Failed/a_Kategori Toko' is clicked on
+
+2023-07-11 10:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Failed/a_Kategori Toko' is clicked on
+
+2023-07-11 10:12:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/div_List Kategori Toko BliCicil Admin as   _2278a0")): Object: 'Object Repository/Master Kategori Toko/Searching Failed/div_List Kategori Toko BliCicil Admin as   _2278a0' is clicked on
+
+2023-07-11 10:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori Toko/Searching Failed/div_List Kategori Toko BliCicil Admin as   _2278a0' is clicked on
+
+2023-07-11 10:12:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm"), "123456"): Text '123456' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:48 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm"), "Sharp"): Text 'Sharp' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:49 - [MESSAGE][PASSED] - Text 'Sharp' is set on object 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:12:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 10:12:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-11 10:10:44 - [TEST_SUITE][PASSED] - Master Kategori Toko: Test Cases/Master Kategori Toko/Searching Failed]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

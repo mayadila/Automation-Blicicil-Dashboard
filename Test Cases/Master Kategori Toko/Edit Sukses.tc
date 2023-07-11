@@ -5,18 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>be04172a-1c10-46c7-b455-36763b2986fe</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>7fe107c0-e644-4810-8a1b-11104bc64834</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>f661e8c2-acf5-4e95-9dab-6b4f7eca8ad3</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>false</defaultValue>
       <description></description>

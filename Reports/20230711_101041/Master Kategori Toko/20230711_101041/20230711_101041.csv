@@ -1,0 +1,120 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master Kategori Toko,Chrome 114.0.0.0,,,2023-07-11 10:10:44,2023-07-11 10:12:51,2m - 6.889s,PASSED
+,,,,,,,
+Test Cases/Master Kategori Toko/Beranda,Chrome 114.0.0.0,,,2023-07-11 10:10:44,2023-07-11 10:11:04,20.138s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-11 10:10:45,2023-07-11 10:10:48,3.353s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-11 10:10:48,2023-07-11 10:10:48,0.085s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-11 10:10:48,2023-07-11 10:10:50,1.976s,PASSED
+"setText(findTestObject(""Object Repository/Master Kategori Toko/Beranda/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-11 10:10:50,2023-07-11 10:10:52,1.889s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Kategori Toko/Beranda/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-11 10:10:52,2023-07-11 10:10:52,0.571s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Beranda/button_Login""))",Chrome 114.0.0.0,,,2023-07-11 10:10:52,2023-07-11 10:10:53,0.552s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Beranda/a_Master""))",Chrome 114.0.0.0,,,2023-07-11 10:10:53,2023-07-11 10:10:55,1.884s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Beranda/a_Kategori Toko""))",Chrome 114.0.0.0,,,2023-07-11 10:10:55,2023-07-11 10:10:56,0.873s,PASSED
+"getText(findTestObject(""Object Repository/Master Kategori Toko/Beranda/div_List Kategori Toko BliCicil Admin as   _2278a0""))",Chrome 114.0.0.0,,,2023-07-11 10:10:56,2023-07-11 10:10:57,0.932s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Beranda/a_2""))",Chrome 114.0.0.0,,,2023-07-11 10:10:57,2023-07-11 10:10:59,2.464s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Beranda/a_Previous""))",Chrome 114.0.0.0,,,2023-07-11 10:10:59,2023-07-11 10:11:00,0.473s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Beranda/a_Next""))",Chrome 114.0.0.0,,,2023-07-11 10:11:00,2023-07-11 10:11:00,0.464s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Beranda/a_1""))",Chrome 114.0.0.0,,,2023-07-11 10:11:00,2023-07-11 10:11:01,0.470s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Beranda/button_Hapus""))",Chrome 114.0.0.0,,,2023-07-11 10:11:01,2023-07-11 10:11:01,0.479s,PASSED
+"getText(findTestObject(""Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a""))",Chrome 114.0.0.0,,,2023-07-11 10:11:01,2023-07-11 10:11:02,0.448s,PASSED
+"click(findTestObject(""Master Kategori Toko/Beranda/button_No""))",Chrome 114.0.0.0,,,2023-07-11 10:11:02,2023-07-11 10:11:02,0.361s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Beranda/button_Hapus""))",Chrome 114.0.0.0,,,2023-07-11 10:11:02,2023-07-11 10:11:03,0.715s,PASSED
+"getText(findTestObject(""Object Repository/Master Kategori Toko/Beranda/div_Are you sure want to delete Panasonic R_24412a""))",Chrome 114.0.0.0,,,2023-07-11 10:11:03,2023-07-11 10:11:03,0.453s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Beranda/button_Yes""))",Chrome 114.0.0.0,,,2023-07-11 10:11:03,2023-07-11 10:11:03,0.416s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-11 10:11:03,2023-07-11 10:11:04,0.840s,PASSED
+,,,,,,,
+Test Cases/Master Kategori Toko/Add Success,Chrome 114.0.0.0,,,2023-07-11 10:11:04,2023-07-11 10:11:55,50.483s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-11 10:11:05,2023-07-11 10:11:06,1.619s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-11 10:11:06,2023-07-11 10:11:06,0.019s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-11 10:11:06,2023-07-11 10:11:07,1.082s,PASSED
+"setText(findTestObject(""Object Repository/Master Kategori Toko/Add Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-11 10:11:07,2023-07-11 10:11:08,1.046s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Kategori Toko/Add Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-11 10:11:08,2023-07-11 10:11:09,0.433s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Add Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-11 10:11:09,2023-07-11 10:11:09,0.519s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Add Success/a_Master""))",Chrome 114.0.0.0,,,2023-07-11 10:11:09,2023-07-11 10:11:11,1.880s,PASSED
+"click(findTestObject(""Master Kategori Toko/Add Success/a_Kategori Toko""))",Chrome 114.0.0.0,,,2023-07-11 10:11:11,2023-07-11 10:11:12,0.735s,PASSED
+"click(findTestObject(""Master Kategori Toko/Add Success/a_New Kategori Toko""))",Chrome 114.0.0.0,,,2023-07-11 10:11:12,2023-07-11 10:11:13,1.327s,PASSED
+"selectOptionByValue(findTestObject(""Master Kategori Toko/Add Success/Pilih toko""), toko, true)",Chrome 114.0.0.0,,,2023-07-11 10:11:13,2023-07-11 10:11:50,36.565s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Add Success/div_--Pilih Kategori--""))",Chrome 114.0.0.0,,,2023-07-11 10:11:50,2023-07-11 10:11:50,0.357s,PASSED
+"notChecked = verifyElementNotChecked(findTestObject(""Master Kategori Toko/Add Success/input_Komputer  Laptop_category""), 0)",Chrome 114.0.0.0,,,2023-07-11 10:11:50,2023-07-11 10:11:51,0.375s,PASSED
+if (notChecked == true),Chrome 114.0.0.0,,,2023-07-11 10:11:51,2023-07-11 10:11:51,0.425s,PASSED
+"notChecked = verifyElementNotChecked(findTestObject(""Master Kategori Toko/Add Success/input_TV_category""), 0)",Chrome 114.0.0.0,,,2023-07-11 10:11:51,2023-07-11 10:11:52,0.488s,PASSED
+if (notChecked == true),Chrome 114.0.0.0,,,2023-07-11 10:11:52,2023-07-11 10:11:52,0.385s,PASSED
+"notChecked = verifyElementNotChecked(findTestObject(""Master Kategori Toko/Add Success/input_Dapur_category""), 0)",Chrome 114.0.0.0,,,2023-07-11 10:11:52,2023-07-11 10:11:52,0.445s,PASSED
+if (notChecked == true),Chrome 114.0.0.0,,,2023-07-11 10:11:52,2023-07-11 10:11:53,0.367s,PASSED
+"notChecked = verifyElementNotChecked(findTestObject(""Master Kategori Toko/Add Success/input_Kamera  Recoder_category""), 0)",Chrome 114.0.0.0,,,2023-07-11 10:11:53,2023-07-11 10:11:53,0.443s,PASSED
+if (notChecked == true),Chrome 114.0.0.0,,,2023-07-11 10:11:53,2023-07-11 10:11:54,0.350s,PASSED
+"click(findTestObject(""Master Kategori Toko/Add Success/button_Submit""))",Chrome 114.0.0.0,,,2023-07-11 10:11:54,2023-07-11 10:11:54,0.481s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-11 10:11:54,2023-07-11 10:11:55,0.772s,PASSED
+,,,,,,,
+Test Cases/Master Kategori Toko/Add Failed,Chrome 114.0.0.0,,,2023-07-11 10:11:55,2023-07-11 10:12:10,15.625s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-11 10:11:55,2023-07-11 10:11:57,1.901s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-11 10:11:57,2023-07-11 10:11:57,0.020s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-11 10:11:57,2023-07-11 10:11:58,0.711s,PASSED
+"setText(findTestObject(""Object Repository/Master Kategori Toko/Add/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-11 10:11:58,2023-07-11 10:11:59,0.961s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Kategori Toko/Add/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-11 10:11:59,2023-07-11 10:11:59,0.446s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Add/button_Login""))",Chrome 114.0.0.0,,,2023-07-11 10:11:59,2023-07-11 10:12:00,0.501s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Add/a_Master""))",Chrome 114.0.0.0,,,2023-07-11 10:12:00,2023-07-11 10:12:02,1.834s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Add/a_Kategori Toko""))",Chrome 114.0.0.0,,,2023-07-11 10:12:02,2023-07-11 10:12:02,0.844s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Add/a_New Kategori Toko""))",Chrome 114.0.0.0,,,2023-07-11 10:12:02,2023-07-11 10:12:04,1.418s,PASSED
+"click(findTestObject(""Master Kategori Toko/Add/select_--Pilih Toko""))",Chrome 114.0.0.0,,,2023-07-11 10:12:04,2023-07-11 10:12:05,1.259s,PASSED
+"click(findTestObject(""Master Kategori Toko/Add/div_--Pilih Kategori--""))",Chrome 114.0.0.0,,,2023-07-11 10:12:05,2023-07-11 10:12:06,0.674s,PASSED
+"click(findTestObject(""Master Kategori Toko/Add/button_Submit""))",Chrome 114.0.0.0,,,2023-07-11 10:12:06,2023-07-11 10:12:06,0.380s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-11 10:12:06,2023-07-11 10:12:07,0.435s,PASSED
+"click(findTestObject(""Master Kategori Toko/Add/select_--Pilih Toko""))",Chrome 114.0.0.0,,,2023-07-11 10:12:07,2023-07-11 10:12:08,1.223s,PASSED
+"click(findTestObject(""Master Kategori Toko/Add/div_--Pilih Kategori--""))",Chrome 114.0.0.0,,,2023-07-11 10:12:08,2023-07-11 10:12:08,0.664s,PASSED
+"notChecked = verifyElementNotChecked(findTestObject(""Master Kategori Toko/Add/input_Komputer Laptop_category""), 0)",Chrome 114.0.0.0,,,2023-07-11 10:12:08,2023-07-11 10:12:09,0.364s,PASSED
+if (notChecked == true),Chrome 114.0.0.0,,,2023-07-11 10:12:09,2023-07-11 10:12:09,0.354s,PASSED
+"click(findTestObject(""Master Kategori Toko/Add/button_Submit""))",Chrome 114.0.0.0,,,2023-07-11 10:12:09,2023-07-11 10:12:10,0.577s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-11 10:12:10,2023-07-11 10:12:10,0.732s,PASSED
+,,,,,,,
+Test Cases/Master Kategori Toko/Edit Sukses,Chrome 114.0.0.0,,,2023-07-11 10:12:10,2023-07-11 10:12:25,14.121s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-11 10:12:11,2023-07-11 10:12:13,1.816s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-11 10:12:13,2023-07-11 10:12:13,0.023s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-11 10:12:13,2023-07-11 10:12:13,0.731s,PASSED
+"setText(findTestObject(""Object Repository/Master Kategori Toko/Edit/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-11 10:12:13,2023-07-11 10:12:14,1.062s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Kategori Toko/Edit/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-11 10:12:14,2023-07-11 10:12:15,0.435s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Edit/button_Login""))",Chrome 114.0.0.0,,,2023-07-11 10:12:15,2023-07-11 10:12:15,0.541s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Edit/a_Master""))",Chrome 114.0.0.0,,,2023-07-11 10:12:15,2023-07-11 10:12:17,2.098s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Edit/a_Kategori Toko""))",Chrome 114.0.0.0,,,2023-07-11 10:12:17,2023-07-11 10:12:19,1.019s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Edit/a_Edit""))",Chrome 114.0.0.0,,,2023-07-11 10:12:19,2023-07-11 10:12:20,1.481s,PASSED
+"click(findTestObject(""Master Kategori Toko/Edit/div_Kategori""))",Chrome 114.0.0.0,,,2023-07-11 10:12:20,2023-07-11 10:12:21,0.991s,PASSED
+"checked = verifyElementChecked(findTestObject(""Master Kategori Toko/Edit/input_Komputer Laptop_category""), 0)",Chrome 114.0.0.0,,,2023-07-11 10:12:21,2023-07-11 10:12:21,0.363s,PASSED
+if (checked == true),Chrome 114.0.0.0,,,2023-07-11 10:12:21,2023-07-11 10:12:22,0.355s,PASSED
+"checked = verifyElementChecked(findTestObject(""Master Kategori Toko/Edit/input_TV_category""), 0)",Chrome 114.0.0.0,,,2023-07-11 10:12:22,2023-07-11 10:12:22,0.441s,PASSED
+if (checked == true),Chrome 114.0.0.0,,,2023-07-11 10:12:22,2023-07-11 10:12:23,0.371s,PASSED
+"checked = verifyElementChecked(findTestObject(""Master Kategori Toko/Edit/input_Kamera Recorder_category""), 0)",Chrome 114.0.0.0,,,2023-07-11 10:12:23,2023-07-11 10:12:23,0.434s,PASSED
+if (checked == true),Chrome 114.0.0.0,,,2023-07-11 10:12:23,2023-07-11 10:12:23,0.356s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Edit/button_Submit""))",Chrome 114.0.0.0,,,2023-07-11 10:12:23,2023-07-11 10:12:24,0.475s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-11 10:12:24,2023-07-11 10:12:25,0.783s,PASSED
+,,,,,,,
+Test Cases/Master Kategori Toko/Searching Success,Chrome 114.0.0.0,,,2023-07-11 10:12:25,2023-07-11 10:12:37,12.698s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-11 10:12:25,2023-07-11 10:12:27,1.752s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-11 10:12:27,2023-07-11 10:12:27,0.017s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-11 10:12:27,2023-07-11 10:12:27,0.712s,PASSED
+"setText(findTestObject(""Object Repository/Master Kategori Toko/Searching Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-11 10:12:27,2023-07-11 10:12:28,0.959s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Kategori Toko/Searching Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-11 10:12:28,2023-07-11 10:12:29,0.431s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Searching Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-11 10:12:29,2023-07-11 10:12:29,0.487s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Searching Success/a_Master""))",Chrome 114.0.0.0,,,2023-07-11 10:12:29,2023-07-11 10:12:31,1.982s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Searching Success/a_Kategori Toko""))",Chrome 114.0.0.0,,,2023-07-11 10:12:31,2023-07-11 10:12:33,1.313s,PASSED
+"getText(findTestObject(""Object Repository/Master Kategori Toko/Searching Success/div_List Kategori Toko BliCicil Admin as   _2278a0""))",Chrome 114.0.0.0,,,2023-07-11 10:12:33,2023-07-11 10:12:34,1.019s,PASSED
+"setText(findTestObject(""Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm""), ""Panasonic"")",Chrome 114.0.0.0,,,2023-07-11 10:12:34,2023-07-11 10:12:34,0.767s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-11 10:12:34,2023-07-11 10:12:35,0.498s,PASSED
+"setText(findTestObject(""Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm""), ""Carrefour"")",Chrome 114.0.0.0,,,2023-07-11 10:12:35,2023-07-11 10:12:36,1.082s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Kategori Toko/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-11 10:12:36,2023-07-11 10:12:36,0.545s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-11 10:12:36,2023-07-11 10:12:37,0.775s,PASSED
+,,,,,,,
+Test Cases/Master Kategori Toko/Searching Failed,Chrome 114.0.0.0,,,2023-07-11 10:12:37,2023-07-11 10:12:51,13.440s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-11 10:12:38,2023-07-11 10:12:40,2.061s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-11 10:12:40,2023-07-11 10:12:40,0.024s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-11 10:12:40,2023-07-11 10:12:41,0.944s,PASSED
+"setText(findTestObject(""Object Repository/Master Kategori Toko/Searching Failed/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-11 10:12:41,2023-07-11 10:12:42,0.929s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Kategori Toko/Searching Failed/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-11 10:12:42,2023-07-11 10:12:42,0.549s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Searching Failed/button_Login""))",Chrome 114.0.0.0,,,2023-07-11 10:12:42,2023-07-11 10:12:43,0.605s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Searching Failed/a_Master""))",Chrome 114.0.0.0,,,2023-07-11 10:12:43,2023-07-11 10:12:45,2.266s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Searching Failed/a_Kategori Toko""))",Chrome 114.0.0.0,,,2023-07-11 10:12:45,2023-07-11 10:12:46,1.040s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori Toko/Searching Failed/div_List Kategori Toko BliCicil Admin as   _2278a0""))",Chrome 114.0.0.0,,,2023-07-11 10:12:46,2023-07-11 10:12:47,1.029s,PASSED
+"setText(findTestObject(""Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm""), ""123456"")",Chrome 114.0.0.0,,,2023-07-11 10:12:47,2023-07-11 10:12:48,0.830s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-11 10:12:48,2023-07-11 10:12:48,0.577s,PASSED
+"setText(findTestObject(""Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm""), ""Sharp"")",Chrome 114.0.0.0,,,2023-07-11 10:12:48,2023-07-11 10:12:49,0.887s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Kategori Toko/Searching Failed/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-11 10:12:49,2023-07-11 10:12:50,0.551s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-11 10:12:50,2023-07-11 10:12:51,0.774s,PASSED

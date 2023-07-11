@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Master Highlight" time="44.717" tests="3" failures="0" errors="0">
+   <testsuite name="Master Highlight" tests="3" failures="0" errors="0" time="44.717" skipped="0" timestamp="2023-07-11 10:18:21" hostname="202102359 - KPO-Blicicil.pdc.megafinance.co.id" id="Test Suites/Master Highlight">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230711_101818\\Master Highlight\\20230711_101818"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230711_101818\\Master Highlight\\20230711_101818\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="202102359 - KPO-Blicicil.pdc.megafinance.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.16.53"/>
+         <property name="sessionId" value="d318f3a740c2b17cfa21f712ec1ea646"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Master Highlight/Beranda" time="16.881" classname="Test Cases/Master Highlight/Beranda" status="PASSED">
+         <system-out><![CDATA[2023-07-11 10:18:22 - [TEST_CASE][PASSED] - Test Cases/Master Highlight/Beranda: Test Cases/Master Highlight/Beranda
+
+2023-07-11 10:18:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 10:18:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-11 10:18:23 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-11 10:18:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 10:18:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 10:18:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 10:18:26 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 10:18:26 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:18:27 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:18:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Highlight/Beranda/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Highlight/Beranda/input_Email_email'
+
+2023-07-11 10:18:29 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Highlight/Beranda/input_Email_email'
+
+2023-07-11 10:18:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Highlight/Beranda/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Highlight/Beranda/input_Password_password'
+
+2023-07-11 10:18:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Highlight/Beranda/input_Password_password'
+
+2023-07-11 10:18:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Beranda/button_Login")): Object: 'Object Repository/Master Highlight/Beranda/button_Login' is clicked on
+
+2023-07-11 10:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Beranda/button_Login' is clicked on
+
+2023-07-11 10:18:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Beranda/a_Master")): Object: 'Object Repository/Master Highlight/Beranda/a_Master' is clicked on
+
+2023-07-11 10:18:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Beranda/a_Master' is clicked on
+
+2023-07-11 10:18:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Beranda/a_Highlight")): Object: 'Object Repository/Master Highlight/Beranda/a_Highlight' is clicked on
+
+2023-07-11 10:18:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Beranda/a_Highlight' is clicked on
+
+2023-07-11 10:18:32 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Master Highlight/Beranda/div_List Highlight BliCicil Admin as       _048319")): Text of object 'Object Repository/Master Highlight/Beranda/div_List Highlight BliCicil Admin as       _048319' is: 'List Highlight BliCicil Admin as
+New Highlight'
+
+2023-07-11 10:18:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Highlight/Beranda/div_List Highlight BliCicil Admin as       _048319' is: 'List Highlight BliCicil Admin as
+New Highlight'
+
+2023-07-11 10:18:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Beranda/a_2")): Object: 'Object Repository/Master Highlight/Beranda/a_2' is clicked on
+
+2023-07-11 10:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Beranda/a_2' is clicked on
+
+2023-07-11 10:18:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Beranda/a_Previous")): Object: 'Object Repository/Master Highlight/Beranda/a_Previous' is clicked on
+
+2023-07-11 10:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Beranda/a_Previous' is clicked on
+
+2023-07-11 10:18:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Beranda/a_Next")): Object: 'Object Repository/Master Highlight/Beranda/a_Next' is clicked on
+
+2023-07-11 10:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Beranda/a_Next' is clicked on
+
+2023-07-11 10:18:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Beranda/a_1")): Object: 'Object Repository/Master Highlight/Beranda/a_1' is clicked on
+
+2023-07-11 10:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Beranda/a_1' is clicked on
+
+2023-07-11 10:18:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Beranda/button_Unpublish")): Object: 'Object Repository/Master Highlight/Beranda/button_Unpublish' is clicked on
+
+2023-07-11 10:18:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Beranda/button_Unpublish' is clicked on
+
+2023-07-11 10:18:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Beranda/button_No")): Object: 'Object Repository/Master Highlight/Beranda/button_No' is clicked on
+
+2023-07-11 10:18:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Beranda/button_No' is clicked on
+
+2023-07-11 10:18:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Beranda/button_Unpublish")): Object: 'Object Repository/Master Highlight/Beranda/button_Unpublish' is clicked on
+
+2023-07-11 10:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Beranda/button_Unpublish' is clicked on
+
+2023-07-11 10:18:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Beranda/button_Yes")): Object: 'Object Repository/Master Highlight/Beranda/button_Yes' is clicked on
+
+2023-07-11 10:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Beranda/button_Yes' is clicked on
+
+2023-07-11 10:18:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 10:18:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Highlight/Searching Failed" time="14.228" classname="Test Cases/Master Highlight/Searching Failed" status="PASSED">
+         <system-out><![CDATA[2023-07-11 10:18:38 - [TEST_CASE][PASSED] - Test Cases/Master Highlight/Searching Failed: Test Cases/Master Highlight/Searching Failed
+
+2023-07-11 10:18:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 10:18:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-11 10:18:39 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-11 10:18:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 10:18:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 10:18:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 10:18:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 10:18:41 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:18:41 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:18:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Highlight/Searching Failed/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Highlight/Searching Failed/input_Email_email'
+
+2023-07-11 10:18:42 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Highlight/Searching Failed/input_Email_email'
+
+2023-07-11 10:18:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Highlight/Searching Failed/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Highlight/Searching Failed/input_Password_password'
+
+2023-07-11 10:18:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Highlight/Searching Failed/input_Password_password'
+
+2023-07-11 10:18:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Searching Failed/button_Login")): Object: 'Object Repository/Master Highlight/Searching Failed/button_Login' is clicked on
+
+2023-07-11 10:18:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Searching Failed/button_Login' is clicked on
+
+2023-07-11 10:18:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Searching Failed/a_Master")): Object: 'Object Repository/Master Highlight/Searching Failed/a_Master' is clicked on
+
+2023-07-11 10:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Searching Failed/a_Master' is clicked on
+
+2023-07-11 10:18:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Searching Failed/a_Highlight")): Object: 'Object Repository/Master Highlight/Searching Failed/a_Highlight' is clicked on
+
+2023-07-11 10:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Searching Failed/a_Highlight' is clicked on
+
+2023-07-11 10:18:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Searching Failed/div_List Highlight BliCicil Admin as       _048319")): Object: 'Object Repository/Master Highlight/Searching Failed/div_List Highlight BliCicil Admin as       _048319' is clicked on
+
+2023-07-11 10:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Searching Failed/div_List Highlight BliCicil Admin as       _048319' is clicked on
+
+2023-07-11 10:18:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm"), "sbs"): Text 'sbs' is set on object 'Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:18:49 - [MESSAGE][PASSED] - Text 'sbs' is set on object 'Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:18:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:18:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:18:49 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-11 10:18:50 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-11 10:18:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm"), "modal instan"): Text 'modal instan' is set on object 'Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:18:51 - [MESSAGE][PASSED] - Text 'modal instan' is set on object 'Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:18:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:18:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Highlight/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-11 10:18:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 10:18:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Highlight/Searching Success" time="13.161" classname="Test Cases/Master Highlight/Searching Success" status="PASSED">
+         <system-out><![CDATA[2023-07-11 10:18:53 - [TEST_CASE][PASSED] - Test Cases/Master Highlight/Searching Success: Test Cases/Master Highlight/Searching Success
+
+2023-07-11 10:18:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 10:18:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-11 10:18:53 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-11 10:18:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 10:18:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 10:18:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 10:18:55 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 10:18:55 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:18:56 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-11 10:18:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Highlight/Searching Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Highlight/Searching Success/input_Email_email'
+
+2023-07-11 10:18:57 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Highlight/Searching Success/input_Email_email'
+
+2023-07-11 10:18:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Highlight/Searching Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Highlight/Searching Success/input_Password_password'
+
+2023-07-11 10:18:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Highlight/Searching Success/input_Password_password'
+
+2023-07-11 10:18:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Searching Success/button_Login")): Object: 'Object Repository/Master Highlight/Searching Success/button_Login' is clicked on
+
+2023-07-11 10:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Searching Success/button_Login' is clicked on
+
+2023-07-11 10:18:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Searching Success/a_Master")): Object: 'Object Repository/Master Highlight/Searching Success/a_Master' is clicked on
+
+2023-07-11 10:19:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Searching Success/a_Master' is clicked on
+
+2023-07-11 10:19:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Searching Success/a_Highlight")): Object: 'Object Repository/Master Highlight/Searching Success/a_Highlight' is clicked on
+
+2023-07-11 10:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Searching Success/a_Highlight' is clicked on
+
+2023-07-11 10:19:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Highlight/Searching Success/div_List Highlight BliCicil Admin as       _048319")): Object: 'Object Repository/Master Highlight/Searching Success/div_List Highlight BliCicil Admin as       _048319' is clicked on
+
+2023-07-11 10:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Highlight/Searching Success/div_List Highlight BliCicil Admin as       _048319' is clicked on
+
+2023-07-11 10:19:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm"), "Promo"): Text 'Promo' is set on object 'Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:19:03 - [MESSAGE][PASSED] - Text 'Promo' is set on object 'Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:19:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:19:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:19:03 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-11 10:19:03 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-11 10:19:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm"), "Test"): Text 'Test' is set on object 'Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:19:05 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:19:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:19:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Highlight/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-11 10:19:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 10:19:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-11 10:18:21 - [TEST_SUITE][PASSED] - Master Highlight: Test Cases/Master Highlight/Searching Success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master Headline,Chrome 114.0.0.0,,,2023-07-11 09:59:46,2023-07-11 10:00:33,47.013s,PASSED
+,,,,,,,
+Test Cases/Master Headline/Beranda,Chrome 114.0.0.0,,,2023-07-11 09:59:47,2023-07-11 10:00:06,19.559s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-11 09:59:47,2023-07-11 09:59:51,3.394s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-11 09:59:51,2023-07-11 09:59:51,0.054s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-11 09:59:51,2023-07-11 09:59:52,1.230s,PASSED
+"setText(findTestObject(""Object Repository/Master Headline/Beranda/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-11 09:59:52,2023-07-11 09:59:53,1.384s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Headline/Beranda/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-11 09:59:53,2023-07-11 09:59:54,0.506s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Beranda/button_Login""))",Chrome 114.0.0.0,,,2023-07-11 09:59:54,2023-07-11 09:59:54,0.555s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Beranda/a_Master""))",Chrome 114.0.0.0,,,2023-07-11 09:59:54,2023-07-11 09:59:56,2.063s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Beranda/span_Headline""))",Chrome 114.0.0.0,,,2023-07-11 09:59:56,2023-07-11 09:59:57,0.998s,PASSED
+"getText(findTestObject(""Object Repository/Master Headline/Beranda/div_List Headline BliCicil Admin as        _f528db""))",Chrome 114.0.0.0,,,2023-07-11 09:59:57,2023-07-11 09:59:58,0.948s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Beranda/a_2""))",Chrome 114.0.0.0,,,2023-07-11 09:59:58,2023-07-11 10:00:01,2.638s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Beranda/a_Previous""))",Chrome 114.0.0.0,,,2023-07-11 10:00:01,2023-07-11 10:00:02,0.501s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Beranda/a_Next""))",Chrome 114.0.0.0,,,2023-07-11 10:00:02,2023-07-11 10:00:02,0.489s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Beranda/a_1""))",Chrome 114.0.0.0,,,2023-07-11 10:00:02,2023-07-11 10:00:03,0.490s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Beranda/button_Hapus""))",Chrome 114.0.0.0,,,2023-07-11 10:00:03,2023-07-11 10:00:03,0.496s,PASSED
+"getText(findTestObject(""Object Repository/Master Headline/Beranda/div_Are you sure want to delete this dataYesNoNo""))",Chrome 114.0.0.0,,,2023-07-11 10:00:03,2023-07-11 10:00:04,0.467s,PASSED
+"click(findTestObject(""Master Headline/Beranda/button_No""))",Chrome 114.0.0.0,,,2023-07-11 10:00:04,2023-07-11 10:00:04,0.365s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Beranda/button_Hapus""))",Chrome 114.0.0.0,,,2023-07-11 10:00:04,2023-07-11 10:00:05,0.731s,PASSED
+"getText(findTestObject(""Object Repository/Master Headline/Beranda/div_Are you sure want to delete this dataYesNoNo""))",Chrome 114.0.0.0,,,2023-07-11 10:00:05,2023-07-11 10:00:05,0.483s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Beranda/button_Yes""))",Chrome 114.0.0.0,,,2023-07-11 10:00:05,2023-07-11 10:00:05,0.385s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-11 10:00:05,2023-07-11 10:00:06,0.810s,PASSED
+,,,,,,,
+Test Cases/Master Headline/Searching Failed,Chrome 114.0.0.0,,,2023-07-11 10:00:06,2023-07-11 10:00:20,13.414s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-11 10:00:07,2023-07-11 10:00:09,1.944s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-11 10:00:09,2023-07-11 10:00:09,0.016s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-11 10:00:09,2023-07-11 10:00:09,0.649s,PASSED
+"setText(findTestObject(""Object Repository/Master Headline/Searching Failed/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-11 10:00:09,2023-07-11 10:00:11,1.267s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Headline/Searching Failed/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-11 10:00:11,2023-07-11 10:00:11,0.481s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Searching Failed/button_Login""))",Chrome 114.0.0.0,,,2023-07-11 10:00:11,2023-07-11 10:00:12,0.568s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Searching Failed/a_Master""))",Chrome 114.0.0.0,,,2023-07-11 10:00:12,2023-07-11 10:00:14,1.955s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Searching Failed/a_Headline""))",Chrome 114.0.0.0,,,2023-07-11 10:00:14,2023-07-11 10:00:15,0.982s,PASSED
+"setText(findTestObject(""Object Repository/Master Headline/Searching Failed/input_Search_form-control form-control-sm""), ""blicicil"")",Chrome 114.0.0.0,,,2023-07-11 10:00:15,2023-07-11 10:00:16,1.400s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Headline/Searching Failed/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-11 10:00:16,2023-07-11 10:00:17,0.557s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-11 10:00:17,2023-07-11 10:00:17,0.496s,PASSED
+"setText(findTestObject(""Object Repository/Master Headline/Searching Failed/input_Search_form-control form-control-sm""), ""dana instant"")",Chrome 114.0.0.0,,,2023-07-11 10:00:17,2023-07-11 10:00:19,1.420s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Headline/Searching Failed/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-11 10:00:19,2023-07-11 10:00:19,0.479s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-11 10:00:19,2023-07-11 10:00:20,0.706s,PASSED
+,,,,,,,
+Test Cases/Master Headline/Searching Success,Chrome 114.0.0.0,,,2023-07-11 10:00:20,2023-07-11 10:00:33,13.583s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-11 10:00:20,2023-07-11 10:00:22,1.788s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-11 10:00:22,2023-07-11 10:00:22,0.016s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-11 10:00:22,2023-07-11 10:00:23,1.058s,PASSED
+"setText(findTestObject(""Object Repository/Master Headline/Searching Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-11 10:00:23,2023-07-11 10:00:24,1.133s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Headline/Searching Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-11 10:00:24,2023-07-11 10:00:25,0.523s,PASSED
+"click(findTestObject(""Master Headline/Searching Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-11 10:00:25,2023-07-11 10:00:25,0.559s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Searching Success/a_Master""))",Chrome 114.0.0.0,,,2023-07-11 10:00:25,2023-07-11 10:00:27,2.032s,PASSED
+"click(findTestObject(""Object Repository/Master Headline/Searching Success/span_Headline""))",Chrome 114.0.0.0,,,2023-07-11 10:00:27,2023-07-11 10:00:28,0.890s,PASSED
+"getText(findTestObject(""Object Repository/Master Headline/Searching Success/div_List Headline BliCicil Admin as        _f528db""))",Chrome 114.0.0.0,,,2023-07-11 10:00:28,2023-07-11 10:00:29,1.031s,PASSED
+"setText(findTestObject(""Object Repository/Master Headline/Searching Success/input_Search_form-control form-control-sm""), ""Beli gadget"")",Chrome 114.0.0.0,,,2023-07-11 10:00:29,2023-07-11 10:00:30,0.746s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Headline/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-11 10:00:30,2023-07-11 10:00:30,0.476s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-11 10:00:30,2023-07-11 10:00:31,0.358s,PASSED
+"setText(findTestObject(""Object Repository/Master Headline/Searching Success/input_Search_form-control form-control-sm""), ""Elektronik"")",Chrome 114.0.0.0,,,2023-07-11 10:00:31,2023-07-11 10:00:32,1.400s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Headline/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-11 10:00:32,2023-07-11 10:00:33,0.469s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-11 10:00:33,2023-07-11 10:00:33,0.688s,PASSED
