@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
 WebUI.setText(findTestObject('Object Repository/Master Bank/Beranda/input_Email_email'), 'eva.mayadila@megafinance.co.id')
@@ -31,23 +33,19 @@ WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/a_Master'))
 
 WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/a_Bank'))
 
-WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/button_Delete'))
+WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/a_6'))
 
-WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/div_Are you sure want to delete Bank Bukopi_1a81ad'))
+WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/a_Previous'))
+
+WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/a_Next'))
+
+WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/button_Delete'))
 
 WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/button_No'))
 
 WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/button_Delete'))
 
-WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/div_Are you sure want to delete Bank Bukopi_1a81ad'))
-
 WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/button_Yes'))
-
-WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/a_4'))
-
-WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/a_Previous'))
-
-WebUI.click(findTestObject('Object Repository/Master Bank/Beranda/a_Next'))
 
 WebUI.closeBrowser()
 

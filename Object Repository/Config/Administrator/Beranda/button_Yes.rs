@@ -6,12 +6,12 @@
    <elementGuidId>2608f745-11a7-4f6f-a2a5-f2696658ed63</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[13]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.swal2-confirm.btn-confirm.mr-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[23]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>7a532f06-440f-4507-bf51-718087ba2c05</webElementGuid>
+      <webElementGuid>e008b5d3-1a5e-462c-b659-848f871b6b86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6005a146-b04a-452f-881d-9d493f714f12</webElementGuid>
+      <webElementGuid>b13cff8a-6f1e-4610-9045-afb582826f35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>swal2-confirm btn-confirm mr-2</value>
-      <webElementGuid>4cdf77b1-abfd-4fe4-bf48-1802152ea10a</webElementGuid>
+      <webElementGuid>7ce290ad-36f2-4600-8c29-51e0eb10ee3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,18 +46,74 @@
       <name>text</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>8d89bfbb-829d-424f-8aa0-4518615976c6</webElementGuid>
+      <webElementGuid>9a388248-796a-4c7d-af47-b1a0921b0140</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;loaded swal2-shown swal2-height-auto&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static menu-expanded pace-done swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-warning swal2-show&quot;]/div[@class=&quot;swal2-actions&quot;]/button[@class=&quot;swal2-confirm btn-confirm mr-2&quot;]</value>
-      <webElementGuid>62d1a025-6d0c-413e-836b-e67f7cd54e0f</webElementGuid>
+      <value>/html[@class=&quot;loaded swal2-shown swal2-height-auto&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static menu-expanded pace-done swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-hide&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-warning swal2-hide&quot;]/div[@class=&quot;swal2-actions&quot;]/button[@class=&quot;swal2-confirm btn-confirm mr-2&quot;]</value>
+      <webElementGuid>fbf46b11-82e3-40a1-85a7-5538f7a83d7b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[23]</value>
+      <webElementGuid>589cee66-5214-4255-b288-5b3105b17368</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='terkini'])[2]/following::button[1]</value>
+      <webElementGuid>5e3913a1-0af9-47ac-be6c-edd668dfdfc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::button[1]</value>
+      <webElementGuid>39deab2b-60fb-43f4-a055-12dd393d39a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::button[2]</value>
+      <webElementGuid>26f562a9-50ef-41db-9ad4-65c7e8017487</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Yes']/parent::*</value>
+      <webElementGuid>e440e2d1-529c-4e12-8399-0a563895db18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/button</value>
+      <webElementGuid>a5e302e7-2f3e-40c8-b678-c5bfc6aac490</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Yes' or . = 'Yes')]</value>
+      <webElementGuid>1f3d74af-dae4-4d98-81c9-43d3b696d705</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -71,45 +127,5 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fredi'])[2]/following::button[1]</value>
       <webElementGuid>7128e3a3-92d3-4c36-996d-8aeae9e3da5b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::button[1]</value>
-      <webElementGuid>ea0812d8-a9c2-4a29-a2c7-48488eb3ced9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::button[2]</value>
-      <webElementGuid>2a5f8b87-a264-4828-b25b-ab696a12525c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Yes']/parent::*</value>
-      <webElementGuid>0358bb89-afb3-4e13-a078-2415ea70caa5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[6]/button</value>
-      <webElementGuid>f0a92053-d0df-4a35-8d12-f0362b68eab7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Yes' or . = 'Yes')]</value>
-      <webElementGuid>7d3f98e9-b1c1-49f6-b1dd-aa8aca0864e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Deactivate</name>
    <tag></tag>
-   <elementGuidId>560f576b-d9c6-418f-8fc2-463dfb45cf86</elementGuidId>
+   <elementGuidId>c51a0c13-4f90-48a5-a391-583a9a214373</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
+         <value>(//button[@type='button'])[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f47cac0e-51b5-424b-96c7-6317012e8bbf</webElementGuid>
+      <webElementGuid>2c928db0-ea70-41ad-8624-8486b1bbf0a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b990eb50-9d06-4eb2-ac0b-81b3733fb10d</webElementGuid>
+      <webElementGuid>57d7a1a7-da75-4d99-b675-4db39b8c2cc6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-flat-danger</value>
-      <webElementGuid>e85e3432-d45d-4462-83b0-4b6e36ecdfa4</webElementGuid>
+      <webElementGuid>08361589-647b-411d-92c6-b0b0a38e73d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>showConfirmationPopup('deactivate', () => actionProduct('643e464694782805670677b2', 1), 'Hari ini tes')</value>
-      <webElementGuid>1857d3a1-b205-447c-9995-4f4456ba01ca</webElementGuid>
+      <value>showConfirmationPopup('deactivate', () => actionProduct('64ae6c746fc9db25880ed256', 1), 'Testing 1')</value>
+      <webElementGuid>d878264a-52cd-4498-b60b-8656d3aeae7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Deactivate</value>
-      <webElementGuid>fef7cd03-ee47-4e7f-83fd-1bceebcc6a98</webElementGuid>
+      <webElementGuid>55987418-4bfb-4744-9d97-3cb68da156ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,63 +62,63 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbl-products&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[9]/button[@class=&quot;btn btn-flat-danger&quot;]</value>
-      <webElementGuid>2a69ca8f-37da-461c-af21-c9fe68a8b439</webElementGuid>
+      <webElementGuid>f15f4864-7248-4a1a-aad8-eaae519df69f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>ee4becae-9d2f-4de7-89bd-f0dbd6e25836</webElementGuid>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>e2d5f1d3-f7c0-4e90-98a3-d17f6ccb2ecd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-products']/tbody/tr[5]/td[9]/button</value>
-      <webElementGuid>d0c4c686-a58c-4df0-bdb2-668bff54df6b</webElementGuid>
+      <value>//table[@id='tbl-products']/tbody/tr[7]/td[9]/button</value>
+      <webElementGuid>65ff50aa-a027-4353-b6f9-7c8ada1d81ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[5]/following::button[1]</value>
-      <webElementGuid>6a37241b-fb9f-49ed-9a51-9e8b5655ca50</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[6]/following::button[1]</value>
+      <webElementGuid>e3f6ead7-dc59-4545-ac92-c695aea1908f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='hari ini tes'])[1]/following::button[1]</value>
-      <webElementGuid>3c69ff23-7c3e-4954-be10-ba9fcf6ca83d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[3]/following::button[1]</value>
+      <webElementGuid>1333d6c6-987b-4db5-882e-d601ebe1d758</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[5]/preceding::button[1]</value>
-      <webElementGuid>a06202e7-ab52-4fbf-884a-9e47a7a0b302</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[7]/preceding::button[1]</value>
+      <webElementGuid>d14296d2-c4c4-48c9-9a31-c0b82774c985</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='tesss'])[1]/preceding::button[1]</value>
-      <webElementGuid>1fc42fcc-8be4-4dde-bb8a-c338edadcf5d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing 2'])[1]/preceding::button[1]</value>
+      <webElementGuid>8ac8da31-cf86-4119-9348-a6f4274c1a8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[5]/td[9]/button</value>
-      <webElementGuid>2f11519c-78a3-44a0-a1cc-61c0d761f02e</webElementGuid>
+      <value>//tr[7]/td[9]/button</value>
+      <webElementGuid>af19d1cd-00a0-4a82-acca-9ac091c5e14b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Deactivate' or . = 'Deactivate')]</value>
-      <webElementGuid>ae00c86c-97a1-4b5d-9672-220aa64c02d9</webElementGuid>
+      <webElementGuid>7acf87b4-34a3-4507-bda1-24fbadd7693f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
