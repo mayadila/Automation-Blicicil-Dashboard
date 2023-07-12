@@ -3,18 +3,22 @@
    <description></description>
    <name>button_No</name>
    <tag></tag>
-   <elementGuidId>2c778efb-726a-41ff-9fe9-17c854ce1baa</elementGuidId>
+   <elementGuidId>03fd8cf7-b637-4076-a580-262d58a8006e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[15]</value>
+         <value>(//button[@type='button'])[25]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;loaded swal2-shown swal2-height-auto&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static menu-expanded pace-done swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-warning swal2-show&quot;]/div[@class=&quot;swal2-actions&quot;]/button[@class=&quot;swal2-cancel btn-cancel&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.swal2-cancel.btn-cancel</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>43040f57-3083-4401-8a59-6e2b82d262e4</webElementGuid>
+      <webElementGuid>20ae58e4-1c69-4c0c-905c-df4e751e1b92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>243ab295-7d25-4ddc-b3c4-3bf5cfadc4ef</webElementGuid>
+      <webElementGuid>63c2dcfc-23a7-498b-a4ca-3ed7563f03df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,31 +42,31 @@
       <name>class</name>
       <type>Main</type>
       <value>swal2-cancel btn-cancel</value>
-      <webElementGuid>e70ad864-54e7-48ee-8246-e218fb0aad99</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>No</value>
-      <webElementGuid>82c03461-cd93-4ea4-97dd-67066d3b022e</webElementGuid>
+      <webElementGuid>02d7840a-4eea-470f-93bf-6e1355629ea3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No</value>
+      <webElementGuid>e36ad5f9-15c2-43bc-a954-e3765c2744d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;loaded swal2-shown swal2-height-auto&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static menu-expanded pace-done swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-warning swal2-show&quot;]/div[@class=&quot;swal2-actions&quot;]/button[@class=&quot;swal2-cancel btn-cancel&quot;]</value>
-      <webElementGuid>a07e9240-8335-4ebb-a233-e423e21a809f</webElementGuid>
+      <webElementGuid>73a49d04-aa5d-4946-b048-9f13768bb83d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[15]</value>
-      <webElementGuid>bb1e10ce-d862-4b56-ac0f-a6d7bf33649d</webElementGuid>
+      <value>(//button[@type='button'])[25]</value>
+      <webElementGuid>6daa7111-9adf-4f06-9cd0-0bddd5998ba6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::button[1]</value>
-      <webElementGuid>d0c41a97-f7d1-417b-9318-997ab1c3e250</webElementGuid>
+      <webElementGuid>159b7a34-2df3-4e65-a968-67493e4cff9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::button[2]</value>
-      <webElementGuid>405283d5-6e2e-4320-bbc8-fe7713ecf410</webElementGuid>
+      <webElementGuid>7027c643-c691-42b4-8a5e-4991f257c0ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[3]</value>
-      <webElementGuid>f76ebf17-d255-4034-80c4-447efa2725e0</webElementGuid>
+      <webElementGuid>8c40fe98-5208-4542-97a0-8a225a2c5eba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'No' or . = 'No')]</value>
-      <webElementGuid>4cc069f2-4d78-4d87-b0f1-03f29ba92f54</webElementGuid>
+      <webElementGuid>a549bf65-6431-4ae3-adbe-4aa5324e7d4d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Master Kategori" time="63.797" tests="3" failures="0" errors="0">
+   <testsuite name="Master Kategori" tests="3" failures="0" errors="0" time="63.797" skipped="0" timestamp="2023-07-12 10:58:45" hostname="202102359 - KPO-Blicicil.pdc.megafinance.co.id" id="Test Suites/Master Kategori">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230712_105841\\Master Kategori\\20230712_105841"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230712_105841\\Master Kategori\\20230712_105841\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="202102359 - KPO-Blicicil.pdc.megafinance.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.16.53"/>
+         <property name="sessionId" value="f719af322e7a1057ff9016695163b154"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Master Kategori/Beranda" time="16.047" classname="Test Cases/Master Kategori/Beranda" status="PASSED">
+         <system-out><![CDATA[2023-07-12 10:58:46 - [TEST_CASE][PASSED] - Test Cases/Master Kategori/Beranda: Test Cases/Master Kategori/Beranda
+
+2023-07-12 10:58:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-12 10:58:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-12 10:58:47 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-12 10:58:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-12 10:58:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-12 10:58:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-12 10:58:50 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-12 10:58:50 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-12 10:58:51 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-12 10:58:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori/Beranda/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori/Beranda/input_Email_email'
+
+2023-07-12 10:58:52 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori/Beranda/input_Email_email'
+
+2023-07-12 10:58:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori/Beranda/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori/Beranda/input_Password_password'
+
+2023-07-12 10:58:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori/Beranda/input_Password_password'
+
+2023-07-12 10:58:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori/Beranda/button_Login")): Object: 'Object Repository/Master Kategori/Beranda/button_Login' is clicked on
+
+2023-07-12 10:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Beranda/button_Login' is clicked on
+
+2023-07-12 10:58:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori/Beranda/a_Master")): Object: 'Object Repository/Master Kategori/Beranda/a_Master' is clicked on
+
+2023-07-12 10:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Beranda/a_Master' is clicked on
+
+2023-07-12 10:58:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori/Beranda/a_Kategori")): Object: 'Object Repository/Master Kategori/Beranda/a_Kategori' is clicked on
+
+2023-07-12 10:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Beranda/a_Kategori' is clicked on
+
+2023-07-12 10:58:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori/Beranda/a_Next")): Object: 'Object Repository/Master Kategori/Beranda/a_Next' is clicked on
+
+2023-07-12 10:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Beranda/a_Next' is clicked on
+
+2023-07-12 10:58:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori/Beranda/a_Previous")): Object: 'Object Repository/Master Kategori/Beranda/a_Previous' is clicked on
+
+2023-07-12 10:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Beranda/a_Previous' is clicked on
+
+2023-07-12 10:58:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori/Beranda/a_2")): Object: 'Object Repository/Master Kategori/Beranda/a_2' is clicked on
+
+2023-07-12 10:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Beranda/a_2' is clicked on
+
+2023-07-12 10:58:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori/Beranda/button_Hapus")): Object: 'Object Repository/Master Kategori/Beranda/button_Hapus' is clicked on
+
+2023-07-12 10:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Beranda/button_Hapus' is clicked on
+
+2023-07-12 10:58:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori/Beranda/button_No")): Object: 'Object Repository/Master Kategori/Beranda/button_No' is clicked on
+
+2023-07-12 10:59:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Beranda/button_No' is clicked on
+
+2023-07-12 10:59:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori/Beranda/button_Hapus")): Object: 'Object Repository/Master Kategori/Beranda/button_Hapus' is clicked on
+
+2023-07-12 10:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Beranda/button_Hapus' is clicked on
+
+2023-07-12 10:59:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori/Beranda/button_Yes")): Object: 'Object Repository/Master Kategori/Beranda/button_Yes' is clicked on
+
+2023-07-12 10:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Beranda/button_Yes' is clicked on
+
+2023-07-12 10:59:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-12 10:59:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori/Searching Failed" time="12.874" classname="Test Cases/Master Kategori/Searching Failed" status="PASSED">
+         <system-out><![CDATA[2023-07-12 10:59:02 - [TEST_CASE][PASSED] - Test Cases/Master Kategori/Searching Failed: Test Cases/Master Kategori/Searching Failed
+
+2023-07-12 10:59:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-12 10:59:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-12 10:59:02 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-12 10:59:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-12 10:59:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-12 10:59:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-12 10:59:04 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-12 10:59:04 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-12 10:59:05 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-12 10:59:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori/Searching Failed/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori/Searching Failed/input_Email_email'
+
+2023-07-12 10:59:06 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori/Searching Failed/input_Email_email'
+
+2023-07-12 10:59:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master Kategori/Searching Failed/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori/Searching Failed/input_Password_password'
+
+2023-07-12 10:59:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori/Searching Failed/input_Password_password'
+
+2023-07-12 10:59:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori/Searching Failed/button_Login")): Object: 'Object Repository/Master Kategori/Searching Failed/button_Login' is clicked on
+
+2023-07-12 10:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Searching Failed/button_Login' is clicked on
+
+2023-07-12 10:59:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori/Searching Failed/a_Master")): Object: 'Object Repository/Master Kategori/Searching Failed/a_Master' is clicked on
+
+2023-07-12 10:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Searching Failed/a_Master' is clicked on
+
+2023-07-12 10:59:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Kategori/Searching Failed/a_Kategori")): Object: 'Object Repository/Master Kategori/Searching Failed/a_Kategori' is clicked on
+
+2023-07-12 10:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Searching Failed/a_Kategori' is clicked on
+
+2023-07-12 10:59:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm"), "kursi"): Text 'kursi' is set on object 'Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:11 - [MESSAGE][PASSED] - Text 'kursi' is set on object 'Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:12 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:12 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-12 10:59:12 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-12 10:59:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm"), "123"): Text '123' is set on object 'Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:13 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-12 10:59:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master Kategori/Searching Success" time="34.413" classname="Test Cases/Master Kategori/Searching Success" status="PASSED">
+         <system-out><![CDATA[2023-07-12 10:59:15 - [TEST_CASE][PASSED] - Test Cases/Master Kategori/Searching Success: Test Cases/Master Kategori/Searching Success
+
+2023-07-12 10:59:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-12 10:59:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-12 10:59:15 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-12 10:59:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-12 10:59:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-12 10:59:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-12 10:59:17 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-12 10:59:17 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-12 10:59:18 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-12 10:59:18 - [TEST_STEP][PASSED] - setText(findTestObject("Master Kategori/Searching Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori/Searching Success/input_Email_email'
+
+2023-07-12 10:59:19 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/Master Kategori/Searching Success/input_Email_email'
+
+2023-07-12 10:59:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Master Kategori/Searching Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Master Kategori/Searching Success/input_Password_password'
+
+2023-07-12 10:59:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master Kategori/Searching Success/input_Password_password'
+
+2023-07-12 10:59:20 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori/Searching Success/button_Login")): Object: 'Object Repository/Master Kategori/Searching Success/button_Login' is clicked on
+
+2023-07-12 10:59:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Searching Success/button_Login' is clicked on
+
+2023-07-12 10:59:20 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori/Searching Success/a_Master")): Object: 'Object Repository/Master Kategori/Searching Success/a_Master' is clicked on
+
+2023-07-12 10:59:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Searching Success/a_Master' is clicked on
+
+2023-07-12 10:59:22 - [TEST_STEP][PASSED] - click(findTestObject("Master Kategori/Searching Success/a_Kategori")): Object: 'Object Repository/Master Kategori/Searching Success/a_Kategori' is clicked on
+
+2023-07-12 10:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Kategori/Searching Success/a_Kategori' is clicked on
+
+2023-07-12 10:59:23 - [TEST_STEP][PASSED] - getText(findTestObject("Master Kategori/Searching Success/div_List Kategori BliCicil Admin as        _5a5735")): Text of object 'Object Repository/Master Kategori/Searching Success/div_List Kategori BliCicil Admin as        _5a5735' is: 'List Kategori BliCicil Admin as
+New Kategori'
+
+2023-07-12 10:59:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Kategori/Searching Success/div_List Kategori BliCicil Admin as        _5a5735' is: 'List Kategori BliCicil Admin as
+New Kategori'
+
+2023-07-12 10:59:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-12 10:59:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-12 10:59:29 - [TEST_STEP][PASSED] - setText(findTestObject("Master Kategori/Searching Success/input_Search_form-control form-control-sm"), "Elektronik"): Text 'Elektronik' is set on object 'Object Repository/Master Kategori/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:30 - [MESSAGE][PASSED] - Text 'Elektronik' is set on object 'Object Repository/Master Kategori/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Master Kategori/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-12 10:59:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-12 10:59:35 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-12 10:59:36 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-12 10:59:36 - [TEST_STEP][PASSED] - setText(findTestObject("Master Kategori/Searching Success/input_Search_form-control form-control-sm"), "Dapur"): Text 'Dapur' is set on object 'Object Repository/Master Kategori/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:37 - [MESSAGE][PASSED] - Text 'Dapur' is set on object 'Object Repository/Master Kategori/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Master Kategori/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Kategori/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-12 10:59:38 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-07-12 10:59:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-07-12 10:59:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-12 10:59:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-12 10:58:45 - [TEST_SUITE][PASSED] - Master Kategori: Test Cases/Master Kategori/Searching Success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
