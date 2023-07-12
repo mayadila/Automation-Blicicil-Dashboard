@@ -33,11 +33,11 @@ WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Master')
 
 WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Kategori'))
 
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_2'))
-
 WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Next'))
 
 WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_Previous'))
+
+WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_2'))
 
 WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/button_Hapus'))
 
@@ -46,10 +46,6 @@ WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/button_No'
 WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/button_Hapus'))
 
 WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/button_Yes'))
-
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_2'))
-
-WebUI.click(findTestObject('Object Repository/Master Kategori/Beranda/a_1'))
 
 WebUI.closeBrowser()
 

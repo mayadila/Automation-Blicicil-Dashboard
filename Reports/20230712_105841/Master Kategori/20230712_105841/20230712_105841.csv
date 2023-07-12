@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master Kategori,Chrome 114.0.0.0,,,2023-07-12 10:58:45,2023-07-12 10:59:49,1m - 3.797s,PASSED
+,,,,,,,
+Test Cases/Master Kategori/Beranda,Chrome 114.0.0.0,,,2023-07-12 10:58:46,2023-07-12 10:59:02,16.047s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-12 10:58:46,2023-07-12 10:58:50,3.951s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-12 10:58:50,2023-07-12 10:58:50,0.061s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-12 10:58:50,2023-07-12 10:58:51,0.997s,PASSED
+"setText(findTestObject(""Object Repository/Master Kategori/Beranda/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-12 10:58:51,2023-07-12 10:58:52,1.176s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Kategori/Beranda/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-12 10:58:52,2023-07-12 10:58:53,0.604s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori/Beranda/button_Login""))",Chrome 114.0.0.0,,,2023-07-12 10:58:53,2023-07-12 10:58:54,0.685s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori/Beranda/a_Master""))",Chrome 114.0.0.0,,,2023-07-12 10:58:54,2023-07-12 10:58:56,2.030s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori/Beranda/a_Kategori""))",Chrome 114.0.0.0,,,2023-07-12 10:58:56,2023-07-12 10:58:57,1.003s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori/Beranda/a_Next""))",Chrome 114.0.0.0,,,2023-07-12 10:58:57,2023-07-12 10:58:58,1.031s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori/Beranda/a_Previous""))",Chrome 114.0.0.0,,,2023-07-12 10:58:58,2023-07-12 10:58:58,0.525s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori/Beranda/a_2""))",Chrome 114.0.0.0,,,2023-07-12 10:58:58,2023-07-12 10:58:59,0.488s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori/Beranda/button_Hapus""))",Chrome 114.0.0.0,,,2023-07-12 10:58:59,2023-07-12 10:58:59,0.508s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori/Beranda/button_No""))",Chrome 114.0.0.0,,,2023-07-12 10:58:59,2023-07-12 10:59:00,0.501s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori/Beranda/button_Hapus""))",Chrome 114.0.0.0,,,2023-07-12 10:59:00,2023-07-12 10:59:01,0.715s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori/Beranda/button_Yes""))",Chrome 114.0.0.0,,,2023-07-12 10:59:01,2023-07-12 10:59:01,0.495s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-12 10:59:01,2023-07-12 10:59:02,0.710s,PASSED
+,,,,,,,
+Test Cases/Master Kategori/Searching Failed,Chrome 114.0.0.0,,,2023-07-12 10:59:02,2023-07-12 10:59:15,12.874s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-12 10:59:02,2023-07-12 10:59:04,1.819s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-12 10:59:04,2023-07-12 10:59:04,0.019s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-12 10:59:04,2023-07-12 10:59:05,0.818s,PASSED
+"setText(findTestObject(""Object Repository/Master Kategori/Searching Failed/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-12 10:59:05,2023-07-12 10:59:06,1.019s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master Kategori/Searching Failed/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-12 10:59:06,2023-07-12 10:59:06,0.423s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori/Searching Failed/button_Login""))",Chrome 114.0.0.0,,,2023-07-12 10:59:06,2023-07-12 10:59:07,0.505s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori/Searching Failed/a_Master""))",Chrome 114.0.0.0,,,2023-07-12 10:59:07,2023-07-12 10:59:09,2.045s,PASSED
+"click(findTestObject(""Object Repository/Master Kategori/Searching Failed/a_Kategori""))",Chrome 114.0.0.0,,,2023-07-12 10:59:09,2023-07-12 10:59:10,0.925s,PASSED
+"setText(findTestObject(""Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm""), ""kursi"")",Chrome 114.0.0.0,,,2023-07-12 10:59:10,2023-07-12 10:59:11,1.373s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-12 10:59:11,2023-07-12 10:59:12,0.511s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-12 10:59:12,2023-07-12 10:59:12,0.404s,PASSED
+"setText(findTestObject(""Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm""), ""123"")",Chrome 114.0.0.0,,,2023-07-12 10:59:12,2023-07-12 10:59:13,1.336s,PASSED
+"sendKeys(findTestObject(""Object Repository/Master Kategori/Searching Failed/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-12 10:59:13,2023-07-12 10:59:14,0.484s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-12 10:59:14,2023-07-12 10:59:15,0.788s,PASSED
+,,,,,,,
+Test Cases/Master Kategori/Searching Success,Chrome 114.0.0.0,,,2023-07-12 10:59:15,2023-07-12 10:59:49,34.413s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-12 10:59:15,2023-07-12 10:59:17,1.976s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-12 10:59:17,2023-07-12 10:59:17,0.021s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-12 10:59:17,2023-07-12 10:59:18,1.457s,PASSED
+"setText(findTestObject(""Master Kategori/Searching Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-12 10:59:18,2023-07-12 10:59:19,0.976s,PASSED
+"setEncryptedText(findTestObject(""Master Kategori/Searching Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-12 10:59:19,2023-07-12 10:59:20,0.435s,PASSED
+"click(findTestObject(""Master Kategori/Searching Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-12 10:59:20,2023-07-12 10:59:20,0.513s,PASSED
+"click(findTestObject(""Master Kategori/Searching Success/a_Master""))",Chrome 114.0.0.0,,,2023-07-12 10:59:20,2023-07-12 10:59:22,1.861s,PASSED
+"click(findTestObject(""Master Kategori/Searching Success/a_Kategori""))",Chrome 114.0.0.0,,,2023-07-12 10:59:22,2023-07-12 10:59:23,0.880s,PASSED
+"getText(findTestObject(""Master Kategori/Searching Success/div_List Kategori BliCicil Admin as        _5a5735""))",Chrome 114.0.0.0,,,2023-07-12 10:59:23,2023-07-12 10:59:24,0.952s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-07-12 10:59:24,2023-07-12 10:59:29,5.028s,PASSED
+"setText(findTestObject(""Master Kategori/Searching Success/input_Search_form-control form-control-sm""), ""Elektronik"")",Chrome 114.0.0.0,,,2023-07-12 10:59:29,2023-07-12 10:59:30,0.806s,PASSED
+"sendKeys(findTestObject(""Master Kategori/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-12 10:59:30,2023-07-12 10:59:30,0.484s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-07-12 10:59:30,2023-07-12 10:59:35,5.015s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-12 10:59:35,2023-07-12 10:59:36,0.525s,PASSED
+"setText(findTestObject(""Master Kategori/Searching Success/input_Search_form-control form-control-sm""), ""Dapur"")",Chrome 114.0.0.0,,,2023-07-12 10:59:36,2023-07-12 10:59:37,1.527s,PASSED
+"sendKeys(findTestObject(""Master Kategori/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-12 10:59:37,2023-07-12 10:59:38,0.699s,PASSED
+delay(10),Chrome 114.0.0.0,,,2023-07-12 10:59:38,2023-07-12 10:59:48,10.004s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-12 10:59:48,2023-07-12 10:59:49,0.809s,PASSED
