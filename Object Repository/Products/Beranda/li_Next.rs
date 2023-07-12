@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Products</name>
+   <name>li_Next</name>
    <tag></tag>
-   <elementGuidId>d3ca0443-c541-48b3-baf0-1dc6143903ba</elementGuidId>
+   <elementGuidId>7e102947-a312-47e5-8bbb-b7ec1020eaca</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#tbl-products_next</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='main-menu-navigation']/li[5]/a</value>
+         <value>//li[@id='tbl-products_next']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,104 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>0b649ddc-21b0-470f-814e-9ddab8edb568</webElementGuid>
+      <value>li</value>
+      <webElementGuid>96df46fb-4f4d-442a-96ec-d07819397a28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>d-flex align-items-center</value>
-      <webElementGuid>28a74c57-ee47-4782-ae8d-60325b141ed2</webElementGuid>
+      <value>paginate_button page-item next disabled</value>
+      <webElementGuid>b25c6e7b-c59e-4334-9a16-fa88c3b995f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>https://uat-dashboard.blicicil.com/products</value>
-      <webElementGuid>62c35ae9-9933-4fb6-93da-cccba36eb75e</webElementGuid>
+      <value>tbl-products_next</value>
+      <webElementGuid>48612e60-f6c8-4da3-a9c5-9a95b23eda90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-											
-											Products
-										</value>
-      <webElementGuid>29a67e99-b3ad-49f3-ab84-a5044847644f</webElementGuid>
+      <value>Next</value>
+      <webElementGuid>2d066f6f-0ebe-41eb-b288-e83889897448</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
-      <webElementGuid>0abd313b-02db-4d70-b300-ae036bac8681</webElementGuid>
+      <value>id(&quot;tbl-products_next&quot;)</value>
+      <webElementGuid>529b73f3-748f-4443-9281-0144ad57f5fc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//li[@id='tbl-products_next']</value>
+      <webElementGuid>03ea0d54-5499-4660-a247-5967bb552d39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='main-menu-navigation']/li[5]/a</value>
-      <webElementGuid>380af298-142d-4223-ac08-86c24b999c19</webElementGuid>
+      <value>//div[@id='tbl-products_paginate']/ul/li[4]</value>
+      <webElementGuid>48113d76-a8f5-4d19-9fb3-1ab2161b7744</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Multiguna R2'])[1]/following::a[1]</value>
-      <webElementGuid>64533e5b-99de-4d6d-ad4d-c47d2c9c2cd5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 11 to 13 of 13 entries'])[1]/following::li[4]</value>
+      <webElementGuid>e06aba98-6b03-4c7c-9158-04be9f357601</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Motorcycle'])[1]/following::a[2]</value>
-      <webElementGuid>afa4f67d-d0f4-4def-8f08-859dc3b7ac76</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[3]/following::li[4]</value>
+      <webElementGuid>eab4e0e9-2f10-4063-bfb1-fb4fa336f750</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products Status'])[1]/preceding::a[1]</value>
-      <webElementGuid>d44b79e1-be84-47be-ac17-c4d12b2d6015</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/products')]</value>
-      <webElementGuid>d5b58c9e-9d41-4e4a-8232-b3ac2d97be1a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=', All rights Reserved'])[1]/preceding::li[1]</value>
+      <webElementGuid>1099dc9d-e25b-4fe3-aa45-97d72692fb11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[5]/a</value>
-      <webElementGuid>e8dff237-be6a-40f1-8832-557e587403c5</webElementGuid>
+      <value>//div[2]/div[2]/div/ul/li[4]</value>
+      <webElementGuid>333282aa-ffff-4594-8a47-38f816ce3273</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'https://uat-dashboard.blicicil.com/products' and (text() = '
-											
-											Products
-										' or . = '
-											
-											Products
-										')]</value>
-      <webElementGuid>7d19aba8-9660-4407-9c74-c977d02c058b</webElementGuid>
+      <value>//li[@id = 'tbl-products_next' and (text() = 'Next' or . = 'Next')]</value>
+      <webElementGuid>ac0cc30c-a3a2-4a80-9ad6-18e00aa08d67</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

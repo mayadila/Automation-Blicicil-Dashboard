@@ -19,7 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-'Maximize Window Chrome'
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
@@ -32,37 +31,23 @@ WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/a_Products'))
 
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_List Products BliCicil Admin as        _565225'))
-
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Deactivate'))
-
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to deactivate Hari in_e58443'))
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_No'))
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Deactivate'))
-
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to deactivate Hari in_e58443'))
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Yes'))
 
-WebUI.click(findTestObject('Object Repository/Products/Beranda/a_2'))
+WebUI.click(findTestObject('Products/Beranda/li_Next'))
 
-WebUI.click(findTestObject('Object Repository/Products/Beranda/a_Previous'))
-
-WebUI.click(findTestObject('Object Repository/Products/Beranda/a_Next'))
-
-WebUI.click(findTestObject('Object Repository/Products/Beranda/a_1'))
+WebUI.click(findTestObject('Products/Beranda/li_Previous'))
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Activate'))
-
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to activate Elektroni_a747f7'))
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_No'))
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Activate'))
-
-WebUI.getText(findTestObject('Object Repository/Products/Beranda/div_Are you sure want to activate Elektroni_a747f7'))
 
 WebUI.click(findTestObject('Object Repository/Products/Beranda/button_Yes'))
 
