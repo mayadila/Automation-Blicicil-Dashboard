@@ -17,52 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Membuka chrome'
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-'Membuka halaman login'
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
-'Menginputkan email valid'
 WebUI.setText(findTestObject('Object Repository/Motorcycle/Beranda/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
-'Menginput password valid'
 WebUI.setEncryptedText(findTestObject('Object Repository/Motorcycle/Beranda/input_Password_password'), 'aeHFOx8jV/A=')
 
-'Mengklik button login'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/button_Login'))
 
-'Mengklik menu transaction'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/a_Transaction'))
 
-'Mengklik submenu motorcycle'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/a_Motorcycle'))
 
-'Mengklik ikon dropdown detail transaksi nmc'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/svg_Proses_rotate-icon-61e28a1d1dac201b017d5bf7'))
-
-'Mengklik ikon dropdown detail transaksi nmc'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/svg_Ditolak_rotate-icon-61e4c8d1b4aaa3728e4c8e32'))
-
-'Mengklik button number page'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/a_5'))
-
-'Mengklik ikon dropdown detail transaksi nmc'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/svg_Dibatalkan_rotate-icon-6205c2f4da21d203_9f5933'))
-
-'Mengklik button Prev Page'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/a_Previous'))
-
-'Mengklik ikon dropdown detail transaksi nmc'
-WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/svg_Selesai_rotate-icon-62048ea3dc1625770b4d67f5'))
-
-'Mengklik button Next Page'
 WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/a_Next'))
 
-WebUI.refresh()
+WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/a_Next'))
 
-'Menutup chrome'
+WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/a_Next'))
+
+WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/svg_Dibatalkan_rotate-icon-620319cf2a632351_42c78f'))
+
+WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/svg_Proses_rotate-icon-61fbb2ba496976743b6869af'))
+
+WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/a_Previous'))
+
+WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/a_Previous'))
+
+WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/svg_Ditolak_rotate-icon-61e7c5ee8dca76747c46a867'))
+
+WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/a_1'))
+
+WebUI.click(findTestObject('Object Repository/Motorcycle/Beranda/svg_Proses_rotate-icon-61e448c0846f05431c6f30c5'))
+
 WebUI.closeBrowser()
 

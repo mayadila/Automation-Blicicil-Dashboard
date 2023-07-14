@@ -1,0 +1,119 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Motorcycle,Chrome 114.0.0.0,,,2023-07-14 14:09:22,2023-07-14 14:10:49,1m - 26.778s,PASSED
+,,,,,,,
+Test Cases/Motorcycle/Beranda,Chrome 114.0.0.0,,,2023-07-14 14:09:22,2023-07-14 14:09:36,14.153s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-14 14:09:22,2023-07-14 14:09:25,2.354s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-14 14:09:25,2023-07-14 14:09:25,0.042s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-14 14:09:25,2023-07-14 14:09:26,1.067s,PASSED
+"setText(findTestObject(""Object Repository/Motorcycle/Beranda/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-14 14:09:26,2023-07-14 14:09:27,0.862s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Motorcycle/Beranda/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-14 14:09:27,2023-07-14 14:09:27,0.479s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Beranda/button_Login""))",Chrome 114.0.0.0,,,2023-07-14 14:09:27,2023-07-14 14:09:28,0.551s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Beranda/a_Transaction""))",Chrome 114.0.0.0,,,2023-07-14 14:09:28,2023-07-14 14:09:30,1.748s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Beranda/a_Motorcycle""))",Chrome 114.0.0.0,,,2023-07-14 14:09:30,2023-07-14 14:09:30,0.722s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Beranda/a_Next""))",Chrome 114.0.0.0,,,2023-07-14 14:09:30,2023-07-14 14:09:31,1.021s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Beranda/a_Next""))",Chrome 114.0.0.0,,,2023-07-14 14:09:31,2023-07-14 14:09:32,0.456s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Beranda/a_Next""))",Chrome 114.0.0.0,,,2023-07-14 14:09:32,2023-07-14 14:09:32,0.475s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Beranda/svg_Dibatalkan_rotate-icon-620319cf2a632351_42c78f""))",Chrome 114.0.0.0,,,2023-07-14 14:09:32,2023-07-14 14:09:33,0.477s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Beranda/svg_Proses_rotate-icon-61fbb2ba496976743b6869af""))",Chrome 114.0.0.0,,,2023-07-14 14:09:33,2023-07-14 14:09:33,0.466s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Beranda/a_Previous""))",Chrome 114.0.0.0,,,2023-07-14 14:09:33,2023-07-14 14:09:34,0.574s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Beranda/a_Previous""))",Chrome 114.0.0.0,,,2023-07-14 14:09:34,2023-07-14 14:09:34,0.464s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Beranda/svg_Ditolak_rotate-icon-61e7c5ee8dca76747c46a867""))",Chrome 114.0.0.0,,,2023-07-14 14:09:34,2023-07-14 14:09:35,0.462s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Beranda/a_1""))",Chrome 114.0.0.0,,,2023-07-14 14:09:35,2023-07-14 14:09:35,0.467s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Beranda/svg_Proses_rotate-icon-61e448c0846f05431c6f30c5""))",Chrome 114.0.0.0,,,2023-07-14 14:09:35,2023-07-14 14:09:36,0.463s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-14 14:09:36,2023-07-14 14:09:36,0.673s,PASSED
+,,,,,,,
+Test Cases/Motorcycle/Searching Failed,Chrome 114.0.0.0,,,2023-07-14 14:09:36,2023-07-14 14:10:03,26.587s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-14 14:09:37,2023-07-14 14:09:38,1.348s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-14 14:09:38,2023-07-14 14:09:38,0.018s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-14 14:09:38,2023-07-14 14:09:40,1.739s,PASSED
+"setText(findTestObject(""Object Repository/Motorcycle/Searching Failed/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-14 14:09:40,2023-07-14 14:09:40,0.790s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Motorcycle/Searching Failed/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-14 14:09:40,2023-07-14 14:09:41,0.406s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/button_Login""))",Chrome 114.0.0.0,,,2023-07-14 14:09:41,2023-07-14 14:09:41,0.482s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/a_Transaction""))",Chrome 114.0.0.0,,,2023-07-14 14:09:41,2023-07-14 14:09:43,1.752s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/a_Motorcycle""))",Chrome 114.0.0.0,,,2023-07-14 14:09:43,2023-07-14 14:09:44,0.723s,PASSED
+"setText(findTestObject(""Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _ec3f45""), ""indonesia"")",Chrome 114.0.0.0,,,2023-07-14 14:09:44,2023-07-14 14:09:45,1.336s,PASSED
+"sendKeys(findTestObject(""Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _ec3f45""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-14 14:09:45,2023-07-14 14:09:46,0.470s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Failed/select_Status                              _ebcc15""), ""Selesai"", true)",Chrome 114.0.0.0,,,2023-07-14 14:09:46,2023-07-14 14:09:47,1.221s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Failed/select_Status                              _ebcc15""), ""Proses"", true)",Chrome 114.0.0.0,,,2023-07-14 14:09:47,2023-07-14 14:09:48,1.229s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Failed/select_Status                              _ebcc15""), ""Transaksi"", true)",Chrome 114.0.0.0,,,2023-07-14 14:09:48,2023-07-14 14:09:49,1.309s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Failed/select_Status                              _ebcc15""), ""TTD Kontrak"", true)",Chrome 114.0.0.0,,,2023-07-14 14:09:49,2023-07-14 14:09:51,1.367s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Failed/select_Status                              _ebcc15""), ""Ditolak"", true)",Chrome 114.0.0.0,,,2023-07-14 14:09:51,2023-07-14 14:09:52,1.395s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Failed/select_Status                              _ebcc15""), ""Dibatalkan"", true)",Chrome 114.0.0.0,,,2023-07-14 14:09:52,2023-07-14 14:09:54,1.384s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-14 14:09:54,2023-07-14 14:09:54,0.361s,PASSED
+"setText(findTestObject(""Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _ec3f45""), ""jenaka"")",Chrome 114.0.0.0,,,2023-07-14 14:09:54,2023-07-14 14:09:55,1.376s,PASSED
+"sendKeys(findTestObject(""Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _ec3f45""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-14 14:09:55,2023-07-14 14:09:56,0.469s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _539eaf""))",Chrome 114.0.0.0,,,2023-07-14 14:09:56,2023-07-14 14:09:56,0.594s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/li_Yesterday""))",Chrome 114.0.0.0,,,2023-07-14 14:09:56,2023-07-14 14:09:57,0.488s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _539eaf""))",Chrome 114.0.0.0,,,2023-07-14 14:09:57,2023-07-14 14:09:57,0.574s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/li_Today""))",Chrome 114.0.0.0,,,2023-07-14 14:09:57,2023-07-14 14:09:58,0.461s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _539eaf""))",Chrome 114.0.0.0,,,2023-07-14 14:09:58,2023-07-14 14:09:58,0.591s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/li_Last 7 Days""))",Chrome 114.0.0.0,,,2023-07-14 14:09:58,2023-07-14 14:09:59,0.497s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _539eaf""))",Chrome 114.0.0.0,,,2023-07-14 14:09:59,2023-07-14 14:10:00,0.598s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/li_Last 30 Days""))",Chrome 114.0.0.0,,,2023-07-14 14:10:00,2023-07-14 14:10:00,0.462s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _539eaf""))",Chrome 114.0.0.0,,,2023-07-14 14:10:00,2023-07-14 14:10:01,0.568s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/li_This Month""))",Chrome 114.0.0.0,,,2023-07-14 14:10:01,2023-07-14 14:10:01,0.463s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/input_List Motorcycle Transaction BliCicil _539eaf""))",Chrome 114.0.0.0,,,2023-07-14 14:10:01,2023-07-14 14:10:02,0.564s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Failed/li_Last Month""))",Chrome 114.0.0.0,,,2023-07-14 14:10:02,2023-07-14 14:10:02,0.586s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-14 14:10:02,2023-07-14 14:10:03,0.683s,PASSED
+,,,,,,,
+Test Cases/Motorcycle/Searching Success,Chrome 114.0.0.0,,,2023-07-14 14:10:03,2023-07-14 14:10:49,45.776s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-14 14:10:03,2023-07-14 14:10:04,1.311s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-14 14:10:04,2023-07-14 14:10:04,0.020s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-14 14:10:04,2023-07-14 14:10:05,0.702s,PASSED
+"setText(findTestObject(""Object Repository/Motorcycle/Searching Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-14 14:10:05,2023-07-14 14:10:06,0.817s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Motorcycle/Searching Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-14 14:10:06,2023-07-14 14:10:06,0.394s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-14 14:10:06,2023-07-14 14:10:07,0.491s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/a_Transaction""))",Chrome 114.0.0.0,,,2023-07-14 14:10:07,2023-07-14 14:10:09,1.816s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/a_Motorcycle""))",Chrome 114.0.0.0,,,2023-07-14 14:10:09,2023-07-14 14:10:09,0.728s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15""), ""Selesai"", true)",Chrome 114.0.0.0,,,2023-07-14 14:10:09,2023-07-14 14:10:11,1.772s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/svg_Selesai_rotate-icon-62048ea3dc1625770b4d67f5""))",Chrome 114.0.0.0,,,2023-07-14 14:10:11,2023-07-14 14:10:12,0.478s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15""), ""Proses"", true)",Chrome 114.0.0.0,,,2023-07-14 14:10:12,2023-07-14 14:10:13,1.295s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/svg_Proses_rotate-icon-61e28a1d1dac201b017d5bf7""))",Chrome 114.0.0.0,,,2023-07-14 14:10:13,2023-07-14 14:10:14,0.572s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15""), ""Transaksi"", true)",Chrome 114.0.0.0,,,2023-07-14 14:10:14,2023-07-14 14:10:15,1.333s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15""), ""TTD Kontrak"", true)",Chrome 114.0.0.0,,,2023-07-14 14:10:15,2023-07-14 14:10:16,1.349s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15""), ""Ditolak"", true)",Chrome 114.0.0.0,,,2023-07-14 14:10:16,2023-07-14 14:10:18,1.336s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/svg_Ditolak_rotate-icon-61e4caef3487346ae86c1884""))",Chrome 114.0.0.0,,,2023-07-14 14:10:18,2023-07-14 14:10:18,0.563s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15""), ""Dibatalkan"", true)",Chrome 114.0.0.0,,,2023-07-14 14:10:18,2023-07-14 14:10:19,1.265s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/svg_Dibatalkan_rotate-icon-6215dfba601e4b31_955332""))",Chrome 114.0.0.0,,,2023-07-14 14:10:19,2023-07-14 14:10:20,0.597s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/a_Next""))",Chrome 114.0.0.0,,,2023-07-14 14:10:20,2023-07-14 14:10:20,0.495s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/a_Previous""))",Chrome 114.0.0.0,,,2023-07-14 14:10:20,2023-07-14 14:10:21,0.560s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-14 14:10:21,2023-07-14 14:10:21,0.310s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf""))",Chrome 114.0.0.0,,,2023-07-14 14:10:21,2023-07-14 14:10:22,1.049s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/li_Yesterday""))",Chrome 114.0.0.0,,,2023-07-14 14:10:22,2023-07-14 14:10:23,0.579s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf""))",Chrome 114.0.0.0,,,2023-07-14 14:10:23,2023-07-14 14:10:24,0.597s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/li_Today""))",Chrome 114.0.0.0,,,2023-07-14 14:10:24,2023-07-14 14:10:24,0.493s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf""))",Chrome 114.0.0.0,,,2023-07-14 14:10:24,2023-07-14 14:10:25,0.585s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/li_Last 7 Days""))",Chrome 114.0.0.0,,,2023-07-14 14:10:25,2023-07-14 14:10:25,0.460s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf""))",Chrome 114.0.0.0,,,2023-07-14 14:10:25,2023-07-14 14:10:26,0.591s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/li_Last 30 Days""))",Chrome 114.0.0.0,,,2023-07-14 14:10:26,2023-07-14 14:10:26,0.482s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/svg_Proses_rotate-icon-64901e74c58fba0dae4dff85""))",Chrome 114.0.0.0,,,2023-07-14 14:10:26,2023-07-14 14:10:27,0.560s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf""))",Chrome 114.0.0.0,,,2023-07-14 14:10:27,2023-07-14 14:10:27,0.465s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/li_This Month""))",Chrome 114.0.0.0,,,2023-07-14 14:10:27,2023-07-14 14:10:28,0.451s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/svg_Proses_rotate-icon-64a77b45c58fba0dae4e017a""))",Chrome 114.0.0.0,,,2023-07-14 14:10:28,2023-07-14 14:10:28,0.579s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf""))",Chrome 114.0.0.0,,,2023-07-14 14:10:28,2023-07-14 14:10:29,0.571s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/li_Last Month""))",Chrome 114.0.0.0,,,2023-07-14 14:10:29,2023-07-14 14:10:29,0.456s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/svg_Proses_rotate-icon-64901e74c58fba0dae4dff85""))",Chrome 114.0.0.0,,,2023-07-14 14:10:29,2023-07-14 14:10:30,0.602s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _539eaf""))",Chrome 114.0.0.0,,,2023-07-14 14:10:30,2023-07-14 14:10:30,0.479s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/th_Custom Range_prev available""))",Chrome 114.0.0.0,,,2023-07-14 14:10:30,2023-07-14 14:10:31,0.479s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/th_Custom Range_prev available""))",Chrome 114.0.0.0,,,2023-07-14 14:10:31,2023-07-14 14:10:31,0.476s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/th_Custom Range_prev available""))",Chrome 114.0.0.0,,,2023-07-14 14:10:31,2023-07-14 14:10:32,0.586s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/th_Custom Range_prev available""))",Chrome 114.0.0.0,,,2023-07-14 14:10:32,2023-07-14 14:10:32,0.466s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/th_Custom Range_prev available""))",Chrome 114.0.0.0,,,2023-07-14 14:10:32,2023-07-14 14:10:33,0.554s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/button_Apply""))",Chrome 114.0.0.0,,,2023-07-14 14:10:33,2023-07-14 14:10:33,0.549s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-14 14:10:33,2023-07-14 14:10:34,0.293s,PASSED
+"setText(findTestObject(""Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _ec3f45""), ""RADITHYA"")",Chrome 114.0.0.0,,,2023-07-14 14:10:34,2023-07-14 14:10:35,1.385s,PASSED
+"sendKeys(findTestObject(""Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _ec3f45""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-14 14:10:35,2023-07-14 14:10:36,0.562s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/svg_Ditolak_rotate-icon-61e4c8d1b4aaa3728e4c8e32""))",Chrome 114.0.0.0,,,2023-07-14 14:10:36,2023-07-14 14:10:36,0.550s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-14 14:10:36,2023-07-14 14:10:37,0.287s,PASSED
+"setText(findTestObject(""Object Repository/Motorcycle/Searching Success/input_List Motorcycle Transaction BliCicil _ec3f45""), ""KURNIA"")",Chrome 114.0.0.0,,,2023-07-14 14:10:37,2023-07-14 14:10:38,1.362s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/svg_Dibatalkan_rotate-icon-62012045fe99524a_db6627""))",Chrome 114.0.0.0,,,2023-07-14 14:10:38,2023-07-14 14:10:38,0.556s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/svg_Dibatalkan_rotate-icon-62012045fe99524a_db6627""))",Chrome 114.0.0.0,,,2023-07-14 14:10:38,2023-07-14 14:10:39,0.544s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/a_Next""))",Chrome 114.0.0.0,,,2023-07-14 14:10:39,2023-07-14 14:10:40,0.555s,PASSED
+"click(findTestObject(""Object Repository/Motorcycle/Searching Success/a_Previous""))",Chrome 114.0.0.0,,,2023-07-14 14:10:40,2023-07-14 14:10:40,0.549s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15""), ""Selesai"", true)",Chrome 114.0.0.0,,,2023-07-14 14:10:40,2023-07-14 14:10:41,1.315s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15""), ""Proses"", true)",Chrome 114.0.0.0,,,2023-07-14 14:10:41,2023-07-14 14:10:43,1.199s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15""), ""Transaksi"", true)",Chrome 114.0.0.0,,,2023-07-14 14:10:43,2023-07-14 14:10:44,1.335s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15""), ""TTD Kontrak"", true)",Chrome 114.0.0.0,,,2023-07-14 14:10:44,2023-07-14 14:10:45,1.320s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15""), ""Ditolak"", true)",Chrome 114.0.0.0,,,2023-07-14 14:10:45,2023-07-14 14:10:47,1.335s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Motorcycle/Searching Success/select_Status                              _ebcc15""), ""Dibatalkan"", true)",Chrome 114.0.0.0,,,2023-07-14 14:10:47,2023-07-14 14:10:48,1.396s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 114.0.0.0,,,2023-07-14 14:10:48,2023-07-14 14:10:49,0.673s,PASSED

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>c0db2055-bd91-49e5-9d1f-4e8dee249306</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#rotate-icon-62048ea3dc1625770b4d67f5 > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>85876ac2-b583-45af-a346-5a49eda481d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>afae4c53-49fb-46c3-bea4-6e966a685a9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>0b9441c2-3151-43af-a88a-2621db72d8ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M1.23468 3.48444C1.26952 3.44952 1.3109 3.42181 1.35646 3.4029C1.40202 3.384 1.45086 3.37427 1.50018 3.37427C1.54951 3.37427 1.59835 3.384 1.64391 3.4029C1.68947 3.42181 1.73085 3.44952 1.76568 3.48444L6.00018 7.71969L10.2347 3.48444C10.2695 3.44957 10.3109 3.42191 10.3565 3.40305C10.402 3.38418 10.4509 3.37446 10.5002 3.37446C10.5495 3.37446 10.5983 3.38418 10.6439 3.40305C10.6894 3.42191 10.7308 3.44957 10.7657 3.48444C10.8005 3.5193 10.8282 3.5607 10.8471 3.60625C10.8659 3.6518 10.8757 3.70063 10.8757 3.74994C10.8757 3.79925 10.8659 3.84807 10.8471 3.89363C10.8282 3.93918 10.8005 3.98057 10.7657 4.01544L6.26568 8.51544C6.23085 8.55036 6.18947 8.57807 6.14391 8.59697C6.09835 8.61588 6.04951 8.62561 6.00018 8.62561C5.95086 8.62561 5.90202 8.61588 5.85646 8.59697C5.8109 8.57807 5.76952 8.55036 5.73468 8.51544L1.23468 4.01544C1.19976 3.9806 1.17205 3.93922 1.15315 3.89366C1.13424 3.8481 1.12451 3.79926 1.12451 3.74994C1.12451 3.70061 1.13424 3.65177 1.15315 3.60621C1.17205 3.56065 1.19976 3.51927 1.23468 3.48444Z</value>
+      <webElementGuid>14d4fc80-cca9-4e42-8837-3468e9123e16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#333333</value>
+      <webElementGuid>778afbc8-fca6-4ee4-aa01-1bf55e326129</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rotate-icon-62048ea3dc1625770b4d67f5&quot;)/path[1]</value>
+      <webElementGuid>d670c382-b879-437a-ba50-ed5c845b28da</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -3,15 +3,15 @@
    <description></description>
    <name>li_Today</name>
    <tag></tag>
-   <elementGuidId>1f0115e8-ab4d-4b09-b769-039b4d0a6b43</elementGuidId>
+   <elementGuidId>1fc9120c-a47a-4687-9974-2e4d3870ff42</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.ranges > ul > li.active</value>
+         <value>div.ranges > ul > li</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Andre Pabertiyan'])[1]/following::li[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::li[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>2782652b-3c81-4bf0-bb4d-8a04ec6aa3dc</webElementGuid>
+      <webElementGuid>c86b920d-684b-4bba-b934-41e1e2158400</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,7 @@
       <name>data-range-key</name>
       <type>Main</type>
       <value>Today</value>
-      <webElementGuid>88aa0274-6f75-43ee-8979-d3c8c007d1d1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>active</value>
-      <webElementGuid>33966d76-4b3c-4e5c-9edc-7a5a75b869e5</webElementGuid>
+      <webElementGuid>0ac155c9-97f0-4f17-b92d-7d374d07e5a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,23 +38,31 @@
       <name>text</name>
       <type>Main</type>
       <value>Today</value>
-      <webElementGuid>769e74e1-a487-4770-9127-cee767aad0ef</webElementGuid>
+      <webElementGuid>4d745963-f0f4-4e5e-9d9c-7fc736ec19c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;loaded&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static  menu-expanded pace-done&quot;]/div[@class=&quot;daterangepicker ltr show-ranges show-calendar opensright&quot;]/div[@class=&quot;ranges&quot;]/ul[1]/li[@class=&quot;active&quot;]</value>
-      <webElementGuid>8a8ea571-72e0-4c64-af35-a5629e87066e</webElementGuid>
+      <value>/html[@class=&quot;loaded&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static  menu-expanded pace-done&quot;]/div[@class=&quot;daterangepicker ltr show-ranges show-calendar opensright&quot;]/div[@class=&quot;ranges&quot;]/ul[1]/li[1]</value>
+      <webElementGuid>ce12bb52-2878-4338-ae77-c8aaf16e86dc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Andre Pabertiyan'])[1]/following::li[1]</value>
-      <webElementGuid>77e72a0d-6e8b-40f0-9758-92125deee983</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::li[1]</value>
+      <webElementGuid>bc733efa-fd8a-44c0-bc6d-94075b014c1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter results'])[1]/following::li[1]</value>
+      <webElementGuid>d78b2753-c51f-4a18-abd1-0d03f77ac87c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yesterday'])[1]/preceding::li[1]</value>
-      <webElementGuid>f14fec9a-363a-4087-847b-fbbad538d3d8</webElementGuid>
+      <webElementGuid>88ec0d8c-29ad-4481-bfa7-9b665bffc6c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last 7 Days'])[1]/preceding::li[2]</value>
-      <webElementGuid>e68155f7-cb5f-4b6c-860a-9855e487d73b</webElementGuid>
+      <webElementGuid>77b547b9-6934-4a01-ba65-77988c494297</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,15 +86,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Today']/parent::*</value>
-      <webElementGuid>bc71acac-4cdd-4b2f-b9c5-2e807d935cf6</webElementGuid>
+      <webElementGuid>efb0638d-952b-447d-9153-a6990de5e7f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/div/ul/li</value>
-      <webElementGuid>5c368ef6-ed37-40e9-9f7b-8a11cebca844</webElementGuid>
+      <value>//div[9]/div/ul/li</value>
+      <webElementGuid>26d8b60b-b001-411a-a750-0d98bd7f426c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Today' or . = 'Today')]</value>
-      <webElementGuid>b74c8702-222a-4ee0-877c-c5ca21a5a37b</webElementGuid>
+      <webElementGuid>f3787d3e-d726-4211-832c-8325a605cd4c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

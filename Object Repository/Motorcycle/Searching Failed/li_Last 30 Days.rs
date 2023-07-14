@@ -3,7 +3,7 @@
    <description></description>
    <name>li_Last 30 Days</name>
    <tag></tag>
-   <elementGuidId>1e3cb078-da4f-4b0b-bccc-889228f7c269</elementGuidId>
+   <elementGuidId>d5461bb9-8947-4cbd-9eb1-f753c8a72c15</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>fdd70118-c710-4026-9b24-a2c6600d4dd8</webElementGuid>
+      <webElementGuid>9bdb85a5-06c4-4399-b18b-223d3e8914af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>data-range-key</name>
       <type>Main</type>
       <value>Last 30 Days</value>
-      <webElementGuid>c8e505df-f289-4f5a-a889-038037a353cd</webElementGuid>
+      <webElementGuid>1fa4710a-354a-4b17-8091-1a81490b5ed7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Last 30 Days</value>
-      <webElementGuid>ba4bbdfb-fab0-4623-9ba3-0546552bdd61</webElementGuid>
+      <webElementGuid>e1441cc7-90dd-4d20-b11f-8098ecc491be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;loaded&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static  menu-expanded pace-done&quot;]/div[@class=&quot;daterangepicker ltr show-ranges show-calendar opensright&quot;]/div[@class=&quot;ranges&quot;]/ul[1]/li[4]</value>
-      <webElementGuid>0e0f70a3-6a92-4e91-81ac-fabc6932100a</webElementGuid>
+      <webElementGuid>78f266f2-47b1-4504-919b-3d5802df0894</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last 7 Days'])[1]/following::li[1]</value>
-      <webElementGuid>5f5eb03f-aebb-4eef-ba10-80a79fbf3925</webElementGuid>
+      <webElementGuid>14cd78ec-6512-4531-a2ba-3a852e12d90b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yesterday'])[1]/following::li[2]</value>
-      <webElementGuid>20015446-4cce-4933-b059-9fcb31772de8</webElementGuid>
+      <webElementGuid>493bf503-fb1d-41df-aaf3-6d1856efd48b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='This Month'])[1]/preceding::li[1]</value>
-      <webElementGuid>31440cbf-57c7-47dd-acf6-f8bed7d19dd7</webElementGuid>
+      <webElementGuid>2c61a6f3-ca1c-4519-abaf-b741e1aebaf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Month'])[1]/preceding::li[2]</value>
-      <webElementGuid>bcf443d6-2826-4829-b2e2-f6dc15b8406a</webElementGuid>
+      <webElementGuid>2d6292ca-8032-46e4-9bae-023231059e1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,15 +86,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Last 30 Days']/parent::*</value>
-      <webElementGuid>d273aa6c-3007-43f6-8db0-53158bf6d916</webElementGuid>
+      <webElementGuid>d8188b26-0b27-41f2-84cc-3dcbb03e42d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/div/ul/li[4]</value>
-      <webElementGuid>1c89bd1a-fd54-466c-94fb-5056303f3535</webElementGuid>
+      <value>//div[9]/div/ul/li[4]</value>
+      <webElementGuid>d9ee20d0-1511-4816-8aeb-668ea6d77603</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Last 30 Days' or . = 'Last 30 Days')]</value>
-      <webElementGuid>1fa47b92-2a77-4623-9b85-4f340b446838</webElementGuid>
+      <webElementGuid>91f8be81-1ae7-40ee-8ec7-dde7debc574a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

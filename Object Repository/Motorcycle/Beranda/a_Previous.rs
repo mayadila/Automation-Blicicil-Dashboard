@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Previous</name>
    <tag></tag>
-   <elementGuidId>572b93b3-6ac8-41e9-93ba-985d44a2fc2a</elementGuidId>
+   <elementGuidId>e4d0f7e7-bf42-4157-8cac-49a3d75738b3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2ed9fe5e-06ab-4e21-ac1d-433e60348cf9</webElementGuid>
+      <webElementGuid>18d902ac-139a-4454-95dc-257da2984b6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>d4a93f16-b47e-45de-a6d3-66856029d91d</webElementGuid>
+      <webElementGuid>a8de212d-f49b-41dd-9977-7fbcd2fcf693</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>tbl-motorcycle</value>
-      <webElementGuid>0e0719d1-4afb-4b48-ae7d-2fa5c3e1463b</webElementGuid>
+      <webElementGuid>3f33ac20-7f4d-4fb3-bec2-3bc5e77755f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-dt-idx</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>adaa3ce5-98ff-49e3-a057-6f4e698123c5</webElementGuid>
+      <webElementGuid>b2403dff-6f62-43a4-a03d-3d062245445b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>a65db148-b6ea-4784-af92-ccd6c29fb21b</webElementGuid>
+      <webElementGuid>bfe17410-169d-4f80-acfa-94ba81307155</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>page-link</value>
-      <webElementGuid>31e5654f-8271-4077-8ea3-5f7221d8baa1</webElementGuid>
+      <webElementGuid>bb52ed0a-f602-4b76-ac03-f0ed07cdaf46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Previous</value>
-      <webElementGuid>c69315fd-acd4-4dd5-b110-4354d08bac97</webElementGuid>
+      <webElementGuid>1c66f6a1-9ced-4e58-84b0-d46eef5ba760</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbl-motorcycle_previous&quot;)/a[@class=&quot;page-link&quot;]</value>
-      <webElementGuid>226d68b3-db3a-4e49-900b-0f333d1c34fb</webElementGuid>
+      <webElementGuid>d3ced121-ea65-4a60-bafd-a74916560611</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='tbl-motorcycle_previous']/a</value>
-      <webElementGuid>a55198b6-7e44-4558-8021-259b71ffa83a</webElementGuid>
+      <webElementGuid>3257e755-a054-4c63-940c-b882d3b967c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,23 +94,23 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Previous')]</value>
-      <webElementGuid>0de92865-2439-4886-a553-d750426f9690</webElementGuid>
+      <webElementGuid>852af3cd-434f-4f84-8eb0-93f19acb5421</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 41 to 50 of 95 entries'])[1]/following::a[1]</value>
-      <webElementGuid>c6631898-8030-46b0-9ce1-6306bcfd4f37</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 31 to 40 of 99 entries'])[1]/following::a[1]</value>
+      <webElementGuid>9598661a-4397-455b-a340-6b3079e38d53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dibatalkan'])[4]/following::a[1]</value>
-      <webElementGuid>72bf05ed-97d9-427b-9af3-e743b236cb51</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proses'])[8]/following::a[1]</value>
+      <webElementGuid>a5b3921d-467f-430d-822a-39e968896a0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=', All rights Reserved'])[1]/preceding::a[10]</value>
-      <webElementGuid>23c07802-cc1c-4098-8591-fd935430ce60</webElementGuid>
+      <webElementGuid>b91f2711-b7de-497a-816b-b7b78d7b0675</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Previous']/parent::*</value>
-      <webElementGuid>606da204-69f9-4cb8-a3b8-20c36d4d896b</webElementGuid>
+      <webElementGuid>338038bc-849f-402c-a27e-9191986454de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[5]</value>
-      <webElementGuid>c26bf888-e218-435d-892c-13677650b24c</webElementGuid>
+      <webElementGuid>9b5f3ded-9386-4832-ab58-e6172d75f555</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/ul/li/a</value>
-      <webElementGuid>3dbae8f3-553e-4eb5-b37a-da14cafaef7b</webElementGuid>
+      <webElementGuid>4b11facc-58f1-4362-a30c-ca25f8df815a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Previous' or . = 'Previous')]</value>
-      <webElementGuid>c3210d91-b8b9-4baf-8623-b20cf649bc59</webElementGuid>
+      <webElementGuid>ab9acfa9-b652-4c0e-9dda-78d039358efb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

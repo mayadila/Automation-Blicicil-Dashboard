@@ -3,7 +3,7 @@
    <description></description>
    <name>input_List Motorcycle Transaction BliCicil _539eaf</name>
    <tag></tag>
-   <elementGuidId>38ac59c2-439f-4711-a937-f367de0ead80</elementGuidId>
+   <elementGuidId>b9422dbb-6b89-4276-b7b5-468b848f276a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,10 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='dateRange']</value>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;dateRange&quot;)</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d1b89d37-d6dc-403d-a557-f22e9f296ca8</webElementGuid>
+      <webElementGuid>5c1fe1c6-9cd6-442c-aa3f-d7fd3cb9a65f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>a6133029-7d51-49ce-b6bf-8267617bd646</webElementGuid>
+      <webElementGuid>3e1f8533-af18-4daa-9265-a10acfea94a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,31 +42,31 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>4bae1359-b4d2-4494-8a26-52b806de0596</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>dateRange</value>
-      <webElementGuid>97501f08-da5f-442c-a622-a6fd088a1aae</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Date Range</value>
-      <webElementGuid>971eeafa-ec26-4a40-9b12-c9c14c384864</webElementGuid>
+      <webElementGuid>36932814-3ca4-4ff3-b1d9-6d7624b1d68d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dateRange</value>
+      <webElementGuid>1037300c-d865-4d8d-ad66-a71a6c72943d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Date Range</value>
+      <webElementGuid>628c0038-9b29-4058-ae85-7f99f599d0e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dateRange&quot;)</value>
-      <webElementGuid>f39fa379-e03b-4014-b943-3ec9303a4e6f</webElementGuid>
+      <webElementGuid>e34f84b3-d91b-4b3a-bb76-620852df6239</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='dateRange']</value>
-      <webElementGuid>b28dcb57-d9a3-4ec4-85c2-5fd6a3087744</webElementGuid>
+      <webElementGuid>70b07edd-a2d7-4a97-865a-5030b69de306</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='complex-header-datatable']/div/div/div/div[2]/div/div/div/input</value>
-      <webElementGuid>58cfc49f-0564-4bdf-add1-f38ec87ff3f5</webElementGuid>
+      <webElementGuid>afbb0b43-610b-4fa4-a1e9-2d042ee1d521</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>d87a8e6f-99c4-4501-8aef-539545de051a</webElementGuid>
+      <webElementGuid>a46bc7c1-0786-40a1-8308-8aaa5e43a899</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'dateRange' and @placeholder = 'Date Range']</value>
-      <webElementGuid>6273f964-0c1a-44df-9985-9022910e9cc8</webElementGuid>
+      <webElementGuid>7acdb542-dc6f-4656-b7cd-525db220a46a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Motorcycle</name>
    <tag></tag>
-   <elementGuidId>8e45e697-cc33-4f12-bb88-2583dec28eaf</elementGuidId>
+   <elementGuidId>bd283144-36f4-4fe3-88a7-7951db7ddfa4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8422e63c-695e-4c22-bd0b-d240a9238af5</webElementGuid>
+      <webElementGuid>2258016c-0a36-4d5d-8212-c535c0ed4b07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center</value>
-      <webElementGuid>1a143743-fd09-4ec1-bbc6-ce6abbc828f8</webElementGuid>
+      <webElementGuid>56ce7cd7-9b66-48d1-840a-cbe5ebe013f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://uat-dashboard.blicicil.com/transaction/motorcycle</value>
-      <webElementGuid>170e96a9-e36a-4ee4-bf1c-38b89c12d06b</webElementGuid>
+      <webElementGuid>ffa7bac9-fbee-4c7d-a6d5-683824447d09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
 							                		
 							                		Motorcycle
 							                	</value>
-      <webElementGuid>dbcce62e-10ec-4b73-9c6a-58360371d923</webElementGuid>
+      <webElementGuid>3cfd854c-406b-4d4b-8ccf-04927056a4d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item has-sub open&quot;]/ul[@class=&quot;menu-content&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
-      <webElementGuid>55d5c752-463e-49ab-8ae1-eadd685f98e4</webElementGuid>
+      <webElementGuid>4fbdc08d-25ab-41eb-ae87-a0742175aa88</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='main-menu-navigation']/li[4]/ul/li/a</value>
-      <webElementGuid>dd6948d9-7f42-4888-a925-8e6a3bdab9e5</webElementGuid>
+      <webElementGuid>0f222c17-5eac-44e7-b0b8-f8c33850b205</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction'])[1]/following::a[1]</value>
-      <webElementGuid>a1c62f24-d67c-4e56-9bf9-5eab56b6313d</webElementGuid>
+      <webElementGuid>1f7ca727-a0c7-4ae6-b0c4-49b133f982d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,15 +81,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Headline'])[1]/following::a[2]</value>
-      <webElementGuid>e217ed32-17be-4194-9c59-a57664bde057</webElementGuid>
+      <webElementGuid>98885547-ddae-40fe-89dc-3b1f740cc437</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/preceding::a[1]</value>
-      <webElementGuid>13df7f60-fc51-4269-aeb9-a8d69d8a8079</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Multiguna R2'])[1]/preceding::a[1]</value>
+      <webElementGuid>85771aec-9f19-4388-9efb-521634aa6e41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/transaction/motorcycle')]</value>
-      <webElementGuid>623ed3c9-b49b-4752-b4ca-1a35b09b96fe</webElementGuid>
+      <webElementGuid>ed6834d2-242d-4fa7-b09a-68fd2e44f8b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/ul/li/a</value>
-      <webElementGuid>b39c203e-1e3e-4581-a68e-4f721fc9ddce</webElementGuid>
+      <webElementGuid>b64a8db5-2e5e-4382-8259-9cae27c3008c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
 							                		
 							                		Motorcycle
 							                	')]</value>
-      <webElementGuid>bd1237c5-d874-4109-bdce-a73a73fb43f9</webElementGuid>
+      <webElementGuid>a890b4bb-f632-463b-b1e4-0fe24f039260</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

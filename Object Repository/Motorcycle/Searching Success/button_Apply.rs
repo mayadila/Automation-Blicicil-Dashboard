@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Apply</name>
    <tag></tag>
-   <elementGuidId>27425661-35a2-432d-b22d-65bf24a0b9fa</elementGuidId>
+   <elementGuidId>12ccb9cd-2949-48fa-aabd-f6b376ad73bc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,10 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <value>(//button[@type='button'])[13]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;loaded&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static  menu-expanded pace-done&quot;]/div[@class=&quot;daterangepicker ltr show-ranges show-calendar opensright&quot;]/div[@class=&quot;drp-buttons&quot;]/button[@class=&quot;applyBtn btn btn-sm btn-danger&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>523c1a86-ded5-4f3d-b9d8-28932e980794</webElementGuid>
+      <webElementGuid>faee63e4-afdc-48e6-b3f2-1f7d8f170721</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,39 +34,39 @@
       <name>class</name>
       <type>Main</type>
       <value>applyBtn btn btn-sm btn-danger</value>
-      <webElementGuid>bfd23000-0d80-4029-9a14-772d418015b5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>4045a74c-5da6-4936-a509-b0a940ef5098</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Apply</value>
-      <webElementGuid>aab7d33e-2409-4654-a47b-bc4ae158f802</webElementGuid>
+      <webElementGuid>4fd21a22-6108-42ac-9f1c-cb750438cf53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>03bd5c8d-c9ba-4a11-8597-e9900e050a79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Apply</value>
+      <webElementGuid>c61c019c-4082-405d-ae6c-df3848549b71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;loaded&quot;]/body[@class=&quot;vertical-layout vertical-menu-modern navbar-floating footer-static  menu-expanded pace-done&quot;]/div[@class=&quot;daterangepicker ltr show-ranges show-calendar opensright&quot;]/div[@class=&quot;drp-buttons&quot;]/button[@class=&quot;applyBtn btn btn-sm btn-danger&quot;]</value>
-      <webElementGuid>beff7813-febc-45af-8e99-eb749b2a54c5</webElementGuid>
+      <webElementGuid>ad31295c-36d3-4494-b7db-dfdd1e378425</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>4d94db00-aec2-4d51-9bfa-e446cde10cbc</webElementGuid>
+      <value>(//button[@type='button'])[13]</value>
+      <webElementGuid>1255ced1-8abb-413a-a32c-ecdd6889b6d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/following::button[1]</value>
-      <webElementGuid>66b89842-676e-41eb-bef3-6f87753f69f5</webElementGuid>
+      <webElementGuid>5546a365-0ac9-44c4-9231-51e1abf23483</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[2]/following::button[2]</value>
-      <webElementGuid>847842a2-d712-433a-8b7e-22268c000f04</webElementGuid>
+      <webElementGuid>b9872557-b5f6-41e9-b01f-ce28d3f7e2c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,15 +90,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Apply']/parent::*</value>
-      <webElementGuid>7e932bf0-68f3-4d75-9967-ddb392bf303f</webElementGuid>
+      <webElementGuid>43514d1f-8bf5-415a-82e9-976e0f0316ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
-      <webElementGuid>08f2e1db-e636-4a81-bb66-4980a3428991</webElementGuid>
+      <value>//div[4]/button[2]</value>
+      <webElementGuid>4f2e8cea-6ced-4111-b932-21de60a4b3e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Apply' or . = 'Apply')]</value>
-      <webElementGuid>0ee94a82-a62e-431b-9fd8-09595da04ab5</webElementGuid>
+      <webElementGuid>d825b120-c196-423a-9390-6a5f8931b0b7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

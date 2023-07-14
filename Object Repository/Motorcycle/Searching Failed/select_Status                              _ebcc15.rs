@@ -3,7 +3,7 @@
    <description></description>
    <name>select_Status                              _ebcc15</name>
    <tag></tag>
-   <elementGuidId>0a643d9e-aa11-408f-a6ba-5945a180393c</elementGuidId>
+   <elementGuidId>6029c344-cca1-4ac6-8765-abd733ba7e82</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>e4c371b8-55ac-4563-9339-d98f5e18ec6a</webElementGuid>
+      <webElementGuid>c852d062-db6a-4863-afb2-9f01b9d011b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>filterStatus</value>
-      <webElementGuid>49af78fd-0977-43cb-88f0-b5b953ce038d</webElementGuid>
+      <webElementGuid>177b8e74-3f4e-49d0-8aa1-b91b894bd2a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>filterStatus</value>
-      <webElementGuid>d6106dc9-938e-4ec1-bbf0-ab3d094bfa20</webElementGuid>
+      <webElementGuid>1f84f235-6e90-4016-9a79-de322aa2093a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>8bbab5cc-c376-4be5-873d-8c37ac6f7a35</webElementGuid>
+      <webElementGuid>4b43d30c-c547-456a-a12a-dc9c38b9b299</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>onStatusChange()</value>
-      <webElementGuid>55afad4c-9285-4fde-9bf4-0e6f20bd0d71</webElementGuid>
+      <webElementGuid>8244e117-e0d9-423a-b12c-9ecfcb8a353b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
                                                 Ditolak
                                                 Dibatalkan
                                             </value>
-      <webElementGuid>b9b6e1e7-8f77-44a6-8f24-5dd253ac2604</webElementGuid>
+      <webElementGuid>c9dfaab9-49ab-4d5b-854d-4cb04d896bcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;filterStatus&quot;)</value>
-      <webElementGuid>5640e296-15c5-420b-adeb-6a42d541aa42</webElementGuid>
+      <webElementGuid>127522e8-b06d-436b-9f63-cf41494b3328</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='filterStatus']</value>
-      <webElementGuid>991a82f8-1bb2-49f5-afa4-9795fa6f5633</webElementGuid>
+      <webElementGuid>6edc5dd7-99ab-4275-93db-147cfbe38330</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='complex-header-datatable']/div/div/div/div[2]/div/div/div[2]/select</value>
-      <webElementGuid>66afff4d-cad1-4bb2-ad28-cba367ab9ff3</webElementGuid>
+      <webElementGuid>e7076162-fb7d-40ef-ac39-45e30ae79adb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='List Motorcycle Transaction BliCicil Admin as'])[1]/following::select[1]</value>
-      <webElementGuid>70e493b9-1f78-4897-a51d-7361e4781d97</webElementGuid>
+      <webElementGuid>862eaa50-aaaa-4052-a27f-2fa149f74ff9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Motorcycle'])[2]/following::select[1]</value>
-      <webElementGuid>3c034a4f-f7e2-479e-bb49-c65b56b7ad58</webElementGuid>
+      <webElementGuid>5d0a2413-1f1e-4e63-a907-2e8020314352</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search:'])[1]/preceding::select[1]</value>
-      <webElementGuid>85c4b19e-852a-4005-8862-3247af2f9a9f</webElementGuid>
+      <webElementGuid>aca8b537-3afb-42a2-9a68-16da7556486a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Date &amp; Time'])[1]/preceding::select[1]</value>
-      <webElementGuid>432fb895-51a0-4417-84e0-5d12afbd1864</webElementGuid>
+      <webElementGuid>9e2477ae-2ecd-4a47-b9cd-a398a5c86744</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>6da35905-39fe-465d-b621-791bbbea42fc</webElementGuid>
+      <webElementGuid>8b6e7e03-853b-4360-be79-c5448379475b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -161,6 +161,6 @@
                                                 Ditolak
                                                 Dibatalkan
                                             ')]</value>
-      <webElementGuid>0df0cb37-e949-47eb-98b9-3ebdaa4777cc</webElementGuid>
+      <webElementGuid>c18244a4-b1be-49ac-a375-718cb83c6e15</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
