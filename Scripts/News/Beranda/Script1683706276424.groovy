@@ -31,8 +31,6 @@ WebUI.click(findTestObject('Object Repository/News/Beranda/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/News/Beranda/a_News'))
 
-WebUI.getText(findTestObject('Object Repository/News/Beranda/div_List News BliCicil Admin as            _9f1570'))
-
 WebUI.click(findTestObject('Object Repository/News/Beranda/a_2'))
 
 WebUI.click(findTestObject('Object Repository/News/Beranda/a_Previous'))
@@ -43,27 +41,27 @@ WebUI.click(findTestObject('Object Repository/News/Beranda/a_1'))
 
 WebUI.click(findTestObject('Object Repository/News/Beranda/button_Unpublish'))
 
-WebUI.getText(findTestObject('Object Repository/News/Beranda/div_Are you sure want to unpublish this dat_a999af'))
-
 WebUI.click(findTestObject('Object Repository/News/Beranda/button_No'))
 
 WebUI.click(findTestObject('Object Repository/News/Beranda/button_Unpublish'))
 
-WebUI.getText(findTestObject('Object Repository/News/Beranda/div_Are you sure want to unpublish this dat_a999af'))
-
 WebUI.click(findTestObject('Object Repository/News/Beranda/button_Yes'))
 
-WebUI.click(findTestObject('Object Repository/News/Beranda/button_Publish'))
+WebUI.delay(2)
 
-WebUI.getText(findTestObject('Object Repository/News/Beranda/div_Are you sure want to publish this dataYesNoNo'))
+WebUI.click(findTestObject('Object Repository/News/Beranda/a_Next'))
+
+WebUI.click(findTestObject('Object Repository/News/Beranda/a_Previous'))
+
+WebUI.click(findTestObject('Object Repository/News/Beranda/button_Publish'))
 
 WebUI.click(findTestObject('Object Repository/News/Beranda/button_No'))
 
 WebUI.click(findTestObject('Object Repository/News/Beranda/button_Publish'))
 
-WebUI.getText(findTestObject('Object Repository/News/Beranda/div_Are you sure want to publish this dataYesNoNo'))
-
 WebUI.click(findTestObject('Object Repository/News/Beranda/button_Yes'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

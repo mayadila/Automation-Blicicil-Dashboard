@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Publish</name>
    <tag></tag>
-   <elementGuidId>913597dc-9ec9-4d18-bf4d-40d864334638</elementGuidId>
+   <elementGuidId>cbf4dedc-f2ff-47d9-9250-e04713fe9c95</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='button']</value>
+         <value>(//button[@type='button'])[10]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b301715d-4dc0-4b40-bd5e-bd0775a53c55</webElementGuid>
+      <webElementGuid>a7e116a0-f3f2-423e-bd96-038bbef3c460</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>aa97d81e-e445-4a62-91c2-9efe5e824770</webElementGuid>
+      <webElementGuid>66e94613-d781-4615-985d-54ea0d4735aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-flat-success</value>
-      <webElementGuid>32380640-e1bc-420a-ac24-f38046ee6044</webElementGuid>
+      <webElementGuid>26ae3e92-66ee-493b-84f2-6c6693b412d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>showConfirmationPopup('publish', () => actionProduct('61e27c7ef36eb57a0b13bf15', 0))</value>
-      <webElementGuid>6d41f63b-4fcc-43ed-8d1d-d95622e4a609</webElementGuid>
+      <value>showConfirmationPopup('publish', () => actionProduct('634f64e3ad7c9dd3d08bf7e3', 0))</value>
+      <webElementGuid>0edb42d2-afc7-4717-8945-706f6ccb26b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,79 +54,71 @@
       <name>text</name>
       <type>Main</type>
       <value>Publish</value>
-      <webElementGuid>41dc09f7-c570-476a-a7aa-6875bf17a9ad</webElementGuid>
+      <webElementGuid>a76e1cce-c358-43c5-8ce5-769c0fd92b10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbl-news&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[5]/button[@class=&quot;btn btn-flat-success&quot;]</value>
-      <webElementGuid>04e279b2-754a-49de-a4b4-585cd6ac1418</webElementGuid>
+      <value>id(&quot;tbl-news&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[5]/button[@class=&quot;btn btn-flat-success&quot;]</value>
+      <webElementGuid>e4c199a9-85c1-4434-b077-8299c45dc19f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='button']</value>
-      <webElementGuid>7805aaf6-376c-4d86-b2c8-4beca5775fce</webElementGuid>
+      <value>(//button[@type='button'])[10]</value>
+      <webElementGuid>8074354b-995c-4e64-a454-ef25219dd580</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='tbl-news']/tbody/tr/td[5]/button</value>
-      <webElementGuid>11c2f213-9237-4169-97a3-d73a27b5b0f8</webElementGuid>
+      <value>//table[@id='tbl-news']/tbody/tr[10]/td[5]/button</value>
+      <webElementGuid>10ac006e-d713-47f3-8c7f-49f112bc38d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unpublish'])[1]/following::button[1]</value>
-      <webElementGuid>08d1b603-1957-4f9a-80d7-b0fbf3b09cb8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unpublish'])[10]/following::button[1]</value>
+      <webElementGuid>050b140f-ec77-4fb0-bf2a-752fbebcf482</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sukses Berkembang, Blicicil Kembali Hadirkan Layanan Baru ‘Modal Instan’'])[1]/following::button[1]</value>
-      <webElementGuid>83b532ec-135b-4a17-9157-b3d732e0b2c3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='tegang akibat lelah bekerja? dakilah puncak gunung!'])[1]/following::button[1]</value>
+      <webElementGuid>edfdb1ce-6b95-4877-9457-2c5941f1ffd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::button[1]</value>
-      <webElementGuid>c04ff45d-131d-4a87-9ddc-641443c7691b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[10]/preceding::button[1]</value>
+      <webElementGuid>a3489cf4-6bb4-436b-bff5-2a240cb9c400</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Publish'])[2]/preceding::button[1]</value>
-      <webElementGuid>4c6a7122-90fb-4bc3-b687-cc0ce2301693</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Publish']/parent::*</value>
-      <webElementGuid>9696e530-7393-4562-b906-069c2ffa4f8b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 10 of 12 entries'])[1]/preceding::button[1]</value>
+      <webElementGuid>87bfdfb5-0715-4574-8076-bf4ae0f2b025</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>23d07e50-d6ff-4e5e-9b38-dde9a8ef0172</webElementGuid>
+      <value>//tr[10]/td[5]/button</value>
+      <webElementGuid>2143b36b-63e5-41f3-88b6-afebd5a4403b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Publish' or . = 'Publish')]</value>
-      <webElementGuid>62eaf684-8ea4-45ae-a9b5-16241cd08f81</webElementGuid>
+      <webElementGuid>4e005aa5-55ad-4ba6-a264-32df4eda7aab</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>a_News</name>
    <tag></tag>
-   <elementGuidId>2995fe52-04fb-4b26-89c9-039018882f34</elementGuidId>
+   <elementGuidId>4e7341e4-9afb-470b-822d-617df4b09c42</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>40baa339-d320-467b-aff8-ac80cf2fbecd</webElementGuid>
+      <webElementGuid>17aea404-e197-4c40-aaa0-8449bba20356</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center</value>
-      <webElementGuid>01a0e3b1-6a42-4c09-97c0-bc5434175714</webElementGuid>
+      <webElementGuid>6e117329-6f56-452a-a74e-1bbec0fef9e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://uat-dashboard.blicicil.com/news</value>
-      <webElementGuid>3ff1ecdb-0229-4054-98a2-2367178d8e89</webElementGuid>
+      <webElementGuid>413c38f4-f1fb-4959-b513-9c0331ddb741</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
 											
 											News
 										</value>
-      <webElementGuid>6c506790-f14d-4857-aba4-7a380029a81e</webElementGuid>
+      <webElementGuid>cb8cc926-276d-4bc7-9519-c574a01d9c38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
-      <webElementGuid>ef301187-1f1d-40ed-a43e-d4e3f6bfae2a</webElementGuid>
+      <webElementGuid>b93a64b4-43a4-4f2b-bb69-8064743e518c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='main-menu-navigation']/li[7]/a</value>
-      <webElementGuid>72a0790b-771f-41a9-9b71-97771f440ced</webElementGuid>
+      <webElementGuid>355d9ec6-a422-4e45-a3c7-762391693fe5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Products Status'])[1]/following::a[1]</value>
-      <webElementGuid>59997252-00f0-4678-bcd8-c9134550bd6d</webElementGuid>
+      <webElementGuid>fb2e331b-12ea-428f-958a-875560a2a07b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/following::a[2]</value>
-      <webElementGuid>de090833-57f8-4243-b682-bd32daca70af</webElementGuid>
+      <webElementGuid>8b9bd298-a8b2-4f34-870a-89d5f9b021ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Special Offers'])[1]/preceding::a[1]</value>
-      <webElementGuid>4e8ffd35-8715-4829-b8e9-e8d8516e586c</webElementGuid>
+      <webElementGuid>242d3236-f98b-463b-a5f7-8197249418c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/news')]</value>
-      <webElementGuid>b3a93078-e4ad-493c-9101-8e3aced6bf49</webElementGuid>
+      <webElementGuid>7c219d4e-449f-42c7-80f2-741d92ce8d8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[7]/a</value>
-      <webElementGuid>81de84b5-50da-4195-82c0-89eed188f031</webElementGuid>
+      <webElementGuid>91a04f34-a9fa-4094-9c2f-660b842592a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
 											
 											News
 										')]</value>
-      <webElementGuid>9ec744a4-46fd-4a94-950e-9943fbbfe08e</webElementGuid>
+      <webElementGuid>a5f15bc5-1113-4cba-9a37-0e907fa56ed9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
