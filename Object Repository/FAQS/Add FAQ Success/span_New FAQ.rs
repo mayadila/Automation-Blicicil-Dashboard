@@ -3,15 +3,15 @@
    <description></description>
    <name>span_New FAQ</name>
    <tag></tag>
-   <elementGuidId>59b77952-9601-4335-811e-37511a4d0be0</elementGuidId>
+   <elementGuidId>f0ecc466-1cc6-44b4-ab7a-12143e114fd5</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-primary.btn-xs.waves-effect.waves-float.waves-light > span</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//section[@id='complex-header-datatable']/div/div/div/div/div[2]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-primary.btn-xs.waves-effect.waves-float.waves-light > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e14a5f07-6d1e-452c-ae54-c9fbdeb3201c</webElementGuid>
+      <webElementGuid>a7c07736-f3c3-4df3-bab1-abcb74d7a878</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>New FAQ</value>
-      <webElementGuid>66e04eda-41eb-4609-b46c-60e64afd79fc</webElementGuid>
+      <webElementGuid>d868ba33-1bce-4c48-b6b6-2142293cdf23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;complex-header-datatable&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header border-bottom p-1&quot;]/div[@class=&quot;dt-action-buttons text-right&quot;]/a[@class=&quot;btn btn-primary btn-xs waves-effect waves-float waves-light&quot;]/span[1]</value>
-      <webElementGuid>f8022529-abd0-4ec3-9ae0-e71851a1c908</webElementGuid>
+      <webElementGuid>947b59b4-4df3-4829-a0d5-f93be7177f2c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='complex-header-datatable']/div/div/div/div/div[2]/a/span</value>
-      <webElementGuid>f38de51a-3bb5-4fbb-93f2-a29e9815e453</webElementGuid>
+      <webElementGuid>343f7a92-af14-40a4-b421-bde95a422715</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='List FAQs BliCicil Admin as'])[1]/following::span[1]</value>
-      <webElementGuid>441ed9e3-c311-47c6-ad79-bcd5eeb3e894</webElementGuid>
+      <webElementGuid>529c5820-111b-4f43-b347-972e6e1416e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='FAQs'])[1]/following::span[1]</value>
-      <webElementGuid>05fefb43-80f7-40fd-849c-37142135d501</webElementGuid>
+      <webElementGuid>3cf938a2-7e8e-4e04-b0eb-50d6cfd9b1cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search:'])[1]/preceding::span[1]</value>
-      <webElementGuid>c55e1b0a-fdb6-4223-b0b5-13ceb43443b9</webElementGuid>
+      <webElementGuid>d7bd0a37-f549-4668-95f2-cf6a715c8531</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Question'])[1]/preceding::span[1]</value>
-      <webElementGuid>11013f76-dc23-48dc-94ba-e393c5232164</webElementGuid>
+      <webElementGuid>710318dc-bb97-4ef0-9127-d9a1182bbf9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='New FAQ']/parent::*</value>
-      <webElementGuid>30622679-b049-4b6c-bbd4-df53fd4eb1a2</webElementGuid>
+      <webElementGuid>54fabf40-bf51-4776-8e5b-0105f6e689f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a/span</value>
-      <webElementGuid>b69ef946-ef74-4173-abad-a0930db31364</webElementGuid>
+      <webElementGuid>8fc7348d-93f5-4543-978d-c4a1617ab59d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'New FAQ' or . = 'New FAQ')]</value>
-      <webElementGuid>580bd4d3-123a-4e48-9e9f-2db8eedf384c</webElementGuid>
+      <webElementGuid>c8225a0f-21a0-4128-9cc6-769a06af7526</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

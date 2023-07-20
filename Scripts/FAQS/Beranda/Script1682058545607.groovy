@@ -23,45 +23,41 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://uat-dashboard.blicicil.com/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/FAQS/Beranda FAQ/input_Email_email'), 'eva.mayadila@megafinance.co.id')
+WebUI.setText(findTestObject('Object Repository/FAQS/Beranda/input_Email_email'), 'eva.mayadila@megafinance.co.id')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/FAQS/Beranda FAQ/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/FAQS/Beranda/input_Password_password'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Login'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_FAQ'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/a_FAQ'))
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Publish'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/a_Next'))
 
-WebUI.getText(findTestObject('Object Repository/FAQS/Beranda FAQ/div_Are you sure want to publish this dataYesNoNo'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/a_Previous'))
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_No'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Unpublish'))
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Publish'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_No'))
 
-WebUI.getText(findTestObject('Object Repository/FAQS/Beranda FAQ/div_Are you sure want to publish this dataYesNoNo'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Unpublish'))
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Yes'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Yes'))
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_2'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_1'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/a_2'))
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_Next'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/a_1'))
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/a_Previous'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Publish'))
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Unpublish'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_No'))
 
-WebUI.getText(findTestObject('Object Repository/FAQS/Beranda FAQ/div_Are you sure want to unpublish this dat_a999af'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Publish'))
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_No'))
+WebUI.click(findTestObject('Object Repository/FAQS/Beranda/button_Yes'))
 
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Unpublish'))
+WebUI.delay(2)
 
-WebUI.getText(findTestObject('Object Repository/FAQS/Beranda FAQ/div_Are you sure want to unpublish this dat_a999af'))
-
-WebUI.click(findTestObject('Object Repository/FAQS/Beranda FAQ/button_Yes'))
-
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

@@ -3,15 +3,14 @@
    <description></description>
    <name>a_FAQ</name>
    <tag></tag>
-   <elementGuidId>478feea7-82f0-409c-851a-0b8ecbe04943</elementGuidId>
+   <elementGuidId>f58564f3-38f7-4452-9390-d463c4b27f64</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//ul[@id='main-menu-navigation']/li[9]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7ada87f7-1ae2-4a89-b80a-0d094a4cea20</webElementGuid>
+      <webElementGuid>20bd8006-37b0-4fce-b733-cfb877face0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center</value>
-      <webElementGuid>c80214ea-8f74-4350-a8f8-d715a59751c7</webElementGuid>
+      <webElementGuid>45416e90-2045-4588-8e4f-257292d53d35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://uat-dashboard.blicicil.com/faqs</value>
-      <webElementGuid>7ecd9669-756e-46a8-a22b-2143582963bc</webElementGuid>
+      <webElementGuid>1bfdfa4c-30b3-4a0e-94bb-33e071f2c6fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +48,7 @@
 											
 											FAQ
 										</value>
-      <webElementGuid>e4025740-37d4-434c-90d8-d8f4c1b64a2d</webElementGuid>
+      <webElementGuid>06bd9650-997f-48d4-bb12-4620d71342f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-menu-navigation&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
-      <webElementGuid>6c17d31a-df62-42b8-8e58-10d31114fff5</webElementGuid>
+      <webElementGuid>e3785ba3-5f63-4a74-a608-7ab2617ab2c1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='main-menu-navigation']/li[9]/a</value>
-      <webElementGuid>34c51136-a5b4-41ca-8690-060f304a4d2e</webElementGuid>
+      <webElementGuid>0692a5e4-7d72-4c7c-91c8-1b414fa51da7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Special Offers'])[1]/following::a[1]</value>
-      <webElementGuid>93d20bb2-76d9-4539-b6ac-2e841c6546f5</webElementGuid>
+      <webElementGuid>5823b3e5-8c3a-4f07-adfd-b2ad8d75cd9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='News'])[1]/following::a[2]</value>
-      <webElementGuid>eb79039f-cd52-4820-b4e2-1de932595022</webElementGuid>
+      <webElementGuid>2c44fd82-510a-4d27-83a1-534f341ea94f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Config'])[1]/preceding::a[1]</value>
-      <webElementGuid>a7d3c80b-82d3-4864-b9cc-0389dc9c6dfc</webElementGuid>
+      <webElementGuid>b8413927-7b71-424e-961a-afb098b14564</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +96,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/faqs')]</value>
-      <webElementGuid>dfa7554d-d184-4b9d-b8c0-de594a5b445d</webElementGuid>
+      <webElementGuid>9a1a9371-f4cc-4ebe-b92f-67b23605656b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[9]/a</value>
-      <webElementGuid>85cba416-18a2-41ec-b108-74aa8d721b88</webElementGuid>
+      <webElementGuid>81d89815-d94b-4012-b555-843acf71aac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +118,6 @@
 											
 											FAQ
 										')]</value>
-      <webElementGuid>e7bee79d-ec20-4591-aa86-e2d837c3702b</webElementGuid>
+      <webElementGuid>58f0ba7c-15de-4635-a452-6a1c7fa4ed57</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

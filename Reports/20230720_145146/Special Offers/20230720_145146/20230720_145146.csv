@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Special Offers,Chrome 114.0.0.0,,,2023-07-20 14:51:50,2023-07-20 14:52:48,58.022s,PASSED
+,,,,,,,
+Test Cases/Special Offers/Beranda,Chrome 114.0.0.0,,,2023-07-20 14:51:50,2023-07-20 14:52:12,22.242s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-20 14:51:50,2023-07-20 14:51:53,2.385s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-20 14:51:53,2023-07-20 14:51:53,0.032s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-20 14:51:53,2023-07-20 14:51:53,0.480s,PASSED
+"setText(findTestObject(""Object Repository/Special Offers/Beranda/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-20 14:51:53,2023-07-20 14:51:54,1.004s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Special Offers/Beranda/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-20 14:51:54,2023-07-20 14:51:55,0.425s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Beranda/button_Login""))",Chrome 114.0.0.0,,,2023-07-20 14:51:55,2023-07-20 14:51:55,0.536s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Beranda/a_Special Offers""))",Chrome 114.0.0.0,,,2023-07-20 14:51:55,2023-07-20 14:51:57,2.056s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Beranda/a_2""))",Chrome 114.0.0.0,,,2023-07-20 14:51:57,2023-07-20 14:51:58,1.112s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Beranda/a_Previous""))",Chrome 114.0.0.0,,,2023-07-20 14:51:58,2023-07-20 14:51:59,0.491s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Beranda/a_Next""))",Chrome 114.0.0.0,,,2023-07-20 14:51:59,2023-07-20 14:51:59,0.489s,PASSED
+delay(1),Chrome 114.0.0.0,,,2023-07-20 14:51:59,2023-07-20 14:52:00,1.029s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Beranda/button_Publish""))",Chrome 114.0.0.0,,,2023-07-20 14:52:00,2023-07-20 14:52:01,0.350s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Beranda/button_No""))",Chrome 114.0.0.0,,,2023-07-20 14:52:01,2023-07-20 14:52:01,0.582s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Beranda/button_Publish""))",Chrome 114.0.0.0,,,2023-07-20 14:52:01,2023-07-20 14:52:02,0.730s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Beranda/button_Yes""))",Chrome 114.0.0.0,,,2023-07-20 14:52:02,2023-07-20 14:52:03,0.509s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-20 14:52:03,2023-07-20 14:52:05,2.019s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Beranda/a_2""))",Chrome 114.0.0.0,,,2023-07-20 14:52:05,2023-07-20 14:52:07,2.794s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Beranda/button_Unpublish""))",Chrome 114.0.0.0,,,2023-07-20 14:52:07,2023-07-20 14:52:08,0.512s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Beranda/button_No""))",Chrome 114.0.0.0,,,2023-07-20 14:52:08,2023-07-20 14:52:08,0.479s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Beranda/button_Unpublish""))",Chrome 114.0.0.0,,,2023-07-20 14:52:08,2023-07-20 14:52:09,0.683s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Beranda/button_Yes""))",Chrome 114.0.0.0,,,2023-07-20 14:52:09,2023-07-20 14:52:10,0.483s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-20 14:52:10,2023-07-20 14:52:12,2.009s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-20 14:52:12,2023-07-20 14:52:12,0.702s,PASSED
+,,,,,,,
+Test Cases/Special Offers/Searching Failed,Chrome 114.0.0.0,,,2023-07-20 14:52:12,2023-07-20 14:52:24,11.840s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-20 14:52:13,2023-07-20 14:52:14,1.345s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-20 14:52:14,2023-07-20 14:52:14,0.017s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-20 14:52:14,2023-07-20 14:52:15,1.511s,PASSED
+"setText(findTestObject(""Object Repository/Special Offers/Searching Failed/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-20 14:52:15,2023-07-20 14:52:16,0.984s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Special Offers/Searching Failed/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-20 14:52:16,2023-07-20 14:52:17,0.387s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Searching Failed/button_Login""))",Chrome 114.0.0.0,,,2023-07-20 14:52:17,2023-07-20 14:52:17,0.507s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Searching Failed/a_Special Offers""))",Chrome 114.0.0.0,,,2023-07-20 14:52:17,2023-07-20 14:52:19,2.136s,PASSED
+"setText(findTestObject(""Object Repository/Special Offers/Searching Failed/input_Search_form-control form-control-sm""), ""motor baru"")",Chrome 114.0.0.0,,,2023-07-20 14:52:19,2023-07-20 14:52:21,1.449s,PASSED
+"sendKeys(findTestObject(""Object Repository/Special Offers/Searching Failed/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-20 14:52:21,2023-07-20 14:52:21,0.494s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-20 14:52:21,2023-07-20 14:52:22,0.272s,PASSED
+"setText(findTestObject(""Object Repository/Special Offers/Searching Failed/input_Search_form-control form-control-sm""), ""city"")",Chrome 114.0.0.0,,,2023-07-20 14:52:22,2023-07-20 14:52:23,1.336s,PASSED
+"sendKeys(findTestObject(""Object Repository/Special Offers/Searching Failed/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-20 14:52:23,2023-07-20 14:52:23,0.490s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-20 14:52:23,2023-07-20 14:52:24,0.659s,PASSED
+,,,,,,,
+Test Cases/Special Offers/Searching Success,Chrome 114.0.0.0,,,2023-07-20 14:52:24,2023-07-20 14:52:48,23.662s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-20 14:52:24,2023-07-20 14:52:26,1.376s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-20 14:52:26,2023-07-20 14:52:26,0.017s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-20 14:52:26,2023-07-20 14:52:27,1.085s,PASSED
+"setText(findTestObject(""Object Repository/Special Offers/Searching Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-20 14:52:27,2023-07-20 14:52:28,0.882s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Special Offers/Searching Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-20 14:52:28,2023-07-20 14:52:28,0.443s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Searching Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-20 14:52:28,2023-07-20 14:52:29,0.509s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Searching Success/a_Special Offers""))",Chrome 114.0.0.0,,,2023-07-20 14:52:29,2023-07-20 14:52:31,2.086s,PASSED
+"setText(findTestObject(""Object Repository/Special Offers/Searching Success/input_Search_form-control form-control-sm""), ""motor"")",Chrome 114.0.0.0,,,2023-07-20 14:52:31,2023-07-20 14:52:32,1.335s,PASSED
+"sendKeys(findTestObject(""Object Repository/Special Offers/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-20 14:52:32,2023-07-20 14:52:33,0.472s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-20 14:52:33,2023-07-20 14:52:33,0.309s,PASSED
+"setText(findTestObject(""Object Repository/Special Offers/Searching Success/input_Search_form-control form-control-sm""), ""elektronik"")",Chrome 114.0.0.0,,,2023-07-20 14:52:33,2023-07-20 14:52:34,1.417s,PASSED
+"sendKeys(findTestObject(""Object Repository/Special Offers/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-20 14:52:34,2023-07-20 14:52:35,0.469s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Searching Success/button_Unpublish""))",Chrome 114.0.0.0,,,2023-07-20 14:52:35,2023-07-20 14:52:35,0.360s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Searching Success/button_No""))",Chrome 114.0.0.0,,,2023-07-20 14:52:35,2023-07-20 14:52:36,0.531s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Searching Success/button_Unpublish""))",Chrome 114.0.0.0,,,2023-07-20 14:52:36,2023-07-20 14:52:36,0.703s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Searching Success/button_Yes""))",Chrome 114.0.0.0,,,2023-07-20 14:52:36,2023-07-20 14:52:37,0.479s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-20 14:52:37,2023-07-20 14:52:39,2.016s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-20 14:52:39,2023-07-20 14:52:39,0.314s,PASSED
+"setText(findTestObject(""Object Repository/Special Offers/Searching Success/input_Search_form-control form-control-sm""), ""offers"")",Chrome 114.0.0.0,,,2023-07-20 14:52:39,2023-07-20 14:52:41,1.381s,PASSED
+"sendKeys(findTestObject(""Object Repository/Special Offers/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-20 14:52:41,2023-07-20 14:52:41,0.451s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Searching Success/button_Publish""))",Chrome 114.0.0.0,,,2023-07-20 14:52:41,2023-07-20 14:52:41,0.379s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Searching Success/button_No""))",Chrome 114.0.0.0,,,2023-07-20 14:52:41,2023-07-20 14:52:42,0.463s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Searching Success/button_Publish""))",Chrome 114.0.0.0,,,2023-07-20 14:52:42,2023-07-20 14:52:43,0.689s,PASSED
+"click(findTestObject(""Object Repository/Special Offers/Searching Success/button_Yes""))",Chrome 114.0.0.0,,,2023-07-20 14:52:43,2023-07-20 14:52:43,0.558s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-07-20 14:52:43,2023-07-20 14:52:47,4.006s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-20 14:52:47,2023-07-20 14:52:48,0.683s,PASSED

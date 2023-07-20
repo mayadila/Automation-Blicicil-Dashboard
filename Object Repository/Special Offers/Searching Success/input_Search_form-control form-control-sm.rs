@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Search_form-control form-control-sm</name>
    <tag></tag>
-   <elementGuidId>244374b2-6e00-4da7-8ccd-6658a6350276</elementGuidId>
+   <elementGuidId>4c807518-9daa-450c-b5be-b6b4fc99ce46</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>78d1bf50-3515-4988-9e65-57bf342d099a</webElementGuid>
+      <webElementGuid>de3e1d54-3a8c-4d42-aed4-3b0d49db21c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>86d6fa24-504b-4ffc-808f-5d57850ca196</webElementGuid>
+      <webElementGuid>ad96d1f2-06a4-411f-83a4-415ebef7afeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control form-control-sm</value>
-      <webElementGuid>e61aef72-bd35-4d0d-b948-9760c0c825f6</webElementGuid>
+      <webElementGuid>4884dd2c-8c07-46c5-a090-d97e38232d8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>tbl-special-offers</value>
-      <webElementGuid>e3092ca6-95c9-4561-9f11-7651ce5304cd</webElementGuid>
+      <webElementGuid>4ad6914c-9377-440e-8642-c7e13c81f9e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbl-special-offers_filter&quot;)/label[1]/input[@class=&quot;form-control form-control-sm&quot;]</value>
-      <webElementGuid>8d0a703d-4ce8-441b-ad19-cc80ed4fde9a</webElementGuid>
+      <webElementGuid>59cce208-d5ff-47db-8ad1-e5f0b468ce90</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='search']</value>
-      <webElementGuid>f28ee579-3de2-49c7-86ba-2ce27b6532a5</webElementGuid>
+      <webElementGuid>d6a2fe9b-ba16-4d68-96c8-634437594c5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='tbl-special-offers_filter']/label/input</value>
-      <webElementGuid>35c6bcd2-0cbc-4287-a689-da492a5722c1</webElementGuid>
+      <webElementGuid>fc16c300-1ae1-4471-a280-9130684e3973</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>ba51a459-307d-489c-9410-40b1b9474bdb</webElementGuid>
+      <webElementGuid>8fe47566-2f84-4bf7-9406-d0e6bf3ca16f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'search']</value>
-      <webElementGuid>a4e0e698-6257-482c-8728-6b48472160e6</webElementGuid>
+      <webElementGuid>459dac00-7856-486b-bf32-b0b0f4514d98</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

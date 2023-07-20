@@ -1,0 +1,91 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FAQ,Chrome 114.0.0.0,,,2023-07-14 14:58:25,2023-07-14 15:00:05,1m - 40.079s,FAILED
+,,,,,,,
+Test Cases/FAQS/Beranda,Chrome 114.0.0.0,,,2023-07-14 14:58:25,2023-07-14 14:58:45,19.517s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-14 14:58:26,2023-07-14 14:58:28,2.290s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-14 14:58:28,2023-07-14 14:58:28,0.028s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-14 14:58:28,2023-07-14 14:58:29,0.790s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Beranda/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-14 14:58:29,2023-07-14 14:58:30,0.960s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/FAQS/Beranda/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-14 14:58:30,2023-07-14 14:58:30,0.410s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Beranda/button_Login""))",Chrome 114.0.0.0,,,2023-07-14 14:58:30,2023-07-14 14:58:31,0.521s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Beranda/a_FAQ""))",Chrome 114.0.0.0,,,2023-07-14 14:58:31,2023-07-14 14:58:33,2.166s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Beranda/a_Next""))",Chrome 114.0.0.0,,,2023-07-14 14:58:33,2023-07-14 14:58:34,1.009s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Beranda/a_Previous""))",Chrome 114.0.0.0,,,2023-07-14 14:58:34,2023-07-14 14:58:34,0.559s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Beranda/button_Unpublish""))",Chrome 114.0.0.0,,,2023-07-14 14:58:34,2023-07-14 14:58:35,0.574s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Beranda/button_No""))",Chrome 114.0.0.0,,,2023-07-14 14:58:35,2023-07-14 14:58:36,0.457s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Beranda/button_Unpublish""))",Chrome 114.0.0.0,,,2023-07-14 14:58:36,2023-07-14 14:58:36,0.705s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Beranda/button_Yes""))",Chrome 114.0.0.0,,,2023-07-14 14:58:36,2023-07-14 14:58:37,0.554s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-14 14:58:37,2023-07-14 14:58:39,2.032s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Beranda/a_2""))",Chrome 114.0.0.0,,,2023-07-14 14:58:39,2023-07-14 14:58:39,0.675s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Beranda/a_1""))",Chrome 114.0.0.0,,,2023-07-14 14:58:39,2023-07-14 14:58:40,0.568s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Beranda/button_Publish""))",Chrome 114.0.0.0,,,2023-07-14 14:58:40,2023-07-14 14:58:41,0.486s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Beranda/button_No""))",Chrome 114.0.0.0,,,2023-07-14 14:58:41,2023-07-14 14:58:41,0.551s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Beranda/button_Publish""))",Chrome 114.0.0.0,,,2023-07-14 14:58:41,2023-07-14 14:58:42,0.684s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Beranda/button_Yes""))",Chrome 114.0.0.0,,,2023-07-14 14:58:42,2023-07-14 14:58:42,0.467s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-14 14:58:42,2023-07-14 14:58:44,2.008s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 114.0.0.0,,,2023-07-14 14:58:44,2023-07-14 14:58:45,0.697s,PASSED
+,,,,,,,
+Test Cases/FAQS/Success/Searching Success,Chrome 114.0.0.0,,,2023-07-14 14:58:45,2023-07-14 14:59:31,45.692s,FAILED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-14 14:58:45,2023-07-14 14:58:46,1.324s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-14 14:58:46,2023-07-14 14:58:46,0.016s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-14 14:58:46,2023-07-14 14:58:47,0.481s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Searching Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-14 14:58:47,2023-07-14 14:58:48,1.100s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/FAQS/Searching Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-14 14:58:48,2023-07-14 14:58:48,0.409s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-14 14:58:48,2023-07-14 14:58:49,0.474s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/a_FAQ""))",Chrome 114.0.0.0,,,2023-07-14 14:58:49,2023-07-14 14:58:51,2.118s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm""), ""Limit Kredit"")",Chrome 114.0.0.0,,,2023-07-14 14:58:51,2023-07-14 14:58:52,1.273s,PASSED
+"sendKeys(findTestObject(""Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-14 14:58:52,2023-07-14 14:58:53,0.465s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/button_Publish""))",Chrome 114.0.0.0,,,2023-07-14 14:58:53,2023-07-14 14:58:53,0.371s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/button_No""))",Chrome 114.0.0.0,,,2023-07-14 14:58:53,2023-07-14 14:58:54,0.459s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/button_Publish""))",Chrome 114.0.0.0,,,2023-07-14 14:58:54,2023-07-14 14:58:54,0.689s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/button_Yes""))",Chrome 114.0.0.0,,,2023-07-14 14:58:54,2023-07-14 14:58:55,0.568s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-14 14:58:55,2023-07-14 14:58:57,2.008s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-14 14:58:57,2023-07-14 14:58:57,0.273s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm""), ""modal instan"")",Chrome 114.0.0.0,,,2023-07-14 14:58:57,2023-07-14 14:58:59,1.327s,PASSED
+"sendKeys(findTestObject(""Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-14 14:58:59,2023-07-14 14:58:59,0.543s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/button_Unpublish""))",Chrome 114.0.0.0,,,2023-07-14 14:58:59,2023-07-14 14:58:59,0.359s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/button_No""))",Chrome 114.0.0.0,,,2023-07-14 14:58:59,2023-07-14 14:59:31,31.234s,FAILED
+,,,,,,,
+Test Cases/FAQS/Failed/Searching Failed,Chrome 114.0.0.0,,,2023-07-14 14:59:31,2023-07-14 14:59:37,6.440s,FAILED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-14 14:59:31,2023-07-14 14:59:33,1.970s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-14 14:59:33,2023-07-14 14:59:33,0.020s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-14 14:59:33,2023-07-14 14:59:34,0.769s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Searching Failed/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-14 14:59:34,2023-07-14 14:59:34,0.806s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/FAQS/Searching Failed/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-14 14:59:34,2023-07-14 14:59:35,0.360s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Failed/button_Login""))",Chrome 114.0.0.0,,,2023-07-14 14:59:35,2023-07-14 14:59:35,0.464s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Failed/a_FAQ""))",Chrome 114.0.0.0,,,2023-07-14 14:59:35,2023-07-14 14:59:37,1.848s,FAILED
+,,,,,,,
+Test Cases/FAQS/Success/Add Success,Chrome 114.0.0.0,,,2023-07-14 14:59:37,2023-07-14 14:59:49,12.087s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,Membuka chrome,,2023-07-14 14:59:37,2023-07-14 14:59:39,2.122s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,Mazimize Windows Chrome,,2023-07-14 14:59:39,2023-07-14 14:59:39,0.020s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,Membuka halaman login,,2023-07-14 14:59:39,2023-07-14 14:59:40,0.739s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Add FAQ Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,menginputkan email valid,,2023-07-14 14:59:40,2023-07-14 14:59:41,0.815s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/FAQS/Add FAQ Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,Menginputkan password valid,,2023-07-14 14:59:41,2023-07-14 14:59:41,0.358s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Add FAQ Success/button_Login""))",Chrome 114.0.0.0,Mengklik button login,,2023-07-14 14:59:41,2023-07-14 14:59:42,0.468s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Add FAQ Success/a_FAQ""))",Chrome 114.0.0.0,Mengklik menu FAQ,,2023-07-14 14:59:42,2023-07-14 14:59:44,2.083s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Add FAQ Success/span_New FAQ""))",Chrome 114.0.0.0,Mengklik button Add FAQ,,2023-07-14 14:59:44,2023-07-14 14:59:45,1.486s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Add FAQ Success/input_Judul_txtProductName""), ""Testingss"")",Chrome 114.0.0.0,Menginputkan judul / pertanyaan FAQ,,2023-07-14 14:59:45,2023-07-14 14:59:46,0.993s,PASSED
+"txaContent = ""testing""",Chrome 114.0.0.0,Mendeklarasi isi inputan di deskripsi,,2023-07-14 14:59:46,2023-07-14 14:59:46,0.001s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Add FAQ Success/p""), txaContent)",Chrome 114.0.0.0,Menginputkan isi deskripsi,,2023-07-14 14:59:46,2023-07-14 14:59:47,0.668s,PASSED
+"input_Value = getAttribute(findTestObject(""Object Repository/FAQS/Add FAQ Success/p""), ""value"")",Chrome 114.0.0.0,Mendapatkan atribut inputan deskripsinya,,2023-07-14 14:59:47,2023-07-14 14:59:48,1.018s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Add FAQ Success/button_Submit""))",Chrome 114.0.0.0,Mengklik button Submit,,2023-07-14 14:59:48,2023-07-14 14:59:48,0.367s,PASSED
+closeBrowser(),Chrome 114.0.0.0,Menutup chrome,,2023-07-14 14:59:48,2023-07-14 14:59:49,0.685s,PASSED
+,,,,,,,
+Test Cases/FAQS/Failed/Add Failed,Chrome 114.0.0.0,,,2023-07-14 14:59:49,2023-07-14 15:00:05,16.106s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,Membuka chrome,,2023-07-14 14:59:49,2023-07-14 14:59:51,1.338s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,Mazimize Windows Chrome,,2023-07-14 14:59:51,2023-07-14 14:59:51,0.016s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,Membuka halaman login,,2023-07-14 14:59:51,2023-07-14 14:59:51,0.467s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Add FAQ Failed/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,Menginputkan email valid,,2023-07-14 14:59:51,2023-07-14 14:59:52,0.872s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/FAQS/Add FAQ Failed/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,Menginputkan password valid,,2023-07-14 14:59:52,2023-07-14 14:59:52,0.384s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Add FAQ Failed/button_Login""))",Chrome 114.0.0.0,Mengklik button login,,2023-07-14 14:59:52,2023-07-14 14:59:53,0.500s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Add FAQ Failed/a_FAQ""))",Chrome 114.0.0.0,Mengklik menu FAQ,,2023-07-14 14:59:53,2023-07-14 14:59:55,2.125s,PASSED
+"click(findTestObject(""FAQS/Add FAQ Failed/span_New FAQ""))",Chrome 114.0.0.0,Mengklik menu Add FAQ,,2023-07-14 14:59:55,2023-07-14 14:59:57,1.500s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Add FAQ Failed/button_Submit""))",Chrome 114.0.0.0,Mengklik button submit,,2023-07-14 14:59:57,2023-07-14 14:59:57,0.493s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Add FAQ Failed/input_Judul_txtProductName""), ""hanya saja"")",Chrome 114.0.0.0,Menginputkan judul / pertanyaan FAQ,,2023-07-14 14:59:57,2023-07-14 14:59:59,1.680s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Add FAQ Failed/span_Submit""))",Chrome 114.0.0.0,Mengklik button submit,,2023-07-14 14:59:59,2023-07-14 15:00:01,2.517s,PASSED
+"clearText(findTestObject(""Object Repository/FAQS/Add FAQ Failed/input_Judul_txtProductName""))",Chrome 114.0.0.0,Tidak menginputkan judul / pertanyaan FAQ,,2023-07-14 15:00:01,2023-07-14 15:00:02,1.144s,PASSED
+"txaContent = ""DDDD""",Chrome 114.0.0.0,Mendeklarasi isi inputan di deskripsi,,2023-07-14 15:00:02,2023-07-14 15:00:02,0.000s,PASSED
+"setText(findTestObject(""FAQS/Add FAQ Failed/p""), txaContent)",Chrome 114.0.0.0,Menginputkan isi deskripsi,,2023-07-14 15:00:02,2023-07-14 15:00:03,0.623s,PASSED
+"input_Value = getAttribute(findTestObject(""FAQS/Add FAQ Failed/p""), ""value"")",Chrome 114.0.0.0,Mendapatkan atribut inputan deskripsinya,,2023-07-14 15:00:03,2023-07-14 15:00:04,1.064s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Add FAQ Failed/span_Submit""))",Chrome 114.0.0.0,Mengklik button submit,,2023-07-14 15:00:04,2023-07-14 15:00:05,0.478s,PASSED
+closeBrowser(),Chrome 114.0.0.0,Menutup chrome,,2023-07-14 15:00:05,2023-07-14 15:00:05,0.680s,PASSED

@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Login</name>
    <tag></tag>
-   <elementGuidId>5ca6c2fa-3b7e-44fb-b081-f9b8a67a034b</elementGuidId>
+   <elementGuidId>7534f9e4-d863-412f-be34-d6f05d188788</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>aef966e4-d8b6-4de6-ba57-72fe8cc05ca1</webElementGuid>
+      <webElementGuid>22d4a2fd-76ab-443a-aa3e-401cfa811125</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-block waves-effect waves-float waves-light</value>
-      <webElementGuid>2cd85e9b-833b-4637-9b9a-cab67185bc9b</webElementGuid>
+      <webElementGuid>6c0c0ba8-e45c-4fb5-a8fe-5c28088ba0d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>4</value>
-      <webElementGuid>da7d339c-ff36-4b1b-82e6-43d766a03fdd</webElementGuid>
+      <webElementGuid>d4a63433-01fe-4b26-b365-5c354d49b19a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>aa027a44-0200-4801-a91a-1078f59ebc0c</webElementGuid>
+      <webElementGuid>7f1de519-926c-4f58-bfc5-58d07c3fdf30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;frmLogin&quot;)/button[@class=&quot;btn btn-primary btn-block waves-effect waves-float waves-light&quot;]</value>
-      <webElementGuid>838ce57d-171d-4720-be92-7be668431fe5</webElementGuid>
+      <webElementGuid>9cc440cb-8d53-4e48-9169-2a1b49392c4b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='frmLogin']/button</value>
-      <webElementGuid>fb2949af-0daa-4f48-8b3e-6f60b868789c</webElementGuid>
+      <webElementGuid>096c0360-a0e5-4e89-8bd4-d9ce204e9597</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>e13c014d-4830-45cc-97f9-9a46240e3ad1</webElementGuid>
+      <webElementGuid>43bac90e-5204-4947-b3c6-beeb08995300</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>50a31d57-7882-44c4-ad10-896a65924f36</webElementGuid>
+      <webElementGuid>fc47ceb6-685b-4b5f-85ec-34755de3fa1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Messages'])[1]/preceding::button[1]</value>
+      <webElementGuid>11f44d47-c295-43aa-bf2f-8be2a3ad97a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Timeline'])[1]/preceding::button[1]</value>
+      <webElementGuid>28f5011c-2608-41da-9845-ab0639b4fdb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>3f919887-c11f-4731-95d4-4f70ae26e333</webElementGuid>
+      <webElementGuid>bc53077c-3081-4d31-afa0-4fcea1940c4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>1500136c-4dd2-4941-9bfd-ca4ffb6750fc</webElementGuid>
+      <webElementGuid>29bfefdb-b090-4064-a1c9-bb60be1a7d4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>b3c77b29-546b-4b76-9445-4bcfcd57d643</webElementGuid>
+      <webElementGuid>5a16aabe-481b-4099-9a1a-2a905eb74db1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

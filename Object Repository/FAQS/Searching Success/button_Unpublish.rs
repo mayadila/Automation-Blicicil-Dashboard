@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Unpublish</name>
    <tag></tag>
-   <elementGuidId>f3f255ce-5b0d-4564-9d05-6b235ea816c0</elementGuidId>
+   <elementGuidId>8283bb11-816e-4a6a-9581-6bd7ea05b9f5</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-flat-danger</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-flat-danger</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>885a596f-7390-4be8-bb06-46704c793a79</webElementGuid>
+      <webElementGuid>21a506ac-9074-4ca1-9826-2434934fc33e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>406b05e9-8163-4934-b3d2-da856a8d7b22</webElementGuid>
+      <webElementGuid>0f9b6f41-74e8-4204-a485-09abe1226148</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-flat-danger</value>
-      <webElementGuid>6d2a1171-98a5-4a06-89fd-b9f1b721f957</webElementGuid>
+      <webElementGuid>3b4483fa-35f6-4031-90be-d8e366fcac67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>showConfirmationPopup('unpublish', () => actionProduct('645897262d530028000ad0a3', 1))</value>
-      <webElementGuid>b8bc6afd-38ed-46d7-91d6-d9100261a3b7</webElementGuid>
+      <value>showConfirmationPopup('unpublish', () => actionProduct('6458970aa1480a7f7a099a63', 1))</value>
+      <webElementGuid>a734a91d-1b6a-491d-93e4-d13743c7ab1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Unpublish</value>
-      <webElementGuid>00d03380-a626-4040-ac12-824beabbab51</webElementGuid>
+      <webElementGuid>271da17f-dd9a-4b43-882d-c462188a4c53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbl-faq&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[4]/button[@class=&quot;btn btn-flat-danger&quot;]</value>
-      <webElementGuid>8803dc97-eec6-4aa3-b473-25061b01ef79</webElementGuid>
+      <webElementGuid>605d222a-19c6-4a7a-9437-107438b23fb5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>9f25feca-a419-49d0-8075-8c42fccda361</webElementGuid>
+      <webElementGuid>c95668a7-c415-4970-bbbe-c1618b30f7f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='tbl-faq']/tbody/tr/td[4]/button</value>
-      <webElementGuid>58016cf4-e129-490a-b707-d504d75aaa4a</webElementGuid>
+      <webElementGuid>a6891eb8-166e-4546-88d5-7549c77f3842</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,15 +86,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Publish'])[1]/following::button[1]</value>
-      <webElementGuid>1ed11b49-0239-4978-bbc7-5a62693c7c8a</webElementGuid>
+      <webElementGuid>1f652100-ca4a-485f-822e-642d844cb4dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menggunakan Limit Blicicil'])[1]/following::button[1]</value>
-      <webElementGuid>6a733f2e-267b-4de1-a60d-d0e4d8dcf625</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modal Instan,...'])[1]/following::button[1]</value>
+      <webElementGuid>1830b7fb-7f94-4c69-9016-6e2281eba578</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,15 +102,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::button[1]</value>
-      <webElementGuid>a1e3013b-def0-47f9-8950-26eb71578b5d</webElementGuid>
+      <webElementGuid>7aa55285-7e53-4eb8-a9e8-f5c26aed70cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan Limit Ditolak'])[1]/preceding::button[1]</value>
-      <webElementGuid>7873f086-c6f0-4ad3-a4eb-cc7a234f96da</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 1 of 1 entries (filtered from 18 total entries)'])[1]/preceding::button[1]</value>
+      <webElementGuid>d11649fc-98e2-4d70-a742-7aed199f8a32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Unpublish']/parent::*</value>
-      <webElementGuid>172fda18-7313-41c0-94ea-996fd78481fa</webElementGuid>
+      <webElementGuid>7e5a55dd-3ceb-47aa-9c32-ba772d95cf37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>54817a75-b9e7-4031-88df-b29f0577f6ce</webElementGuid>
+      <webElementGuid>e6d4d5c8-ca86-4008-9b23-e57ae4c6580e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Unpublish' or . = 'Unpublish')]</value>
-      <webElementGuid>02279873-1c21-4fcd-863f-64ff9414ee56</webElementGuid>
+      <webElementGuid>25c1cda2-7f03-423d-893d-488b0115f75c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

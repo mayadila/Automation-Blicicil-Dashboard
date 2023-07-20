@@ -31,10 +31,8 @@ WebUI.click(findTestObject('Object Repository/Special Offers/Searching Success/b
 
 WebUI.click(findTestObject('Object Repository/Special Offers/Searching Success/a_Special Offers'))
 
-WebUI.getText(findTestObject('Object Repository/Special Offers/Searching Success/div_List Special Offers BliCicil Admin as  _c44b9e'))
-
 WebUI.setText(findTestObject('Object Repository/Special Offers/Searching Success/input_Search_form-control form-control-sm'), 
-    'Motor')
+    'motor')
 
 WebUI.sendKeys(findTestObject('Object Repository/Special Offers/Searching Success/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
@@ -42,34 +40,38 @@ WebUI.sendKeys(findTestObject('Object Repository/Special Offers/Searching Succes
 WebUI.refresh()
 
 WebUI.setText(findTestObject('Object Repository/Special Offers/Searching Success/input_Search_form-control form-control-sm'), 
-    'Offers')
+    'elektronik')
 
 WebUI.sendKeys(findTestObject('Object Repository/Special Offers/Searching Success/input_Search_form-control form-control-sm'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Special Offers/Searching Success/button_Unpublish'))
 
-WebUI.getText(findTestObject('Object Repository/Special Offers/Searching Success/div_Are you sure want to unpublish Testing _7950c0'))
-
 WebUI.click(findTestObject('Object Repository/Special Offers/Searching Success/button_No'))
 
 WebUI.click(findTestObject('Object Repository/Special Offers/Searching Success/button_Unpublish'))
 
-WebUI.getText(findTestObject('Object Repository/Special Offers/Searching Success/div_Are you sure want to unpublish Testing _7950c0'))
-
 WebUI.click(findTestObject('Object Repository/Special Offers/Searching Success/button_Yes'))
 
-WebUI.click(findTestObject('Object Repository/Special Offers/Searching Success/button_Publish'))
+WebUI.delay(2)
 
-WebUI.getText(findTestObject('Object Repository/Special Offers/Searching Success/div_Are you sure want to publish Testing Sp_929925'))
+WebUI.refresh()
+
+WebUI.setText(findTestObject('Object Repository/Special Offers/Searching Success/input_Search_form-control form-control-sm'), 
+    'offers')
+
+WebUI.sendKeys(findTestObject('Object Repository/Special Offers/Searching Success/input_Search_form-control form-control-sm'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/Special Offers/Searching Success/button_Publish'))
 
 WebUI.click(findTestObject('Object Repository/Special Offers/Searching Success/button_No'))
 
 WebUI.click(findTestObject('Object Repository/Special Offers/Searching Success/button_Publish'))
 
-WebUI.getText(findTestObject('Object Repository/Special Offers/Searching Success/div_Are you sure want to publish Testing Sp_929925'))
-
 WebUI.click(findTestObject('Object Repository/Special Offers/Searching Success/button_Yes'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

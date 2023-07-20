@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Search_form-control form-control-sm</name>
    <tag></tag>
-   <elementGuidId>e2726f91-3d3d-4a0e-a110-0e188e42cda0</elementGuidId>
+   <elementGuidId>30b83227-509c-4507-8210-1ffb12825ff2</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>input.form-control.form-control-sm</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@type='search']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.form-control-sm</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>49f10cbd-0fc1-4ed1-bdd5-f5d89f1c9b63</webElementGuid>
+      <webElementGuid>ff762a4e-450c-4caa-864d-211dc1bdbf29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>c07c1bd0-bf91-47fb-86ea-67abe44f891a</webElementGuid>
+      <webElementGuid>d334930f-1a2c-4efd-a525-a341c03d183b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control form-control-sm</value>
-      <webElementGuid>053726e4-2732-49dd-adad-02dee165c325</webElementGuid>
+      <webElementGuid>65d97033-afad-4158-95b2-c418f218457c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>tbl-faq</value>
-      <webElementGuid>62ec7ca3-43aa-427e-b7d8-6e548e11bac4</webElementGuid>
+      <webElementGuid>8650ea70-902c-449d-84ba-15e87ea5cced</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbl-faq_filter&quot;)/label[1]/input[@class=&quot;form-control form-control-sm&quot;]</value>
-      <webElementGuid>69588b2b-bbb1-4e85-ad79-c342bf624a29</webElementGuid>
+      <webElementGuid>7d11ddd4-09af-49f8-a135-863243f781b1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='search']</value>
-      <webElementGuid>6c607c6a-5896-493f-9b6f-02dbae6b5802</webElementGuid>
+      <webElementGuid>2824e888-ada5-43bf-bb4f-0f9e485a6bc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='tbl-faq_filter']/label/input</value>
-      <webElementGuid>4e07f3eb-d024-484b-8690-473f675c5660</webElementGuid>
+      <webElementGuid>7a66d068-ec64-44be-8235-67de3a90f07d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>958ce9cb-cdde-4f49-98e0-b8c6a12ca3f7</webElementGuid>
+      <webElementGuid>b57cf61d-74e4-4b62-91fa-de784c2dd1ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'search']</value>
-      <webElementGuid>36992259-e470-4b11-9e46-5be307f078de</webElementGuid>
+      <webElementGuid>a3897d14-0375-4419-bbbd-43fcff39ef9a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

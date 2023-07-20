@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FAQ" time="57.712" tests="2" failures="1" errors="0">
+   <testsuite name="FAQ" tests="2" failures="1" errors="0" time="57.712" skipped="0" timestamp="2023-07-14 15:01:22" hostname="202102359 - KPO-Blicicil.pdc.megafinance.co.id" id="Test Suites/FAQ">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230714_150119\\FAQ\\20230714_150120"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230714_150119\\FAQ\\20230714_150120\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230714_150119\\FAQ\\20230714_150120\\1689321729154.png"/>
+         <property name="hostName" value="202102359 - KPO-Blicicil.pdc.megafinance.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.16.53"/>
+         <property name="sessionId" value="d0f5b522b1e5d3ed3975420b5fec82b0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/FAQS/Success/Searching Success" time="46.715" classname="Test Cases/FAQS/Success/Searching Success" status="FAILED">
+         <failure type="FAILED" message="Test Cases/FAQS/Success/Searching Success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FAQS/Searching Success/button_No'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Searching Success.run(Searching Success:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689321680491.run(TempTestSuite1689321680491.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FAQS/Searching Success/button_No' located by '(//button[@type='button'])[17]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-07-14 15:01:22 - [TEST_CASE][FAILED] - Test Cases/FAQS/Success/Searching Success: Test Cases/FAQS/Success/Searching Success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FAQS/Searching Success/button_No'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Searching Success.run(Searching Success:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689321680491.run(TempTestSuite1689321680491.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FAQS/Searching Success/button_No' located by '(//button[@type='button'])[17]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-07-14 15:01:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-14 15:01:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-14 15:01:23 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-14 15:01:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-14 15:01:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-14 15:01:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-14 15:01:25 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-14 15:01:25 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-14 15:01:25 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-14 15:01:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FAQS/Searching Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/FAQS/Searching Success/input_Email_email'
+
+2023-07-14 15:01:26 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/FAQS/Searching Success/input_Email_email'
+
+2023-07-14 15:01:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/FAQS/Searching Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/FAQS/Searching Success/input_Password_password'
+
+2023-07-14 15:01:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FAQS/Searching Success/input_Password_password'
+
+2023-07-14 15:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_Login")): Object: 'Object Repository/FAQS/Searching Success/button_Login' is clicked on
+
+2023-07-14 15:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_Login' is clicked on
+
+2023-07-14 15:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/a_FAQ")): Object: 'Object Repository/FAQS/Searching Success/a_FAQ' is clicked on
+
+2023-07-14 15:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/a_FAQ' is clicked on
+
+2023-07-14 15:01:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm"), "Limit Kredit"): Text 'Limit Kredit' is set on object 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:01:31 - [MESSAGE][PASSED] - Text 'Limit Kredit' is set on object 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:01:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:01:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:01:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_Publish")): Object: 'Object Repository/FAQS/Searching Success/button_Publish' is clicked on
+
+2023-07-14 15:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_Publish' is clicked on
+
+2023-07-14 15:01:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_No")): Object: 'Object Repository/FAQS/Searching Success/button_No' is clicked on
+
+2023-07-14 15:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_No' is clicked on
+
+2023-07-14 15:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_Publish")): Object: 'Object Repository/FAQS/Searching Success/button_Publish' is clicked on
+
+2023-07-14 15:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_Publish' is clicked on
+
+2023-07-14 15:01:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_Yes")): Object: 'Object Repository/FAQS/Searching Success/button_Yes' is clicked on
+
+2023-07-14 15:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_Yes' is clicked on
+
+2023-07-14 15:01:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-14 15:01:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-14 15:01:35 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-14 15:01:35 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-14 15:01:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm"), "modal instan"): Text 'modal instan' is set on object 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:01:37 - [MESSAGE][PASSED] - Text 'modal instan' is set on object 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:01:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:01:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:01:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_Unpublish")): Object: 'Object Repository/FAQS/Searching Success/button_Unpublish' is clicked on
+
+2023-07-14 15:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_Unpublish' is clicked on
+
+2023-07-14 15:01:37 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_No")): Unable to click on object 'Object Repository/FAQS/Searching Success/button_No' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FAQS/Searching Success/button_No'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Searching Success.run(Searching Success:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689321680491.run(TempTestSuite1689321680491.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FAQS/Searching Success/button_No' located by '(//button[@type='button'])[17]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1689319836257.run(Script1689319836257.groovy:58)
+	... 13 more
+)
+
+2023-07-14 15:02:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[17]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-07-14 15:02:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FAQS/Searching Success/button_No' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FAQS/Searching Success/button_No'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Searching Success.run(Searching Success:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689321680491.run(TempTestSuite1689321680491.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FAQS/Searching Success/button_No' located by '(//button[@type='button'])[17]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1689319836257.run(Script1689319836257.groovy:58)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230714_150119\\FAQ\\20230714_150120\\1689321729154.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-14 15:01:22 - [TEST_CASE][FAILED] - Test Cases/FAQS/Success/Searching Success: Test Cases/FAQS/Success/Searching Success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FAQS/Searching Success/button_No'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Searching Success.run(Searching Success:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689321680491.run(TempTestSuite1689321680491.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FAQS/Searching Success/button_No' located by '(//button[@type='button'])[17]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FAQS/Failed/Searching Failed" time="10.761" classname="Test Cases/FAQS/Failed/Searching Failed" status="PASSED">
+         <system-out><![CDATA[2023-07-14 15:02:09 - [TEST_CASE][PASSED] - Test Cases/FAQS/Failed/Searching Failed: Test Cases/FAQS/Failed/Searching Failed
+
+2023-07-14 15:02:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-14 15:02:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-14 15:02:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-14 15:02:10 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-14 15:02:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-14 15:02:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-14 15:02:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-14 15:02:11 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-14 15:02:11 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-14 15:02:12 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-14 15:02:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FAQS/Searching Failed/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/FAQS/Searching Failed/input_Email_email'
+
+2023-07-14 15:02:13 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/FAQS/Searching Failed/input_Email_email'
+
+2023-07-14 15:02:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/FAQS/Searching Failed/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/FAQS/Searching Failed/input_Password_password'
+
+2023-07-14 15:02:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FAQS/Searching Failed/input_Password_password'
+
+2023-07-14 15:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Failed/button_Login")): Object: 'Object Repository/FAQS/Searching Failed/button_Login' is clicked on
+
+2023-07-14 15:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Failed/button_Login' is clicked on
+
+2023-07-14 15:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Failed/a_FAQ")): Object: 'Object Repository/FAQS/Searching Failed/a_FAQ' is clicked on
+
+2023-07-14 15:02:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Failed/a_FAQ' is clicked on
+
+2023-07-14 15:02:16 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/FAQS/Searching Failed/div_List FAQs BliCicil Admin as            _3c8d92")): Text of object 'Object Repository/FAQS/Searching Failed/div_List FAQs BliCicil Admin as            _3c8d92' is: 'List FAQs BliCicil Admin as
+New FAQ'
+
+2023-07-14 15:02:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/FAQS/Searching Failed/div_List FAQs BliCicil Admin as            _3c8d92' is: 'List FAQs BliCicil Admin as
+New FAQ'
+
+2023-07-14 15:02:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm"), "12345678"): Text '12345678' is set on object 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:02:17 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:02:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:02:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:02:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm"), "products"): Text 'products' is set on object 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:02:19 - [MESSAGE][PASSED] - Text 'products' is set on object 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:02:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:02:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:02:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-14 15:02:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-14 15:01:22 - [TEST_SUITE][FAILED] - FAQ: Test Cases/FAQS/Success/Searching Success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FAQS/Searching Success/button_No'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Searching Success.run(Searching Success:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689321680491.run(TempTestSuite1689321680491.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FAQS/Searching Success/button_No' located by '(//button[@type='button'])[17]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-14 15:01:22 - [TEST_SUITE][FAILED] - FAQ: Test Cases/FAQS/Success/Searching Success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FAQS/Searching Success/button_No'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Searching Success.run(Searching Success:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689321680491.run(TempTestSuite1689321680491.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FAQS/Searching Success/button_No' located by '(//button[@type='button'])[17]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

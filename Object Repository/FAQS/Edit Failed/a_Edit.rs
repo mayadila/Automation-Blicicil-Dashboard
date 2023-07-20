@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Edit</name>
+   <tag></tag>
+   <elementGuidId>fd7fc26c-3888-4fa6-8e4a-507f46388ab2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr.even > td:nth-of-type(4) > a.btn.btn-flat-info</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tbl-faq']/tbody/tr[2]/td[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b978091e-9c47-47be-993d-526ecd5d8ef1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://uat-dashboard.blicicil.com/faqs/edit?token=645896f95fb3bc922700c71e</value>
+      <webElementGuid>0c50ac3e-634a-4790-85a8-ad1d47689d49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-flat-info</value>
+      <webElementGuid>8736222a-f3ce-444a-8424-c24adb667eab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit</value>
+      <webElementGuid>fd0509d4-db8b-451a-b8a3-ca18b9d1b591</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tbl-faq&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[4]/a[@class=&quot;btn btn-flat-info&quot;]</value>
+      <webElementGuid>3daaad95-7db5-43b5-817c-8a321117f4f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tbl-faq']/tbody/tr[2]/td[4]/a</value>
+      <webElementGuid>1d160c9b-c328-4115-9d2b-2ce1cc6c6722</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Edit')])[2]</value>
+      <webElementGuid>091db0bc-f221-4f34-a701-36ba63cdbfee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unpublish'])[2]/following::a[1]</value>
+      <webElementGuid>bd030c27-4d48-4454-ae92-c29c60e11457</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Publish'])[2]/following::a[1]</value>
+      <webElementGuid>3511899e-8836-435f-950c-0e67d22cd055</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modal Instan: Simulasi'])[1]/preceding::a[1]</value>
+      <webElementGuid>b281d750-2b5e-43e1-9352-6a12a7ea5f95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modal Instan,...'])[1]/preceding::a[1]</value>
+      <webElementGuid>dc401747-c877-40e5-a90e-531d95ca7600</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/faqs/edit?token=645896f95fb3bc922700c71e')]</value>
+      <webElementGuid>9047d3ad-e1ac-49a0-80ec-1623563dbf80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[4]/a</value>
+      <webElementGuid>2a20df7d-1fc1-4c39-b6e9-a2ef0a966a61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://uat-dashboard.blicicil.com/faqs/edit?token=645896f95fb3bc922700c71e' and (text() = 'Edit' or . = 'Edit')]</value>
+      <webElementGuid>5e2222d9-7399-4082-b655-4e6ddb62e0cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

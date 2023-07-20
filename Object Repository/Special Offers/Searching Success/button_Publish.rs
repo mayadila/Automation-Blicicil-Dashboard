@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Publish</name>
    <tag></tag>
-   <elementGuidId>e9e265c9-08ac-42c7-bd09-4dcc639e3a57</elementGuidId>
+   <elementGuidId>76ba77b6-235c-4180-be92-000b5278e568</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>99f7e8e1-c0e0-403e-a7be-5b495dcf7c78</webElementGuid>
+      <webElementGuid>f7892d94-cee3-4261-abe5-ff7b6e6970b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3b7c08f0-5259-4c89-b0be-481ddd43bf23</webElementGuid>
+      <webElementGuid>02d5825d-e25d-4bf4-9bb6-c6f4f5304896</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-sm btn-success mr-1</value>
-      <webElementGuid>8f40624a-8caf-473b-8a86-22956d73106e</webElementGuid>
+      <webElementGuid>b0d94c86-1486-4814-a240-0581591661cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>showConfirmationPopup('publish', () => actionProduct('63f5db987109000026001a86', 0), 'Testing Special Offers')</value>
-      <webElementGuid>4bc4f77d-96e6-4494-b274-756c2bcf2888</webElementGuid>
+      <webElementGuid>29ed6782-cf65-42b7-9d3c-376f4a893f0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Publish</value>
-      <webElementGuid>ce167785-19ef-4e3e-a578-a9e7b7ab1c7e</webElementGuid>
+      <webElementGuid>74c2b29a-31fc-41de-811e-28756d228e51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbl-special-offers&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[5]/div[@class=&quot;d-flex&quot;]/button[@class=&quot;btn btn-sm btn-success mr-1&quot;]</value>
-      <webElementGuid>7b4d506e-ada9-46f1-a9da-430c68914743</webElementGuid>
+      <webElementGuid>24573533-80e9-41b6-9c58-40410ea183d6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>2fc63e9c-7bea-45b7-9320-029d70378fac</webElementGuid>
+      <webElementGuid>0ac394f0-415e-4581-ab23-40cd4d60620b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='tbl-special-offers']/tbody/tr/td[5]/div/button</value>
-      <webElementGuid>4b85007d-7041-4320-8d84-5faa8bb5e0ad</webElementGuid>
+      <webElementGuid>e87f3c81-9438-47c8-9df0-1b19a8ec4287</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unpublish'])[1]/following::button[1]</value>
-      <webElementGuid>77450929-8ffe-4811-b651-bb7cc82680b4</webElementGuid>
+      <webElementGuid>40640974-dc86-430d-b09c-1909dac25f88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing Special Offers'])[1]/following::button[1]</value>
-      <webElementGuid>6394f408-767a-42c8-81b0-0a5733a31b03</webElementGuid>
+      <webElementGuid>59ce93e1-592f-4fcf-9fad-9f9e4d0f56c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::button[1]</value>
-      <webElementGuid>19d8f931-a00a-4fa2-8559-5506366f298a</webElementGuid>
+      <webElementGuid>54bf575d-0f0b-4561-9e31-d5bf8751d68d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing Offers'])[1]/preceding::button[1]</value>
-      <webElementGuid>c77a14b8-47d4-4c66-b55b-0542d777490d</webElementGuid>
+      <webElementGuid>5489fcde-9320-4ae6-9c43-f73ec2df4f18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Publish']/parent::*</value>
-      <webElementGuid>720c0215-c9a7-4ddc-8532-87d4d07f247e</webElementGuid>
+      <webElementGuid>f374d58e-7105-4dd9-811d-847192291483</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>c140882f-0055-4bc4-a08a-866d1302d4c5</webElementGuid>
+      <webElementGuid>5326015b-1d63-470a-8cde-d4ab40e29774</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Publish' or . = 'Publish')]</value>
-      <webElementGuid>11190bf2-9cc1-4e3b-aa8a-5c87c73914e4</webElementGuid>
+      <webElementGuid>8cce64f6-8cfa-4aba-b365-d1e663a2c6a9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FAQ" time="31.057" tests="2" failures="0" errors="0">
+   <testsuite name="FAQ" tests="2" failures="0" errors="0" time="31.057" skipped="0" timestamp="2023-07-14 15:06:06" hostname="202102359 - KPO-Blicicil.pdc.megafinance.co.id" id="Test Suites/FAQ">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230714_150604\\FAQ\\20230714_150604"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\blicicil-dashboard-uat\\Reports\\20230714_150604\\FAQ\\20230714_150604\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="202102359 - KPO-Blicicil.pdc.megafinance.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.16.53"/>
+         <property name="sessionId" value="bc12b843704e4f76f0cb4a0ed04ba873"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/FAQS/Success/Searching Success" time="20.56" classname="Test Cases/FAQS/Success/Searching Success" status="PASSED">
+         <system-out><![CDATA[2023-07-14 15:06:06 - [TEST_CASE][PASSED] - Test Cases/FAQS/Success/Searching Success: Test Cases/FAQS/Success/Searching Success
+
+2023-07-14 15:06:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-14 15:06:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-14 15:06:06 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-14 15:06:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-14 15:06:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-14 15:06:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-14 15:06:09 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-14 15:06:09 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-14 15:06:10 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-14 15:06:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FAQS/Searching Success/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/FAQS/Searching Success/input_Email_email'
+
+2023-07-14 15:06:10 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/FAQS/Searching Success/input_Email_email'
+
+2023-07-14 15:06:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/FAQS/Searching Success/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/FAQS/Searching Success/input_Password_password'
+
+2023-07-14 15:06:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FAQS/Searching Success/input_Password_password'
+
+2023-07-14 15:06:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_Login")): Object: 'Object Repository/FAQS/Searching Success/button_Login' is clicked on
+
+2023-07-14 15:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_Login' is clicked on
+
+2023-07-14 15:06:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/a_FAQ")): Object: 'Object Repository/FAQS/Searching Success/a_FAQ' is clicked on
+
+2023-07-14 15:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/a_FAQ' is clicked on
+
+2023-07-14 15:06:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm"), "Limit Kredit"): Text 'Limit Kredit' is set on object 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:15 - [MESSAGE][PASSED] - Text 'Limit Kredit' is set on object 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_Publish")): Object: 'Object Repository/FAQS/Searching Success/button_Publish' is clicked on
+
+2023-07-14 15:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_Publish' is clicked on
+
+2023-07-14 15:06:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_No")): Object: 'Object Repository/FAQS/Searching Success/button_No' is clicked on
+
+2023-07-14 15:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_No' is clicked on
+
+2023-07-14 15:06:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_Publish")): Object: 'Object Repository/FAQS/Searching Success/button_Publish' is clicked on
+
+2023-07-14 15:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_Publish' is clicked on
+
+2023-07-14 15:06:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_Yes")): Object: 'Object Repository/FAQS/Searching Success/button_Yes' is clicked on
+
+2023-07-14 15:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_Yes' is clicked on
+
+2023-07-14 15:06:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-14 15:06:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-14 15:06:20 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-07-14 15:06:20 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-07-14 15:06:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm"), "modal instan"): Text 'modal instan' is set on object 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:21 - [MESSAGE][PASSED] - Text 'modal instan' is set on object 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_Unpublish")): Object: 'Object Repository/FAQS/Searching Success/button_Unpublish' is clicked on
+
+2023-07-14 15:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_Unpublish' is clicked on
+
+2023-07-14 15:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_No")): Object: 'Object Repository/FAQS/Searching Success/button_No' is clicked on
+
+2023-07-14 15:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_No' is clicked on
+
+2023-07-14 15:06:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_Unpublish")): Object: 'Object Repository/FAQS/Searching Success/button_Unpublish' is clicked on
+
+2023-07-14 15:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_Unpublish' is clicked on
+
+2023-07-14 15:06:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Success/button_Yes")): Object: 'Object Repository/FAQS/Searching Success/button_Yes' is clicked on
+
+2023-07-14 15:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Success/button_Yes' is clicked on
+
+2023-07-14 15:06:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-14 15:06:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-14 15:06:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-14 15:06:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FAQS/Failed/Searching Failed" time="10.258" classname="Test Cases/FAQS/Failed/Searching Failed" status="PASSED">
+         <system-out><![CDATA[2023-07-14 15:06:26 - [TEST_CASE][PASSED] - Test Cases/FAQS/Failed/Searching Failed: Test Cases/FAQS/Failed/Searching Failed
+
+2023-07-14 15:06:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-14 15:06:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-14 15:06:27 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-07-14 15:06:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-14 15:06:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-14 15:06:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-14 15:06:28 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-14 15:06:28 - [TEST_STEP][PASSED] - navigateToUrl("https://uat-dashboard.blicicil.com/auth/login"): Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-14 15:06:29 - [MESSAGE][PASSED] - Navigate to 'https://uat-dashboard.blicicil.com/auth/login' successfully
+
+2023-07-14 15:06:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FAQS/Searching Failed/input_Email_email"), "eva.mayadila@megafinance.co.id"): Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/FAQS/Searching Failed/input_Email_email'
+
+2023-07-14 15:06:30 - [MESSAGE][PASSED] - Text 'eva.mayadila@megafinance.co.id' is set on object 'Object Repository/FAQS/Searching Failed/input_Email_email'
+
+2023-07-14 15:06:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/FAQS/Searching Failed/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/FAQS/Searching Failed/input_Password_password'
+
+2023-07-14 15:06:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FAQS/Searching Failed/input_Password_password'
+
+2023-07-14 15:06:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Failed/button_Login")): Object: 'Object Repository/FAQS/Searching Failed/button_Login' is clicked on
+
+2023-07-14 15:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Failed/button_Login' is clicked on
+
+2023-07-14 15:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Searching Failed/a_FAQ")): Object: 'Object Repository/FAQS/Searching Failed/a_FAQ' is clicked on
+
+2023-07-14 15:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Searching Failed/a_FAQ' is clicked on
+
+2023-07-14 15:06:33 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/FAQS/Searching Failed/div_List FAQs BliCicil Admin as            _3c8d92")): Text of object 'Object Repository/FAQS/Searching Failed/div_List FAQs BliCicil Admin as            _3c8d92' is: 'List FAQs BliCicil Admin as
+New FAQ'
+
+2023-07-14 15:06:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/FAQS/Searching Failed/div_List FAQs BliCicil Admin as            _3c8d92' is: 'List FAQs BliCicil Admin as
+New FAQ'
+
+2023-07-14 15:06:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm"), "12345678"): Text '12345678' is set on object 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:34 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm"), "products"): Text 'products' is set on object 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:36 - [MESSAGE][PASSED] - Text 'products' is set on object 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm'
+
+2023-07-14 15:06:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-14 15:06:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-14 15:06:06 - [TEST_SUITE][PASSED] - FAQ: Test Cases/FAQS/Failed/Searching Failed]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

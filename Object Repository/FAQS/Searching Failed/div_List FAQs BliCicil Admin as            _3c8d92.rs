@@ -3,15 +3,15 @@
    <description></description>
    <name>div_List FAQs BliCicil Admin as            _3c8d92</name>
    <tag></tag>
-   <elementGuidId>f49a0e5d-14a0-4bf1-bf12-19e9b327db05</elementGuidId>
+   <elementGuidId>7289651a-dc32-4e10-96ef-0f0d33fd5768</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>div.card-header.border-bottom.p-1</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//section[@id='complex-header-datatable']/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-header.border-bottom.p-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a8318ceb-ea00-4bb5-8486-9751d1a60cc4</webElementGuid>
+      <webElementGuid>e4ac5ff3-57ab-440d-87ec-8c6fbfc1bbf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-header border-bottom p-1</value>
-      <webElementGuid>58b4b0a6-3944-4e21-8a83-75cdb95ea7fc</webElementGuid>
+      <webElementGuid>ed31a675-aa53-4764-a6a8-dbb191250c08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
                                     
                                 
                             </value>
-      <webElementGuid>a36c19a6-ea56-4513-aed7-5aa1dff5d00b</webElementGuid>
+      <webElementGuid>68afbb8b-e8f6-48bf-96da-a60525149006</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;complex-header-datatable&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header border-bottom p-1&quot;]</value>
-      <webElementGuid>bb93f8cd-3e15-4582-958c-2628cba34249</webElementGuid>
+      <webElementGuid>a1bf0244-b28a-4861-9d15-a5cc605e5bfd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='complex-header-datatable']/div/div/div/div</value>
-      <webElementGuid>a9bc1482-4e78-4cac-a078-3172965756b0</webElementGuid>
+      <webElementGuid>7961e8e7-5dd1-4097-98ad-de9240f951f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='FAQs'])[1]/following::div[5]</value>
-      <webElementGuid>99af905a-9f8f-4b35-b219-6152a62d17f2</webElementGuid>
+      <webElementGuid>d9a7f4c5-4d02-4cda-a42b-55bdeb611b4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::div[5]</value>
-      <webElementGuid>eca5f19f-73a7-4105-abeb-f3903b347940</webElementGuid>
+      <webElementGuid>72875b26-66cd-4add-a286-11a898f90c64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/div/div/div</value>
-      <webElementGuid>f42ba4d4-d7c5-4274-8ba0-96dbd9a76b43</webElementGuid>
+      <webElementGuid>32f87d36-e6f5-43f8-8c07-8dbe9e526de4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
                                     
                                 
                             ')]</value>
-      <webElementGuid>3a84af2e-bc97-420f-bf77-87b866731b23</webElementGuid>
+      <webElementGuid>49ab3f52-cff2-4c4f-a5c1-a8f4fa92b4cc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

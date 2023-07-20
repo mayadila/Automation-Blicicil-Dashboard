@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FAQ,Chrome 114.0.0.0,,,2023-07-14 15:02:58,2023-07-14 15:03:59,1m - 1.136s,FAILED
+,,,,,,,
+Test Cases/FAQS/Success/Searching Success,Chrome 114.0.0.0,,,2023-07-14 15:02:58,2023-07-14 15:03:47,48.954s,FAILED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-14 15:02:58,2023-07-14 15:03:02,3.271s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-14 15:03:02,2023-07-14 15:03:02,0.040s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-14 15:03:02,2023-07-14 15:03:02,0.642s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Searching Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-14 15:03:02,2023-07-14 15:03:03,0.883s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/FAQS/Searching Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-14 15:03:03,2023-07-14 15:03:04,0.428s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-14 15:03:04,2023-07-14 15:03:04,0.524s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/a_FAQ""))",Chrome 114.0.0.0,,,2023-07-14 15:03:04,2023-07-14 15:03:07,2.520s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm""), ""Limit Kredit"")",Chrome 114.0.0.0,,,2023-07-14 15:03:07,2023-07-14 15:03:08,1.428s,PASSED
+"sendKeys(findTestObject(""Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-14 15:03:08,2023-07-14 15:03:09,0.517s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/button_Publish""))",Chrome 114.0.0.0,,,2023-07-14 15:03:09,2023-07-14 15:03:09,0.400s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/button_No""))",Chrome 114.0.0.0,,,2023-07-14 15:03:09,2023-07-14 15:03:10,0.505s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/button_Publish""))",Chrome 114.0.0.0,,,2023-07-14 15:03:10,2023-07-14 15:03:10,0.724s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/button_Yes""))",Chrome 114.0.0.0,,,2023-07-14 15:03:10,2023-07-14 15:03:11,0.495s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-14 15:03:11,2023-07-14 15:03:13,2.026s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-14 15:03:13,2023-07-14 15:03:13,0.551s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm""), ""modal instan"")",Chrome 114.0.0.0,,,2023-07-14 15:03:13,2023-07-14 15:03:15,1.362s,PASSED
+"sendKeys(findTestObject(""Object Repository/FAQS/Searching Success/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-14 15:03:15,2023-07-14 15:03:15,0.472s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/button_Unpublish""))",Chrome 114.0.0.0,,,2023-07-14 15:03:15,2023-07-14 15:03:16,0.370s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Success/button_No""))",Chrome 114.0.0.0,,,2023-07-14 15:03:16,2023-07-14 15:03:47,31.486s,FAILED
+,,,,,,,
+Test Cases/FAQS/Failed/Searching Failed,Chrome 114.0.0.0,,,2023-07-14 15:03:47,2023-07-14 15:03:59,11.954s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-14 15:03:47,2023-07-14 15:03:50,2.540s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-14 15:03:50,2023-07-14 15:03:50,0.028s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-14 15:03:50,2023-07-14 15:03:51,0.668s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Searching Failed/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-14 15:03:51,2023-07-14 15:03:52,0.973s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/FAQS/Searching Failed/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-14 15:03:52,2023-07-14 15:03:52,0.469s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Failed/button_Login""))",Chrome 114.0.0.0,,,2023-07-14 15:03:52,2023-07-14 15:03:53,0.535s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Searching Failed/a_FAQ""))",Chrome 114.0.0.0,,,2023-07-14 15:03:53,2023-07-14 15:03:55,2.345s,PASSED
+"getText(findTestObject(""Object Repository/FAQS/Searching Failed/div_List FAQs BliCicil Admin as            _3c8d92""))",Chrome 114.0.0.0,,,2023-07-14 15:03:55,2023-07-14 15:03:56,0.926s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm""), ""12345678"")",Chrome 114.0.0.0,,,2023-07-14 15:03:56,2023-07-14 15:03:57,0.689s,PASSED
+"sendKeys(findTestObject(""Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-14 15:03:57,2023-07-14 15:03:57,0.482s,PASSED
+"setText(findTestObject(""Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm""), ""products"")",Chrome 114.0.0.0,,,2023-07-14 15:03:57,2023-07-14 15:03:58,0.768s,PASSED
+"sendKeys(findTestObject(""Object Repository/FAQS/Searching Failed/input_Search_form-control form-control-sm""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-14 15:03:58,2023-07-14 15:03:58,0.462s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-14 15:03:58,2023-07-14 15:03:59,0.730s,PASSED

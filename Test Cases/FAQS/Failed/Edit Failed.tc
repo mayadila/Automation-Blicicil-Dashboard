@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Failed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1c58631-688c-4745-8f9b-ce58652dbf73</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>188409a1-69c9-4aec-bdf2-432f90cd0007</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>188409a1-69c9-4aec-bdf2-432f90cd0007</id>
+      <masked>false</masked>
+      <name>a</name>
+   </variable>
+</TestCaseEntity>

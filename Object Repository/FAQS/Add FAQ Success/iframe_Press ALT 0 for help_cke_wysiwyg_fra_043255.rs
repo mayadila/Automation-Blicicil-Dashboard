@@ -3,15 +3,15 @@
    <description></description>
    <name>iframe_Press ALT 0 for help_cke_wysiwyg_fra_043255</name>
    <tag></tag>
-   <elementGuidId>1c513fae-5c17-40aa-b597-23793087ffba</elementGuidId>
+   <elementGuidId>06fa29c4-8ca5-45cc-ba95-63f9f0cb06c5</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>iframe.cke_wysiwyg_frame.cke_reset</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='cke_1_contents']/iframe</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>iframe.cke_wysiwyg_frame.cke_reset</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>a546361a-9ea7-4501-9022-fd65c054e29e</webElementGuid>
+      <webElementGuid>a2f82847-0097-4d52-9040-4c476f26e51d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>frameborder</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>e573d6aa-3958-4af8-a280-cad2a8137b4f</webElementGuid>
+      <webElementGuid>b7f20fe9-277e-4c08-b6e7-8fc229705aae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cke_wysiwyg_frame cke_reset</value>
-      <webElementGuid>e46e36bc-f2a9-478c-b661-39a5d4567e08</webElementGuid>
+      <webElementGuid>477f3a9a-937a-460b-89eb-dad7205dfd71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Rich Text Editor, txaContent</value>
-      <webElementGuid>277e5633-0675-4891-8c57-67a2a642d066</webElementGuid>
+      <webElementGuid>5e560944-e9c8-4056-b61a-fe58a591e88f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cke_80</value>
-      <webElementGuid>ee5a8d90-9875-4dda-9644-15db5e40581c</webElementGuid>
+      <webElementGuid>8351c68e-e8a9-4847-a72e-fa09b4ea7439</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>e0550c6d-10ec-48ac-a83b-afdb89e07ff9</webElementGuid>
+      <webElementGuid>e71d188f-d99a-4c7d-bb17-694aaace8d66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>allowtransparency</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>8979cdb9-159b-45de-9d64-ceadc024ed09</webElementGuid>
+      <webElementGuid>80b958ff-ac27-4e32-a3f2-ab3cde585d12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cke_1_contents&quot;)/iframe[@class=&quot;cke_wysiwyg_frame cke_reset&quot;]</value>
-      <webElementGuid>f3629fb8-7d75-4bd0-8864-8804ad1a8d80</webElementGuid>
+      <webElementGuid>f4a34b12-6c22-4cea-9c78-1ffe4224a212</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cke_1_contents']/iframe</value>
-      <webElementGuid>ba97ef5c-d77c-4e34-a6b1-151bc8840f5b</webElementGuid>
+      <webElementGuid>e0775184-3951-4a97-9c01-1cc1433197e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//iframe</value>
-      <webElementGuid>cb173c20-71b9-48d4-8ced-975959ebb956</webElementGuid>
+      <webElementGuid>a11b7bab-c748-44ff-814b-e58a3be04573</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@title = 'Rich Text Editor, txaContent']</value>
-      <webElementGuid>e061939a-ae84-4beb-9af9-1c65b7b2d931</webElementGuid>
+      <webElementGuid>287ba6ec-a9c9-49ec-825f-5946d19531a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

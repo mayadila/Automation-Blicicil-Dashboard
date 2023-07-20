@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Judul_txtProductName</name>
    <tag></tag>
-   <elementGuidId>ff804313-6f5d-4c38-891d-bc0ff761a3dd</elementGuidId>
+   <elementGuidId>4ee2607c-2496-4f6b-b138-712cdb4bafab</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#txtProductName</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='txtProductName']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#txtProductName</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>18d8cdf6-ffa2-438d-acdf-2a59bbc88637</webElementGuid>
+      <webElementGuid>de50d173-3bfd-4b36-9804-61018983670c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>c7e47cf5-86aa-482a-8e16-485523443c64</webElementGuid>
+      <webElementGuid>da462646-bcbd-4690-9553-ffef8da9c883</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txtProductName</value>
-      <webElementGuid>f5895bc5-0da1-4ba8-9222-faeca79cb297</webElementGuid>
+      <webElementGuid>4bc718f1-d8df-4114-b507-92d27af1895f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>f9f9e0d9-a792-4834-b3d6-0b3db2af88d7</webElementGuid>
+      <webElementGuid>7ffda294-060f-4002-9957-5b6ebce4ca3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>txtProductName</value>
-      <webElementGuid>f684d621-648b-4b45-8b40-84bdc7e16a12</webElementGuid>
+      <webElementGuid>ae4d24bf-6245-4fb0-b222-595d642e060c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Title FAQs</value>
-      <webElementGuid>ee43e5ba-3b5f-4283-bdf8-9dba8b9acb8e</webElementGuid>
+      <webElementGuid>8039f03c-c3c7-49a7-b5cb-ade0daa55439</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txtProductName&quot;)</value>
-      <webElementGuid>f361e163-ea02-4022-a85c-9ee4432c3dc9</webElementGuid>
+      <webElementGuid>d0430ddf-5e1e-4e89-83b4-1ec1a5c4aed5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Coba edit ini</value>
-      <webElementGuid>5de94f0c-6f5a-48c3-a115-86e21bc0fcec</webElementGuid>
+      <webElementGuid>c21f05da-d130-4460-80ad-fb637dd35649</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txtProductName']</value>
-      <webElementGuid>483d76d3-95b1-499d-a6dd-11ef44a5beaf</webElementGuid>
+      <webElementGuid>093ff95a-28e0-46a6-a772-3b802fca4e39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='frmProduct']/div/div/input</value>
-      <webElementGuid>df3be07d-e43e-4637-9eda-375d807dbf4c</webElementGuid>
+      <webElementGuid>6dc1f637-c39d-48d2-9129-7dd7d2cd3d21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>27d6559d-42e9-4fdc-9547-77cae62f9a62</webElementGuid>
+      <webElementGuid>ea3bce44-32f9-4139-8c45-f6ab58b46d52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'txtProductName' and @name = 'txtProductName' and @placeholder = 'Title FAQs']</value>
-      <webElementGuid>187059b3-a453-48b6-9cf5-2cb5be1f7d80</webElementGuid>
+      <webElementGuid>4870cd97-e390-4bb4-b19a-f4cc695246fb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
