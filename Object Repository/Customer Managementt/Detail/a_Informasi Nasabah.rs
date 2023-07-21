@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Informasi Pekerjaan</name>
+   <name>a_Informasi Nasabah</name>
    <tag></tag>
-   <elementGuidId>79c35724-a687-495c-9fd0-7e443805d373</elementGuidId>
+   <elementGuidId>9b4ccaa4-cebb-498a-99d4-cf5125049eaa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#pills-pekerjaan-tab</value>
+         <value>#pills-nasabah-tab</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='pills-pekerjaan-tab']</value>
+         <value>//a[@id='pills-nasabah-tab']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>01e753b3-380a-450b-8321-a2c22db22d9f</webElementGuid>
+      <webElementGuid>15e8b586-4071-48b4-9743-e801737597ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link user-detail</value>
-      <webElementGuid>ee90d6b6-cd0c-486a-bbd7-7a0903e33562</webElementGuid>
+      <webElementGuid>90930696-f2a9-421e-87f7-482d0967aaec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>pills-pekerjaan-tab</value>
-      <webElementGuid>0c60bd98-4423-4f8f-ba16-9db0777d4817</webElementGuid>
+      <value>pills-nasabah-tab</value>
+      <webElementGuid>9811cf37-15d4-41a9-a2fc-8e1709d7cb79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +46,15 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>pill</value>
-      <webElementGuid>ec1adace-78ea-41d2-853a-8543b617b07b</webElementGuid>
+      <webElementGuid>89280c0e-cda8-4373-b10a-195868b58630</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#pills-pekerjaan</value>
-      <webElementGuid>fe25ca0b-0ad7-45dd-b7b1-708699a9e123</webElementGuid>
+      <value>#pills-nasabah</value>
+      <webElementGuid>1297b48a-9c54-4927-ba6d-793ad8a7a06d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +62,15 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>8e90d605-bf52-4547-93c3-c747c7de7af5</webElementGuid>
+      <webElementGuid>74b16140-3eed-46dc-81fe-7420aa53b2cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-controls</name>
       <type>Main</type>
-      <value>pills-pekerjaan</value>
-      <webElementGuid>57f3adae-903b-4d18-ad30-ee105107322a</webElementGuid>
+      <value>pills-nasabah</value>
+      <webElementGuid>32e874d7-699c-492f-bf84-2d13c35b4a1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,110 +78,110 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>bc707296-8c78-4a48-afe8-d492416c661e</webElementGuid>
+      <webElementGuid>b725fb06-45d8-47b9-93f1-249b91834008</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Informasi Pekerjaan</value>
-      <webElementGuid>b5df5d31-00bc-4d5c-96fc-094a34027f8e</webElementGuid>
+      <value>Informasi Nasabah</value>
+      <webElementGuid>bf6ff2c0-4d49-4587-ae73-bb7bee20b95d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pills-pekerjaan-tab&quot;)</value>
-      <webElementGuid>4528eb19-886d-46d9-a242-585e67b4c797</webElementGuid>
+      <value>id(&quot;pills-nasabah-tab&quot;)</value>
+      <webElementGuid>ecaf0bba-7f8a-4632-a4c4-cc25299c0afa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='pills-pekerjaan-tab']</value>
-      <webElementGuid>aa8e8737-4cfb-4195-8d5b-6f3cbf09343c</webElementGuid>
+      <value>//a[@id='pills-nasabah-tab']</value>
+      <webElementGuid>1cbeeb01-9fcd-4883-8bbb-281d53f1ed00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='pills-tab']/li[3]/a</value>
-      <webElementGuid>e6d58a7f-28a2-4e75-99cb-48f596468f55</webElementGuid>
+      <value>//ul[@id='pills-tab']/li/a</value>
+      <webElementGuid>0eb9c987-d57a-4d12-9970-eef916656878</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Informasi Pekerjaan')]</value>
-      <webElementGuid>49617acd-9415-4d18-8822-99fe803f900e</webElementGuid>
+      <value>//a[contains(text(),'Informasi Nasabah')]</value>
+      <webElementGuid>043d2a7b-4868-40b6-865c-fe8b66c71504</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Alamat'])[1]/following::a[1]</value>
-      <webElementGuid>17f2730b-92a9-48f4-bc62-634b72139163</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[2]/following::a[1]</value>
+      <webElementGuid>f0d55713-ea50-4679-aefe-4ba29707c129</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Nasabah'])[1]/following::a[2]</value>
-      <webElementGuid>eaed0a44-66aa-4c97-8d43-8495ac2b6b4e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Pengajuan:'])[1]/following::a[1]</value>
+      <webElementGuid>52d85dcf-8c7b-403d-a978-b8f9d673cb06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Kontak'])[1]/preceding::a[1]</value>
-      <webElementGuid>7b7ab654-614f-45e4-b8f3-813161736009</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Alamat'])[1]/preceding::a[1]</value>
+      <webElementGuid>6fd660cc-1ecf-4044-b273-654ac80621bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Identitas'])[1]/preceding::a[2]</value>
-      <webElementGuid>a1284c33-eec6-432f-9116-c633812d8bc2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Pekerjaan'])[1]/preceding::a[2]</value>
+      <webElementGuid>4826c944-8b3a-4d41-9bf6-25d03dc08e49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Informasi Pekerjaan']/parent::*</value>
-      <webElementGuid>4e550c12-c25f-4eb6-98b8-237b4cb5673a</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Informasi Nasabah']/parent::*</value>
+      <webElementGuid>7f9ad105-ffb3-41d6-b9fe-d2883df9711e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#pills-pekerjaan')]</value>
-      <webElementGuid>40af1b6f-0581-4e76-bbaa-9dfa666e8a61</webElementGuid>
+      <value>//a[contains(@href, '#pills-nasabah')]</value>
+      <webElementGuid>a62a6b09-473f-4401-b9ed-e9608c6aa6e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/ul/li[3]/a</value>
-      <webElementGuid>bd9e2623-9178-4f25-a3ef-4fd7886e5d38</webElementGuid>
+      <value>//div[2]/ul/li/a</value>
+      <webElementGuid>e11b8f47-a0bf-49fc-8a9d-7d6d0111b714</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'pills-pekerjaan-tab' and @href = '#pills-pekerjaan' and (text() = 'Informasi Pekerjaan' or . = 'Informasi Pekerjaan')]</value>
-      <webElementGuid>52c31655-7fdd-4251-978e-03ee318f01a4</webElementGuid>
+      <value>//a[@id = 'pills-nasabah-tab' and @href = '#pills-nasabah' and (text() = 'Informasi Nasabah' or . = 'Informasi Nasabah')]</value>
+      <webElementGuid>7bbcdca2-304a-4bd4-b923-7ceb59878d35</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

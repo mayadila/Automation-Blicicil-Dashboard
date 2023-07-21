@@ -1,0 +1,120 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Managament,Chrome 114.0.0.0,,,2023-07-21 16:22:47,2023-07-21 16:24:39,1m - 51.975s,PASSED
+,,,,,,,
+Test Cases/Customer Management/Beranda,Chrome 114.0.0.0,,,2023-07-21 16:22:47,2023-07-21 16:23:05,17.807s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-21 16:22:47,2023-07-21 16:22:50,2.268s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-21 16:22:50,2023-07-21 16:22:50,0.043s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-21 16:22:50,2023-07-21 16:22:51,1.595s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Beranda/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-21 16:22:51,2023-07-21 16:22:52,0.943s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Customer Managementt/Beranda/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-21 16:22:52,2023-07-21 16:22:53,0.409s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Beranda/button_Login""))",Chrome 114.0.0.0,,,2023-07-21 16:22:53,2023-07-21 16:22:53,0.529s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Beranda/a_Customer Management""))",Chrome 114.0.0.0,,,2023-07-21 16:22:53,2023-07-21 16:22:55,1.956s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Beranda/a_Next""))",Chrome 114.0.0.0,,,2023-07-21 16:22:55,2023-07-21 16:22:56,1.024s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Beranda/a_Next_1""))",Chrome 114.0.0.0,,,2023-07-21 16:22:56,2023-07-21 16:22:57,0.564s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Beranda/a_Next_1_2""))",Chrome 114.0.0.0,,,2023-07-21 16:22:57,2023-07-21 16:22:57,0.561s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Beranda/a_Prev""))",Chrome 114.0.0.0,,,2023-07-21 16:22:57,2023-07-21 16:22:58,0.576s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Beranda/a_Prev_1""))",Chrome 114.0.0.0,,,2023-07-21 16:22:58,2023-07-21 16:22:58,0.553s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Customer Managementt/Beranda/select_Show                                _69175e""), ""10"", true)",Chrome 114.0.0.0,,,2023-07-21 16:22:58,2023-07-21 16:23:00,1.342s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Customer Managementt/Beranda/select_Show                                _69175e""), ""25"", true)",Chrome 114.0.0.0,,,2023-07-21 16:23:00,2023-07-21 16:23:01,1.176s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Customer Managementt/Beranda/select_Show                                _69175e""), ""5"", true)",Chrome 114.0.0.0,,,2023-07-21 16:23:01,2023-07-21 16:23:02,1.279s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Beranda/a_Detail""))",Chrome 114.0.0.0,,,2023-07-21 16:23:02,2023-07-21 16:23:03,0.714s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Beranda/a_Customer Management (1)""))",Chrome 114.0.0.0,,,2023-07-21 16:23:03,2023-07-21 16:23:04,1.282s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-21 16:23:04,2023-07-21 16:23:05,0.669s,PASSED
+,,,,,,,
+Test Cases/Customer Management/Detail,Chrome 114.0.0.0,,,2023-07-21 16:23:05,2023-07-21 16:23:37,32.184s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-21 16:23:05,2023-07-21 16:23:06,1.327s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-21 16:23:06,2023-07-21 16:23:06,0.017s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-21 16:23:06,2023-07-21 16:23:07,0.465s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Detail/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-21 16:23:07,2023-07-21 16:23:08,0.820s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Customer Managementt/Detail/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-21 16:23:08,2023-07-21 16:23:08,0.379s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/button_Login""))",Chrome 114.0.0.0,,,2023-07-21 16:23:08,2023-07-21 16:23:09,0.487s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Customer Management""))",Chrome 114.0.0.0,,,2023-07-21 16:23:09,2023-07-21 16:23:11,2.077s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Detail""))",Chrome 114.0.0.0,,,2023-07-21 16:23:11,2023-07-21 16:23:12,1.274s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Informasi Alamat""))",Chrome 114.0.0.0,,,2023-07-21 16:23:12,2023-07-21 16:23:13,1.024s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan""))",Chrome 114.0.0.0,,,2023-07-21 16:23:13,2023-07-21 16:23:13,0.375s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Informasi Kontak""))",Chrome 114.0.0.0,,,2023-07-21 16:23:13,2023-07-21 16:23:14,0.368s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Foto Identitas""))",Chrome 114.0.0.0,,,2023-07-21 16:23:14,2023-07-21 16:23:14,0.350s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Informasi Nasabah""))",Chrome 114.0.0.0,,,2023-07-21 16:23:14,2023-07-21 16:23:14,0.373s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Customer Management (1)""))",Chrome 114.0.0.0,,,2023-07-21 16:23:14,2023-07-21 16:23:15,0.601s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_24""))",Chrome 114.0.0.0,,,2023-07-21 16:23:15,2023-07-21 16:23:29,13.572s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Detail_1""))",Chrome 114.0.0.0,,,2023-07-21 16:23:29,2023-07-21 16:23:29,0.849s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Informasi Alamat""))",Chrome 114.0.0.0,,,2023-07-21 16:23:29,2023-07-21 16:23:30,1.004s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan""))",Chrome 114.0.0.0,,,2023-07-21 16:23:30,2023-07-21 16:23:31,0.326s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Informasi Kontak""))",Chrome 114.0.0.0,,,2023-07-21 16:23:31,2023-07-21 16:23:31,0.330s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Foto Identitas""))",Chrome 114.0.0.0,,,2023-07-21 16:23:31,2023-07-21 16:23:31,0.329s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Customer Management (1)""))",Chrome 114.0.0.0,,,2023-07-21 16:23:31,2023-07-21 16:23:32,0.610s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_5""))",Chrome 114.0.0.0,,,2023-07-21 16:23:32,2023-07-21 16:23:33,1.026s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Detail_1_2""))",Chrome 114.0.0.0,,,2023-07-21 16:23:33,2023-07-21 16:23:34,0.856s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Informasi Alamat""))",Chrome 114.0.0.0,,,2023-07-21 16:23:34,2023-07-21 16:23:35,1.032s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan""))",Chrome 114.0.0.0,,,2023-07-21 16:23:35,2023-07-21 16:23:35,0.341s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Informasi Kontak""))",Chrome 114.0.0.0,,,2023-07-21 16:23:35,2023-07-21 16:23:36,0.336s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Foto Identitas""))",Chrome 114.0.0.0,,,2023-07-21 16:23:36,2023-07-21 16:23:36,0.342s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Detail/a_Informasi Nasabah""))",Chrome 114.0.0.0,,,2023-07-21 16:23:36,2023-07-21 16:23:36,0.354s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-21 16:23:36,2023-07-21 16:23:37,0.674s,PASSED
+,,,,,,,
+Test Cases/Customer Management/Searching Failed,Chrome 114.0.0.0,,,2023-07-21 16:23:37,2023-07-21 16:23:59,21.883s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-21 16:23:37,2023-07-21 16:23:39,1.355s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-21 16:23:39,2023-07-21 16:23:39,0.017s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-21 16:23:39,2023-07-21 16:23:39,0.560s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Searching Failed/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-21 16:23:39,2023-07-21 16:23:40,0.813s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Customer Managementt/Searching Failed/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-21 16:23:40,2023-07-21 16:23:40,0.388s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Searching Failed/button_Login""))",Chrome 114.0.0.0,,,2023-07-21 16:23:40,2023-07-21 16:23:41,0.465s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Searching Failed/span_Customer Management""))",Chrome 114.0.0.0,,,2023-07-21 16:23:41,2023-07-21 16:23:43,2.120s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677""), ""name"", true)",Chrome 114.0.0.0,,,2023-07-21 16:23:43,2023-07-21 16:23:45,1.708s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch""), ""Dono"")",Chrome 114.0.0.0,,,2023-07-21 16:23:45,2023-07-21 16:23:45,0.673s,PASSED
+"sendKeys(findTestObject(""Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-21 16:23:45,2023-07-21 16:23:46,0.339s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-21 16:23:46,2023-07-21 16:23:48,2.022s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-21 16:23:48,2023-07-21 16:23:48,0.258s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677""), ""mobile_phone"", true)",Chrome 114.0.0.0,,,2023-07-21 16:23:48,2023-07-21 16:23:50,1.653s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1""), ""233333"")",Chrome 114.0.0.0,,,2023-07-21 16:23:50,2023-07-21 16:23:50,0.648s,PASSED
+"sendKeys(findTestObject(""Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-21 16:23:50,2023-07-21 16:23:51,0.330s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-21 16:23:51,2023-07-21 16:23:53,2.015s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-21 16:23:53,2023-07-21 16:23:53,0.605s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Customer Managementt/Searching Failed/select_Search by                           _8b0677""), ""nik"", true)",Chrome 114.0.0.0,,,2023-07-21 16:23:53,2023-07-21 16:23:55,2.023s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1""), ""123456"")",Chrome 114.0.0.0,,,2023-07-21 16:23:55,2023-07-21 16:23:56,0.665s,PASSED
+"sendKeys(findTestObject(""Object Repository/Customer Managementt/Searching Failed/input_List of Customers_filterSearch_1""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-21 16:23:56,2023-07-21 16:23:56,0.347s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-21 16:23:56,2023-07-21 16:23:58,2.008s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-21 16:23:58,2023-07-21 16:23:59,0.686s,PASSED
+,,,,,,,
+Test Cases/Customer Management/Searching Success,Chrome 114.0.0.0,,,2023-07-21 16:23:59,2023-07-21 16:24:39,39.828s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-21 16:23:59,2023-07-21 16:24:00,1.313s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-21 16:24:00,2023-07-21 16:24:00,0.017s,PASSED
+"navigateToUrl(""https://uat-dashboard.blicicil.com/auth/login"")",Chrome 114.0.0.0,,,2023-07-21 16:24:00,2023-07-21 16:24:01,0.453s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_Email_email""), ""eva.mayadila@megafinance.co.id"")",Chrome 114.0.0.0,,,2023-07-21 16:24:01,2023-07-21 16:24:02,0.851s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 114.0.0.0,,,2023-07-21 16:24:02,2023-07-21 16:24:02,0.410s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Searching Success/button_Login""))",Chrome 114.0.0.0,,,2023-07-21 16:24:02,2023-07-21 16:24:03,0.505s,PASSED
+"click(findTestObject(""Object Repository/Customer Managementt/Searching Success/span_Customer Management""))",Chrome 114.0.0.0,,,2023-07-21 16:24:03,2023-07-21 16:24:05,2.482s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677""), ""name"", true)",Chrome 114.0.0.0,,,2023-07-21 16:24:05,2023-07-21 16:24:07,1.720s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch""), ""Eva"")",Chrome 114.0.0.0,,,2023-07-21 16:24:07,2023-07-21 16:24:07,0.655s,PASSED
+"sendKeys(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-21 16:24:07,2023-07-21 16:24:08,0.339s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-21 16:24:08,2023-07-21 16:24:08,0.289s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch""), ""Hendra"")",Chrome 114.0.0.0,,,2023-07-21 16:24:08,2023-07-21 16:24:09,1.343s,PASSED
+"sendKeys(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-21 16:24:09,2023-07-21 16:24:10,0.332s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-21 16:24:10,2023-07-21 16:24:12,2.010s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-21 16:24:12,2023-07-21 16:24:12,0.296s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677""), ""mobile_phone"", true)",Chrome 114.0.0.0,,,2023-07-21 16:24:12,2023-07-21 16:24:14,1.676s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1""), ""0812880651"")",Chrome 114.0.0.0,,,2023-07-21 16:24:14,2023-07-21 16:24:14,0.669s,PASSED
+"sendKeys(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-21 16:24:14,2023-07-21 16:24:15,0.325s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-21 16:24:15,2023-07-21 16:24:17,2.013s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-21 16:24:17,2023-07-21 16:24:17,0.272s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1""), ""0812"")",Chrome 114.0.0.0,,,2023-07-21 16:24:17,2023-07-21 16:24:18,1.337s,PASSED
+"sendKeys(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-21 16:24:18,2023-07-21 16:24:19,0.377s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-21 16:24:19,2023-07-21 16:24:21,2.018s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-21 16:24:21,2023-07-21 16:24:21,0.351s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Customer Managementt/Searching Success/select_Search by                           _8b0677""), ""nik"", true)",Chrome 114.0.0.0,,,2023-07-21 16:24:21,2023-07-21 16:24:23,2.035s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1""), ""340407640"")",Chrome 114.0.0.0,,,2023-07-21 16:24:23,2023-07-21 16:24:24,0.666s,PASSED
+"sendKeys(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-21 16:24:24,2023-07-21 16:24:24,0.336s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-21 16:24:24,2023-07-21 16:24:26,2.011s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-21 16:24:26,2023-07-21 16:24:26,0.275s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1""), ""340"")",Chrome 114.0.0.0,,,2023-07-21 16:24:26,2023-07-21 16:24:28,1.325s,PASSED
+"sendKeys(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-21 16:24:28,2023-07-21 16:24:28,0.325s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-21 16:24:28,2023-07-21 16:24:30,2.010s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-21 16:24:30,2023-07-21 16:24:30,0.299s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1""), ""3203"")",Chrome 114.0.0.0,,,2023-07-21 16:24:30,2023-07-21 16:24:32,1.313s,PASSED
+"sendKeys(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-21 16:24:32,2023-07-21 16:24:32,0.319s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-21 16:24:32,2023-07-21 16:24:34,2.018s,PASSED
+refresh(),Chrome 114.0.0.0,,,2023-07-21 16:24:34,2023-07-21 16:24:34,0.301s,PASSED
+"setText(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1""), ""320"")",Chrome 114.0.0.0,,,2023-07-21 16:24:34,2023-07-21 16:24:36,1.299s,PASSED
+"sendKeys(findTestObject(""Object Repository/Customer Managementt/Searching Success/input_List of Customers_filterSearch_1""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-21 16:24:36,2023-07-21 16:24:36,0.324s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-21 16:24:36,2023-07-21 16:24:38,2.010s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-21 16:24:38,2023-07-21 16:24:39,0.677s,PASSED

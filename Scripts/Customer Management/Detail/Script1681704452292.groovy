@@ -29,11 +29,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Customer Managementt/De
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/span_Customer Management'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Customer Management'))
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Detail'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/h3_User Profile'))
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Alamat'))
 
@@ -43,9 +41,11 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Info
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Foto Identitas'))
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Customer Management'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Nasabah'))
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_3'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Customer Management (1)'))
+
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_24'))
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Detail_1'))
 
@@ -57,7 +57,7 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Info
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Foto Identitas'))
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Customer Management'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Customer Management (1)'))
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_5'))
 
@@ -71,29 +71,7 @@ WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Info
 
 WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Foto Identitas'))
 
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Customer Management'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_5'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_7'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_9'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_11'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_13'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_15'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Detail_1_2_3'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Alamat'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Pekerjaan'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Kontak'))
-
-WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Foto Identitas'))
+WebUI.click(findTestObject('Object Repository/Customer Managementt/Detail/a_Informasi Nasabah'))
 
 WebUI.closeBrowser()
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_3</name>
+   <name>a_Detail</name>
    <tag></tag>
-   <elementGuidId>f10f2fda-025e-42a7-9da0-87d7ede96c84</elementGuidId>
+   <elementGuidId>9e99a119-6f00-4750-9876-b9785b44a8bd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='pagination-demo']/li[4]/a</value>
+         <key>CSS</key>
+         <value>a.btn.btn-flat-info</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>li:nth-of-type(4) > a.page-link</value>
+         <key>XPATH</key>
+         <value>//table[@id='tbl-user-management']/tbody/tr/td[6]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,118 +22,118 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e8927cc0-0a48-4068-820a-0c9199e9da01</webElementGuid>
+      <webElementGuid>7a2af8a8-06f8-463e-870d-6b87b1998e82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#page-3</value>
-      <webElementGuid>7bb8a062-677e-403d-b862-490105482f7b</webElementGuid>
+      <value>https://uat-dashboard.blicicil.com/user-management/detail?token=61e285d56d9b006e7652b376</value>
+      <webElementGuid>0ce4e07b-1c07-40c2-b29c-c37ee5f730fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>page-link</value>
-      <webElementGuid>715bf2b9-b4a8-4576-8841-8d1ef1d145a4</webElementGuid>
+      <value>btn btn-flat-info</value>
+      <webElementGuid>4641ef17-d292-4b50-9368-0ee492493a9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>3</value>
-      <webElementGuid>53a6f554-0ff8-4727-91ca-f794781ef34a</webElementGuid>
+      <value>Detail</value>
+      <webElementGuid>1904dbd2-e971-4406-81e7-9905a563f2a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pagination-demo&quot;)/li[4]/a[@class=&quot;page-link&quot;]</value>
-      <webElementGuid>9d0259b3-9a9f-422f-b745-9bec9e45c4fe</webElementGuid>
+      <value>id(&quot;tbl-user-management&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[6]/a[@class=&quot;btn btn-flat-info&quot;]</value>
+      <webElementGuid>5c205605-44ea-499f-83ef-a4741fe1370f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='pagination-demo']/li[4]/a</value>
-      <webElementGuid>60b0dd93-1451-4912-9386-13e4dc6617b0</webElementGuid>
+      <value>//table[@id='tbl-user-management']/tbody/tr/td[6]/a</value>
+      <webElementGuid>78efba8d-b202-4623-862a-ebdc7c678f64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'3')]</value>
-      <webElementGuid>2f05d389-ff79-49f3-8047-7e1134cc6bf1</webElementGuid>
+      <value>//a[contains(text(),'Detail')]</value>
+      <webElementGuid>7b0ada86-95b4-4542-8a7b-6091a04da99c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prev'])[1]/following::a[2]</value>
-      <webElementGuid>14cb5191-6d4e-4de6-bed7-4284ce9b6933</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::a[1]</value>
+      <webElementGuid>e19c1652-4e64-4006-baa9-053f0ae12589</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 5 of 5 entries'])[1]/following::a[2]</value>
-      <webElementGuid>7d3d9b20-f43f-4409-92df-dbf6bf758e16</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::a[1]</value>
+      <webElementGuid>95334dca-0e2a-45c0-bb76-65fa6305614a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='…'])[1]/preceding::a[3]</value>
-      <webElementGuid>3f176976-f9f0-4c39-af3a-70119d97923f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clandy Febriana1'])[1]/preceding::a[1]</value>
+      <webElementGuid>cda217f1-cfec-4874-863a-dd12d52d4cf2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[5]</value>
-      <webElementGuid>000831b7-6db8-4919-99d3-703e21076352</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[2]/preceding::a[1]</value>
+      <webElementGuid>45532496-e651-4f50-b88c-6c971c05f834</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='3']/parent::*</value>
-      <webElementGuid>43b78ffe-4a44-4e72-baf7-5c99c5eddbf5</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Detail']/parent::*</value>
+      <webElementGuid>a02ec974-a342-4ae9-bf31-43cc4519a067</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#page-3')]</value>
-      <webElementGuid>efc0e838-dbad-4350-8bdd-193cacec01eb</webElementGuid>
+      <value>//a[contains(@href, 'https://uat-dashboard.blicicil.com/user-management/detail?token=61e285d56d9b006e7652b376')]</value>
+      <webElementGuid>57432d69-0e73-4f8b-b448-6ae2bb1bb755</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div[2]/div[3]/ul/li[4]/a</value>
-      <webElementGuid>165276d8-31c2-42a1-8e78-746ad8fa6bee</webElementGuid>
+      <value>//td[6]/a</value>
+      <webElementGuid>6d7987fd-073a-4481-8e47-87cb912e7690</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#page-3' and (text() = '3' or . = '3')]</value>
-      <webElementGuid>5c537d2e-e931-462a-8ac1-62332dfb8039</webElementGuid>
+      <value>//a[@href = 'https://uat-dashboard.blicicil.com/user-management/detail?token=61e285d56d9b006e7652b376' and (text() = 'Detail' or . = 'Detail')]</value>
+      <webElementGuid>0a194ff7-4c65-4c67-bc6c-2b5039b9df39</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
